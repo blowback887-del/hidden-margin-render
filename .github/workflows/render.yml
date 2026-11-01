@@ -1,0 +1,113 @@
+name: Render video
+
+on:
+  workflow_dispatch:
+    inputs:
+      composition:
+        description: "Composition id (e.g. Ep03-Airports)"
+        required: true
+        default: "Ep03-Airports"
+      chunks:
+        description: "Parallel chunks: auto (~1 per minute) or a number up to 20"
+        required: false
+        default: "auto"
+      crf:
+        description: "H.264 CRF (lower = better quality)"
+        required: false
+        default: "15"
+
+run-name: "Render ${{ inputs.composition }}"
+
+env:
+  COMP: ${{ inputs.composition }}
+  CRF: ${{ inputs.crf }}
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - id: plan
+        run: node cloud/plan.mjs "$COMP" "${{ inputs.chunks }}"
+
+  video:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    name: video ${{ matrix.i }} (${{ matrix.start }}-${{ matrix.end }})
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Render frames ${{ matrix.start }}-${{ matrix.end }}
+        run: >
+          npx remotion render src/index.ts "$COMP" "out/chunk-${{ matrix.i }}.mp4"
+          --frames=${{ matrix.start }}-${{ matrix.end }}
+          --muted --codec=h264 --crf="$CRF"
+          --concurrency=2 --gl=angle --log=info
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.i }}
+          path: out/chunk-${{ matrix.i }}.mp4
+          retention-days: 1
+          compression-level: 0
+
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Render full soundtrack
+        run: npx remotion render src/index.ts "$COMP" out/audio.wav --codec=wav --concurrency=2 --gl=angle
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio
+          path: out/audio.wav
+          retention-days: 1
+
+  merge:
+    needs: [video, audio]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - uses: actions/download-artifact@v4
+        with:
+          path: parts
+          merge-multiple: true
+      - name: Join chunks and add audio
+        run: |
+          mkdir -p final
+          ls parts/chunk-*.mp4 | sort | sed "s|^|file '$PWD/|; s|$|'|" > list.txt
+          cat list.txt
+          npx remotion ffmpeg -hide_banner -y -f concat -safe 0 -i list.txt -c copy video.mp4
+          npx remotion ffmpeg -hide_banner -y -i video.mp4 -i parts/audio.wav \
+            -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 320k -movflags +faststart \
+            "final/$COMP.mp4"
+          npx remotion ffprobe -hide_banner "final/$COMP.mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.composition }}
+          path: final/${{ inputs.composition }}.mp4
+          retention-days: 7
+          compression-level: 0

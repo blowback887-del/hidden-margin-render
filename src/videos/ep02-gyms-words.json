@@ -1,0 +1,6997 @@
+[
+{
+"word": "This",
+"start": 0,
+"end": 0.24
+},
+{
+"word": "little",
+"start": 0.32,
+"end": 0.48
+},
+{
+"word": "card",
+"start": 0.56,
+"end": 0.96
+},
+{
+"word": "costs",
+"start": 1.04,
+"end": 1.44
+},
+{
+"word": "fifteen",
+"start": 1.52,
+"end": 1.84
+},
+{
+"word": "dollars",
+"start": 2,
+"end": 2.24
+},
+{
+"word": "a",
+"start": 2.32,
+"end": 2.36
+},
+{
+"word": "month.",
+"start": 2.4,
+"end": 3
+},
+{
+"word": "And",
+"start": 3.2,
+"end": 3.28
+},
+{
+"word": "the",
+"start": 3.36,
+"end": 3.44
+},
+{
+"word": "company",
+"start": 3.6,
+"end": 3.76
+},
+{
+"word": "behind",
+"start": 3.84,
+"end": 4.16
+},
+{
+"word": "it",
+"start": 4.24,
+"end": 4.4
+},
+{
+"word": "is",
+"start": 4.48,
+"end": 4.64
+},
+{
+"word": "betting",
+"start": 4.72,
+"end": 4.96
+},
+{
+"word": "you'll",
+"start": 5.04,
+"end": 5.28
+},
+{
+"word": "never",
+"start": 5.36,
+"end": 5.6
+},
+{
+"word": "use",
+"start": 5.68,
+"end": 5.84
+},
+{
+"word": "it.",
+"start": 5.92,
+"end": 6.16
+},
+{
+"word": "Planet",
+"start": 6.8,
+"end": 7.12
+},
+{
+"word": "Fitness",
+"start": 7.2,
+"end": 7.6
+},
+{
+"word": "has",
+"start": 7.68,
+"end": 7.76
+},
+{
+"word": "around",
+"start": 7.96,
+"end": 8.16
+},
+{
+"word": "seven",
+"start": 8.24,
+"end": 8.4
+},
+{
+"word": "thousand",
+"start": 8.64,
+"end": 8.96
+},
+{
+"word": "members",
+"start": 9.04,
+"end": 9.44
+},
+{
+"word": "for",
+"start": 9.52,
+"end": 9.6
+},
+{
+"word": "every",
+"start": 9.68,
+"end": 9.92
+},
+{
+"word": "club.",
+"start": 10,
+"end": 10.64
+},
+{
+"word": "A",
+"start": 10.88,
+"end": 10.96
+},
+{
+"word": "typical",
+"start": 11.04,
+"end": 11.36
+},
+{
+"word": "club",
+"start": 11.44,
+"end": 11.68
+},
+{
+"word": "was",
+"start": 11.8,
+"end": 11.92
+},
+{
+"word": "built",
+"start": 12.04,
+"end": 12.16
+},
+{
+"word": "for",
+"start": 12.24,
+"end": 12.32
+},
+{
+"word": "roughly",
+"start": 12.44,
+"end": 12.72
+},
+{
+"word": "three",
+"start": 12.84,
+"end": 12.96
+},
+{
+"word": "hundred",
+"start": 13.04,
+"end": 13.2
+},
+{
+"word": "people",
+"start": 13.36,
+"end": 13.6
+},
+{
+"word": "at",
+"start": 13.68,
+"end": 13.76
+},
+{
+"word": "a",
+"start": 13.8,
+"end": 13.84
+},
+{
+"word": "time.",
+"start": 13.92,
+"end": 14.64
+},
+{
+"word": "That's",
+"start": 15.76,
+"end": 16.04
+},
+{
+"word": "not",
+"start": 16.08,
+"end": 16.213
+},
+{
+"word": "a",
+"start": 16.24,
+"end": 16.28
+},
+{
+"word": "mistake.",
+"start": 16.32,
+"end": 17.16
+},
+{
+"word": "That's",
+"start": 17.36,
+"end": 17.6
+},
+{
+"word": "the",
+"start": 17.64,
+"end": 17.68
+},
+{
+"word": "business.",
+"start": 17.76,
+"end": 18.6
+},
+{
+"word": "Today",
+"start": 18.88,
+"end": 19.28
+},
+{
+"word": "we",
+"start": 19.4,
+"end": 19.52
+},
+{
+"word": "climb",
+"start": 19.56,
+"end": 19.84
+},
+{
+"word": "the",
+"start": 19.88,
+"end": 19.92
+},
+{
+"word": "gym",
+"start": 20.0,
+"end": 20.16
+},
+{
+"word": "ladder,",
+"start": 20.24,
+"end": 20.88
+},
+{
+"word": "from",
+"start": 21.0,
+"end": 21.12
+},
+{
+"word": "fifteen",
+"start": 21.16,
+"end": 21.44
+},
+{
+"word": "dollars",
+"start": 21.6,
+"end": 21.84
+},
+{
+"word": "a",
+"start": 21.88,
+"end": 21.92
+},
+{
+"word": "month",
+"start": 22.0,
+"end": 22.24
+},
+{
+"word": "to",
+"start": 22.4,
+"end": 22.56
+},
+{
+"word": "four",
+"start": 22.64,
+"end": 22.72
+},
+{
+"word": "hundred.",
+"start": 22.8,
+"end": 23.76
+},
+{
+"word": "Every",
+"start": 23.84,
+"end": 24.08
+},
+{
+"word": "level",
+"start": 24.16,
+"end": 24.48
+},
+{
+"word": "makes",
+"start": 24.6,
+"end": 24.72
+},
+{
+"word": "money",
+"start": 24.8,
+"end": 25.04
+},
+{
+"word": "in",
+"start": 25.12,
+"end": 25.2
+},
+{
+"word": "a",
+"start": 25.28,
+"end": 25.32
+},
+{
+"word": "completely",
+"start": 25.36,
+"end": 25.92
+},
+{
+"word": "different",
+"start": 26.0,
+"end": 26.24
+},
+{
+"word": "way.",
+"start": 26.32,
+"end": 27.2
+},
+{
+"word": "And",
+"start": 27.28,
+"end": 27.36
+},
+{
+"word": "at",
+"start": 27.4,
+"end": 27.44
+},
+{
+"word": "the",
+"start": 27.52,
+"end": 27.6
+},
+{
+"word": "top",
+"start": 27.68,
+"end": 27.92
+},
+{
+"word": "there's",
+"start": 28.08,
+"end": 28.24
+},
+{
+"word": "a",
+"start": 28.32,
+"end": 28.4
+},
+{
+"word": "twist:",
+"start": 28.48,
+"end": 29.36
+},
+{
+"word": "the",
+"start": 29.44,
+"end": 29.52
+},
+{
+"word": "most",
+"start": 29.64,
+"end": 29.76
+},
+{
+"word": "profitable",
+"start": 29.84,
+"end": 30.4
+},
+{
+"word": "part",
+"start": 30.52,
+"end": 30.64
+},
+{
+"word": "of",
+"start": 30.72,
+"end": 30.76
+},
+{
+"word": "America's",
+"start": 30.8,
+"end": 31.36
+},
+{
+"word": "biggest",
+"start": 31.44,
+"end": 31.76
+},
+{
+"word": "gym",
+"start": 31.8,
+"end": 31.92
+},
+{
+"word": "chain",
+"start": 32.08,
+"end": 32.56
+},
+{
+"word": "isn't",
+"start": 32.64,
+"end": 32.88
+},
+{
+"word": "a",
+"start": 32.96,
+"end": 33.04
+},
+{
+"word": "gym",
+"start": 33.08,
+"end": 33.28
+},
+{
+"word": "at",
+"start": 33.36,
+"end": 33.44
+},
+{
+"word": "all.",
+"start": 33.6,
+"end": 34.28
+},
+{
+"word": "Level",
+"start": 34.8,
+"end": 35.04
+},
+{
+"word": "one.",
+"start": 35.2,
+"end": 35.92
+},
+{
+"word": "The",
+"start": 36.0,
+"end": 36.08
+},
+{
+"word": "fifteen-dollar",
+"start": 36.16,
+"end": 36.88
+},
+{
+"word": "gym.",
+"start": 36.96,
+"end": 38.08
+},
+{
+"word": "Planet",
+"start": 38.16,
+"end": 38.48
+},
+{
+"word": "Fitness",
+"start": 38.56,
+"end": 38.96
+},
+{
+"word": "ended",
+"start": 39.04,
+"end": 39.36
+},
+{
+"word": "2025",
+"start": 39.44,
+"end": 39.68
+},
+{
+"word": "with",
+"start": 39.76,
+"end": 40.72
+},
+{
+"word": "about",
+"start": 40.88,
+"end": 41.04
+},
+{
+"word": "twenty",
+"start": 41.12,
+"end": 41.36
+},
+{
+"word": "point",
+"start": 41.44,
+"end": 41.68
+},
+{
+"word": "eight",
+"start": 41.76,
+"end": 41.84
+},
+{
+"word": "million",
+"start": 42.08,
+"end": 42.4
+},
+{
+"word": "members",
+"start": 42.48,
+"end": 43.04
+},
+{
+"word": "in",
+"start": 43.12,
+"end": 43.28
+},
+{
+"word": "two",
+"start": 43.32,
+"end": 43.36
+},
+{
+"word": "thousand",
+"start": 43.52,
+"end": 43.92
+},
+{
+"word": "eight",
+"start": 44.0,
+"end": 44.08
+},
+{
+"word": "hundred",
+"start": 44.16,
+"end": 44.4
+},
+{
+"word": "and",
+"start": 44.48,
+"end": 44.56
+},
+{
+"word": "ninety-six",
+"start": 44.6,
+"end": 45.12
+},
+{
+"word": "clubs.",
+"start": 45.28,
+"end": 46.32
+},
+{
+"word": "Do",
+"start": 46.4,
+"end": 46.48
+},
+{
+"word": "the",
+"start": 46.56,
+"end": 46.6
+},
+{
+"word": "division,",
+"start": 46.64,
+"end": 47.36
+},
+{
+"word": "and",
+"start": 47.4,
+"end": 47.44
+},
+{
+"word": "that's",
+"start": 47.52,
+"end": 47.76
+},
+{
+"word": "roughly",
+"start": 47.88,
+"end": 48.24
+},
+{
+"word": "seven",
+"start": 48.36,
+"end": 48.48
+},
+{
+"word": "thousand",
+"start": 48.56,
+"end": 49.04
+},
+{
+"word": "one",
+"start": 49.12,
+"end": 49.2
+},
+{
+"word": "hundred",
+"start": 49.28,
+"end": 49.52
+},
+{
+"word": "members",
+"start": 49.6,
+"end": 50.08
+},
+{
+"word": "for",
+"start": 50.16,
+"end": 50.32
+},
+{
+"word": "every",
+"start": 50.4,
+"end": 50.64
+},
+{
+"word": "single",
+"start": 50.72,
+"end": 50.96
+},
+{
+"word": "club.",
+"start": 51.04,
+"end": 52.0
+},
+{
+"word": "Now",
+"start": 52.08,
+"end": 52.4
+},
+{
+"word": "imagine",
+"start": 52.48,
+"end": 52.88
+},
+{
+"word": "all",
+"start": 52.96,
+"end": 53.12
+},
+{
+"word": "of",
+"start": 53.2,
+"end": 53.28
+},
+{
+"word": "them",
+"start": 53.36,
+"end": 53.44
+},
+{
+"word": "showing",
+"start": 53.52,
+"end": 53.84
+},
+{
+"word": "up",
+"start": 53.92,
+"end": 54.0
+},
+{
+"word": "on",
+"start": 54.04,
+"end": 54.08
+},
+{
+"word": "a",
+"start": 54.16,
+"end": 54.24
+},
+{
+"word": "Monday",
+"start": 54.48,
+"end": 54.72
+},
+{
+"word": "at",
+"start": 54.8,
+"end": 54.88
+},
+{
+"word": "six",
+"start": 54.96,
+"end": 55.12
+},
+{
+"word": "p.m.",
+"start": 55.2,
+"end": 55.6
+},
+{
+"word": "You",
+"start": 56.24,
+"end": 56.32
+},
+{
+"word": "can't.",
+"start": 56.4,
+"end": 57.04
+},
+{
+"word": "And",
+"start": 57.28,
+"end": 57.44
+},
+{
+"word": "neither",
+"start": 57.52,
+"end": 57.76
+},
+{
+"word": "can",
+"start": 57.84,
+"end": 57.92
+},
+{
+"word": "the",
+"start": 58.0,
+"end": 58.04
+},
+{
+"word": "gym.",
+"start": 58.08,
+"end": 58.76
+},
+{
+"word": "So",
+"start": 59.04,
+"end": 59.28
+},
+{
+"word": "here's",
+"start": 59.44,
+"end": 59.68
+},
+{
+"word": "the",
+"start": 59.72,
+"end": 59.76
+},
+{
+"word": "company's",
+"start": 59.84,
+"end": 60.32
+},
+{
+"word": "own",
+"start": 60.4,
+"end": 60.56
+},
+{
+"word": "number.",
+"start": 60.64,
+"end": 61.36
+},
+{
+"word": "Last",
+"start": 61.68,
+"end": 62.0
+},
+{
+"word": "year",
+"start": 62.08,
+"end": 62.32
+},
+{
+"word": "its",
+"start": 62.4,
+"end": 62.56
+},
+{
+"word": "members",
+"start": 62.64,
+"end": 62.96
+},
+{
+"word": "logged",
+"start": 63.04,
+"end": 63.28
+},
+{
+"word": "about",
+"start": 63.44,
+"end": 63.6
+},
+{
+"word": "six",
+"start": 63.68,
+"end": 63.84
+},
+{
+"word": "hundred",
+"start": 63.92,
+"end": 64.16
+},
+{
+"word": "and",
+"start": 64.28,
+"end": 64.4
+},
+{
+"word": "fifty",
+"start": 64.48,
+"end": 64.64
+},
+{
+"word": "million",
+"start": 64.88,
+"end": 65.2
+},
+{
+"word": "workouts.",
+"start": 65.28,
+"end": 66.2
+},
+{
+"word": "Divide",
+"start": 66.48,
+"end": 66.88
+},
+{
+"word": "that",
+"start": 66.96,
+"end": 67.12
+},
+{
+"word": "by",
+"start": 67.2,
+"end": 67.28
+},
+{
+"word": "twenty",
+"start": 67.44,
+"end": 67.68
+},
+{
+"word": "point",
+"start": 67.76,
+"end": 68.0
+},
+{
+"word": "eight",
+"start": 68.08,
+"end": 68.16
+},
+{
+"word": "million",
+"start": 68.32,
+"end": 68.56
+},
+{
+"word": "members,",
+"start": 68.64,
+"end": 69.36
+},
+{
+"word": "and",
+"start": 69.4,
+"end": 69.44
+},
+{
+"word": "you",
+"start": 69.52,
+"end": 69.6
+},
+{
+"word": "get",
+"start": 69.68,
+"end": 69.76
+},
+{
+"word": "around",
+"start": 69.84,
+"end": 70.16
+},
+{
+"word": "thirty-one",
+"start": 70.24,
+"end": 70.72
+},
+{
+"word": "visits",
+"start": 70.88,
+"end": 71.2
+},
+{
+"word": "a",
+"start": 71.24,
+"end": 71.28
+},
+{
+"word": "year.",
+"start": 71.36,
+"end": 71.92
+},
+{
+"word": "About",
+"start": 72.16,
+"end": 72.48
+},
+{
+"word": "once",
+"start": 72.56,
+"end": 72.8
+},
+{
+"word": "every",
+"start": 72.96,
+"end": 73.12
+},
+{
+"word": "twelve",
+"start": 73.2,
+"end": 73.44
+},
+{
+"word": "days.",
+"start": 73.6,
+"end": 74.32
+},
+{
+"word": "And",
+"start": 75.44,
+"end": 75.6
+},
+{
+"word": "that",
+"start": 75.72,
+"end": 75.84
+},
+{
+"word": "average",
+"start": 76.08,
+"end": 76.32
+},
+{
+"word": "includes",
+"start": 76.56,
+"end": 76.8
+},
+{
+"word": "the",
+"start": 76.88,
+"end": 76.96
+},
+{
+"word": "regulars",
+"start": 77.2,
+"end": 77.52
+},
+{
+"word": "who",
+"start": 77.6,
+"end": 77.68
+},
+{
+"word": "come",
+"start": 77.8,
+"end": 77.92
+},
+{
+"word": "five",
+"start": 78.0,
+"end": 78.24
+},
+{
+"word": "times",
+"start": 78.36,
+"end": 78.48
+},
+{
+"word": "a",
+"start": 78.56,
+"end": 78.64
+},
+{
+"word": "week.",
+"start": 78.8,
+"end": 79.44
+},
+{
+"word": "Which",
+"start": 79.56,
+"end": 79.68
+},
+{
+"word": "means",
+"start": 79.84,
+"end": 80.0
+},
+{
+"word": "a",
+"start": 80.04,
+"end": 80.08
+},
+{
+"word": "lot",
+"start": 80.24,
+"end": 80.4
+},
+{
+"word": "of",
+"start": 80.44,
+"end": 80.48
+},
+{
+"word": "members",
+"start": 80.56,
+"end": 80.96
+},
+{
+"word": "barely",
+"start": 81.08,
+"end": 81.36
+},
+{
+"word": "come",
+"start": 81.44,
+"end": 81.52
+},
+{
+"word": "at",
+"start": 81.56,
+"end": 81.6
+},
+{
+"word": "all.",
+"start": 81.68,
+"end": 82.48
+},
+{
+"word": "For",
+"start": 82.56,
+"end": 82.64
+},
+{
+"word": "the",
+"start": 82.68,
+"end": 82.72
+},
+{
+"word": "gym,",
+"start": 82.8,
+"end": 83.36
+},
+{
+"word": "that's",
+"start": 83.44,
+"end": 83.68
+},
+{
+"word": "perfect.",
+"start": 83.96,
+"end": 84.72
+},
+{
+"word": "A",
+"start": 84.8,
+"end": 84.88
+},
+{
+"word": "member",
+"start": 85.0,
+"end": 85.12
+},
+{
+"word": "who",
+"start": 85.2,
+"end": 85.36
+},
+{
+"word": "stays",
+"start": 85.4,
+"end": 85.68
+},
+{
+"word": "home",
+"start": 85.84,
+"end": 86.0
+},
+{
+"word": "costs",
+"start": 86.08,
+"end": 86.48
+},
+{
+"word": "almost",
+"start": 86.68,
+"end": 86.88
+},
+{
+"word": "nothing.",
+"start": 87.08,
+"end": 87.68
+},
+{
+"word": "No",
+"start": 87.76,
+"end": 87.92
+},
+{
+"word": "sweat",
+"start": 88.0,
+"end": 88.24
+},
+{
+"word": "on",
+"start": 88.32,
+"end": 88.4
+},
+{
+"word": "the",
+"start": 88.427,
+"end": 88.453
+},
+{
+"word": "machines.",
+"start": 88.48,
+"end": 89.28
+},
+{
+"word": "No",
+"start": 89.36,
+"end": 89.44
+},
+{
+"word": "towels.",
+"start": 89.52,
+"end": 90.24
+},
+{
+"word": "No",
+"start": 90.32,
+"end": 90.4
+},
+{
+"word": "crowded",
+"start": 90.48,
+"end": 90.88
+},
+{
+"word": "floor.",
+"start": 90.96,
+"end": 91.68
+},
+{
+"word": "Just",
+"start": 91.76,
+"end": 92.0
+},
+{
+"word": "fifteen",
+"start": 92.04,
+"end": 92.4
+},
+{
+"word": "dollars,",
+"start": 92.48,
+"end": 93.12
+},
+{
+"word": "every",
+"start": 93.24,
+"end": 93.36
+},
+{
+"word": "month,",
+"start": 93.44,
+"end": 93.92
+},
+{
+"word": "on",
+"start": 94.0,
+"end": 94.08
+},
+{
+"word": "autopilot.",
+"start": 94.16,
+"end": 95.24
+},
+{
+"word": "But",
+"start": 95.6,
+"end": 95.76
+},
+{
+"word": "fifteen",
+"start": 95.84,
+"end": 96.16
+},
+{
+"word": "dollars",
+"start": 96.32,
+"end": 96.72
+},
+{
+"word": "is",
+"start": 96.8,
+"end": 96.96
+},
+{
+"word": "only",
+"start": 97.04,
+"end": 97.2
+},
+{
+"word": "the",
+"start": 97.28,
+"end": 97.36
+},
+{
+"word": "bait.",
+"start": 97.44,
+"end": 98.32
+},
+{
+"word": "Every",
+"start": 98.44,
+"end": 98.56
+},
+{
+"word": "membership",
+"start": 98.64,
+"end": 99.2
+},
+{
+"word": "also",
+"start": 99.28,
+"end": 99.52
+},
+{
+"word": "carries",
+"start": 99.6,
+"end": 100.0
+},
+{
+"word": "a",
+"start": 100.08,
+"end": 100.16
+},
+{
+"word": "forty-nine-dollar",
+"start": 100.28,
+"end": 101.04
+},
+{
+"word": "annual",
+"start": 101.2,
+"end": 101.52
+},
+{
+"word": "fee,",
+"start": 101.68,
+"end": 102.24
+},
+{
+"word": "charged",
+"start": 102.32,
+"end": 102.72
+},
+{
+"word": "automatically",
+"start": 102.8,
+"end": 103.52
+},
+{
+"word": "once",
+"start": 103.6,
+"end": 103.76
+},
+{
+"word": "a",
+"start": 103.84,
+"end": 103.92
+},
+{
+"word": "year.",
+"start": 104.0,
+"end": 104.88
+},
+{
+"word": "Then",
+"start": 105.04,
+"end": 105.2
+},
+{
+"word": "comes",
+"start": 105.28,
+"end": 105.52
+},
+{
+"word": "the",
+"start": 105.56,
+"end": 105.6
+},
+{
+"word": "upgrade:",
+"start": 105.68,
+"end": 106.64
+},
+{
+"word": "the",
+"start": 106.72,
+"end": 106.8
+},
+{
+"word": "Black",
+"start": 106.92,
+"end": 107.04
+},
+{
+"word": "Card,",
+"start": 107.2,
+"end": 107.84
+},
+{
+"word": "roughly",
+"start": 107.96,
+"end": 108.24
+},
+{
+"word": "twenty-five",
+"start": 108.32,
+"end": 108.8
+},
+{
+"word": "dollars",
+"start": 108.88,
+"end": 109.12
+},
+{
+"word": "a",
+"start": 109.2,
+"end": 109.24
+},
+{
+"word": "month.",
+"start": 109.28,
+"end": 109.68
+},
+{
+"word": "Any",
+"start": 110.16,
+"end": 110.32
+},
+{
+"word": "club,",
+"start": 110.4,
+"end": 111.04
+},
+{
+"word": "a",
+"start": 111.08,
+"end": 111.12
+},
+{
+"word": "guest,",
+"start": 111.2,
+"end": 111.84
+},
+{
+"word": "the",
+"start": 111.88,
+"end": 111.92
+},
+{
+"word": "massage",
+"start": 112.0,
+"end": 112.4
+},
+{
+"word": "chairs.",
+"start": 112.48,
+"end": 112.96
+},
+{
+"word": "By",
+"start": 113.44,
+"end": 113.6
+},
+{
+"word": "mid-2025,",
+"start": 113.68,
+"end": 115.2
+},
+{
+"word": "sixty-five",
+"start": 115.28,
+"end": 115.84
+},
+{
+"word": "point",
+"start": 116.0,
+"end": 116.24
+},
+{
+"word": "eight",
+"start": 116.28,
+"end": 116.32
+},
+{
+"word": "percent",
+"start": 116.48,
+"end": 116.8
+},
+{
+"word": "of",
+"start": 116.88,
+"end": 116.96
+},
+{
+"word": "members",
+"start": 117.04,
+"end": 117.36
+},
+{
+"word": "had",
+"start": 117.44,
+"end": 117.6
+},
+{
+"word": "it.",
+"start": 117.68,
+"end": 118.16
+},
+{
+"word": "Almost",
+"start": 118.24,
+"end": 118.64
+},
+{
+"word": "two",
+"start": 118.76,
+"end": 118.88
+},
+{
+"word": "out",
+"start": 119.04,
+"end": 119.2
+},
+{
+"word": "of",
+"start": 119.24,
+"end": 119.28
+},
+{
+"word": "three.",
+"start": 119.36,
+"end": 120.08
+},
+{
+"word": "So",
+"start": 120.4,
+"end": 120.64
+},
+{
+"word": "the",
+"start": 120.8,
+"end": 120.84
+},
+{
+"word": "fifteen-dollar",
+"start": 120.88,
+"end": 121.6
+},
+{
+"word": "gym",
+"start": 121.68,
+"end": 121.92
+},
+{
+"word": "isn't",
+"start": 122.16,
+"end": 122.4
+},
+{
+"word": "really",
+"start": 122.48,
+"end": 122.8
+},
+{
+"word": "a",
+"start": 122.84,
+"end": 122.88
+},
+{
+"word": "fifteen-dollar",
+"start": 122.96,
+"end": 123.6
+},
+{
+"word": "gym.",
+"start": 123.68,
+"end": 124.08
+},
+{
+"word": "For",
+"start": 124.56,
+"end": 124.72
+},
+{
+"word": "most",
+"start": 124.84,
+"end": 124.96
+},
+{
+"word": "members,",
+"start": 125.04,
+"end": 125.6
+},
+{
+"word": "it's",
+"start": 125.64,
+"end": 125.76
+},
+{
+"word": "a",
+"start": 125.8,
+"end": 125.84
+},
+{
+"word": "twenty-five-dollar",
+"start": 125.92,
+"end": 126.8
+},
+{
+"word": "gym",
+"start": 126.88,
+"end": 127.12
+},
+{
+"word": "with",
+"start": 127.28,
+"end": 127.44
+},
+{
+"word": "a",
+"start": 127.48,
+"end": 127.52
+},
+{
+"word": "forty-nine-dollar",
+"start": 127.6,
+"end": 128.4
+},
+{
+"word": "surprise.",
+"start": 128.48,
+"end": 129.2
+},
+{
+"word": "The",
+"start": 129.68,
+"end": 129.76
+},
+{
+"word": "trap",
+"start": 129.84,
+"end": 130.08
+},
+{
+"word": "at",
+"start": 130.16,
+"end": 130.24
+},
+{
+"word": "level",
+"start": 130.36,
+"end": 130.48
+},
+{
+"word": "one",
+"start": 130.64,
+"end": 130.88
+},
+{
+"word": "isn't",
+"start": 130.96,
+"end": 131.2
+},
+{
+"word": "the",
+"start": 131.24,
+"end": 131.28
+},
+{
+"word": "price.",
+"start": 131.36,
+"end": 132.04
+},
+{
+"word": "The",
+"start": 132.24,
+"end": 132.32
+},
+{
+"word": "trap",
+"start": 132.4,
+"end": 132.72
+},
+{
+"word": "is",
+"start": 132.8,
+"end": 132.88
+},
+{
+"word": "believing",
+"start": 132.96,
+"end": 133.36
+},
+{
+"word": "you'll",
+"start": 133.4,
+"end": 133.6
+},
+{
+"word": "go.",
+"start": 133.68,
+"end": 134.32
+},
+{
+"word": "But",
+"start": 134.64,
+"end": 134.72
+},
+{
+"word": "here's",
+"start": 134.8,
+"end": 135.04
+},
+{
+"word": "where",
+"start": 135.12,
+"end": 135.2
+},
+{
+"word": "it",
+"start": 135.24,
+"end": 135.28
+},
+{
+"word": "gets",
+"start": 135.36,
+"end": 135.52
+},
+{
+"word": "weird.",
+"start": 135.68,
+"end": 136.08
+},
+{
+"word": "The",
+"start": 136.56,
+"end": 136.64
+},
+{
+"word": "cheap",
+"start": 136.72,
+"end": 136.96
+},
+{
+"word": "gym",
+"start": 137.04,
+"end": 137.28
+},
+{
+"word": "wants",
+"start": 137.36,
+"end": 137.6
+},
+{
+"word": "you",
+"start": 137.68,
+"end": 137.72
+},
+{
+"word": "to",
+"start": 137.76,
+"end": 137.84
+},
+{
+"word": "stay",
+"start": 137.92,
+"end": 138.08
+},
+{
+"word": "home.",
+"start": 138.16,
+"end": 138.8
+},
+{
+"word": "The",
+"start": 139.04,
+"end": 139.12
+},
+{
+"word": "next",
+"start": 139.2,
+"end": 139.44
+},
+{
+"word": "gym",
+"start": 139.52,
+"end": 139.68
+},
+{
+"word": "up",
+"start": 139.76,
+"end": 139.92
+},
+{
+"word": "wants",
+"start": 140.08,
+"end": 140.24
+},
+{
+"word": "something",
+"start": 140.32,
+"end": 140.56
+},
+{
+"word": "else.",
+"start": 140.64,
+"end": 141.04
+},
+{
+"word": "It",
+"start": 141.44,
+"end": 141.6
+},
+{
+"word": "wants",
+"start": 141.68,
+"end": 141.84
+},
+{
+"word": "you",
+"start": 141.92,
+"end": 142.0
+},
+{
+"word": "to",
+"start": 142.08,
+"end": 142.16
+},
+{
+"word": "never",
+"start": 142.32,
+"end": 142.48
+},
+{
+"word": "leave.",
+"start": 142.64,
+"end": 143.52
+},
+{
+"word": "Level",
+"start": 144.0,
+"end": 144.24
+},
+{
+"word": "two.",
+"start": 144.4,
+"end": 144.8
+},
+{
+"word": "The",
+"start": 145.2,
+"end": 145.28
+},
+{
+"word": "full-service",
+"start": 145.44,
+"end": 146.08
+},
+{
+"word": "gym.",
+"start": 146.16,
+"end": 146.56
+},
+{
+"word": "Pools,",
+"start": 147.04,
+"end": 147.68
+},
+{
+"word": "classes,",
+"start": 147.76,
+"end": 148.48
+},
+{
+"word": "courts,",
+"start": 148.56,
+"end": 149.2
+},
+{
+"word": "and",
+"start": 149.24,
+"end": 149.28
+},
+{
+"word": "a",
+"start": 149.36,
+"end": 149.4
+},
+{
+"word": "monthly",
+"start": 149.44,
+"end": 149.76
+},
+{
+"word": "bill",
+"start": 149.92,
+"end": 150.16
+},
+{
+"word": "several",
+"start": 150.32,
+"end": 150.64
+},
+{
+"word": "times",
+"start": 150.72,
+"end": 150.96
+},
+{
+"word": "higher.",
+"start": 151.04,
+"end": 151.8
+},
+{
+"word": "In",
+"start": 152.16,
+"end": 152.24
+},
+{
+"word": "2006,",
+"start": 152.32,
+"end": 153.6
+},
+{
+"word": "two",
+"start": 153.68,
+"end": 153.76
+},
+{
+"word": "economists,",
+"start": 153.84,
+"end": 154.8
+},
+{
+"word": "Stefano",
+"start": 154.88,
+"end": 155.36
+},
+{
+"word": "DellaVigna",
+"start": 155.44,
+"end": 156.08
+},
+{
+"word": "at",
+"start": 156.16,
+"end": 156.24
+},
+{
+"word": "Berkeley",
+"start": 156.32,
+"end": 156.8
+},
+{
+"word": "and",
+"start": 157.04,
+"end": 157.2
+},
+{
+"word": "Ulrike",
+"start": 157.32,
+"end": 157.68
+},
+{
+"word": "Malmendier",
+"start": 157.76,
+"end": 158.4
+},
+{
+"word": "at",
+"start": 158.48,
+"end": 158.56
+},
+{
+"word": "Stanford,",
+"start": 158.64,
+"end": 159.44
+},
+{
+"word": "got",
+"start": 159.52,
+"end": 159.68
+},
+{
+"word": "hold",
+"start": 159.76,
+"end": 159.92
+},
+{
+"word": "of",
+"start": 160.0,
+"end": 160.16
+},
+{
+"word": "three",
+"start": 160.28,
+"end": 160.4
+},
+{
+"word": "years",
+"start": 160.48,
+"end": 160.8
+},
+{
+"word": "of",
+"start": 160.84,
+"end": 160.88
+},
+{
+"word": "swipe-card",
+"start": 160.96,
+"end": 161.52
+},
+{
+"word": "records",
+"start": 161.6,
+"end": 162.08
+},
+{
+"word": "from",
+"start": 162.24,
+"end": 162.4
+},
+{
+"word": "three",
+"start": 162.48,
+"end": 162.72
+},
+{
+"word": "American",
+"start": 162.96,
+"end": 163.2
+},
+{
+"word": "health",
+"start": 163.28,
+"end": 163.44
+},
+{
+"word": "clubs.",
+"start": 163.52,
+"end": 163.92
+},
+{
+"word": "Seven",
+"start": 164.56,
+"end": 164.72
+},
+{
+"word": "thousand",
+"start": 164.88,
+"end": 165.2
+},
+{
+"word": "seven",
+"start": 165.44,
+"end": 165.68
+},
+{
+"word": "hundred",
+"start": 165.76,
+"end": 165.92
+},
+{
+"word": "and",
+"start": 166.0,
+"end": 166.16
+},
+{
+"word": "fifty-two",
+"start": 166.24,
+"end": 166.64
+},
+{
+"word": "members.",
+"start": 166.72,
+"end": 167.28
+},
+{
+"word": "The",
+"start": 167.84,
+"end": 167.92
+},
+{
+"word": "members",
+"start": 168.08,
+"end": 168.24
+},
+{
+"word": "on",
+"start": 168.32,
+"end": 168.4
+},
+{
+"word": "monthly",
+"start": 168.48,
+"end": 168.8
+},
+{
+"word": "plans",
+"start": 168.88,
+"end": 169.28
+},
+{
+"word": "paid",
+"start": 169.44,
+"end": 169.6
+},
+{
+"word": "more",
+"start": 169.68,
+"end": 169.76
+},
+{
+"word": "than",
+"start": 169.84,
+"end": 170.0
+},
+{
+"word": "seventy",
+"start": 170.08,
+"end": 170.44
+},
+{
+"word": "dollars",
+"start": 170.48,
+"end": 170.72
+},
+{
+"word": "a",
+"start": 170.8,
+"end": 170.84
+},
+{
+"word": "month.",
+"start": 170.88,
+"end": 171.56
+},
+{
+"word": "They",
+"start": 171.84,
+"end": 172.0
+},
+{
+"word": "came,",
+"start": 172.16,
+"end": 172.4
+},
+{
+"word": "on",
+"start": 172.48,
+"end": 172.56
+},
+{
+"word": "average,",
+"start": 172.76,
+"end": 173.2
+},
+{
+"word": "four",
+"start": 173.28,
+"end": 173.36
+},
+{
+"word": "point",
+"start": 173.44,
+"end": 173.6
+},
+{
+"word": "three",
+"start": 173.76,
+"end": 173.92
+},
+{
+"word": "times",
+"start": 174.08,
+"end": 174.32
+},
+{
+"word": "a",
+"start": 174.4,
+"end": 174.44
+},
+{
+"word": "month.",
+"start": 174.48,
+"end": 175.08
+},
+{
+"word": "That's",
+"start": 175.36,
+"end": 175.6
+},
+{
+"word": "over",
+"start": 175.72,
+"end": 175.84
+},
+{
+"word": "seventeen",
+"start": 175.92,
+"end": 176.32
+},
+{
+"word": "dollars",
+"start": 176.48,
+"end": 176.72
+},
+{
+"word": "per",
+"start": 176.8,
+"end": 176.96
+},
+{
+"word": "visit,",
+"start": 177.04,
+"end": 177.68
+},
+{
+"word": "at",
+"start": 177.76,
+"end": 177.84
+},
+{
+"word": "clubs",
+"start": 177.92,
+"end": 178.24
+},
+{
+"word": "that",
+"start": 178.32,
+"end": 178.4
+},
+{
+"word": "sold",
+"start": 178.48,
+"end": 178.72
+},
+{
+"word": "a",
+"start": 178.8,
+"end": 178.88
+},
+{
+"word": "ten-visit",
+"start": 179.0,
+"end": 179.44
+},
+{
+"word": "pass",
+"start": 179.52,
+"end": 179.84
+},
+{
+"word": "for",
+"start": 180.0,
+"end": 180.16
+},
+{
+"word": "ten",
+"start": 180.24,
+"end": 180.4
+},
+{
+"word": "dollars",
+"start": 180.48,
+"end": 180.72
+},
+{
+"word": "a",
+"start": 180.76,
+"end": 180.8
+},
+{
+"word": "visit.",
+"start": 180.88,
+"end": 181.52
+},
+{
+"word": "On",
+"start": 182.64,
+"end": 182.8
+},
+{
+"word": "average,",
+"start": 183.04,
+"end": 183.44
+},
+{
+"word": "those",
+"start": 183.52,
+"end": 183.68
+},
+{
+"word": "members",
+"start": 183.76,
+"end": 184.16
+},
+{
+"word": "gave",
+"start": 184.2,
+"end": 184.32
+},
+{
+"word": "up",
+"start": 184.4,
+"end": 184.56
+},
+{
+"word": "about",
+"start": 184.72,
+"end": 184.88
+},
+{
+"word": "six",
+"start": 185.04,
+"end": 185.2
+},
+{
+"word": "hundred",
+"start": 185.28,
+"end": 185.52
+},
+{
+"word": "dollars.",
+"start": 185.6,
+"end": 186.16
+},
+{
+"word": "The",
+"start": 186.64,
+"end": 186.72
+},
+{
+"word": "economists",
+"start": 186.8,
+"end": 187.44
+},
+{
+"word": "named",
+"start": 187.52,
+"end": 187.76
+},
+{
+"word": "their",
+"start": 187.84,
+"end": 187.92
+},
+{
+"word": "paper",
+"start": 188.0,
+"end": 188.32
+},
+{
+"word": "perfectly:",
+"start": 188.4,
+"end": 189.52
+},
+{
+"word": "Paying",
+"start": 189.6,
+"end": 190.0
+},
+{
+"word": "Not",
+"start": 190.16,
+"end": 190.4
+},
+{
+"word": "to",
+"start": 190.48,
+"end": 190.56
+},
+{
+"word": "Go",
+"start": 190.64,
+"end": 190.72
+},
+{
+"word": "to",
+"start": 190.8,
+"end": 190.84
+},
+{
+"word": "the",
+"start": 190.88,
+"end": 190.96
+},
+{
+"word": "Gym.",
+"start": 191.04,
+"end": 191.72
+},
+{
+"word": "And",
+"start": 192.08,
+"end": 192.16
+},
+{
+"word": "when",
+"start": 192.24,
+"end": 192.32
+},
+{
+"word": "people",
+"start": 192.48,
+"end": 192.72
+},
+{
+"word": "finally",
+"start": 192.88,
+"end": 193.2
+},
+{
+"word": "decide",
+"start": 193.28,
+"end": 193.6
+},
+{
+"word": "they're",
+"start": 193.68,
+"end": 193.84
+},
+{
+"word": "done,",
+"start": 193.92,
+"end": 194.56
+},
+{
+"word": "they",
+"start": 194.64,
+"end": 194.8
+},
+{
+"word": "still",
+"start": 194.92,
+"end": 195.04
+},
+{
+"word": "don't",
+"start": 195.12,
+"end": 195.28
+},
+{
+"word": "stop",
+"start": 195.36,
+"end": 195.52
+},
+{
+"word": "paying.",
+"start": 195.6,
+"end": 196.08
+},
+{
+"word": "Members",
+"start": 196.64,
+"end": 196.96
+},
+{
+"word": "in",
+"start": 197.04,
+"end": 197.12
+},
+{
+"word": "the",
+"start": 197.16,
+"end": 197.2
+},
+{
+"word": "study",
+"start": 197.28,
+"end": 197.6
+},
+{
+"word": "kept",
+"start": 197.68,
+"end": 197.92
+},
+{
+"word": "being",
+"start": 198.0,
+"end": 198.16
+},
+{
+"word": "billed",
+"start": 198.32,
+"end": 198.56
+},
+{
+"word": "for",
+"start": 198.64,
+"end": 198.72
+},
+{
+"word": "a",
+"start": 198.8,
+"end": 198.88
+},
+{
+"word": "while",
+"start": 198.96,
+"end": 199.28
+},
+{
+"word": "after",
+"start": 199.36,
+"end": 199.68
+},
+{
+"word": "their",
+"start": 199.76,
+"end": 199.84
+},
+{
+"word": "last",
+"start": 199.92,
+"end": 200.16
+},
+{
+"word": "visit",
+"start": 200.24,
+"end": 200.56
+},
+{
+"word": "before",
+"start": 200.8,
+"end": 201.04
+},
+{
+"word": "they",
+"start": 201.12,
+"end": 201.2
+},
+{
+"word": "actually",
+"start": 201.44,
+"end": 201.68
+},
+{
+"word": "cancelled.",
+"start": 201.76,
+"end": 202.32
+},
+{
+"word": "Some",
+"start": 202.96,
+"end": 203.12
+},
+{
+"word": "gyms",
+"start": 203.2,
+"end": 203.52
+},
+{
+"word": "make",
+"start": 203.64,
+"end": 203.76
+},
+{
+"word": "that",
+"start": 203.84,
+"end": 203.92
+},
+{
+"word": "last",
+"start": 204.0,
+"end": 204.24
+},
+{
+"word": "step",
+"start": 204.32,
+"end": 204.56
+},
+{
+"word": "harder",
+"start": 204.64,
+"end": 204.96
+},
+{
+"word": "than",
+"start": 205.04,
+"end": 205.12
+},
+{
+"word": "others.",
+"start": 205.32,
+"end": 205.6
+},
+{
+"word": "In",
+"start": 206.16,
+"end": 206.24
+},
+{
+"word": "August",
+"start": 206.4,
+"end": 206.72
+},
+{
+"word": "2025,",
+"start": 206.8,
+"end": 208.08
+},
+{
+"word": "the",
+"start": 208.16,
+"end": 208.24
+},
+{
+"word": "U.S.",
+"start": 208.32,
+"end": 208.56
+},
+{
+"word": "Federal",
+"start": 208.64,
+"end": 208.96
+},
+{
+"word": "Trade",
+"start": 209.04,
+"end": 209.28
+},
+{
+"word": "Commission",
+"start": 209.36,
+"end": 209.84
+},
+{
+"word": "sued",
+"start": 210.0,
+"end": 210.24
+},
+{
+"word": "the",
+"start": 210.32,
+"end": 210.4
+},
+{
+"word": "operators",
+"start": 210.48,
+"end": 210.96
+},
+{
+"word": "of",
+"start": 211.12,
+"end": 211.2
+},
+{
+"word": "LA",
+"start": 211.28,
+"end": 211.52
+},
+{
+"word": "Fitness,",
+"start": 211.68,
+"end": 212.48
+},
+{
+"word": "a",
+"start": 212.56,
+"end": 212.64
+},
+{
+"word": "chain",
+"start": 212.72,
+"end": 212.96
+},
+{
+"word": "of",
+"start": 213.04,
+"end": 213.08
+},
+{
+"word": "around",
+"start": 213.12,
+"end": 213.36
+},
+{
+"word": "six",
+"start": 213.52,
+"end": 213.68
+},
+{
+"word": "hundred",
+"start": 213.72,
+"end": 213.92
+},
+{
+"word": "clubs",
+"start": 214.08,
+"end": 214.4
+},
+{
+"word": "and",
+"start": 214.64,
+"end": 214.8
+},
+{
+"word": "three",
+"start": 214.88,
+"end": 215.04
+},
+{
+"word": "point",
+"start": 215.12,
+"end": 215.36
+},
+{
+"word": "seven",
+"start": 215.44,
+"end": 215.6
+},
+{
+"word": "million",
+"start": 215.84,
+"end": 216.08
+},
+{
+"word": "members.",
+"start": 216.16,
+"end": 216.72
+},
+{
+"word": "According",
+"start": 217.28,
+"end": 217.68
+},
+{
+"word": "to",
+"start": 217.76,
+"end": 217.84
+},
+{
+"word": "the",
+"start": 217.88,
+"end": 217.92
+},
+{
+"word": "complaint,",
+"start": 218.0,
+"end": 218.8
+},
+{
+"word": "cancelling",
+"start": 218.88,
+"end": 219.44
+},
+{
+"word": "meant",
+"start": 219.52,
+"end": 219.68
+},
+{
+"word": "finding",
+"start": 219.76,
+"end": 220.08
+},
+{
+"word": "a",
+"start": 220.16,
+"end": 220.24
+},
+{
+"word": "form",
+"start": 220.32,
+"end": 220.56
+},
+{
+"word": "on",
+"start": 220.64,
+"end": 220.72
+},
+{
+"word": "a",
+"start": 220.8,
+"end": 220.84
+},
+{
+"word": "hidden",
+"start": 220.88,
+"end": 221.12
+},
+{
+"word": "part",
+"start": 221.2,
+"end": 221.44
+},
+{
+"word": "of",
+"start": 221.48,
+"end": 221.52
+},
+{
+"word": "the",
+"start": 221.56,
+"end": 221.6
+},
+{
+"word": "website,",
+"start": 221.68,
+"end": 222.56
+},
+{
+"word": "printing",
+"start": 222.76,
+"end": 222.96
+},
+{
+"word": "it,",
+"start": 223.04,
+"end": 223.36
+},
+{
+"word": "and",
+"start": 223.44,
+"end": 223.52
+},
+{
+"word": "either",
+"start": 223.6,
+"end": 223.76
+},
+{
+"word": "sending",
+"start": 223.84,
+"end": 224.16
+},
+{
+"word": "it",
+"start": 224.24,
+"end": 224.28
+},
+{
+"word": "by",
+"start": 224.32,
+"end": 224.48
+},
+{
+"word": "certified",
+"start": 224.56,
+"end": 225.04
+},
+{
+"word": "mail",
+"start": 225.2,
+"end": 225.44
+},
+{
+"word": "or",
+"start": 225.76,
+"end": 225.92
+},
+{
+"word": "handing",
+"start": 226.0,
+"end": 226.24
+},
+{
+"word": "it",
+"start": 226.32,
+"end": 226.4
+},
+{
+"word": "to",
+"start": 226.48,
+"end": 226.56
+},
+{
+"word": "one",
+"start": 226.64,
+"end": 226.8
+},
+{
+"word": "specific",
+"start": 226.88,
+"end": 227.44
+},
+{
+"word": "employee",
+"start": 227.52,
+"end": 228.08
+},
+{
+"word": "during",
+"start": 228.24,
+"end": 228.56
+},
+{
+"word": "business",
+"start": 228.64,
+"end": 228.96
+},
+{
+"word": "hours.",
+"start": 229.04,
+"end": 229.44
+},
+{
+"word": "The",
+"start": 230.0,
+"end": 230.08
+},
+{
+"word": "FTC",
+"start": 230.16,
+"end": 230.8
+},
+{
+"word": "says",
+"start": 230.88,
+"end": 231.12
+},
+{
+"word": "those",
+"start": 231.24,
+"end": 231.36
+},
+{
+"word": "hurdles",
+"start": 231.44,
+"end": 231.84
+},
+{
+"word": "kept",
+"start": 232.08,
+"end": 232.32
+},
+{
+"word": "hundreds",
+"start": 232.4,
+"end": 232.8
+},
+{
+"word": "of",
+"start": 232.84,
+"end": 232.88
+},
+{
+"word": "millions",
+"start": 233.04,
+"end": 233.36
+},
+{
+"word": "of",
+"start": 233.44,
+"end": 233.52
+},
+{
+"word": "dollars",
+"start": 233.6,
+"end": 233.92
+},
+{
+"word": "in",
+"start": 234.0,
+"end": 234.08
+},
+{
+"word": "unwanted",
+"start": 234.24,
+"end": 234.72
+},
+{
+"word": "fees",
+"start": 234.8,
+"end": 235.12
+},
+{
+"word": "flowing.",
+"start": 235.2,
+"end": 235.68
+},
+{
+"word": "These",
+"start": 236.24,
+"end": 236.48
+},
+{
+"word": "are",
+"start": 236.56,
+"end": 236.64
+},
+{
+"word": "allegations,",
+"start": 236.68,
+"end": 237.6
+},
+{
+"word": "not",
+"start": 237.68,
+"end": 237.76
+},
+{
+"word": "a",
+"start": 237.84,
+"end": 237.88
+},
+{
+"word": "verdict.",
+"start": 237.92,
+"end": 238.48
+},
+{
+"word": "But",
+"start": 238.88,
+"end": 238.96
+},
+{
+"word": "the",
+"start": 239.04,
+"end": 239.12
+},
+{
+"word": "pattern",
+"start": 239.2,
+"end": 239.52
+},
+{
+"word": "is",
+"start": 239.6,
+"end": 239.76
+},
+{
+"word": "easy",
+"start": 239.84,
+"end": 240.08
+},
+{
+"word": "to",
+"start": 240.16,
+"end": 240.24
+},
+{
+"word": "recognise.",
+"start": 240.44,
+"end": 240.96
+},
+{
+"word": "Joining",
+"start": 241.52,
+"end": 242.0
+},
+{
+"word": "takes",
+"start": 242.12,
+"end": 242.24
+},
+{
+"word": "five",
+"start": 242.32,
+"end": 242.56
+},
+{
+"word": "minutes.",
+"start": 242.64,
+"end": 243.28
+},
+{
+"word": "Leaving",
+"start": 243.52,
+"end": 243.92
+},
+{
+"word": "can",
+"start": 244.0,
+"end": 244.08
+},
+{
+"word": "take",
+"start": 244.16,
+"end": 244.24
+},
+{
+"word": "a",
+"start": 244.32,
+"end": 244.4
+},
+{
+"word": "printer,",
+"start": 244.6,
+"end": 245.04
+},
+{
+"word": "a",
+"start": 245.08,
+"end": 245.12
+},
+{
+"word": "stamp,",
+"start": 245.2,
+"end": 245.84
+},
+{
+"word": "and",
+"start": 245.88,
+"end": 245.92
+},
+{
+"word": "a",
+"start": 246.0,
+"end": 246.04
+},
+{
+"word": "manager",
+"start": 246.08,
+"end": 246.48
+},
+{
+"word": "who's",
+"start": 246.56,
+"end": 246.72
+},
+{
+"word": "never",
+"start": 246.8,
+"end": 247.04
+},
+{
+"word": "there.",
+"start": 247.12,
+"end": 247.76
+},
+{
+"word": "The",
+"start": 248.08,
+"end": 248.16
+},
+{
+"word": "trap",
+"start": 248.24,
+"end": 248.48
+},
+{
+"word": "at",
+"start": 248.52,
+"end": 248.56
+},
+{
+"word": "level",
+"start": 248.64,
+"end": 248.96
+},
+{
+"word": "two",
+"start": 249.12,
+"end": 249.28
+},
+{
+"word": "isn't",
+"start": 249.36,
+"end": 249.6
+},
+{
+"word": "the",
+"start": 249.64,
+"end": 249.68
+},
+{
+"word": "contract.",
+"start": 249.76,
+"end": 250.4
+},
+{
+"word": "The",
+"start": 250.8,
+"end": 250.88
+},
+{
+"word": "trap",
+"start": 250.96,
+"end": 251.28
+},
+{
+"word": "is",
+"start": 251.44,
+"end": 251.52
+},
+{
+"word": "that",
+"start": 251.6,
+"end": 251.68
+},
+{
+"word": "quitting",
+"start": 251.76,
+"end": 252.08
+},
+{
+"word": "takes",
+"start": 252.16,
+"end": 252.4
+},
+{
+"word": "more",
+"start": 252.48,
+"end": 252.64
+},
+{
+"word": "effort",
+"start": 252.72,
+"end": 253.04
+},
+{
+"word": "than",
+"start": 253.12,
+"end": 253.2
+},
+{
+"word": "paying.",
+"start": 253.28,
+"end": 253.76
+},
+{
+"word": "Quick",
+"start": 254.4,
+"end": 254.56
+},
+{
+"word": "favour:",
+"start": 254.64,
+"end": 255.44
+},
+{
+"word": "if",
+"start": 255.52,
+"end": 255.6
+},
+{
+"word": "this",
+"start": 255.68,
+"end": 255.76
+},
+{
+"word": "is",
+"start": 255.84,
+"end": 255.92
+},
+{
+"word": "already",
+"start": 256.12,
+"end": 256.32
+},
+{
+"word": "changing",
+"start": 256.4,
+"end": 256.8
+},
+{
+"word": "how",
+"start": 256.88,
+"end": 257.04
+},
+{
+"word": "you",
+"start": 257.12,
+"end": 257.2
+},
+{
+"word": "see",
+"start": 257.28,
+"end": 257.44
+},
+{
+"word": "your",
+"start": 257.52,
+"end": 257.6
+},
+{
+"word": "membership,",
+"start": 257.68,
+"end": 258.4
+},
+{
+"word": "subscribe.",
+"start": 258.48,
+"end": 259.2
+},
+{
+"word": "We",
+"start": 259.6,
+"end": 259.76
+},
+{
+"word": "take",
+"start": 259.84,
+"end": 260.0
+},
+{
+"word": "one",
+"start": 260.08,
+"end": 260.32
+},
+{
+"word": "everyday",
+"start": 260.4,
+"end": 260.8
+},
+{
+"word": "business",
+"start": 260.96,
+"end": 261.28
+},
+{
+"word": "apart",
+"start": 261.4,
+"end": 261.76
+},
+{
+"word": "every",
+"start": 261.92,
+"end": 262.16
+},
+{
+"word": "week.",
+"start": 262.24,
+"end": 262.56
+},
+{
+"word": "Everything",
+"start": 263.28,
+"end": 263.76
+},
+{
+"word": "so",
+"start": 263.84,
+"end": 264.0
+},
+{
+"word": "far",
+"start": 264.08,
+"end": 264.32
+},
+{
+"word": "works",
+"start": 264.4,
+"end": 264.8
+},
+{
+"word": "because",
+"start": 264.96,
+"end": 265.2
+},
+{
+"word": "you",
+"start": 265.28,
+"end": 265.36
+},
+{
+"word": "don't",
+"start": 265.44,
+"end": 265.6
+},
+{
+"word": "show",
+"start": 265.68,
+"end": 265.84
+},
+{
+"word": "up.",
+"start": 265.92,
+"end": 266.48
+},
+{
+"word": "Now",
+"start": 266.8,
+"end": 267.04
+},
+{
+"word": "we",
+"start": 267.2,
+"end": 267.36
+},
+{
+"word": "flip",
+"start": 267.48,
+"end": 267.6
+},
+{
+"word": "it.",
+"start": 267.68,
+"end": 268.08
+},
+{
+"word": "The",
+"start": 268.32,
+"end": 268.4
+},
+{
+"word": "next",
+"start": 268.48,
+"end": 268.64
+},
+{
+"word": "level",
+"start": 268.72,
+"end": 269.04
+},
+{
+"word": "only",
+"start": 269.12,
+"end": 269.36
+},
+{
+"word": "makes",
+"start": 269.44,
+"end": 269.68
+},
+{
+"word": "money",
+"start": 269.76,
+"end": 270.0
+},
+{
+"word": "if",
+"start": 270.16,
+"end": 270.32
+},
+{
+"word": "you",
+"start": 270.4,
+"end": 270.56
+},
+{
+"word": "do.",
+"start": 270.68,
+"end": 271.28
+},
+{
+"word": "Level",
+"start": 271.76,
+"end": 272.0
+},
+{
+"word": "three.",
+"start": 272.16,
+"end": 272.72
+},
+{
+"word": "The",
+"start": 272.96,
+"end": 273.04
+},
+{
+"word": "boutique",
+"start": 273.2,
+"end": 273.52
+},
+{
+"word": "studio.",
+"start": 273.6,
+"end": 274.48
+},
+{
+"word": "Spin,",
+"start": 274.8,
+"end": 275.52
+},
+{
+"word": "high-intensity",
+"start": 275.6,
+"end": 276.32
+},
+{
+"word": "training,",
+"start": 276.4,
+"end": 277.12
+},
+{
+"word": "reformer",
+"start": 277.2,
+"end": 277.6
+},
+{
+"word": "pilates.",
+"start": 277.68,
+"end": 278.4
+},
+{
+"word": "Unlimited",
+"start": 278.96,
+"end": 279.52
+},
+{
+"word": "plans",
+"start": 279.6,
+"end": 280.0
+},
+{
+"word": "at",
+"start": 280.08,
+"end": 280.16
+},
+{
+"word": "chains",
+"start": 280.24,
+"end": 280.56
+},
+{
+"word": "like",
+"start": 280.64,
+"end": 280.8
+},
+{
+"word": "Orangetheory",
+"start": 280.88,
+"end": 281.6
+},
+{
+"word": "commonly",
+"start": 281.92,
+"end": 282.24
+},
+{
+"word": "run",
+"start": 282.32,
+"end": 282.56
+},
+{
+"word": "from",
+"start": 282.64,
+"end": 282.72
+},
+{
+"word": "about",
+"start": 282.8,
+"end": 283.04
+},
+{
+"word": "a",
+"start": 283.08,
+"end": 283.12
+},
+{
+"word": "hundred",
+"start": 283.2,
+"end": 283.44
+},
+{
+"word": "and",
+"start": 283.48,
+"end": 283.52
+},
+{
+"word": "sixty",
+"start": 283.68,
+"end": 284.0
+},
+{
+"word": "to",
+"start": 284.24,
+"end": 284.4
+},
+{
+"word": "more",
+"start": 284.48,
+"end": 284.56
+},
+{
+"word": "than",
+"start": 284.64,
+"end": 284.72
+},
+{
+"word": "two",
+"start": 284.8,
+"end": 284.88
+},
+{
+"word": "hundred",
+"start": 284.96,
+"end": 285.2
+},
+{
+"word": "dollars",
+"start": 285.28,
+"end": 285.52
+},
+{
+"word": "a",
+"start": 285.6,
+"end": 285.68
+},
+{
+"word": "month.",
+"start": 285.88,
+"end": 286.4
+},
+{
+"word": "Here",
+"start": 286.72,
+"end": 287.12
+},
+{
+"word": "the",
+"start": 287.2,
+"end": 287.28
+},
+{
+"word": "economics",
+"start": 287.36,
+"end": 287.92
+},
+{
+"word": "turn",
+"start": 288.04,
+"end": 288.16
+},
+{
+"word": "upside",
+"start": 288.24,
+"end": 288.64
+},
+{
+"word": "down.",
+"start": 288.72,
+"end": 289.4
+},
+{
+"word": "A",
+"start": 289.68,
+"end": 289.76
+},
+{
+"word": "studio",
+"start": 289.84,
+"end": 290.24
+},
+{
+"word": "doesn't",
+"start": 290.32,
+"end": 290.64
+},
+{
+"word": "sell",
+"start": 290.72,
+"end": 290.8
+},
+{
+"word": "a",
+"start": 290.88,
+"end": 290.92
+},
+{
+"word": "building.",
+"start": 290.96,
+"end": 291.6
+},
+{
+"word": "It",
+"start": 291.76,
+"end": 291.92
+},
+{
+"word": "sells",
+"start": 291.96,
+"end": 292.24
+},
+{
+"word": "seats.",
+"start": 292.32,
+"end": 293.0
+},
+{
+"word": "A",
+"start": 293.28,
+"end": 293.36
+},
+{
+"word": "few",
+"start": 293.44,
+"end": 293.52
+},
+{
+"word": "dozen",
+"start": 293.6,
+"end": 293.84
+},
+{
+"word": "bikes,",
+"start": 293.92,
+"end": 294.56
+},
+{
+"word": "fifty",
+"start": 294.64,
+"end": 294.88
+},
+{
+"word": "minutes",
+"start": 294.96,
+"end": 295.28
+},
+{
+"word": "at",
+"start": 295.32,
+"end": 295.36
+},
+{
+"word": "a",
+"start": 295.44,
+"end": 295.48
+},
+{
+"word": "time.",
+"start": 295.52,
+"end": 296.2
+},
+{
+"word": "An",
+"start": 296.48,
+"end": 296.56
+},
+{
+"word": "empty",
+"start": 296.64,
+"end": 296.88
+},
+{
+"word": "bike",
+"start": 296.96,
+"end": 297.2
+},
+{
+"word": "at",
+"start": 297.28,
+"end": 297.36
+},
+{
+"word": "seven",
+"start": 297.44,
+"end": 297.6
+},
+{
+"word": "a.m.",
+"start": 297.68,
+"end": 298.08
+},
+{
+"word": "is",
+"start": 298.32,
+"end": 298.4
+},
+{
+"word": "money",
+"start": 298.48,
+"end": 298.72
+},
+{
+"word": "that's",
+"start": 298.8,
+"end": 298.96
+},
+{
+"word": "gone",
+"start": 299.04,
+"end": 299.2
+},
+{
+"word": "forever.",
+"start": 299.28,
+"end": 300.04
+},
+{
+"word": "Just",
+"start": 300.32,
+"end": 300.48
+},
+{
+"word": "like",
+"start": 300.56,
+"end": 300.64
+},
+{
+"word": "an",
+"start": 300.72,
+"end": 300.8
+},
+{
+"word": "empty",
+"start": 300.88,
+"end": 301.12
+},
+{
+"word": "hotel",
+"start": 301.2,
+"end": 301.52
+},
+{
+"word": "room.",
+"start": 301.6,
+"end": 302.16
+},
+{
+"word": "When",
+"start": 302.48,
+"end": 302.64
+},
+{
+"word": "SoulCycle",
+"start": 302.8,
+"end": 303.44
+},
+{
+"word": "filed",
+"start": 303.6,
+"end": 303.787
+},
+{
+"word": "to",
+"start": 303.813,
+"end": 303.84
+},
+{
+"word": "go",
+"start": 303.92,
+"end": 304.0
+},
+{
+"word": "public",
+"start": 304.16,
+"end": 304.48
+},
+{
+"word": "in",
+"start": 304.56,
+"end": 304.64
+},
+{
+"word": "2015,",
+"start": 304.76,
+"end": 305.84
+},
+{
+"word": "it",
+"start": 305.92,
+"end": 306.0
+},
+{
+"word": "opened",
+"start": 306.12,
+"end": 306.24
+},
+{
+"word": "its",
+"start": 306.32,
+"end": 306.48
+},
+{
+"word": "books.",
+"start": 306.56,
+"end": 307.16
+},
+{
+"word": "In",
+"start": 307.44,
+"end": 307.6
+},
+{
+"word": "2014,",
+"start": 307.68,
+"end": 308.76
+},
+{
+"word": "its",
+"start": 308.8,
+"end": 308.96
+},
+{
+"word": "average",
+"start": 309.04,
+"end": 309.44
+},
+{
+"word": "studio",
+"start": 309.68,
+"end": 309.92
+},
+{
+"word": "brought",
+"start": 310.0,
+"end": 310.24
+},
+{
+"word": "in",
+"start": 310.32,
+"end": 310.4
+},
+{
+"word": "about",
+"start": 310.48,
+"end": 310.8
+},
+{
+"word": "four",
+"start": 310.88,
+"end": 310.96
+},
+{
+"word": "million",
+"start": 311.12,
+"end": 311.36
+},
+{
+"word": "dollars",
+"start": 311.44,
+"end": 311.68
+},
+{
+"word": "a",
+"start": 311.76,
+"end": 311.84
+},
+{
+"word": "year,",
+"start": 311.92,
+"end": 312.56
+},
+{
+"word": "with",
+"start": 312.64,
+"end": 312.72
+},
+{
+"word": "a",
+"start": 312.76,
+"end": 312.8
+},
+{
+"word": "studio",
+"start": 312.88,
+"end": 313.2
+},
+{
+"word": "margin",
+"start": 313.36,
+"end": 313.84
+},
+{
+"word": "of",
+"start": 313.92,
+"end": 314.0
+},
+{
+"word": "fifty-three",
+"start": 314.04,
+"end": 314.48
+},
+{
+"word": "percent.",
+"start": 314.56,
+"end": 315.28
+},
+{
+"word": "From",
+"start": 316.4,
+"end": 316.61
+},
+{
+"word": "one",
+"start": 316.64,
+"end": 316.827
+},
+{
+"word": "room",
+"start": 316.88,
+"end": 317.14
+},
+{
+"word": "full",
+"start": 317.2,
+"end": 317.6
+},
+{
+"word": "of",
+"start": 317.68,
+"end": 317.76
+},
+{
+"word": "bikes.",
+"start": 317.84,
+"end": 318.6
+},
+{
+"word": "So",
+"start": 318.88,
+"end": 319.04
+},
+{
+"word": "the",
+"start": 319.2,
+"end": 319.28
+},
+{
+"word": "studio",
+"start": 319.36,
+"end": 319.76
+},
+{
+"word": "fights",
+"start": 320.0,
+"end": 320.24
+},
+{
+"word": "for",
+"start": 320.32,
+"end": 320.4
+},
+{
+"word": "your",
+"start": 320.48,
+"end": 320.56
+},
+{
+"word": "attendance.",
+"start": 320.88,
+"end": 321.28
+},
+{
+"word": "Small",
+"start": 321.84,
+"end": 322.16
+},
+{
+"word": "rooms.",
+"start": 322.24,
+"end": 322.96
+},
+{
+"word": "Booked-out",
+"start": 323.2,
+"end": 323.76
+},
+{
+"word": "classes.",
+"start": 324.08,
+"end": 324.48
+},
+{
+"word": "A",
+"start": 324.88,
+"end": 324.96
+},
+{
+"word": "coach",
+"start": 325.04,
+"end": 325.36
+},
+{
+"word": "who",
+"start": 325.44,
+"end": 325.52
+},
+{
+"word": "knows",
+"start": 325.6,
+"end": 325.84
+},
+{
+"word": "your",
+"start": 325.92,
+"end": 326.0
+},
+{
+"word": "name",
+"start": 326.08,
+"end": 326.4
+},
+{
+"word": "and",
+"start": 326.56,
+"end": 326.64
+},
+{
+"word": "notices",
+"start": 326.72,
+"end": 327.2
+},
+{
+"word": "when",
+"start": 327.28,
+"end": 327.36
+},
+{
+"word": "you",
+"start": 327.44,
+"end": 327.52
+},
+{
+"word": "skip.",
+"start": 327.6,
+"end": 328.28
+},
+{
+"word": "Here,",
+"start": 328.56,
+"end": 329.04
+},
+{
+"word": "the",
+"start": 329.08,
+"end": 329.12
+},
+{
+"word": "best",
+"start": 329.2,
+"end": 329.44
+},
+{
+"word": "customer",
+"start": 329.52,
+"end": 330.0
+},
+{
+"word": "is",
+"start": 330.08,
+"end": 330.16
+},
+{
+"word": "the",
+"start": 330.24,
+"end": 330.28
+},
+{
+"word": "regular",
+"start": 330.32,
+"end": 330.8
+},
+{
+"word": "who",
+"start": 330.96,
+"end": 331.04
+},
+{
+"word": "never",
+"start": 331.2,
+"end": 331.36
+},
+{
+"word": "misses.",
+"start": 331.44,
+"end": 332.2
+},
+{
+"word": "The",
+"start": 332.48,
+"end": 332.56
+},
+{
+"word": "trap",
+"start": 332.64,
+"end": 332.88
+},
+{
+"word": "at",
+"start": 332.92,
+"end": 332.96
+},
+{
+"word": "level",
+"start": 333.04,
+"end": 333.28
+},
+{
+"word": "three",
+"start": 333.36,
+"end": 333.68
+},
+{
+"word": "isn't",
+"start": 333.84,
+"end": 334.08
+},
+{
+"word": "the",
+"start": 334.12,
+"end": 334.16
+},
+{
+"word": "price",
+"start": 334.24,
+"end": 334.56
+},
+{
+"word": "per",
+"start": 334.64,
+"end": 334.72
+},
+{
+"word": "class.",
+"start": 334.8,
+"end": 335.52
+},
+{
+"word": "The",
+"start": 335.76,
+"end": 335.84
+},
+{
+"word": "trap",
+"start": 335.92,
+"end": 336.24
+},
+{
+"word": "is",
+"start": 336.4,
+"end": 336.48
+},
+{
+"word": "that",
+"start": 336.56,
+"end": 336.64
+},
+{
+"word": "once",
+"start": 336.72,
+"end": 336.88
+},
+{
+"word": "someone",
+"start": 336.96,
+"end": 337.2
+},
+{
+"word": "knows",
+"start": 337.28,
+"end": 337.48
+},
+{
+"word": "your",
+"start": 337.52,
+"end": 337.6
+},
+{
+"word": "name,",
+"start": 337.76,
+"end": 338.32
+},
+{
+"word": "you",
+"start": 338.4,
+"end": 338.48
+},
+{
+"word": "stop",
+"start": 338.6,
+"end": 338.72
+},
+{
+"word": "comparing",
+"start": 338.8,
+"end": 339.28
+},
+{
+"word": "prices.",
+"start": 339.36,
+"end": 340.36
+},
+{
+"word": "Seven",
+"start": 340.8,
+"end": 340.96
+},
+{
+"word": "thousand",
+"start": 341.04,
+"end": 341.36
+},
+{
+"word": "members",
+"start": 341.68,
+"end": 341.76
+},
+{
+"word": "per",
+"start": 341.92,
+"end": 342.0
+},
+{
+"word": "club.",
+"start": 342.4,
+"end": 342.96
+},
+{
+"word": "Thirty-one",
+"start": 343.2,
+"end": 343.52
+},
+{
+"word": "visits",
+"start": 343.68,
+"end": 343.96
+},
+{
+"word": "a",
+"start": 344.0,
+"end": 344.08
+},
+{
+"word": "year.",
+"start": 344.4,
+"end": 344.96
+},
+{
+"word": "A",
+"start": 345.04,
+"end": 345.12
+},
+{
+"word": "forty-nine-dollar",
+"start": 345.36,
+"end": 346.08
+},
+{
+"word": "fee.",
+"start": 346.4,
+"end": 346.96
+},
+{
+"word": "Seventeen",
+"start": 347.04,
+"end": 347.52
+},
+{
+"word": "dollars",
+"start": 347.6,
+"end": 347.84
+},
+{
+"word": "a",
+"start": 347.88,
+"end": 347.92
+},
+{
+"word": "visit.",
+"start": 348.32,
+"end": 348.92
+},
+{
+"word": "Four",
+"start": 349.04,
+"end": 349.2
+},
+{
+"word": "million",
+"start": 349.52,
+"end": 349.56
+},
+{
+"word": "a",
+"start": 349.6,
+"end": 349.68
+},
+{
+"word": "studio.",
+"start": 350.24,
+"end": 350.88
+},
+{
+"word": "One",
+"start": 351.04,
+"end": 351.12
+},
+{
+"word": "more",
+"start": 351.28,
+"end": 351.36
+},
+{
+"word": "step.",
+"start": 351.76,
+"end": 352.24
+},
+{
+"word": "Level",
+"start": 352.48,
+"end": 352.64
+},
+{
+"word": "four.",
+"start": 352.96,
+"end": 353.44
+},
+{
+"word": "The",
+"start": 353.52,
+"end": 353.6
+},
+{
+"word": "luxury",
+"start": 353.84,
+"end": 354.08
+},
+{
+"word": "club.",
+"start": 354.4,
+"end": 354.96
+},
+{
+"word": "At",
+"start": 355.12,
+"end": 355.2
+},
+{
+"word": "Equinox,",
+"start": 355.44,
+"end": 356.0
+},
+{
+"word": "a",
+"start": 356.08,
+"end": 356.16
+},
+{
+"word": "standard",
+"start": 356.48,
+"end": 356.56
+},
+{
+"word": "membership",
+"start": 357.04,
+"end": 357.12
+},
+{
+"word": "typically",
+"start": 357.52,
+"end": 357.6
+},
+{
+"word": "costs",
+"start": 357.92,
+"end": 358.133
+},
+{
+"word": "about",
+"start": 358.24,
+"end": 358.32
+},
+{
+"word": "two",
+"start": 358.4,
+"end": 358.48
+},
+{
+"word": "hundred",
+"start": 358.56,
+"end": 358.72
+},
+{
+"word": "and",
+"start": 358.88,
+"end": 359.0
+},
+{
+"word": "five",
+"start": 359.12,
+"end": 359.36
+},
+{
+"word": "to",
+"start": 359.52,
+"end": 359.6
+},
+{
+"word": "three",
+"start": 359.68,
+"end": 359.72
+},
+{
+"word": "hundred",
+"start": 359.76,
+"end": 360.0
+},
+{
+"word": "and",
+"start": 360.08,
+"end": 360.12
+},
+{
+"word": "ninety-five",
+"start": 360.16,
+"end": 360.72
+},
+{
+"word": "dollars",
+"start": 360.88,
+"end": 361.04
+},
+{
+"word": "a",
+"start": 361.08,
+"end": 361.12
+},
+{
+"word": "month,",
+"start": 361.44,
+"end": 361.84
+},
+{
+"word": "depending",
+"start": 362.16,
+"end": 362.24
+},
+{
+"word": "on",
+"start": 362.32,
+"end": 362.36
+},
+{
+"word": "the",
+"start": 362.4,
+"end": 362.48
+},
+{
+"word": "city",
+"start": 362.8,
+"end": 363.04
+},
+{
+"word": "and",
+"start": 363.12,
+"end": 363.2
+},
+{
+"word": "how",
+"start": 363.28,
+"end": 363.36
+},
+{
+"word": "many",
+"start": 363.52,
+"end": 363.6
+},
+{
+"word": "clubs",
+"start": 363.92,
+"end": 364.0
+},
+{
+"word": "your",
+"start": 364.08,
+"end": 364.16
+},
+{
+"word": "card",
+"start": 364.4,
+"end": 364.48
+},
+{
+"word": "opens.",
+"start": 364.96,
+"end": 365.52
+},
+{
+"word": "Eucalyptus",
+"start": 365.6,
+"end": 366.24
+},
+{
+"word": "towels.",
+"start": 366.32,
+"end": 367.2
+},
+{
+"word": "A",
+"start": 367.28,
+"end": 367.36
+},
+{
+"word": "spa.",
+"start": 367.84,
+"end": 368.24
+},
+{
+"word": "A",
+"start": 368.32,
+"end": 368.4
+},
+{
+"word": "pool",
+"start": 368.72,
+"end": 368.8
+},
+{
+"word": "you'll",
+"start": 368.88,
+"end": 369.04
+},
+{
+"word": "swim",
+"start": 369.12,
+"end": 369.28
+},
+{
+"word": "in",
+"start": 369.36,
+"end": 369.44
+},
+{
+"word": "twice.",
+"start": 369.6,
+"end": 370.4
+},
+{
+"word": "But",
+"start": 370.56,
+"end": 370.6
+},
+{
+"word": "the",
+"start": 370.64,
+"end": 370.72
+},
+{
+"word": "real",
+"start": 370.96,
+"end": 371.04
+},
+{
+"word": "product",
+"start": 371.36,
+"end": 371.44
+},
+{
+"word": "is",
+"start": 371.6,
+"end": 371.76
+},
+{
+"word": "something",
+"start": 371.92,
+"end": 372.0
+},
+{
+"word": "you",
+"start": 372.08,
+"end": 372.16
+},
+{
+"word": "can't",
+"start": 372.32,
+"end": 372.48
+},
+{
+"word": "see:",
+"start": 372.8,
+"end": 373.36
+},
+{
+"word": "who",
+"start": 373.52,
+"end": 373.68
+},
+{
+"word": "isn't",
+"start": 373.84,
+"end": 374.2
+},
+{
+"word": "there.",
+"start": 374.4,
+"end": 374.96
+},
+{
+"word": "At",
+"start": 375.04,
+"end": 375.12
+},
+{
+"word": "these",
+"start": 375.28,
+"end": 375.36
+},
+{
+"word": "prices,",
+"start": 375.84,
+"end": 376.04
+},
+{
+"word": "the",
+"start": 376.08,
+"end": 376.16
+},
+{
+"word": "crowd",
+"start": 376.4,
+"end": 376.64
+},
+{
+"word": "sorts",
+"start": 376.88,
+"end": 376.96
+},
+{
+"word": "itself.",
+"start": 377.12,
+"end": 378.0
+},
+{
+"word": "You're",
+"start": 378.08,
+"end": 378.32
+},
+{
+"word": "paying",
+"start": 378.4,
+"end": 378.64
+},
+{
+"word": "for",
+"start": 378.72,
+"end": 378.76
+},
+{
+"word": "a",
+"start": 378.8,
+"end": 378.88
+},
+{
+"word": "quieter",
+"start": 379.04,
+"end": 379.36
+},
+{
+"word": "floor",
+"start": 379.68,
+"end": 379.92
+},
+{
+"word": "and",
+"start": 380.0,
+"end": 380.08
+},
+{
+"word": "a",
+"start": 380.16,
+"end": 380.24
+},
+{
+"word": "certain",
+"start": 380.36,
+"end": 380.56
+},
+{
+"word": "kind",
+"start": 380.72,
+"end": 380.8
+},
+{
+"word": "of",
+"start": 380.88,
+"end": 380.96
+},
+{
+"word": "neighbour",
+"start": 381.04,
+"end": 381.36
+},
+{
+"word": "on",
+"start": 381.44,
+"end": 381.48
+},
+{
+"word": "the",
+"start": 381.52,
+"end": 381.6
+},
+{
+"word": "next",
+"start": 381.84,
+"end": 381.88
+},
+{
+"word": "treadmill.",
+"start": 381.92,
+"end": 382.88
+},
+{
+"word": "And",
+"start": 382.96,
+"end": 383.04
+},
+{
+"word": "the",
+"start": 383.12,
+"end": 383.2
+},
+{
+"word": "membership",
+"start": 383.6,
+"end": 383.68
+},
+{
+"word": "is",
+"start": 383.84,
+"end": 383.92
+},
+{
+"word": "only",
+"start": 384.16,
+"end": 384.24
+},
+{
+"word": "the",
+"start": 384.32,
+"end": 384.4
+},
+{
+"word": "entry",
+"start": 384.64,
+"end": 384.72
+},
+{
+"word": "ticket.",
+"start": 385.12,
+"end": 385.6
+},
+{
+"word": "The",
+"start": 385.76,
+"end": 385.88
+},
+{
+"word": "real",
+"start": 386.0,
+"end": 386.08
+},
+{
+"word": "money",
+"start": 386.4,
+"end": 386.48
+},
+{
+"word": "is",
+"start": 386.64,
+"end": 386.72
+},
+{
+"word": "one",
+"start": 386.8,
+"end": 386.96
+},
+{
+"word": "floor",
+"start": 387.2,
+"end": 387.28
+},
+{
+"word": "up:",
+"start": 387.44,
+"end": 388.16
+},
+{
+"word": "personal",
+"start": 388.4,
+"end": 388.48
+},
+{
+"word": "training.",
+"start": 388.96,
+"end": 389.52
+},
+{
+"word": "In",
+"start": 389.6,
+"end": 389.68
+},
+{
+"word": "big",
+"start": 389.84,
+"end": 389.92
+},
+{
+"word": "cities,",
+"start": 390.4,
+"end": 390.56
+},
+{
+"word": "an",
+"start": 390.64,
+"end": 390.72
+},
+{
+"word": "Equinox",
+"start": 390.88,
+"end": 391.44
+},
+{
+"word": "session",
+"start": 391.68,
+"end": 391.8
+},
+{
+"word": "commonly",
+"start": 391.92,
+"end": 392.24
+},
+{
+"word": "costs",
+"start": 392.4,
+"end": 392.48
+},
+{
+"word": "around",
+"start": 392.72,
+"end": 392.8
+},
+{
+"word": "a",
+"start": 392.88,
+"end": 392.92
+},
+{
+"word": "hundred",
+"start": 392.96,
+"end": 393.2
+},
+{
+"word": "and",
+"start": 393.36,
+"end": 393.44
+},
+{
+"word": "ten",
+"start": 393.52,
+"end": 393.76
+},
+{
+"word": "to",
+"start": 393.84,
+"end": 393.88
+},
+{
+"word": "a",
+"start": 393.92,
+"end": 393.96
+},
+{
+"word": "hundred",
+"start": 394.0,
+"end": 394.24
+},
+{
+"word": "and",
+"start": 394.4,
+"end": 394.52
+},
+{
+"word": "forty",
+"start": 394.64,
+"end": 394.8
+},
+{
+"word": "dollars,",
+"start": 394.88,
+"end": 395.6
+},
+{
+"word": "billed",
+"start": 395.72,
+"end": 395.92
+},
+{
+"word": "on",
+"start": 396.08,
+"end": 396.16
+},
+{
+"word": "top",
+"start": 396.24,
+"end": 396.32
+},
+{
+"word": "of",
+"start": 396.4,
+"end": 396.48
+},
+{
+"word": "your",
+"start": 396.56,
+"end": 396.64
+},
+{
+"word": "dues.",
+"start": 396.8,
+"end": 397.72
+},
+{
+"word": "So",
+"start": 397.84,
+"end": 398.0
+},
+{
+"word": "how",
+"start": 398.16,
+"end": 398.24
+},
+{
+"word": "much",
+"start": 398.32,
+"end": 398.4
+},
+{
+"word": "of",
+"start": 398.48,
+"end": 398.56
+},
+{
+"word": "that",
+"start": 398.8,
+"end": 398.88
+},
+{
+"word": "reaches",
+"start": 399.04,
+"end": 399.28
+},
+{
+"word": "the",
+"start": 399.36,
+"end": 399.56
+},
+{
+"word": "trainer?",
+"start": 399.76,
+"end": 400.32
+},
+{
+"word": "Equinox's",
+"start": 400.56,
+"end": 401.12
+},
+{
+"word": "own",
+"start": 401.28,
+"end": 401.36
+},
+{
+"word": "job",
+"start": 401.6,
+"end": 401.72
+},
+{
+"word": "ads",
+"start": 401.84,
+"end": 401.92
+},
+{
+"word": "publish",
+"start": 402.24,
+"end": 402.32
+},
+{
+"word": "it.",
+"start": 402.48,
+"end": 403.12
+},
+{
+"word": "Thirty-nine",
+"start": 403.28,
+"end": 403.6
+},
+{
+"word": "fifty",
+"start": 403.68,
+"end": 404.08
+},
+{
+"word": "to",
+"start": 404.16,
+"end": 404.32
+},
+{
+"word": "about",
+"start": 404.48,
+"end": 404.56
+},
+{
+"word": "ninety-four",
+"start": 404.64,
+"end": 405.12
+},
+{
+"word": "dollars",
+"start": 405.28,
+"end": 405.44
+},
+{
+"word": "a",
+"start": 405.52,
+"end": 405.6
+},
+{
+"word": "session,",
+"start": 406.0,
+"end": 406.44
+},
+{
+"word": "depending",
+"start": 406.64,
+"end": 406.68
+},
+{
+"word": "on",
+"start": 406.72,
+"end": 406.8
+},
+{
+"word": "the",
+"start": 406.84,
+"end": 406.88
+},
+{
+"word": "trainer's",
+"start": 407.2,
+"end": 407.52
+},
+{
+"word": "tier,",
+"start": 407.68,
+"end": 408.16
+},
+{
+"word": "and",
+"start": 408.24,
+"end": 408.4
+},
+{
+"word": "around",
+"start": 408.56,
+"end": 408.64
+},
+{
+"word": "sixteen",
+"start": 408.88,
+"end": 409.12
+},
+{
+"word": "dollars",
+"start": 409.28,
+"end": 409.44
+},
+{
+"word": "an",
+"start": 409.6,
+"end": 409.76
+},
+{
+"word": "hour",
+"start": 409.92,
+"end": 410.08
+},
+{
+"word": "for",
+"start": 410.16,
+"end": 410.24
+},
+{
+"word": "time",
+"start": 410.48,
+"end": 410.64
+},
+{
+"word": "between",
+"start": 410.8,
+"end": 410.88
+},
+{
+"word": "clients.",
+"start": 411.44,
+"end": 411.76
+},
+{
+"word": "Take",
+"start": 412.88,
+"end": 413.12
+},
+{
+"word": "a",
+"start": 413.16,
+"end": 413.2
+},
+{
+"word": "newer",
+"start": 413.28,
+"end": 413.6
+},
+{
+"word": "trainer:",
+"start": 413.84,
+"end": 414.48
+},
+{
+"word": "you",
+"start": 414.56,
+"end": 414.72
+},
+{
+"word": "pay",
+"start": 414.84,
+"end": 414.96
+},
+{
+"word": "well",
+"start": 415.04,
+"end": 415.2
+},
+{
+"word": "over",
+"start": 415.28,
+"end": 415.44
+},
+{
+"word": "a",
+"start": 415.52,
+"end": 415.6
+},
+{
+"word": "hundred",
+"start": 415.68,
+"end": 415.92
+},
+{
+"word": "dollars,",
+"start": 416.08,
+"end": 416.72
+},
+{
+"word": "and",
+"start": 416.8,
+"end": 416.88
+},
+{
+"word": "they're",
+"start": 416.92,
+"end": 417.12
+},
+{
+"word": "paid",
+"start": 417.28,
+"end": 417.44
+},
+{
+"word": "under",
+"start": 417.6,
+"end": 417.76
+},
+{
+"word": "forty.",
+"start": 417.92,
+"end": 418.64
+},
+{
+"word": "The",
+"start": 418.72,
+"end": 418.8
+},
+{
+"word": "club",
+"start": 418.96,
+"end": 419.12
+},
+{
+"word": "keeps",
+"start": 419.2,
+"end": 419.36
+},
+{
+"word": "the",
+"start": 419.44,
+"end": 419.52
+},
+{
+"word": "rest.",
+"start": 419.6,
+"end": 420.56
+},
+{
+"word": "The",
+"start": 420.64,
+"end": 420.72
+},
+{
+"word": "trap",
+"start": 420.84,
+"end": 420.96
+},
+{
+"word": "at",
+"start": 421.04,
+"end": 421.12
+},
+{
+"word": "level",
+"start": 421.2,
+"end": 421.44
+},
+{
+"word": "four",
+"start": 421.52,
+"end": 421.84
+},
+{
+"word": "isn't",
+"start": 421.92,
+"end": 422.16
+},
+{
+"word": "the",
+"start": 422.2,
+"end": 422.24
+},
+{
+"word": "membership.",
+"start": 422.32,
+"end": 423.28
+},
+{
+"word": "The",
+"start": 423.36,
+"end": 423.44
+},
+{
+"word": "trap",
+"start": 423.68,
+"end": 423.92
+},
+{
+"word": "is",
+"start": 424.0,
+"end": 424.08
+},
+{
+"word": "that",
+"start": 424.16,
+"end": 424.24
+},
+{
+"word": "the",
+"start": 424.28,
+"end": 424.32
+},
+{
+"word": "membership",
+"start": 424.4,
+"end": 424.88
+},
+{
+"word": "is",
+"start": 424.96,
+"end": 425.04
+},
+{
+"word": "the",
+"start": 425.12,
+"end": 425.2
+},
+{
+"word": "cheap",
+"start": 425.28,
+"end": 425.52
+},
+{
+"word": "part.",
+"start": 425.72,
+"end": 426.56
+},
+{
+"word": "So",
+"start": 426.76,
+"end": 426.96
+},
+{
+"word": "which",
+"start": 427.04,
+"end": 427.2
+},
+{
+"word": "level",
+"start": 427.28,
+"end": 427.52
+},
+{
+"word": "is",
+"start": 427.56,
+"end": 427.6
+},
+{
+"word": "the",
+"start": 427.68,
+"end": 427.76
+},
+{
+"word": "best",
+"start": 427.88,
+"end": 428.0
+},
+{
+"word": "business?",
+"start": 428.08,
+"end": 429.04
+},
+{
+"word": "None",
+"start": 429.2,
+"end": 429.36
+},
+{
+"word": "of",
+"start": 429.44,
+"end": 429.52
+},
+{
+"word": "the",
+"start": 429.6,
+"end": 429.68
+},
+{
+"word": "four.",
+"start": 429.84,
+"end": 430.48
+},
+{
+"word": "Remember",
+"start": 430.56,
+"end": 430.88
+},
+{
+"word": "the",
+"start": 430.96,
+"end": 431.04
+},
+{
+"word": "twist",
+"start": 431.08,
+"end": 431.36
+},
+{
+"word": "from",
+"start": 431.44,
+"end": 431.52
+},
+{
+"word": "the",
+"start": 431.56,
+"end": 431.6
+},
+{
+"word": "start?",
+"start": 431.76,
+"end": 432.56
+},
+{
+"word": "Back",
+"start": 432.64,
+"end": 432.8
+},
+{
+"word": "to",
+"start": 432.88,
+"end": 432.96
+},
+{
+"word": "the",
+"start": 433.04,
+"end": 433.12
+},
+{
+"word": "fifteen-dollar",
+"start": 433.173,
+"end": 433.76
+},
+{
+"word": "gym.",
+"start": 433.92,
+"end": 434.72
+},
+{
+"word": "Because",
+"start": 434.88,
+"end": 435.04
+},
+{
+"word": "most",
+"start": 435.12,
+"end": 435.36
+},
+{
+"word": "Planet",
+"start": 435.44,
+"end": 435.68
+},
+{
+"word": "Fitness",
+"start": 435.76,
+"end": 436.08
+},
+{
+"word": "clubs",
+"start": 436.16,
+"end": 436.56
+},
+{
+"word": "aren't",
+"start": 436.64,
+"end": 436.88
+},
+{
+"word": "owned",
+"start": 436.96,
+"end": 437.28
+},
+{
+"word": "by",
+"start": 437.36,
+"end": 437.44
+},
+{
+"word": "Planet",
+"start": 437.52,
+"end": 437.76
+},
+{
+"word": "Fitness.",
+"start": 437.84,
+"end": 438.88
+},
+{
+"word": "Of",
+"start": 438.96,
+"end": 439.04
+},
+{
+"word": "its",
+"start": 439.16,
+"end": 439.28
+},
+{
+"word": "two",
+"start": 439.36,
+"end": 439.44
+},
+{
+"word": "thousand",
+"start": 439.52,
+"end": 439.84
+},
+{
+"word": "eight",
+"start": 440.0,
+"end": 440.16
+},
+{
+"word": "hundred",
+"start": 440.24,
+"end": 440.48
+},
+{
+"word": "and",
+"start": 440.56,
+"end": 440.64
+},
+{
+"word": "ninety-six",
+"start": 440.68,
+"end": 441.2
+},
+{
+"word": "clubs,",
+"start": 441.36,
+"end": 442.08
+},
+{
+"word": "two",
+"start": 442.16,
+"end": 442.24
+},
+{
+"word": "thousand",
+"start": 442.32,
+"end": 442.8
+},
+{
+"word": "six",
+"start": 442.88,
+"end": 442.96
+},
+{
+"word": "hundred",
+"start": 443.0,
+"end": 443.2
+},
+{
+"word": "and",
+"start": 443.28,
+"end": 443.44
+},
+{
+"word": "four",
+"start": 443.52,
+"end": 443.76
+},
+{
+"word": "belong",
+"start": 443.92,
+"end": 444.24
+},
+{
+"word": "to",
+"start": 444.32,
+"end": 444.4
+},
+{
+"word": "franchisees.",
+"start": 444.44,
+"end": 445.92
+},
+{
+"word": "Local",
+"start": 446.0,
+"end": 446.32
+},
+{
+"word": "owners",
+"start": 446.4,
+"end": 446.8
+},
+{
+"word": "pay",
+"start": 446.88,
+"end": 446.96
+},
+{
+"word": "the",
+"start": 447.04,
+"end": 447.08
+},
+{
+"word": "rent,",
+"start": 447.12,
+"end": 447.68
+},
+{
+"word": "the",
+"start": 447.72,
+"end": 447.76
+},
+{
+"word": "staff,",
+"start": 447.84,
+"end": 448.48
+},
+{
+"word": "the",
+"start": 448.52,
+"end": 448.56
+},
+{
+"word": "electricity,",
+"start": 448.8,
+"end": 449.52
+},
+{
+"word": "and",
+"start": 449.6,
+"end": 449.68
+},
+{
+"word": "every",
+"start": 449.84,
+"end": 450.08
+},
+{
+"word": "broken",
+"start": 450.16,
+"end": 450.48
+},
+{
+"word": "treadmill.",
+"start": 450.56,
+"end": 451.6
+},
+{
+"word": "Planet",
+"start": 451.76,
+"end": 451.92
+},
+{
+"word": "Fitness",
+"start": 452.0,
+"end": 452.48
+},
+{
+"word": "takes",
+"start": 452.56,
+"end": 452.72
+},
+{
+"word": "a",
+"start": 452.8,
+"end": 452.88
+},
+{
+"word": "royalty",
+"start": 452.96,
+"end": 453.36
+},
+{
+"word": "off",
+"start": 453.44,
+"end": 453.52
+},
+{
+"word": "the",
+"start": 453.56,
+"end": 453.6
+},
+{
+"word": "top.",
+"start": 453.68,
+"end": 454.48
+},
+{
+"word": "Currently",
+"start": 454.56,
+"end": 455.04
+},
+{
+"word": "seven",
+"start": 455.2,
+"end": 455.36
+},
+{
+"word": "percent",
+"start": 455.52,
+"end": 455.92
+},
+{
+"word": "of",
+"start": 455.96,
+"end": 456.0
+},
+{
+"word": "their",
+"start": 456.08,
+"end": 456.16
+},
+{
+"word": "sales.",
+"start": 456.24,
+"end": 457.28
+},
+{
+"word": "In",
+"start": 457.36,
+"end": 457.44
+},
+{
+"word": "2025,",
+"start": 457.52,
+"end": 458.8
+},
+{
+"word": "that",
+"start": 458.88,
+"end": 459.04
+},
+{
+"word": "franchise",
+"start": 459.12,
+"end": 459.6
+},
+{
+"word": "business",
+"start": 459.68,
+"end": 460.08
+},
+{
+"word": "brought",
+"start": 460.16,
+"end": 460.4
+},
+{
+"word": "in",
+"start": 460.52,
+"end": 460.64
+},
+{
+"word": "four",
+"start": 460.72,
+"end": 460.88
+},
+{
+"word": "hundred",
+"start": 460.96,
+"end": 461.2
+},
+{
+"word": "and",
+"start": 461.28,
+"end": 461.36
+},
+{
+"word": "sixty-eight",
+"start": 461.44,
+"end": 461.92
+},
+{
+"word": "million",
+"start": 462.08,
+"end": 462.4
+},
+{
+"word": "dollars,",
+"start": 462.48,
+"end": 463.2
+},
+{
+"word": "and",
+"start": 463.28,
+"end": 463.44
+},
+{
+"word": "three",
+"start": 463.52,
+"end": 463.68
+},
+{
+"word": "hundred",
+"start": 463.72,
+"end": 463.92
+},
+{
+"word": "and",
+"start": 464.0,
+"end": 464.08
+},
+{
+"word": "thirty-six",
+"start": 464.16,
+"end": 464.64
+},
+{
+"word": "point",
+"start": 464.8,
+"end": 464.96
+},
+{
+"word": "six",
+"start": 465.12,
+"end": 465.28
+},
+{
+"word": "million",
+"start": 465.36,
+"end": 465.76
+},
+{
+"word": "in",
+"start": 465.84,
+"end": 465.92
+},
+{
+"word": "adjusted",
+"start": 466.16,
+"end": 466.4
+},
+{
+"word": "EBITDA.",
+"start": 466.56,
+"end": 467.52
+},
+{
+"word": "A",
+"start": 467.6,
+"end": 467.68
+},
+{
+"word": "margin",
+"start": 467.92,
+"end": 468.16
+},
+{
+"word": "of",
+"start": 468.2,
+"end": 468.24
+},
+{
+"word": "about",
+"start": 468.32,
+"end": 468.64
+},
+{
+"word": "seventy-two",
+"start": 468.72,
+"end": 469.2
+},
+{
+"word": "percent.",
+"start": 469.28,
+"end": 470.0
+},
+{
+"word": "The",
+"start": 471.12,
+"end": 471.28
+},
+{
+"word": "clubs",
+"start": 471.44,
+"end": 471.6
+},
+{
+"word": "Planet",
+"start": 471.68,
+"end": 472.0
+},
+{
+"word": "Fitness",
+"start": 472.16,
+"end": 472.48
+},
+{
+"word": "runs",
+"start": 472.56,
+"end": 472.8
+},
+{
+"word": "itself?",
+"start": 472.92,
+"end": 474.0
+},
+{
+"word": "Five",
+"start": 474.12,
+"end": 474.24
+},
+{
+"word": "hundred",
+"start": 474.32,
+"end": 474.48
+},
+{
+"word": "and",
+"start": 474.56,
+"end": 474.72
+},
+{
+"word": "forty-six",
+"start": 474.84,
+"end": 475.28
+},
+{
+"word": "million",
+"start": 475.44,
+"end": 475.76
+},
+{
+"word": "in",
+"start": 475.84,
+"end": 475.92
+},
+{
+"word": "revenue,",
+"start": 476.0,
+"end": 476.8
+},
+{
+"word": "two",
+"start": 476.88,
+"end": 476.96
+},
+{
+"word": "hundred",
+"start": 477.04,
+"end": 477.28
+},
+{
+"word": "and",
+"start": 477.4,
+"end": 477.52
+},
+{
+"word": "six",
+"start": 477.6,
+"end": 477.68
+},
+{
+"word": "million",
+"start": 477.84,
+"end": 478.08
+},
+{
+"word": "in",
+"start": 478.24,
+"end": 478.28
+},
+{
+"word": "adjusted",
+"start": 478.32,
+"end": 478.8
+},
+{
+"word": "EBITDA.",
+"start": 478.88,
+"end": 479.72
+},
+{
+"word": "About",
+"start": 480.0,
+"end": 480.24
+},
+{
+"word": "thirty-eight",
+"start": 480.32,
+"end": 480.72
+},
+{
+"word": "percent.",
+"start": 480.88,
+"end": 481.64
+},
+{
+"word": "And",
+"start": 481.92,
+"end": 482.0
+},
+{
+"word": "there's",
+"start": 482.04,
+"end": 482.24
+},
+{
+"word": "one",
+"start": 482.32,
+"end": 482.4
+},
+{
+"word": "more",
+"start": 482.48,
+"end": 482.72
+},
+{
+"word": "line",
+"start": 482.84,
+"end": 482.96
+},
+{
+"word": "in",
+"start": 483.04,
+"end": 483.08
+},
+{
+"word": "the",
+"start": 483.12,
+"end": 483.2
+},
+{
+"word": "annual",
+"start": 483.36,
+"end": 483.52
+},
+{
+"word": "report.",
+"start": 483.6,
+"end": 484.16
+},
+{
+"word": "Equipment.",
+"start": 484.64,
+"end": 485.28
+},
+{
+"word": "Planet",
+"start": 485.68,
+"end": 486.0
+},
+{
+"word": "Fitness",
+"start": 486.08,
+"end": 486.56
+},
+{
+"word": "also",
+"start": 486.64,
+"end": 486.96
+},
+{
+"word": "sells",
+"start": 487.04,
+"end": 487.36
+},
+{
+"word": "the",
+"start": 487.4,
+"end": 487.44
+},
+{
+"word": "machines",
+"start": 487.56,
+"end": 488.0
+},
+{
+"word": "to",
+"start": 488.08,
+"end": 488.12
+},
+{
+"word": "its",
+"start": 488.16,
+"end": 488.32
+},
+{
+"word": "franchisees,",
+"start": 488.36,
+"end": 489.52
+},
+{
+"word": "for",
+"start": 489.6,
+"end": 489.68
+},
+{
+"word": "new",
+"start": 489.76,
+"end": 489.92
+},
+{
+"word": "clubs",
+"start": 490.0,
+"end": 490.32
+},
+{
+"word": "and",
+"start": 490.48,
+"end": 490.64
+},
+{
+"word": "to",
+"start": 490.72,
+"end": 490.8
+},
+{
+"word": "replace",
+"start": 491.0,
+"end": 491.2
+},
+{
+"word": "old",
+"start": 491.28,
+"end": 491.52
+},
+{
+"word": "ones",
+"start": 491.64,
+"end": 491.76
+},
+{
+"word": "in",
+"start": 491.84,
+"end": 491.92
+},
+{
+"word": "existing",
+"start": 492.0,
+"end": 492.4
+},
+{
+"word": "clubs.",
+"start": 492.48,
+"end": 492.96
+},
+{
+"word": "In",
+"start": 493.44,
+"end": 493.52
+},
+{
+"word": "2025,",
+"start": 493.6,
+"end": 494.88
+},
+{
+"word": "that",
+"start": 494.96,
+"end": 495.04
+},
+{
+"word": "was",
+"start": 495.12,
+"end": 495.28
+},
+{
+"word": "three",
+"start": 495.36,
+"end": 495.44
+},
+{
+"word": "hundred",
+"start": 495.6,
+"end": 495.76
+},
+{
+"word": "and",
+"start": 495.84,
+"end": 496.0
+},
+{
+"word": "ten",
+"start": 496.08,
+"end": 496.16
+},
+{
+"word": "million",
+"start": 496.32,
+"end": 496.64
+},
+{
+"word": "dollars.",
+"start": 496.72,
+"end": 497.2
+},
+{
+"word": "Almost",
+"start": 497.68,
+"end": 498.0
+},
+{
+"word": "a",
+"start": 498.08,
+"end": 498.16
+},
+{
+"word": "quarter",
+"start": 498.24,
+"end": 498.56
+},
+{
+"word": "of",
+"start": 498.64,
+"end": 498.68
+},
+{
+"word": "the",
+"start": 498.72,
+"end": 498.8
+},
+{
+"word": "company's",
+"start": 498.88,
+"end": 499.28
+},
+{
+"word": "revenue,",
+"start": 499.36,
+"end": 500.0
+},
+{
+"word": "from",
+"start": 500.08,
+"end": 500.24
+},
+{
+"word": "selling",
+"start": 500.32,
+"end": 500.56
+},
+{
+"word": "gym",
+"start": 500.64,
+"end": 500.8
+},
+{
+"word": "equipment",
+"start": 500.88,
+"end": 501.36
+},
+{
+"word": "to",
+"start": 501.44,
+"end": 501.52
+},
+{
+"word": "its",
+"start": 501.6,
+"end": 501.68
+},
+{
+"word": "own",
+"start": 501.76,
+"end": 502.0
+},
+{
+"word": "gyms.",
+"start": 502.08,
+"end": 502.92
+},
+{
+"word": "So",
+"start": 503.28,
+"end": 503.36
+},
+{
+"word": "the",
+"start": 503.44,
+"end": 503.52
+},
+{
+"word": "best",
+"start": 503.6,
+"end": 503.84
+},
+{
+"word": "business",
+"start": 503.92,
+"end": 504.24
+},
+{
+"word": "in",
+"start": 504.32,
+"end": 504.4
+},
+{
+"word": "the",
+"start": 504.44,
+"end": 504.48
+},
+{
+"word": "gym",
+"start": 504.56,
+"end": 504.72
+},
+{
+"word": "world",
+"start": 504.8,
+"end": 505.12
+},
+{
+"word": "isn't",
+"start": 505.28,
+"end": 505.6
+},
+{
+"word": "owning",
+"start": 505.68,
+"end": 505.92
+},
+{
+"word": "a",
+"start": 506.0,
+"end": 506.08
+},
+{
+"word": "gym.",
+"start": 506.16,
+"end": 506.72
+},
+{
+"word": "It's",
+"start": 506.96,
+"end": 507.2
+},
+{
+"word": "owning",
+"start": 507.32,
+"end": 507.52
+},
+{
+"word": "the",
+"start": 507.56,
+"end": 507.6
+},
+{
+"word": "brand,",
+"start": 507.68,
+"end": 508.48
+},
+{
+"word": "and",
+"start": 508.56,
+"end": 508.64
+},
+{
+"word": "letting",
+"start": 508.72,
+"end": 508.96
+},
+{
+"word": "someone",
+"start": 509.04,
+"end": 509.28
+},
+{
+"word": "else",
+"start": 509.36,
+"end": 509.6
+},
+{
+"word": "carry",
+"start": 509.68,
+"end": 509.92
+},
+{
+"word": "the",
+"start": 509.96,
+"end": 510.0
+},
+{
+"word": "treadmills.",
+"start": 510.08,
+"end": 510.72
+},
+{
+"word": "Now",
+"start": 511.44,
+"end": 511.68
+},
+{
+"word": "the",
+"start": 511.72,
+"end": 511.76
+},
+{
+"word": "part",
+"start": 511.84,
+"end": 512.08
+},
+{
+"word": "that's",
+"start": 512.16,
+"end": 512.28
+},
+{
+"word": "about",
+"start": 512.32,
+"end": 512.56
+},
+{
+"word": "your",
+"start": 512.72,
+"end": 512.88
+},
+{
+"word": "money.",
+"start": 512.96,
+"end": 513.28
+},
+{
+"word": "Take",
+"start": 513.76,
+"end": 514.0
+},
+{
+"word": "everything",
+"start": 514.08,
+"end": 514.4
+},
+{
+"word": "you",
+"start": 514.48,
+"end": 514.56
+},
+{
+"word": "paid",
+"start": 514.64,
+"end": 514.88
+},
+{
+"word": "your",
+"start": 514.96,
+"end": 515.04
+},
+{
+"word": "gym",
+"start": 515.12,
+"end": 515.36
+},
+{
+"word": "last",
+"start": 515.52,
+"end": 515.68
+},
+{
+"word": "year.",
+"start": 515.76,
+"end": 516.08
+},
+{
+"word": "Dues,",
+"start": 516.48,
+"end": 517.04
+},
+{
+"word": "fees,",
+"start": 517.12,
+"end": 517.76
+},
+{
+"word": "all",
+"start": 517.84,
+"end": 517.92
+},
+{
+"word": "of",
+"start": 517.96,
+"end": 518.0
+},
+{
+"word": "it.",
+"start": 518.08,
+"end": 518.52
+},
+{
+"word": "Divide",
+"start": 518.8,
+"end": 519.12
+},
+{
+"word": "it",
+"start": 519.2,
+"end": 519.28
+},
+{
+"word": "by",
+"start": 519.36,
+"end": 519.44
+},
+{
+"word": "the",
+"start": 519.52,
+"end": 519.6
+},
+{
+"word": "number",
+"start": 519.72,
+"end": 519.84
+},
+{
+"word": "of",
+"start": 519.88,
+"end": 519.92
+},
+{
+"word": "times",
+"start": 520.0,
+"end": 520.32
+},
+{
+"word": "you",
+"start": 520.4,
+"end": 520.48
+},
+{
+"word": "actually",
+"start": 520.56,
+"end": 520.96
+},
+{
+"word": "went.",
+"start": 521.04,
+"end": 521.64
+},
+{
+"word": "That's",
+"start": 521.92,
+"end": 522.24
+},
+{
+"word": "your",
+"start": 522.32,
+"end": 522.4
+},
+{
+"word": "real",
+"start": 522.56,
+"end": 522.72
+},
+{
+"word": "price",
+"start": 522.88,
+"end": 523.12
+},
+{
+"word": "per",
+"start": 523.2,
+"end": 523.28
+},
+{
+"word": "visit.",
+"start": 523.36,
+"end": 523.76
+},
+{
+"word": "At",
+"start": 524.32,
+"end": 524.4
+},
+{
+"word": "every",
+"start": 524.48,
+"end": 524.72
+},
+{
+"word": "level,",
+"start": 524.8,
+"end": 525.28
+},
+{
+"word": "the",
+"start": 525.36,
+"end": 525.4
+},
+{
+"word": "gym's",
+"start": 525.44,
+"end": 525.84
+},
+{
+"word": "favourite",
+"start": 525.88,
+"end": 526.16
+},
+{
+"word": "member",
+"start": 526.24,
+"end": 526.56
+},
+{
+"word": "is",
+"start": 526.64,
+"end": 526.72
+},
+{
+"word": "a",
+"start": 526.8,
+"end": 526.84
+},
+{
+"word": "little",
+"start": 526.88,
+"end": 527.12
+},
+{
+"word": "different.",
+"start": 527.36,
+"end": 527.88
+},
+{
+"word": "The",
+"start": 528.16,
+"end": 528.24
+},
+{
+"word": "cheap",
+"start": 528.32,
+"end": 528.56
+},
+{
+"word": "gym",
+"start": 528.64,
+"end": 528.88
+},
+{
+"word": "loves",
+"start": 529.04,
+"end": 529.36
+},
+{
+"word": "the",
+"start": 529.4,
+"end": 529.44
+},
+{
+"word": "one",
+"start": 529.52,
+"end": 529.68
+},
+{
+"word": "who",
+"start": 529.76,
+"end": 529.84
+},
+{
+"word": "never",
+"start": 529.92,
+"end": 530.08
+},
+{
+"word": "comes.",
+"start": 530.16,
+"end": 530.88
+},
+{
+"word": "The",
+"start": 531.12,
+"end": 531.2
+},
+{
+"word": "contract",
+"start": 531.28,
+"end": 531.76
+},
+{
+"word": "gym",
+"start": 531.8,
+"end": 532.08
+},
+{
+"word": "loves",
+"start": 532.24,
+"end": 532.4
+},
+{
+"word": "the",
+"start": 532.48,
+"end": 532.56
+},
+{
+"word": "one",
+"start": 532.64,
+"end": 532.72
+},
+{
+"word": "who",
+"start": 532.8,
+"end": 532.96
+},
+{
+"word": "can't",
+"start": 533.04,
+"end": 533.28
+},
+{
+"word": "leave.",
+"start": 533.36,
+"end": 534.0
+},
+{
+"word": "The",
+"start": 534.24,
+"end": 534.32
+},
+{
+"word": "studio",
+"start": 534.4,
+"end": 534.96
+},
+{
+"word": "loves",
+"start": 535.2,
+"end": 535.44
+},
+{
+"word": "the",
+"start": 535.52,
+"end": 535.56
+},
+{
+"word": "one",
+"start": 535.6,
+"end": 535.76
+},
+{
+"word": "who",
+"start": 535.84,
+"end": 535.92
+},
+{
+"word": "never",
+"start": 536.08,
+"end": 536.24
+},
+{
+"word": "misses.",
+"start": 536.32,
+"end": 537.04
+},
+{
+"word": "And",
+"start": 537.28,
+"end": 537.44
+},
+{
+"word": "the",
+"start": 537.48,
+"end": 537.52
+},
+{
+"word": "luxury",
+"start": 537.6,
+"end": 538.0
+},
+{
+"word": "club",
+"start": 538.08,
+"end": 538.32
+},
+{
+"word": "loves",
+"start": 538.56,
+"end": 538.88
+},
+{
+"word": "the",
+"start": 538.92,
+"end": 538.96
+},
+{
+"word": "one",
+"start": 539.04,
+"end": 539.2
+},
+{
+"word": "who",
+"start": 539.28,
+"end": 539.44
+},
+{
+"word": "buys",
+"start": 539.52,
+"end": 539.76
+},
+{
+"word": "the",
+"start": 539.8,
+"end": 539.84
+},
+{
+"word": "trainer.",
+"start": 539.92,
+"end": 540.68
+},
+{
+"word": "Now",
+"start": 541.04,
+"end": 541.28
+},
+{
+"word": "you",
+"start": 541.36,
+"end": 541.44
+},
+{
+"word": "know",
+"start": 541.52,
+"end": 541.6
+},
+{
+"word": "which",
+"start": 541.72,
+"end": 541.84
+},
+{
+"word": "one",
+"start": 541.92,
+"end": 542.0
+},
+{
+"word": "you",
+"start": 542.16,
+"end": 542.24
+},
+{
+"word": "are.",
+"start": 542.32,
+"end": 543.0
+},
+{
+"word": "Next",
+"start": 543.44,
+"end": 543.68
+},
+{
+"word": "week:",
+"start": 543.76,
+"end": 544.32
+},
+{
+"word": "how",
+"start": 544.44,
+"end": 544.56
+},
+{
+"word": "airports",
+"start": 544.64,
+"end": 545.12
+},
+{
+"word": "make",
+"start": 545.2,
+"end": 545.44
+},
+{
+"word": "money.",
+"start": 545.6,
+"end": 546.04
+},
+{
+"word": "Hint:",
+"start": 546.32,
+"end": 547.04
+},
+{
+"word": "look",
+"start": 547.12,
+"end": 547.2
+},
+{
+"word": "at",
+"start": 547.28,
+"end": 547.32
+},
+{
+"word": "the",
+"start": 547.36,
+"end": 547.44
+},
+{
+"word": "parking",
+"start": 547.56,
+"end": 547.84
+},
+{
+"word": "lot.",
+"start": 547.96,
+"end": 548.64
+},
+{
+"word": "While",
+"start": 548.76,
+"end": 548.88
+},
+{
+"word": "you",
+"start": 548.96,
+"end": 549.04
+},
+{
+"word": "watched",
+"start": 549.12,
+"end": 549.28
+},
+{
+"word": "this",
+"start": 549.36,
+"end": 549.44
+},
+{
+"word": "video,",
+"start": 549.52,
+"end": 550.16
+},
+{
+"word": "Planet",
+"start": 550.24,
+"end": 550.48
+},
+{
+"word": "Fitness",
+"start": 550.64,
+"end": 550.96
+},
+{
+"word": "members",
+"start": 551.16,
+"end": 551.36
+},
+{
+"word": "were",
+"start": 551.44,
+"end": 551.52
+},
+{
+"word": "billed",
+"start": 551.56,
+"end": 551.84
+},
+{
+"word": "about",
+"start": 552.0,
+"end": 552.16
+},
+{
+"word": "one",
+"start": 552.24,
+"end": 552.32
+},
+{
+"word": "hundred",
+"start": 552.4,
+"end": 552.64
+},
+{
+"word": "thousand",
+"start": 552.8,
+"end": 553.2
+},
+{
+"word": "dollars",
+"start": 553.28,
+"end": 553.6
+},
+{
+"word": "in",
+"start": 553.68,
+"end": 553.84
+},
+{
+"word": "dues",
+"start": 553.92,
+"end": 554.24
+},
+{
+"word": "and",
+"start": 554.28,
+"end": 554.32
+},
+{
+"word": "fees.",
+"start": 554.4,
+"end": 555.44
+},
+{
+"word": "See",
+"start": 555.52,
+"end": 555.6
+},
+{
+"word": "you",
+"start": 555.64,
+"end": 555.68
+},
+{
+"word": "next",
+"start": 555.76,
+"end": 555.92
+},
+{
+"word": "week.",
+"start": 556.0,
+"end": 556.56
+}
+]
