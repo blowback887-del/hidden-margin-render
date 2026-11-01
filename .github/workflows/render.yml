@@ -28,8 +28,8 @@ jobs:
     outputs:
       matrix: ${{ steps.plan.outputs.matrix }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -43,69 +43,52 @@ jobs:
     strategy:
       fail-fast: true
       matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
-    name: video ${{ matrix.i }} (${{ matrix.start }}-${{ matrix.end }})
+    name: chunk ${{ matrix.i }} (${{ matrix.start }}-${{ matrix.end }})
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
       - run: npm ci --no-audit --no-fund
+      # Lossless PCM audio inside MKV so chunks join without clicks or gaps
       - name: Render frames ${{ matrix.start }}-${{ matrix.end }}
         run: >
-          npx remotion render src/index.ts "$COMP" "out/chunk-${{ matrix.i }}.mp4"
+          npx remotion render src/index.ts "$COMP" "out/chunk-${{ matrix.i }}.mkv"
           --frames=${{ matrix.start }}-${{ matrix.end }}
-          --muted --codec=h264 --crf="$CRF"
+          --codec=h264 --audio-codec=pcm-16 --crf="$CRF"
           --concurrency=2 --gl=angle --log=info
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: chunk-${{ matrix.i }}
-          path: out/chunk-${{ matrix.i }}.mp4
+          path: out/chunk-${{ matrix.i }}.mkv
           retention-days: 1
           compression-level: 0
 
-  audio:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-      - run: npm ci --no-audit --no-fund
-      - name: Render full soundtrack
-        run: npx remotion render src/index.ts "$COMP" out/audio.wav --codec=wav --concurrency=2 --gl=angle
-      - uses: actions/upload-artifact@v4
-        with:
-          name: audio
-          path: out/audio.wav
-          retention-days: 1
-
   merge:
-    needs: [video, audio]
+    needs: video
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
       - run: npm ci --no-audit --no-fund
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           path: parts
           merge-multiple: true
-      - name: Join chunks and add audio
+      - name: Join chunks
         run: |
           mkdir -p final
-          ls parts/chunk-*.mp4 | sort | sed "s|^|file '$PWD/|; s|$|'|" > list.txt
+          ls parts/chunk-*.mkv | sort | sed "s|^|file '$PWD/|; s|$|'|" > list.txt
           cat list.txt
-          npx remotion ffmpeg -hide_banner -y -f concat -safe 0 -i list.txt -c copy video.mp4
-          npx remotion ffmpeg -hide_banner -y -i video.mp4 -i parts/audio.wav \
-            -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 320k -movflags +faststart \
+          npx remotion ffmpeg -hide_banner -y -f concat -safe 0 -i list.txt \
+            -map 0:v:0 -map 0:a:0 -c:v copy -c:a aac -b:a 320k -movflags +faststart \
             "final/$COMP.mp4"
           npx remotion ffprobe -hide_banner "final/$COMP.mp4"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: ${{ inputs.composition }}
           path: final/${{ inputs.composition }}.mp4
