@@ -38,7 +38,7 @@ export const Scene: React.FC<{ dur: number; zoom?: number; children: React.React
   const inn = p(0, 0.22);
   const out = p(dur - 0.22, dur, Easing.in(Easing.cubic));
   const z = 1 + zoom * Math.min(1, t / Math.max(1, dur));
-  return <AbsoluteFill style={{ opacity: Math.max(0.0001, inn) * (1 - out), scale: String(z) }}>{children}</AbsoluteFill>;
+  return <AbsoluteFill style={{ opacity: Math.max(0.0001, inn) * (1 - out), scale: String(z), willChange: "transform" }}>{children}</AbsoluteFill>;
 };
 
 /** Абсолютное позиционирование по центру точки (x,y) */
