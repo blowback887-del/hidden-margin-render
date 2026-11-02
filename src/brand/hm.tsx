@@ -33,12 +33,14 @@ export const Bug: React.FC = () => (
 );
 
 /** Обёртка сцены: медленный наезд 1.00→1.05, мягкий вход, полный уход в ноль */
-export const Scene: React.FC<{ dur: number; zoom?: number; children: React.ReactNode }> = ({ dur, zoom = 0.05, children }) => {
+// Текст, цифры и иконки неподвижны (наезд на всю графику давал «ползущий» текст — Ep03, 02.11.2026).
+// Движение кадру дают фоновые видео/фото со своим медленным наездом. zoom > 0 — только по явной просьбе.
+export const Scene: React.FC<{ dur: number; zoom?: number; children: React.ReactNode }> = ({ dur, zoom = 0, children }) => {
   const { t, p } = useT();
   const inn = p(0, 0.22);
   const out = p(dur - 0.22, dur, Easing.in(Easing.cubic));
   const z = 1 + zoom * Math.min(1, t / Math.max(1, dur));
-  return <AbsoluteFill style={{ opacity: Math.max(0.0001, inn) * (1 - out), scale: String(z), willChange: "transform" }}>{children}</AbsoluteFill>;
+  return <AbsoluteFill style={{ opacity: Math.max(0.0001, inn) * (1 - out), scale: zoom ? String(z) : undefined }}>{children}</AbsoluteFill>;
 };
 
 /** Абсолютное позиционирование по центру точки (x,y) */
