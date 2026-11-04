@@ -1,0 +1,36 @@
+{
+ "episode": "ep04",
+ "words_out": "src/videos/ep04-costco-words.json",
+ "audio_out": "public/audio/ep04-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {
+   "part": 1,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/mbJGMKlJA0c9hONcA4rD/Nk7ewfKAlGGMveHnylZG/content.mp3?Expires=1793804400&KeyName=assets-cdn-key-1&Signature=edAPPNIwQEcxiW1Xqri1DOnGAVI="
+  },
+  {
+   "part": 2,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/3dWxIUD0JixXfNrNMptw/fmgs32hxuHq1ZxaAFwO6/content.mp3?Expires=1793804400&KeyName=assets-cdn-key-1&Signature=VVEv6IeJW0awXKr9OWmSIgHzd3k="
+  },
+  {
+   "part": 3,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/OQXRtaSQO0fWDduoJKlR/gGQ9kTijjTFMPbbvBSJY/content.mp3?Expires=1793804400&KeyName=assets-cdn-key-1&Signature=wbj_QNdhvmMFnto2m41BYqQdhPE="
+  },
+  {
+   "part": 4,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/n2Y3xD72ZZhlRIG2jbIj/RWtJa60tGRE22Vl01Yrn/content.mp3?Expires=1793804400&KeyName=assets-cdn-key-1&Signature=w99XXcsHuOQ0J0pkosjPECLhoJc="
+  },
+  {
+   "part": 5,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/ze5Ddf4FpgJRgAvuwsE4/Qzq3xrlumidd9dxrDsce/content.mp3?Expires=1793804400&KeyName=assets-cdn-key-1&Signature=cNigXOUNUSUl7dnfLZeldy7XeTo="
+  },
+  {
+   "part": 6,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/SwpEwjeqkokd8JW6LbES/dEeMpIs2i3Fm3uUVXeFP/content.mp3?Expires=1793804400&KeyName=assets-cdn-key-1&Signature=Ezo-qa4CEzoxMZNYxo5UsiemD9k="
+  },
+  {
+   "part": 7,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/3rG6oeAXVmkApKJGcR6V/2lbpTuITFQ5V7lcUp7jm/content.mp3?Expires=1793804400&KeyName=assets-cdn-key-1&Signature=pDievUS9TrrNJkpV_f1zUOrTBiM="
+  }
+ ]
+}
