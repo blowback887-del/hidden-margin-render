@@ -1,0 +1,52 @@
+name: Check render
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Run id of the Render video workflow"
+        required: true
+      name:
+        description: "Artifact / composition name (e.g. Ep04-Costco)"
+        required: true
+
+run-name: "Check ${{ inputs.name }}"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v5
+        with:
+          name: ${{ inputs.name }}
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+          path: final
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Measure
+        run: |
+          F="final/${{ inputs.name }}.mp4"
+          mkdir -p public/research
+          R="public/research/${{ inputs.name }}-check.txt"
+          ffprobe -v error -show_entries format=duration,size:stream=codec_name,width,height,r_frame_rate,sample_rate -of default=nw=1 "$F" > "$R"
+          ffmpeg -nostats -i "$F" -af ebur128=peak=true -f null - 2>&1 | grep -A12 "Summary" >> "$R"
+          echo "--- black (>0.5s)" >> "$R"
+          ffmpeg -nostats -i "$F" -vf "blackdetect=d=0.5:pix_th=0.08" -an -f null - 2>&1 | grep black_start >> "$R" || true
+          echo "--- frozen (>3s)" >> "$R"
+          ffmpeg -nostats -i "$F" -vf "freezedetect=n=0.003:d=3" -an -f null - 2>&1 | grep -E "freeze_(start|duration)" >> "$R" || true
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$F")
+          ffmpeg -v error -i "$F" -vf "fps=30/$D,scale=384:216,tile=6x5" -frames:v 1 -q:v 4 "public/research/${{ inputs.name }}-sheet.jpg"
+          cat "$R"
+      - name: Commit report
+        run: |
+          git config user.name "check-bot"
+          git config user.email "check-bot@users.noreply.github.com"
+          git add public/research
+          git commit -m "check-render ${{ inputs.name }}" || echo "nothing"
+          git pull --rebase
+          git push
