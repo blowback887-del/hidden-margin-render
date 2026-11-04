@@ -184,7 +184,7 @@ export const Coin: React.FC<{ timeline: { at: number; pose: Pose }[]; h?: number
 };
 
 // ---------- нарисованные иконки (тонкая линия, палитра канала) ----------
-export type IconName = "car" | "plane" | "ticket" | "garage" | "clock" | "calendar" | "gate" | "lock" | "bag" | "suitcase" | "store" | "cup" | "bottle" | "building" | "pin" | "receipt" | "cart" | "key" | "phone" | "hotel" | "billboard" | "warehouse" | "well" | "city" | "loop" | "flag";
+export type IconName = "car" | "plane" | "ticket" | "garage" | "clock" | "calendar" | "gate" | "lock" | "bag" | "suitcase" | "store" | "cup" | "bottle" | "building" | "pin" | "receipt" | "cart" | "key" | "phone" | "hotel" | "billboard" | "warehouse" | "well" | "city" | "loop" | "flag" | "hotdog" | "card" | "chicken" | "truck" | "factory" | "person" | "percent" | "gym";
 export const Icon: React.FC<{ name: IconName; size?: number; color?: string; sw?: number }> = ({ name, size = 120, color = C3.ink, sw = 2.2 }) => {
   const s = { fill: "none", stroke: color, strokeWidth: sw, strokeLinecap: "round" as const, strokeLinejoin: "round" as const };
   const fillSoft = `${color}22`;
@@ -214,6 +214,14 @@ export const Icon: React.FC<{ name: IconName; size?: number; color?: string; sw?
     well: (<><path d="M24 56 L32 10 L40 56 M27 38 L37 38 M26 46 L38 46 M29 26 L35 26" {...s} /><path d="M18 56 L46 56" {...s} /></>),
     city: (<><path d="M6 56 L6 30 L18 30 L18 20 L30 20 L30 56 M30 56 L30 12 L44 12 L44 56 M44 56 L44 32 L58 32 L58 56" {...s} fill={fillSoft} /></>),
     loop: (<><path d="M46 20 A18 18 0 1 0 50 36" {...s} /><path d="M50 12 L46 20 L54 23" {...s} /></>),
+    hotdog: (<><path d="M8 34 Q8 26 18 26 L46 26 Q56 26 56 34 Q56 42 46 42 L18 42 Q8 42 8 34 Z" {...s} fill={fillSoft} /><path d="M6 33 Q6 29 12 29 L52 29 Q58 29 58 33 Q58 37 52 37 L12 37 Q6 37 6 33 Z" {...s} /><path d="M16 33 Q20 30 24 33 Q28 36 32 33 Q36 30 40 33 Q44 36 48 33" {...s} /></>),
+    card: (<><rect x="6" y="14" width="52" height="36" rx="5" {...s} fill={fillSoft} /><path d="M6 23 L58 23" {...s} /><rect x="12" y="32" width="12" height="9" rx="2" {...s} /><path d="M32 41 L50 41" {...s} /></>),
+    chicken: (<><path d="M12 38 Q10 22 28 20 Q44 18 50 30 Q56 42 44 48 L22 48 Q14 46 12 38 Z" {...s} fill={fillSoft} /><path d="M48 32 L56 26 M50 36 L58 34 M22 48 L20 56 M36 48 L36 56" {...s} /></>),
+    truck: (<><rect x="4" y="18" width="34" height="26" rx="2" {...s} fill={fillSoft} /><path d="M38 26 L50 26 L58 36 L58 44 L38 44 Z" {...s} /><circle cx="16" cy="48" r="5" {...s} /><circle cx="48" cy="48" r="5" {...s} /></>),
+    factory: (<><path d="M6 56 L6 30 L20 22 L20 30 L34 22 L34 30 L48 22 L48 12 L56 12 L56 56 Z" {...s} fill={fillSoft} /><path d="M14 42 L20 42 M28 42 L34 42 M42 42 L48 42" {...s} /></>),
+    person: (<><circle cx="32" cy="20" r="10" {...s} fill={fillSoft} /><path d="M12 56 Q12 36 32 36 Q52 36 52 56" {...s} fill={fillSoft} /></>),
+    percent: (<><circle cx="20" cy="20" r="8" {...s} fill={fillSoft} /><circle cx="44" cy="44" r="8" {...s} fill={fillSoft} /><path d="M48 12 L16 52" {...s} /></>),
+    gym: (<><path d="M8 32 L56 32" {...s} /><rect x="12" y="20" width="8" height="24" rx="2" {...s} fill={fillSoft} /><rect x="44" y="20" width="8" height="24" rx="2" {...s} fill={fillSoft} /><rect x="4" y="25" width="6" height="14" rx="2" {...s} /><rect x="54" y="25" width="6" height="14" rx="2" {...s} /></>),
     flag: (<><path d="M16 58 L16 8" {...s} /><path d="M16 10 L50 10 L42 20 L50 30 L16 30" {...s} fill={fillSoft} /></>),
   };
   return <svg width={size} height={size} viewBox="0 0 64 64" style={{ display: "block", overflow: "visible", filter: `drop-shadow(0 0 18px ${color}33)` }}>{P[name]}</svg>;

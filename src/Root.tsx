@@ -10,6 +10,7 @@ import { Ep02Short, SHORTS, shortFrames } from "./videos/Ep02Shorts";
 import { Ep03Demo, EP03_DEMO_SEC } from "./videos/Ep03Demo";
 import { Ep03Airports, EP03_DURATION_SEC, EP03_PILOT_SEC } from "./videos/Ep03Airports";
 import { Ep03Short, EP03_SHORTS, ep03ShortFrames } from "./videos/Ep03Shorts";
+import { Ep04Costco, EP04_DURATION_SEC } from "./videos/Ep04Costco";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -47,6 +48,7 @@ export const RemotionRoot: React.FC = () => {
           height={720}
           defaultProps={{ line1: "THE POPCORN", line2: "TRAP" }}
         />
+        <Composition id="Ep04-Costco" component={Ep04Costco} durationInFrames={Math.round(EP04_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep03-Airports" component={Ep03Airports} durationInFrames={Math.round(EP03_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep03-Pilot" component={Ep03Airports} durationInFrames={Math.round(EP03_PILOT_SEC * 30)} fps={30} width={1920} height={1080} />
         {EP03_SHORTS.map(({ id, ...p }) => (
