@@ -107,7 +107,7 @@ dict(start="That fifteen percent brand", back=28, el='''<Center y={260}><Label a
 dict(start="But here's where it gets weird", back=29, el='''<CoinAt x={960} y={980} h={480} tl={[{ at: 0.1, pose: "sign" }]} sign="DO THE MATH" />
 <Center y={200}><Title text="Let’s do the math." hl={["math."]} size={80} at={@{math}} /></Center>''', sfx=[("pop", "0.1")]),
 dict(start="In its latest year, Costco sold", back=47, el='''<Waterfall sales={@{two hundred and ninety}} fees={@{Set the}} goods={@{what it paid}} costs={@{wages}} wh={@{nine hundred}} />''', sfx=[("cash", "@{two hundred and ninety}")]),
-dict(start="What's left?", el='''<Center y={300}><Label at={0.1} size={34}>WHAT’S LEFT FROM EVERY $100 YOU SPEND</Label></Center>
+dict(start="What's left?", back=30, el='''<Center y={300}><Label at={0.1} size={34}>WHAT’S LEFT FROM EVERY $100 YOU SPEND</Label></Center>
 <Center y={560}><HundredBill at={0.15} cut={@{about two}} /></Center>
 <Center y={830}><Label at={@{about two}} size={28} color={C3.gold}>BY OUR MATH · OPERATING PROFIT, FEES SET ASIDE</Label></Center>
 <Source>Costco FY2026: $297.2B sales − $264.3B goods − $27.2B costs</Source>''', sfx=[("ding", "@{about two}")]),

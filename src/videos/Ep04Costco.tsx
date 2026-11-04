@@ -90,12 +90,13 @@ const Back: React.FC<{ n: number; dur: number; dim?: number; n2?: number; t2?: n
 const Burst: React.FC<{ clips: [number, number][] }> = ({ clips }) => {
   const { t } = useT();
   let cur = clips[0][0];
-  for (const [n, at] of clips) if (t >= at) cur = n;
+  let since = 0;
+  for (const [n, at] of clips) if (t >= at) { cur = n; since = t - at; }
   return (
     <AbsoluteFill>
       {clips.map(([n]) => (
         <AbsoluteFill key={n} style={{ opacity: n === cur ? 1 : 0 }}>
-          <Vid n={n} need={4} rate={1} style={{ width: "100%", height: "100%", objectFit: "cover", scale: "1.06" }} />
+          <Vid n={n} need={4} rate={1} style={{ width: "100%", height: "100%", objectFit: "cover", scale: String(1.04 + 0.05 * Math.min(1, since / 2.5)), translate: `${-12 * Math.min(1, since / 2.5)}px 0` }} />
         </AbsoluteFill>
       ))}
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(7,10,11,.15) 0%, rgba(7,10,11,.35) 60%, rgba(7,10,11,.8) 100%)" }} />
@@ -529,7 +530,7 @@ const BEATS: Beat[] = [
   { from: 224.94, to: 242.58, back: <><Back n={47} dur={17.64} n2={29} t2={13.64} /></>, el: (<>
 <Waterfall sales={2.34} fees={5.98} goods={9.04} costs={11.42} wh={15.86} />
 </>) },
-  { from: 242.58, to: 249.19, back: null, el: (<>
+  { from: 242.58, to: 249.19, back: <><Back n={30} dur={6.61} /></>, el: (<>
 <Center y={300}><Label at={0.1} size={34}>WHAT’S LEFT FROM EVERY $100 YOU SPEND</Label></Center>
 <Center y={560}><HundredBill at={0.15} cut={2.98} /></Center>
 <Center y={830}><Label at={2.98} size={28} color={C3.gold}>BY OUR MATH · OPERATING PROFIT, FEES SET ASIDE</Label></Center>

@@ -90,12 +90,13 @@ const Back: React.FC<{ n: number; dur: number; dim?: number; n2?: number; t2?: n
 const Burst: React.FC<{ clips: [number, number][] }> = ({ clips }) => {
   const { t } = useT();
   let cur = clips[0][0];
-  for (const [n, at] of clips) if (t >= at) cur = n;
+  let since = 0;
+  for (const [n, at] of clips) if (t >= at) { cur = n; since = t - at; }
   return (
     <AbsoluteFill>
       {clips.map(([n]) => (
         <AbsoluteFill key={n} style={{ opacity: n === cur ? 1 : 0 }}>
-          <Vid n={n} need={4} rate={1} style={{ width: "100%", height: "100%", objectFit: "cover", scale: "1.06" }} />
+          <Vid n={n} need={4} rate={1} style={{ width: "100%", height: "100%", objectFit: "cover", scale: String(1.04 + 0.05 * Math.min(1, since / 2.5)), translate: `${-12 * Math.min(1, since / 2.5)}px 0` }} />
         </AbsoluteFill>
       ))}
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(7,10,11,.15) 0%, rgba(7,10,11,.35) 60%, rgba(7,10,11,.8) 100%)" }} />
