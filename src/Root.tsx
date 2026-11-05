@@ -12,6 +12,7 @@ import { Ep03Airports, EP03_DURATION_SEC, EP03_PILOT_SEC } from "./videos/Ep03Ai
 import { Ep03Short, EP03_SHORTS, ep03ShortFrames } from "./videos/Ep03Shorts";
 import { Ep04Short, EP04_SHORTS, ep04ShortFrames } from "./videos/Ep04Shorts";
 import { Ep04Costco, EP04_DURATION_SEC } from "./videos/Ep04Costco";
+import { Ep05Christmas, EP05_DURATION_SEC } from "./videos/Ep05Christmas";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -50,6 +51,7 @@ export const RemotionRoot: React.FC = () => {
           defaultProps={{ line1: "THE POPCORN", line2: "TRAP" }}
         />
         <Composition id="Ep04-Costco" component={Ep04Costco} durationInFrames={Math.round(EP04_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
+        <Composition id="Ep05-Christmas" component={Ep05Christmas} durationInFrames={Math.round(EP05_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep03-Airports" component={Ep03Airports} durationInFrames={Math.round(EP03_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep03-Pilot" component={Ep03Airports} durationInFrames={Math.round(EP03_PILOT_SEC * 30)} fps={30} width={1920} height={1080} />
         {EP04_SHORTS.map(({ id, ...p }) => (
