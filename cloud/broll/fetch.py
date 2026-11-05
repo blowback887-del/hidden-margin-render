@@ -19,4 +19,4 @@ for c in cfg["clips"]:
 with open("work/tiles.txt", "w") as f:
     for t in tiles: f.write(f"file '{os.path.abspath(t)}'\n")
 run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", "work/tiles.txt",
-     "-vf", "tile=3x16", "-frames:v", "1", "-q:v", "4", cfg["sheet"]])
+     "-vf", f"tile=3x{-(-len(tiles)//3)}", "-frames:v", "1", "-q:v", "4", cfg["sheet"]])
