@@ -50,7 +50,8 @@ dict(start="Before credit cards", tag=CH1, el='''<Center y={420}><Row gap={90}>
   <Col><IconAt at={@{before Amazon}} name="truck" size={190} color={C3.ink} /><Label at={@{before Amazon}} size={30}>AMAZON</Label></Col>
 </Row></Center>
 <Center y={760}><Row gap={24}><IconAt at={@{problem with}} name="calendar" size={110} color={C3.gold} /><Label at={@{problem with}} size={34} color={C3.gold}>A PROBLEM WITH THE CALENDAR</Label></Row></Center>'''),
-dict(start="In nineteen thirty nine", back=11, el='''<Center y={540}><Nov1939 at={0.05} thu={@{five Thursdays}} last={@{thirtieth}} /></Center>''', sfx=[("tick", "@{five Thursdays}"), ("thud", "@{thirtieth}")]),
+dict(start="In nineteen thirty nine", el='''<Stock n={11} until={DUR} dim={0.1} />
+<Center y={540}><Nov1939 at={0.05} thu={@{five Thursdays}} last={@{thirtieth}} /></Center>''', sfx=[("tick", "@{five Thursdays}"), ("thud", "@{thirtieth}")]),
 dict(start="Back then, stores", el='''<Stock n={12} until={DUR} dim={0} />
 <Center y={420}><Row gap={30}><Label at={0.2} size={32}>THANKSGIVING</Label><div style={{ width: 260, height: 6, borderRadius: 3, background: C3.loss }} /><Label at={0.2} size={32}>CHRISTMAS</Label></Row></Center>
 <Center y={250}><IconAt at={@{didn't push}} name="calendar" size={90} color={C3.dim} /></Center>
@@ -113,7 +114,7 @@ dict(start="Here's the thing", back=24, el='''<At x={960} y={200}><Label at={0.0
 </Row></Center>
 <Center y={720}><Title text="Built on purpose." hl={["purpose."]} size={100} at={@{built on purpose}} /></Center>''', sfx=[("ding", "@{built on purpose}")]),
 # ---------------- CHAPTER 2 · NOVEMBER ----------------
-dict(start="Fast forward to today", tag=CH2, alt=54, el='''<Stock n={25} until={DUR} dim={0.18} />
+dict(start="Fast forward to today", tag=CH2, alt=7, el='''<Stock n={25} until={DUR} dim={0.18} />
 <At x={960} y={150}><Label at={0.1} size={30} color={C3.gold}>FAST FORWARD → TODAY</Label></At>
 <Center y={480}><Donut at={@{nineteen percent}} pct={0.19} center="19%" color={C3.gold} size={470} /></Center>
 <Center y={790}><Label at={@{nineteen percent}} size={28}>OF A YEAR'S RETAIL SALES · JUST NOV + DEC</Label></Center>
@@ -244,8 +245,8 @@ dict(start="Last season, thirty seven", back=7, el='''<Center y={330}><Big at={@
 <Source>LendingTree survey, Dec 2025</Source>'''),
 dict(start="And the average interest rate", back=31, el='''<Center y={500}><Tag at={@{Twenty two point}} label="AVERAGE APR · CARDS WITH A BALANCE" value="22.36%" color={C3.loss} /></Center>
 <Source>Federal Reserve G.19 · Aug 2026</Source>'''),
-dict(start="So let's do Jenna's math", el='''<Stock n={45} until={DUR} dim={0.38} />
-<Center y={320}><Kicker size={34} color={C3.gold}>JENNA'S MATH</Kicker></Center>
+dict(start="So let's do Jenna's math", el='''<Stock n={45} until={DUR} dim={0.22} />
+<Center y={320}><Title text="Jenna's math." hl={["math."]} size={80} at={0.05} /></Center>
 <Center y={480}><Big at={@{Twelve hundred}} size={150} color={C3.ink}>$1,223</Big></Center>
 <Center y={640}><Big at={@{Twenty two percent}} size={120} color={C3.loss}>× 22%</Big></Center>
 <Center y={800}><Label at={@{Minimum payments}} size={36} color={C3.gold}>MINIMUM PAYMENTS ONLY</Label></Center>''', sfx=[("click", "@{Twelve hundred}"), ("click", "@{Twenty two percent}")]),
@@ -273,10 +274,10 @@ dict(start="Which brings us to a small town", tag=CH6, el='''<Stock n={50} until
 <Center y={580}><NameCard at={@{Merkel Landis}} name="MERKEL LANDIS" role="TREASURER · CARLISLE TRUST CO." /></Center>
 <Center y={820}><Big at={@{Christmas Club}} size={120} color={C3.money}>THE CHRISTMAS CLUB</Big></Center>
 <Source>Rutgers NJ Digital Newspaper Project · Library of Congress</Source>'''),
-dict(start="Working people brought", alt=11, el='''<Stock n={49} until={DUR} dim={0.3} />
+dict(start="Working people brought", alt=12, el='''<Stock n={49} until={DUR} dim={0.3} />
 <Center y={420}><Label at={0.2} size={38} color={C3.ink}>SMALL DEPOSITS · EVERY WEEK · ALL YEAR</Label></Center>
 <Center y={620}><Label at={@{just before Christmas}} size={36} color={C3.money}>PAID BACK JUST BEFORE CHRISTMAS</Label></Center>'''),
-dict(start="Back then, families paid", back=54, el='''<Center y={520}><TwoEras left={0.1} right={@{Today, we pay}} /></Center>
+dict(start="Back then, families paid", back=24, el='''<Center y={520}><TwoEras left={0.1} right={@{Today, we pay}} /></Center>
 <CoinAt x={1640} y={968} h={240} tl={[{ at: @{The bank held}, pose: "neutral" }, { at: @{The bank holds}, pose: "shocked" }]} />''', sfx=[("swoosh", "@{Today, we pay}")]),
 dict(start="Same holiday", back=36, el='''<Center y={430}><Title text="Same holiday. Same presents." hl={["Same"]} size={86} at={0.05} /></Center>
 <Center y={640}><Label at={@{The money just}} size={38} color={C3.gold}>THE MONEY FLOWS THE OTHER WAY</Label></Center>'''),
@@ -287,7 +288,7 @@ dict(start="And that's the real Christmas", el='''<Stock n={51} until={DUR} dim=
   <div style={{ position: "relative" }}><Label at={@{trillion dollars}} size={36}>$1 TRILLION</Label><Strike at={@{trillion dollars} + 0.4} w={260} /></div>
 </Row></Center>
 <Center y={620}><Big at={@{It's time}} size={240} color={C3.gold}>TIME.</Big></Center>''', sfx=[("impact", "@{It's time}")]),
-dict(start="The gap between getting", el='''<Center y={280}><Label at={0.1} size={38}>THE GAP BETWEEN THE GIFT AND THE PAYMENT</Label></Center>
+dict(start="The gap between getting", back=10, backdim=0.1, el='''<Center y={280}><Label at={0.1} size={38}>THE GAP BETWEEN THE GIFT AND THE PAYMENT</Label></Center>
 <Center y={560}><Row gap={120}>
   <Col><IconAt at={@{gift card is you}} name="receipt" size={200} color={C3.money} /><Label at={@{gift card is you}} size={32} color={C3.money}>GIFT CARD: YOU → STORE</Label></Col>
   <IconAt at={0.3} name="clock" size={220} color={C3.gold} />

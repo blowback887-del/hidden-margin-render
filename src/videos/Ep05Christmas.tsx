@@ -426,7 +426,8 @@ const BEATS: Beat[] = [
 </Row></Center>
 <Center y={760}><Row gap={24}><IconAt at={4.54} name="calendar" size={110} color={C3.gold} /><Label at={4.54} size={34} color={C3.gold}>A PROBLEM WITH THE CALENDAR</Label></Row></Center>
 </>) },
-  { from: 83.2, to: 90.66, back: <><Back n={11} dur={7.46} /></>, el: (<>
+  { from: 83.2, to: 90.66, back: null, el: (<>
+<Stock n={11} until={7.46} dim={0.1} />
 <Center y={540}><Nov1939 at={0.05} thu={3.16} last={6.28} /></Center>
 </>) },
   { from: 90.66, to: 100.9, back: null, el: (<>
@@ -522,7 +523,7 @@ const BEATS: Beat[] = [
 </>) },
   { from: 213.24, to: 226.96, tag: [2, "November"], back: null, el: (<>
 <Stock n={25} until={13.72} dim={0.18} />
-<StockSwap n={54} at={2.63} until={13.72} dim={0.2} />
+<StockSwap n={7} at={2.63} until={13.72} dim={0.2} />
 <At x={960} y={150}><Label at={0.1} size={30} color={C3.gold}>FAST FORWARD → TODAY</Label></At>
 <Center y={480}><Donut at={5.16} pct={0.19} center="19%" color={C3.gold} size={470} /></Center>
 <Center y={790}><Label at={5.16} size={28}>OF A YEAR'S RETAIL SALES · JUST NOV + DEC</Label></Center>
@@ -702,8 +703,8 @@ const BEATS: Beat[] = [
 <Source>Federal Reserve G.19 · Aug 2026</Source>
 </>) },
   { from: 471.98, to: 479.86, back: null, el: (<>
-<Stock n={45} until={7.88} dim={0.38} />
-<Center y={320}><Kicker size={34} color={C3.gold}>JENNA'S MATH</Kicker></Center>
+<Stock n={45} until={7.88} dim={0.22} />
+<Center y={320}><Title text="Jenna's math." hl={["math."]} size={80} at={0.05} /></Center>
 <Center y={480}><Big at={2.26} size={150} color={C3.ink}>$1,223</Big></Center>
 <Center y={640}><Big at={4.59} size={120} color={C3.loss}>× 22%</Big></Center>
 <Center y={800}><Label at={5.76} size={36} color={C3.gold}>MINIMUM PAYMENTS ONLY</Label></Center>
@@ -742,11 +743,11 @@ const BEATS: Beat[] = [
 </>) },
   { from: 519.72, to: 530.5, back: null, el: (<>
 <Stock n={49} until={10.78} dim={0.3} />
-<StockSwap n={11} at={3.17} until={10.78} dim={0.2} />
+<StockSwap n={12} at={3.17} until={10.78} dim={0.2} />
 <Center y={420}><Label at={0.2} size={38} color={C3.ink}>SMALL DEPOSITS · EVERY WEEK · ALL YEAR</Label></Center>
 <Center y={620}><Label at={6.14} size={36} color={C3.money}>PAID BACK JUST BEFORE CHRISTMAS</Label></Center>
 </>) },
-  { from: 530.5, to: 542.52, back: <><Back n={54} dur={12.02} /></>, el: (<>
+  { from: 530.5, to: 542.52, back: <><Back n={24} dur={12.02} /></>, el: (<>
 <Center y={520}><TwoEras left={0.1} right={5.88} /></Center>
 <CoinAt x={1640} y={968} h={240} tl={[{ at: 3.76, pose: "neutral" }, { at: 9.04, pose: "shocked" }]} />
 </>) },
@@ -763,7 +764,7 @@ const BEATS: Beat[] = [
 </Row></Center>
 <Center y={620}><Big at={7.2} size={240} color={C3.gold}>TIME.</Big></Center>
 </>) },
-  { from: 555.8, to: 568.34, back: null, el: (<>
+  { from: 555.8, to: 568.34, back: <><Back n={10} dur={12.54} dim={0.1} /></>, el: (<>
 <Center y={280}><Label at={0.1} size={38}>THE GAP BETWEEN THE GIFT AND THE PAYMENT</Label></Center>
 <Center y={560}><Row gap={120}>
   <Col><IconAt at={3.6} name="receipt" size={200} color={C3.money} /><Label at={3.6} size={32} color={C3.money}>GIFT CARD: YOU → STORE</Label></Col>
