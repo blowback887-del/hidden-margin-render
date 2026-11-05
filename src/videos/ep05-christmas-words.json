@@ -5035,15 +5035,80 @@
 },
 {
 "text": "In",
-"start": 350.94,
-"end": 351.74,
-"part": 5
+"start": 348.55,
+"end": 348.68,
+"part": 5,
+"interp": true
 },
 {
 "text": "his",
-"start": 351.74,
-"end": 352.22,
-"part": 5
+"start": 348.68,
+"end": 348.88,
+"part": 5,
+"interp": true
+},
+{
+"text": "surveys,",
+"start": 348.88,
+"end": 349.4,
+"part": 5,
+"interp": true
+},
+{
+"text": "people",
+"start": 349.4,
+"end": 349.79,
+"part": 5,
+"interp": true
+},
+{
+"text": "typically",
+"start": 349.79,
+"end": 350.37,
+"part": 5,
+"interp": true
+},
+{
+"text": "valued",
+"start": 350.37,
+"end": 350.77,
+"part": 5,
+"interp": true
+},
+{
+"text": "gifts",
+"start": 350.77,
+"end": 351.09,
+"part": 5,
+"interp": true
+},
+{
+"text": "well",
+"start": 351.09,
+"end": 351.35,
+"part": 5,
+"interp": true
+},
+{
+"text": "below",
+"start": 351.35,
+"end": 351.68,
+"part": 5,
+"interp": true
+},
+{
+"text": "what",
+"start": 351.68,
+"end": 351.94,
+"part": 5,
+"interp": true
+},
+{
+"text": "they",
+"start": 351.94,
+"end": 352.2,
+"part": 5,
+"interp": true
 },
 {
 "text": "cost,",
