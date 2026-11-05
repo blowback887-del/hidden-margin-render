@@ -1,0 +1,39 @@
+name: Deliver video
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Run id of the Render video workflow"
+        required: true
+      name:
+        description: "Artifact name (e.g. Ep05-Christmas)"
+        required: true
+
+run-name: "Deliver ${{ inputs.name }}"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.name }}
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: out
+      - name: Split into <100MB parts and push to branch deliver/<name>
+        run: |
+          ls -la out
+          f=$(ls out/*.mp4 | head -1)
+          mkdir parts && split -b 90m -d "$f" "parts/$(basename "$f")."
+          sha256sum "$f" > parts/SHA256.txt
+          cd parts
+          git init -q && git checkout -q -b "deliver/${{ inputs.name }}"
+          git config user.name "deliver-bot" && git config user.email "deliver-bot@users.noreply.github.com"
+          git add . && git commit -qm "Deliver ${{ inputs.name }}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" "deliver/${{ inputs.name }}"
