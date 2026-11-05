@@ -6,8 +6,8 @@ codec_name=aac
 sample_rate=48000
 r_frame_rate=0/0
 duration=603.370000
-size=402921917
-[Parsed_ebur128_0 @ 0x55a6deda0a80] Summary:
+size=427511651
+[Parsed_ebur128_0 @ 0x563131f3da80] Summary:
 
   Integrated loudness:
     I:         -13.2 LUFS
@@ -21,21 +21,8 @@ size=402921917
 
   True peak:
 --- black (>0.5s)
-[blackdetect @ 0x7f7bd004a440] black_start:472.003 black_end:474.336 black_duration:2.333
 --- frozen (>3s)
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_start: 86.667
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_duration: 3.767
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_start: 218.601
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_duration: 4.467
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_start: 223.068
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_duration: 3.667
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_start: 525.903
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_duration: 3.867
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_start: 530.936
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_duration: 3.434
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_start: 556.27
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_duration: 6.2
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_start: 562.47
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_duration: 3.733
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_start: 598.337
-[freezedetect @ 0x55baff28b780] lavfi.freezedetect.freeze_duration: 4.933
+[freezedetect @ 0x560cd2ea4780] lavfi.freezedetect.freeze_start: 86.434
+[freezedetect @ 0x560cd2ea4780] lavfi.freezedetect.freeze_duration: 3.766
+[freezedetect @ 0x560cd2ea4780] lavfi.freezedetect.freeze_start: 598.337
+[freezedetect @ 0x560cd2ea4780] lavfi.freezedetect.freeze_duration: 4.933
