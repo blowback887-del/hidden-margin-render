@@ -31,7 +31,7 @@ const Vid: React.FC<{ n: number; need: number; style: React.CSSProperties; rate?
 
 // ---------- общие куски ----------
 const Center: React.FC<{ y?: number; children: React.ReactNode }> = ({ y = 540, children }) => <At x={960} y={y}>{children}</At>;
-const Top: React.FC<{ children: React.ReactNode; y?: number; at?: number }> = ({ children, y = 150, at = 0.05 }) => <At x={960} y={y}><In at={at} from="down"><Kicker>{children}</Kicker></In></At>;
+const Top: React.FC<{ children: React.ReactNode; y?: number; at?: number }> = ({ children, y = 150, at = 0.05 }) => <At x={960} y={y}><In at={at} from="down"><Kicker size={34}>{children}</Kicker></In></At>;
 const Row: React.FC<{ gap?: number; children: React.ReactNode; align?: string }> = ({ gap = 80, children, align = "center" }) => <div style={{ display: "flex", alignItems: align, justifyContent: "center", gap }}>{children}</div>;
 const Col: React.FC<{ gap?: number; children: React.ReactNode; align?: string }> = ({ gap = 18, children, align = "center" }) => <div style={{ display: "flex", flexDirection: "column", alignItems: align, gap }}>{children}</div>;
 const Big: React.FC<{ at: number; color?: string; size?: number; children: React.ReactNode }> = ({ at, color = C3.ink, size = 160, children }) => <In at={at} from="zoom"><Num color={color} size={size}>{children}</Num></In>;
@@ -293,10 +293,10 @@ const DebtBar: React.FC<{ up: number; down: number; rest: number }> = ({ up, dow
         <div style={{ width: 220, height: H * k1, borderRadius: 14, border: `2px dashed ${C3.loss}66`, position: "absolute", bottom: 0, opacity: k2 }} />
         <div style={{ width: 220, height: Math.max(0, h), borderRadius: 14, background: `linear-gradient(0deg, ${C3.loss}55, ${C3.loss})`, boxShadow: `0 0 40px ${C3.loss}44` }} />
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 24, paddingBottom: 20 }}>
-        <div style={{ opacity: p(up + 0.4, up + 0.8) }}><Num color={C3.loss} size={96} glow={false}>+$44B</Num><Kicker size={22}>OCT–DEC 2025</Kicker></div>
-        <div style={{ opacity: p(down + 0.4, down + 0.8) }}><Num color={C3.money} size={96} glow={false}>−$25B</Num><Kicker size={22}>BY END OF MARCH</Kicker></div>
-        <div style={{ opacity: p(rest, rest + 0.4) }}><Num color={C3.gold} size={96} glow={false}>≈ $19B</Num><Kicker size={22} color={C3.gold}>STILL ON THE BOOKS</Kicker></div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 46, paddingBottom: 20 }}>
+        <div style={{ opacity: p(up + 0.4, up + 0.8) }}><Num color={C3.loss} size={96} glow={false}>+$44B</Num><div style={{ height: 10 }} /><Kicker size={24}>OCT–DEC 2025</Kicker></div>
+        <div style={{ opacity: p(down + 0.4, down + 0.8) }}><Num color={C3.money} size={96} glow={false}>−$25B</Num><div style={{ height: 10 }} /><Kicker size={24}>BY END OF MARCH</Kicker></div>
+        <div style={{ opacity: p(rest, rest + 0.4) }}><Num color={C3.gold} size={96} glow={false}>≈ $19B</Num><div style={{ height: 10 }} /><Kicker size={24} color={C3.gold}>STILL ON THE BOOKS</Kicker></div>
       </div>
     </div>
   );

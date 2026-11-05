@@ -31,7 +31,7 @@ const Vid: React.FC<{ n: number; need: number; style: React.CSSProperties; rate?
 
 // ---------- общие куски ----------
 const Center: React.FC<{ y?: number; children: React.ReactNode }> = ({ y = 540, children }) => <At x={960} y={y}>{children}</At>;
-const Top: React.FC<{ children: React.ReactNode; y?: number; at?: number }> = ({ children, y = 150, at = 0.05 }) => <At x={960} y={y}><In at={at} from="down"><Kicker>{children}</Kicker></In></At>;
+const Top: React.FC<{ children: React.ReactNode; y?: number; at?: number }> = ({ children, y = 150, at = 0.05 }) => <At x={960} y={y}><In at={at} from="down"><Kicker size={34}>{children}</Kicker></In></At>;
 const Row: React.FC<{ gap?: number; children: React.ReactNode; align?: string }> = ({ gap = 80, children, align = "center" }) => <div style={{ display: "flex", alignItems: align, justifyContent: "center", gap }}>{children}</div>;
 const Col: React.FC<{ gap?: number; children: React.ReactNode; align?: string }> = ({ gap = 18, children, align = "center" }) => <div style={{ display: "flex", flexDirection: "column", alignItems: align, gap }}>{children}</div>;
 const Big: React.FC<{ at: number; color?: string; size?: number; children: React.ReactNode }> = ({ at, color = C3.ink, size = 160, children }) => <In at={at} from="zoom"><Num color={color} size={size}>{children}</Num></In>;
@@ -293,10 +293,10 @@ const DebtBar: React.FC<{ up: number; down: number; rest: number }> = ({ up, dow
         <div style={{ width: 220, height: H * k1, borderRadius: 14, border: `2px dashed ${C3.loss}66`, position: "absolute", bottom: 0, opacity: k2 }} />
         <div style={{ width: 220, height: Math.max(0, h), borderRadius: 14, background: `linear-gradient(0deg, ${C3.loss}55, ${C3.loss})`, boxShadow: `0 0 40px ${C3.loss}44` }} />
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 24, paddingBottom: 20 }}>
-        <div style={{ opacity: p(up + 0.4, up + 0.8) }}><Num color={C3.loss} size={96} glow={false}>+$44B</Num><Kicker size={22}>OCT–DEC 2025</Kicker></div>
-        <div style={{ opacity: p(down + 0.4, down + 0.8) }}><Num color={C3.money} size={96} glow={false}>−$25B</Num><Kicker size={22}>BY END OF MARCH</Kicker></div>
-        <div style={{ opacity: p(rest, rest + 0.4) }}><Num color={C3.gold} size={96} glow={false}>≈ $19B</Num><Kicker size={22} color={C3.gold}>STILL ON THE BOOKS</Kicker></div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 46, paddingBottom: 20 }}>
+        <div style={{ opacity: p(up + 0.4, up + 0.8) }}><Num color={C3.loss} size={96} glow={false}>+$44B</Num><div style={{ height: 10 }} /><Kicker size={24}>OCT–DEC 2025</Kicker></div>
+        <div style={{ opacity: p(down + 0.4, down + 0.8) }}><Num color={C3.money} size={96} glow={false}>−$25B</Num><div style={{ height: 10 }} /><Kicker size={24}>BY END OF MARCH</Kicker></div>
+        <div style={{ opacity: p(rest, rest + 0.4) }}><Num color={C3.gold} size={96} glow={false}>≈ $19B</Num><div style={{ height: 10 }} /><Kicker size={24} color={C3.gold}>STILL ON THE BOOKS</Kicker></div>
       </div>
     </div>
   );
@@ -361,7 +361,7 @@ const BEATS: Beat[] = [
 <Stock n={2} until={9.66} dim={-0.15} />
 <Top at={0.05}>JANUARY 2</Top>
 <Center y={560}><Col gap={22}><Big at={5.84} size={150} color={C3.money}>~7 YEARS</Big><Label at={5.84} size={30}>TO GROW A CHRISTMAS TREE</Label></Col></Center>
-<Center y={860}><Label at={7.94} size={36} color={C3.gold}>5 WEEKS ON THE JOB</Label></Center>
+<Center y={860}><Label at={7.94} size={46} color={C3.gold}>5 WEEKS ON THE JOB</Label></Center>
 <Source>National Christmas Tree Association</Source>
 </>) },
   { from: 9.66, to: 15.96, back: null, el: (<>
@@ -371,16 +371,16 @@ const BEATS: Beat[] = [
 </>) },
   { from: 15.96, to: 19.62, back: null, el: (<>
 <Stock n={4} until={3.66} dim={0} />
-<Center y={540}><Statement at={1.46} /></Center>
+<Center y={540}><Statement at={1.46} w={980} /></Center>
 </>) },
   { from: 19.62, to: 25.12, back: <><Back n={55} dur={5.5} /></>, el: (<>
 <Center y={420}><Title text="The magic is over." hl={["magic"]} size={96} at={0.1} /></Center>
 <Center y={600}><Title text="The money is just getting started." hl={["money"]} size={80} at={2.56} /></Center>
-<CoinAt x={1560} y={1010} h={280} tl={[{ at: 0.2, pose: "suspicious" }, { at: 2.56, pose: "point" }]} />
+<CoinAt x={1640} y={968} h={280} tl={[{ at: 0.2, pose: "suspicious" }, { at: 2.56, pose: "point" }]} />
 </>) },
   { from: 25.12, to: 33.84, back: null, el: (<>
 <Stock n={5} until={8.72} dim={-0.15} />
-<StockSwap n={54} at={2.9} until={8.72} dim={0} />
+<StockSwap n={54} at={2.9} until={8.72} dim={0.2} />
 <At x={960} y={300}><Label at={0.2} size={32}>THIS YEAR · NOVEMBER + DECEMBER</Label></At>
 <Center y={500}><Counter to={1.013} at={5.6} dur={1.2} fmt={(v) => "$" + v.toFixed(3) + "T"} size={230} color={C3.gold} /></Center>
 <Center y={720}><Label at={5.6} size={30}>U.S. RETAIL SALES · NOV + DEC 2026 · FORECAST</Label></Center>
@@ -397,7 +397,7 @@ const BEATS: Beat[] = [
 </>) },
   { from: 42.34, to: 50.0, back: null, el: (<>
 <Stock n={7} until={7.66} dim={-0.05} />
-<StockSwap n={25} at={5.13} until={7.66} dim={0} />
+<StockSwap n={25} at={5.13} until={7.66} dim={0.2} />
 <Top at={0.05}>DECEMBER 20, 2025</Top>
 <Center y={560}><NameCard at={2.6} name="JENNA" role="NOT A REAL PERSON · VERY AVERAGE" /></Center>
 </>) },
@@ -410,13 +410,13 @@ const BEATS: Beat[] = [
   { from: 61.02, to: 71.72, back: <><Back n={9} dur={10.7} /></>, el: (<>
 <Center y={520}><YearFlip at={3.34} stop={8.44} label="PAID OFF · JULY 2033" /></Center>
 <Center y={860}><Label at={3.94} size={30} color={C3.loss}>IF SHE PAYS ONLY THE MINIMUM</Label></Center>
-<CoinAt x={1560} y={1010} h={280} tl={[{ at: 0.68, pose: "suspicious" }, { at: 8.44, pose: "shocked" }]} />
-<Source>Our calculation · details later in the video</Source>
+<CoinAt x={1640} y={968} h={280} tl={[{ at: 0.68, pose: "suspicious" }, { at: 8.44, pose: "shocked" }]} />
+<At x={960} y={1000}><Label at={3.94} size={24} color={C3.ink}>*OUR CALCULATION · DETAILS LATER IN THE VIDEO</Label></At>
 </>) },
   { from: 71.72, to: 77.68, back: null, el: (<>
 <Stock n={10} until={5.96} dim={-0.1} />
 <Center y={540}><Title text="Hold that thought." hl={["thought."]} size={88} at={0.05} /></Center>
-<CoinAt x={1560} y={1010} h={280} tl={[{ at: 4.0, pose: "wink" }]} />
+<CoinAt x={1640} y={968} h={280} tl={[{ at: 4.0, pose: "wink" }]} />
 </>) },
   { from: 77.68, to: 83.2, tag: [1, "August 1939"], back: null, el: (<>
 <Center y={420}><Row gap={90}>
@@ -444,10 +444,9 @@ const BEATS: Beat[] = [
   { from: 105.9, to: 118.58, back: null, el: (<>
 <Stock n={14} until={12.68} dim={0.05} />
 <At x={960} y={150}><Label at={0.15} size={28}>PRESIDENT FRANKLIN D. ROOSEVELT</Label></At>
-<Center y={360}><Quote at={2.9} who="FDR ON THE IDEA · AS REPORTED BY AP, 1939" size={96}>“Silly.”</Quote></Center>
-<At x={960} y={540}><Label at={4.78} size={28} color={C3.dim}>THEN HE DID IT ANYWAY</Label></At>
-<Center y={680}><Big at={6.28} size={140} color={C3.gold}>NOV 30 → NOV 23</Big></Center>
-<Center y={850}><Label at={11.32} size={34} color={C3.loss}>A NATIONAL HOLIDAY · MOVED · FOR SHOPPING</Label></Center>
+<Center y={400}><In at={0} out={6.28} from="fade"><Quote at={2.9} who="FDR · AS REPORTED BY AP, 1939" size={110}>“Silly.”</Quote></In></Center>
+<Center y={560}><Big at={6.28} size={150} color={C3.gold}>NOV 30 → NOV 23</Big></Center>
+<Center y={740}><Label at={11.32} size={36} color={C3.loss}>A NATIONAL HOLIDAY · MOVED · FOR SHOPPING</Label></Center>
 </>) },
   { from: 118.58, to: 128.56, back: null, el: (<>
 <Stock n={15} until={9.98} dim={0} />
@@ -460,7 +459,7 @@ const BEATS: Beat[] = [
 </>) },
   { from: 128.56, to: 132.88, back: <><Back n={16} dur={4.32} /></>, el: (<>
 <Center y={500}><Title text="Two Thanksgivings." hl={["Two"]} size={110} at={0.1} /></Center>
-<CoinAt x={1560} y={1010} h={280} tl={[{ at: 3.28, pose: "shrug" }]} />
+<CoinAt x={1640} y={968} h={280} tl={[{ at: 3.28, pose: "shrug" }]} />
 </>) },
   { from: 132.88, to: 139.7, back: null, el: (<>
 <Stock n={17} until={6.82} dim={0.05} />
@@ -481,7 +480,7 @@ const BEATS: Beat[] = [
 <Center y={420}><Title text="A freebie." hl={["freebie."]} size={100} at={0.05} /></Center>
 <Center y={600}><Title text="A marketing gimmick." hl={["gimmick."]} size={100} at={1.08} /></Center>
 </>) },
-  { from: 157.06, to: 166.72, back: <><Back n={20} dur={9.66} dim={-0.25} /></>, el: (<>
+  { from: 157.06, to: 166.72, back: <><Back n={20} dur={9.66} /></>, el: (<>
 <At x={620} y={540}><Booklets at={0.05} glow={3.3} /></At>
 <At x={1380} y={480}><Counter to={2.4} at={6.18} dur={1.0} fmt={(v) => v.toFixed(1) + "M"} size={200} color={C3.gold} /></At>
 <At x={1380} y={650}><Label at={6.18} size={28}>FREE COPIES · FIRST YEAR</Label></At>
@@ -489,12 +488,12 @@ const BEATS: Beat[] = [
 </>) },
   { from: 166.72, to: 169.04, back: null, el: (<>
 <Center y={500}><Big at={0.94} size={210} color={C3.loss}>RUDOLPH</Big></Center>
-<CoinAt x={1560} y={1010} h={280} tl={[{ at: 0.05, pose: "suspicious" }, { at: 0.94, pose: "shocked" }]} />
+<CoinAt x={1640} y={968} h={280} tl={[{ at: 0.05, pose: "suspicious" }, { at: 0.94, pose: "shocked" }]} />
 </>) },
   { from: 169.04, to: 179.02, back: <><Back n={40} dur={9.98} /></>, el: (<>
 <Center y={420}><Title text="Christmas icon." hl={["icon."]} size={96} at={1.84} /></Center>
 <Center y={600}><Title text="Store promotion." hl={["promotion."]} size={96} at={5.2} /></Center>
-<CoinAt x={1560} y={1010} h={280} tl={[{ at: 7.3, pose: "wink" }]} />
+<CoinAt x={1640} y={968} h={280} tl={[{ at: 7.3, pose: "wink" }]} />
 </>) },
   { from: 179.02, to: 188.4, back: null, el: (<>
 <Stock n={21} until={9.38} dim={0} />
@@ -508,11 +507,12 @@ const BEATS: Beat[] = [
 <Center y={520}><div style={{ position: "relative" }}><Tag at={1.66} label="MERCHANTS' REBRAND" value="BIG FRIDAY" /><Strike at={3.2} w={560} /></div></Center>
 </>) },
   { from: 192.3, to: 201.84, back: null, el: (<>
-<Stock n={23} until={9.54} dim={0.05} />
+<Stock n={23} until={9.54} dim={0.38} />
 <Center y={440}><Row gap={60}><Big at={1.44} size={130} color={C3.loss}>RED INK</Big><Big at={3.58} size={110} color={C3.dim}>→</Big><Big at={3.58} size={130} color={C3.ink}>BLACK INK</Big></Row></Center>
 <Center y={700}><Label at={6.26} size={34} color={C3.gold}>NICE STORY · NOT THE ORIGINAL</Label></Center>
 </>) },
   { from: 201.84, to: 213.24, back: <><Back n={24} dur={11.4} /></>, el: (<>
+<At x={960} y={200}><Label at={0.05} size={34} color={C3.gold}>HERE'S THE THING</Label></At>
 <Center y={400}><Row gap={110}>
   <Col><IconAt at={2.58} name="calendar" size={130} color={C3.gold} /><Label at={2.58} size={24}>A MOVED HOLIDAY</Label></Col>
   <Col><IconAt at={3.7} name="receipt" size={130} color={C3.gold} /><Label at={3.7} size={24}>A STORE GIVEAWAY</Label></Col>
@@ -521,10 +521,10 @@ const BEATS: Beat[] = [
 <Center y={720}><Title text="Built on purpose." hl={["purpose."]} size={100} at={6.76} /></Center>
 </>) },
   { from: 213.24, to: 226.96, tag: [2, "November"], back: null, el: (<>
-<Stock n={25} until={13.72} dim={0.05} />
-<StockSwap n={40} at={2.63} until={13.72} dim={0} />
+<Stock n={25} until={13.72} dim={0.18} />
+<StockSwap n={54} at={2.63} until={13.72} dim={0.2} />
 <At x={960} y={150}><Label at={0.1} size={30} color={C3.gold}>FAST FORWARD → TODAY</Label></At>
-<Center y={480}><Donut at={5.16} pct={0.19} center="19%" color={C3.gold} size={400} /></Center>
+<Center y={480}><Donut at={5.16} pct={0.19} center="19%" color={C3.gold} size={470} /></Center>
 <Center y={790}><Label at={5.16} size={28}>OF A YEAR'S RETAIL SALES · JUST NOV + DEC</Label></Center>
 <Center y={250}><Label at={9.56} size={26}>ALMOST A FIFTH OF THE YEAR</Label></Center>
 <Center y={850}><Label at={12.18} size={26} color={C3.gold}>IN THE DARKEST WEEKS OF THE YEAR</Label></Center>
@@ -532,7 +532,7 @@ const BEATS: Beat[] = [
 </>) },
   { from: 226.96, to: 234.92, back: null, el: (<>
 <Stock n={26} until={7.96} dim={0} />
-<StockSwap n={9} at={4.29} until={7.96} dim={0} />
+<StockSwap n={9} at={4.29} until={7.96} dim={0.2} />
 <Center y={460}><Counter to={300000} at={2.82} dur={1.2} fmt={(v) => Math.round(v).toLocaleString("en-US") + "+"} size={190} color={C3.ink} /></Center>
 <Center y={650}><Label at={2.82} size={30}>AMAZON · HOLIDAY HIRES 2026</Label></Center>
 <Center y={760}><Label at={5.76} size={34} color={C3.money}>+20% VS LAST YEAR</Label></Center>
@@ -546,6 +546,7 @@ const BEATS: Beat[] = [
   { from: 237.44, to: 251.0, back: null, el: (<>
 <Stock n={29} until={13.56} dim={0} />
 <StockSwap n={27} at={2.94} until={13.56} dim={0} />
+<At x={960} y={220}><Label at={0.1} size={32}>DELIVERY COMPANIES CHARGE EXTRA FOR THE RUSH</Label></At>
 <Center y={460}><Tag at={4.98} label="EXTRA · PER PACKAGE" value="PEAK SURCHARGE" color={C3.loss} /></Center>
 <Center y={680}><Label at={9.32} size={32}>FROM THE FALL → MID-JANUARY</Label></Center>
 <Center y={820}><Label at={12.42} size={32} color={C3.gold}>EVEN DELIVERY HAS A CHRISTMAS MARKUP</Label></Center>
@@ -557,7 +558,7 @@ const BEATS: Beat[] = [
 <Center y={360}><Big at={3.38} size={130} color={C3.dim}>ONE SONG · 1994</Big></Center>
 <Center y={560}><Big at={6.78} size={170} color={C3.gold}>$2.5–3M</Big></Center>
 <Center y={720}><Label at={6.78} size={30}>A YEAR · ESTIMATED ROYALTIES</Label></Center>
-<CoinAt x={1560} y={1010} h={280} tl={[{ at: 11.04, pose: "wink" }]} />
+<CoinAt x={1640} y={968} h={280} tl={[{ at: 11.04, pose: "wink" }]} />
 <Source>Estimates: The Economist, NY Post</Source>
 </>) },
   { from: 263.94, to: 270.68, back: null, el: (<>
@@ -588,13 +589,12 @@ const BEATS: Beat[] = [
 <Center y={380}><div style={{ position: "relative" }}><Big at={1.08} size={110} color={C3.dim}>“DEFERRED REVENUE”</Big><Strike at={2.3} w={900} /></div></Center>
 <Center y={600}><Big at={4.04} size={130} color={C3.gold}>INTEREST-FREE LOAN</Big></Center>
 <Center y={780}><Label at={5.14} size={34}>FROM YOU → TO A CORPORATION</Label></Center>
-<CoinAt x={1600} y={1010} h={260} tl={[{ at: 4.04, pose: "point" }]} />
+<CoinAt x={1640} y={968} h={260} tl={[{ at: 4.04, pose: "point" }]} />
 </>) },
   { from: 299.6, to: 312.12, back: null, el: (<>
 <Stock n={34} until={12.52} dim={0.05} />
 <At x={960} y={200}><Title text="Someday never comes." hl={["never"]} size={70} at={0.1} /></At>
-<Center y={420}><Label at={4.5} size={34}>STARBUCKS CARDS IN THE U.S. · NO EXPIRATION</Label></Center>
-<Center y={250}><Label at={7.34} size={26} color={C3.dim}>…STATISTICALLY</Label></Center>
+<Center y={420}><Label at={3.04} size={34}>STARBUCKS CARDS IN THE U.S. · NO EXPIRATION</Label></Center>
 <Center y={600}><Label at={9.24} size={34} color={C3.gold}>BUT SOME MONEY IS NEVER SPENT</Label></Center>
 <Center y={780}><Label at={10.88} size={30}>→ BOOKED AS REVENUE</Label></Center>
 </>) },
@@ -603,11 +603,12 @@ const BEATS: Beat[] = [
 <Center y={540}><Big at={7.6} size={220} color={C3.money}>$200M+</Big></Center>
 <Center y={720}><Label at={1.94} size={28}>STARBUCKS · FY2025 · COMPANY-OPERATED STORES</Label></Center>
 <Center y={850}><Label at={13.14} size={36} color={C3.gold}>FOR COFFEE NOBODY DRANK</Label></Center>
-<CoinAt x={1600} y={1010} h={260} tl={[{ at: 9.16, pose: "shocked" }]} />
+<CoinAt x={1640} y={968} h={260} tl={[{ at: 9.16, pose: "shocked" }]} />
 <Source>Starbucks FY2025 annual report (SEC)</Source>
 </>) },
   { from: 327.78, to: 338.94, back: null, el: (<>
-<Stock n={3} until={11.16} dim={0.08} />
+<Stock n={3} until={11.16} dim={-0.12} />
+<At x={960} y={260}><Label at={0.1} size={32}>ACROSS THE COUNTRY</Label></At>
 <Center y={480}><Counter to={27} at={3.86} dur={1.1} fmt={(v) => "$" + Math.round(v) + "B"} size={220} color={C3.gold} /></Center>
 <Center y={680}><Label at={5.84} size={30}>IN UNUSED GIFT CARDS · U.S.</Label></Center>
 <Center y={820}><Label at={9.8} size={32} color={C3.money}>INCLUDING ONE IN YOUR DRAWER</Label></Center>
@@ -627,7 +628,7 @@ const BEATS: Beat[] = [
 <Center y={800}><Label at={4.87} size={32}>ROUGHLY 20% LESS · IN HIS SURVEYS</Label></Center>
 </>) },
   { from: 355.12, to: 367.66, back: null, el: (<>
-<Stock n={38} until={12.54} dim={0.05} />
+<Stock n={38} until={12.54} dim={0.3} />
 <Center y={420}><Counter to={13} at={1.9} dur={1.1} fmt={(v) => "UP TO $" + Math.round(v) + "B"} size={170} color={C3.loss} /></Center>
 <Center y={600}><Label at={4.7} size={30}>OF VALUE · GONE IN ONE U.S. CHRISTMAS</Label></Center>
 <Center y={780}><Label at={7.78} size={34} color={C3.gold}>NOT STOLEN · NOT SPENT · JUST GONE</Label></Center>
@@ -638,15 +639,15 @@ const BEATS: Beat[] = [
 <Center y={420}><Label at={0.2} size={34}>OTHER ECONOMISTS: A GIFT ISN'T ONLY MONEY</Label></Center>
 <Center y={500}><Label at={4.36} size={28} color={C3.money}>AND THEY HAVE A POINT</Label></Center>
 <Center y={660}><Big at={6.34} size={110} color={C3.gold}>SWEATER ≠ INVESTMENT</Big></Center>
-<CoinAt x={1600} y={1010} h={260} tl={[{ at: 6.34, pose: "shrug" }]} />
+<CoinAt x={1640} y={968} h={260} tl={[{ at: 6.34, pose: "shrug" }]} />
 </>) },
   { from: 376.16, to: 386.5, back: <><Back n={40} dur={10.34} /></>, el: (<>
 <Subscribe at={0.82} />
-<CoinAt x={1500} y={1000} h={340} tl={[{ at: 0.82, pose: "point" }, { at: 5.82, pose: "celebrate" }, { at: 8.6, pose: "wink" }]} />
+<CoinAt x={1640} y={968} h={340} tl={[{ at: 0.82, pose: "point" }, { at: 5.82, pose: "celebrate" }, { at: 8.6, pose: "wink" }]} />
 </>) },
   { from: 386.5, to: 401.38, tag: [4, "December 26"], back: null, el: (<>
-<Stock n={41} until={14.88} dim={0.05} />
-<StockSwap n={8} at={7.74} until={14.88} dim={0} />
+<Stock n={41} until={14.88} dim={0.22} />
+<StockSwap n={8} at={7.74} until={14.88} dim={0.2} />
 <Center y={400}><Big at={4.52} size={190} color={C3.loss}>17%</Big></Center>
 <Center y={560}><Label at={4.52} size={28}>OF HOLIDAY SALES EXPECTED BACK · 2025</Label></Center>
 <Center y={740}><Big at={10.96} size={120} color={C3.ink}>≈ $170B</Big></Center>
@@ -660,12 +661,12 @@ const BEATS: Beat[] = [
 <Center y={500}><Label at={0.44} size={28}>OF ALL RETURNS ARE FRAUDULENT</Label></Center>
 <Center y={600}><Label at={4.72} size={26}>RETAILERS EVEN HAVE A NAME FOR IT</Label></Center>
 <Center y={720}><Big at={6.42} size={120} color={C3.gold}>“BOX OF ROCKS”</Big></Center>
-<CoinAt x={1600} y={1010} h={260} tl={[{ at: 6.72, pose: "shocked" }]} />
+<CoinAt x={1640} y={968} h={260} tl={[{ at: 6.72, pose: "shocked" }]} />
 <At x={960} y={860}><Label at={11.84} size={32} color={C3.loss}>MERRY CHRISTMAS</Label></At>
 <Source>NRF / Happy Returns, Oct 2025</Source>
 </>) },
   { from: 414.56, to: 422.24, back: <><Back n={6} dur={7.68} dim={-0.2} /></>, el: (<>
-<At x={960} y={250}><Label at={0.1} size={30} color={C3.dim}>ALL OF THAT IS SMALL CHANGE</Label></At>
+<At x={960} y={260}><Title text="All of that is small change." hl={["small"]} size={64} at={0.1} /></At>
 <Center y={430}><Title text="The biggest Christmas money" hl={["biggest"]} size={86} at={4.26} /></Center>
 <Center y={580}><Title text="isn't made in December." hl={["December."]} size={86} at={5.36} /></Center>
 </>) },
@@ -674,14 +675,16 @@ const BEATS: Beat[] = [
 <Center y={560}><Statement at={1.38} due={1.38 + 0.4} min={3.5} /></Center>
 </>) },
   { from: 426.94, to: 444.32, back: <><Back n={47} dur={17.38} /></>, el: (<>
-<At x={960} y={140}><Label at={7.12} size={30} color={C3.gold}>U.S. CREDIT CARD BALANCES · RECORD $1.28 TRILLION</Label></At>
-<Center y={580}><DebtBar up={4.76} down={11.24} rest={13.88} /></Center>
+<At x={960} y={150}><Label at={3.12} size={30}>U.S. CREDIT CARD BALANCES</Label></At>
+<At x={1500} y={300}><Big at={7.12} size={110} color={C3.gold}>$1.28T</Big></At>
+<At x={1500} y={390}><Label at={7.12} size={26} color={C3.gold}>RECORD</Label></At>
+<At x={760} y={620}><DebtBar up={4.76} down={11.24} rest={13.88} /></At>
 <Source>New York Fed · Household Debt and Credit, Q4 2025 / Q1 2026</Source>
 </>) },
   { from: 444.32, to: 455.06, back: null, el: (<>
 <Stock n={46} until={10.74} dim={0.05} />
 <Center y={420}><Label at={1.88} size={34}>BUY NOW, PAY LATER</Label></Center>
-<Center y={300}><Label at={3.8} size={26} color={C3.dim}>SPLIT INTO SMALL INSTALLMENTS</Label></Center>
+<Center y={880}><Label at={3.8} size={28} color={C3.ink}>SPLIT INTO SMALL INSTALLMENTS</Label></Center>
 <Center y={600}><Counter to={20} at={7.1} dur={1.0} fmt={(v) => "$" + Math.round(v) + "B"} size={200} color={C3.loss} /></Center>
 <Center y={780}><Label at={7.1} size={28}>ONLINE HOLIDAY SPENDING · 2025 · A RECORD</Label></Center>
 <Source>Adobe Analytics, Jan 2026</Source>
@@ -699,7 +702,7 @@ const BEATS: Beat[] = [
 <Source>Federal Reserve G.19 · Aug 2026</Source>
 </>) },
   { from: 471.98, to: 479.86, back: null, el: (<>
-<Stock n={45} until={7.88} dim={0.12} />
+<Stock n={45} until={7.88} dim={0.38} />
 <Center y={320}><Kicker size={34} color={C3.gold}>JENNA'S MATH</Kicker></Center>
 <Center y={480}><Big at={2.26} size={150} color={C3.ink}>$1,223</Big></Center>
 <Center y={640}><Big at={4.59} size={120} color={C3.loss}>× 22%</Big></Center>
@@ -710,7 +713,7 @@ const BEATS: Beat[] = [
 <Center y={480}><PayStrip at={0.36} dur={2.6} /></Center>
 <Center y={760}><Label at={2.72} size={34}>≈ 7.5 YEARS</Label></Center>
 <Center y={880}><Big at={4.4} size={110} color={C3.gold}>≈ $1,200 INTEREST</Big></Center>
-<Source>Our calculation: interest + 1% of balance, $25 minimum, 22.36% APR, no new purchases</Source>
+<At x={960} y={1000}><Label at={0.36} size={24} color={C3.ink}>*OUR CALCULATION: INTEREST + 1% OF BALANCE · $25 MINIMUM · 22.36% APR · NO NEW PURCHASES</Label></At>
 </>) },
   { from: 488.2, to: 494.36, back: null, el: (<>
 <Center y={500}><Row gap={90}>
@@ -721,13 +724,13 @@ const BEATS: Beat[] = [
 </>) },
   { from: 494.36, to: 509.16, back: null, el: (<>
 <Stock n={9} until={14.8} dim={0.08} />
-<StockSwap n={5} at={7.26} until={14.8} dim={0} />
+<StockSwap n={5} at={7.26} until={14.8} dim={0.2} />
 <Center y={260}><Label at={1.4} size={28} color={C3.money}>MOST PEOPLE DON'T</Label></Center>
 <Center y={420}><Big at={5.3} size={160} color={C3.ink}>≈ 1 IN 5</Big></Center>
 <Center y={580}><Label at={5.3} size={28}>HOLIDAY BORROWERS PAID JUST THE MINIMUM</Label></Center>
 <Center y={690}><Label at={9.22} size={28}>BUT THE SYSTEM ALLOWS IT</Label></Center>
 <Center y={790}><Label at={11.68} size={34} color={C3.gold}>WHOEVER LENDS THE TIME GETS PAID</Label></Center>
-<CoinAt x={1600} y={1010} h={260} tl={[{ at: 11.68, pose: "point" }]} />
+<CoinAt x={1640} y={968} h={260} tl={[{ at: 11.68, pose: "point" }]} />
 <Source>LendingTree holiday debt survey (2023)</Source>
 </>) },
   { from: 509.16, to: 519.72, tag: [6, "December 1909"], back: null, el: (<>
@@ -739,13 +742,13 @@ const BEATS: Beat[] = [
 </>) },
   { from: 519.72, to: 530.5, back: null, el: (<>
 <Stock n={49} until={10.78} dim={0.3} />
-<StockSwap n={11} at={3.17} until={10.78} dim={0} />
-<Center y={420}><Label at={0.2} size={34}>SMALL DEPOSITS · EVERY WEEK · ALL YEAR</Label></Center>
+<StockSwap n={11} at={3.17} until={10.78} dim={0.2} />
+<Center y={420}><Label at={0.2} size={38} color={C3.ink}>SMALL DEPOSITS · EVERY WEEK · ALL YEAR</Label></Center>
 <Center y={620}><Label at={6.14} size={36} color={C3.money}>PAID BACK JUST BEFORE CHRISTMAS</Label></Center>
 </>) },
   { from: 530.5, to: 542.52, back: <><Back n={54} dur={12.02} /></>, el: (<>
 <Center y={520}><TwoEras left={0.1} right={5.88} /></Center>
-<CoinAt x={1640} y={1030} h={240} tl={[{ at: 3.76, pose: "neutral" }, { at: 9.04, pose: "shocked" }]} />
+<CoinAt x={1640} y={968} h={240} tl={[{ at: 3.76, pose: "neutral" }, { at: 9.04, pose: "shocked" }]} />
 </>) },
   { from: 542.52, to: 547.48, back: <><Back n={36} dur={4.96} /></>, el: (<>
 <Center y={430}><Title text="Same holiday. Same presents." hl={["Same"]} size={86} at={0.05} /></Center>
@@ -779,17 +782,17 @@ const BEATS: Beat[] = [
 <Center y={480}><GiftCard at={0.84} /></Center>
 <Center y={850}><Label at={4.42} size={34} color={C3.gold}>THE MOST PROFITABLE PRESENT IN THE HOUSE</Label></Center>
 </>) },
-  { from: 580.5, to: 588.94, back: <><Back n={52} dur={8.44} /></>, el: (<>
+  { from: 580.5, to: 588.94, back: <><Back n={52} dur={8.44} dim={0.15} /></>, el: (<>
 <Center y={540}><Col gap={46}>
-  <Row gap={24}><IconAt at={0.05} name="calendar" size={90} color={C3.gold} /><Label at={0.05} size={34}>THANKSGIVING · MOVED FOR SHOPPING</Label></Row>
-  <Row gap={24}><IconAt at={2.34} name="receipt" size={90} color={C3.gold} /><Label at={2.34} size={34}>RUDOLPH · A STORE GIVEAWAY</Label></Row>
-  <Row gap={24}><IconAt at={6.4} name="card" size={90} color={C3.gold} /><Label at={6.4} size={34}>YOUR GIFT CARD · A FORGOTTEN LOAN</Label></Row>
+  <Row gap={30}><IconAt at={0.05} name="calendar" size={130} color={C3.gold} /><Label at={0.05} size={42}>THANKSGIVING · MOVED FOR SHOPPING</Label></Row>
+  <Row gap={30}><IconAt at={2.34} name="receipt" size={130} color={C3.gold} /><Label at={2.34} size={42}>RUDOLPH · A STORE GIVEAWAY</Label></Row>
+  <Row gap={30}><IconAt at={4.46} name="card" size={130} color={C3.gold} /><Label at={4.46} size={42}>YOUR GIFT CARD · A FORGOTTEN LOAN</Label></Row>
 </Col></Center>
 </>) },
   { from: 588.94, to: 594.02, back: <><Back n={55} dur={5.08} /></>, el: (<>
 <Center y={440}><Title text="Still paying for last Christmas?" hl={["paying"]} size={86} at={1.32} /></Center>
 <Center y={620}><Label at={4.2} size={34} color={C3.gold}>TELL ME IN THE COMMENTS</Label></Center>
-<CoinAt x={1560} y={1010} h={300} tl={[{ at: 0.1, pose: "suspicious" }, { at: 4.2, pose: "point" }]} />
+<CoinAt x={1640} y={968} h={300} tl={[{ at: 0.1, pose: "suspicious" }, { at: 4.2, pose: "point" }]} />
 </>) },
   { from: 594.02, to: 603.36, back: null, el: (<>
 <EndCard at={0.1} />

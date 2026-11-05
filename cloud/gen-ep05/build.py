@@ -35,7 +35,7 @@ for k,sc in enumerate(S):
         ats=sorted(set([0.0]+[float(x) for x in re.findall(r"(?:\bat|\bstop|\bthu|\blast|\bglow|\bup|\bdown|\brest|\bleft|\bright|\bhl|\bdue|\bmin)=\{([\d.]+)",el)]+[float(x) for x in re.findall(r"\bat: ([\d.]+)",el)]+[dur]))
         gaps=[(ats[q+1]-ats[q],ats[q]) for q in range(len(ats)-1)]; g,g0=max(gaps)
         t2=round(min(dur-1.5,max(1.5,g0+g/2)),2)
-        el=re.sub(r"(<Stock n=\{\d+\} until=\{[\d.]+\}[^/]*/>)",r"\1\n<StockSwap n={%d} at={%s} until={%s} dim={0} />"%(sc['alt'],t2,dur),el,count=1)
+        el=re.sub(r"(<Stock n=\{\d+\} until=\{[\d.]+\}[^/]*/>)",r"\1\n<StockSwap n={%d} at={%s} until={%s} dim={0.2} />"%(sc['alt'],t2,dur),el,count=1)
     back=f"<Back n={{{sc['back']}}} dur={{{dur}}}"+(f" dim={{{sc['backdim']}}}" if sc.get('backdim') is not None else '')+" />" if sc.get('back') else ''
     tag=f"tag: [{sc['tag'][0]}, \"{sc['tag'][1]}\"], " if sc.get('tag') else ''
     beats.append(f"  {{ from: {t0}, to: {t1}, {tag}back: {('<>'+back+'</>') if back else 'null'}, el: (<>\n{el}\n</>) }},")
