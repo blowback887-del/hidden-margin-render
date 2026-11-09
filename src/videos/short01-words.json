@@ -1,0 +1,656 @@
+[
+{
+"text": "Your",
+"start": 0.0,
+"end": 0.24,
+"part": 1
+},
+{
+"text": "gas",
+"start": 0.24,
+"end": 0.54,
+"part": 1
+},
+{
+"text": "station",
+"start": 0.54,
+"end": 0.88,
+"part": 1
+},
+{
+"text": "makes",
+"start": 0.88,
+"end": 1.16,
+"part": 1
+},
+{
+"text": "about",
+"start": 1.16,
+"end": 1.46,
+"part": 1
+},
+{
+"text": "13",
+"start": 1.46,
+"end": 2.06,
+"part": 1
+},
+{
+"text": "cents",
+"start": 2.06,
+"end": 2.5,
+"part": 1
+},
+{
+"text": "on",
+"start": 2.5,
+"end": 2.72,
+"part": 1
+},
+{
+"text": "a",
+"start": 2.72,
+"end": 2.88,
+"part": 1
+},
+{
+"text": "gallon",
+"start": 2.88,
+"end": 3.08,
+"part": 1
+},
+{
+"text": "of",
+"start": 3.08,
+"end": 3.3,
+"part": 1
+},
+{
+"text": "gas.",
+"start": 3.3,
+"end": 3.66,
+"part": 1
+},
+{
+"text": "A",
+"start": 4.06,
+"end": 4.18,
+"part": 1
+},
+{
+"text": "whole",
+"start": 4.18,
+"end": 4.36,
+"part": 1
+},
+{
+"text": "tank?",
+"start": 4.36,
+"end": 4.72,
+"part": 1
+},
+{
+"text": "$2",
+"start": 5.1,
+"end": 5.38,
+"part": 1
+},
+{
+"text": ".60.",
+"start": 5.38,
+"end": 6.38,
+"part": 1
+},
+{
+"text": "So",
+"start": 7.12,
+"end": 7.5,
+"part": 1
+},
+{
+"text": "how",
+"start": 7.5,
+"end": 7.86,
+"part": 1
+},
+{
+"text": "is",
+"start": 7.86,
+"end": 8.02,
+"part": 1
+},
+{
+"text": "it",
+"start": 8.02,
+"end": 8.18,
+"part": 1
+},
+{
+"text": "still",
+"start": 8.18,
+"end": 8.4,
+"part": 1
+},
+{
+"text": "open?",
+"start": 8.4,
+"end": 8.8,
+"part": 1
+},
+{
+"text": "The",
+"start": 9.32,
+"end": 9.44,
+"part": 1
+},
+{
+"text": "snacks.",
+"start": 9.44,
+"end": 9.9,
+"part": 1
+},
+{
+"text": "The",
+"start": 10.42,
+"end": 10.54,
+"part": 1
+},
+{
+"text": "store",
+"start": 10.54,
+"end": 10.76,
+"part": 1
+},
+{
+"text": "inside",
+"start": 10.76,
+"end": 11.16,
+"part": 1
+},
+{
+"text": "brings",
+"start": 11.16,
+"end": 11.52,
+"part": 1
+},
+{
+"text": "in",
+"start": 11.52,
+"end": 11.7,
+"part": 1
+},
+{
+"text": "about",
+"start": 11.7,
+"end": 11.9,
+"part": 1
+},
+{
+"text": "60",
+"start": 11.9,
+"end": 12.44,
+"part": 1
+},
+{
+"text": "%",
+"start": 12.44,
+"end": 12.86,
+"part": 1
+},
+{
+"text": "of",
+"start": 12.86,
+"end": 13.04,
+"part": 1
+},
+{
+"text": "the",
+"start": 13.04,
+"end": 13.2,
+"part": 1
+},
+{
+"text": "profit.",
+"start": 13.2,
+"end": 13.56,
+"part": 1
+},
+{
+"text": "The",
+"start": 13.94,
+"end": 14.08,
+"part": 1
+},
+{
+"text": "pumps",
+"start": 14.08,
+"end": 14.4,
+"part": 1
+},
+{
+"text": "are",
+"start": 14.4,
+"end": 14.76,
+"part": 1
+},
+{
+"text": "just",
+"start": 14.76,
+"end": 14.98,
+"part": 1
+},
+{
+"text": "the",
+"start": 14.98,
+"end": 15.2,
+"part": 1
+},
+{
+"text": "bait.",
+"start": 15.2,
+"end": 15.42,
+"part": 1
+},
+{
+"text": "And",
+"start": 15.8,
+"end": 15.94,
+"part": 1
+},
+{
+"text": "it's",
+"start": 15.94,
+"end": 16.14,
+"part": 1
+},
+{
+"text": "not",
+"start": 16.14,
+"end": 16.3,
+"part": 1
+},
+{
+"text": "the",
+"start": 16.3,
+"end": 16.5,
+"part": 1
+},
+{
+"text": "only",
+"start": 16.5,
+"end": 16.72,
+"part": 1
+},
+{
+"text": "one.",
+"start": 16.72,
+"end": 17.06,
+"part": 1
+},
+{
+"text": "Starbucks",
+"start": 17.48,
+"end": 17.82,
+"part": 1
+},
+{
+"text": "booked",
+"start": 17.82,
+"end": 18.18,
+"part": 1
+},
+{
+"text": "over",
+"start": 18.18,
+"end": 18.52,
+"part": 1
+},
+{
+"text": "$200",
+"start": 18.52,
+"end": 19.2,
+"part": 1
+},
+{
+"text": "million",
+"start": 19.2,
+"end": 19.76,
+"part": 1
+},
+{
+"text": "in",
+"start": 20.12,
+"end": 20.46,
+"part": 1
+},
+{
+"text": "one",
+"start": 20.46,
+"end": 20.86,
+"part": 1
+},
+{
+"text": "year",
+"start": 20.86,
+"end": 21.2,
+"part": 1
+},
+{
+"text": "for",
+"start": 21.2,
+"end": 21.46,
+"part": 1
+},
+{
+"text": "coffee",
+"start": 21.46,
+"end": 21.86,
+"part": 1
+},
+{
+"text": "nobody",
+"start": 21.86,
+"end": 22.38,
+"part": 1
+},
+{
+"text": "drank,",
+"start": 22.38,
+"end": 22.92,
+"part": 1
+},
+{
+"text": "gift",
+"start": 23.32,
+"end": 23.52,
+"part": 1
+},
+{
+"text": "cards",
+"start": 23.52,
+"end": 23.86,
+"part": 1
+},
+{
+"text": "nobody",
+"start": 23.86,
+"end": 24.42,
+"part": 1
+},
+{
+"text": "spent.",
+"start": 24.42,
+"end": 24.92,
+"part": 1
+},
+{
+"text": "In",
+"start": 25.4,
+"end": 25.54,
+"part": 1
+},
+{
+"text": "1939,",
+"start": 25.54,
+"end": 26.44,
+"part": 1
+},
+{
+"text": "America",
+"start": 26.78,
+"end": 27.2,
+"part": 1
+},
+{
+"text": "moved",
+"start": 27.2,
+"end": 27.5,
+"part": 1
+},
+{
+"text": "Thanksgiving",
+"start": 27.5,
+"end": 27.96,
+"part": 1
+},
+{
+"text": "a",
+"start": 27.96,
+"end": 28.34,
+"part": 1
+},
+{
+"text": "week",
+"start": 28.34,
+"end": 28.5,
+"part": 1
+},
+{
+"text": "earlier,",
+"start": 28.5,
+"end": 29.06,
+"part": 1
+},
+{
+"text": "so",
+"start": 29.06,
+"end": 29.38,
+"part": 1
+},
+{
+"text": "stores",
+"start": 29.38,
+"end": 29.74,
+"part": 1
+},
+{
+"text": "had",
+"start": 29.74,
+"end": 29.92,
+"part": 1
+},
+{
+"text": "more",
+"start": 29.92,
+"end": 30.14,
+"part": 1
+},
+{
+"text": "time",
+"start": 30.14,
+"end": 30.44,
+"part": 1
+},
+{
+"text": "to",
+"start": 30.44,
+"end": 30.6,
+"part": 1
+},
+{
+"text": "sell",
+"start": 30.6,
+"end": 30.76,
+"part": 1
+},
+{
+"text": "you",
+"start": 30.76,
+"end": 30.94,
+"part": 1
+},
+{
+"text": "Christmas.",
+"start": 30.94,
+"end": 31.36,
+"part": 1
+},
+{
+"text": "Every",
+"start": 32.14,
+"end": 32.24,
+"part": 1
+},
+{
+"text": "business",
+"start": 32.24,
+"end": 32.68,
+"part": 1
+},
+{
+"text": "you",
+"start": 32.68,
+"end": 32.9,
+"part": 1
+},
+{
+"text": "use",
+"start": 32.9,
+"end": 33.26,
+"part": 1
+},
+{
+"text": "has",
+"start": 33.26,
+"end": 33.48,
+"part": 1
+},
+{
+"text": "a",
+"start": 33.48,
+"end": 33.7,
+"part": 1
+},
+{
+"text": "hidden",
+"start": 33.7,
+"end": 33.9,
+"part": 1
+},
+{
+"text": "margin.",
+"start": 33.9,
+"end": 34.38,
+"part": 1
+},
+{
+"text": "We",
+"start": 34.86,
+"end": 34.96,
+"part": 1
+},
+{
+"text": "find",
+"start": 34.96,
+"end": 35.32,
+"part": 1
+},
+{
+"text": "it",
+"start": 35.32,
+"end": 35.52,
+"part": 1
+},
+{
+"text": "with",
+"start": 35.52,
+"end": 35.78,
+"part": 1
+},
+{
+"text": "real",
+"start": 35.78,
+"end": 36.04,
+"part": 1
+},
+{
+"text": "numbers",
+"start": 36.04,
+"end": 36.46,
+"part": 1
+},
+{
+"text": "in",
+"start": 36.46,
+"end": 36.72,
+"part": 1
+},
+{
+"text": "full",
+"start": 36.72,
+"end": 37.04,
+"part": 1
+},
+{
+"text": "stories",
+"start": 37.04,
+"end": 37.48,
+"part": 1
+},
+{
+"text": "on",
+"start": 37.48,
+"end": 37.7,
+"part": 1
+},
+{
+"text": "this",
+"start": 37.7,
+"end": 37.84,
+"part": 1
+},
+{
+"text": "channel.",
+"start": 37.84,
+"end": 38.26,
+"part": 1
+},
+{
+"text": "Pick",
+"start": 38.68,
+"end": 38.78,
+"part": 1
+},
+{
+"text": "one.",
+"start": 38.78,
+"end": 39.08,
+"part": 1
+},
+{
+"text": "Then",
+"start": 39.54,
+"end": 39.76,
+"part": 1
+},
+{
+"text": "look",
+"start": 39.76,
+"end": 40.14,
+"part": 1
+},
+{
+"text": "at",
+"start": 40.14,
+"end": 40.28,
+"part": 1
+},
+{
+"text": "your",
+"start": 40.28,
+"end": 40.4,
+"part": 1
+},
+{
+"text": "receipts",
+"start": 40.4,
+"end": 40.7,
+"part": 1
+},
+{
+"text": "again.",
+"start": 40.7,
+"end": 41.14,
+"part": 1
+}
+]
