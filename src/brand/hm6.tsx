@@ -412,9 +412,9 @@ export const RocketFeather: React.FC<{ at: number; fall: number; w?: number; h?:
         {k2 > 0 && <polyline points={`${pts[1][0]},${pts[1][1]} ${x2},${y2}`} fill="none" stroke={C6.money} strokeWidth={8} strokeLinecap="round" strokeDasharray="2 14" />}
         <circle cx={k2 > 0 ? x2 : x1} cy={k2 > 0 ? y2 : y1} r={14} fill={k2 > 0 ? C6.money : C6.loss} />
       </svg>
-      <div style={{ position: "absolute", left: pts[0][0], top: pts[0][1] + 26, opacity: p(at, at + 0.3) }}><Kicker6 size={22} color={C6.ink}>{labels[0]}</Kicker6></div>
-      <div style={{ position: "absolute", left: pts[1][0], top: pts[1][1] - 60, translate: "-50% 0", opacity: k1 }}><Kicker6 size={22} color={C6.loss}>{labels[1]}</Kicker6></div>
-      <div style={{ position: "absolute", right: 0, top: pts[2][1] + 30, opacity: p(fall + 2.2, fall + 2.6) }}><Kicker6 size={22} color={C6.money}>{labels[2]}</Kicker6></div>
+      <div style={{ position: "absolute", left: pts[0][0], top: pts[0][1] + 26, opacity: p(at, at + 0.3) }}><Kicker6 size={40} color={C6.ink}>{labels[0]}</Kicker6></div>
+      <div style={{ position: "absolute", left: pts[1][0], top: pts[1][1] - 84, translate: "-50% 0", opacity: k1 }}><Kicker6 size={40} color={C6.loss}>{labels[1]}</Kicker6></div>
+      <div style={{ position: "absolute", right: 0, top: pts[2][1] + 34, opacity: p(fall + 2.2, fall + 2.6) }}><Kicker6 size={40} color={C6.money}>{labels[2]}</Kicker6></div>
     </div>
   );
 };
@@ -483,7 +483,7 @@ export const Icon6: React.FC<{ name: Icon6Name; size?: number; color?: string; s
     coffee: (<><path d="M14 20 L46 20 L42 56 L18 56 Z" {...s} fill={soft} /><path d="M12 20 L48 20 L46 14 L14 14 Z" {...s} /><path d="M20 36 L40 36" {...s} /></>),
     oven: (<><rect x="8" y="12" width="48" height="42" rx="4" {...s} fill={soft} /><rect x="14" y="22" width="36" height="24" rx="3" {...s} /><path d="M18 18 L24 18 M30 18 L34 18" {...s} /><path d="M22 40 Q28 34 32 40 Q36 34 42 40" {...s} /></>),
     gallon: (<><path d="M16 18 L40 18 L50 28 L50 56 L14 56 L14 22 Q14 18 16 18 Z" {...s} fill={soft} /><rect x="32" y="8" width="10" height="10" rx="2" {...s} /></>),
-    coin: (<><circle cx="32" cy="32" r="22" {...s} fill={soft} /><text x="32" y="41" textAnchor="middle" fontFamily={SERIF} fontSize="26" fill={color}>¢</text></>),
+    coin: (<><ellipse cx="32" cy="46" rx="20" ry="7" {...s} fill={soft} /><path d="M12 38 L12 46 M52 38 L52 46" {...s} /><ellipse cx="32" cy="38" rx="20" ry="7" {...s} fill={soft} /><path d="M12 30 L12 38 M52 30 L52 38" {...s} /><ellipse cx="32" cy="30" rx="20" ry="7" {...s} fill={soft} /><path d="M12 22 L12 30 M52 22 L52 30" {...s} /><ellipse cx="32" cy="22" rx="20" ry="7" {...s} fill={soft} /></>),
     oil: (<><path d="M20 12 L44 12 L44 56 L20 56 Z" {...s} fill={soft} /><path d="M20 24 L44 24 M20 44 L44 44" {...s} /></>),
     refinery: (<><path d="M8 56 L8 34 L22 34 L22 18 L28 18 L28 34 L38 34 L38 10 L44 10 L44 34 L56 34 L56 56 Z" {...s} fill={soft} /><path d="M14 44 L18 44 M30 44 L34 44 M46 44 L50 44" {...s} /></>),
     taxes: (<><rect x="12" y="10" width="40" height="46" rx="3" {...s} fill={soft} /><path d="M20 22 L44 22 M20 31 L44 31 M20 40 L34 40" {...s} /><text x="44" y="52" textAnchor="middle" fontFamily={SERIF} fontSize="16" fill={color}>%</text></>),

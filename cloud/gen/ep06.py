@@ -48,7 +48,7 @@ dict(start="So how do a hundred", sfx=[('ep06-counter:0.3', '@{hundred and twent
 <Center y={500}><Counter6 to={122620} at={@{hundred and twenty two}} dur={1.0} fmt={(v) => Math.round(v).toLocaleString("en-US")} size={210} /></Center>
 <Center y={680}><Label6 at={@{hundred and twenty two}} size={28}>GAS STATIONS · AND THEY STAY OPEN</Label6></Center>
 <Source6>NACS / NIQ store count · Jan 2026</Source6>'''),
-dict(start="Why does every price", sfx=[('ep06-pop:0.35', '@{nine tenths}')], stock=3, el='''<TrailerFrame />
+dict(start="Why does every price", sfx=[('ep06-pop:0.35', '@{nine tenths}')], stock=48, dim=0.35, el='''<TrailerFrame />
 <Center y={520}><PriceSign at={0.05} price="$4.16" hlFrac={@{nine tenths}} /></Center>'''),
 dict(start="Why do prices shoot", sfx=[('ep06-rocket:0.25', '@{shoot up}'), ('ep06-fall:0.25', '@{float down}')], stock=22, alt=(23, "float down"), clean=True, el='''<TrailerFrame />
 <Center x={520} y={540}><Label6 at={@{shoot up}} size={44} color={C6.loss} out={@{float down}}>UP LIKE A ROCKET</Label6></Center>
@@ -63,15 +63,15 @@ dict(start="Because the gas was never", stock=4, el='''<TrailerFrame />
 dict(start="The gas is the bait", sfx=[('ep06-stamp:0.4', '0.05')], hard=True, el='''<Center y={520}><TitleCard at={0.05} title="Gas Is the Bait" hl={["Bait"]} /></Center>'''),
 
 # ---------------- ГЛАВА 1 · THE DIME ----------------
-dict(start="Meet Mike", sfx=[('ep06-whoosh:0.25', '0.02')], tag=CH1, stock=31, el='''<Center y={500}><In at={0} out={@{He owns one}} from="fade"><ChapterCard n={1} title="The Dime" /></In></Center>
+dict(start="Meet Mike", sfx=[('ep06-whoosh:0.25', '0.02')], tag=CH1, stock=1, el='''<Center y={500}><In at={0} out={@{He owns one}} from="fade"><ChapterCard n={1} title="The Dime" /></In></Center>
 <Center y={560}><NameCard6 at={@{He owns one}} name="Mike" role="MADE UP · HIS NUMBERS ARE REAL" icon="pump" /></Center>
 <Center y={780}><Label6 at={@{off a highway}} size={26} color={C6.ink}>ONE STATION · OFF A HIGHWAY · OHIO</Label6></Center>'''),
-dict(start="His sign says four dollars", stock=3, el='''<Center y={500}><PriceSign at={0.05} price="$4.17" /></Center>
+dict(start="His sign says four dollars", stock=20, dim=0.35, el='''<Center y={500}><PriceSign at={0.05} price="$4.17" /></Center>
 <Center y={820}><Label6 at={@{national average}} size={26}>≈ U.S. AVERAGE · EARLY NOVEMBER</Label6></Center>
 <Source6>AAA national average · Nov 1, 2026</Source6>'''),
 dict(start="Mike looks rich", sfx=[('ep06-scratch:0.3', '@{Mike is not rich}')], stock=9, el='''<Meme at={@{Mike is not rich}} text="me “owning” a gas station" y={900} />'''),
 dict(start="Let's cut one gallon open", sfx=[('ep06-pop:0.25', '@{crude oil}'), ('ep06-pop:0.25', '@{refinery takes}'), ('ep06-pop:0.25', '@{Taxes take}'), ('ep06-coin:0.3', "@{What's left for Mike}")], stock=10, alt=(11, "The refinery takes"), dim=0.15, el='''<GallonCutter at={0.1} slices={[
-  { at: @{crude oil}, label: "CRUDE OIL", value: "$1.85", frac: 0.595, color: "#3b4a50" },
+  { at: @{crude oil}, label: "CRUDE OIL", value: "$1.85", frac: 0.595, color: "#8a9aa0" },
   { at: @{refinery takes}, label: "REFINERY", value: "40¢", frac: 0.13, color: C6.blue },
   { at: @{Taxes take}, label: "TAXES", value: "≈51¢", frac: 0.164, color: C6.mint },
   { at: @{What's left for Mike}, label: "MIKE'S MARKUP", value: "35¢", frac: 0.113, color: C6.accent },
@@ -79,13 +79,13 @@ dict(start="Let's cut one gallon open", sfx=[('ep06-pop:0.25', '@{crude oil}'), 
 <Center y={1000}><Label6 at={@{Federal tax alone}} out={@{What's left}} size={22} color={C6.ink}>FEDERAL TAX 18.4¢ · NOT RAISED SINCE 1993</Label6></Center>
 <Source6>NACS · example gallon at $3.11</Source6>'''),
 dict(start="Thirty five cents! Mike's", stock=14, clean=True, el='''<Meme at={@{Mike's getting}} text="Mike's boat (pending)" y={900} />'''),
-dict(start="Not so fast", stock=13, alt=(15, "Then credit card fees"), el='''<Center y={300}><BigNum at={0.05} size={150} punch={false} label="MIKE'S MARKUP">35¢</BigNum></Center>
+dict(start="Not so fast", stock=13, dim=0.3, alt=(15, "Then credit card fees"), el='''<Center y={300}><BigNum at={0.05} size={150} punch={false} label="MIKE'S MARKUP">35¢</BigNum></Center>
 <Center y={640}><Col gap={26}>
   <Label6 at={@{Six cents}} size={44} color={C6.loss}>−6¢ · TRUCK DELIVERY</Label6>
   <Label6 at={@{About eight cents}} size={44} color={C6.loss}>−8.4¢ · CARD FEES (2023)</Label6>
 </Col></Center>
 <Source6>NACS</Source6>'''),
-dict(start="So on average, the card", stock=16, el='''<CorpSub at={@{Without owning}} corp="Interchange & processing fees" human="We exist. Pay us." />'''),
+dict(start="So on average, the card", stock=46, el='''<CorpSub at={@{Without owning}} corp="Interchange & processing fees" human="We exist. Pay us." />'''),
 dict(start="Across the industry last year", sfx=[('ep06-counter:0.3', '@{twenty one billion}'), ('ep06-stamp:0.4', '@{Fees On taxes}')], stock=45, el='''<Center y={420}><Counter6 to={21.3} at={@{twenty one billion}} fmt={(v) => "$" + v.toFixed(1) + "B"} size={200} /></Center>
 <Center y={580}><Label6 at={@{twenty one billion}} size={28}>CARD FEES · 2025 · A RECORD</Label6></Center>
 <Center y={760}><Label6 at={@{four and a half billion}} size={34} color={C6.loss}>≈$4.6B OF IT · CHARGED ON TAXES</Label6></Center>
@@ -107,7 +107,7 @@ dict(start="The average car burns", sfx=[('ep06-kaching:0.25', '@{sixty five dol
 dict(start="At early November prices", stock=20, el='''<Center y={500}><BigNum at={@{one tank}} icon="gallon" size={200} label="$65 ÷ $4.17 ≈ 15.6 GALLONS">1 TANK</BigNum></Center>'''),
 dict(start="If he really made two", sfx=[('ep06-scratch:0.3', '@{not worth a thousand}')], el='''<Center y={560}><TwoBars at={@{two dollars a gallon}} a={{ label: "WHAT DRIVERS IMAGINE", value: "$1,000", v: 1000 }} b={{ label: "REALITY", value: "$65", v: 65, at: @{You are not} }} /></Center>
 <Meme at={@{not worth a thousand}} text="yep. that's you." y={140} size={70} />'''),
-dict(start="So if the gallon barely pays", stock=3, el='''<Center y={540}><Words text="The only thing he controls: the sign." at={@{the only thing}} size={96} hl={["sign."]} /></Center>'''),
+dict(start="So if the gallon barely pays", stock=8, el='''<Center y={540}><Words text="The only thing he controls: the sign." at={@{the only thing}} size={96} hl={["sign."]} /></Center>'''),
 
 # ---------------- ГЛАВА 2 · THE SIGN ----------------
 dict(start="Look closely at any price", sfx=[('ep06-whoosh:0.25', '0.02'), ('ep06-pop:0.3', '@{nine tenths}')], tag=CH2, el='''<Center y={520}><In at={0} out={@{Four seventeen}} from="fade"><ChapterCard n={2} title="The Sign" /></In></Center>
@@ -117,7 +117,7 @@ dict(start="It started in the nineteen thirties", sfx=[('ep06-coin:0.3', '@{one 
 <Center y={540}><BigNum at={@{one cent}} size={220} label="FIRST FEDERAL GAS TAX · PER GALLON">1¢</BigNum></Center>'''),
 dict(start="Back then gas cost", stock=33, sepia=True, el='''<Center y={480}><BigNum at={@{less than twenty}} size={220} color={C6.ink} label="A GALLON · EARLY 1930s">&lt;20¢</BigNum></Center>
 <Center y={800}><Label6 at={@{whole penny}} size={36} color={C6.loss}>+1¢ = A HUGE JUMP</Label6></Center>'''),
-dict(start="The tax grew", el='''<Center y={160}><Label6 at={@{by the seventies}} size={28}>9/10 BECOMES STANDARD · 1970s</Label6></Center>
+dict(start="The tax grew", stock=19, sepia=True, el='''<Center y={160}><Label6 at={0.2} size={40} color={C6.ink}>9/10 OF A CENT · STANDARD BY THE 1970s</Label6></Center>
 <Center y={500}><Row gap={90}><PriceSign at={@{four sixteen}} price="$4.17" frac="" scale={0.8} /><PriceSign at={@{four sixteen}} price="$4.16" scale={0.8} /></Row></Center>
 <Center y={880}><Words text="Feels cheaper." at={@{just feels cheaper}} size={90} hl={["cheaper."]} /></Center>'''),
 dict(start="And for Mike, that tiny", el='''<Center y={520}><Donut6 at={@{up to a tenth}} pct={10} center="≤10%" label="OF FUEL PROFIT" /></Center>
@@ -127,20 +127,27 @@ dict(start="Iowa once banned it", sfx=[('ep06-stamp:0.4', '@{banned it}'), ('ep0
 <Center y={760}><Words text="The nine-tenths won." at={@{The nine tenths won}} size={90} hl={["won."]} /></Center>'''),
 dict(start="The second trick", el='''<Center y={420}><Row gap={160}><IconIn at={0.1} name="rocket" size={200} color={C6.loss} /><IconIn at={0.4} name="feather" size={200} color={C6.money} /></Row></Center>
 <Center y={760}><Words text="It's physics. Kind of." at={@{It's physics}} size={84} hl={["Kind"]} /></Center>'''),
-dict(start="This year, the national average", sfx=[('ep06-rocket:0.22', '@{two seventy nine}'), ('ep06-fall:0.22', '@{But when prices fall}')], el='''<Center y={500}><RocketFeather at={@{two seventy nine}} fall={@{But when prices fall}} /></Center>
-<Center y={150}><Label6 at={@{drop to zero}} out={@{But when prices}} size={32} color={C6.loss}>MIKE'S 13¢ → 0¢ (OR LESS)</Label6></Center>
-<Center y={150}><Label6 at={@{A federal study}} size={30} color={C6.ink}>FTC STUDY, 2010 · UP 4×+ FASTER THAN DOWN</Label6></Center>
-<Center y={930}><Words text="“Rockets and feathers.”" at={@{rockets and feathers}} size={70} hl={["feathers.”"]} /></Center>
+dict(start="This year, the national average", sfx=[('ep06-rocket:0.22', '@{two seventy nine}'), ('ep06-fall:0.22', '@{But when prices fall}')], el='''<Center y={560}><RocketFeather at={@{two seventy nine}} fall={@{But when prices fall}} /></Center>
+<Center y={130}><Label6 at={@{wholesale prices jump}} out={@{drop to zero}} size={44} color={C6.ink}>WHOLESALE JUMPS → SIGN JUMPS FAST</Label6></Center>
+<Center y={130}><Label6 at={@{drop to zero}} out={@{But when prices}} size={44} color={C6.loss}>MIKE'S 13¢ → 0¢ (OR LESS)</Label6></Center>
+<Meme at={@{nobody calls Mike}} out={@{drift down}} text="nobody: “your gas is too cheap!”" y={950} size={60} />
+<Center x={1560} y={420}><IconIn at={@{like a feather}} name="feather" size={150} color={C6.money} /></Center>
+<Center x={560} y={330}><IconIn at={@{four fifty six}} name="rocket" size={120} color={C6.loss} /></Center>
+<Center y={130}><Label6 at={@{But when prices fall}} size={44} color={C6.money}>FALLING PRICES · MIKE TAKES HIS TIME</Label6></Center>
 <Source6>AAA national average, 2026</Source6>'''),
-dict(start="So here's a fun one", stock=23, el='''<Center y={540}><Col gap={30}><Words text="Prices falling" at={@{as prices came down}} size={96} /><Words text="= wider margins" at={@{margins get wider}} size={110} hl={["wider"]} /></Col></Center>'''),
+dict(start="A federal study", stock=22, alt=(23, "rockets and feathers"), el='''<Center y={420}><Label6 at={0.1} size={40} color={C6.ink}>FTC STUDY · 2010</Label6></Center>
+<Center y={560}><Words text="Prices rose more than 4× faster than they fell." at={0.3} size={84} maxW={1500} hl={["4×"]} /></Center>
+<Center y={880}><Words text="“Rockets and feathers.”" at={@{rockets and feathers}} size={80} hl={["feathers.”"]} /></Center>
+<Source6>FTC · Gasoline Price Changes, 2010</Source6>'''),
+dict(start="So here's a fun one", stock=42, el='''<Center y={540}><Col gap={30}><Words text="Prices falling" at={@{as prices came down}} size={96} /><Words text="= wider margins" at={@{margins get wider}} size={110} hl={["wider"]} /></Col></Center>'''),
 dict(start="The cheaper your gas gets", stock=24, clean=True, el='''<Meme at={@{the happier Mike}} text="Mike, watching prices fall" y={900} />'''),
 dict(start="If this is changing", sfx=[('ep06-pop:0.3', '@{hit subscribe}')], stock=1, el='''<Subscribe6 at={@{hit subscribe}} />
 <Center y={540}><Words text="One business you use every day. Every week." at={@{Every week}} size={72} hl={["Every"]} /></Center>'''),
 dict(start="But even feathers", el='''<Center y={540}><Words text="So where does the money come from?" at={@{So where}} size={96} hl={["money"]} /></Center>'''),
 
 # ---------------- ГЛАВА 3 · INSIDE ----------------
-dict(start="Walk inside", sfx=[('ep06-whoosh:0.25', '0.02')], tag=CH3, stock=25, el='''<Center y={540}><ChapterCard n={3} title="Inside" /></Center>'''),
-dict(start="More than half the people", sfx=[('ep06-pop:0.3', '@{Fifty seven percent}')], stock=34, el='''<Center y={520}><BigNum at={@{Fifty seven percent}} icon="store" size={230} label="OF PEOPLE WHO FILL UP · GO INSIDE">57%</BigNum></Center>
+dict(start="Walk inside", tag=CH3, sfx=[('ep06-whoosh:0.25', '0.02'), ('ep06-pop:0.3', '@{More than half}')], stock=25, el='''<Center y={540}><In at={0} out={@{More than half}} from="fade"><ChapterCard n={3} title="Inside" /></In></Center>
+<Center y={520}><BigNum at={@{More than half}} icon="store" size={230} label="OF PEOPLE WHO FILL UP · GO INSIDE">57%</BigNum></Center>
 ''' + NACS),
 dict(start="That walk is the whole", el='''<Center y={540}><Words text="That walk is the whole business plan." at={0.05} size={96} hl={["walk", "plan."]} /></Center>'''),
 dict(start="Here's last year across", sfx=[('ep06-kaching:0.22', '@{sixty one percent}')], el='''<Center y={540}><Split6 at={@{sixty five percent}} left={{ title: "FUEL: 65% OF SALES → PROFIT", value: "39%", icon: "pump", color: C6.ink }} right={{ title: "THE STORE → PROFIT", value: "≈61%", icon: "store", at: @{sixty one percent} }} /></Center>
@@ -157,7 +164,7 @@ dict(start="You paid for the commercial", sfx=[('ep06-stamp:0.4', '0.15')], stoc
 dict(start="And the ad is slowly shrinking", stock=50, el='''<Center y={480}><Label6 at={@{buy less fuel}} size={44} color={C6.loss}>GASOLINE USE ↓ · 2026–2027</Label6></Center>
 <Center y={640}><Label6 at={@{Cars keep going}} size={30} color={C6.ink}>CARS GO FARTHER ON EVERY GALLON</Label6></Center>
 <Source6>EIA forecast</Source6>'''),
-dict(start="So gas stations are quietly", stock=31, clean=True, el='''<Meme at={@{Restaurants with}} text="restaurants with a really big parking lot" y={880} size={66} />'''),
+dict(start="So gas stations are quietly", stock=27, clean=True, el='''<Meme at={@{Restaurants with}} text="restaurants with a really big parking lot" y={880} size={66} />'''),
 dict(start="Most stations stop at hot dogs", stock=47, alt=(6, "And it started"), el='''<Center y={880}><Label6 at={@{twelve thousand}} size={34} color={C6.ink}>A TOWN OF ~12,000 PEOPLE</Label6></Center>'''),
 
 # ---------------- ГЛАВА 4 · THE PIZZA ----------------
@@ -205,7 +212,7 @@ dict(start="So is Casey's a gas station", stock=7, clean=True, el='''<Meme at={@
 # ---------------- ФИНАЛ ----------------
 dict(start="Remember our guy at the pump", stock=2, clean=True, el='''<Meme at={@{being robbed}} text="these people are robbing me" y={930} size={60} />'''),
 dict(start="He's half right", sfx=[('ep06-fall:0.22', '@{Not Mike}')], dim=0.2, el='''<GallonCutter at={0} slices={[
-  { at: 0.05, label: "CRUDE OIL", value: "$1.85", frac: 0.595, color: "#3b4a50" },
+  { at: 0.05, label: "CRUDE OIL", value: "$1.85", frac: 0.595, color: "#8a9aa0" },
   { at: 0.15, label: "REFINERY", value: "40¢", frac: 0.13, color: C6.blue },
   { at: 0.25, label: "TAXES", value: "≈51¢", frac: 0.164, color: C6.mint },
   { at: 0.35, label: "MIKE KEEPS ≈13¢", value: "35¢", frac: 0.113, color: C6.accent },
@@ -218,5 +225,5 @@ dict(start="And Mike? Mike is fine", sfx=[('ep06-pumpoff:0.3', '0.05')], stock=2
 dict(start="So next time you walk in", el='''<Center y={500}><Words text="You know who you're paying." at={@{you know who}} size={100} hl={["paying."]} /></Center>'''),
 dict(start="And that nine tenths", stock=18, clean=True, el='''<Meme at={@{Keep checking}} text="still looking" y={900} />'''),
 dict(start="Tell me in the comments", stock=46, el='''<Center y={520}><Words text="What do you always grab inside?" at={0.1} size={96} hl={["grab"]} /></Center>'''),
-dict(start="And if you want to see", end_pad=20.0, el='''<EndCard6 at={0.1} next="Costco's $1.50 hot dog" />'''),
+dict(start="And if you want to see", end_pad=12.0, el='''<EndCard6 at={0.1} next="Costco's $1.50 hot dog" />'''),
 ]

@@ -154,6 +154,6 @@ out = f"{R}/src/videos/{comp}.tsx"
 open(out, "w").write(body)
 durs = [round(ends[k] - times[k], 1) for k in range(len(S))]
 # повтор стока подряд
-rep_ = [i for i in range(1, len(used)) if used[i] == used[i - 1]]
+rep_ = [used[i] for i in range(1, len(used)) if used[i] == used[i - 1]]
 print(f"{comp}: scenes {len(S)}, duration {dur_total}s, avg {round(sum(durs)/len(durs),1)}s, longest {sorted(durs)[-5:]}, sfx {len(sfx)}, unaligned tokens {miss}, stock used {len(set(used))}, repeats-in-a-row {rep_}")
 print("wrote", out)

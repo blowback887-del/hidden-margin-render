@@ -6,7 +6,7 @@ import { Bg6, BigNum, Bug6, C6, Center, ChapterCard, ChapterTag, Col, CorpSub, C
 // Ep06Gas — сгенерировано cloud/gen/build.py из плана cloud/gen/ep06.py и пословной расшифровки.
 // Не править руками: правки — в плане сцен, потом заново build.py.
 // ===================================================================
-export const EP06GAS_DURATION_SEC = 577.24;
+export const EP06GAS_DURATION_SEC = 569.24;
 const CLIPS: Record<number, string> = {"1": "01-man-refueling-car", "2": "02-pump-display-numbers", "3": "03-gas-price-signage", "4": "04-night-gas-station-neon", "5": "05-coffee-filling-cup", "6": "06-small-town-main-street", "7": "07-pizza-on-box", "8": "08-cars-at-gas-station-timelapse", "9": "09-man-counting-pennies", "10": "10-oil-well-plains", "11": "11-refinery-aerial", "12": "12-us-capitol", "13": "13-fuel-truck-farmland", "14": "14-yachts-marina", "15": "15-card-reader", "16": "16-cashier", "17": "17-speedometer", "18": "18-couch-pillows", "19": "19-vintage-gas-station", "20": "20-filling-car-gasoline", "21": "21-iowa-truckstop-aerial", "22": "22-rocket-launch", "23": "23-feathers-falling", "24": "24-man-smiling", "25": "25-store-automatic-doors", "26": "26-candies-dropping", "27": "27-grilling-hot-dogs", "28": "28-soft-drink-filling", "29": "29-expressway-drone", "30": "30-highway-traffic-aerial", "31": "31-night-gas-station-store", "32": "32-grain-elevator", "33": "33-abandoned-gas-station", "34": "34-shopping-aisle", "35": "35-rolling-pizza-dough", "36": "36-pizza-into-oven", "37": "37-pizza-out-of-oven", "38": "38-pizza-on-plate", "39": "39-silos-farm-field", "40": "40-pizza-sliced", "41": "41-highlighting-report", "42": "42-counting-money", "43": "43-stock-market-display", "44": "44-choosing-pastry-store", "45": "45-cash-register", "46": "46-scrolling-phone", "47": "47-holding-hot-dog", "48": "48-fuel-pump-close", "49": "49-coffee-to-go", "50": "50-night-highway-aerial", "51": "51-man-eating-pizza", "52": "52-highway-into-small-town"};
 const LENS: Record<number, number> = {"1": 10.0, "2": 10.0, "3": 10.0, "4": 10.0, "5": 10.0, "6": 10.0, "7": 7.23, "8": 8.87, "9": 10.0, "10": 10.0, "11": 10.0, "12": 10.0, "13": 10.0, "14": 10.0, "15": 10.0, "16": 10.0, "17": 10.0, "18": 10.0, "19": 9.77, "20": 10.0, "21": 10.0, "22": 10.0, "23": 10.0, "24": 8.3, "25": 10.0, "26": 10.0, "27": 10.0, "28": 10.0, "29": 10.0, "30": 10.0, "31": 10.0, "32": 10.0, "33": 10.0, "34": 7.67, "35": 10.0, "36": 10.0, "37": 7.2, "38": 10.0, "39": 10.0, "40": 10.0, "41": 10.0, "42": 10.0, "43": 10.0, "44": 10.0, "45": 10.0, "46": 10.0, "47": 10.0, "48": 8.73, "49": 7.2, "50": 10.0, "51": 10.0, "52": 7.0};
 setClips((n) => ({ src: staticFile(`broll/ep06/${CLIPS[n]}.mp4`), len: LENS[n] ?? 10 }));
@@ -36,7 +36,7 @@ const BEATS: Beat[] = [
 <Center y={680}><Label6 at={1.01} size={28}>GAS STATIONS · AND THEY STAY OPEN</Label6></Center>
 <Source6>NACS / NIQ store count · Jan 2026</Source6>
 </>) },
-  { from: 21.68, to: 24.76, back: (<><Stock6 n={3} dur={3.08} dim={0} graphics={true} /></>), el: (<>
+  { from: 21.68, to: 24.76, back: (<><Stock6 n={48} dur={3.08} dim={0.35} graphics={true} /></>), el: (<>
 <TrailerFrame />
 <Center y={520}><PriceSign at={0.05} price="$4.16" hlFrac={1.64} /></Center>
 </>) },
@@ -63,12 +63,12 @@ const BEATS: Beat[] = [
   { from: 42.16, to: 44.52, hard: true, back: null, el: (<>
 <Center y={520}><TitleCard at={0.05} title="Gas Is the Bait" hl={["Bait"]} /></Center>
 </>) },
-  { from: 44.52, to: 51.84, tag: [1, "The Dime"], back: (<><Stock6 n={31} dur={7.32} dim={0} graphics={true} /></>), el: (<>
+  { from: 44.52, to: 51.84, tag: [1, "The Dime"], back: (<><Stock6 n={1} dur={7.32} dim={0} graphics={true} /></>), el: (<>
 <Center y={500}><In at={0} out={4.08} from="fade"><ChapterCard n={1} title="The Dime" /></In></Center>
 <Center y={560}><NameCard6 at={4.08} name="Mike" role="MADE UP · HIS NUMBERS ARE REAL" icon="pump" /></Center>
 <Center y={780}><Label6 at={5.48} size={26} color={C6.ink}>ONE STATION · OFF A HIGHWAY · OHIO</Label6></Center>
 </>) },
-  { from: 51.84, to: 57.68, back: (<><Stock6 n={3} dur={5.84} dim={0} graphics={true} /></>), el: (<>
+  { from: 51.84, to: 57.68, back: (<><Stock6 n={20} dur={5.84} dim={0.35} graphics={true} /></>), el: (<>
 <Center y={500}><PriceSign at={0.05} price="$4.17" /></Center>
 <Center y={820}><Label6 at={3.92} size={26}>≈ U.S. AVERAGE · EARLY NOVEMBER</Label6></Center>
 <Source6>AAA national average · Nov 1, 2026</Source6>
@@ -79,7 +79,7 @@ const BEATS: Beat[] = [
   { from: 61.84, to: 88.9, back: (<><Stock6 n={10} dur={27.06} dim={0.15} graphics={true} />
 <Stock6 n={11} from={11.66} dur={27.06} dim={0.15} graphics={true} /></>), el: (<>
 <GallonCutter at={0.1} slices={[
-  { at: 9.12, label: "CRUDE OIL", value: "$1.85", frac: 0.595, color: "#3b4a50" },
+  { at: 9.12, label: "CRUDE OIL", value: "$1.85", frac: 0.595, color: "#8a9aa0" },
   { at: 11.8, label: "REFINERY", value: "40¢", frac: 0.13, color: C6.blue },
   { at: 14.14, label: "TAXES", value: "≈51¢", frac: 0.164, color: C6.mint },
   { at: 22.0, label: "MIKE'S MARKUP", value: "35¢", frac: 0.113, color: C6.accent },
@@ -90,8 +90,8 @@ const BEATS: Beat[] = [
   { from: 88.9, to: 92.16, back: (<><Stock6 n={14} dur={3.26} dim={0} graphics={false} /></>), el: (<>
 <Meme at={1.54} text="Mike's boat (pending)" y={900} />
 </>) },
-  { from: 92.16, to: 101.82, back: (<><Stock6 n={13} dur={9.66} dim={0} graphics={true} />
-<Stock6 n={15} from={6.48} dur={9.66} dim={0} graphics={true} /></>), el: (<>
+  { from: 92.16, to: 101.82, back: (<><Stock6 n={13} dur={9.66} dim={0.3} graphics={true} />
+<Stock6 n={15} from={6.48} dur={9.66} dim={0.3} graphics={true} /></>), el: (<>
 <Center y={300}><BigNum at={0.05} size={150} punch={false} label="MIKE'S MARKUP">35¢</BigNum></Center>
 <Center y={640}><Col gap={26}>
   <Label6 at={5.46} size={44} color={C6.loss}>−6¢ · TRUCK DELIVERY</Label6>
@@ -99,7 +99,7 @@ const BEATS: Beat[] = [
 </Col></Center>
 <Source6>NACS</Source6>
 </>) },
-  { from: 101.82, to: 108.94, back: (<><Stock6 n={16} dur={7.12} dim={0} graphics={true} /></>), el: (<>
+  { from: 101.82, to: 108.94, back: (<><Stock6 n={46} dur={7.12} dim={0} graphics={true} /></>), el: (<>
 <CorpSub at={4.24} corp="Interchange & processing fees" human="We exist. Pay us." />
 </>) },
   { from: 108.94, to: 122.78, back: (<><Stock6 n={45} dur={13.84} dim={0} graphics={true} /></>), el: (<>
@@ -137,7 +137,7 @@ const BEATS: Beat[] = [
 <Center y={560}><TwoBars at={1.0} a={{ label: "WHAT DRIVERS IMAGINE", value: "$1,000", v: 1000 }} b={{ label: "REALITY", value: "$65", v: 65, at: 5.08 }} /></Center>
 <Meme at={5.62} text="yep. that's you." y={140} size={70} />
 </>) },
-  { from: 165.98, to: 173.56, back: (<><Stock6 n={3} dur={7.58} dim={0} graphics={true} /></>), el: (<>
+  { from: 165.98, to: 173.56, back: (<><Stock6 n={8} dur={7.58} dim={0} graphics={true} /></>), el: (<>
 <Center y={540}><Words text="The only thing he controls: the sign." at={3.88} size={96} hl={["sign."]} /></Center>
 </>) },
   { from: 173.56, to: 179.22, tag: [2, "The Sign"], back: null, el: (<>
@@ -155,8 +155,8 @@ const BEATS: Beat[] = [
 <Center y={480}><BigNum at={1.66} size={220} color={C6.ink} label="A GALLON · EARLY 1930s">&lt;20¢</BigNum></Center>
 <Center y={800}><Label6 at={3.86} size={36} color={C6.loss}>+1¢ = A HUGE JUMP</Label6></Center>
 </>) },
-  { from: 202.3, to: 211.98, back: null, el: (<>
-<Center y={160}><Label6 at={2.44} size={28}>9/10 BECOMES STANDARD · 1970s</Label6></Center>
+  { from: 202.3, to: 211.98, back: (<><Stock6 n={19} dur={9.68} dim={0} graphics={true} sepia /></>), el: (<>
+<Center y={160}><Label6 at={0.2} size={40} color={C6.ink}>9/10 OF A CENT · STANDARD BY THE 1970s</Label6></Center>
 <Center y={500}><Row gap={90}><PriceSign at={6.9} price="$4.17" frac="" scale={0.8} /><PriceSign at={6.9} price="$4.16" scale={0.8} /></Row></Center>
 <Center y={880}><Words text="Feels cheaper." at={7.66} size={90} hl={["cheaper."]} /></Center>
 </>) },
@@ -173,14 +173,24 @@ const BEATS: Beat[] = [
 <Center y={420}><Row gap={160}><IconIn at={0.1} name="rocket" size={200} color={C6.loss} /><IconIn at={0.4} name="feather" size={200} color={C6.money} /></Row></Center>
 <Center y={760}><Words text="It's physics. Kind of." at={2.56} size={84} hl={["Kind"]} /></Center>
 </>) },
-  { from: 230.48, to: 263.36, back: null, el: (<>
-<Center y={500}><RocketFeather at={1.96} fall={16.0} /></Center>
-<Center y={150}><Label6 at={13.68} out={16.0} size={32} color={C6.loss}>MIKE'S 13¢ → 0¢ (OR LESS)</Label6></Center>
-<Center y={150}><Label6 at={24.08} size={30} color={C6.ink}>FTC STUDY, 2010 · UP 4×+ FASTER THAN DOWN</Label6></Center>
-<Center y={930}><Words text="“Rockets and feathers.”" at={31.18} size={70} hl={["feathers.”"]} /></Center>
+  { from: 230.48, to: 254.54, back: null, el: (<>
+<Center y={560}><RocketFeather at={1.96} fall={16.0} /></Center>
+<Center y={130}><Label6 at={5.96} out={13.68} size={44} color={C6.ink}>WHOLESALE JUMPS → SIGN JUMPS FAST</Label6></Center>
+<Center y={130}><Label6 at={13.68} out={16.0} size={44} color={C6.loss}>MIKE'S 13¢ → 0¢ (OR LESS)</Label6></Center>
+<Meme at={17.54} out={21.18} text="nobody: “your gas is too cheap!”" y={950} size={60} />
+<Center x={1560} y={420}><IconIn at={22.68} name="feather" size={150} color={C6.money} /></Center>
+<Center x={560} y={330}><IconIn at={3.92} name="rocket" size={120} color={C6.loss} /></Center>
+<Center y={130}><Label6 at={16.0} size={44} color={C6.money}>FALLING PRICES · MIKE TAKES HIS TIME</Label6></Center>
 <Source6>AAA national average, 2026</Source6>
 </>) },
-  { from: 263.36, to: 269.92, back: (<><Stock6 n={23} dur={6.56} dim={0} graphics={true} /></>), el: (<>
+  { from: 254.54, to: 263.36, back: (<><Stock6 n={22} dur={8.82} dim={0} graphics={true} />
+<Stock6 n={23} from={7.12} dur={8.82} dim={0} graphics={true} /></>), el: (<>
+<Center y={420}><Label6 at={0.1} size={40} color={C6.ink}>FTC STUDY · 2010</Label6></Center>
+<Center y={560}><Words text="Prices rose more than 4× faster than they fell." at={0.3} size={84} maxW={1500} hl={["4×"]} /></Center>
+<Center y={880}><Words text="“Rockets and feathers.”" at={7.12} size={80} hl={["feathers.”"]} /></Center>
+<Source6>FTC · Gasoline Price Changes, 2010</Source6>
+</>) },
+  { from: 263.36, to: 269.92, back: (<><Stock6 n={42} dur={6.56} dim={0} graphics={true} /></>), el: (<>
 <Center y={540}><Col gap={30}><Words text="Prices falling" at={2.2} size={96} /><Words text="= wider margins" at={5.1} size={110} hl={["wider"]} /></Col></Center>
 </>) },
   { from: 269.92, to: 274.72, back: (<><Stock6 n={24} dur={4.8} dim={0} graphics={false} /></>), el: (<>
@@ -193,11 +203,9 @@ const BEATS: Beat[] = [
   { from: 282.26, to: 289.2, back: null, el: (<>
 <Center y={540}><Words text="So where does the money come from?" at={3.82} size={96} hl={["money"]} /></Center>
 </>) },
-  { from: 289.2, to: 290.46, tag: [3, "Inside"], back: (<><Stock6 n={25} dur={1.26} dim={0} graphics={true} /></>), el: (<>
-<Center y={540}><ChapterCard n={3} title="Inside" /></Center>
-</>) },
-  { from: 290.46, to: 295.74, back: (<><Stock6 n={34} dur={5.28} dim={0} graphics={true} /></>), el: (<>
-<Center y={520}><BigNum at={4.7} icon="store" size={230} label="OF PEOPLE WHO FILL UP · GO INSIDE">57%</BigNum></Center>
+  { from: 289.2, to: 295.74, tag: [3, "Inside"], back: (<><Stock6 n={25} dur={6.54} dim={0} graphics={true} /></>), el: (<>
+<Center y={540}><In at={0} out={1.28} from="fade"><ChapterCard n={3} title="Inside" /></In></Center>
+<Center y={520}><BigNum at={1.28} icon="store" size={230} label="OF PEOPLE WHO FILL UP · GO INSIDE">57%</BigNum></Center>
 <Source6>NACS · Who Makes Money Selling Gas?</Source6>
 </>) },
   { from: 295.74, to: 299.08, back: null, el: (<>
@@ -234,7 +242,7 @@ const BEATS: Beat[] = [
 <Center y={640}><Label6 at={8.02} size={30} color={C6.ink}>CARS GO FARTHER ON EVERY GALLON</Label6></Center>
 <Source6>EIA forecast</Source6>
 </>) },
-  { from: 363.98, to: 371.24, back: (<><Stock6 n={31} dur={7.26} dim={0} graphics={false} /></>), el: (<>
+  { from: 363.98, to: 371.24, back: (<><Stock6 n={27} dur={7.26} dim={0} graphics={false} /></>), el: (<>
 <Meme at={4.3} text="restaurants with a really big parking lot" y={880} size={66} />
 </>) },
   { from: 371.24, to: 382.14, back: (<><Stock6 n={47} dur={10.9} dim={0} graphics={true} />
@@ -319,7 +327,7 @@ const BEATS: Beat[] = [
 </>) },
   { from: 507.08, to: 513.0, back: null, el: (<>
 <GallonCutter at={0} slices={[
-  { at: 0.05, label: "CRUDE OIL", value: "$1.85", frac: 0.595, color: "#3b4a50" },
+  { at: 0.05, label: "CRUDE OIL", value: "$1.85", frac: 0.595, color: "#8a9aa0" },
   { at: 0.15, label: "REFINERY", value: "40¢", frac: 0.13, color: C6.blue },
   { at: 0.25, label: "TAXES", value: "≈51¢", frac: 0.164, color: C6.mint },
   { at: 0.35, label: "MIKE KEEPS ≈13¢", value: "35¢", frac: 0.113, color: C6.accent },
@@ -349,13 +357,13 @@ const BEATS: Beat[] = [
   { from: 543.74, to: 549.06, back: (<><Stock6 n={46} dur={5.32} dim={0} graphics={true} /></>), el: (<>
 <Center y={520}><Words text="What do you always grab inside?" at={0.1} size={96} hl={["grab"]} /></Center>
 </>) },
-  { from: 549.06, to: 577.24, back: null, el: (<>
+  { from: 549.06, to: 569.24, back: null, el: (<>
 <EndCard6 at={0.1} next="Costco's $1.50 hot dog" />
 </>) },
 ];
 
 // звуковые эффекты — только на смысловые события (секунды ролика)
-const SFX: [number, string, number][] = [[0.1, "ep06-pump", 0.35], [11.34, "ep06-coin", 0.35], [13.18, "ep06-pop", 0.3], [14.78, "ep06-pop", 0.3], [18.39, "ep06-counter", 0.3], [23.32, "ep06-pop", 0.35], [25.4, "ep06-rocket", 0.25], [27.3, "ep06-fall", 0.25], [36.46, "ep06-boom", 0.3], [42.21, "ep06-stamp", 0.4], [44.54, "ep06-whoosh", 0.25], [60.02, "ep06-scratch", 0.3], [70.96, "ep06-pop", 0.25], [73.64, "ep06-pop", 0.25], [75.98, "ep06-pop", 0.25], [83.84, "ep06-coin", 0.3], [112.3, "ep06-counter", 0.3], [118.3, "ep06-stamp", 0.4], [130.92, "ep06-coin", 0.35], [144.38, "ep06-kaching", 0.25], [163.62, "ep06-scratch", 0.3], [173.58, "ep06-whoosh", 0.25], [177.86, "ep06-pop", 0.3], [192.36, "ep06-coin", 0.3], [220.0, "ep06-stamp", 0.4], [223.02, "ep06-stamp", 0.35], [232.44, "ep06-rocket", 0.22], [246.48, "ep06-fall", 0.22], [276.9, "ep06-pop", 0.3], [289.22, "ep06-whoosh", 0.25], [295.16, "ep06-pop", 0.3], [310.26, "ep06-kaching", 0.22], [351.17, "ep06-stamp", 0.4], [382.16, "ep06-whoosh", 0.25], [405.32, "ep06-pop", 0.3], [418.26, "ep06-counter", 0.3], [440.86, "ep06-boom", 0.3], [443.93, "ep06-stamp", 0.4], [453.06, "ep06-receipt", 0.25], [476.76, "ep06-boom", 0.28], [489.28, "ep06-kaching", 0.25], [510.2, "ep06-fall", 0.22], [515.68, "ep06-counter", 0.25], [531.89, "ep06-pumpoff", 0.3]];
+const SFX: [number, string, number][] = [[0.1, "ep06-pump", 0.35], [11.34, "ep06-coin", 0.35], [13.18, "ep06-pop", 0.3], [14.78, "ep06-pop", 0.3], [18.39, "ep06-counter", 0.3], [23.32, "ep06-pop", 0.35], [25.4, "ep06-rocket", 0.25], [27.3, "ep06-fall", 0.25], [36.46, "ep06-boom", 0.3], [42.21, "ep06-stamp", 0.4], [44.54, "ep06-whoosh", 0.25], [60.02, "ep06-scratch", 0.3], [70.96, "ep06-pop", 0.25], [73.64, "ep06-pop", 0.25], [75.98, "ep06-pop", 0.25], [83.84, "ep06-coin", 0.3], [112.3, "ep06-counter", 0.3], [118.3, "ep06-stamp", 0.4], [130.92, "ep06-coin", 0.35], [144.38, "ep06-kaching", 0.25], [163.62, "ep06-scratch", 0.3], [173.58, "ep06-whoosh", 0.25], [177.86, "ep06-pop", 0.3], [192.36, "ep06-coin", 0.3], [220.0, "ep06-stamp", 0.4], [223.02, "ep06-stamp", 0.35], [232.44, "ep06-rocket", 0.22], [246.48, "ep06-fall", 0.22], [276.9, "ep06-pop", 0.3], [289.22, "ep06-whoosh", 0.25], [290.48, "ep06-pop", 0.3], [310.26, "ep06-kaching", 0.22], [351.17, "ep06-stamp", 0.4], [382.16, "ep06-whoosh", 0.25], [405.32, "ep06-pop", 0.3], [418.26, "ep06-counter", 0.3], [440.86, "ep06-boom", 0.3], [443.93, "ep06-stamp", 0.4], [453.06, "ep06-receipt", 0.25], [476.76, "ep06-boom", 0.28], [489.28, "ep06-kaching", 0.25], [510.2, "ep06-fall", 0.22], [515.68, "ep06-counter", 0.25], [531.89, "ep06-pumpoff", 0.3]];
 
 export const Ep06Gas: React.FC = () => {
   const { fps } = useVideoConfig();
@@ -368,7 +376,7 @@ export const Ep06Gas: React.FC = () => {
       <Sequence from={5202} durationInFrames={3486}><Audio src={staticFile("audio/ep06/music-ch2.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 3456, 3486], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
       <Sequence from={8670} durationInFrames={2805}><Audio src={staticFile("audio/ep06/music-ch3.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 2775, 2805], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
       <Sequence from={11460} durationInFrames={3678}><Audio src={staticFile("audio/ep06/music-ch4.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 3648, 3678], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
-      <Sequence from={15126} durationInFrames={2191}><Audio src={staticFile("audio/ep06/music-finale.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 2161, 2191], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      <Sequence from={15126} durationInFrames={1951}><Audio src={staticFile("audio/ep06/music-finale.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 1921, 1951], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
       {SFX.map(([t, n, v], i) => (
         <Sequence key={"s" + i} from={Math.round(t * fps)} durationInFrames={120}><Audio src={staticFile(`sfx/${n}.wav`)} volume={v} /></Sequence>
       ))}

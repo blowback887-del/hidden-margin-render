@@ -36,7 +36,7 @@ const BEATS: Beat[] = [
 <Center y={680}><Label6 at={1.01} size={28}>GAS STATIONS · AND THEY STAY OPEN</Label6></Center>
 <Source6>NACS / NIQ store count · Jan 2026</Source6>
 </>) },
-  { from: 21.68, to: 24.76, back: (<><Stock6 n={3} dur={3.08} dim={0} graphics={true} /></>), el: (<>
+  { from: 21.68, to: 24.76, back: (<><Stock6 n={48} dur={3.08} dim={0.35} graphics={true} /></>), el: (<>
 <TrailerFrame />
 <Center y={520}><PriceSign at={0.05} price="$4.16" hlFrac={1.64} /></Center>
 </>) },
