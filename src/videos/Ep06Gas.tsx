@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig, interpolate } from "remotion";
 import { Bg6, BigNum, Bug6, C6, Center, ChapterCard, ChapterTag, Col, CorpSub, Counter6, Donut6, EndCard6, GallonCutter, IconIn, In, Label6, Meme, NameCard6, Num6, PriceSign, RocketFeather, Row, Scene6, setClips, Source6, Split6, Stamp, Stock6, Subscribe6, TitleCard, TrailerFrame, TwoBars, Words } from "../brand/hm6";
 
 // ===================================================================
@@ -355,7 +355,7 @@ const BEATS: Beat[] = [
 ];
 
 // звуковые эффекты — только на смысловые события (секунды ролика)
-const SFX: [number, string][] = [];
+const SFX: [number, string, number][] = [[0.1, "ep06-pump", 0.35], [11.34, "ep06-coin", 0.35], [13.18, "ep06-pop", 0.3], [14.78, "ep06-pop", 0.3], [18.39, "ep06-counter", 0.3], [23.32, "ep06-pop", 0.35], [25.4, "ep06-rocket", 0.25], [27.3, "ep06-fall", 0.25], [36.46, "ep06-boom", 0.3], [42.21, "ep06-stamp", 0.4], [44.54, "ep06-whoosh", 0.25], [60.02, "ep06-scratch", 0.3], [70.96, "ep06-pop", 0.25], [73.64, "ep06-pop", 0.25], [75.98, "ep06-pop", 0.25], [83.84, "ep06-coin", 0.3], [112.3, "ep06-counter", 0.3], [118.3, "ep06-stamp", 0.4], [130.92, "ep06-coin", 0.35], [144.38, "ep06-kaching", 0.25], [163.62, "ep06-scratch", 0.3], [173.58, "ep06-whoosh", 0.25], [177.86, "ep06-pop", 0.3], [192.36, "ep06-coin", 0.3], [220.0, "ep06-stamp", 0.4], [223.02, "ep06-stamp", 0.35], [232.44, "ep06-rocket", 0.22], [246.48, "ep06-fall", 0.22], [276.9, "ep06-pop", 0.3], [289.22, "ep06-whoosh", 0.25], [295.16, "ep06-pop", 0.3], [310.26, "ep06-kaching", 0.22], [351.17, "ep06-stamp", 0.4], [382.16, "ep06-whoosh", 0.25], [405.32, "ep06-pop", 0.3], [418.26, "ep06-counter", 0.3], [440.86, "ep06-boom", 0.3], [443.93, "ep06-stamp", 0.4], [453.06, "ep06-receipt", 0.25], [476.76, "ep06-boom", 0.28], [489.28, "ep06-kaching", 0.25], [510.2, "ep06-fall", 0.22], [515.68, "ep06-counter", 0.25], [531.89, "ep06-pumpoff", 0.3]];
 
 export const Ep06Gas: React.FC = () => {
   const { fps } = useVideoConfig();
@@ -363,9 +363,14 @@ export const Ep06Gas: React.FC = () => {
     <AbsoluteFill translate="no" className="notranslate" style={{ backgroundColor: C6.bgDeep }}>
       <Bg6 />
       <Audio src={staticFile("audio/ep06-voiceover.mp3")} />
-
-      {SFX.map(([t, n], i) => (
-        <Sequence key={"s" + i} from={Math.round(t * fps)} durationInFrames={60}><Audio src={staticFile(`sfx/${n}.wav`)} volume={0.3} /></Sequence>
+      <Sequence from={0} durationInFrames={1272}><Audio src={staticFile("audio/ep06/music-trailer.mp3")} volume={(f) => 0.15 * interpolate(f, [0, 30, 1242, 1272], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      <Sequence from={1329} durationInFrames={3888}><Audio src={staticFile("audio/ep06/music-ch1.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 3858, 3888], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      <Sequence from={5202} durationInFrames={3486}><Audio src={staticFile("audio/ep06/music-ch2.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 3456, 3486], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      <Sequence from={8670} durationInFrames={2805}><Audio src={staticFile("audio/ep06/music-ch3.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 2775, 2805], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      <Sequence from={11460} durationInFrames={3678}><Audio src={staticFile("audio/ep06/music-ch4.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 3648, 3678], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      <Sequence from={15126} durationInFrames={2191}><Audio src={staticFile("audio/ep06/music-finale.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 2161, 2191], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      {SFX.map(([t, n, v], i) => (
+        <Sequence key={"s" + i} from={Math.round(t * fps)} durationInFrames={120}><Audio src={staticFile(`sfx/${n}.wav`)} volume={v} /></Sequence>
       ))}
       {BEATS.map((b, i) => (
         <Sequence key={i} from={Math.round(b.from * fps)} durationInFrames={Math.max(1, Math.round((b.to - b.from) * fps))} name={`Beat ${i + 1}`}>

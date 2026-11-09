@@ -80,7 +80,8 @@ for k, sc in enumerate(S):
         return str(max(0.05, round(TOK[i]["s"] - t0 - 0.08, 2)))
     el = re.sub(r"@\{([^}]+)\}", rep, sc.get("el", "")).replace("{DUR}", "{%s}" % dur)
     for name, expr in sc.get("sfx", []):
-        sfx.append((round(t0 + eval(re.sub(r"@\{([^}]+)\}", rep, expr)), 2), name))
+        nm, _, vol = name.partition(":")
+        sfx.append((round(t0 + eval(re.sub(r"@\{([^}]+)\}", rep, expr)), 2), nm, float(vol or 0.3)))
     back = ""
     if sc.get("stock"):
         used.append(sc["stock"])
@@ -119,7 +120,7 @@ body = hdr + "\n".join(beats) + f'''
 ];
 
 // звуковые эффекты — только на смысловые события (секунды ролика)
-const SFX: [number, string][] = {json.dumps(sfx)};
+const SFX: [number, string, number][] = {json.dumps(sfx)};
 
 export const {comp}: React.FC = () => {{
   const {{ fps }} = useVideoConfig();
@@ -128,8 +129,8 @@ export const {comp}: React.FC = () => {{
       <Bg6 />
       <Audio src={{staticFile("{EP["audio"]}")}} />
 {mus}
-      {{SFX.map(([t, n], i) => (
-        <Sequence key={{"s" + i}} from={{Math.round(t * fps)}} durationInFrames={{60}}><Audio src={{staticFile(`sfx/${{n}}.wav`)}} volume={{0.3}} /></Sequence>
+      {{SFX.map(([t, n, v], i) => (
+        <Sequence key={{"s" + i}} from={{Math.round(t * fps)}} durationInFrames={{120}}><Audio src={{staticFile(`sfx/${{n}}.wav`)}} volume={{v}} /></Sequence>
       ))}}
       {{BEATS.map((b, i) => (
         <Sequence key={{i}} from={{Math.round(b.from * fps)}} durationInFrames={{Math.max(1, Math.round((b.to - b.from) * fps))}} name={{`Beat ${{i + 1}}`}}>

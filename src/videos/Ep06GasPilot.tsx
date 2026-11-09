@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig, interpolate } from "remotion";
 import { Bg6, BigNum, Bug6, C6, Center, ChapterTag, Counter6, Label6, Meme, PriceSign, Row, Scene6, setClips, Source6, Stock6, TitleCard, TrailerFrame, Words } from "../brand/hm6";
 
 // ===================================================================
@@ -66,7 +66,7 @@ const BEATS: Beat[] = [
 ];
 
 // звуковые эффекты — только на смысловые события (секунды ролика)
-const SFX: [number, string][] = [];
+const SFX: [number, string, number][] = [[0.1, "ep06-pump", 0.35], [11.34, "ep06-coin", 0.35], [13.18, "ep06-pop", 0.3], [14.78, "ep06-pop", 0.3], [18.39, "ep06-counter", 0.3], [23.32, "ep06-pop", 0.35], [25.4, "ep06-rocket", 0.25], [27.3, "ep06-fall", 0.25], [36.46, "ep06-boom", 0.3], [42.21, "ep06-stamp", 0.4]];
 
 export const Ep06GasPilot: React.FC = () => {
   const { fps } = useVideoConfig();
@@ -74,9 +74,10 @@ export const Ep06GasPilot: React.FC = () => {
     <AbsoluteFill translate="no" className="notranslate" style={{ backgroundColor: C6.bgDeep }}>
       <Bg6 />
       <Audio src={staticFile("audio/ep06-voiceover.mp3")} />
-
-      {SFX.map(([t, n], i) => (
-        <Sequence key={"s" + i} from={Math.round(t * fps)} durationInFrames={60}><Audio src={staticFile(`sfx/${n}.wav`)} volume={0.3} /></Sequence>
+      <Sequence from={0} durationInFrames={1272}><Audio src={staticFile("audio/ep06/music-trailer.mp3")} volume={(f) => 0.15 * interpolate(f, [0, 30, 1242, 1272], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      <Sequence from={1329} durationInFrames={7}><Audio src={staticFile("audio/ep06/music-ch1.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, -23, 7], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
+      {SFX.map(([t, n, v], i) => (
+        <Sequence key={"s" + i} from={Math.round(t * fps)} durationInFrames={120}><Audio src={staticFile(`sfx/${n}.wav`)} volume={v} /></Sequence>
       ))}
       {BEATS.map((b, i) => (
         <Sequence key={i} from={Math.round(b.from * fps)} durationInFrames={Math.max(1, Math.round((b.to - b.from) * fps))} name={`Beat ${i + 1}`}>
