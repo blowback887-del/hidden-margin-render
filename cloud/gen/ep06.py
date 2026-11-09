@@ -44,8 +44,8 @@ dict(start="So how do a hundred", stock=8, el='''<TrailerFrame />
 dict(start="Why does every price", stock=3, el='''<TrailerFrame />
 <Center y={520}><PriceSign at={0.05} price="$4.16" hlFrac={@{nine tenths}} /></Center>'''),
 dict(start="Why do prices shoot", stock=22, alt=(23, "float down"), clean=True, el='''<TrailerFrame />
-<Center y={880}><Label6 at={@{shoot up}} size={40} color={C6.loss} out={@{float down}}>UP LIKE A ROCKET</Label6></Center>
-<Center y={880}><Label6 at={@{float down}} size={40} color={C6.money}>DOWN LIKE A FEATHER</Label6></Center>'''),
+<Center x={520} y={540}><Label6 at={@{shoot up}} size={44} color={C6.loss} out={@{float down}}>UP LIKE A ROCKET</Label6></Center>
+<Center x={1400} y={540}><Label6 at={@{float down}} size={44} color={C6.money}>DOWN LIKE A FEATHER</Label6></Center>'''),
 dict(start="Why does the station care", stock=5, el='''<TrailerFrame />
 <Center y={540}><Words text="Your coffee > your gas?" at={@{your coffee}} size={110} hl={["coffee"]} /></Center>'''),
 dict(start="And how did one tiny", stock=52, alt=(7, "fifth biggest"), el='''<TrailerFrame />

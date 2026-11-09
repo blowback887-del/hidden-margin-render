@@ -43,8 +43,8 @@ const BEATS: Beat[] = [
   { from: 24.76, to: 28.64, back: (<><Stock6 n={22} dur={3.88} dim={0} graphics={false} />
 <Stock6 n={23} from={2.54} dur={3.88} dim={0} graphics={false} /></>), el: (<>
 <TrailerFrame />
-<Center y={880}><Label6 at={0.64} size={40} color={C6.loss} out={2.54}>UP LIKE A ROCKET</Label6></Center>
-<Center y={880}><Label6 at={2.54} size={40} color={C6.money}>DOWN LIKE A FEATHER</Label6></Center>
+<Center x={520} y={540}><Label6 at={0.64} size={44} color={C6.loss} out={2.54}>UP LIKE A ROCKET</Label6></Center>
+<Center x={1400} y={540}><Label6 at={2.54} size={44} color={C6.money}>DOWN LIKE A FEATHER</Label6></Center>
 </>) },
   { from: 28.64, to: 32.58, back: (<><Stock6 n={5} dur={3.94} dim={0} graphics={true} /></>), el: (<>
 <TrailerFrame />
