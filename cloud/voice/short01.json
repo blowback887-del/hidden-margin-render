@@ -1,0 +1,9 @@
+{
+ "episode": "short01",
+ "words_out": "src/videos/short01-words.json",
+ "audio_out": "public/audio/short01-voiceover.mp3",
+ "pause_sec": 0.5,
+ "parts": [
+  {"part": 1, "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/mFeELonHEXK6ey4CBzRH/tEY9NYw8BidKowvNuzSP/content.mp3?Expires=1794243600&KeyName=assets-cdn-key-1&Signature=4UGqworNvLCTMhidkY1QYYq2cz0="}
+ ]
+}
