@@ -15,6 +15,7 @@ import { Ep05Short, EP05_SHORTS, ep05ShortFrames } from "./videos/Ep05Shorts";
 import { Ep04Costco, EP04_DURATION_SEC } from "./videos/Ep04Costco";
 import { Ep05Christmas, EP05_DURATION_SEC } from "./videos/Ep05Christmas";
 import { Ep06Gas, EP06GAS_DURATION_SEC } from "./videos/Ep06Gas";
+import { Short01, SHORT01_DURATION_SEC } from "./videos/Short01";
 import { Ep06GasPilot, EP06GASPILOT_DURATION_SEC } from "./videos/Ep06GasPilot";
 
 export const RemotionRoot: React.FC = () => {
@@ -22,6 +23,7 @@ export const RemotionRoot: React.FC = () => {
     <>
       <Folder name="HiddenMargin">
         <Composition id="Ep06-Gas" component={Ep06Gas} durationInFrames={Math.round(EP06GAS_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
+        <Composition id="Short01" component={Short01} durationInFrames={Math.round(SHORT01_DURATION_SEC * 30)} fps={30} width={1080} height={1920} />
         <Composition id="Ep06-Gas-Pilot" component={Ep06GasPilot} durationInFrames={Math.round(EP06GASPILOT_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition
           id="Ep01-MovieTheaters"
