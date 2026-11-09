@@ -11,6 +11,7 @@ import { Ep03Demo, EP03_DEMO_SEC } from "./videos/Ep03Demo";
 import { Ep03Airports, EP03_DURATION_SEC, EP03_PILOT_SEC } from "./videos/Ep03Airports";
 import { Ep03Short, EP03_SHORTS, ep03ShortFrames } from "./videos/Ep03Shorts";
 import { Ep04Short, EP04_SHORTS, ep04ShortFrames } from "./videos/Ep04Shorts";
+import { Ep05Short, EP05_SHORTS, ep05ShortFrames } from "./videos/Ep05Shorts";
 import { Ep04Costco, EP04_DURATION_SEC } from "./videos/Ep04Costco";
 import { Ep05Christmas, EP05_DURATION_SEC } from "./videos/Ep05Christmas";
 import { Ep06Gas, EP06GAS_DURATION_SEC } from "./videos/Ep06Gas";
@@ -58,6 +59,9 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="Ep05-Christmas" component={Ep05Christmas} durationInFrames={Math.round(EP05_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep03-Airports" component={Ep03Airports} durationInFrames={Math.round(EP03_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep03-Pilot" component={Ep03Airports} durationInFrames={Math.round(EP03_PILOT_SEC * 30)} fps={30} width={1920} height={1080} />
+        {EP05_SHORTS.map(({ id, ...p }) => (
+          <Composition key={id} id={id} component={Ep05Short} durationInFrames={ep05ShortFrames(p)} fps={30} width={1080} height={1920} defaultProps={p} />
+        ))}
         {EP04_SHORTS.map(({ id, ...p }) => (
           <Composition key={id} id={id} component={Ep04Short} durationInFrames={ep04ShortFrames(p)} fps={30} width={1080} height={1920} defaultProps={p} />
         ))}
