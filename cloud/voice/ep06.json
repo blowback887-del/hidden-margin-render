@@ -1,0 +1,36 @@
+{
+ "episode": "ep06",
+ "words_out": "src/videos/ep06-gas-words.json",
+ "audio_out": "public/audio/ep06-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {
+   "part": 1,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/VmQVDaG56BblUEY0szu6/Rz0JlnEgMz1EbaYu5BNg/content.mp3?Expires=1794218400&KeyName=assets-cdn-key-1&Signature=RqO-Z63yRRMrZCs2dyCRcXU7xyc="
+  },
+  {
+   "part": 2,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/gxOwiuflQuY0M4l4rUQy/CJPDPWeqJZ1DWFQMrmIK/content.mp3?Expires=1794218400&KeyName=assets-cdn-key-1&Signature=Fw1JebKU7XjH96z5JjFVOpKCpD4="
+  },
+  {
+   "part": 3,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/nwCCbRQm1pFCaeGV65NA/qMJbVyYaUHa5qc0KbOux/content.mp3?Expires=1794218400&KeyName=assets-cdn-key-1&Signature=ummDclGtXlyGqv-PjkmBW2Kobm0="
+  },
+  {
+   "part": 4,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/gOn8zTWed4W5X1Mq7mYw/WuwQyDti2FO7LF0vlcYt/content.mp3?Expires=1794218400&KeyName=assets-cdn-key-1&Signature=AKuYcDOOGhCXV8NnbBosMBWhaFA="
+  },
+  {
+   "part": 5,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/fxSoHMHWwwnDsDmpUXea/aoHdN7RH7ILpyDoWyhYo/content.mp3?Expires=1794218400&KeyName=assets-cdn-key-1&Signature=abh8u7-H0-ywEL4k1qPEJcTpLJ0="
+  },
+  {
+   "part": 6,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/yKG14OlroCZQkJ8UvIuT/0F00i91bl3cv91jd5VCP/content.mp3?Expires=1794218400&KeyName=assets-cdn-key-1&Signature=Nek1QYCeCSYR4Y3D4eSLXO9wWhM="
+  },
+  {
+   "part": 7,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/7VuIxDhu4joliHWaNZqu/a2nKMHcsPXl8M50qQCNM/content.mp3?Expires=1794218400&KeyName=assets-cdn-key-1&Signature=9wsOugiytAVaPgNbO4QdO5ADQXQ="
+  }
+ ]
+}
