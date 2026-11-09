@@ -1,0 +1,267 @@
+{
+ "out": "public/broll/ep06",
+ "sheet": "public/research/ep06-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "01-man-refueling-car",
+   "id": 39102371,
+   "url": "https://videos.pexels.com/video-files/39102371/16637016_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "02-pump-display-numbers",
+   "id": 29576552,
+   "url": "https://videos.pexels.com/video-files/29576552/12731018_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "03-gas-price-signage",
+   "id": 4324135,
+   "url": "https://videos.pexels.com/video-files/4324135/4324135-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "04-night-gas-station-neon",
+   "id": 34964497,
+   "url": "https://videos.pexels.com/video-files/34964497/14811596_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "05-coffee-filling-cup",
+   "id": 854055,
+   "url": "https://videos.pexels.com/video-files/854055/854055-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "06-small-town-main-street",
+   "id": 33845059,
+   "url": "https://videos.pexels.com/video-files/33845059/14362854_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "07-pizza-on-box",
+   "id": 7987519,
+   "url": "https://videos.pexels.com/video-files/7987519/7987519-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "08-cars-at-gas-station-timelapse",
+   "id": 8996523,
+   "url": "https://videos.pexels.com/video-files/8996523/8996523-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "09-man-counting-pennies",
+   "id": 7062994,
+   "url": "https://videos.pexels.com/video-files/7062994/7062994-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "10-oil-well-plains",
+   "id": 12043160,
+   "url": "https://videos.pexels.com/video-files/12043160/12043160-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "11-refinery-aerial",
+   "id": 37151630,
+   "url": "https://videos.pexels.com/video-files/37151630/15738797_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "12-us-capitol",
+   "id": 29188237,
+   "url": "https://videos.pexels.com/video-files/29188237/12603730_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "13-fuel-truck-farmland",
+   "id": 33814690,
+   "url": "https://videos.pexels.com/video-files/33814690/14351861_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "14-yachts-marina",
+   "id": 7692230,
+   "url": "https://videos.pexels.com/video-files/7692230/7692230-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "15-card-reader",
+   "id": 11158789,
+   "url": "https://videos.pexels.com/video-files/11158789/11158789-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "16-cashier",
+   "id": 14936143,
+   "url": "https://videos.pexels.com/video-files/14936143/14936143-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "17-speedometer",
+   "id": 6312479,
+   "url": "https://videos.pexels.com/video-files/6312479/6312479-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "18-couch-pillows",
+   "id": 8376371,
+   "url": "https://videos.pexels.com/video-files/8376371/8376371-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "19-vintage-gas-station",
+   "id": 31388121,
+   "url": "https://videos.pexels.com/video-files/31388121/13393607_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "20-filling-car-gasoline",
+   "id": 29576549,
+   "url": "https://videos.pexels.com/video-files/29576549/12731048_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "21-iowa-truckstop-aerial",
+   "id": 31885438,
+   "url": "https://videos.pexels.com/video-files/31885438/13582200_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "22-rocket-launch",
+   "id": 28953923,
+   "url": "https://videos.pexels.com/video-files/28953923/12527162_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "23-feathers-falling",
+   "id": 7121165,
+   "url": "https://videos.pexels.com/video-files/7121165/7121165-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "24-man-smiling",
+   "id": 8974297,
+   "url": "https://videos.pexels.com/video-files/8974297/8974297-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "25-store-automatic-doors",
+   "id": 6641527,
+   "url": "https://videos.pexels.com/video-files/6641527/6641527-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "26-candies-dropping",
+   "id": 8670879,
+   "url": "https://videos.pexels.com/video-files/8670879/8670879-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "27-grilling-hot-dogs",
+   "id": 8523314,
+   "url": "https://videos.pexels.com/video-files/8523314/8523314-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "28-soft-drink-filling",
+   "id": 9021805,
+   "url": "https://videos.pexels.com/video-files/9021805/9021805-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "29-expressway-drone",
+   "id": 4030687,
+   "url": "https://videos.pexels.com/video-files/4030687/4030687-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "30-highway-traffic-aerial",
+   "id": 29538541,
+   "url": "https://videos.pexels.com/video-files/29538541/12715279_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "31-night-gas-station-store",
+   "id": 39372797,
+   "url": "https://videos.pexels.com/video-files/39372797/16761842_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "32-grain-elevator",
+   "id": 19675231,
+   "url": "https://videos.pexels.com/video-files/19675231/19675231-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "33-abandoned-gas-station",
+   "id": 4581485,
+   "url": "https://videos.pexels.com/video-files/4581485/4581485-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "34-shopping-aisle",
+   "id": 29846459,
+   "url": "https://videos.pexels.com/video-files/29846459/12817261_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "35-rolling-pizza-dough",
+   "id": 7172187,
+   "url": "https://videos.pexels.com/video-files/7172187/7172187-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "36-pizza-into-oven",
+   "id": 10802508,
+   "url": "https://videos.pexels.com/video-files/10802508/10802508-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "37-pizza-out-of-oven",
+   "id": 10802656,
+   "url": "https://videos.pexels.com/video-files/10802656/10802656-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "38-pizza-on-plate",
+   "id": 14584577,
+   "url": "https://videos.pexels.com/video-files/14584577/14584577-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "39-silos-farm-field",
+   "id": 13529950,
+   "url": "https://videos.pexels.com/video-files/13529950/13529950-hd_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "40-pizza-sliced",
+   "id": 34241545,
+   "url": "https://videos.pexels.com/video-files/34241545/14511265_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "41-highlighting-report",
+   "id": 7841622,
+   "url": "https://videos.pexels.com/video-files/7841622/7841622-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "42-counting-money",
+   "id": 5466769,
+   "url": "https://videos.pexels.com/video-files/5466769/5466769-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "43-stock-market-display",
+   "id": 38557069,
+   "url": "https://videos.pexels.com/video-files/38557069/16377039_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "44-choosing-pastry-store",
+   "id": 8849051,
+   "url": "https://videos.pexels.com/video-files/8849051/8849051-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "45-cash-register",
+   "id": 3970164,
+   "url": "https://videos.pexels.com/video-files/3970164/3970164-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "46-scrolling-phone",
+   "id": 6611954,
+   "url": "https://videos.pexels.com/video-files/6611954/6611954-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "47-holding-hot-dog",
+   "id": 32304951,
+   "url": "https://videos.pexels.com/video-files/32304951/13777115_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "48-fuel-pump-close",
+   "id": 15556113,
+   "url": "https://videos.pexels.com/video-files/15556113/15556113-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "49-coffee-to-go",
+   "id": 18883841,
+   "url": "https://videos.pexels.com/video-files/18883841/18883841-hd_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "50-night-highway-aerial",
+   "id": 15510227,
+   "url": "https://videos.pexels.com/video-files/15510227/15510227-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "51-man-eating-pizza",
+   "id": 4834485,
+   "url": "https://videos.pexels.com/video-files/4834485/4834485-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "52-highway-into-small-town",
+   "id": 28142931,
+   "url": "https://videos.pexels.com/video-files/28142931/12308870_1920_1080_25fps.mp4"
+  }
+ ]
+}
