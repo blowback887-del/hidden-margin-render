@@ -247,10 +247,10 @@ export const CorpSub: React.FC<{ at: number; corp: string; human: string; out?: 
   const { p } = useT();
   const k = p(at, at + 0.3) * (out !== undefined ? 1 - p(out, out + 0.25) : 1);
   return (
-    <div style={{ position: "absolute", left: "50%", bottom: 150, translate: `-50% ${(1 - k) * 20}px`, opacity: k, padding: "18px 34px", borderRadius: 12, background: "rgba(0,0,0,.78)", textAlign: "center", minWidth: 900 }}>
-      <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 22, letterSpacing: "0.2em", color: C6.mint }}>TRANSLATION FROM CORPORATE</div>
-      <div style={{ fontFamily: SANS, fontWeight: 500, fontSize: 34, color: "rgba(247,244,236,.6)", marginTop: 10, textDecoration: "line-through" }}>{corp}</div>
-      <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 44, color: C6.accent, marginTop: 4 }}>{human}</div>
+    <div style={{ position: "absolute", left: "50%", bottom: 150, translate: `-50% ${(1 - k) * 20}px`, opacity: k, padding: "28px 56px", borderRadius: 16, background: "rgba(0,0,0,.8)", textAlign: "center", minWidth: 1200 }}>
+      <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 30, letterSpacing: "0.2em", color: C6.mint }}>TRANSLATION FROM CORPORATE</div>
+      <div style={{ fontFamily: SANS, fontWeight: 500, fontSize: 46, color: "rgba(247,244,236,.6)", marginTop: 10, textDecoration: "line-through" }}>{corp}</div>
+      <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 68, color: C6.accent, marginTop: 6 }}>{human}</div>
     </div>
   );
 };
@@ -354,9 +354,11 @@ export const TwoBars: React.FC<{ at: number; a: { label: string; value: string; 
     const c = x.color ?? def;
     return (
       <Col gap={14}>
-        <div style={{ opacity: p(t0 + 0.4, t0 + 0.7) }}><Num6 color={c} size={96}>{x.value}</Num6></div>
-        <div style={{ height: h, display: "flex", alignItems: "flex-end" }}><div style={{ width: 190, height: Math.max(6, (x.v / max) * h * k), borderRadius: "14px 14px 0 0", background: `linear-gradient(180deg, ${c}, ${c}99)`, boxShadow: `0 0 50px ${c}33` }} /></div>
-        <Kicker6 size={24} color={C6.ink}>{x.label}</Kicker6>
+        <div style={{ height: h + 120, display: "flex", flexDirection: "column", justifyContent: "flex-end", alignItems: "center", gap: 12 }}>
+          <div style={{ opacity: p(t0 + 0.4, t0 + 0.7) }}><Num6 color={c} size={96}>{x.value}</Num6></div>
+          <div style={{ width: 190, height: Math.max(6, (x.v / max) * h * k), borderRadius: "14px 14px 0 0", background: `linear-gradient(180deg, ${c}, ${c}99)`, boxShadow: `0 0 50px ${c}33` }} />
+        </div>
+        <Kicker6 size={30} color={C6.ink}>{x.label}</Kicker6>
       </Col>
     );
   };
