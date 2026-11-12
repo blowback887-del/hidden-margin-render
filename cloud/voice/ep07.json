@@ -1,0 +1,36 @@
+{
+ "episode": "ep07",
+ "words_out": "src/videos/ep07-grocery-words.json",
+ "audio_out": "public/audio/ep07-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {
+   "part": 1,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/ml8X9LaLh4OJFHpoAkhH/uX8b0BZ95qtTCUyZg3VM/content.mp3?Expires=1794477600&KeyName=assets-cdn-key-1&Signature=zAYqUls-LdZqpOQEgqA9spXK2ek="
+  },
+  {
+   "part": 2,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/mpdExI94IotFifBxdkAs/QYMH4nBSalKere6Vfbfw/content.mp3?Expires=1794477600&KeyName=assets-cdn-key-1&Signature=Eaf24nzsNmGpQJv-HZ5xll_LmcY="
+  },
+  {
+   "part": 3,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/9PRspapSwmBpYxqGhwMi/SAjKSICkR90dA26rZEQv/content.mp3?Expires=1794477600&KeyName=assets-cdn-key-1&Signature=Pc_mO3CgWZqv_XzTKZkJ2JRRfVs="
+  },
+  {
+   "part": 4,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/KhcZEo73nrgGH9unijgM/BvSZA5WsE3d9vHxX3hMo/content.mp3?Expires=1794477600&KeyName=assets-cdn-key-1&Signature=RpUt1uYE67ZMCwfB4y1NB6stJb8="
+  },
+  {
+   "part": 5,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/cHhfjB4625zE0E75dUMZ/3cDKDkt9Od9iFxzNk9C3/content.mp3?Expires=1794477600&KeyName=assets-cdn-key-1&Signature=DId_7xehVtsjsl2fxTXGhx22924="
+  },
+  {
+   "part": 6,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/JWhg5V77IoNlSdv53yAL/W285Y3IGUUUEKYWwstZZ/content.mp3?Expires=1794477600&KeyName=assets-cdn-key-1&Signature=O9fjy72CmXnhXiRnOGBYxsmQN20="
+  },
+  {
+   "part": 7,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/4gVGGXlBfcWhcIYzqDmT/XA0AuPsmTFLCXtEeNsZF/content.mp3?Expires=1794477600&KeyName=assets-cdn-key-1&Signature=U0zJgDLu58WzxU3NzNiXAuc0Ixs="
+  }
+ ]
+}
