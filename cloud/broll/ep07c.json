@@ -1,0 +1,12 @@
+{
+ "out": "public/broll/ep07",
+ "sheet": "public/research/ep07c-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "02-grocery-interior",
+   "id": 992601,
+   "url": "https://videos.pexels.com/video-files/992601/992601-hd_1920_1080_25fps.mp4"
+  }
+ ]
+}
