@@ -442,6 +442,76 @@ export const Receipt6: React.FC<{ at: number; lines: [string, string][]; step?: 
   );
 };
 
+/** Ep08: ценник-наклейка и три слоя под ним (сквозная карта выпуска). done — слой открыт, иначе «?» */
+export const TagLayers: React.FC<{ at: number; price?: string; layers: { text: string; done?: boolean; at?: number }[]; note?: string }> = ({ at, price = "$228", layers, note }) => {
+  const { p } = useT();
+  const k = p(at, at + 0.45, easeBack);
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 90 }}>
+      <div style={{ opacity: Math.min(1, k * 1.5), scale: String(0.75 + 0.25 * k), rotate: "-5deg", width: 520, height: 330, borderRadius: 30, background: C6.accent, boxShadow: "0 34px 70px rgba(0,0,0,.45)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative" }}>
+        <div style={{ position: "absolute", left: 30, top: 30, width: 34, height: 34, borderRadius: 34, background: C6.bgBottom }} />
+        <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 24, letterSpacing: "0.3em", color: "#063A47" }}>BLACK FRIDAY · 65"</div>
+        <div style={{ fontFamily: SERIF, fontSize: 190, lineHeight: 1, color: "#063A47" }}>{price}</div>
+      </div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 22 }}>
+        {layers.map((l, i) => {
+          const t0 = l.at ?? at + 0.35 + i * 0.25;
+          const o = p(t0, t0 + 0.3);
+          return (
+            <div key={i} style={{ opacity: o, translate: `${(1 - o) * 30}px 0`, width: 820, padding: "24px 34px", borderRadius: 18, background: l.done ? C6.panel : "rgba(127,209,199,.12)", boxShadow: `inset 0 0 0 2px ${l.done ? C6.accent : C6.mint}`, display: "flex", alignItems: "center", gap: 26 }}>
+              <div style={{ width: 62, height: 62, borderRadius: 62, flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", background: l.done ? C6.accent : "transparent", boxShadow: l.done ? "none" : `inset 0 0 0 3px ${C6.mint}`, fontFamily: SERIF, fontSize: 38, color: l.done ? "#063A47" : C6.mint }}>{i + 1}</div>
+              <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: l.done ? 40 : 34, letterSpacing: "0.08em", color: l.done ? C6.ink : C6.mint, textTransform: "uppercase", whiteSpace: "nowrap" }}>{l.done ? l.text : l.text && l.text !== "?" ? <><span style={{ color: C6.accent, fontSize: 46, marginRight: 18 }}>?</span>{l.text}</> : <span style={{ color: C6.accent, fontSize: 50 }}>?</span>}</div>
+            </div>
+          );
+        })}
+        {note && <div style={{ opacity: p(at + 1.2, at + 1.5), fontFamily: SANS, fontWeight: 600, fontSize: 26, letterSpacing: "0.14em", color: C6.accent, textTransform: "uppercase", paddingLeft: 10 }}>{note}</div>}
+      </div>
+    </div>
+  );
+};
+
+/** Ep08: линия цены после распродажи — пунктир «цена чёрной пятницы», линия ныряет под него (форма условная) */
+export const PriceLine: React.FC<{ at: number; top: string; low: string; days: string; lowAt?: number; daysAt?: number }> = ({ at, top, low, days, lowAt, daysAt }) => {
+  const { p } = useT();
+  const W = 1400, H = 520;
+  const pts: [number, number][] = [[0, 150], [90, 150], [150, 190], [300, 185], [380, 150], [470, 250], [640, 240], [720, 330], [900, 320], [980, 420], [1130, 410], [1220, 300], [1400, 310]];
+  const len = 2200;
+  const tl = lowAt ?? at + 2.2, td = daysAt ?? at + 1.4;
+  const k = p(at + 0.3, Math.max(at + 2.6, tl + 0.6));
+  return (
+    <div style={{ position: "relative", width: W, height: H + 60 }}>
+      <svg width={W} height={H} style={{ overflow: "visible" }}>
+        <path d={`M 90 150 ${pts.slice(2).map(([x, y]) => `L ${x} ${Math.max(y, 150)}`).join(" ")} L 1400 150 Z`} fill={C6.accent} opacity={0.14 * p(td, td + 0.4)} />
+        <line x1={0} y1={150} x2={W} y2={150} stroke={C6.ink} strokeWidth={3} strokeDasharray="14 12" opacity={p(at, at + 0.3)} />
+        <polyline points={pts.map(([x, y]) => `${x},${y}`).join(" ")} fill="none" stroke={C6.accent} strokeWidth={9} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={len} strokeDashoffset={len * (1 - k)} />
+        <circle cx={980} cy={420} r={16} fill={C6.money} opacity={p(tl - 0.3, tl)} />
+      </svg>
+      <div style={{ position: "absolute", left: 0, top: 84, opacity: p(at, at + 0.3), fontFamily: SANS, fontWeight: 800, fontSize: 30, letterSpacing: "0.12em", color: C6.ink }}>BLACK FRIDAY PRICE · {top}</div>
+      <div style={{ position: "absolute", left: 1010, top: 395, opacity: p(tl - 0.3, tl), fontFamily: SERIF, fontSize: 84, color: C6.money, lineHeight: 1 }}>{low}</div>
+      <div style={{ position: "absolute", left: 420, top: 20, opacity: p(td, td + 0.3), fontFamily: SANS, fontWeight: 800, fontSize: 34, letterSpacing: "0.1em", color: C6.accent }}>{days}</div>
+      <div style={{ position: "absolute", right: 0, top: H + 20, opacity: 0.7 * p(at + 0.5, at + 0.8), fontFamily: SANS, fontWeight: 500, fontSize: 20, letterSpacing: "0.1em", color: C6.mint }}>LINE SHAPE IS ILLUSTRATIVE · FIGURES FROM WHICH?</div>
+    </div>
+  );
+};
+
+/** Ep08: «убыток против прибыли» — маленький красный столбик ниже нуля и высокий зелёный, крупные цифры */
+export const LossGain: React.FC<{ at: number; a: { label: string; value: string }; b: { label: string; value: string; at?: number } }> = ({ at, a, b }) => {
+  const { p } = useT();
+  const ta = at, tb = b.at ?? at + 0.8;
+  const ka = p(ta, ta + 0.4), kb = p(tb, tb + 0.7);
+  return (
+    <div style={{ position: "relative", width: 1500, height: 760 }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 560, height: 4, background: C6.ink, opacity: 0.55 }} />
+      <div style={{ position: "absolute", left: 230, top: 564, width: 300, height: 46 * ka, background: C6.loss, borderRadius: "0 0 10px 10px" }} />
+      <div style={{ position: "absolute", left: 0, width: 760, top: 380, textAlign: "center", opacity: ka, fontFamily: SERIF, fontSize: 140, lineHeight: 1, color: C6.loss }}>{a.value}</div>
+      <div style={{ position: "absolute", left: 0, width: 760, top: 640, textAlign: "center", opacity: ka, fontFamily: SANS, fontWeight: 800, fontSize: 32, letterSpacing: "0.14em", color: C6.ink }}>{a.label}</div>
+      <div style={{ position: "absolute", left: 970, top: 560 - 400 * kb, width: 300, height: 400 * kb, background: C6.money, borderRadius: "10px 10px 0 0" }} />
+      <div style={{ position: "absolute", left: 740, width: 760, top: 0, textAlign: "center", opacity: kb, fontFamily: SERIF, fontSize: 140, lineHeight: 1, color: C6.money }}>{b.value}</div>
+      <div style={{ position: "absolute", left: 740, width: 760, top: 640, textAlign: "center", opacity: p(tb, tb + 0.3), fontFamily: SANS, fontWeight: 800, fontSize: 32, letterSpacing: "0.14em", color: C6.ink }}>{b.label}</div>
+    </div>
+  );
+};
+
 /** Финальная заставка: сюда YouTube ставит карточки (последние 20 с без важных цифр) */
 export const EndCard6: React.FC<{ at: number; next: string }> = ({ at, next }) => (
   <>

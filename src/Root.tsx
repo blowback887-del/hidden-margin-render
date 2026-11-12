@@ -16,6 +16,7 @@ import { Ep04Costco, EP04_DURATION_SEC } from "./videos/Ep04Costco";
 import { Ep05Christmas, EP05_DURATION_SEC } from "./videos/Ep05Christmas";
 import { Ep06Gas, EP06GAS_DURATION_SEC } from "./videos/Ep06Gas";
 import { Ep07Grocery, EP07GROCERY_DURATION_SEC } from "./videos/Ep07Grocery";
+import { Ep08BlackFriday, EP08BLACKFRIDAY_DURATION_SEC } from "./videos/Ep08BlackFriday";
 import { Short01, SHORT01_DURATION_SEC } from "./videos/Short01";
 import { Short02, SHORT02_DURATION_SEC } from "./videos/Short02";
 import { Ep06GasPilot, EP06GASPILOT_DURATION_SEC } from "./videos/Ep06GasPilot";
@@ -24,6 +25,7 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Folder name="HiddenMargin">
+        <Composition id="Ep08-BlackFriday" component={Ep08BlackFriday} durationInFrames={Math.round(EP08BLACKFRIDAY_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep07-Grocery" component={Ep07Grocery} durationInFrames={Math.round(EP07GROCERY_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep06-Gas" component={Ep06Gas} durationInFrames={Math.round(EP06GAS_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Short02" component={Short02} durationInFrames={Math.round(SHORT02_DURATION_SEC * 30)} fps={30} width={1080} height={1920} />
