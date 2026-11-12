@@ -1,0 +1,31 @@
+name: Search stock
+
+on:
+  workflow_dispatch:
+    inputs:
+      config:
+        description: "Query list (e.g. cloud/broll/ep07-queries.json)"
+        required: true
+
+run-name: "Search ${{ inputs.config }}"
+
+permissions:
+  contents: write
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - run: python3 cloud/broll/search.py "${{ inputs.config }}"
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      - name: Commit candidates + sheets
+        run: |
+          git config user.name "broll-bot"
+          git config user.email "broll-bot@users.noreply.github.com"
+          git add public/research
+          git commit -m "Stock candidates for ${{ inputs.config }}" || echo "nothing to commit"
+          git pull --rebase
+          git push
