@@ -1,0 +1,32 @@
+name: Cleanup
+
+# Удаляет старые ветки deliver/* (кроме указанной) и все артефакты — освобождает место.
+on:
+  workflow_dispatch:
+    inputs:
+      keep:
+        description: "Branch to keep (e.g. deliver/Ep07-Grocery)"
+        required: true
+
+run-name: "Cleanup (keep ${{ inputs.keep }})"
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete old deliver branches and artifacts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          KEEP: ${{ inputs.keep }}
+        run: |
+          for b in $(gh api "repos/${{ github.repository }}/branches" --paginate --jq '.[].name' | grep -E '^(deliver|tmp-chunk)/'); do
+            [ "$b" = "$KEEP" ] && continue
+            gh api -X DELETE "repos/${{ github.repository }}/git/refs/heads/$b" && echo "deleted $b"
+          done
+          for id in $(gh api "repos/${{ github.repository }}/actions/artifacts" --paginate --jq '.artifacts[].id'); do
+            gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/$id" && echo "deleted artifact $id"
+          done
