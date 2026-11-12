@@ -1,0 +1,118 @@
+name: Render video (no artifacts)
+
+# То же, что «Render video», но без хранилища артефактов GitHub (у него бывает исчерпана квота):
+# каждый кусок кладётся во временную ветку tmp-chunk/<comp>/<i>, склейка — в ветку deliver/<comp>
+# (частями по 90 МБ + SHA256), временные ветки удаляются.
+
+on:
+  workflow_dispatch:
+    inputs:
+      composition:
+        description: "Composition id (e.g. Ep07-Grocery)"
+        required: true
+      chunks:
+        description: "Parallel chunks: auto (~1 per minute) or a number up to 20"
+        required: false
+        default: "auto"
+      crf:
+        description: "H.264 CRF (lower = better quality)"
+        required: false
+        default: "15"
+
+run-name: "Render (git) ${{ inputs.composition }}"
+
+permissions:
+  contents: write
+
+env:
+  COMP: ${{ inputs.composition }}
+  CRF: ${{ inputs.crf }}
+  REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - id: plan
+        run: node cloud/plan.mjs "$COMP" "${{ inputs.chunks }}"
+
+  video:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    name: chunk ${{ matrix.i }} (${{ matrix.start }}-${{ matrix.end }})
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Render frames ${{ matrix.start }}-${{ matrix.end }}
+        run: >
+          npx remotion render src/index.ts "$COMP" "out/chunk-${{ matrix.i }}.mkv"
+          --frames=${{ matrix.start }}-${{ matrix.end }}
+          --codec=h264 --audio-codec=pcm-16 --crf="$CRF"
+          --concurrency=2 --gl=angle --log=info
+      - name: Push chunk to temp branch
+        run: |
+          i=$(printf "%02d" ${{ matrix.i }})
+          mkdir push && split -b 90m -d out/chunk-${{ matrix.i }}.mkv "push/chunk-$i.mkv."
+          cd push
+          git init -q && git checkout -q -b "tmp-chunk/$COMP/$i"
+          git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
+          git add . && git commit -qm "chunk $i of $COMP"
+          git push -f "$REPO_URL" "tmp-chunk/$COMP/$i"
+
+  merge:
+    needs: video
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Fetch chunks
+        run: |
+          mkdir -p parts
+          for b in $(git ls-remote --heads "$REPO_URL" "tmp-chunk/$COMP/*" | awk '{print $2}' | sed 's|refs/heads/||' | sort); do
+            d="tmp/$(basename $b)"; mkdir -p "$d"
+            git clone -q --depth 1 --branch "$b" "$REPO_URL" "$d"
+            n=$(ls "$d"/chunk-*.mkv.* | head -1 | sed 's|.*/||; s|\.mkv\..*|.mkv|')
+            cat "$d"/chunk-*.mkv.* > "parts/$n"
+          done
+          ls -la parts
+      - name: Join chunks
+        run: |
+          mkdir -p final
+          ls parts/chunk-*.mkv | sort | sed "s|^|file '$PWD/|; s|$|'|" > list.txt
+          cat list.txt
+          npx remotion ffmpeg -hide_banner -y -f concat -safe 0 -i list.txt \
+            -map 0:v:0 -map 0:a:0 -c:v copy -c:a aac -b:a 320k -movflags +faststart \
+            "final/$COMP.mp4"
+          npx remotion ffprobe -hide_banner "final/$COMP.mp4"
+      - name: Push to deliver/<comp> and drop temp branches
+        run: |
+          f="final/$COMP.mp4"
+          mkdir d && split -b 90m -d "$f" "d/$COMP.mp4."
+          sha256sum "$f" | sed 's|final/||' > d/SHA256.txt
+          cd d
+          git init -q && git checkout -q -b "deliver/$COMP"
+          git config user.name "deliver-bot" && git config user.email "deliver-bot@users.noreply.github.com"
+          git add . && git commit -qm "Deliver $COMP"
+          git push -f "$REPO_URL" "deliver/$COMP"
+          for b in $(git ls-remote --heads "$REPO_URL" "tmp-chunk/$COMP/*" | awk '{print $2}' | sed 's|refs/heads/||'); do
+            git push -q "$REPO_URL" --delete "$b" || true
+          done
