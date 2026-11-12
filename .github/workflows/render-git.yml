@@ -66,7 +66,7 @@ jobs:
           --concurrency=2 --gl=angle --log=info
       - name: Push chunk to temp branch
         run: |
-          i=$(printf "%02d" ${{ matrix.i }})
+          i="${{ matrix.i }}"
           mkdir push && split -b 90m -d out/chunk-${{ matrix.i }}.mkv "push/chunk-$i.mkv."
           cd push
           git init -q && git checkout -q -b "tmp-chunk/$COMP/$i"
