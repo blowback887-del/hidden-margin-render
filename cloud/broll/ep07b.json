@@ -1,0 +1,57 @@
+{
+ "out": "public/broll/ep07",
+ "sheet": "public/research/ep07b-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "02-bananas-shopper",
+   "id": 4318318,
+   "url": "https://videos.pexels.com/video-files/4318318/4318318-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "05-couple-cashier",
+   "id": 4122216,
+   "url": "https://videos.pexels.com/video-files/4122216/4122216-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "11-semi-truck-road",
+   "id": 17899033,
+   "url": "https://videos.pexels.com/video-files/17899033/17899033-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "13-woman-grocery-aisle",
+   "id": 4121752,
+   "url": "https://videos.pexels.com/video-files/4121752/4121752-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "23-calendar-writing",
+   "id": 9057574,
+   "url": "https://videos.pexels.com/video-files/9057574/9057574-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "28-phone-scrolling",
+   "id": 4232959,
+   "url": "https://videos.pexels.com/video-files/4232959/4232959-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "36-us-coins",
+   "id": 5651775,
+   "url": "https://videos.pexels.com/video-files/5651775/5651775-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "39-store-entrance",
+   "id": 6641527,
+   "url": "https://videos.pexels.com/video-files/6641527/6641527-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "40-tap-to-pay-store",
+   "id": 4121750,
+   "url": "https://videos.pexels.com/video-files/4121750/4121750-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "43-bank-cards",
+   "id": 7821604,
+   "url": "https://videos.pexels.com/video-files/7821604/7821604-hd_1920_1080_30fps.mp4"
+  }
+ ]
+}
