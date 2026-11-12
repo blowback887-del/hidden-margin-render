@@ -15,6 +15,7 @@ EP = dict(
     parts=7,
     broll="cloud/broll/ep07.json",
     audio="audio/ep07-voiceover.mp3",
+    voice_vol=0.82,
     music=[
         dict(**{'from':0.0}, to=23.0, file="audio/ep07/music-trailer.mp3", vol=0.15),
         dict(**{'from':22.5}, to=118.3, file="audio/ep07/music-ch1.mp3", vol=0.12),

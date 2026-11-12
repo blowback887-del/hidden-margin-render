@@ -108,7 +108,8 @@ import {{ At, Bg6, BigNum, Bug6, C6, Center, ChapterCard, ChapterTag, Col, CorpS
 export const {comp.upper()}_DURATION_SEC = {dur_total};
 const CLIPS: Record<number, string> = {json.dumps(clips)};
 const LENS: Record<number, number> = {json.dumps(lens)};
-setClips((n) => ({{ src: staticFile(`{cfg["out"].replace("public/", "")}/${{CLIPS[n]}}.mp4`), len: LENS[n] ?? 10 }}));
+const CLIP_FN = (n: number) => ({{ src: staticFile(`{cfg["out"].replace("public/", "")}/${{CLIPS[n]}}.mp4`), len: LENS[n] ?? 10 }});
+setClips(CLIP_FN);
 
 type Beat = {{ from: number; to: number; tag?: [number, string]; hard?: boolean; back: React.ReactNode; el: React.ReactNode }};
 const BEATS: Beat[] = [
@@ -124,10 +125,11 @@ const SFX: [number, string, number][] = {json.dumps(sfx)};
 
 export const {comp}: React.FC = () => {{
   const {{ fps }} = useVideoConfig();
+  setClips(CLIP_FN); // свой набор стоков при каждом рендере: в общем Root последним грузится чужой ролик
   return (
     <AbsoluteFill translate="no" className="notranslate" style={{{{ backgroundColor: C6.bgDeep }}}}>
       <Bg6 />
-      <Audio src={{staticFile("{EP["audio"]}")}} />
+      <Audio src={{staticFile("{EP["audio"]}")}} volume={{{EP.get("voice_vol", 1)}}} />
 {mus}
       {{SFX.map(([t, n, v], i) => (
         <Sequence key={{"s" + i}} from={{Math.round(t * fps)}} durationInFrames={{120}}><Audio src={{staticFile(`sfx/${{n}}.wav`)}} volume={{v}} /></Sequence>

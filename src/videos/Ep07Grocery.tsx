@@ -9,7 +9,8 @@ import { Bg6, BigNum, Bug6, C6, Center, ChapterCard, ChapterTag, Col, CorpSub, C
 export const EP07GROCERY_DURATION_SEC = 533.6;
 const CLIPS: Record<number, string> = {"1": "01-cart-aisle-pov", "2": "02-grocery-interior", "3": "03-girl-lemonade", "4": "04-cereal-boxes", "5": "05-couple-cashier", "6": "06-mom-daughter-shopping", "7": "07-groceries-into-cart", "8": "08-couple-paying-counter", "9": "09-terminal-receipt", "10": "10-cashier-register", "11": "11-semi-truck-road", "12": "12-busy-cashier", "13": "13-woman-grocery-aisle", "14": "14-freezer-aisle", "15": "15-empty-shelves-us", "16": "16-meeting-suits", "17": "17-meeting-charts", "18": "18-ice-cream-cups", "19": "19-tortilla-chips", "20": "20-nachos-dip", "21": "21-soda-aisle", "22": "22-beverage-aisle-man", "23": "23-calendar-writing", "24": "24-tomato-factory", "25": "25-produce-aisle-ny", "26": "26-coin-spinning", "27": "27-phone-notification", "28": "28-phone-scrolling", "29": "29-pumpjacks-us", "30": "30-yogurt-bowl", "31": "31-groceries-trunk", "32": "32-wallet-cards", "33": "33-cincinnati-skyline", "34": "34-comparing-jars", "35": "35-fruit-shopper-chicago", "36": "36-us-coins", "37": "37-cart-timelapse", "38": "38-comparing-products", "39": "39-store-entrance", "40": "40-tap-to-pay-store", "41": "41-woman-bread", "42": "42-warehouse-aerial-ohio", "43": "43-bank-cards", "44": "44-food-conveyor", "45": "45-hands-lemons", "46": "46-cincinnati-river"};
 const LENS: Record<number, number> = {"1": 10.0, "2": 10.0, "3": 10.0, "4": 10.0, "5": 10.0, "6": 10.0, "7": 10.0, "8": 10.0, "9": 6.6, "10": 10.0, "11": 10.0, "12": 10.0, "13": 10.0, "14": 10.0, "15": 10.0, "16": 10.0, "17": 10.0, "18": 10.0, "19": 8.57, "20": 10.0, "21": 10.0, "22": 10.0, "23": 10.0, "24": 9.17, "25": 9.0, "26": 10.0, "27": 7.2, "28": 8.47, "29": 10.0, "30": 2.73, "31": 10.0, "32": 10.0, "33": 10.0, "34": 10.0, "35": 10.0, "36": 10.0, "37": 10.0, "38": 10.0, "39": 10.0, "40": 10.0, "41": 10.0, "42": 10.0, "43": 7.17, "44": 7.67, "45": 10.0, "46": 8.5};
-setClips((n) => ({ src: staticFile(`broll/ep07/${CLIPS[n]}.mp4`), len: LENS[n] ?? 10 }));
+const CLIP_FN = (n: number) => ({ src: staticFile(`broll/ep07/${CLIPS[n]}.mp4`), len: LENS[n] ?? 10 });
+setClips(CLIP_FN);
 
 type Beat = { from: number; to: number; tag?: [number, string]; hard?: boolean; back: React.ReactNode; el: React.ReactNode };
 const BEATS: Beat[] = [
@@ -344,10 +345,11 @@ const SFX: [number, string, number][] = [[1.92, "ep06-coin", 0.35], [8.2, "ep06-
 
 export const Ep07Grocery: React.FC = () => {
   const { fps } = useVideoConfig();
+  setClips(CLIP_FN); // свой набор стоков при каждом рендере: в общем Root последним грузится чужой ролик
   return (
     <AbsoluteFill translate="no" className="notranslate" style={{ backgroundColor: C6.bgDeep }}>
       <Bg6 />
-      <Audio src={staticFile("audio/ep07-voiceover.mp3")} />
+      <Audio src={staticFile("audio/ep07-voiceover.mp3")} volume={0.82} />
       <Sequence from={0} durationInFrames={690}><Audio src={staticFile("audio/ep07/music-trailer.mp3")} volume={(f) => 0.15 * interpolate(f, [0, 30, 660, 690], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
       <Sequence from={675} durationInFrames={2874}><Audio src={staticFile("audio/ep07/music-ch1.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 2844, 2874], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
       <Sequence from={3534} durationInFrames={3888}><Audio src={staticFile("audio/ep07/music-ch2.mp3")} volume={(f) => 0.12 * interpolate(f, [0, 30, 3858, 3888], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} /></Sequence>
