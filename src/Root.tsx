@@ -20,6 +20,7 @@ import { Ep08BlackFriday, EP08BLACKFRIDAY_DURATION_SEC } from "./videos/Ep08Blac
 import { Ep09Buffet, EP09BUFFET_DURATION_SEC } from "./videos/Ep09Buffet";
 import { Short01, SHORT01_DURATION_SEC } from "./videos/Short01";
 import { Short02, SHORT02_DURATION_SEC } from "./videos/Short02";
+import { Short03, SHORT03_DURATION_SEC } from "./videos/Short03";
 import { Ep06GasPilot, EP06GASPILOT_DURATION_SEC } from "./videos/Ep06GasPilot";
 
 export const RemotionRoot: React.FC = () => {
@@ -30,6 +31,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="Ep08-BlackFriday" component={Ep08BlackFriday} durationInFrames={Math.round(EP08BLACKFRIDAY_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep07-Grocery" component={Ep07Grocery} durationInFrames={Math.round(EP07GROCERY_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
         <Composition id="Ep06-Gas" component={Ep06Gas} durationInFrames={Math.round(EP06GAS_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
+        <Composition id="Short03" component={Short03} durationInFrames={Math.round(SHORT03_DURATION_SEC * 30)} fps={30} width={1080} height={1920} />
         <Composition id="Short02" component={Short02} durationInFrames={Math.round(SHORT02_DURATION_SEC * 30)} fps={30} width={1080} height={1920} />
         <Composition id="Short01" component={Short01} durationInFrames={Math.round(SHORT01_DURATION_SEC * 30)} fps={30} width={1080} height={1920} />
         <Composition id="Ep06-Gas-Pilot" component={Ep06GasPilot} durationInFrames={Math.round(EP06GASPILOT_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />

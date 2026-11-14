@@ -1,0 +1,20 @@
+name: Fetch file
+on:
+  workflow_dispatch:
+    inputs:
+      url1: {required: true}
+      path1: {required: true}
+      url2: {required: false, default: ""}
+      path2: {required: false, default: ""}
+permissions: {contents: write}
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env: {U1: "${{ inputs.url1 }}", P1: "${{ inputs.path1 }}", U2: "${{ inputs.url2 }}", P2: "${{ inputs.path2 }}"}
+        run: |
+          mkdir -p "$(dirname "$P1")"; curl -fsSL "$U1" -o "$P1"
+          if [ -n "$U2" ]; then mkdir -p "$(dirname "$P2")"; curl -fsSL "$U2" -o "$P2"; fi
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add "$P1" ${P2:+"$P2"}; git commit -m "Fetch $P1"; git push
