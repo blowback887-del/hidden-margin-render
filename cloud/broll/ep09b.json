@@ -1,0 +1,215 @@
+{
+ "out": "public/broll/ep09",
+ "sheet": "public/research/ep09b-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "77-cola-pour",
+   "id": 4114386,
+   "url": "https://videos.pexels.com/video-files/4114386/4114386-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "78-schnitzel-sides",
+   "id": 39294462,
+   "url": "https://videos.pexels.com/video-files/39294462/16720557_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "79-schnitzel-potatoes",
+   "id": 39294466,
+   "url": "https://videos.pexels.com/video-files/39294466/16720601_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "80-man-food-plate",
+   "id": 8811079,
+   "url": "https://videos.pexels.com/video-files/8811079/8811079-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "81-food-container",
+   "id": 855991,
+   "url": "https://videos.pexels.com/video-files/855991/855991-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "82-man-sofa-breathing",
+   "id": 4052821,
+   "url": "https://videos.pexels.com/video-files/4052821/4052821-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "83-man-car-breathing",
+   "id": 8102798,
+   "url": "https://videos.pexels.com/video-files/8102798/8102798-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "84-steak-dinner",
+   "id": 19049669,
+   "url": "https://videos.pexels.com/video-files/19049669/19049669-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "85-steak-medium-rare",
+   "id": 3134537,
+   "url": "https://videos.pexels.com/video-files/3134537/3134537-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "86-waffle-house-drone",
+   "id": 4188254,
+   "url": "https://videos.pexels.com/video-files/4188254/4188254-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "87-parking-lot",
+   "id": 1315986,
+   "url": "https://videos.pexels.com/video-files/1315986/1315986-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "88-counting-money",
+   "id": 5466769,
+   "url": "https://videos.pexels.com/video-files/5466769/5466769-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "89-elderly-woman-refusing",
+   "id": 8870230,
+   "url": "https://videos.pexels.com/video-files/8870230/8870230-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "90-elderly-man-faces",
+   "id": 7320151,
+   "url": "https://videos.pexels.com/video-files/7320151/7320151-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "91-boy-ice-cream",
+   "id": 6412307,
+   "url": "https://videos.pexels.com/video-files/6412307/6412307-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "92-buffet-trays",
+   "id": 27787194,
+   "url": "https://videos.pexels.com/video-files/27787194/12224621_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "93-roulette-people",
+   "id": 7607943,
+   "url": "https://videos.pexels.com/video-files/7607943/7607943-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "94-slot-close",
+   "id": 9807879,
+   "url": "https://videos.pexels.com/video-files/9807879/9807879-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "95-butter-bread",
+   "id": 7964602,
+   "url": "https://videos.pexels.com/video-files/7964602/7964602-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "96-steak-pan-grill",
+   "id": 3191290,
+   "url": "https://videos.pexels.com/video-files/3191290/3191290-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "97-butcher-wrapping",
+   "id": 40652552,
+   "url": "https://videos.pexels.com/video-files/40652552/17368032_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "98-finger-food-table",
+   "id": 6760602,
+   "url": "https://videos.pexels.com/video-files/6760602/6760602-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "99-chefs-restaurant",
+   "id": 9978267,
+   "url": "https://videos.pexels.com/video-files/9978267/9978267-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "100-dollars-table",
+   "id": 4393482,
+   "url": "https://videos.pexels.com/video-files/4393482/4393482-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "101-fries-served",
+   "id": 5780296,
+   "url": "https://videos.pexels.com/video-files/5780296/5780296-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "102-jukebox-diner",
+   "id": 35611172,
+   "url": "https://videos.pexels.com/video-files/35611172/15091418_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "103-gc-colonie",
+   "id": "103-gc-colonie",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Golden_Corral_in_Colonie%2C_New_York.jpg",
+   "photo": true
+  },
+  {
+   "name": "104-gc-dothan",
+   "id": "104-gc-dothan",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Golden_Corral%2C_Dothan%2C_Alabama.jpg",
+   "photo": true
+  },
+  {
+   "name": "105-gc-steak-plate",
+   "id": "105-gc-steak-plate",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Dish-3_-_Steak%21.jpg",
+   "photo": true
+  },
+  {
+   "name": "106-gc-buffet-dinner",
+   "id": "106-gc-buffet-dinner",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Golden_Corral_Dinner_Buffet.jpg",
+   "photo": true
+  },
+  {
+   "name": "107-gc-buffet-dinner2",
+   "id": "107-gc-buffet-dinner2",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Golden_Corral_Dinner_Buffet_-_4983931987.jpg",
+   "photo": true
+  },
+  {
+   "name": "108-gc-plates",
+   "id": "108-gc-plates",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Dish-1%26-2.jpg",
+   "photo": true
+  },
+  {
+   "name": "109-gc-hiring",
+   "id": "109-gc-hiring",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Now_hiring_at_Golden_Corral.jpg",
+   "photo": true
+  },
+  {
+   "name": "110-gc-ghost",
+   "id": "110-gc-ghost",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ghost_of_Golden_Corral_-_3802599546.jpg",
+   "photo": true
+  },
+  {
+   "name": "111-gc-buffet-dinner3",
+   "id": "111-gc-buffet-dinner3",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Golden_Corral_Dinner_Buffet_-_4984535834.jpg",
+   "photo": true
+  },
+  {
+   "name": "112-gc-okra",
+   "id": "112-gc-okra",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fried_Okra_Feast.jpg",
+   "photo": true
+  }
+ ],
+ "sfx": [
+  {
+   "name": "ep09-bell",
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/p4SFjVJe1jbB4caqc8RN/ZwhG1SMMZnN6L8ikgAQ6/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=i5uPJS82V-KMcKEYJ38kjYQwbV4="
+  },
+  {
+   "name": "ep09-cheer",
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/gq6HBUbhVgQIaQS3Vl5N/w1sU8pp5STs1J7YOM4aL/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=xeJUXUxrHk_fPjd3tuasWYa7Fl8="
+  },
+  {
+   "name": "ep09-sizzle",
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/PCScEDtwMg6tLcQT8jqw/MS0YlJ0yHneAUz2la63R/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=q08JVn3kv-xiAZ2qvfnP1JD1lWg="
+  },
+  {
+   "name": "ep09-trombone",
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/xK6q23U5UgH8arbiGFmR/juaomM4nBImdqcMgkdMR/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=yQMPaFVZsopHx97rBV3ZRg4KkdE="
+  }
+ ]
+}
