@@ -99,7 +99,7 @@ comp = EP["comp"] + ("Pilot" if pilot else "")
 music = EP.get("music", [])
 hdr = f'''import React from "react";
 import {{ AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig, interpolate }} from "remotion";
-import {{ At, Bg6, BigNum, Bug6, C6, Center, ChapterCard, ChapterTag, Col, CorpSub, Counter6, Donut6, EndCard6, GallonCutter, IconIn, In, Kicker6, Label6, Meme, NameCard6, Num6, PriceSign, Punch, Receipt6, RedCircle, RocketFeather, Row, Scene6, setClips, Source6, Split6, Stamp, Stock6, Subscribe6, TagLayers, PriceLine, LossGain, TitleCard, TrailerFrame, TwoBars, Words }} from "../brand/hm6";
+import {{ At, Bg6, BigNum, Bug6, C6, Center, ChapterCard, ChapterTag, Col, CorpSub, Counter6, Donut6, EndCard6, GallonCutter, IconIn, In, Kicker6, Label6, Meme, NameCard6, Num6, PriceSign, Punch, Receipt6, RedCircle, RocketFeather, Row, Scene6, setClips, Source6, Split6, Stamp, Stock6, Subscribe6, TagLayers, PriceLine, LossGain, Scoreboard, Dots, KitchenBlocks, Plate6, TitleCard, TrailerFrame, TwoBars, Words }} from "../brand/hm6";
 
 // ===================================================================
 // {EP["comp"]} — сгенерировано cloud/gen/build.py из плана cloud/gen/{ep}.py и пословной расшифровки.
@@ -147,7 +147,7 @@ export const {comp}: React.FC = () => {{
 }};
 '''
 # импортируем только то, что реально используется
-names = "At Bg6 BigNum Bug6 C6 Center ChapterCard ChapterTag Col CorpSub Counter6 Donut6 EndCard6 GallonCutter IconIn In Kicker6 Label6 Meme NameCard6 Num6 PriceSign Punch Receipt6 RedCircle RocketFeather Row Scene6 setClips Source6 Split6 Stamp Stock6 Subscribe6 TagLayers PriceLine LossGain TitleCard TrailerFrame TwoBars Words".split()
+names = "At Bg6 BigNum Bug6 C6 Center ChapterCard ChapterTag Col CorpSub Counter6 Donut6 EndCard6 GallonCutter IconIn In Kicker6 Label6 Meme NameCard6 Num6 PriceSign Punch Receipt6 RedCircle RocketFeather Row Scene6 setClips Source6 Split6 Stamp Stock6 Subscribe6 TagLayers PriceLine LossGain Scoreboard Dots KitchenBlocks Plate6 TitleCard TrailerFrame TwoBars Words".split()
 rest = body.split("type Beat =", 1)[1]
 need = [n for n in names if n in ("Bg6", "Bug6", "C6", "Scene6", "ChapterTag", "setClips") or re.search(r"[<{\s]" + n + r"[\s/>({]", rest)]
 body = re.sub(r'import \{ At, Bg6[^}]*\} from "../brand/hm6";', "import { " + ", ".join(need) + ' } from "../brand/hm6";', body)

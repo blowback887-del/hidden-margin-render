@@ -513,6 +513,94 @@ export const LossGain: React.FC<{ at: number; a: { label: string; value: string 
 };
 
 /** Финальная заставка: сюда YouTube ставит карточки (последние 20 с без важных цифр) */
+// ---------- Ep09: табло поединка «Дейл против заведения» (сквозная карта выпуска) ----------
+/** lamps: "d" — раунд за Дейлом, "h" — за заведением, "c" — пустой стул, "" — ещё не сыгран. lampAt — когда зажигается последняя лампа. */
+export const Scoreboard: React.FC<{ at: number; lamps: ("d" | "h" | "c" | "")[]; lampAt?: number; scale?: number; right?: string }> = ({ at, lamps, lampAt, scale = 1, right = "THE HOUSE" }) => {
+  const { p } = useT();
+  const k = p(at, at + 0.4, easeBack);
+  const last = lamps.reduce((a, l, i) => (l ? i : a), -1);
+  const on = (i: number) => (i === last && lampAt !== undefined ? p(lampAt, lampAt + 0.25) : 1);
+  const d = lamps.filter((l, i) => l === "d" && on(i) > 0.5).length;
+  const h = lamps.filter((l, i) => (l === "h" || l === "c") && on(i) > 0.5).length;
+  const side = (name: string, n: number, col: string) => (
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6, width: 420 }}>
+      <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 34, letterSpacing: "0.22em", color: C6.ink }}>{name}</div>
+      <div style={{ fontFamily: SERIF, fontSize: 210, lineHeight: 1, color: col, textShadow: `0 0 60px ${col}55` }}>{n}</div>
+    </div>
+  );
+  return (
+    <div style={{ opacity: Math.min(1, k * 1.5), scale: String((0.8 + 0.2 * k) * scale), padding: "40px 60px 46px", borderRadius: 30, background: "rgba(3,30,38,.92)", boxShadow: `inset 0 0 0 4px ${C6.accent}, 0 40px 80px rgba(0,0,0,.5)`, display: "flex", flexDirection: "column", alignItems: "center", gap: 26 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 30 }}>
+        {side("DALE", d, C6.accent)}
+        <div style={{ fontFamily: SERIF, fontSize: 80, color: C6.mint }}>vs</div>
+        {side(right, h, C6.money)}
+      </div>
+      <div style={{ display: "flex", gap: 26 }}>
+        {lamps.map((l, i) => {
+          const o = l ? on(i) : 0;
+          const col = l === "d" ? C6.accent : l === "h" ? C6.money : l === "c" ? C6.loss : "transparent";
+          return (
+            <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
+              <div style={{ width: 74, height: 74, borderRadius: 74, boxShadow: `inset 0 0 0 4px ${C6.line}`, background: o > 0 ? col : "rgba(247,244,236,.06)", opacity: o > 0 ? 0.35 + 0.65 * o : 1, filter: o > 0 ? `drop-shadow(0 0 ${24 * o}px ${col})` : undefined }} />
+              <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 22, letterSpacing: "0.2em", color: C6.mint }}>R{i + 1}</div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+/** Ep09: зал как точки — n гостей, hot из них подсвечиваются (Дейлы) */
+export const Dots: React.FC<{ at: number; n?: number; hot?: number; hotAt?: number; cols?: number }> = ({ at, n = 900, hot = 45, hotAt, cols = 45 }) => {
+  const { p } = useT();
+  const rows = Math.ceil(n / cols);
+  const k = p(at, at + 1.2);
+  const hk = hotAt !== undefined ? p(hotAt, hotAt + 0.5) : 0;
+  const isHot = (i: number) => (i * 7919) % n < hot;
+  return (
+    <svg width={cols * 30} height={rows * 30} style={{ overflow: "visible" }}>
+      {Array.from({ length: n }, (_, i) => {
+        const x = (i % cols) * 30 + 15, y = Math.floor(i / cols) * 30 + 15;
+        const vis = i / n < k ? 1 : 0;
+        const h = isHot(i) ? hk : 0;
+        return <circle key={i} cx={x} cy={y} r={7 + 4 * h} fill={h > 0.5 ? C6.loss : C6.blue} opacity={vis * (h > 0.5 ? 1 : 0.55)} />;
+      })}
+    </svg>
+  );
+};
+
+/** Ep09: экран кухни — прогноз по 15-минутным блокам; mark — блок, где «ждут Дейла» */
+export const KitchenBlocks: React.FC<{ at: number; markAt?: number }> = ({ at, markAt }) => {
+  const { p } = useT();
+  const slots = ["5:45", "6:00", "6:15", "6:30", "6:45"];
+  const need = [38, 52, 61, 57, 44];
+  return (
+    <div style={{ padding: "34px 44px", borderRadius: 24, background: "rgba(3,30,38,.94)", boxShadow: `inset 0 0 0 3px ${C6.line}, 0 30px 70px rgba(0,0,0,.5)` }}>
+      <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 26, letterSpacing: "0.26em", color: C6.mint, marginBottom: 22 }}>KITCHEN FORECAST · ILLUSTRATION</div>
+      <div style={{ display: "flex", gap: 18, alignItems: "flex-end" }}>
+        {slots.map((s, i) => {
+          const o = p(at + i * 0.18, at + i * 0.18 + 0.3);
+          const m = i === 2 && markAt !== undefined ? p(markAt, markAt + 0.3) : 0;
+          return (
+            <div key={s} style={{ opacity: o, width: 220, display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
+              <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 24, color: m > 0.5 ? C6.accent : C6.ink, letterSpacing: "0.1em", opacity: m > 0.5 ? 1 : 0.0001 }}>+1 DALE</div>
+              <div style={{ width: 200, height: need[i] * 4.4 * o, borderRadius: 12, background: m > 0.5 ? C6.accent : C6.blue, opacity: 0.9 }} />
+              <div style={{ fontFamily: SERIF, fontSize: 54, color: m > 0.5 ? C6.accent : C6.ink }}>{s}</div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+/** Ep09: плашка-подложка под текст поверх живого кадра */
+export const Plate6: React.FC<{ children: React.ReactNode; pad?: string; at?: number }> = ({ children, pad = "26px 50px", at = 0 }) => {
+  const { p } = useT();
+  return <div style={{ opacity: p(at - 0.12, at + 0.12), padding: pad, borderRadius: 22, background: C6.panel, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>{children}</div>;
+};
+
 export const EndCard6: React.FC<{ at: number; next: string }> = ({ at, next }) => (
   <>
     <Center y={250}><Words text="Watch next" at={at} size={72} hl={["next"]} /></Center>
