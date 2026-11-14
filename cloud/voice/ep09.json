@@ -1,0 +1,28 @@
+{
+ "episode": "ep09",
+ "words_out": "src/videos/ep09-buffet-words.json",
+ "audio_out": "public/audio/ep09-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {
+   "part": 1,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/k4C9QbuJPitYdc5hIHT6/a42teG03k6bptDYYxXTg/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=zBis0USpN-A7jpJXj7JFZ41m_m0="
+  },
+  {
+   "part": 2,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/BRMcHh9IW8gc6vt9TbNr/D8VyYovtlJCCSaxoXZ3Q/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=T3ufiBrvSTPq0Kr7T8jN7muD1sk="
+  },
+  {
+   "part": 3,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/zxln4CRHozbD94MeSBOe/az6HXpXHk8xI0CxpWfuK/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=THKZlZ1l9-BNtmgtdjQCMIYOoL4="
+  },
+  {
+   "part": 4,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/bMiV8baNmuFw1TSgbYFi/U2BnZdkiqoZetvG7oQma/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=o4Hwy7IfLHHrAK-G5wpJO4RDy6E="
+  },
+  {
+   "part": 5,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/IBGT1qgpxyditjy8sCxh/uaEnzakhhKQ3NHi4NWCe/content.mp3?Expires=1794668400&KeyName=assets-cdn-key-1&Signature=tHtr5s4ovZeZf8ox2XLpGPheMOQ="
+  }
+ ]
+}
