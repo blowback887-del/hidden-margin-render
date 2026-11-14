@@ -40,7 +40,7 @@ FSR = "<Source6>FSR magazine · July 2026</Source6>"
 S = [
 # ---------------- ТРЕЙЛЕР ----------------
 dict(start="This is Dale", sfx=[('ep06-stamp:0.4', '@{eighteen ninety-nine}')], stock=4, alt=(1, "he skipped lunch"), el='''<Center y={200}><div style={{ scale: "1.3" }}><NameCard6 at={0.15} name="Dale" role="NOT A REAL GUY · A REAL TYPE" icon="person" /></div></Center>
-<Center y={640}><Plate6><BigNum at={@{eighteen ninety-nine}} icon="receipt" size={220} label="ALL THE STEAK HE CAN EAT">$18.99</BigNum></Plate6></Center>'''),
+<Center y={640}><Plate6><BigNum at={@{he just paid}} icon="receipt" size={220} label="ALL THE STEAK HE CAN EAT">$18.99</BigNum></Plate6></Center>'''),
 dict(start="Dale has a plan", sfx=[('ep06-pop:0.3', '@{bankruptcy}')], stock=3, clean=True, el='''<Meme at={@{bankruptcy}} text="it's personal" y={900} />'''),
 dict(start="One problem", sfx=[('ep06-boom:0.28', '@{somebody else}')], stock=8, alt=(10, "It priced him in"), el='''<Center y={330}><Words text="The restaurant knew Dale was coming." at={@{The restaurant knew}} size={92} hl={["knew"]} maxW={1500} /></Center>
 <Center y={720}><Label6 at={@{somebody else}} size={46} color={C6.accent}>SOMEBODY ELSE PAYS FOR HIS DINNER</Label6></Center>'''),
@@ -84,7 +84,7 @@ dict(start="Shrimp sits with hush puppies", stock=26, alt=(28, "french fries"), 
 dict(start="The Journal's own example", stock=31, el='''<Center y={330}><Plate6><Words text="Meatloaf" at={@{meatloaf}} size={120} /><Label6 at={@{potatoes}} size={40} color={C6.accent}>+ POTATOES · GRAVY · GREEN BEANS</Label6></Plate6></Center>
 <Center y={780}><Plate6><Label6 at={@{Nothing is hidden}} size={44} color={C6.ink}>NOTHING IS HIDDEN. IT'S JUST ARRANGED.</Label6></Plate6></Center>'''),
 dict(start="Translation from corporate", sfx=[('ep06-pop:0.3', '@{a chaperone}')], stock=73, el='''<CorpSub at={0.2} corp="“menu modules”" human="every shrimp gets a potato chaperone" />'''),
-dict(start="The Hustle once priced", sfx=[('ep06-kaching:0.25', '@{about two dollars}'), ('ep06-coin:0.3', '@{thirty cents}')], stock=85, alt=(29, "A serving of potatoes"), el='''<Center y={540}><Split6 at={@{A serving of steak}} left={{ title: "A SERVING OF STEAK", value: "$2.25", color: C6.loss }} right={{ title: "A SERVING OF POTATOES", value: "30¢", color: C6.money, at: @{thirty cents} }} /></Center>
+dict(start="The Hustle once priced", sfx=[('ep06-kaching:0.25', '@{about two dollars}'), ('ep06-coin:0.3', '@{thirty cents}')], stock=85, alt=(29, "A serving of potatoes"), el='''<Center y={540}><Split6 at={@{A serving of steak}} left={{ title: "A SERVING OF STEAK", value: "$2.25", color: C6.loss }} right={{ title: "A SERVING OF POTATOES", value: "30¢", color: C6.money, at: @{A serving of potatoes} }} /></Center>
 <Source6>The Hustle · cost estimates from wholesale data</Source6>'''),
 dict(start="Beef has only gotten pricier", stock=20, el='''<Center y={540}><Plate6><Words text="Potatoes are still potatoes." at={@{Potatoes are still}} size={100} hl={["still"]} /></Plate6></Center>'''),
 dict(start="So every scoop of mashed potatoes", sfx=[('ep06-coin:0.3', '@{swaps}')], stock=81, el='''<Center y={540}><Plate6><Words text="A $2 bite → a 30¢ bite" at={@{swaps}} size={110} hl={["30¢"]} /></Plate6></Center>'''),
@@ -116,7 +116,7 @@ dict(start="Nobody took Dale's steak away", sfx=[('ep06-stamp:0.4', '@{sixty per
 <Center y={760}><Stamp at={@{sixty percent off}} text="60% off. for them." color={C6.accent} size={100} /></Center>'''),
 dict(start="And then, the drink", stock=37, el='''<Center y={540}><Plate6><Words text="Food: unlimited. Soda: extra." at={@{The food is unlimited}} size={100} hl={["extra."]} /></Plate6></Center>
 ''' + WSJ),
-dict(start="A fountain drink costs", sfx=[('ep06-coin:0.3', '@{twelve cents}')], stock=77, el='''<Center y={520}><Plate6><BigNum at={@{twelve cents}} icon="cup" size={240} label="TO POUR · SOLD FOR ABOUT $2">≈12¢</BigNum></Plate6></Center>
+dict(start="A fountain drink costs", sfx=[('ep06-coin:0.3', '@{twelve cents}')], stock=77, dim=0.3, el='''<Center y={520}><Plate6><BigNum at={@{The Hustle put}} icon="cup" size={240} label="TO POUR · SOLD FOR ABOUT $2">≈12¢</BigNum></Plate6></Center>
 ''' + HUS),
 dict(start="And Dale needs something", stock=2, clean=True, el=''''''),
 dict(start="Round three, house", sfx=[('ep09-bell:0.5', '0.1')], stock=9, el='''<Center y={520}><Scoreboard at={0.05} lamps={["d", "h", "h", "", ""]} lampAt={0.35} scale={1.45} /></Center>'''),
@@ -129,7 +129,7 @@ dict(start="Still, let's give Dale his moment", sfx=[('ep06-whoosh:0.25', '0.02'
 dict(start="Four plates", sfx=[('ep06-pop:0.3', '0.1')], stock=38, el='''<Center y={540}><Plate6><Words text="Four plates. Steak on every one." at={0.1} size={100} hl={["Four"]} /></Plate6></Center>'''),
 dict(start="Say he eats", sfx=[('ep06-kaching:0.25', '@{twenty-five}'), ('ep09-cheer:0.3', '@{He beat the house}')], stock=4, el='''<Center y={480}><Split6 at={0.1} left={{ title: "HE PAID", value: "$18.99", color: C6.ink }} right={{ title: "HE ATE (OUR WHAT-IF)", value: "$25", color: C6.accent, at: @{twenty-five} }} /></Center>
 <Center y={880}><Stamp at={@{He beat the house}} text="dale wins?" color={C6.accent} size={90} /></Center>'''),
-dict(start="By six dollars", sfx=[('ep09-trombone:0.3', '0.2')], stock=25, clean=True, el='''<Meme at={0.1} text="by six dollars" y={900} />'''),
+dict(start="By six dollars", sfx=[('ep09-trombone:0.3', '0.2')], stock=25, dim=0.25, el='''<Center y={540}><Stamp at={0.1} text="by six dollars" color={C6.accent} size={130} /></Center>'''),
 dict(start="And the house does not care", stock=61, el='''<Center y={540}><Plate6><Words text="The house was never playing against Dale." at={@{Because the house}} size={86} hl={["never"]} maxW={1500} /></Plate6></Center>'''),
 dict(start="Here's the number that runs", sfx=[('ep06-counter:0.3', '@{thirty-eight cents}')], stock=62, dim=0.2, el='''<Center y={110}><Label6 at={0.05} size={38} color={C6.ink}>THE NUMBER THAT RUNS THE WHOLE PLACE</Label6></Center>
 <Center y={560}><Donut6 at={@{thirty-eight cents}} pct={38} center="38¢" label="OF EVERY DOLLAR GOES TO FOOD" size={600} /></Center>
@@ -149,7 +149,8 @@ dict(start="A seven-year-old", sfx=[('ep06-pop:0.3', '@{dessert}')], stock=42, c
 dict(start="A guy on a diet", sfx=[('ep09-trombone:0.3', '@{regrets everything}')], stock=74, clean=True, el='''<Meme at={@{regrets everything}} text="regrets everything" y={900} />'''),
 dict(start="Grandma paid the same", sfx=[('ep06-kaching:0.25', '@{four or five}')], stock=39, el='''<Center y={520}><Split6 at={0.1} left={{ title: "GRANDMA PAID", value: "$18.99", color: C6.ink }} right={{ title: "GRANDMA ATE", value: "$4–5", color: C6.money, at: @{four or five} }} /></Center>
 <Source6>Light-eater food-cost estimates: The Hustle</Source6>'''),
-dict(start="Dale isn't robbing Golden Corral", sfx=[('ep06-boom:0.3', '@{Dale is eating}'), ('ep06-coin:0.3', '@{change}')], stock=72, dim=0.1, el='''<Center y={540}><Words text="Dale is eating Grandma's change." at={@{Dale is eating}} size={124} hl={["Grandma's", "change."]} maxW={1600} /></Center>'''),
+dict(start="Dale isn't robbing Golden Corral", sfx=[('ep06-boom:0.3', '@{Dale is eating}'), ('ep06-coin:0.3', '@{change}')], stock=40, dim=0.15, el='''<Center y={230}><Label6 at={0.1} size={40} color={C6.ink}>DALE ISN'T ROBBING GOLDEN CORRAL</Label6></Center>
+<Center y={560}><Words text="Dale is eating Grandma's change." at={@{Dale is eating}} size={124} hl={["Grandma's", "change."]} maxW={1600} /></Center>'''),
 dict(start="A casino doesn't panic", stock=46, alt=(45, "It just needs"), el='''<Center y={500}><Plate6><Words text="It just needs the floor full." at={@{It just needs}} size={96} hl={["full."]} /></Plate6></Center>
 <Meme at={@{More gravy}} text="same game. more gravy." y={920} size={66} />'''),
 dict(start="Statisticians call it", sfx=[('ep06-pop:0.3', '@{the law}')], stock=93, dim=0.2, el='''<Center y={200}><Label6 at={0.05} size={38} color={C6.mint}>STATISTICIANS CALL IT</Label6></Center>
@@ -189,9 +190,9 @@ dict(start="It had about four hundred eighty", sfx=[('ep06-fall:0.3', '@{It ende
 <Source6>Technomic Top 500 (2019) · FSR (end of 2025)</Source6>'''),
 dict(start="And that's the survivor", sfx=[('ep06-fall:0.3', '@{to sixteen}'), ('ep06-fall:0.3', '@{to seventeen}')], stock=52, el='''<Center y={520}><Split6 at={@{Ryan's}} left={{ title: "RYAN'S", value: "400 → 16", color: C6.loss }} right={{ title: "OLD COUNTRY BUFFET", value: "350 → 17", color: C6.loss, at: @{Old Country} }} /></Center>
 <Source6>The Hustle</Source6>'''),
-dict(start="Now it's twenty twenty-six", stock=104, alt=(87, "The goal"), el='''<Center y={400}><Plate6><Words text="“This has been a difficult year for us.”" at={@{This has been}} size={84} hl={["difficult"]} maxW={1500} /><Label6 at={@{This has been} + 0.6} size={30} color={C6.mint}>LANCE TRENARY, CEO OF GOLDEN CORRAL</Label6></Plate6></Center>
+dict(start="Now it's twenty twenty-six", stock=103, alt=(87, "The goal"), el='''<Center y={400}><Plate6><Words text="“This has been a difficult year for us.”" at={@{This has been}} size={84} hl={["difficult"]} maxW={1500} /><Label6 at={@{This has been} + 0.6} size={30} color={C6.mint}>LANCE TRENARY, CEO OF GOLDEN CORRAL</Label6></Plate6></Center>
 <Center y={800}><Plate6><Label6 at={@{tread water}} size={46} color={C6.accent}>THE GOAL: “TREAD WATER”</Label6></Plate6></Center>
-<Source6>WSJ via Fox News · Oct 2026 · photo: The Bushranger, CC BY-SA 4.0</Source6>'''),
+<Source6>WSJ via Fox News · Oct 2026 · photo: Tyler A. McNeil, CC BY-SA 4.0</Source6>'''),
 dict(start="Not because of Dale", sfx=[('ep06-pop:0.3', '@{seventy times}')], stock=71, el='''<Center y={250}><Plate6><Words text="Because of the regulars." at={@{Because of the regulars}} size={96} hl={["regulars."]} /></Plate6></Center>
 <Center y={680}><Plate6><BigNum at={@{seventy times}} icon="calendar" size={200} label="VISITS A YEAR · THE MOST LOYAL GUESTS">≈70</BigNum></Plate6></Center>
 ''' + FSR),
@@ -199,29 +200,29 @@ dict(start="And the CEO says one regular", stock=69, el='''<Center y={520}><Spli
 ''' + FSR),
 dict(start="The chain's core customer earns", stock=53, alt=(66, "When that budget"), el='''<Center y={480}><Plate6><BigNum at={@{under eighty thousand}} icon="person" size={200} label="A YEAR · THE CHAIN'S CORE CUSTOMER">&lt;$80K</BigNum></Plate6></Center>
 ''' + FSR),
-dict(start="When Dale eats four plates", sfx=[('ep06-coin:0.3', '@{six dollars}'), ('ep06-boom:0.28', '@{the nineteen dollars}')], el='''<Center y={520}><Split6 at={0.1} left={{ title: "DALE EATS FOUR PLATES", value: "−$6", color: C6.accent }} right={{ title: "A REGULAR STAYS HOME", value: "−$18.99", color: C6.loss, at: @{When a regular} }} /></Center>'''),
+dict(start="When Dale eats four plates", sfx=[('ep06-coin:0.3', '@{six dollars}'), ('ep06-boom:0.28', '@{the nineteen dollars}')], stock=49, dim=0.25, el='''<Center y={520}><Split6 at={0.1} left={{ title: "DALE EATS FOUR PLATES", value: "−$6", color: C6.accent }} right={{ title: "A REGULAR STAYS HOME", value: "−$18.99", color: C6.loss, at: @{When a regular} }} /></Center>'''),
 dict(start="Dale was never the threat", sfx=[('ep06-boom:0.32', '@{The empty chair}')], stock=50, dim=0.1, el='''<Center y={540}><Words text="The empty chair is." at={@{The empty chair}} size={150} hl={["empty", "chair"]} /></Center>'''),
 
 # ---------------- ФИНАЛ ----------------
 dict(start="Back to Dale", sfx=[('ep06-whoosh:0.25', '0.02')], stock=83, clean=True, el='''<Meme at={@{He thinks he won}} text="champion" y={900} />'''),
-dict(start="What actually happened", sfx=[('ep06-pop:0.3', '@{Grandma covered}'), ('ep06-pop:0.3', '@{The potatoes covered}'), ('ep06-pop:0.3', '@{The pork chop covered}'), ('ep06-kaching:0.25', '@{sixteen times}')], el='''<Center y={130}><Words text="What actually happened" at={0.05} size={70} hl={["actually"]} /></Center>
+dict(start="What actually happened", sfx=[('ep06-pop:0.3', '@{Grandma covered}'), ('ep06-pop:0.3', '@{The potatoes covered}'), ('ep06-pop:0.3', '@{The pork chop covered}'), ('ep06-kaching:0.25', '@{sixteen times}')], stock=16, dim=0.3, el='''<Center y={130}><Words text="What actually happened" at={0.05} size={70} hl={["actually"]} /></Center>
 <Center y={540}><Col gap={34}>
   <Words text="Grandma → his steak" at={@{Grandma covered}} size={78} hl={["Grandma"]} />
   <Words text="The potatoes → the shrimp" at={@{The potatoes covered}} size={78} hl={["potatoes"]} />
   <Words text="The pork chop → the beef" at={@{The pork chop covered}} size={78} hl={["pork", "chop"]} />
   <Words text="The soda → itself, ×16" at={@{And the soda}} size={78} hl={["×16"]} />
 </Col></Center>'''),
-dict(start="And everybody's copying the trick", sfx=[('ep06-counter:0.3', '@{a hundred fifty}')], stock=56, alt=(102, "Four times"), el='''<Center y={420}><Plate6><BigNum at={@{a hundred fifty}} icon="store" size={220} label="“UNLIMITED” DEALS AT BIG CHAINS · FIRST HALF OF 2026">≈150</BigNum></Plate6></Center>
+dict(start="And everybody's copying the trick", sfx=[('ep06-counter:0.3', '@{a hundred fifty}')], stock=57, alt=(70, "Four times"), el='''<Center y={420}><Plate6><BigNum at={@{a hundred fifty}} icon="store" size={220} label="“UNLIMITED” DEALS AT BIG CHAINS · FIRST HALF OF 2026">≈150</BigNum></Plate6></Center>
 <Center y={840}><Plate6><Label6 at={@{Four times}} size={48} color={C6.accent}>4× AS MANY AS IN 2021</Label6></Plate6></Center>
 <Source6>Technomic data, via WSJ / Fox News</Source6>'''),
-dict(start="Red Lobster", stock=57, el='''<Center y={540}><Plate6><Words text="Same math, different sauce." at={@{Same math}} size={100} hl={["sauce."]} /></Plate6></Center>'''),
-dict(start="So the next time a sign says", stock=98, el='''<Center y={540}><Plate6><Words text="How many people sat down next to you?" at={@{It's how many}} size={86} hl={["next", "to", "you?"]} maxW={1500} /></Plate6></Center>'''),
-dict(start="Want to beat it anyway", sfx=[('ep06-pop:0.3', '@{Skip the roll}'), ('ep06-pop:0.3', '@{Walk past}'), ('ep06-pop:0.3', '@{Drink water}')], stock=95, el='''<Center y={500}><Col gap={30}>
+dict(start="Red Lobster", stock=102, el='''<Center y={540}><Plate6><Words text="Same math, different sauce." at={@{Same math}} size={100} hl={["sauce."]} /></Plate6></Center>'''),
+dict(start="So the next time a sign says", stock=13, el='''<Center y={540}><Plate6><Words text="How many people sat down next to you?" at={@{It's how many}} size={86} hl={["next", "to", "you?"]} maxW={1500} /></Plate6></Center>'''),
+dict(start="Want to beat it anyway", sfx=[('ep06-pop:0.3', '@{Skip the roll}'), ('ep06-pop:0.3', '@{Walk past}'), ('ep06-pop:0.3', '@{Drink water}')], stock=33, el='''<Center y={500}><Col gap={30}>
   <Plate6><Label6 at={@{Skip the roll}} size={52} color={C6.accent}>1 · SKIP THE ROLL</Label6></Plate6>
   <Plate6><Label6 at={@{Walk past}} size={52} color={C6.ink}>2 · WALK PAST THE POTATOES</Label6></Plate6>
   <Plate6><Label6 at={@{Drink water}} size={52} color={C6.ink}>3 · DRINK WATER</Label6></Plate6>
 </Col></Center>'''),
-dict(start="Or just be Grandma", sfx=[('ep09-cheer:0.25', "@{She's the one}")], stock=72, clean=True, el='''<Meme at={@{She's the one}} text="the real mvp" y={900} />'''),
+dict(start="Or just be Grandma", sfx=[('ep09-cheer:0.25', "@{She's the one}")], stock=40, clean=True, el='''<Meme at={@{She's the one}} text="the real mvp" y={900} />'''),
 dict(start="What's your buffet strategy", stock=4, el='''<Center y={420}><Plate6><Words text="What's your buffet strategy?" at={0.05} size={100} hl={["strategy?"]} /></Plate6></Center>
 <Center y={760}><Plate6><Label6 at={@{Confess}} size={44} color={C6.accent}>CONFESS IN THE COMMENTS</Label6></Plate6></Center>'''),
 dict(start="And if you want another deal", el='''<EndCard6 at={0.2} next="WHY COSTCO'S HOT DOG STILL COSTS $1.50" />''', end_pad=8.0),

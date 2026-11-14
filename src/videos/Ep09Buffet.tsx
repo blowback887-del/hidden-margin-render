@@ -17,7 +17,7 @@ const BEATS: Beat[] = [
   { from: 0.0, to: 9.04, back: (<><Stock6 n={4} dur={9.04} dim={0} graphics={true} />
 <Stock6 n={1} from={3.0} dur={9.04} dim={0} graphics={true} /></>), el: (<>
 <Center y={200}><div style={{ scale: "1.3" }}><NameCard6 at={0.15} name="Dale" role="NOT A REAL GUY · A REAL TYPE" icon="person" /></div></Center>
-<Center y={640}><Plate6 at={5.46}><BigNum at={5.46} icon="receipt" size={220} label="ALL THE STEAK HE CAN EAT">$18.99</BigNum></Plate6></Center>
+<Center y={640}><Plate6 at={4.8}><BigNum at={4.8} icon="receipt" size={220} label="ALL THE STEAK HE CAN EAT">$18.99</BigNum></Plate6></Center>
 </>) },
   { from: 9.04, to: 14.12, back: (<><Stock6 n={3} dur={5.08} dim={0} graphics={false} /></>), el: (<>
 <Meme at={3.76} text="it's personal" y={900} />
@@ -104,7 +104,7 @@ const BEATS: Beat[] = [
 </>) },
   { from: 128.76, to: 138.48, back: (<><Stock6 n={85} dur={9.72} dim={0} graphics={true} />
 <Stock6 n={29} from={6.98} dur={9.72} dim={0} graphics={true} /></>), el: (<>
-<Center y={540}><Split6 at={3.04} left={{ title: "A SERVING OF STEAK", value: "$2.25", color: C6.loss }} right={{ title: "A SERVING OF POTATOES", value: "30¢", color: C6.money, at: 8.58 }} /></Center>
+<Center y={540}><Split6 at={3.04} left={{ title: "A SERVING OF STEAK", value: "$2.25", color: C6.loss }} right={{ title: "A SERVING OF POTATOES", value: "30¢", color: C6.money, at: 6.98 }} /></Center>
 <Source6>The Hustle · cost estimates from wholesale data</Source6>
 </>) },
   { from: 138.48, to: 143.18, back: (<><Stock6 n={20} dur={4.7} dim={0} graphics={true} /></>), el: (<>
@@ -171,8 +171,8 @@ const BEATS: Beat[] = [
 <Center y={540}><Plate6 at={1.92}><Words text="Food: unlimited. Soda: extra." at={1.92} size={100} hl={["extra."]} /></Plate6></Center>
 <Source6>The Wall Street Journal, via Fox News · Oct 2026</Source6>
 </>) },
-  { from: 239.36, to: 244.22, back: (<><Stock6 n={77} dur={4.86} dim={0} graphics={true} /></>), el: (<>
-<Center y={520}><Plate6 at={3.68}><BigNum at={3.68} icon="cup" size={240} label="TO POUR · SOLD FOR ABOUT $2">≈12¢</BigNum></Plate6></Center>
+  { from: 239.36, to: 244.22, back: (<><Stock6 n={77} dur={4.86} dim={0.3} graphics={true} /></>), el: (<>
+<Center y={520}><Plate6 at={2.62}><BigNum at={2.62} icon="cup" size={240} label="TO POUR · SOLD FOR ABOUT $2">≈12¢</BigNum></Plate6></Center>
 <Source6>The Hustle · estimate for a typical buffet</Source6>
 </>) },
   { from: 244.22, to: 248.0, back: (<><Stock6 n={2} dur={3.78} dim={0} graphics={false} /></>), el: (<>
@@ -198,8 +198,8 @@ const BEATS: Beat[] = [
 <Center y={480}><Split6 at={0.1} left={{ title: "HE PAID", value: "$18.99", color: C6.ink }} right={{ title: "HE ATE (OUR WHAT-IF)", value: "$25", color: C6.accent, at: 0.74 }} /></Center>
 <Center y={880}><Stamp at={4.2} text="dale wins?" color={C6.accent} size={90} /></Center>
 </>) },
-  { from: 273.36, to: 275.66, back: (<><Stock6 n={25} dur={2.3} dim={0} graphics={false} /></>), el: (<>
-<Meme at={0.1} text="by six dollars" y={900} />
+  { from: 273.36, to: 275.66, back: (<><Stock6 n={25} dur={2.3} dim={0.25} graphics={true} /></>), el: (<>
+<Center y={540}><Stamp at={0.1} text="by six dollars" color={C6.accent} size={130} /></Center>
 </>) },
   { from: 275.66, to: 280.88, back: (<><Stock6 n={61} dur={5.22} dim={0} graphics={true} /></>), el: (<>
 <Center y={540}><Plate6 at={2.42}><Words text="The house was never playing against Dale." at={2.42} size={86} hl={["never"]} maxW={1500} /></Plate6></Center>
@@ -240,8 +240,9 @@ const BEATS: Beat[] = [
 <Center y={520}><Split6 at={0.1} left={{ title: "GRANDMA PAID", value: "$18.99", color: C6.ink }} right={{ title: "GRANDMA ATE", value: "$4–5", color: C6.money, at: 3.38 }} /></Center>
 <Source6>Light-eater food-cost estimates: The Hustle</Source6>
 </>) },
-  { from: 331.86, to: 336.9, back: (<><Stock6 n={72} dur={5.04} dim={0.1} graphics={true} /></>), el: (<>
-<Center y={540}><Words text="Dale is eating Grandma's change." at={2.18} size={124} hl={["Grandma's", "change."]} maxW={1600} /></Center>
+  { from: 331.86, to: 336.9, back: (<><Stock6 n={40} dur={5.04} dim={0.15} graphics={true} /></>), el: (<>
+<Center y={230}><Label6 at={0.1} size={40} color={C6.ink}>DALE ISN'T ROBBING GOLDEN CORRAL</Label6></Center>
+<Center y={560}><Words text="Dale is eating Grandma's change." at={2.18} size={124} hl={["Grandma's", "change."]} maxW={1600} /></Center>
 </>) },
   { from: 336.9, to: 344.28, back: (<><Stock6 n={46} dur={7.38} dim={0} graphics={true} />
 <Stock6 n={45} from={3.16} dur={7.38} dim={0} graphics={true} /></>), el: (<>
@@ -313,11 +314,11 @@ const BEATS: Beat[] = [
 <Center y={520}><Split6 at={1.94} left={{ title: "RYAN'S", value: "400 → 16", color: C6.loss }} right={{ title: "OLD COUNTRY BUFFET", value: "350 → 17", color: C6.loss, at: 5.74 }} /></Center>
 <Source6>The Hustle</Source6>
 </>) },
-  { from: 437.14, to: 448.32, back: (<><Stock6 n={104} dur={11.18} dim={0} graphics={true} />
+  { from: 437.14, to: 448.32, back: (<><Stock6 n={103} dur={11.18} dim={0} graphics={true} />
 <Stock6 n={87} from={8.28} dur={11.18} dim={0} graphics={true} /></>), el: (<>
 <Center y={400}><Plate6 at={5.6}><Words text="“This has been a difficult year for us.”" at={5.6} size={84} hl={["difficult"]} maxW={1500} /><Label6 at={5.6 + 0.6} size={30} color={C6.mint}>LANCE TRENARY, CEO OF GOLDEN CORRAL</Label6></Plate6></Center>
 <Center y={800}><Plate6 at={10.02}><Label6 at={10.02} size={46} color={C6.accent}>THE GOAL: “TREAD WATER”</Label6></Plate6></Center>
-<Source6>WSJ via Fox News · Oct 2026 · photo: The Bushranger, CC BY-SA 4.0</Source6>
+<Source6>WSJ via Fox News · Oct 2026 · photo: Tyler A. McNeil, CC BY-SA 4.0</Source6>
 </>) },
   { from: 448.32, to: 454.8, back: (<><Stock6 n={71} dur={6.48} dim={0} graphics={true} /></>), el: (<>
 <Center y={250}><Plate6 at={1.26}><Words text="Because of the regulars." at={1.26} size={96} hl={["regulars."]} /></Plate6></Center>
@@ -333,7 +334,7 @@ const BEATS: Beat[] = [
 <Center y={480}><Plate6 at={1.7}><BigNum at={1.7} icon="person" size={200} label="A YEAR · THE CHAIN'S CORE CUSTOMER">&lt;$80K</BigNum></Plate6></Center>
 <Source6>FSR magazine · July 2026</Source6>
 </>) },
-  { from: 469.66, to: 477.7, back: null, el: (<>
+  { from: 469.66, to: 477.7, back: (<><Stock6 n={49} dur={8.04} dim={0.25} graphics={true} /></>), el: (<>
 <Center y={520}><Split6 at={0.1} left={{ title: "DALE EATS FOUR PLATES", value: "−$6", color: C6.accent }} right={{ title: "A REGULAR STAYS HOME", value: "−$18.99", color: C6.loss, at: 3.6 }} /></Center>
 </>) },
   { from: 477.7, to: 481.94, back: (<><Stock6 n={50} dur={4.24} dim={0.1} graphics={true} /></>), el: (<>
@@ -342,7 +343,7 @@ const BEATS: Beat[] = [
   { from: 481.94, to: 489.72, back: (<><Stock6 n={83} dur={7.78} dim={0} graphics={false} /></>), el: (<>
 <Meme at={6.16} text="champion" y={900} />
 </>) },
-  { from: 489.72, to: 500.62, back: null, el: (<>
+  { from: 489.72, to: 500.62, back: (<><Stock6 n={16} dur={10.9} dim={0.3} graphics={true} /></>), el: (<>
 <Center y={130}><Words text="What actually happened" at={0.05} size={70} hl={["actually"]} /></Center>
 <Center y={540}><Col gap={34}>
   <Words text="Grandma → his steak" at={1.74} size={78} hl={["Grandma"]} />
@@ -351,26 +352,26 @@ const BEATS: Beat[] = [
   <Words text="The soda → itself, ×16" at={7.06} size={78} hl={["×16"]} />
 </Col></Center>
 </>) },
-  { from: 500.62, to: 511.04, back: (<><Stock6 n={56} dur={10.42} dim={0} graphics={true} />
-<Stock6 n={102} from={7.76} dur={10.42} dim={0} graphics={true} /></>), el: (<>
+  { from: 500.62, to: 511.04, back: (<><Stock6 n={57} dur={10.42} dim={0} graphics={true} />
+<Stock6 n={70} from={7.76} dur={10.42} dim={0} graphics={true} /></>), el: (<>
 <Center y={420}><Plate6 at={3.94}><BigNum at={3.94} icon="store" size={220} label="“UNLIMITED” DEALS AT BIG CHAINS · FIRST HALF OF 2026">≈150</BigNum></Plate6></Center>
 <Center y={840}><Plate6 at={7.76}><Label6 at={7.76} size={48} color={C6.accent}>4× AS MANY AS IN 2021</Label6></Plate6></Center>
 <Source6>Technomic data, via WSJ / Fox News</Source6>
 </>) },
-  { from: 511.04, to: 516.06, back: (<><Stock6 n={57} dur={5.02} dim={0} graphics={true} /></>), el: (<>
+  { from: 511.04, to: 516.06, back: (<><Stock6 n={102} dur={5.02} dim={0} graphics={true} /></>), el: (<>
 <Center y={540}><Plate6 at={2.88}><Words text="Same math, different sauce." at={2.88} size={100} hl={["sauce."]} /></Plate6></Center>
 </>) },
-  { from: 516.06, to: 524.18, back: (<><Stock6 n={98} dur={8.12} dim={0} graphics={true} /></>), el: (<>
+  { from: 516.06, to: 524.18, back: (<><Stock6 n={13} dur={8.12} dim={0} graphics={true} /></>), el: (<>
 <Center y={540}><Plate6 at={5.6}><Words text="How many people sat down next to you?" at={5.6} size={86} hl={["next", "to", "you?"]} maxW={1500} /></Plate6></Center>
 </>) },
-  { from: 524.18, to: 529.16, back: (<><Stock6 n={95} dur={4.98} dim={0} graphics={true} /></>), el: (<>
+  { from: 524.18, to: 529.16, back: (<><Stock6 n={33} dur={4.98} dim={0} graphics={true} /></>), el: (<>
 <Center y={500}><Col gap={30}>
   <Plate6 at={1.66}><Label6 at={1.66} size={52} color={C6.accent}>1 · SKIP THE ROLL</Label6></Plate6>
   <Plate6 at={2.6}><Label6 at={2.6} size={52} color={C6.ink}>2 · WALK PAST THE POTATOES</Label6></Plate6>
   <Plate6 at={4.1}><Label6 at={4.1} size={52} color={C6.ink}>3 · DRINK WATER</Label6></Plate6>
 </Col></Center>
 </>) },
-  { from: 529.16, to: 533.18, back: (<><Stock6 n={72} dur={4.02} dim={0} graphics={false} /></>), el: (<>
+  { from: 529.16, to: 533.18, back: (<><Stock6 n={40} dur={4.02} dim={0} graphics={false} /></>), el: (<>
 <Meme at={1.7} text="the real mvp" y={900} />
 </>) },
   { from: 533.18, to: 536.36, back: (<><Stock6 n={4} dur={3.18} dim={0} graphics={true} /></>), el: (<>
