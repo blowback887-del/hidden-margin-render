@@ -1,0 +1,387 @@
+{
+ "out": "public/broll/ep09",
+ "sheet": "public/research/ep09-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "01-dale-big-burger",
+   "id": 4731139,
+   "url": "https://videos.pexels.com/video-files/4731139/4731139-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "02-dale-burger-fries",
+   "id": 4731063,
+   "url": "https://videos.pexels.com/video-files/4731063/4731063-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "03-dale-eating-table",
+   "id": 4731064,
+   "url": "https://videos.pexels.com/video-files/4731064/4731064-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "04-dale-sitting-food",
+   "id": 4731060,
+   "url": "https://videos.pexels.com/video-files/4731060/4731060-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "05-dale-enjoying",
+   "id": 4731134,
+   "url": "https://videos.pexels.com/video-files/4731134/4731134-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "06-dale-eating2",
+   "id": 4731058,
+   "url": "https://videos.pexels.com/video-files/4731058/4731058-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "07-man-ready-run",
+   "id": 8344813,
+   "url": "https://videos.pexels.com/video-files/8344813/8344813-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "08-restaurant-people-tables",
+   "id": 16478422,
+   "url": "https://videos.pexels.com/video-files/16478422/16478422-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "09-restaurant-friends",
+   "id": 32085182,
+   "url": "https://videos.pexels.com/video-files/32085182/13676904_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "10-food-court",
+   "id": 35545292,
+   "url": "https://videos.pexels.com/video-files/35545292/15059138_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "11-buffet-warm",
+   "id": 31750566,
+   "url": "https://videos.pexels.com/video-files/31750566/13527013_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "12-buffet-plate-hand",
+   "id": 28099100,
+   "url": "https://videos.pexels.com/video-files/28099100/12298358_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "13-buffet-display",
+   "id": 31750558,
+   "url": "https://videos.pexels.com/video-files/31750558/13527187_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "14-buffet-young-people",
+   "id": 5742150,
+   "url": "https://videos.pexels.com/video-files/5742150/5742150-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "15-buffet-picking",
+   "id": 6760617,
+   "url": "https://videos.pexels.com/video-files/6760617/6760617-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "16-buffet-resort",
+   "id": 30403007,
+   "url": "https://videos.pexels.com/video-files/30403007/13029750_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "17-steak-flames",
+   "id": 33461237,
+   "url": "https://videos.pexels.com/video-files/33461237/14237071_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "18-steak-grilling-close",
+   "id": 8523233,
+   "url": "https://videos.pexels.com/video-files/8523233/8523233-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "19-grilled-steak-close",
+   "id": 6577410,
+   "url": "https://videos.pexels.com/video-files/6577410/6577410-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "20-butcher-shop",
+   "id": 7199576,
+   "url": "https://videos.pexels.com/video-files/7199576/7199576-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "21-fresh-meats",
+   "id": 8551736,
+   "url": "https://videos.pexels.com/video-files/8551736/8551736-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "22-supermarket",
+   "id": 39238831,
+   "url": "https://videos.pexels.com/video-files/39238831/16698708_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "23-old-man-plate-meat",
+   "id": 8523027,
+   "url": "https://videos.pexels.com/video-files/8523027/8523027-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "24-man-celebrating",
+   "id": 6194810,
+   "url": "https://videos.pexels.com/video-files/6194810/6194810-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "25-man-screaming-happy",
+   "id": 6194803,
+   "url": "https://videos.pexels.com/video-files/6194803/6194803-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "26-fried-shrimp-skillet",
+   "id": 28925861,
+   "url": "https://videos.pexels.com/video-files/28925861/12518959_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "27-fried-shrimp-flour",
+   "id": 2076483,
+   "url": "https://videos.pexels.com/video-files/2076483/2076483-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "28-french-fries",
+   "id": 35851610,
+   "url": "https://videos.pexels.com/video-files/35851610/15203371_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "29-mashed-meal",
+   "id": 39294448,
+   "url": "https://videos.pexels.com/video-files/39294448/16720524_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "30-bangers-mash",
+   "id": 40304313,
+   "url": "https://videos.pexels.com/video-files/40304313/17216458_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "31-beef-mash-gravy",
+   "id": 39294435,
+   "url": "https://videos.pexels.com/video-files/39294435/16720534_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "32-bread-rolls",
+   "id": 30748926,
+   "url": "https://videos.pexels.com/video-files/30748926/13153797_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "33-bread-basket",
+   "id": 30748929,
+   "url": "https://videos.pexels.com/video-files/30748929/13153803_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "34-food-in-trash",
+   "id": 7921985,
+   "url": "https://videos.pexels.com/video-files/7921985/7921985-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "35-crispy-pork",
+   "id": 2922553,
+   "url": "https://videos.pexels.com/video-files/2922553/2922553-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "36-soda-ice",
+   "id": 33356765,
+   "url": "https://videos.pexels.com/video-files/33356765/14203632_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "37-cola-glass",
+   "id": 12511820,
+   "url": "https://videos.pexels.com/video-files/12511820/12511820-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "38-stacked-plates",
+   "id": 9733000,
+   "url": "https://videos.pexels.com/video-files/9733000/9733000-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "39-grandma-cutting-food",
+   "id": 3198157,
+   "url": "https://videos.pexels.com/video-files/3198157/3198157-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "40-grandma-restaurant",
+   "id": 5642694,
+   "url": "https://videos.pexels.com/video-files/5642694/5642694-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "41-grandma-smiling",
+   "id": 8308208,
+   "url": "https://videos.pexels.com/video-files/8308208/8308208-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "42-girl-ice-cream",
+   "id": 5089501,
+   "url": "https://videos.pexels.com/video-files/5089501/5089501-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "43-men-salads",
+   "id": 3760747,
+   "url": "https://videos.pexels.com/video-files/3760747/3760747-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "44-disappointed-man",
+   "id": 10515020,
+   "url": "https://videos.pexels.com/video-files/10515020/10515020-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "45-casino-slots",
+   "id": 7608129,
+   "url": "https://videos.pexels.com/video-files/7608129/7608129-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "46-casino-chips",
+   "id": 7607960,
+   "url": "https://videos.pexels.com/video-files/7607960/7607960-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "47-kitchen-chefs",
+   "id": 3768941,
+   "url": "https://videos.pexels.com/video-files/3768941/3768941-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "48-kitchen-slowmo",
+   "id": 3768985,
+   "url": "https://videos.pexels.com/video-files/3768985/3768985-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "49-empty-restaurant",
+   "id": 7320541,
+   "url": "https://videos.pexels.com/video-files/7320541/7320541-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "50-empty-tables",
+   "id": 12153352,
+   "url": "https://videos.pexels.com/video-files/12153352/12153352-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "51-closed-sign",
+   "id": 13633619,
+   "url": "https://videos.pexels.com/video-files/13633619/13633619-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "52-abandoned-sign",
+   "id": 4707595,
+   "url": "https://videos.pexels.com/video-files/4707595/4707595-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "53-couple-bills",
+   "id": 6963962,
+   "url": "https://videos.pexels.com/video-files/6963962/6963962-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "54-man-shocked-bills",
+   "id": 6962835,
+   "url": "https://videos.pexels.com/video-files/6962835/6962835-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "55-man-in-car",
+   "id": 4281307,
+   "url": "https://videos.pexels.com/video-files/4281307/4281307-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "56-neon-pub-sign",
+   "id": 31148463,
+   "url": "https://videos.pexels.com/video-files/31148463/13308850_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "57-diner-night",
+   "id": 36032432,
+   "url": "https://videos.pexels.com/video-files/36032432/15280589_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "58-marquee-sign",
+   "id": 5259474,
+   "url": "https://videos.pexels.com/video-files/5259474/5259474-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "59-waitstaff",
+   "id": 33462592,
+   "url": "https://videos.pexels.com/video-files/33462592/14237423_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "60-cutting-meat",
+   "id": 8477331,
+   "url": "https://videos.pexels.com/video-files/8477331/8477331-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "61-cashier",
+   "id": 6683939,
+   "url": "https://videos.pexels.com/video-files/6683939/6683939-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "62-coins-falling",
+   "id": 32017747,
+   "url": "https://videos.pexels.com/video-files/32017747/13646294_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "63-boxing-bell",
+   "id": 29823097,
+   "url": "https://videos.pexels.com/video-files/29823097/12809665_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "64-boxing-bell-ring",
+   "id": 29823098,
+   "url": "https://videos.pexels.com/video-files/29823098/12809671_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "65-chocolate-fountain",
+   "id": 34687496,
+   "url": "https://videos.pexels.com/video-files/34687496/14702568_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "66-empty-wallet",
+   "id": 11099870,
+   "url": "https://videos.pexels.com/video-files/11099870/11099870-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "67-vegas-night",
+   "id": 29349916,
+   "url": "https://videos.pexels.com/video-files/29349916/12648712_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "68-sinking-boat",
+   "id": 7462638,
+   "url": "https://videos.pexels.com/video-files/7462638/7462638-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "69-calendar-marking",
+   "id": 9057559,
+   "url": "https://videos.pexels.com/video-files/9057559/9057559-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "70-restaurant-aerial-night",
+   "id": 31471146,
+   "url": "https://videos.pexels.com/video-files/31471146/13419210_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "71-family-eating",
+   "id": 5963647,
+   "url": "https://videos.pexels.com/video-files/5963647/5963647-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "72-old-woman-laughing",
+   "id": 7393736,
+   "url": "https://videos.pexels.com/video-files/7393736/7393736-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "73-frying-potatoes",
+   "id": 5780289,
+   "url": "https://videos.pexels.com/video-files/5780289/5780289-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "74-bearded-man-eating",
+   "id": 6964233,
+   "url": "https://videos.pexels.com/video-files/6964233/6964233-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "75-dining-room-chairs",
+   "id": 2996079,
+   "url": "https://videos.pexels.com/video-files/2996079/2996079-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "76-upset-man-face",
+   "id": 6654092,
+   "url": "https://videos.pexels.com/video-files/6654092/6654092-hd_1920_1080_25fps.mp4"
+  }
+ ]
+}
