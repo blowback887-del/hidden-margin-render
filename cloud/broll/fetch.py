@@ -1,7 +1,7 @@
 """Download stock clips, normalise (1920x1080, 30fps, H.264, no audio, <= max_sec),
 write a contact sheet (3 frames per clip) for visual vetting."""
 import json, subprocess, sys, os
-cfg = json.load(open(sys.argv[1])); os.makedirs(cfg["out"], exist_ok=True); os.makedirs("work/sheet", exist_ok=True)
+cfg = json.load(open(sys.argv[1])); os.makedirs(cfg["out"], exist_ok=True); os.makedirs("work/sheet", exist_ok=True); os.makedirs(os.path.dirname(cfg["sheet"]), exist_ok=True)
 def run(c): print("+", " ".join(c), flush=True); subprocess.run(c, check=True)
 tiles = []
 W, H = cfg.get("w", 1920), cfg.get("h", 1080)   # вертикаль: w 1080, h 1920

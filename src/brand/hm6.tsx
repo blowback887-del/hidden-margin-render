@@ -23,9 +23,9 @@ export const C6 = {
   panel: "rgba(4,42,52,.82)",
   line: "rgba(247,244,236,.16)",
 };
-export const SERIF = "'DM Serif Display', Georgia, serif";
+export const SERIF = "'DM Serif Display', 'Playfair Display', Georgia, serif";
 export const SANS = "'Inter', 'Segoe UI', Arial, sans-serif";
-export const MEME = "'Anton', Impact, 'Arial Black', sans-serif";
+export const MEME = "'Anton', 'Oswald', Impact, 'Arial Black', sans-serif";
 
 // ---------- шрифты: локальные файлы public/fonts, рендер ждёт их загрузки ----------
 const FONTS: [string, string, string, string][] = [
@@ -37,7 +37,16 @@ const FONTS: [string, string, string, string][] = [
   ["Inter", "inter-latin-700-normal.woff2", "700", "normal"],
   ["Inter", "inter-latin-800-normal.woff2", "800", "normal"],
   ["Anton", "anton-latin-400-normal.woff2", "400", "normal"],
+  // кириллица (русские версии роликов): Inter того же семейства, вместо DM Serif — Playfair, вместо Anton — Oswald
+  ["Inter", "inter-cyrillic-400-normal.woff2", "400", "normal"],
+  ["Inter", "inter-cyrillic-500-normal.woff2", "500", "normal"],
+  ["Inter", "inter-cyrillic-600-normal.woff2", "600", "normal"],
+  ["Inter", "inter-cyrillic-700-normal.woff2", "700", "normal"],
+  ["Inter", "inter-cyrillic-800-normal.woff2", "800", "normal"],
+  ["Playfair Display", "playfair-display-cyrillic-500-normal.woff2", "400", "normal"],
+  ["Oswald", "oswald-cyrillic-700-normal.woff2", "400", "normal"],
 ];
+const CYR = "U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116";
 let fontsRequested = false;
 export const loadFonts6 = () => {
   if (fontsRequested || typeof document === "undefined") return;
@@ -45,7 +54,7 @@ export const loadFonts6 = () => {
   const h = delayRender("fonts-hm6");
   Promise.all(
     FONTS.map(([fam, file, weight, style]) => {
-      const ff = new FontFace(fam, `url(${staticFile(`fonts/${file}`)}) format('woff2')`, { weight, style });
+      const ff = new FontFace(fam, `url(${staticFile(`fonts/${file}`)}) format('woff2')`, file.includes("cyrillic") ? { weight, style, unicodeRange: CYR } : { weight, style });
       return ff.load().then((f) => document.fonts.add(f));
     }),
   )
@@ -158,12 +167,12 @@ export const ChapterTag: React.FC<{ n: number; title: string }> = ({ n, title })
 };
 
 /** Полноэкранная карточка главы «Chapter 2 — The Sign» */
-export const ChapterCard: React.FC<{ n: number; title: string; at?: number }> = ({ n, title, at = 0.05 }) => {
+export const ChapterCard: React.FC<{ n: number; title: string; at?: number; label?: string }> = ({ n, title, at = 0.05, label }) => {
   const { p } = useT();
   const k = p(at, at + 0.5);
   return (
     <Col gap={20}>
-      <div style={{ opacity: k }}><Kicker6 size={28} color={C6.accent}>{`Chapter ${n}`}</Kicker6></div>
+      <div style={{ opacity: k }}><Kicker6 size={28} color={C6.accent}>{label ?? `Chapter ${n}`}</Kicker6></div>
       <div style={{ width: 120 * k, height: 2, background: C6.accent, opacity: 0.8 }} />
       <Words text={title} at={at + 0.2} size={128} />
     </Col>

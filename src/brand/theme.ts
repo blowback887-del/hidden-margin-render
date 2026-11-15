@@ -1,7 +1,7 @@
 // Фирменный стиль канала. Меняйте значения здесь — поменяется во всех роликах.
 export const BRAND = {
-  name: "HIDDEN MARGIN",
-  tagline: "How everyday businesses really make money",
+  name: "THEY SAW YOU COMING",
+  tagline: "How companies take your money — and how not to fall for it",
 };
 
 export const COLORS = {

@@ -18,7 +18,7 @@ pilot = float(sys.argv[sys.argv.index("--pilot") + 1]) if "--pilot" in sys.argv 
 spec = importlib.util.spec_from_file_location("plan", f"{R}/cloud/gen/{ep}.py")
 plan = importlib.util.module_from_spec(spec); spec.loader.exec_module(plan)
 EP, S = plan.EP, plan.S
-norm = lambda t: re.sub(r"[^a-z0-9']", "", t.lower().replace("’", "'"))
+norm = lambda t: re.sub(r"[^a-z0-9'а-яё]", "", t.lower().replace("’", "'").replace("ё", "е"))
 
 # ---------- align: слова сценария → пословная расшифровка (числа словами против цифр — по блокам) ----------
 W = json.load(open(f"{R}/{EP['words']}"))
