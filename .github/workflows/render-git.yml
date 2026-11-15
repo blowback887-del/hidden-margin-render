@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       composition:
-        description: "Composition id (e.g. Ep07-Grocery)"
+        description: "Composition id (e.g. Ep10-Topic)"
         required: true
       chunks:
         description: "Parallel chunks: auto (~1 per minute) or a number up to 20"

@@ -7,7 +7,7 @@ on:
         description: "Run id of the Render video workflow"
         required: true
       name:
-        description: "Artifact / composition name (e.g. Ep04-Costco)"
+        description: "Artifact / composition name (e.g. Ep10-Topic)"
         required: true
 
 run-name: "Check ${{ inputs.name }}"

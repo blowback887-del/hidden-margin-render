@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       config:
-        description: "Voice config (e.g. cloud/voice/ep04.json)"
+        description: "Voice config (e.g. cloud/voice/ep10.json)"
         required: true
-        default: "cloud/voice/ep04.json"
+        default: "cloud/voice/ep10.json"
 
 run-name: "Voice ${{ inputs.config }}"
 

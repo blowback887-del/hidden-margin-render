@@ -7,7 +7,7 @@ on:
         description: "Run id of the Render video workflow"
         required: true
       name:
-        description: "Artifact name (e.g. Ep05-Christmas)"
+        description: "Artifact name (e.g. Ep10-Topic)"
         required: true
 
 run-name: "Deliver ${{ inputs.name }}"

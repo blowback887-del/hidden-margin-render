@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       config:
-        description: "Stock list (e.g. cloud/broll/ep04.json)"
+        description: "Stock list (e.g. cloud/broll/ep10.json)"
         required: true
-        default: "cloud/broll/ep04.json"
+        default: "cloud/broll/ep10.json"
 
 run-name: "Stock ${{ inputs.config }}"
 

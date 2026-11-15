@@ -1,7 +1,7 @@
-"""Общий генератор сцен HIDDEN MARGIN (с Ep06): align → build → check.
+"""Общий генератор сцен HIDDEN MARGIN: align → build → check. Образец плана — cloud/gen/ep09.py.
 
-Запуск: python3 cloud/gen/build.py ep06            — весь ролик
-        python3 cloud/gen/build.py ep06 --pilot 30 — только первые 30 с (пилот нового стиля)
+Запуск: python3 cloud/gen/build.py ep10            — весь ролик
+        python3 cloud/gen/build.py ep10 --pilot 30 — только первые 30 с (пилот нового стиля)
 
 План ролика — cloud/gen/<ep>.py: словарь EP и список сцен S.
   EP = dict(comp="Ep06Gas", words="src/videos/ep06-gas-words.json", text="cloud/voice/ep06-text",

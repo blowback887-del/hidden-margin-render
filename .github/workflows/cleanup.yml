@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       keep:
-        description: "Branch to keep (e.g. deliver/Ep07-Grocery)"
+        description: "Branch to keep (e.g. deliver/Ep10-Topic)"
         required: true
 
 run-name: "Cleanup (keep ${{ inputs.keep }})"
