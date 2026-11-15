@@ -252,12 +252,12 @@ export const RedCircle: React.FC<{ at: number; x: number; y: number; w: number; 
 };
 
 /** «Перевод с корпоративного»: субтитр-плашка */
-export const CorpSub: React.FC<{ at: number; corp: string; human: string; out?: number }> = ({ at, corp, human, out }) => {
+export const CorpSub: React.FC<{ at: number; corp: string; human: string; label?: string; out?: number }> = ({ at, corp, human, label = "TRANSLATION FROM CORPORATE", out }) => {
   const { p } = useT();
   const k = p(at, at + 0.3) * (out !== undefined ? 1 - p(out, out + 0.25) : 1);
   return (
     <div style={{ position: "absolute", left: "50%", bottom: 150, translate: `-50% ${(1 - k) * 20}px`, opacity: k, padding: "28px 56px", borderRadius: 16, background: "rgba(0,0,0,.8)", textAlign: "center", minWidth: 1200 }}>
-      <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 30, letterSpacing: "0.2em", color: C6.mint }}>TRANSLATION FROM CORPORATE</div>
+      <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 30, letterSpacing: "0.2em", color: C6.mint }}>{label}</div>
       <div style={{ fontFamily: SANS, fontWeight: 500, fontSize: 46, color: "rgba(247,244,236,.6)", marginTop: 10, textDecoration: "line-through" }}>{corp}</div>
       <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 68, color: C6.accent, marginTop: 6 }}>{human}</div>
     </div>
