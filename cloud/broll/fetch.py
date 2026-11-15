@@ -4,16 +4,18 @@ import json, subprocess, sys, os
 cfg = json.load(open(sys.argv[1])); os.makedirs(cfg["out"], exist_ok=True); os.makedirs("work/sheet", exist_ok=True)
 def run(c): print("+", " ".join(c), flush=True); subprocess.run(c, check=True)
 tiles = []
+W, H = cfg.get("w", 1920), cfg.get("h", 1080)   # вертикаль: w 1080, h 1920
+TW, TH = (320, 180) if W > H else (180, 320)
 for c in cfg["clips"]:
     raw = f"work/{c['id']}" + (".jpg" if c.get("photo") else ".mp4"); dst = f"{cfg['out']}/{c['name']}.mp4"
     run(["curl", "-sSfL", "-A", "Mozilla/5.0 (HiddenMarginBot; stock fetch)", "-o", raw, c["url"]])
     photo = ["-loop", "1", "-framerate", "30"] if c.get("photo") else []   # фото → неподвижный клип (наезд даёт Stock6)
     run(["ffmpeg", "-y", "-v", "error", *photo, "-i", raw, "-t", str(cfg["max_sec"]), "-an",
-         "-vf", "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30",
+         "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p", "-movflags", "+faststart", dst])
     t = f"work/sheet/{c['name']}.jpg"
     run(["ffmpeg", "-y", "-v", "error", "-i", dst, "-vf",
-         "select='eq(n\\,15)+eq(n\\,135)+eq(n\\,270)',scale=320:180,tile=3x1,"
+         f"select='eq(n\\,15)+eq(n\\,135)+eq(n\\,270)',scale={TW}:{TH},tile=3x1,"
          f"drawtext=text='{c['name'][:2]}':x=6:y=6:fontsize=28:fontcolor=yellow:box=1:boxcolor=black",
          "-frames:v", "1", "-vsync", "0", t])
     tiles.append(t)

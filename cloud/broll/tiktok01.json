@@ -1,0 +1,149 @@
+{
+ "out": "public/broll/tiktok01",
+ "sheet": "public/research/tiktok01-broll-sheet.jpg",
+ "max_sec": 10,
+ "w": 1080,
+ "h": 1920,
+ "clips": [
+  {
+   "name": "01-showroom-bedroom",
+   "id": 40723274,
+   "url": "https://videos.pexels.com/video-files/40723274/17395475_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "02-showroom-deals",
+   "id": 40723273,
+   "url": "https://videos.pexels.com/video-files/40723273/17395452_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "03-phone-scroll",
+   "id": 38410501,
+   "url": "https://videos.pexels.com/video-files/38410501/16310021_1080_1920_25fps.mp4"
+  },
+  {
+   "name": "04-woman-phone-bed",
+   "id": 9787494,
+   "url": "https://videos.pexels.com/video-files/9787494/9787494-hd_1080_1920_25fps.mp4"
+  },
+  {
+   "name": "05-man-shaking-head",
+   "id": 13801250,
+   "url": "https://videos.pexels.com/video-files/13801250/13801250-hd_1080_1920_24fps.mp4"
+  },
+  {
+   "name": "06-man-yawning",
+   "id": 4588464,
+   "url": "https://videos.pexels.com/video-files/4588464/4588464-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "07-woman-yawning-book",
+   "id": 7033439,
+   "url": "https://videos.pexels.com/video-files/7033439/7033439-hd_1080_1920_24fps.mp4"
+  },
+  {
+   "name": "08-couple-bed-talking",
+   "id": 7218618,
+   "url": "https://videos.pexels.com/video-files/7218618/7218618-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "09-jumping-bed",
+   "id": 3196418,
+   "url": "https://videos.pexels.com/video-files/3196418/3196418-hd_1080_1920_25fps.mp4"
+  },
+  {
+   "name": "10-calculator",
+   "id": 6700250,
+   "url": "https://videos.pexels.com/video-files/6700250/6700250-hd_1080_1920_25fps.mp4"
+  },
+  {
+   "name": "11-counting-cash",
+   "id": 6700265,
+   "url": "https://videos.pexels.com/video-files/6700265/6700265-hd_1080_1920_25fps.mp4"
+  },
+  {
+   "name": "12-hand-tag",
+   "id": 5924999,
+   "url": "https://videos.pexels.com/video-files/5924999/5924999-hd_1080_1920_24fps.mp4"
+  },
+  {
+   "name": "13-aerial-retail-center",
+   "id": 31059566,
+   "url": "https://videos.pexels.com/video-files/31059566/13273542_1080_1920_30fps.mp4"
+  },
+  {
+   "name": "14-aerial-mall",
+   "id": 31059563,
+   "url": "https://videos.pexels.com/video-files/31059563/13273514_1080_1920_30fps.mp4"
+  },
+  {
+   "name": "15-city-street-stores",
+   "id": 35040231,
+   "url": "https://videos.pexels.com/video-files/35040231/14843538_1080_1920_30fps.mp4"
+  },
+  {
+   "name": "16-closed-sign",
+   "id": 13633619,
+   "url": "https://videos.pexels.com/video-files/13633619/13633619-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "17-abandoned-outlet",
+   "id": 7320657,
+   "url": "https://videos.pexels.com/video-files/7320657/7320657-hd_1080_1920_30fps.mp4"
+  },
+  {
+   "name": "18-aerial-center-sunny",
+   "id": 31059560,
+   "url": "https://videos.pexels.com/video-files/31059560/13273526_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "19-percent-tag",
+   "id": 7563824,
+   "url": "https://videos.pexels.com/video-files/7563824/7563824-hd_1080_1920_30fps.mp4"
+  },
+  {
+   "name": "20-sale-board",
+   "id": 7564066,
+   "url": "https://videos.pexels.com/video-files/7564066/7564066-hd_1080_1920_30fps.mp4"
+  },
+  {
+   "name": "21-salesperson-client",
+   "id": 6826662,
+   "url": "https://videos.pexels.com/video-files/6826662/6826662-hd_1080_1920_25fps.mp4"
+  },
+  {
+   "name": "22-suit-computer",
+   "id": 7154223,
+   "url": "https://videos.pexels.com/video-files/7154223/7154223-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "23-man-looking-up",
+   "id": 7578434,
+   "url": "https://videos.pexels.com/video-files/7578434/7578434-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "24-man-surprised",
+   "id": 6980085,
+   "url": "https://videos.pexels.com/video-files/6980085/6980085-hd_1080_1920_25fps.mp4"
+  },
+  {
+   "name": "25-man-lying-bed",
+   "id": 8558498,
+   "url": "https://videos.pexels.com/video-files/8558498/8558498-hd_1080_1920_24fps.mp4"
+  },
+  {
+   "name": "26-man-funny-face",
+   "id": 18503942,
+   "url": "https://videos.pexels.com/video-files/18503942/18503942-hd_1080_1920_30fps.mp4"
+  },
+  {
+   "name": "27-stressed-man",
+   "id": 7924477,
+   "url": "https://videos.pexels.com/video-files/7924477/7924477-hd_1080_1920_24fps.mp4"
+  },
+  {
+   "name": "28-turning-sign",
+   "id": 6229611,
+   "url": "https://videos.pexels.com/video-files/6229611/6229611-hd_1920_1080_25fps.mp4"
+  }
+ ]
+}
