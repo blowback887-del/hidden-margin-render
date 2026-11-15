@@ -1,0 +1,9 @@
+{
+ "episode": "tiktok01",
+ "words_out": "src/videos/tiktok01-words.json",
+ "audio_out": "public/audio/tiktok01-voiceover.mp3",
+ "pause_sec": 0.5,
+ "parts": [
+  {"part": 1, "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/POMIkv0bYtqKwN8SOMCo/rZsrzIihfz2yR3871WFU/content.mp3?Expires=1794733200&KeyName=assets-cdn-key-1&Signature=xxnnVuUpv4JXA7MhdaORI-_W8k0="}
+ ]
+}
