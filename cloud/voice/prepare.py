@@ -52,8 +52,9 @@ print("FINAL LOUDNESS", check[check.rindex("{"):], flush=True)
 print("DURATION", dur(cfg["audio_out"]), "OFFSETS", offsets, flush=True)
 
 from faster_whisper import WhisperModel
-model = WhisperModel("medium.en", device="cpu", compute_type="int8")
-segs, _ = model.transcribe(cfg["audio_out"], word_timestamps=True, beam_size=5, language="en",
+lang = cfg.get("lang", "en")
+model = WhisperModel("medium.en" if lang == "en" else "medium", device="cpu", compute_type="int8")
+segs, _ = model.transcribe(cfg["audio_out"], word_timestamps=True, beam_size=5, language=lang,
                            vad_filter=False, condition_on_previous_text=False)
 words = []
 for s in segs:
