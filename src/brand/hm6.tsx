@@ -193,7 +193,8 @@ const Vid: React.FC<{ n: number; need: number; style: React.CSSProperties }> = (
   return <Loop durationInFrames={loopFrames}><OffthreadVideo src={c.src} muted playbackRate={r} style={style} /></Loop>;
 };
 
-const veil = (dim: number) => `linear-gradient(180deg, rgba(4,42,52,${0.45 + dim}) 0%, rgba(4,42,52,${0.58 + dim}) 50%, rgba(4,42,52,${0.8 + dim}) 100%)`;
+// с 15.11.2026 (Павел): сток не затягиваем бирюзовой пеленой — видео видно чисто; только лёгкое затемнение снизу под подписи
+const veil = (dim: number) => `linear-gradient(180deg, rgba(0,0,0,${dim}) 0%, rgba(0,0,0,${dim}) 55%, rgba(0,0,0,${0.4 + dim}) 100%)`;
 const clean = (dim: number) => `linear-gradient(180deg, rgba(0,0,0,${0.05 + dim}) 0%, rgba(0,0,0,${0.12 + dim}) 60%, rgba(0,0,0,${0.35 + dim}) 100%)`;
 
 /** Живой кадр на весь экран с медленным наездом 1.04 → 1.10. veilOn — подложка под графику; без неё — чистое видео. */
