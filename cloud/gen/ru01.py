@@ -51,14 +51,14 @@ dict(start="Глава первая", sfx=[('ep06-whoosh:0.25', '0.02')], tag=C1
 dict(start="История Майка почти", stock=12, el='''<Center y={540}><Plate6><Words text="История почти настоящая." at={0.1} size={100} hl={["настоящая."]} /></Plate6></Center>'''),
 dict(start="Покупательница из Калифорнии", stock=5, el='''<Center y={540}><Plate6><Words text="Белые джинсы." at={@{белые джинсы}} size={110} /><Label6 at={@{в аутлете}} size={40} color={C6.accent}>КАЛИФОРНИЯ · АУТЛЕТ MICHAEL KORS</Label6></Plate6></Center>
 ''' + KORS),
-dict(start="На бирке рекомендованная", sfx=[('ep06-receipt:0.3', '0.2'), ('ep06-pop:0.3', '@{Цена магазина}'), ('ep06-pop:0.3', '@{И ещё одна}')], stock=36, dim=0.35, el='''<Center y={540}><Plate6 pad="40px 60px"><Col gap={26} align="flex-start">
+dict(start="На бирке рекомендованная", sfx=[('ep06-receipt:0.3', '0.2'), ('ep06-pop:0.3', '@{Цена магазина}'), ('ep06-pop:0.3', '@{И ещё одна}')], stock=36, alt=(7, "И ещё одна"), dim=0.35, el='''<Center y={540}><Plate6 pad="40px 60px"><Col gap={26} align="flex-start">
   <Row gap={60}><Label6 at={0.2} size={44} color={C6.ink}>РЕКОМЕНДОВАННАЯ</Label6><Label6 at={@{сто двадцать}} size={60} color={C6.loss}>$120</Label6></Row>
   <Row gap={60}><Label6 at={@{Цена магазина}} size={44} color={C6.ink}>ЦЕНА МАГАЗИНА</Label6><Label6 at={@{девяносто девять}} size={60} color={C6.blue}>$99.99</Label6></Row>
   <Row gap={60}><Label6 at={@{И ещё одна}} size={44} color={C6.ink}>ЕЩЁ СКИДКА</Label6><Label6 at={@{семьдесят девять}} size={60} color={C6.money}>$79.99</Label6></Row>
 </Col></Plate6></Center>
 ''' + KORS),
 dict(start="Три цены на одной", sfx=[('ep09-cheer:0.25', '@{Аттракцион}')], stock=51, clean=True, el='''<Meme at={@{Аттракцион}} text="аттракцион неслыханной щедрости" y={900} size={70} />'''),
-dict(start="В две тысячи четырнадцатом она", sfx=[('ep06-boom:0.25', '@{коллективный иск}')], stock=16, el='''<Center y={330}><Plate6><Label6 at={@{коллективный иск}} size={48} color={C6.accent}>2014 · КОЛЛЕКТИВНЫЙ ИСК</Label6></Plate6></Center>
+dict(start="В две тысячи четырнадцатом она", sfx=[('ep06-boom:0.25', '@{коллективный иск}')], stock=16, alt=(17, "По её словам"), el='''<Center y={330}><Plate6><Label6 at={@{коллективный иск}} size={48} color={C6.accent}>2014 · КОЛЛЕКТИВНЫЙ ИСК</Label6></Plate6></Center>
 <Center y={720}><Plate6><Words text="Шили специально для аутлета." at={@{шили специально}} size={84} hl={["специально"]} maxW={1500} /></Plate6></Center>
 ''' + KORS),
 dict(start="В две тысячи пятнадцатом", sfx=[('ep06-kaching:0.25', '@{четыре миллиона}'), ('ep06-stamp:0.35', '@{Вину не}')], stock=18, el='''<Center y={430}><Plate6><BigNum at={@{четыре миллиона}} icon="receipt" size={200} label="МИРОВОЕ СОГЛАШЕНИЕ · 2015">$4,88 млн</BigNum></Plate6></Center>
@@ -80,7 +80,7 @@ dict(start="Коуч и производитель", sfx=[('ep06-pop:0.3', '0.3'
   <Plate6><BigNum at={@{Туми}} icon="suitcase" size={170} label="TUMI">85%</BigNum></Plate6>
 </Row></Center>
 <Source6>BuzzFeed News, Business Insider · 2014</Source6>'''),
-dict(start="А в аутлетах универмага", sfx=[('ep06-coin:0.3', '@{десять процентов}')], stock=24, el='''<Center y={430}><Plate6><BigNum at={@{десять процентов}} icon="store" size={210} label="ОСТАТКИ ИЗ SAKS · OFF 5TH, 2014">10%</BigNum></Plate6></Center>
+dict(start="А в аутлетах универмага", sfx=[('ep06-coin:0.3', '@{десять процентов}')], stock=24, alt=(30, "Остальное"), el='''<Center y={430}><Plate6><BigNum at={@{десять процентов}} icon="store" size={210} label="ОСТАТКИ ИЗ SAKS · OFF 5TH, 2014">10%</BigNum></Plate6></Center>
 <Center y={820}><Plate6><Label6 at={@{Остальное}} size={40} color={C6.accent}>ОСТАЛЬНОЕ — ПОД АУТЛЕТ</Label6></Plate6></Center>
 <Source6>Business Insider · 2015</Source6>'''),
 dict(start="То есть это не та", stock=42, el='''<Center y={380}><Plate6><Words text="Не та же сумка дешевле." at={0.1} size={90} /></Plate6></Center>
@@ -90,7 +90,7 @@ dict(start="Ты не поймал скидку", sfx=[('ep09-trombone:0.3', '@{
 # ---------------- ГЛАВА 3 · ЧЕМ ТЫ ПЛАТИШЬ ----------------
 dict(start="Глава третья", sfx=[('ep06-whoosh:0.25', '0.02')], tag=C3, hard=True, stock=31, el='''<Center y={540}><ChapterCard n={3} title="Чем ты платишь" label="Глава 3" /></Center>'''),
 dict(start="Вещь для аутлета дешевле", stock=32, el='''<Center y={540}><Plate6><Words text="Дешевле в производстве." at={0.1} size={100} hl={["Дешевле"]} /></Plate6></Center>'''),
-dict(start="Некоммерческая организация", sfx=[('ep06-pop:0.3', '@{сорок брендов}')], stock=37, el='''<Center y={430}><Plate6><BigNum at={@{сорок брендов}} icon="store" size={200} label="БРЕНДОВ ПРОВЕРИЛ CONSUMERS' CHECKBOOK">40</BigNum></Plate6></Center>
+dict(start="Некоммерческая организация", sfx=[('ep06-pop:0.3', '@{сорок брендов}')], stock=37, alt=(35, "Примерно у половины"), el='''<Center y={430}><Plate6><BigNum at={@{сорок брендов}} icon="store" size={200} label="БРЕНДОВ ПРОВЕРИЛ CONSUMERS' CHECKBOOK">40</BigNum></Plate6></Center>
 <Center y={830}><Plate6><Label6 at={@{Примерно у половины}} size={38} color={C6.accent}>≈ ПОЛОВИНА — ОТДЕЛЬНЫЙ, БОЛЕЕ ДЕШЁВЫЙ ТОВАР</Label6></Plate6></Center>
 ''' + CHK),
 dict(start="Пример из их проверки", sfx=[('ep06-pop:0.3', '@{В аутлете подошва}')], stock=34, el='''<Center y={540}><Split6 at={@{В аутлете подошва}} left={{ title: "АУТЛЕТ · ПОДОШВА", value: "РЕЗИНА", color: C6.loss }} right={{ title: "УНИВЕРМАГ · ПОДОШВА", value: "КОЖА", color: C6.money, at: @{в универмаге} }} /></Center>
@@ -118,7 +118,7 @@ dict(start="Бренды платили", stock=14, el='''<Center y={540}><Plate
 dict(start="Потому что ты едешь", sfx=[('ep06-whoosh:0.25', '0.2')], stock=39, el='''<Center y={540}><Plate6><Label6 at={@{Час в машине}} size={60} color={C6.accent}>ЧАС ЗА РУЛЁМ. РАДИ СКИДКИ.</Label6></Plate6></Center>'''),
 dict(start="Уезжать с пустыми", stock=40, el='''<Center y={380}><Plate6><Words text="Уехать с пустыми руками обидно." at={0.1} size={86} maxW={1500} /></Plate6></Center>
 <Center y={740}><Plate6><Words text="Он продаёт чувство, что ты выиграл." at={@{Он продаёт}} size={86} hl={["выиграл."]} maxW={1500} /></Plate6></Center>'''),
-dict(start="Как не попасться", sfx=[('ep06-pop:0.3', '@{Первое}'), ('ep06-pop:0.3', '@{Второе}'), ('ep06-pop:0.3', '@{Третье}')], stock=12, dim=0.3, el='''<Center y={540}><Plate6 pad="40px 60px"><Col gap={34} align="flex-start">
+dict(start="Как не попасться", sfx=[('ep06-pop:0.3', '@{Первое}'), ('ep06-pop:0.3', '@{Второе}'), ('ep06-pop:0.3', '@{Третье}')], stock=12, alt=(41, "Третье"), dim=0.3, el='''<Center y={540}><Plate6 pad="40px 60px"><Col gap={34} align="flex-start">
   <Label6 at={@{Первое}} size={48} color={C6.ink}>1 · СМОТРИ НА ВЕЩЬ, А НЕ НА ЗАЧЁРКНУТУЮ ЦЕНУ</Label6>
   <Label6 at={@{Второе}} size={48} color={C6.ink}>2 · ИЩИ ТАЙНЫЕ ЗНАЧКИ НА ЭТИКЕТКЕ</Label6>
   <Label6 at={@{Третье}} size={48} color={C6.accent}>3 · СРАВНИ С ОБЫЧНЫМ МАГАЗИНОМ</Label6>
