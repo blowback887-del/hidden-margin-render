@@ -376,7 +376,7 @@ export const TwoBars: React.FC<{ at: number; a: { label: string; value: string; 
 };
 
 /** Разделённый экран: две половины с подписью и цифрой */
-export const Split6: React.FC<{ at: number; left: { title: string; value: string; color?: string; icon?: IconName | Icon6Name }; right: { title: string; value: string; color?: string; icon?: IconName | Icon6Name; at?: number } }> = ({ at, left, right }) => {
+export const Split6: React.FC<{ at: number; left: { title: string; value: string; color?: string; icon?: IconName | Icon6Name }; right: { title: string; value: string; color?: string; icon?: IconName | Icon6Name; at?: number }; scale?: number }> = ({ at, left, right, scale = 1 }) => {
   const { p } = useT();
   const side = (s: typeof left, t0: number, def: string) => (
     <div style={{ width: 760, height: 620, borderRadius: 26, background: C6.panel, boxShadow: `inset 0 0 0 2px ${C6.line}, 0 30px 60px rgba(0,0,0,.35)`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 26, opacity: p(t0, t0 + 0.35), translate: `0 ${(1 - p(t0, t0 + 0.35)) * 24}px` }}>
@@ -385,7 +385,7 @@ export const Split6: React.FC<{ at: number; left: { title: string; value: string
       <Kicker6 size={26} color={C6.ink}>{s.title}</Kicker6>
     </div>
   );
-  return <Row gap={60}>{side(left, at, C6.ink)}{side(right, right.at ?? at + 0.5, C6.accent)}</Row>;
+  return <div style={{ scale: String(scale) }}><Row gap={60}>{side(left, at, C6.ink)}{side(right, right.at ?? at + 0.5, C6.accent)}</Row></div>;
 };
 
 /** Кольцевая диаграмма: доля прибыли */
