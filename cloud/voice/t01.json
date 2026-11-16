@@ -1,0 +1,14 @@
+{
+ "episode": "t01",
+ "lang": "en",
+ "words_out": "src/videos/t01-restaurants-words.json",
+ "audio_out": "public/audio/t01-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {"part": 1, "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/mHlmS6cMyWnRB5YOPok2/btbNvwyBeav1QTlLp5WT/content.mp3?Expires=1794826800&KeyName=assets-cdn-key-1&Signature=sgqFZBVa9HNk7GL8yD8GQDzwb4M="},
+  {"part": 2, "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/V3nJGvt9VGSa0ASFBfqy/y1iD2Zf981V0TVSktAQe/content.mp3?Expires=1794826800&KeyName=assets-cdn-key-1&Signature=jZHV_Q24isbvMsyV5V0HUsYLze4="},
+  {"part": 3, "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/QdXQKQIj7GhCxKCXv4Va/5CaP2YrhAQQSCpCdAb2k/content.mp3?Expires=1794826800&KeyName=assets-cdn-key-1&Signature=KN96L-yCtq_zvzf0gBQB8gm5Zwo="},
+  {"part": 4, "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/rBAoqOrxlX3xAMWmS4ps/NxfBS72YHqYV6IYnQJ88/content.mp3?Expires=1794826800&KeyName=assets-cdn-key-1&Signature=V_Xw1rUkVNo-a6z0wpmYH-V1wKs="},
+  {"part": 5, "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/EBZdG7pvFmwCZj71rxYl/8rOwSQOA7PAmEI4mJZgr/content.mp3?Expires=1794826800&KeyName=assets-cdn-key-1&Signature=_wRWzHauTApixZJlPY_vrC_7b9Y="}
+ ]
+}
