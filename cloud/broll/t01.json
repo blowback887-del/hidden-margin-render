@@ -1,0 +1,324 @@
+{
+ "out": "public/broll/t01",
+ "sheet": "public/research/t01-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "01-jake-burger",
+   "id": 4731135,
+   "url": "https://videos.pexels.com/video-files/4731135/4731135-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "02-burger-fries",
+   "id": 4731058,
+   "url": "https://videos.pexels.com/video-files/4731058/4731058-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "03-jake-enjoying",
+   "id": 4731063,
+   "url": "https://videos.pexels.com/video-files/4731063/4731063-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "04-card-terminal",
+   "id": 8830802,
+   "url": "https://videos.pexels.com/video-files/8830802/8830802-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "05-waiter-bearded",
+   "id": 6816206,
+   "url": "https://videos.pexels.com/video-files/6816206/6816206-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "06-boss-counting",
+   "id": 6285703,
+   "url": "https://videos.pexels.com/video-files/6285703/6285703-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "07-receipt-cash",
+   "id": 7735915,
+   "url": "https://videos.pexels.com/video-files/7735915/7735915-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "08-spa-massage",
+   "id": 12453909,
+   "url": "https://videos.pexels.com/video-files/12453909/12453909-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "09-pos-terminal",
+   "id": 11158789,
+   "url": "https://videos.pexels.com/video-files/11158789/11158789-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "10-couple-shock-bills",
+   "id": 6962835,
+   "url": "https://videos.pexels.com/video-files/6962835/6962835-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "11-dining-room",
+   "id": 16478422,
+   "url": "https://videos.pexels.com/video-files/16478422/16478422-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "12-fine-restaurant",
+   "id": 31631562,
+   "url": "https://videos.pexels.com/video-files/31631562/13476220_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "13-irs-1040",
+   "id": 6964256,
+   "url": "https://videos.pexels.com/video-files/6964256/6964256-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "14-businessman-counting",
+   "id": 7593791,
+   "url": "https://videos.pexels.com/video-files/7593791/7593791-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "15-espresso-pour",
+   "id": 27810938,
+   "url": "https://videos.pexels.com/video-files/27810938/12230217_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "16-waitress-cleaning",
+   "id": 6683366,
+   "url": "https://videos.pexels.com/video-files/6683366/6683366-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "17-parking-meter",
+   "id": 34091414,
+   "url": "https://videos.pexels.com/video-files/34091414/14459593_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "18-waitress-order",
+   "id": 3970140,
+   "url": "https://videos.pexels.com/video-files/3970140/3970140-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "19-seattle",
+   "id": 10183460,
+   "url": "https://videos.pexels.com/video-files/10183460/10183460-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "20-gavel",
+   "id": 6699964,
+   "url": "https://videos.pexels.com/video-files/6699964/6699964-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "21-fine-wine",
+   "id": 5498730,
+   "url": "https://videos.pexels.com/video-files/5498730/5498730-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "22-nyc-skyline",
+   "id": 853836,
+   "url": "https://videos.pexels.com/video-files/853836/853836-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "23-sf-skyline",
+   "id": 19834304,
+   "url": "https://videos.pexels.com/video-files/19834304/19834304-hd_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "24-banquet-hall",
+   "id": 34926854,
+   "url": "https://videos.pexels.com/video-files/34926854/14794510_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "25-closed-sign",
+   "id": 5896095,
+   "url": "https://videos.pexels.com/video-files/5896095/5896095-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "26-massage",
+   "id": 9335886,
+   "url": "https://videos.pexels.com/video-files/9335886/9335886-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "27-burger-table",
+   "id": 4731057,
+   "url": "https://videos.pexels.com/video-files/4731057/4731057-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "28-la-skyline",
+   "id": 30670671,
+   "url": "https://videos.pexels.com/video-files/30670671/13125430_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "29-laptop-calc",
+   "id": 8478748,
+   "url": "https://videos.pexels.com/video-files/8478748/8478748-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "30-couple-menu",
+   "id": 5101157,
+   "url": "https://videos.pexels.com/video-files/5101157/5101157-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "31-scottsdale",
+   "id": 19698410,
+   "url": "https://videos.pexels.com/video-files/19698410/19698410-hd_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "32-dc-capitol",
+   "id": 29188237,
+   "url": "https://videos.pexels.com/video-files/29188237/12603730_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "33-hotel-pool",
+   "id": 34639660,
+   "url": "https://videos.pexels.com/video-files/34639660/14681678_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "34-bread-basket",
+   "id": 30748929,
+   "url": "https://videos.pexels.com/video-files/30748929/13153803_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "35-magnifier",
+   "id": 6980366,
+   "url": "https://videos.pexels.com/video-files/6980366/6980366-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "36-nyc-taxi",
+   "id": 5834223,
+   "url": "https://videos.pexels.com/video-files/5834223/5834223-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "37-calculator",
+   "id": 6963484,
+   "url": "https://videos.pexels.com/video-files/6963484/6963484-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "38-arcade",
+   "id": 40632544,
+   "url": "https://videos.pexels.com/video-files/40632544/17360485_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "39-phone-typing",
+   "id": 856405,
+   "url": "https://videos.pexels.com/video-files/856405/856405-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "40-phone-touch",
+   "id": 4671883,
+   "url": "https://videos.pexels.com/video-files/4671883/4671883-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "41-frustrated-man",
+   "id": 6962334,
+   "url": "https://videos.pexels.com/video-files/6962334/6962334-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "42-shock-glasses",
+   "id": 6290467,
+   "url": "https://videos.pexels.com/video-files/6290467/6290467-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "43-friends-menu",
+   "id": 3970144,
+   "url": "https://videos.pexels.com/video-files/3970144/3970144-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "44-man-laughing",
+   "id": 4994037,
+   "url": "https://videos.pexels.com/video-files/4994037/4994037-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "45-waiter-thumbs",
+   "id": 6816188,
+   "url": "https://videos.pexels.com/video-files/6816188/6816188-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "46-espresso-drip",
+   "id": 6769788,
+   "url": "https://videos.pexels.com/video-files/6769788/6769788-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "47-typing-phone",
+   "id": 39494839,
+   "url": "https://videos.pexels.com/video-files/39494839/16824491_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "48-hotel-reception",
+   "id": 7820475,
+   "url": "https://videos.pexels.com/video-files/7820475/7820475-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "49-surprised-man",
+   "id": 4587767,
+   "url": "https://videos.pexels.com/video-files/4587767/4587767-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "50-cashier-payment",
+   "id": 6683939,
+   "url": "https://videos.pexels.com/video-files/6683939/6683939-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "51-counting-dollars",
+   "id": 5466769,
+   "url": "https://videos.pexels.com/video-files/5466769/5466769-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "52-woman-shocked",
+   "id": 8626657,
+   "url": "https://videos.pexels.com/video-files/8626657/8626657-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "53-pub-burger-beer",
+   "id": 7039149,
+   "url": "https://videos.pexels.com/video-files/7039149/7039149-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "54-chefs-kitchen",
+   "id": 3768941,
+   "url": "https://videos.pexels.com/video-files/3768941/3768941-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "55-beer-pour",
+   "id": 4752641,
+   "url": "https://videos.pexels.com/video-files/4752641/4752641-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "56-man-cucumber-mask",
+   "id": 7607268,
+   "url": "https://images.pexels.com/photos/7607268/pexels-photo-7607268.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  },
+  {
+   "name": "57-boss-throwing-money",
+   "id": 6285163,
+   "url": "https://images.pexels.com/photos/6285163/pexels-photo-6285163.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  },
+  {
+   "name": "58-rich-gentleman",
+   "id": 3771100,
+   "url": "https://images.pexels.com/photos/3771100/pexels-photo-3771100.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  },
+  {
+   "name": "59-man-head-disbelief",
+   "id": 36763328,
+   "url": "https://images.pexels.com/photos/36763328/pexels-photo-36763328.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  },
+  {
+   "name": "60-empty-wallet",
+   "id": 7927581,
+   "url": "https://images.pexels.com/photos/7927581/pexels-photo-7927581.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  },
+  {
+   "name": "61-shrug",
+   "id": 33715990,
+   "url": "https://images.pexels.com/photos/33715990/pexels-photo-33715990.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  },
+  {
+   "name": "62-surprised-blonde",
+   "id": 8727339,
+   "url": "https://images.pexels.com/photos/8727339/pexels-photo-8727339.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  }
+ ]
+}
