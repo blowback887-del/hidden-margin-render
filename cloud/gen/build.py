@@ -7,7 +7,7 @@
   EP = dict(comp="Ep06Gas", words="src/videos/ep06-gas-words.json", text="cloud/voice/ep06-text",
             parts=7, broll="cloud/broll/ep06.json", music=[...], next="...")
   Сцена: dict(start="первые слова сцены", el='''JSX''', stock=N | None, alt=(N, "фраза") , dim=0.0,
-              clean=False (чистое видео без подложки), tag=(номер, "Глава"), hard=False, sfx=[("name","@{фраза}")])
+              clean=False (чистое видео без подложки), sepia/archive=True (архив: сепия, зерно, виньетка), tag=(номер, "Глава"), hard=False, sfx=[("name","@{фраза}")])
   В el: @{фраза} → секунды от начала сцены до первого слова фразы; {DUR} → длина сцены.
 """
 import json, re, sys, difflib, importlib.util, os
@@ -15,6 +15,7 @@ import json, re, sys, difflib, importlib.util, os
 R = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 ep = sys.argv[1]
 pilot = float(sys.argv[sys.argv.index("--pilot") + 1]) if "--pilot" in sys.argv else None
+sys.path.insert(0, f"{R}/cloud/gen")  # планы импортируют помощники: from evid import ev
 spec = importlib.util.spec_from_file_location("plan", f"{R}/cloud/gen/{ep}.py")
 plan = importlib.util.module_from_spec(spec); spec.loader.exec_module(plan)
 EP, S = plan.EP, plan.S
@@ -85,11 +86,12 @@ for k, sc in enumerate(S):
     back = ""
     if sc.get("stock"):
         used.append(sc["stock"])
-        back = f'<Stock6 n={{{sc["stock"]}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if sc.get("sepia") else ""} />'
+        back = f'<Stock6 n={{{sc["stock"]}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if (sc.get("sepia") or sc.get("archive")) else ""} />'
         if sc.get("alt"):
             n2, ph = sc["alt"]; used.append(n2)
             t2 = float(rep(re.match(r"(.*)", ph))) if not isinstance(ph, (int, float)) else ph
-            back += f'\n<Stock6 n={{{n2}}} from={{{t2}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if sc.get("sepia") else ""} />'
+            back += f'\n<Stock6 n={{{n2}}} from={{{t2}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if (sc.get("sepia") or sc.get("archive")) else ""} />'
+        if sc.get("sepia") or sc.get("archive"): back += "\n<ArchiveFx />"
     tag = f'tag: [{sc["tag"][0]}, "{sc["tag"][1]}"], ' if sc.get("tag") else ""
     hard = "hard: true, " if sc.get("hard") else ""
     beats.append(f"  {{ from: {t0}, to: {t1}, {tag}{hard}back: {('(<>' + back + '</>)') if back else 'null'}, el: (<>\n{el}\n</>) }},")
@@ -151,6 +153,8 @@ names = "At Bg6 BigNum Bug6 C6 Center ChapterCard ChapterTag Col CorpSub Counter
 rest = body.split("type Beat =", 1)[1]
 need = [n for n in names if n in ("Bg6", "Bug6", "C6", "Scene6", "ChapterTag", "setClips") or re.search(r"[<{\s]" + n + r"[\s/>({]", rest)]
 body = re.sub(r'import \{ At, Bg6[^}]*\} from "../brand/hm6";', "import { " + ", ".join(need) + ' } from "../brand/hm6";', body)
+ev_need = [n for n in ("Evidence", "Headline", "AdVsTruth", "ArchiveFx") if re.search(r"<" + n + r"[\s/>]", rest)]
+if ev_need: body = body.replace(' } from "../brand/hm6";', ' } from "../brand/hm6";\nimport { ' + ", ".join(ev_need) + ' } from "../brand/evidence";', 1)
 if not mus: body = body.replace("useVideoConfig, interpolate }", "useVideoConfig }")
 out = f"{R}/src/videos/{comp}.tsx"
 open(out, "w").write(body)
