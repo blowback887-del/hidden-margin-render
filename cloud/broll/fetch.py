@@ -19,6 +19,8 @@ W, H = cfg.get("w", 1920), cfg.get("h", 1080)   # вертикаль: w 1080, h 
 TW, TH = (320, 180) if W > H else (180, 320)
 for c in cfg["clips"]:
     raw = f"work/{c['id']}" + (".jpg" if c.get("photo") else ".mp4"); dst = f"{cfg['out']}/{c['name']}.mp4"
+    if os.path.exists(dst) and not os.environ.get("REFETCH"): tiles.append(f"work/sheet/{c['name']}.jpg"); \
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", dst, "-vf", f"select='eq(n\\,15)+eq(n\\,135)+eq(n\\,270)',scale={TW}:{TH},tile=3x1", "-frames:v", "1", "-vsync", "0", tiles[-1]]); continue
     run(["curl", "-sSfL", "-A", "Mozilla/5.0 (HiddenMarginBot; stock fetch)", "-o", raw, c["url"]])
     photo = ["-loop", "1", "-framerate", "30"] if c.get("photo") else []   # фото → неподвижный клип (наезд даёт Stock6)
     run(["ffmpeg", "-y", "-v", "error", *photo, "-i", raw, "-t", str(cfg["max_sec"]), "-an",
@@ -65,6 +67,7 @@ if EV:
     out = cfg.get("evidence_out", f"public/evidence/{EP}"); os.makedirs(out, exist_ok=True)
     marks = []
     for e in EV:
+      try:
         kind = e.get("type") or ("pdf" if e["url"].lower().split("?")[0].endswith(".pdf") else "page")
         png = f"{out}/{e['name']}.png"; finds = {}; frame = "paper" if kind == "pdf" else "screen"
         if kind == "pdf":
@@ -79,12 +82,19 @@ if EV:
                 b = find_seq(words, ph)
                 if b: finds[ph] = [round(b[0]), round(b[1]), round(b[2] - b[0]), round(b[3] - b[1])]
         elif kind == "page":
-            from playwright.sync_api import sync_playwright
             w, h, dpr = e.get("w", 1440), e.get("h", 900), e.get("scale", 2)
-            with sync_playwright() as pw:
-                br = pw.chromium.launch()
-                pg = br.new_page(viewport={"width": w, "height": h}, device_scale_factor=dpr, user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36")
-                pg.goto(e["url"], wait_until="networkidle", timeout=60000)
+            if "_pw" not in globals():
+                from playwright.sync_api import sync_playwright
+                _pw = sync_playwright().start(); _br = _pw.chromium.launch(); _pages = {}
+            key = (e["url"], w, h, dpr)
+            if key not in _pages:  # одна статья — одна загрузка на все её улики (T02: 22 улики из NPR)
+                pg = _br.new_page(viewport={"width": w, "height": h}, device_scale_factor=dpr, user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36")
+                try: pg.goto(e["url"], wait_until="networkidle", timeout=25000)
+                except Exception as ex:  # сайты с рекламой не затихают (NPR) — берём то, что загрузилось
+                    print("goto: no networkidle, continuing:", str(ex).splitlines()[0]); pg.wait_for_timeout(4000)
+                _pages[key] = pg
+            pg = _pages[key]; pg.evaluate("window.scrollTo(0, 0)")
+            if True:
                 for sel in e.get("hide", []):
                     pg.add_style_tag(content=f"{sel}{{display:none !important}}")
                 first = e.get("find", [None])[0] if e.get("find") else None
@@ -107,7 +117,6 @@ if EV:
                         if b and 0 <= b["y"] < h: finds[ph] = [round(b["x"] * dpr), round(b["y"] * dpr), round(b["width"] * dpr), round(b["height"] * dpr)]
                     except Exception as ex: print("find", ph, ex)
                 pg.screenshot(path=png)
-                br.close()
         else:  # image
             raw = f"work/{e['name']}.img"
             run(["curl", "-sSfL", "-A", "Mozilla/5.0 (compatible; research)", "-o", raw, e["url"]])
@@ -122,6 +131,8 @@ if EV:
         thumb = f"work/sheet/ev-{e['name']}.jpg"
         run(["ffmpeg", "-y", "-v", "error", "-i", png, "-vf", (boxes + "," if boxes else "") + "scale=640:900:force_original_aspect_ratio=decrease,pad=640:900:(ow-iw)/2:0:black", "-frames:v", "1", thumb])
         marks.append(thumb)
+      except Exception as ex:  # одна упавшая улика не должна ронять весь набор (урок T02)
+        print(f"evidence {e['name']}: FAILED — {str(ex).splitlines()[0] if str(ex) else ex}")
     with open("work/ev.txt", "w") as f:
         for t in marks: f.write(f"file '{os.path.abspath(t)}'\n")
     run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", "work/ev.txt", "-vf", f"tile={min(4, len(marks))}x{-(-len(marks)//4)}", "-frames:v", "1", "-q:v", "4", f"public/research/{EP}-evidence-sheet.jpg"])
