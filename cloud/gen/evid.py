@@ -21,7 +21,8 @@ def _meta(ep, name):
     return json.load(open(p))
 
 
-def ev(ep, name, marks=(), source=None, frame=None, zoom=None, focus=None, url=None):
+def ev(ep, name, marks=(), source=None, frame=None, zoom=None, focus=None, url=None, col=None):
+    """col=(x0, x1) — колонка текста статьи: камера показывает всю ширину колонки, строки не режутся (урок T02)."""
     m = _meta(ep, name)
     w, h = m["size"]
     frame = frame or m.get("frame", "paper")
@@ -34,6 +35,9 @@ def ev(ep, name, marks=(), source=None, frame=None, zoom=None, focus=None, url=N
         js.append(f"{{ x: {x}, y: {y}, w: {bw}, h: {bh}, at: @{{{voice_phrase}}} }}")
     parts = [f'src="evidence/{ep}/{name}.png"', f"size={{[{w}, {h}]}}", "dur={DUR}", f'frame="{frame}"']
     if js: parts.append("marks={[" + ", ".join(js) + "]}")
+    if col and not focus and marks:
+        bx = m["finds"][marks[0][0]]
+        focus = (col[0] - 30, max(0, bx[1] - 150), col[1] - col[0] + 60, bx[3] + 300)
     if focus: parts.append("focus={{ x: %d, y: %d, w: %d, h: %d }}" % tuple(m["finds"][focus] if isinstance(focus, str) else focus))
     if zoom: parts.append(f"zoom={{{zoom}}}")
     if source: parts.append(f'source="{source}"')

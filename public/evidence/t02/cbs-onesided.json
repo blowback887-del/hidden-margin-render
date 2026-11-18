@@ -1,15 +1,15 @@
 {
  "size": [
-  2880,
-  1800
+  1440,
+  1610
  ],
  "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
  "host": "cbsnews.com",
  "frame": "screen",
  "finds": {
   "a one-sided and misleading account": [
-   965,
-   718,
+   665,
+   528,
    662,
    52
   ]

@@ -158,15 +158,15 @@ export const CaseBoard: React.FC<{ pins: Pin[]; hub?: Pin & { q?: number }; titl
           return <line key={i} x1={n.x} y1={n.y} x2={lerp(n.x, hub.x, k)} y2={lerp(n.y, hub.y, k)} stroke="#e8463a" strokeWidth={4} strokeLinecap="round" opacity={0.9} />;
         })}
       </svg>
-      {title && <div style={{ position: "absolute", left: 80, top: 64, opacity: p(0, 0.4) }}><Kicker6 color={C6.accent}>{title}</Kicker6></div>}
+      {title && <div style={{ position: "absolute", left: 80, top: 64, opacity: p(0, 0.4) }}><Kicker6 color={C6.accent} size={36}>{title}</Kicker6></div>}
       {pins.map((n, i) => {
         const k = p(n.at, n.at + 0.35, Easing.out(Easing.back(1.6)));
         return (
           <div key={i} style={{ position: "absolute", left: n.x, top: n.y, translate: "-50% -50%", scale: String(0.6 + 0.4 * k), opacity: Math.min(1, k * 1.5), display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
             <div style={{ width: 26, height: 26, borderRadius: "50%", background: n.color ?? "#e8463a", boxShadow: "0 0 0 6px rgba(232,70,58,.25), 0 6px 18px rgba(0,0,0,.5)" }} />
-            <div style={{ background: "#f6f1e7", color: "#1b1b1b", padding: "10px 20px", borderRadius: 8, boxShadow: "0 12px 34px rgba(0,0,0,.45)", textAlign: "center", rotate: `${(i % 2 ? 1 : -1) * 1.5}deg` }}>
-              <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 32, letterSpacing: "0.02em" }}>{n.label}</div>
-              {n.sub && <div style={{ fontFamily: SANS, fontWeight: 600, fontSize: 24, color: "#a1271d", marginTop: 2 }}>{n.sub}</div>}
+            <div style={{ background: "#f6f1e7", color: "#1b1b1b", padding: "12px 26px", borderRadius: 10, boxShadow: "0 12px 34px rgba(0,0,0,.45)", textAlign: "center", rotate: `${(i % 2 ? 1 : -1) * 1.5}deg` }}>
+              <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 44, letterSpacing: "0.02em" }}>{n.label}</div>
+              {n.sub && <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 34, color: "#a1271d", marginTop: 2 }}>{n.sub}</div>}
             </div>
           </div>
         );

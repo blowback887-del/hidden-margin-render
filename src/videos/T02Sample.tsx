@@ -16,7 +16,7 @@ setClips(CLIP_FN);
 type Beat = { from: number; to: number; tag?: [number, string]; hard?: boolean; back: React.ReactNode; el: React.ReactNode };
 const BEATS: Beat[] = [
   { from: 0.0, to: 6.3, back: (<><Stock6 n={1} dur={6.3} dim={0} graphics={false} />
-<Stock6 n={4} from={3.14} dur={6.3} dim={0} graphics={false} /></>), el: (<>
+<Stock6 n={77} from={3.14} dur={6.3} dim={0} graphics={false} /></>), el: (<>
 
 </>) },
   { from: 6.3, to: 13.7, back: (<><Stock6 n={30} dur={7.4} dim={0} graphics={true} /></>), el: (<>
@@ -26,7 +26,7 @@ const BEATS: Beat[] = [
 
 </>) },
   { from: 17.08, to: 23.52, back: null, el: (<>
-<Evidence src="evidence/t02/npr-42k.png" size={[2880, 1800]} dur={6.44} frame="screen" marks={[{ x: 455, y: 599, w: 1159, h: 98, at: 3.06 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-42k.png" size={[2880, 1800]} dur={6.44} frame="screen" marks={[{ x: 455, y: 599, w: 1159, h: 98, at: 3.06 }]} focus={{ x: 420, y: 449, w: 1410, h: 398 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 23.52, to: 26.26, back: (<><Stock6 n={52} dur={2.74} dim={0} graphics={true} /></>), el: (<>
 <Center x={1450} y={300}><Plate6 at={1.74}><Label6 at={1.74} size={40} color={C6.loss}>CREDIT SCORE ↓</Label6></Plate6></Center>
@@ -36,7 +36,7 @@ const BEATS: Beat[] = [
 <Center x={1440} y={760}><In at={6.46} from="fade"><Plate6 at={6.46}><BigNum at={6.46} icon="card" size={130} label="WHAT SHE AGREED TO">$600</BigNum></Plate6></In></Center>
 </>) },
   { from: 34.5, to: 40.44, back: null, el: (<>
-<Evidence src="evidence/t02/npr-44k.png" size={[2880, 1800]} dur={5.94} frame="screen" marks={[{ x: 1158, y: 761, w: 490, h: 44, at: 1.72 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-44k.png" size={[2880, 1800]} dur={5.94} frame="screen" marks={[{ x: 1158, y: 761, w: 490, h: 44, at: 1.72 }]} focus={{ x: 420, y: 611, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 40.44, to: 43.48, back: null, el: (<>
 <Evidence src="evidence/t02/npr-head.png" size={[2880, 1800]} dur={3.04} frame="screen" source="NPR · Oct 14, 2026" url="npr.org" />
@@ -50,19 +50,19 @@ const BEATS: Beat[] = [
   { from: 54.32, to: 59.9, back: (<><Stock6 n={47} dur={5.58} dim={0} graphics={true} /></>), el: (<>
 <Center x={1400} y={300}><Stamp at={4.4} text="2013" color={C6.accent} size={90} /></Center>
 </>) },
-  { from: 59.9, to: 63.42, back: (<><Stock6 n={75} dur={3.52} dim={0} graphics={true} /></>), el: (<>
+  { from: 59.9, to: 63.42, back: (<><Stock6 n={9} dur={3.52} dim={0} graphics={true} /></>), el: (<>
 <Center x={1400} y={300}><Stamp at={1.6} text="2026" color={C6.loss} size={90} /></Center>
 </>) },
   { from: 63.42, to: 70.78, back: (<><Stock6 n={35} dur={7.36} dim={0} graphics={true} /></>), el: (<>
-<Center y={880}><NameCard6 at={2.9} name="Michele Anliker" role="HER DAUGHTER · MICHIGAN" icon="person" /></Center>
+<div style={{ position: "absolute", right: 70, top: 56 }}><Label6 at={0} size={22} color={C6.mint}>ILLUSTRATIVE FOOTAGE</Label6></div><Center y={880}><NameCard6 at={2.9} name="Michele Anliker" role="HER DAUGHTER · MICHIGAN" icon="person" /></Center>
 </>) },
   { from: 70.78, to: 81.24, back: (<><Stock6 n={8} dur={10.46} dim={0} graphics={true} />
 <Stock6 n={10} from={5.64} dur={10.46} dim={0} graphics={true} /></>), el: (<>
-<Center y={880}><In at={2.18} out={5.64} from="fade"><Plate6 at={2.18}><Label6 at={2.18} size={38} color={C6.ink}>BRIARWOOD MALL · ANN ARBOR · DEC 2024</Label6></Plate6></In></Center>
+<div style={{ position: "absolute", right: 70, top: 56 }}><Label6 at={0} size={22} color={C6.mint}>ILLUSTRATIVE FOOTAGE</Label6></div><Center y={880}><In at={2.18} out={5.64} from="fade"><Plate6 at={2.18}><Label6 at={2.18} size={38} color={C6.ink}>BRIARWOOD MALL · ANN ARBOR · DEC 2024</Label6></Plate6></In></Center>
 <Center x={1400} y={330}><Stamp at={9.48} text="voupre" color={C6.accent} size={86} /></Center>
 </>) },
   { from: 81.24, to: 89.02, back: null, el: (<>
-<Evidence src="evidence/t02/npr-anliker.png" size={[2880, 1800]} dur={7.78} frame="screen" marks={[{ x: 892, y: 705, w: 822, h: 44, at: 3.26 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-anliker.png" size={[2880, 1800]} dur={7.78} frame="screen" marks={[{ x: 892, y: 705, w: 822, h: 44, at: 3.26 }]} focus={{ x: 420, y: 555, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 89.02, to: 91.36, back: (<><Stock6 n={72} dur={2.34} dim={0} graphics={false} /></>), el: (<>
 <Meme at={0.35} text="the holiday spirit" y={900} />
@@ -73,13 +73,12 @@ const BEATS: Beat[] = [
   { from: 96.52, to: 99.38, back: (<><Stock6 n={68} dur={2.86} dim={0.3} graphics={true} /></>), el: (<>
 <Center y={540}><Words text="The recipe" at={1.44} size={120} hl={["recipe"]} /></Center>
 </>) },
-  { from: 99.38, to: 109.5, tag: [1, "The Sample"], back: (<><Stock6 n={4} dur={10.12} dim={0} graphics={true} />
+  { from: 99.38, to: 109.5, tag: [1, "The Sample"], back: (<><Stock6 n={6} dur={10.12} dim={0} graphics={true} />
 <Stock6 n={78} from={6.36} dur={10.12} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
   { from: 109.5, to: 116.44, tag: [1, "The Sample"], back: (<><Stock6 n={3} dur={6.94} dim={0.2} graphics={true} /></>), el: (<>
 <Center x={1380} y={330}><Stamp at={2.22} text="reciprocity" color={C6.accent} size={78} /></Center>
-<Center y={880}><In at={3.3} from="fade"><Plate6 at={3.3}><Label6 at={3.3} size={38} color={C6.ink}>THEY GIVE → YOU FEEL YOU OWE</Label6></Plate6></In></Center>
 </>) },
   { from: 116.44, to: 124.24, tag: [1, "The Sample"], back: (<><Stock6 n={61} dur={7.8} dim={0} graphics={true} /></>), el: (<>
 <Center x={1440} y={330}><Plate6 at={5.52}><BigNum at={5.52} icon="receipt" size={130} label="TIPS · 2ND MINT “JUST FOR YOU”" color={C6.money}>+20%</BigNum></Plate6></Center>
@@ -99,7 +98,7 @@ const BEATS: Beat[] = [
 <Center x={1430} y={300}><In at={2.6} out={4.22} from="fade"><Plate6 at={2.6}><BigNum at={2.6} icon="clock" size={110} label="IN THE CHAIR">1 hr+</BigNum></Plate6></In></Center>
 </>) },
   { from: 143.22, to: 151.5, tag: [2, "The Chair"], back: null, el: (<>
-<Evidence src="evidence/t02/npr-walker.png" size={[2880, 1800]} dur={8.28} frame="screen" marks={[{ x: 670, y: 652, w: 546, h: 44, at: 5.38 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-walker.png" size={[2880, 1800]} dur={8.28} frame="screen" marks={[{ x: 670, y: 652, w: 546, h: 44, at: 5.38 }]} focus={{ x: 420, y: 502, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 151.5, to: 155.56, tag: [2, "The Chair"], back: (<><Stock6 n={19} dur={4.06} dim={0} graphics={true} /></>), el: (<>
 <Center x={1440} y={760}><Plate6 at={1.12}><BigNum at={1.12} icon="receipt" size={130} label="HAWAII · STATE COMPLAINT">$2,600</BigNum></Plate6></Center>
@@ -109,7 +108,7 @@ const BEATS: Beat[] = [
 <Center y={880}><In at={4.78} from="fade"><Plate6 at={4.78}><Label6 at={4.78} size={44} color={C6.loss}>PRICE TAGS: NONE</Label6></Plate6></In></Center>
 </>) },
   { from: 162.0, to: 171.3, tag: [3, "The Price"], back: null, el: (<>
-<Evidence src="evidence/t02/npr-noprice.png" size={[2880, 1800]} dur={9.3} frame="screen" marks={[{ x: 758, y: 707, w: 549, h: 44, at: 5.04 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-noprice.png" size={[2880, 1800]} dur={9.3} frame="screen" marks={[{ x: 758, y: 707, w: 549, h: 44, at: 5.04 }]} focus={{ x: 420, y: 557, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 171.3, to: 178.34, tag: [3, "The Price"], back: (<><Stock6 n={62} dur={7.04} dim={0} graphics={true} /></>), el: (<>
 <Center x={1440} y={760}><Plate6 at={4.8}><BigNum at={4.8} icon="coin" size={120} label="WHAT ONE SALESMAN BRAGGED">$10K/mo</BigNum></Plate6></Center>
@@ -132,7 +131,7 @@ const BEATS: Beat[] = [
 <Center x={1430} y={330}><In at={7.74} from="fade"><Plate6 at={7.74}><BigNum at={7.74} icon="card" size={130} label="TWO CHARGES, SAME DAY" color={C6.loss}>$44,280</BigNum></Plate6></In></Center>
 </>) },
   { from: 212.14, to: 219.64, tag: [4, "The Card"], back: null, el: (<>
-<Evidence src="evidence/t02/npr-zero.png" size={[2880, 1800]} dur={7.5} frame="screen" marks={[{ x: 1080, y: 705, w: 498, h: 44, at: 2.96 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-zero.png" size={[2880, 1800]} dur={7.5} frame="screen" marks={[{ x: 1080, y: 705, w: 498, h: 44, at: 2.96 }]} focus={{ x: 420, y: 555, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 219.64, to: 223.78, tag: [4, "The Card"], back: (<><Stock6 n={27} dur={4.14} dim={0} graphics={true} /></>), el: (<>
 <CorpSub at={0.76} corp="“Payment plan”" human="a high-interest loan" />
@@ -141,19 +140,19 @@ const BEATS: Beat[] = [
 
 </>) },
   { from: 229.72, to: 236.98, tag: [5, "The Bag"], back: null, el: (<>
-<Evidence src="evidence/t02/npr-receipt.png" size={[2880, 1800]} dur={7.26} frame="screen" marks={[{ x: 554, y: 652, w: 692, h: 44, at: 3.8 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-receipt.png" size={[2880, 1800]} dur={7.26} frame="screen" marks={[{ x: 554, y: 652, w: 692, h: 44, at: 3.8 }]} focus={{ x: 420, y: 502, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 236.98, to: 241.45, back: (<><Stock6 n={1} dur={4.47} dim={0.35} graphics={true} /></>), el: (<>
 <Center y={540}><Col gap={10}><Words text="The sample was free." at={0.1} size={96} /><Words text="The chair was not." at={1.34} size={96} hl={["not."]} /></Col></Center>
 </>) },
   { from: 241.45, to: 251.98, back: null, el: (<>
-<Evidence src="evidence/t02/npr-flyers.png" size={[2880, 1800]} dur={10.53} frame="screen" marks={[{ x: 455, y: 652, w: 695, h: 44, at: 5.39 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-flyers.png" size={[2880, 1800]} dur={10.53} frame="screen" marks={[{ x: 455, y: 652, w: 695, h: 44, at: 5.39 }]} focus={{ x: 420, y: 502, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 251.98, to: 255.36, back: (<><Stock6 n={70} dur={3.38} dim={0} graphics={false} /></>), el: (<>
 <Subscribe6 at={2.38} />
 </>) },
   { from: 255.36, to: 264.36, back: (<><Stock6 n={33} dur={9.0} dim={0} graphics={true} />
-<Stock6 n={75} from={6.5} dur={9.0} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={76} from={6.5} dur={9.0} dim={0} graphics={true} /></>), el: (<>
 <Center y={880}><In at={5.16} out={6.5} from="fade"><Plate6 at={5.16}><Label6 at={5.16} size={38} color={C6.ink}>SIMON PROPERTY GROUP · THE MALL'S OWNER</Label6></Plate6></In></Center>
 <Center x={1420} y={330}><Stamp at={7.8} text="refunded" color={C6.money} size={84} /></Center>
 </>) },
@@ -165,14 +164,14 @@ const BEATS: Beat[] = [
 </>) },
   { from: 271.22, to: 282.4, back: (<><Stock6 n={37} dur={11.18} dim={0} graphics={true} />
 <Stock6 n={39} from={4.42} dur={11.18} dim={0} graphics={true} /></>), el: (<>
-<Center y={880}><In at={3.26} out={4.42} from="fade"><Plate6 at={3.26}><Label6 at={3.26} size={38} color={C6.ink}>MIA'S BY VOUPRE · MANHATTAN BEACH, CA</Label6></Plate6></In></Center>
+<div style={{ position: "absolute", right: 70, top: 56 }}><Label6 at={0} size={22} color={C6.mint}>ILLUSTRATIVE FOOTAGE</Label6></div><Center y={880}><In at={3.26} out={4.42} from="fade"><Plate6 at={3.26}><Label6 at={3.26} size={38} color={C6.ink}>MIA'S BY VOUPRE · MANHATTAN BEACH, CA</Label6></Plate6></In></Center>
 <Center y={880}><In at={5.9} from="fade"><Plate6 at={5.9}><Label6 at={5.9} size={38} color={C6.ink}>MARY ELLEN ECKHERT, 82 · RETIRED TEACHER</Label6></Plate6></In></Center>
 </>) },
   { from: 282.4, to: 285.54, back: (<><Stock6 n={57} dur={3.14} dim={0} graphics={false} /></>), el: (<>
 
 </>) },
   { from: 285.54, to: 294.22, back: null, el: (<>
-<Evidence src="evidence/t02/npr-53k.png" size={[2880, 1800]} dur={8.68} frame="screen" marks={[{ x: 455, y: 760, w: 1297, h: 98, at: 1.84 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-53k.png" size={[2880, 1800]} dur={8.68} frame="screen" marks={[{ x: 455, y: 760, w: 1297, h: 98, at: 1.84 }]} focus={{ x: 420, y: 610, w: 1410, h: 398 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 294.22, to: 298.3, back: (<><Stock6 n={11} dur={4.08} dim={0} graphics={true} /></>), el: (<>
 <Center x={1440} y={330}><Plate6 at={2.48}><BigNum at={2.48} icon="card" size={120} label="STILL OUT, AFTER DISPUTES" color={C6.loss}>$17,000+</BigNum></Plate6></Center>
@@ -192,7 +191,7 @@ const BEATS: Beat[] = [
 <CaseBoard title="ONE NAME ON THE JARS" pins={[{ label: "MICHIGAN", sub: "$42,000", x: 330, y: 760, at: 0.1 }, { label: "SANTA FE, NM", sub: "$44,280", x: 1520, y: 290, at: 0.76 }, { label: "MANHATTAN BEACH, CA", sub: "$53,500", x: 1540, y: 770, at: 1.76 }]} hub={{ label: "MAZAL GROUP", sub: "CHATSWORTH, CA · DISTRIBUTOR", x: 960, y: 540, at: 8.52, q: 10.06 }} />
 </>) },
   { from: 326.68, to: 335.66, back: (<><Stock6 n={50} dur={8.98} dim={0.3} graphics={true} /></>), el: (<>
-<Center x={620} y={560}><Plate6 at={3.12} pad="30px 50px"><Col gap={20} align="flex-start">
+<div style={{ position: "absolute", right: 70, top: 56 }}><Label6 at={0} size={22} color={C6.mint}>ILLUSTRATIVE FOOTAGE</Label6></div><Center x={620} y={560}><Plate6 at={3.12} pad="30px 50px"><Col gap={20} align="flex-start">
   <Label6 at={3.12} size={38} color={C6.ink}>SELL ONLY MAZAL PRODUCTS</Label6>
   <Label6 at={5.14} size={38} color={C6.ink}>FOLLOW ITS REFUND POLICY</Label6>
   <Label6 at={6.94} size={38} color={C6.accent}>SEND COMPLAINTS TO HQ</Label6>
@@ -203,39 +202,40 @@ const BEATS: Beat[] = [
 <Center x={1440} y={760}><Plate6 at={2.22}><BigNum at={2.22} icon="store" size={130} label="STORES · A FORMER EMPLOYEE'S ESTIMATE">2,000+</BigNum></Plate6></Center>
 </>) },
   { from: 339.94, to: 345.14, back: null, el: (<>
-<Evidence src="evidence/t02/npr-noown.png" size={[2880, 1800]} dur={5.2} frame="screen" marks={[{ x: 688, y: 598, w: 748, h: 44, at: 1.48 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-noown.png" size={[2880, 1800]} dur={5.2} frame="screen" marks={[{ x: 688, y: 598, w: 748, h: 44, at: 1.48 }]} focus={{ x: 420, y: 448, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 345.14, to: 347.32, back: (<><Stock6 n={69} dur={2.18} dim={0} graphics={false} /></>), el: (<>
 
 </>) },
-  { from: 347.32, to: 357.78, back: (<><Stock6 n={60} dur={10.46} dim={0.35} graphics={true} />
+  { from: 347.32, to: 357.78, back: (<><Stock6 n={62} dur={10.46} dim={0.35} graphics={true} />
 <Stock6 n={23} from={8.52} dur={10.46} dim={0.35} graphics={true} /></>), el: (<>
 <Center y={480}><Split6 scale={0.62} at={4.16} left={{ title: "STORE PAYS", value: "$23", color: C6.ink }} right={{ title: "SUGGESTED RETAIL", value: "$3,000", color: C6.loss, at: 7.34 }} /></Center>
 <Center y={880}><Stamp at={9.15} text="×130" color={C6.accent} size={96} /></Center>
 </>) },
   { from: 357.78, to: 363.68, back: null, el: (<>
-<Evidence src="evidence/t02/npr-luxury.png" size={[2880, 1800]} dur={5.9} frame="screen" marks={[{ x: 455, y: 599, w: 1257, h: 98, at: 3.48 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-luxury.png" size={[2880, 1800]} dur={5.9} frame="screen" marks={[{ x: 455, y: 599, w: 1257, h: 98, at: 3.48 }]} focus={{ x: 420, y: 449, w: 1410, h: 398 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 363.68, to: 378.06, back: (<><Stock6 n={40} dur={14.38} dim={0} graphics={true} />
 <Stock6 n={41} from={10.34} dur={14.38} dim={0} graphics={true} /></>), el: (<>
 <Center x={1440} y={300}><In at={5.36} out={7.22} from="fade"><Plate6 at={5.36}><BigNum at={5.36} icon="bottle" size={110} label="SUGGESTED PRICE · ONE SERUM">$1,300</BigNum></Plate6></In></Center>
 <Center y={880}><In at={8.3} out={10.9} from="fade"><Plate6 at={8.3}><Label6 at={8.3} size={40} color={C6.ink}>LABEL: VITAMIN A · VITAMIN E</Label6></Plate6></In></Center>
-<Center y={860}><Stamp at={10.9} text="not detected" color={C6.loss} size={80} /></Center>
+<Center y={820}><Stamp at={10.9} text="not detected" color={C6.loss} size={80} /></Center>
+<Center y={960}><Label6 at={10.9} size={28} color={C6.ink}>NPR LAB TEST · ONE BOX</Label6></Center>
 </>) },
   { from: 378.06, to: 383.72, back: null, el: (<>
-<Evidence src="evidence/t02/npr-under10.png" size={[2880, 1800]} dur={5.66} frame="screen" marks={[{ x: 904, y: 707, w: 343, h: 44, at: 2.92 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-under10.png" size={[2880, 1800]} dur={5.66} frame="screen" marks={[{ x: 904, y: 707, w: 343, h: 44, at: 2.92 }]} focus={{ x: 420, y: 557, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 383.72, to: 390.2, back: null, el: (<>
-<Evidence src="evidence/t02/cbs-head.png" size={[2880, 1800]} dur={6.48} frame="screen" focus={{ x: 330, y: 100, w: 1000, h: 820 }} source="CBS News California Investigates · 2026" url="cbsnews.com" />
+<Evidence src="evidence/t02/cbs-head.png" size={[1440, 1610]} dur={6.48} frame="screen" focus={{ x: 330, y: 100, w: 1000, h: 820 }} source="CBS News California Investigates · 2026" url="cbsnews.com" />
 </>) },
-  { from: 390.2, to: 400.62, back: (<><Stock6 n={66} dur={10.42} dim={0.2} graphics={true} /></>), el: (<>
+  { from: 390.2, to: 400.62, back: (<><Stock6 n={25} dur={10.42} dim={0.2} graphics={true} /></>), el: (<>
 <Center x={1430} y={330}><Plate6 at={4.88}><BigNum at={4.88} icon="receipt" size={120} label="RECEIPTS · SKINCARE + RED LIGHT DEVICE">~$41,700</BigNum></Plate6></Center>
 </>) },
   { from: 400.62, to: 405.88, back: null, el: (<>
-<Evidence src="evidence/t02/cbs-tips.png" size={[2880, 1800]} dur={5.26} frame="screen" marks={[{ x: 347, y: 598, w: 1222, h: 112, at: 2.96 }]} source="CBS News California Investigates · 2026" url="cbsnews.com" />
+<Evidence src="evidence/t02/cbs-tips.png" size={[1440, 1610]} dur={5.26} frame="screen" marks={[{ x: 47, y: 408, w: 1222, h: 112, at: 2.96 }]} focus={{ x: 10, y: 258, w: 1360, h: 412 }} source="CBS News California Investigates · 2026" url="cbsnews.com" />
 </>) },
   { from: 405.88, to: 411.0, back: null, el: (<>
-<Evidence src="evidence/t02/cbs-onesided.png" size={[2880, 1800]} dur={5.12} frame="screen" marks={[{ x: 965, y: 718, w: 662, h: 52, at: 1.7 }]} source="CBS News California Investigates · 2026" url="cbsnews.com" />
+<Evidence src="evidence/t02/cbs-onesided.png" size={[1440, 1610]} dur={5.12} frame="screen" marks={[{ x: 665, y: 528, w: 662, h: 52, at: 1.7 }]} focus={{ x: 10, y: 378, w: 1360, h: 352 }} source="CBS News California Investigates · 2026" url="cbsnews.com" />
 </>) },
   { from: 411.0, to: 417.38, back: (<><Stock6 n={2} dur={6.38} dim={0.2} graphics={true} /></>), el: (<>
 <Center x={1400} y={330}><Stamp at={3.72} text="chatsworth, ca" color={C6.accent} size={80} /></Center>
@@ -251,10 +251,10 @@ const BEATS: Beat[] = [
 <Center x={1380} y={320}><Stamp at={4.06} text="operation salty winds" color={C6.accent} size={70} /></Center>
 </>) },
   { from: 432.68, to: 440.0, back: null, el: (<>
-<Evidence src="evidence/t02/npr-salty.png" size={[2880, 1800]} dur={7.32} frame="screen" marks={[{ x: 695, y: 591, w: 248, h: 56, at: 0.05 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-salty.png" size={[2880, 1800]} dur={7.32} frame="screen" marks={[{ x: 695, y: 591, w: 248, h: 56, at: 0.05 }]} focus={{ x: 420, y: 441, w: 1410, h: 356 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 440.0, to: 449.1, back: (<><Stock6 n={73} dur={9.1} dim={0} graphics={true} /></>), el: (<>
-<Center y={880}><In at={3.84} from="fade"><Plate6 at={3.84}><Label6 at={3.84} size={38} color={C6.ink}>EAST COAST CHAIN · INCLUDING OROGOLD KIOSKS</Label6></Plate6></In></Center>
+<div style={{ position: "absolute", right: 70, top: 56 }}><Label6 at={0} size={22} color={C6.mint}>ILLUSTRATIVE FOOTAGE</Label6></div><Center y={880}><In at={3.84} from="fade"><Plate6 at={3.84}><Label6 at={3.84} size={38} color={C6.ink}>EAST COAST CHAIN · INCLUDING OROGOLD KIOSKS</Label6></Plate6></In></Center>
 </>) },
   { from: 449.1, to: 460.62, back: (<><Stock6 n={64} dur={11.52} dim={0} graphics={true} />
 <Stock6 n={65} from={7.28} dur={11.52} dim={0} graphics={true} /></>), el: (<>
@@ -262,34 +262,34 @@ const BEATS: Beat[] = [
 <Center y={880}><In at={8.1} from="fade"><Plate6 at={8.1}><Row gap={30}><Label6 at={8.1} size={40} color={C6.ink}>SENTENCED: 6.5 YEARS</Label6><Label6 at={10.18} size={40} color={C6.loss}>SERVED: 30 MONTHS</Label6></Row></Plate6></In></Center>
 </>) },
   { from: 460.62, to: 465.4, back: null, el: (<>
-<Evidence src="evidence/t02/npr-snake.png" size={[2880, 1800]} dur={4.78} frame="screen" marks={[{ x: 610, y: 653, w: 682, h: 44, at: 2.94 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-snake.png" size={[2880, 1800]} dur={4.78} frame="screen" marks={[{ x: 610, y: 653, w: 682, h: 44, at: 2.94 }]} focus={{ x: 420, y: 503, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 465.4, to: 469.0, back: (<><Stock6 n={63} dur={3.6} dim={0} graphics={false} /></>), el: (<>
 <Meme at={1.98} text="the snake, 2026" y={900} />
 </>) },
   { from: 469.0, to: 475.04, back: null, el: (<>
-<Evidence src="evidence/t02/npr-overcharge.png" size={[2880, 1800]} dur={6.04} frame="screen" marks={[{ x: 455, y: 814, w: 1229, h: 98, at: 2.58 }, { x: 455, y: 868, w: 1216, h: 98, at: 4.02 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-overcharge.png" size={[2880, 1800]} dur={6.04} frame="screen" marks={[{ x: 455, y: 814, w: 1229, h: 98, at: 2.58 }, { x: 455, y: 868, w: 1216, h: 98, at: 4.02 }]} focus={{ x: 420, y: 664, w: 1410, h: 398 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 475.04, to: 480.22, back: (<><Stock6 n={49} dur={5.18} dim={0} graphics={true} /></>), el: (<>
 <Center x={1440} y={760}><Plate6 at={2.78}><BigNum at={2.78} icon="flag" size={130} label="SETTLED WITH NEW MEXICO">$350K</BigNum></Plate6></Center>
 </>) },
   { from: 480.22, to: 489.98, back: null, el: (<>
-<Evidence src="evidence/t02/npr-950k.png" size={[2880, 1800]} dur={9.76} frame="screen" marks={[{ x: 455, y: 652, w: 631, h: 44, at: 4.84 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-950k.png" size={[2880, 1800]} dur={9.76} frame="screen" marks={[{ x: 455, y: 652, w: 631, h: 44, at: 4.84 }]} focus={{ x: 420, y: 502, w: 1410, h: 344 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 489.98, to: 495.04, back: null, el: (<>
-<Evidence src="evidence/t02/npr-terminated.png" size={[2880, 1800]} dur={5.06} frame="screen" marks={[{ x: 455, y: 706, w: 1262, h: 98, at: 4.58 }]} source="NPR · Oct 14, 2026" url="npr.org" />
+<Evidence src="evidence/t02/npr-terminated.png" size={[2880, 1800]} dur={5.06} frame="screen" marks={[{ x: 455, y: 706, w: 1262, h: 98, at: 4.58 }]} focus={{ x: 420, y: 556, w: 1410, h: 398 }} source="NPR · Oct 14, 2026" url="npr.org" />
 </>) },
   { from: 495.04, to: 505.58, back: (<><Stock6 n={50} dur={10.54} dim={0.3} graphics={true} /></>), el: (<>
-<Center y={430}><Split6 scale={0.6} at={0.2} left={{ title: "THE OLD SIGN", value: "MAZAL", color: C6.ink }} right={{ title: "THE SIGN NOW", value: "INV", color: C6.accent, at: 3.08 }} /></Center>
+<div style={{ position: "absolute", right: 70, top: 56 }}><Label6 at={0} size={22} color={C6.mint}>ILLUSTRATIVE FOOTAGE</Label6></div><Center y={430}><Split6 scale={0.6} at={0.2} left={{ title: "THE OLD SIGN", value: "MAZAL", color: C6.ink }} right={{ title: "THE SIGN NOW", value: "INV", color: C6.accent, at: 3.08 }} /></Center>
 <Center y={880}><In at={6.16} from="fade"><Plate6 at={6.16}><Label6 at={6.16} size={36} color={C6.ink}>INNOVATION BRANDS · FOUNDED 2024 BY MAZAL'S OWNER + HUSBAND</Label6></Plate6></In></Center>
 </>) },
   { from: 505.58, to: 508.74, back: null, el: (<>
 <CaseBoard title="NEW NAME · SAME ADDRESS" pins={[{ label: "ANN ARBOR, MI", sub: "$5,000", x: 380, y: 300, at: 0.1 }, { label: "SANTA FE, NM", sub: "$44,280", x: 1520, y: 290, at: 0.2 }, { label: "MANHATTAN BEACH, CA", sub: "$53,500", x: 1540, y: 770, at: 0.3 }, { label: "LOS ANGELES, CA", sub: "BEE & CO.", x: 960, y: 900, at: 0.4 }, { label: "HAWAII", sub: "$950K SETTLEMENT", x: 960, y: 170, at: 0.5 }]} hub={{ label: "MAZAL GROUP", sub: "SIGN NOW SAYS: INV BRANDS", x: 960, y: 540, at: 0.1 }} />
 </>) },
-  { from: 508.74, to: 510.1, hard: true, back: (<><Stock6 n={70} dur={1.36} dim={0.4} graphics={true} /></>), el: (<>
+  { from: 508.74, to: 510.1, hard: true, back: (<><Stock6 n={76} dur={1.36} dim={0.4} graphics={true} /></>), el: (<>
 <Center y={540}><Words text="House rules" at={0.36} size={130} hl={["rules"]} /></Center>
 </>) },
-  { from: 510.1, to: 518.68, back: (<><Stock6 n={30} dur={8.58} dim={0} graphics={true} /></>), el: (<>
+  { from: 510.1, to: 518.68, back: (<><Stock6 n={70} dur={8.58} dim={0} graphics={true} /></>), el: (<>
 <Center y={880}><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>1 · TAKE THE SAMPLE. KEEP WALKING.</Label6></Plate6></Center>
 </>) },
   { from: 518.68, to: 522.6, back: (<><Stock6 n={18} dur={3.92} dim={0} graphics={true} /></>), el: (<>
@@ -313,7 +313,7 @@ const BEATS: Beat[] = [
 <Center y={880}><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>5 · DISPUTE WITH YOUR CARD COMPANY. FAST.</Label6></Plate6></Center>
 </>) },
   { from: 549.7, to: 560.3, back: (<><Stock6 n={51} dur={10.6} dim={0} graphics={true} />
-<Stock6 n={12} from={7.64} dur={10.6} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={11} from={7.64} dur={10.6} dim={0} graphics={true} /></>), el: (<>
 <Center y={880}><In at={0.3} out={7.64} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={42} color={C6.ink}>6 · GLANCE AT YOUR PARENTS' STATEMENTS</Label6></Plate6></In></Center>
 </>) },
   { from: 560.3, to: 566.94, back: (<><Stock6 n={35} dur={6.64} dim={0} graphics={false} />
