@@ -1,0 +1,10 @@
+{
+ "episode": "t02",
+ "lang": "en",
+ "words_out": "src/videos/t02-sample-words.json",
+ "audio_out": "public/audio/t02-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {"part": 1, "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/JU47Jy531HE0FEKFFcvs/lAAnqBSSWBOUcyGgmneR/content.mp3?Expires=1795010400&KeyName=assets-cdn-key-1&Signature=-pWYl7muV-L87ksxE8OI4Sg0ISs="}
+ ]
+}
