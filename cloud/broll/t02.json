@@ -1,0 +1,800 @@
+{
+ "out": "public/broll/t02",
+ "sheet": "public/research/t02-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "01-sample-sachets",
+   "id": 9594360,
+   "url": "https://videos.pexels.com/video-files/9594360/9594360-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "02-hand-jar-open",
+   "id": 8131897,
+   "url": "https://videos.pexels.com/video-files/8131897/8131897-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "03-woman-cream-smile",
+   "id": 6443845,
+   "url": "https://videos.pexels.com/video-files/6443845/6443845-uhd_2560_1080_25fps.mp4"
+  },
+  {
+   "name": "04-seller-cosmetics-counter",
+   "id": 40723764,
+   "url": "https://videos.pexels.com/video-files/40723764/17395854_1920_1080_100fps.mp4"
+  },
+  {
+   "name": "05-mall-cosmetics-aisle",
+   "id": 28894402,
+   "url": "https://videos.pexels.com/video-files/28894402/12507251_2560_1440_60fps.mp4"
+  },
+  {
+   "name": "06-seller-customer-counter",
+   "id": 7233640,
+   "url": "https://videos.pexels.com/video-files/7233640/7233640-uhd_2560_1080_25fps.mp4"
+  },
+  {
+   "name": "07-shop-50-off",
+   "id": 6115074,
+   "url": "https://videos.pexels.com/video-files/6115074/6115074-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "08-mall-xmas-escalators",
+   "id": 1562526,
+   "url": "https://videos.pexels.com/video-files/1562526/1562526-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "09-mall-xmas-lights",
+   "id": 15007112,
+   "url": "https://videos.pexels.com/video-files/15007112/15007112-uhd_2560_1440_31fps.mp4"
+  },
+  {
+   "name": "10-mall-xmas-tree",
+   "id": 6085331,
+   "url": "https://videos.pexels.com/video-files/6085331/6085331-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "11-elderly-hands-bills",
+   "id": 7546417,
+   "url": "https://videos.pexels.com/video-files/7546417/7546417-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "12-old-man-laptop",
+   "id": 6285696,
+   "url": "https://videos.pexels.com/video-files/6285696/6285696-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "13-card-phone-app",
+   "id": 7821646,
+   "url": "https://videos.pexels.com/video-files/7821646/7821646-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "14-phone-in-hand",
+   "id": 6898026,
+   "url": "https://videos.pexels.com/video-files/6898026/6898026-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "15-close-sign",
+   "id": 6115075,
+   "url": "https://videos.pexels.com/video-files/6115075/6115075-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "16-closing-down-sale",
+   "id": 7359087,
+   "url": "https://videos.pexels.com/video-files/7359087/7359087-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "17-door-dark-wood",
+   "id": 2069138,
+   "url": "https://videos.pexels.com/video-files/2069138/2069138-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "18-door-handle",
+   "id": 29038650,
+   "url": "https://videos.pexels.com/video-files/29038650/12553710_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "19-wall-clock",
+   "id": 4954949,
+   "url": "https://videos.pexels.com/video-files/4954949/4954949-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "20-man-magnifier",
+   "id": 6981593,
+   "url": "https://videos.pexels.com/video-files/6981593/6981593-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "21-car-salesman",
+   "id": 7154235,
+   "url": "https://videos.pexels.com/video-files/7154235/7154235-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "22-car-dealer-couple",
+   "id": 7154214,
+   "url": "https://videos.pexels.com/video-files/7154214/7154214-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "23-calculator",
+   "id": 3860709,
+   "url": "https://videos.pexels.com/video-files/3860709/3860709-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "24-cards-fan",
+   "id": 7821647,
+   "url": "https://videos.pexels.com/video-files/7821647/7821647-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "25-card-terminal",
+   "id": 8657613,
+   "url": "https://videos.pexels.com/video-files/8657613/8657613-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "26-man-card-frustrated",
+   "id": 7534962,
+   "url": "https://videos.pexels.com/video-files/7534962/7534962-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "27-card-tablet",
+   "id": 4872891,
+   "url": "https://videos.pexels.com/video-files/4872891/4872891-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "28-sign-tablet",
+   "id": 6612468,
+   "url": "https://videos.pexels.com/video-files/6612468/6612468-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "29-sign-tablet-2",
+   "id": 6895621,
+   "url": "https://videos.pexels.com/video-files/6895621/6895621-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "30-shopping-bags-hold",
+   "id": 7567908,
+   "url": "https://videos.pexels.com/video-files/7567908/7567908-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "31-hand-in-bag",
+   "id": 7308051,
+   "url": "https://videos.pexels.com/video-files/7308051/7308051-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "32-pin-board",
+   "id": 7883393,
+   "url": "https://videos.pexels.com/video-files/7883393/7883393-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "33-mall-aerial",
+   "id": 14896316,
+   "url": "https://videos.pexels.com/video-files/14896316/14896316-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "34-mall-topdown",
+   "id": 33264940,
+   "url": "https://videos.pexels.com/video-files/33264940/14171900_2560_1440_60fps.mp4"
+  },
+  {
+   "name": "35-daughter-mother-older",
+   "id": 6149778,
+   "url": "https://videos.pexels.com/video-files/6149778/6149778-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "36-mother-daughter-kitchen",
+   "id": 5495326,
+   "url": "https://videos.pexels.com/video-files/5495326/5495326-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "37-mb-palms-pier",
+   "id": 13183437,
+   "url": "https://videos.pexels.com/video-files/13183437/13183437-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "38-mb-pier-aerial",
+   "id": 32069921,
+   "url": "https://videos.pexels.com/video-files/32069921/13669836_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "39-wheelchair-hand",
+   "id": 7423581,
+   "url": "https://videos.pexels.com/video-files/7423581/7423581-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "40-lab-tubes",
+   "id": 8486024,
+   "url": "https://videos.pexels.com/video-files/8486024/8486024-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "41-lab-gloves",
+   "id": 8940760,
+   "url": "https://videos.pexels.com/video-files/8940760/8940760-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "42-facial-mask-spa",
+   "id": 6940610,
+   "url": "https://videos.pexels.com/video-files/6940610/6940610-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "43-older-man-card-phone",
+   "id": 5708829,
+   "url": "https://videos.pexels.com/video-files/5708829/5708829-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "44-phone-bill-10000",
+   "id": 6282123,
+   "url": "https://videos.pexels.com/video-files/6282123/6282123-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "45-temporarily-closed",
+   "id": 6354516,
+   "url": "https://videos.pexels.com/video-files/6354516/6354516-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "46-film-reel",
+   "id": 11124043,
+   "url": "https://videos.pexels.com/video-files/11124043/11124043-hd_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "47-stakeout-binoculars",
+   "id": 10480738,
+   "url": "https://videos.pexels.com/video-files/10480738/10480738-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "48-stakeout-camera",
+   "id": 10481000,
+   "url": "https://videos.pexels.com/video-files/10481000/10481000-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "49-courthouse-dusk",
+   "id": 15837075,
+   "url": "https://videos.pexels.com/video-files/15837075/15837075-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "50-office-palms",
+   "id": 8996270,
+   "url": "https://videos.pexels.com/video-files/8996270/8996270-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "51-daughter-father-talk",
+   "id": 8057828,
+   "url": "https://videos.pexels.com/video-files/8057828/uhd_25fps.mp4"
+  },
+  {
+   "name": "52-old-man-head-hands",
+   "id": 8057821,
+   "url": "https://videos.pexels.com/video-files/8057821/8057821-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "53-mall-corridor",
+   "id": 35559265,
+   "url": "https://videos.pexels.com/video-files/35559265/15067132_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "54-older-couple-store",
+   "id": 8195524,
+   "url": "https://videos.pexels.com/video-files/8195524/8195524-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "55-shocked-woman",
+   "id": 8626657,
+   "url": "https://videos.pexels.com/video-files/8626657/8626657-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "56-facepalm",
+   "id": 6654092,
+   "url": "https://videos.pexels.com/video-files/6654092/6654092-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "57-facial-bed",
+   "id": 7754851,
+   "url": "https://videos.pexels.com/video-files/7754851/7754851-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "58-facial-gloves",
+   "id": 7423542,
+   "url": "https://videos.pexels.com/video-files/7423542/7423542-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "59-shelf-pink",
+   "id": 7754396,
+   "url": "https://videos.pexels.com/video-files/7754396/7754396-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "60-jars-black",
+   "id": 7754394,
+   "url": "https://videos.pexels.com/video-files/7754394/7754394-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "61-cash-bill-table",
+   "id": 7735915,
+   "url": "https://videos.pexels.com/video-files/7735915/7735915-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "62-counting-dollars",
+   "id": 5466769,
+   "url": "https://videos.pexels.com/video-files/5466769/5466769-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "63-snake",
+   "id": 8083244,
+   "url": "https://videos.pexels.com/video-files/8083244/8083244-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "64-cuffs-money",
+   "id": 6266659,
+   "url": "https://videos.pexels.com/video-files/6266659/6266659-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "65-hands-cuffed",
+   "id": 7714092,
+   "url": "https://videos.pexels.com/video-files/7714092/7714092-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "66-red-light-woman",
+   "id": 7300296,
+   "url": "https://videos.pexels.com/video-files/7300296/7300296-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "67-cash-jar",
+   "id": 8369974,
+   "url": "https://videos.pexels.com/video-files/8369974/8369974-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "68-luxury-jars",
+   "id": 9581465,
+   "url": "https://videos.pexels.com/video-files/9581465/9581465-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "69-hand-jar",
+   "id": 4351137,
+   "url": "https://videos.pexels.com/video-files/4351137/4351137-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "70-mall-walkers",
+   "id": 4750061,
+   "url": "https://videos.pexels.com/video-files/4750061/4750061-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "71-woman-receipt-shock",
+   "id": 5981291,
+   "url": "https://videos.pexels.com/video-files/5981291/5981291-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "72-merry-xmas-letters",
+   "id": 5766092,
+   "url": "https://videos.pexels.com/video-files/5766092/5766092-uhd_2732_1440_30fps.mp4"
+  },
+  {
+   "name": "73-fbi-interrogation",
+   "id": 13430082,
+   "url": "https://videos.pexels.com/video-files/13430082/13430082-uhd_2730_1440_60fps.mp4"
+  },
+  {
+   "name": "74-detective-board",
+   "id": 8369878,
+   "url": "https://videos.pexels.com/video-files/8369878/8369878-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "75-mall-us-interior",
+   "id": 32838006,
+   "url": "https://videos.pexels.com/video-files/32838006/13996681_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "76-mall-terrace",
+   "id": 854664,
+   "url": "https://videos.pexels.com/video-files/854664/854664-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "77-seller-terminal-smile",
+   "id": 7754475,
+   "url": "https://videos.pexels.com/video-files/7754475/7754475-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "78-salesman-compliment",
+   "id": 6036318,
+   "url": "https://videos.pexels.com/video-files/6036318/6036318-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "79-seller-card-payment",
+   "id": 6023460,
+   "url": "https://videos.pexels.com/video-files/6023460/6023460-uhd_2560_1440_25fps.mp4"
+  }
+ ],
+ "evidence": [
+  {
+   "name": "npr-head",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "The skincare scheme that led to consumer complaints"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-42k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "charged $42,000 for skincare products"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-44k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "two charges totaling $44,280"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-anliker",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "leaving with $5,000 in Voupre skincare products"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-walker",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "The salesperson took her walker"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-noprice",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "The products carry no price tags"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-zero",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "the salesperson added a zero"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-receipt",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "All sales final. No refunds. No exchanges."
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-flyers",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "distributed flyers warning shoppers away",
+    "Simon Property Group"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-53k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "charged her $53,500 across four credit cards"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-noown",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "does not own or operate any retail locations"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-130x",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "up to 130 times the wholesale price",
+    "costs $23 wholesale"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-luxury",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "rarely stretch the suggested retail price to even 20 times"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-under10",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "retails for under $10"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-overcharge",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "credit card overcharge scheme",
+    "from Honolulu to Annapolis"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-salty",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "Salty Winds"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-snake",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "we wanted to cut the head off the snake"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-14m",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "earned more than $14 million"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-350k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "agreeing to pay $350,000 in restitution"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-950k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "agreed to pay $950,000 in restitution"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-terminated",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "terminated its business license in California"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "npr-inv",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "bore a similar sign saying INV Brands"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "cbs-head",
+   "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
+   "find": [
+    "Bee & Co. skincare store at Westfield Topanga mall closes"
+   ],
+   "hide": [
+    "#onetrust-banner-sdk",
+    ".ad-container",
+    "header"
+   ]
+  },
+  {
+   "name": "cbs-tips",
+   "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
+   "find": [
+    "more than $10,000 in tips"
+   ],
+   "hide": [
+    "#onetrust-banner-sdk",
+    ".ad-container",
+    "header"
+   ]
+  },
+  {
+   "name": "cbs-onesided",
+   "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
+   "find": [
+    "a one-sided and misleading account"
+   ],
+   "hide": [
+    "#onetrust-banner-sdk",
+    ".ad-container",
+    "header"
+   ]
+  },
+  {
+   "name": "cbs-chatsworth",
+   "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
+   "find": [
+    "is based in Chatsworth"
+   ],
+   "hide": [
+    "#onetrust-banner-sdk",
+    ".ad-container",
+    "header"
+   ]
+  },
+  {
+   "name": "npr-mint",
+   "url": "https://www.npr.org/sections/health-shots/2012/11/26/165570502/give-and-take-how-the-rule-of-reciprocation-binds-us",
+   "find": [
+    "Servers who gave a second mint got a 20 percent increase"
+   ],
+   "hide": [
+    "#global-header",
+    ".global-navigation",
+    ".sponsor-message",
+    ".ad-wrap",
+    "#onetrust-banner-sdk"
+   ]
+  },
+  {
+   "name": "ftc-cooling",
+   "url": "https://consumer.ftc.gov/articles/buyers-remorse-ftcs-cooling-rule-may-help",
+   "find": [
+    "gives you three days to cancel certain sales"
+   ]
+  },
+  {
+   "name": "ftc-permanent",
+   "url": "https://consumer.ftc.gov/articles/buyers-remorse-ftcs-cooling-rule-may-help",
+   "find": [
+    "permanent place of business, where the seller regularly sells"
+   ]
+  },
+  {
+   "name": "dol-plea",
+   "url": "https://www.oig.dol.gov/public/Press%20Releases/Owner%20of%20Mall%20Kiosk%20Businesses%20Pleads%20Guilty%20to%20Immigration%20and%20Money%20Laundering%20Charges%207.6.16.pdf",
+   "find": [
+    "pleaded guilty",
+    "$14 million"
+   ],
+   "page": 1
+  }
+ ]
+}
