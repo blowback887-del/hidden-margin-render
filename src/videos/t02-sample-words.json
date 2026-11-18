@@ -38,12 +38,12 @@
 {
 "text": "sample",
 "start": 1.8,
-"end": 2.14,
+"end": 2.16,
 "part": 1
 },
 {
 "text": "at",
-"start": 2.14,
+"start": 2.16,
 "end": 2.34,
 "part": 1
 },
@@ -62,12 +62,12 @@
 {
 "text": "You've",
 "start": 3.22,
-"end": 3.46,
+"end": 3.44,
 "part": 1
 },
 {
 "text": "walked",
-"start": 3.46,
+"start": 3.44,
 "end": 3.58,
 "part": 1
 },
@@ -90,26 +90,20 @@
 "part": 1
 },
 {
-"text": "a",
+"text": "100",
 "start": 4.7,
-"end": 5.06,
-"part": 1
-},
-{
-"text": "hundred",
-"start": 5.06,
-"end": 5.34,
+"end": 5.3,
 "part": 1
 },
 {
 "text": "times.",
-"start": 5.34,
+"start": 5.3,
 "end": 5.9,
 "part": 1
 },
 {
 "text": "In",
-"start": 6.44,
+"start": 6.4,
 "end": 6.5,
 "part": 1
 },
@@ -218,12 +212,12 @@
 {
 "text": "she",
 "start": 12.22,
-"end": 12.48,
+"end": 12.46,
 "part": 1
 },
 {
 "text": "never",
-"start": 12.48,
+"start": 12.46,
 "end": 12.92,
 "part": 1
 },
@@ -289,7 +283,7 @@
 },
 {
 "text": "an",
-"start": 18.38,
+"start": 18.36,
 "end": 18.52,
 "part": 1
 },
@@ -326,12 +320,12 @@
 {
 "text": "charged",
 "start": 20.22,
-"end": 20.6,
+"end": 20.58,
 "part": 1
 },
 {
 "text": "$42",
-"start": 20.6,
+"start": 20.58,
 "end": 21.32,
 "part": 1
 },
@@ -398,12 +392,12 @@
 {
 "text": "credit",
 "start": 25.34,
-"end": 25.6,
+"end": 25.62,
 "part": 1
 },
 {
 "text": "score",
-"start": 25.6,
+"start": 25.62,
 "end": 25.92,
 "part": 1
 },
@@ -518,18 +512,18 @@
 {
 "text": "agreed",
 "start": 32.06,
-"end": 32.32,
+"end": 32.3,
 "part": 1
 },
 {
 "text": "to",
-"start": 32.32,
-"end": 32.56,
+"start": 32.3,
+"end": 32.54,
 "part": 1
 },
 {
 "text": "spend",
-"start": 32.56,
+"start": 32.54,
 "end": 32.8,
 "part": 1
 },
@@ -547,13 +541,13 @@
 },
 {
 "text": "her",
-"start": 35.28,
-"end": 35.38,
+"start": 35.26,
+"end": 35.4,
 "part": 1
 },
 {
 "text": "banking",
-"start": 35.38,
+"start": 35.4,
 "end": 35.76,
 "part": 1
 },
@@ -583,14 +577,14 @@
 },
 {
 "text": "$44",
-"start": 38.06,
+"start": 37.78,
 "end": 38.12,
 "part": 1
 },
 {
 "text": ",280.",
 "start": 38.12,
-"end": 39.6,
+"end": 39.62,
 "part": 1
 },
 {
@@ -685,7 +679,7 @@
 },
 {
 "text": "and",
-"start": 47.3,
+"start": 47.18,
 "end": 47.58,
 "part": 1
 },
@@ -716,12 +710,12 @@
 {
 "text": "to",
 "start": 48.84,
-"end": 49.14,
+"end": 49.12,
 "part": 1
 },
 {
 "text": "one",
-"start": 49.14,
+"start": 49.12,
 "end": 49.46,
 "part": 1
 },
@@ -733,7 +727,7 @@
 },
 {
 "text": "So",
-"start": 50.64,
+"start": 50.66,
 "end": 50.82,
 "part": 1
 },
@@ -782,36 +776,36 @@
 {
 "text": "a",
 "start": 52.82,
-"end": 53.08,
+"end": 53.1,
 "part": 1
 },
 {
 "text": "$5",
-"start": 53.08,
+"start": 53.1,
 "end": 53.34,
 "part": 1
 },
 {
 "text": ",000",
 "start": 53.34,
-"end": 53.92,
+"end": 54.1,
 "part": 1
 },
 {
 "text": "bill?",
-"start": 53.92,
+"start": 54.1,
 "end": 54.42,
 "part": 1
 },
 {
-"text": "And,",
+"text": "And",
 "start": 54.42,
 "end": 55.02,
 "part": 1
 },
 {
 "text": "if",
-"start": 55.2,
+"start": 55.02,
 "end": 55.32,
 "part": 1
 },
@@ -836,24 +830,24 @@
 {
 "text": "a",
 "start": 56.66,
-"end": 56.94,
+"end": 56.92,
 "part": 1
 },
 {
 "text": "credit",
-"start": 56.94,
+"start": 56.92,
 "end": 57.12,
 "part": 1
 },
 {
 "text": "card",
 "start": 57.12,
-"end": 57.38,
+"end": 57.4,
 "part": 1
 },
 {
 "text": "overcharge",
-"start": 57.38,
+"start": 57.4,
 "end": 58.02,
 "part": 1
 },
@@ -878,12 +872,12 @@
 {
 "text": "2013,",
 "start": 58.8,
-"end": 59.42,
+"end": 59.44,
 "part": 1
 },
 {
 "text": "why",
-"start": 60.02,
+"start": 60.0,
 "end": 60.16,
 "part": 1
 },
@@ -932,12 +926,12 @@
 {
 "text": "today?",
 "start": 62.3,
-"end": 62.7,
+"end": 62.74,
 "part": 1
 },
 {
 "text": "The",
-"start": 63.48,
+"start": 63.52,
 "end": 63.6,
 "part": 1
 },
@@ -968,12 +962,12 @@
 {
 "text": ",000",
 "start": 64.54,
-"end": 64.88,
+"end": 64.9,
 "part": 1
 },
 {
 "text": "has",
-"start": 64.88,
+"start": 64.9,
 "end": 65.44,
 "part": 1
 },
@@ -1003,7 +997,7 @@
 },
 {
 "text": "And",
-"start": 67.7,
+"start": 67.72,
 "end": 67.84,
 "part": 1
 },
@@ -1046,25 +1040,25 @@
 {
 "text": "this",
 "start": 69.56,
-"end": 69.78,
+"end": 69.8,
 "part": 1
 },
 {
 "text": "go.",
-"start": 69.78,
+"start": 69.8,
 "end": 70.18,
 "part": 1
 },
 {
 "text": "Christmas,",
-"start": 70.86,
-"end": 71.28,
+"start": 70.88,
+"end": 71.3,
 "part": 1
 },
 {
 "text": "2024,",
 "start": 71.72,
-"end": 72.46,
+"end": 72.48,
 "part": 1
 },
 {
@@ -1112,24 +1106,24 @@
 {
 "text": "Her",
 "start": 76.5,
-"end": 76.68,
+"end": 76.66,
 "part": 1
 },
 {
 "text": "mother",
-"start": 76.68,
+"start": 76.66,
 "end": 76.88,
 "part": 1
 },
 {
 "text": "left",
 "start": 76.88,
-"end": 77.18,
+"end": 77.2,
 "part": 1
 },
 {
 "text": "with",
-"start": 77.18,
+"start": 77.2,
 "end": 77.42,
 "part": 1
 },
@@ -1165,7 +1159,7 @@
 },
 {
 "text": "Remember",
-"start": 80.32,
+"start": 80.34,
 "end": 80.74,
 "part": 1
 },
@@ -1208,12 +1202,12 @@
 {
 "text": "to",
 "start": 82.72,
-"end": 82.9,
+"end": 82.92,
 "part": 1
 },
 {
 "text": "sort",
-"start": 82.9,
+"start": 82.92,
 "end": 83.1,
 "part": 1
 },
@@ -1232,60 +1226,60 @@
 {
 "text": "the",
 "start": 83.74,
-"end": 83.84,
+"end": 83.88,
 "part": 1
 },
 {
 "text": "staff",
-"start": 83.84,
-"end": 84.18,
+"start": 83.88,
+"end": 84.16,
 "part": 1
 },
 {
 "text": "had",
-"start": 84.18,
+"start": 84.16,
 "end": 84.4,
 "part": 1
 },
 {
 "text": "an",
 "start": 84.4,
-"end": 84.56,
+"end": 84.58,
 "part": 1
 },
 {
 "text": "explanation",
-"start": 84.56,
+"start": 84.58,
 "end": 85.08,
 "part": 1
 },
 {
 "text": "ready.",
 "start": 85.08,
-"end": 85.42,
+"end": 85.44,
 "part": 1
 },
 {
 "text": "They",
-"start": 85.84,
+"start": 85.74,
 "end": 86.06,
 "part": 1
 },
 {
 "text": "accused",
 "start": 86.06,
-"end": 86.5,
+"end": 86.48,
 "part": 1
 },
 {
 "text": "her",
-"start": 86.5,
-"end": 86.7,
+"start": 86.48,
+"end": 86.74,
 "part": 1
 },
 {
 "text": "mother",
-"start": 86.7,
+"start": 86.74,
 "end": 87.08,
 "part": 1
 },
@@ -1303,14 +1297,7250 @@
 },
 {
 "text": "Merry",
-"start": 89.14,
+"start": 89.12,
 "end": 89.4,
 "part": 1
 },
 {
 "text": "Christmas!",
 "start": 89.4,
-"end": 89.84,
+"end": 89.9,
 "part": 1
+},
+{
+"text": "NPR",
+"start": 91.46,
+"end": 91.9,
+"part": 2
+},
+{
+"text": "heard",
+"start": 91.9,
+"end": 92.18,
+"part": 2
+},
+{
+"text": "the",
+"start": 92.18,
+"end": 92.42,
+"part": 2
+},
+{
+"text": "same",
+"start": 92.42,
+"end": 92.74,
+"part": 2
+},
+{
+"text": "story",
+"start": 92.74,
+"end": 93.26,
+"part": 2
+},
+{
+"text": "again",
+"start": 93.26,
+"end": 93.78,
+"part": 2
+},
+{
+"text": "and",
+"start": 93.78,
+"end": 94.08,
+"part": 2
+},
+{
+"text": "again,",
+"start": 94.08,
+"end": 94.56,
+"part": 2
+},
+{
+"text": "from",
+"start": 94.6,
+"end": 94.98,
+"part": 2
+},
+{
+"text": "people",
+"start": 94.98,
+"end": 95.26,
+"part": 2
+},
+{
+"text": "who",
+"start": 95.26,
+"end": 95.44,
+"part": 2
+},
+{
+"text": "never",
+"start": 95.44,
+"end": 95.8,
+"part": 2
+},
+{
+"text": "met.",
+"start": 95.8,
+"end": 96.18,
+"part": 2
+},
+{
+"text": "It",
+"start": 96.62,
+"end": 96.84,
+"part": 2
+},
+{
+"text": "works",
+"start": 96.84,
+"end": 97.08,
+"part": 2
+},
+{
+"text": "in",
+"start": 97.08,
+"end": 97.32,
+"part": 2
+},
+{
+"text": "steps,",
+"start": 97.32,
+"end": 97.72,
+"part": 2
+},
+{
+"text": "like",
+"start": 98.04,
+"end": 98.26,
+"part": 2
+},
+{
+"text": "a",
+"start": 98.26,
+"end": 98.42,
+"part": 2
+},
+{
+"text": "recipe.",
+"start": 98.42,
+"end": 98.78,
+"part": 2
+},
+{
+"text": "Step",
+"start": 99.48,
+"end": 99.66,
+"part": 2
+},
+{
+"text": "1.",
+"start": 99.66,
+"end": 100.04,
+"part": 2
+},
+{
+"text": "The",
+"start": 100.4,
+"end": 100.56,
+"part": 2
+},
+{
+"text": "Sample",
+"start": 100.56,
+"end": 100.94,
+"part": 2
+},
+{
+"text": "A",
+"start": 100.94,
+"end": 101.66,
+"part": 2
+},
+{
+"text": "young,",
+"start": 101.66,
+"end": 102.0,
+"part": 2
+},
+{
+"text": "friendly",
+"start": 102.08,
+"end": 102.46,
+"part": 2
+},
+{
+"text": "salesperson",
+"start": 102.46,
+"end": 103.18,
+"part": 2
+},
+{
+"text": "steps",
+"start": 103.18,
+"end": 103.58,
+"part": 2
+},
+{
+"text": "out",
+"start": 103.58,
+"end": 103.82,
+"part": 2
+},
+{
+"text": "of",
+"start": 103.82,
+"end": 103.92,
+"part": 2
+},
+{
+"text": "a",
+"start": 103.92,
+"end": 104.1,
+"part": 2
+},
+{
+"text": "kiosk",
+"start": 104.1,
+"end": 104.52,
+"part": 2
+},
+{
+"text": "with",
+"start": 104.52,
+"end": 104.68,
+"part": 2
+},
+{
+"text": "a",
+"start": 104.68,
+"end": 104.82,
+"part": 2
+},
+{
+"text": "little",
+"start": 104.82,
+"end": 105.0,
+"part": 2
+},
+{
+"text": "packet,",
+"start": 105.0,
+"end": 105.42,
+"part": 2
+},
+{
+"text": "a",
+"start": 105.82,
+"end": 106.04,
+"part": 2
+},
+{
+"text": "compliment",
+"start": 106.04,
+"end": 106.28,
+"part": 2
+},
+{
+"text": "on",
+"start": 106.28,
+"end": 106.54,
+"part": 2
+},
+{
+"text": "your",
+"start": 106.54,
+"end": 106.7,
+"part": 2
+},
+{
+"text": "handbag,",
+"start": 106.7,
+"end": 107.2,
+"part": 2
+},
+{
+"text": "the",
+"start": 107.48,
+"end": 107.62,
+"part": 2
+},
+{
+"text": "promise",
+"start": 107.62,
+"end": 108.04,
+"part": 2
+},
+{
+"text": "of",
+"start": 108.04,
+"end": 108.4,
+"part": 2
+},
+{
+"text": "younger",
+"start": 108.4,
+"end": 108.78,
+"part": 2
+},
+{
+"text": "-looking",
+"start": 108.78,
+"end": 109.12,
+"part": 2
+},
+{
+"text": "skin.",
+"start": 109.12,
+"end": 109.6,
+"part": 2
+},
+{
+"text": "Why",
+"start": 109.6,
+"end": 110.38,
+"part": 2
+},
+{
+"text": "does",
+"start": 110.38,
+"end": 110.56,
+"part": 2
+},
+{
+"text": "that",
+"start": 110.56,
+"end": 110.74,
+"part": 2
+},
+{
+"text": "work?",
+"start": 110.74,
+"end": 111.1,
+"part": 2
+},
+{
+"text": "Reciprocity.",
+"start": 111.8,
+"end": 112.44,
+"part": 2
+},
+{
+"text": "Someone",
+"start": 112.88,
+"end": 113.16,
+"part": 2
+},
+{
+"text": "gives",
+"start": 113.16,
+"end": 113.46,
+"part": 2
+},
+{
+"text": "you",
+"start": 113.46,
+"end": 113.68,
+"part": 2
+},
+{
+"text": "something,",
+"start": 113.68,
+"end": 114.1,
+"part": 2
+},
+{
+"text": "your",
+"start": 114.32,
+"end": 114.5,
+"part": 2
+},
+{
+"text": "brain",
+"start": 114.5,
+"end": 114.82,
+"part": 2
+},
+{
+"text": "says",
+"start": 114.82,
+"end": 115.18,
+"part": 2
+},
+{
+"text": "you",
+"start": 115.18,
+"end": 115.54,
+"part": 2
+},
+{
+"text": "owe",
+"start": 115.54,
+"end": 115.8,
+"part": 2
+},
+{
+"text": "them.",
+"start": 115.8,
+"end": 116.12,
+"part": 2
+},
+{
+"text": "NPR",
+"start": 116.54,
+"end": 116.92,
+"part": 2
+},
+{
+"text": "once",
+"start": 116.92,
+"end": 117.24,
+"part": 2
+},
+{
+"text": "reported",
+"start": 117.24,
+"end": 117.66,
+"part": 2
+},
+{
+"text": "on",
+"start": 117.66,
+"end": 117.94,
+"part": 2
+},
+{
+"text": "waiters",
+"start": 117.94,
+"end": 118.42,
+"part": 2
+},
+{
+"text": "who",
+"start": 118.42,
+"end": 118.54,
+"part": 2
+},
+{
+"text": "gave",
+"start": 118.54,
+"end": 118.76,
+"part": 2
+},
+{
+"text": "diners",
+"start": 118.76,
+"end": 119.18,
+"part": 2
+},
+{
+"text": "a",
+"start": 119.18,
+"end": 119.48,
+"part": 2
+},
+{
+"text": "second",
+"start": 119.48,
+"end": 119.74,
+"part": 2
+},
+{
+"text": "mint",
+"start": 119.74,
+"end": 120.1,
+"part": 2
+},
+{
+"text": "and",
+"start": 120.1,
+"end": 120.44,
+"part": 2
+},
+{
+"text": "said",
+"start": 120.44,
+"end": 120.58,
+"part": 2
+},
+{
+"text": "it",
+"start": 120.58,
+"end": 120.68,
+"part": 2
+},
+{
+"text": "was",
+"start": 120.68,
+"end": 120.84,
+"part": 2
+},
+{
+"text": "just",
+"start": 120.84,
+"end": 121.18,
+"part": 2
+},
+{
+"text": "for",
+"start": 121.18,
+"end": 121.4,
+"part": 2
+},
+{
+"text": "them.",
+"start": 121.4,
+"end": 121.72,
+"part": 2
+},
+{
+"text": "Their",
+"start": 122.04,
+"end": 122.2,
+"part": 2
+},
+{
+"text": "tips",
+"start": 122.2,
+"end": 122.5,
+"part": 2
+},
+{
+"text": "went",
+"start": 122.5,
+"end": 122.72,
+"part": 2
+},
+{
+"text": "up",
+"start": 122.72,
+"end": 122.96,
+"part": 2
+},
+{
+"text": "20%.",
+"start": 122.96,
+"end": 124.34,
+"part": 2
+},
+{
+"text": "One",
+"start": 124.34,
+"end": 124.82,
+"part": 2
+},
+{
+"text": "extra",
+"start": 124.82,
+"end": 125.4,
+"part": 2
+},
+{
+"text": "mint.",
+"start": 125.4,
+"end": 125.84,
+"part": 2
+},
+{
+"text": "Now",
+"start": 127.0,
+"end": 127.26,
+"part": 2
+},
+{
+"text": "imagine",
+"start": 127.26,
+"end": 127.68,
+"part": 2
+},
+{
+"text": "a",
+"start": 127.68,
+"end": 128.02,
+"part": 2
+},
+{
+"text": "free",
+"start": 128.02,
+"end": 128.34,
+"part": 2
+},
+{
+"text": "facial.",
+"start": 128.34,
+"end": 128.92,
+"part": 2
+},
+{
+"text": "Step",
+"start": 129.74,
+"end": 129.86,
+"part": 2
+},
+{
+"text": "2.",
+"start": 129.86,
+"end": 130.26,
+"part": 2
+},
+{
+"text": "The",
+"start": 130.68,
+"end": 130.78,
+"part": 2
+},
+{
+"text": "chair.",
+"start": 130.78,
+"end": 131.14,
+"part": 2
+},
+{
+"text": "If",
+"start": 131.66,
+"end": 131.8,
+"part": 2
+},
+{
+"text": "you",
+"start": 131.8,
+"end": 131.92,
+"part": 2
+},
+{
+"text": "stop,",
+"start": 131.92,
+"end": 132.36,
+"part": 2
+},
+{
+"text": "you're",
+"start": 132.68,
+"end": 132.94,
+"part": 2
+},
+{
+"text": "walked",
+"start": 132.94,
+"end": 133.16,
+"part": 2
+},
+{
+"text": "inside.",
+"start": 133.16,
+"end": 133.66,
+"part": 2
+},
+{
+"text": "Some",
+"start": 134.1,
+"end": 134.3,
+"part": 2
+},
+{
+"text": "customers",
+"start": 134.3,
+"end": 134.72,
+"part": 2
+},
+{
+"text": "say",
+"start": 134.72,
+"end": 135.02,
+"part": 2
+},
+{
+"text": "they",
+"start": 135.02,
+"end": 135.2,
+"part": 2
+},
+{
+"text": "were",
+"start": 135.2,
+"end": 135.32,
+"part": 2
+},
+{
+"text": "physically",
+"start": 135.32,
+"end": 135.92,
+"part": 2
+},
+{
+"text": "pulled",
+"start": 135.92,
+"end": 136.44,
+"part": 2
+},
+{
+"text": "in.",
+"start": 136.44,
+"end": 136.98,
+"part": 2
+},
+{
+"text": "Then",
+"start": 137.3,
+"end": 137.54,
+"part": 2
+},
+{
+"text": "you",
+"start": 137.54,
+"end": 137.9,
+"part": 2
+},
+{
+"text": "sit.",
+"start": 137.9,
+"end": 138.28,
+"part": 2
+},
+{
+"text": "People",
+"start": 138.74,
+"end": 138.88,
+"part": 2
+},
+{
+"text": "describe",
+"start": 138.88,
+"end": 139.26,
+"part": 2
+},
+{
+"text": "sitting",
+"start": 139.26,
+"end": 139.62,
+"part": 2
+},
+{
+"text": "for",
+"start": 139.62,
+"end": 139.88,
+"part": 2
+},
+{
+"text": "an",
+"start": 139.88,
+"end": 140.18,
+"part": 2
+},
+{
+"text": "hour",
+"start": 140.18,
+"end": 140.46,
+"part": 2
+},
+{
+"text": "or",
+"start": 140.46,
+"end": 140.7,
+"part": 2
+},
+{
+"text": "more,",
+"start": 140.7,
+"end": 141.16,
+"part": 2
+},
+{
+"text": "sometimes",
+"start": 141.5,
+"end": 141.78,
+"part": 2
+},
+{
+"text": "in",
+"start": 141.78,
+"end": 142.1,
+"part": 2
+},
+{
+"text": "a",
+"start": 142.1,
+"end": 142.28,
+"part": 2
+},
+{
+"text": "back",
+"start": 142.28,
+"end": 142.46,
+"part": 2
+},
+{
+"text": "room.",
+"start": 142.46,
+"end": 142.8,
+"part": 2
+},
+{
+"text": "In",
+"start": 143.32,
+"end": 143.42,
+"part": 2
+},
+{
+"text": "Hawaii,",
+"start": 143.42,
+"end": 143.88,
+"part": 2
+},
+{
+"text": "a",
+"start": 144.14,
+"end": 144.28,
+"part": 2
+},
+{
+"text": "woman",
+"start": 144.28,
+"end": 144.44,
+"part": 2
+},
+{
+"text": "with",
+"start": 144.44,
+"end": 144.64,
+"part": 2
+},
+{
+"text": "a",
+"start": 144.64,
+"end": 144.84,
+"part": 2
+},
+{
+"text": "disability",
+"start": 144.84,
+"end": 145.32,
+"part": 2
+},
+{
+"text": "went",
+"start": 145.32,
+"end": 145.6,
+"part": 2
+},
+{
+"text": "in",
+"start": 145.6,
+"end": 145.78,
+"part": 2
+},
+{
+"text": "for",
+"start": 145.78,
+"end": 145.94,
+"part": 2
+},
+{
+"text": "a",
+"start": 145.94,
+"end": 146.12,
+"part": 2
+},
+{
+"text": "free",
+"start": 146.12,
+"end": 146.28,
+"part": 2
+},
+{
+"text": "facial.",
+"start": 146.28,
+"end": 146.68,
+"part": 2
+},
+{
+"text": "She",
+"start": 147.08,
+"end": 147.2,
+"part": 2
+},
+{
+"text": "told",
+"start": 147.2,
+"end": 147.44,
+"part": 2
+},
+{
+"text": "the",
+"start": 147.44,
+"end": 147.6,
+"part": 2
+},
+{
+"text": "state",
+"start": 147.6,
+"end": 147.86,
+"part": 2
+},
+{
+"text": "the",
+"start": 147.86,
+"end": 148.12,
+"part": 2
+},
+{
+"text": "salesperson",
+"start": 148.12,
+"end": 148.68,
+"part": 2
+},
+{
+"text": "took",
+"start": 148.68,
+"end": 148.98,
+"part": 2
+},
+{
+"text": "her",
+"start": 148.98,
+"end": 149.22,
+"part": 2
+},
+{
+"text": "walker",
+"start": 149.22,
+"end": 149.76,
+"part": 2
+},
+{
+"text": "and",
+"start": 149.76,
+"end": 149.9,
+"part": 2
+},
+{
+"text": "wouldn't",
+"start": 149.9,
+"end": 150.2,
+"part": 2
+},
+{
+"text": "let",
+"start": 150.2,
+"end": 150.4,
+"part": 2
+},
+{
+"text": "her",
+"start": 150.4,
+"end": 150.56,
+"part": 2
+},
+{
+"text": "leave",
+"start": 150.56,
+"end": 150.76,
+"part": 2
+},
+{
+"text": "for",
+"start": 150.76,
+"end": 151.0,
+"part": 2
+},
+{
+"text": "hours",
+"start": 151.0,
+"end": 151.6,
+"part": 2
+},
+{
+"text": "until",
+"start": 151.6,
+"end": 152.12,
+"part": 2
+},
+{
+"text": "she",
+"start": 152.12,
+"end": 152.38,
+"part": 2
+},
+{
+"text": "spent",
+"start": 152.38,
+"end": 152.7,
+"part": 2
+},
+{
+"text": "$2",
+"start": 152.7,
+"end": 153.44,
+"part": 2
+},
+{
+"text": ",600.",
+"start": 153.44,
+"end": 154.36,
+"part": 2
+},
+{
+"text": "Step",
+"start": 155.66,
+"end": 155.86,
+"part": 2
+},
+{
+"text": "three,",
+"start": 155.86,
+"end": 156.24,
+"part": 2
+},
+{
+"text": "the",
+"start": 156.64,
+"end": 156.8,
+"part": 2
+},
+{
+"text": "price.",
+"start": 156.8,
+"end": 157.14,
+"part": 2
+},
+{
+"text": "Look",
+"start": 157.84,
+"end": 157.92,
+"part": 2
+},
+{
+"text": "at",
+"start": 157.92,
+"end": 158.04,
+"part": 2
+},
+{
+"text": "the",
+"start": 158.04,
+"end": 158.18,
+"part": 2
+},
+{
+"text": "shelf.",
+"start": 158.18,
+"end": 158.56,
+"part": 2
+},
+{
+"text": "Notice",
+"start": 158.98,
+"end": 159.22,
+"part": 2
+},
+{
+"text": "anything",
+"start": 159.22,
+"end": 159.6,
+"part": 2
+},
+{
+"text": "missing?",
+"start": 159.6,
+"end": 160.02,
+"part": 2
+},
+{
+"text": "No",
+"start": 160.42,
+"end": 160.74,
+"part": 2
+},
+{
+"text": "price",
+"start": 160.74,
+"end": 161.18,
+"part": 2
+},
+{
+"text": "tags.",
+"start": 161.18,
+"end": 161.66,
+"part": 2
+},
+{
+"text": "A",
+"start": 162.1,
+"end": 162.28,
+"part": 2
+},
+{
+"text": "former",
+"start": 162.28,
+"end": 162.58,
+"part": 2
+},
+{
+"text": "federal",
+"start": 162.58,
+"end": 162.96,
+"part": 2
+},
+{
+"text": "investigator",
+"start": 162.96,
+"end": 163.64,
+"part": 2
+},
+{
+"text": "who",
+"start": 163.64,
+"end": 163.84,
+"part": 2
+},
+{
+"text": "watch",
+"start": 163.84,
+"end": 164.16,
+"part": 2
+},
+{
+"text": "these",
+"start": 164.16,
+"end": 164.42,
+"part": 2
+},
+{
+"text": "sales",
+"start": 164.42,
+"end": 164.68,
+"part": 2
+},
+{
+"text": "up",
+"start": 164.68,
+"end": 164.96,
+"part": 2
+},
+{
+"text": "close",
+"start": 164.96,
+"end": 165.38,
+"part": 2
+},
+{
+"text": "told",
+"start": 165.38,
+"end": 165.68,
+"part": 2
+},
+{
+"text": "NPR",
+"start": 165.68,
+"end": 166.18,
+"part": 2
+},
+{
+"text": "why.",
+"start": 166.18,
+"end": 166.72,
+"part": 2
+},
+{
+"text": "No",
+"start": 167.12,
+"end": 167.26,
+"part": 2
+},
+{
+"text": "price",
+"start": 167.26,
+"end": 167.58,
+"part": 2
+},
+{
+"text": "tag",
+"start": 167.58,
+"end": 167.92,
+"part": 2
+},
+{
+"text": "means",
+"start": 167.92,
+"end": 168.16,
+"part": 2
+},
+{
+"text": "the",
+"start": 168.16,
+"end": 168.4,
+"part": 2
+},
+{
+"text": "salesperson",
+"start": 168.4,
+"end": 168.96,
+"part": 2
+},
+{
+"text": "charges",
+"start": 168.96,
+"end": 169.4,
+"part": 2
+},
+{
+"text": "whatever",
+"start": 169.4,
+"end": 169.88,
+"part": 2
+},
+{
+"text": "they",
+"start": 169.88,
+"end": 170.22,
+"part": 2
+},
+{
+"text": "think",
+"start": 170.22,
+"end": 170.4,
+"part": 2
+},
+{
+"text": "they",
+"start": 170.4,
+"end": 170.58,
+"part": 2
+},
+{
+"text": "can",
+"start": 170.58,
+"end": 170.74,
+"part": 2
+},
+{
+"text": "get.",
+"start": 170.74,
+"end": 171.04,
+"part": 2
+},
+{
+"text": "The",
+"start": 171.4,
+"end": 171.5,
+"part": 2
+},
+{
+"text": "more",
+"start": 171.5,
+"end": 171.62,
+"part": 2
+},
+{
+"text": "they",
+"start": 171.62,
+"end": 171.82,
+"part": 2
+},
+{
+"text": "sell,",
+"start": 171.82,
+"end": 172.2,
+"part": 2
+},
+{
+"text": "the",
+"start": 172.42,
+"end": 172.5,
+"part": 2
+},
+{
+"text": "higher",
+"start": 172.5,
+"end": 172.74,
+"part": 2
+},
+{
+"text": "their",
+"start": 172.74,
+"end": 172.96,
+"part": 2
+},
+{
+"text": "commission.",
+"start": 172.96,
+"end": 173.36,
+"part": 2
+},
+{
+"text": "One",
+"start": 173.82,
+"end": 174.0,
+"part": 2
+},
+{
+"text": "salesman",
+"start": 174.0,
+"end": 174.4,
+"part": 2
+},
+{
+"text": "bragged",
+"start": 174.4,
+"end": 174.86,
+"part": 2
+},
+{
+"text": "in",
+"start": 174.86,
+"end": 175.0,
+"part": 2
+},
+{
+"text": "a",
+"start": 175.0,
+"end": 175.14,
+"part": 2
+},
+{
+"text": "video",
+"start": 175.14,
+"end": 175.46,
+"part": 2
+},
+{
+"text": "that",
+"start": 175.46,
+"end": 175.64,
+"part": 2
+},
+{
+"text": "it",
+"start": 175.64,
+"end": 175.74,
+"part": 2
+},
+{
+"text": "can",
+"start": 175.74,
+"end": 175.92,
+"part": 2
+},
+{
+"text": "mean",
+"start": 175.92,
+"end": 176.18,
+"part": 2
+},
+{
+"text": "$10",
+"start": 176.18,
+"end": 176.62,
+"part": 2
+},
+{
+"text": ",000",
+"start": 176.62,
+"end": 177.3,
+"part": 2
+},
+{
+"text": "a",
+"start": 177.3,
+"end": 177.72,
+"part": 2
+},
+{
+"text": "month.",
+"start": 177.72,
+"end": 178.1,
+"part": 2
+},
+{
+"text": "So",
+"start": 178.44,
+"end": 178.56,
+"part": 2
+},
+{
+"text": "the",
+"start": 178.56,
+"end": 178.74,
+"part": 2
+},
+{
+"text": "first",
+"start": 178.74,
+"end": 179.02,
+"part": 2
+},
+{
+"text": "number",
+"start": 179.02,
+"end": 179.34,
+"part": 2
+},
+{
+"text": "is",
+"start": 179.34,
+"end": 179.58,
+"part": 2
+},
+{
+"text": "huge",
+"start": 179.58,
+"end": 180.08,
+"part": 2
+},
+{
+"text": "on",
+"start": 180.08,
+"end": 180.36,
+"part": 2
+},
+{
+"text": "purpose.",
+"start": 180.36,
+"end": 180.78,
+"part": 2
+},
+{
+"text": "One",
+"start": 181.36,
+"end": 181.52,
+"part": 2
+},
+{
+"text": "complaint",
+"start": 181.52,
+"end": 181.94,
+"part": 2
+},
+{
+"text": "says",
+"start": 181.94,
+"end": 182.14,
+"part": 2
+},
+{
+"text": "a",
+"start": 182.14,
+"end": 182.34,
+"part": 2
+},
+{
+"text": "shopper",
+"start": 182.34,
+"end": 182.64,
+"part": 2
+},
+{
+"text": "was",
+"start": 182.64,
+"end": 182.82,
+"part": 2
+},
+{
+"text": "offered",
+"start": 182.82,
+"end": 183.14,
+"part": 2
+},
+{
+"text": "a",
+"start": 183.14,
+"end": 183.4,
+"part": 2
+},
+{
+"text": "$20",
+"start": 183.4,
+"end": 183.76,
+"part": 2
+},
+{
+"text": ",000",
+"start": 183.76,
+"end": 184.52,
+"part": 2
+},
+{
+"text": "package",
+"start": 184.52,
+"end": 184.94,
+"part": 2
+},
+{
+"text": "and",
+"start": 184.94,
+"end": 185.38,
+"part": 2
+},
+{
+"text": "the",
+"start": 185.38,
+"end": 185.56,
+"part": 2
+},
+{
+"text": "price",
+"start": 185.56,
+"end": 185.76,
+"part": 2
+},
+{
+"text": "dropped",
+"start": 185.76,
+"end": 186.3,
+"part": 2
+},
+{
+"text": "every",
+"start": 186.3,
+"end": 186.74,
+"part": 2
+},
+{
+"text": "time",
+"start": 186.74,
+"end": 187.02,
+"part": 2
+},
+{
+"text": "they",
+"start": 187.02,
+"end": 187.18,
+"part": 2
+},
+{
+"text": "said",
+"start": 187.18,
+"end": 187.4,
+"part": 2
+},
+{
+"text": "no.",
+"start": 187.4,
+"end": 187.74,
+"part": 2
+},
+{
+"text": "Their",
+"start": 188.14,
+"end": 188.34,
+"part": 2
+},
+{
+"text": "words?",
+"start": 188.34,
+"end": 188.72,
+"part": 2
+},
+{
+"text": "I",
+"start": 189.08,
+"end": 189.22,
+"part": 2
+},
+{
+"text": "felt",
+"start": 189.22,
+"end": 189.48,
+"part": 2
+},
+{
+"text": "like",
+"start": 189.48,
+"end": 189.66,
+"part": 2
+},
+{
+"text": "I",
+"start": 189.66,
+"end": 189.78,
+"part": 2
+},
+{
+"text": "was",
+"start": 189.78,
+"end": 189.92,
+"part": 2
+},
+{
+"text": "in",
+"start": 189.92,
+"end": 190.0,
+"part": 2
+},
+{
+"text": "a",
+"start": 190.0,
+"end": 190.24,
+"part": 2
+},
+{
+"text": "car",
+"start": 190.24,
+"end": 190.42,
+"part": 2
+},
+{
+"text": "dealership.",
+"start": 190.42,
+"end": 190.9,
+"part": 2
+},
+{
+"text": "It's",
+"start": 191.4,
+"end": 191.64,
+"part": 2
+},
+{
+"text": "a",
+"start": 191.64,
+"end": 191.84,
+"part": 2
+},
+{
+"text": "discount.",
+"start": 191.84,
+"end": 192.32,
+"part": 2
+},
+{
+"text": "off",
+"start": 192.32,
+"end": 192.92,
+"part": 2
+},
+{
+"text": "a",
+"start": 192.92,
+"end": 193.1,
+"part": 2
+},
+{
+"text": "number",
+"start": 193.1,
+"end": 193.3,
+"part": 2
+},
+{
+"text": "somebody",
+"start": 193.3,
+"end": 193.66,
+"part": 2
+},
+{
+"text": "made",
+"start": 193.66,
+"end": 193.92,
+"part": 2
+},
+{
+"text": "up",
+"start": 193.92,
+"end": 194.24,
+"part": 2
+},
+{
+"text": "30",
+"start": 194.24,
+"end": 194.5,
+"part": 2
+},
+{
+"text": "seconds",
+"start": 194.5,
+"end": 194.92,
+"part": 2
+},
+{
+"text": "ago.",
+"start": 194.92,
+"end": 195.52,
+"part": 2
+},
+{
+"text": "Step",
+"start": 196.66,
+"end": 196.84,
+"part": 3
+},
+{
+"text": "four,",
+"start": 196.84,
+"end": 197.3,
+"part": 3
+},
+{
+"text": "the",
+"start": 197.8,
+"end": 197.94,
+"part": 3
+},
+{
+"text": "card.",
+"start": 197.94,
+"end": 198.34,
+"part": 3
+},
+{
+"text": "This",
+"start": 199.0,
+"end": 199.2,
+"part": 3
+},
+{
+"text": "is",
+"start": 199.2,
+"end": 199.48,
+"part": 3
+},
+{
+"text": "where",
+"start": 199.48,
+"end": 199.74,
+"part": 3
+},
+{
+"text": "hundreds",
+"start": 199.74,
+"end": 200.3,
+"part": 3
+},
+{
+"text": "become",
+"start": 200.3,
+"end": 200.78,
+"part": 3
+},
+{
+"text": "thousands.",
+"start": 200.78,
+"end": 201.52,
+"part": 3
+},
+{
+"text": "The",
+"start": 202.1,
+"end": 202.24,
+"part": 3
+},
+{
+"text": "Santa",
+"start": 202.24,
+"end": 202.54,
+"part": 3
+},
+{
+"text": "Fe",
+"start": 202.54,
+"end": 202.68,
+"part": 3
+},
+{
+"text": "woman",
+"start": 202.68,
+"end": 202.98,
+"part": 3
+},
+{
+"text": "was",
+"start": 202.98,
+"end": 203.26,
+"part": 3
+},
+{
+"text": "told",
+"start": 203.26,
+"end": 203.46,
+"part": 3
+},
+{
+"text": "her",
+"start": 203.46,
+"end": 203.64,
+"part": 3
+},
+{
+"text": "card",
+"start": 203.64,
+"end": 203.96,
+"part": 3
+},
+{
+"text": "was",
+"start": 203.96,
+"end": 204.16,
+"part": 3
+},
+{
+"text": "declined,",
+"start": 204.16,
+"end": 204.74,
+"part": 3
+},
+{
+"text": "so",
+"start": 204.96,
+"end": 205.42,
+"part": 3
+},
+{
+"text": "she",
+"start": 205.42,
+"end": 205.72,
+"part": 3
+},
+{
+"text": "handed",
+"start": 205.72,
+"end": 205.96,
+"part": 3
+},
+{
+"text": "over",
+"start": 205.96,
+"end": 206.24,
+"part": 3
+},
+{
+"text": "another",
+"start": 206.24,
+"end": 206.52,
+"part": 3
+},
+{
+"text": "one.",
+"start": 206.52,
+"end": 206.82,
+"part": 3
+},
+{
+"text": "That",
+"start": 207.2,
+"end": 207.38,
+"part": 3
+},
+{
+"text": "evening,",
+"start": 207.38,
+"end": 207.7,
+"part": 3
+},
+{
+"text": "she",
+"start": 208.02,
+"end": 208.1,
+"part": 3
+},
+{
+"text": "found",
+"start": 208.1,
+"end": 208.38,
+"part": 3
+},
+{
+"text": "two",
+"start": 208.38,
+"end": 208.78,
+"part": 3
+},
+{
+"text": "charges,",
+"start": 208.78,
+"end": 209.34,
+"part": 3
+},
+{
+"text": "$44",
+"start": 209.82,
+"end": 210.44,
+"part": 3
+},
+{
+"text": ",000.",
+"start": 210.44,
+"end": 211.48,
+"part": 3
+},
+{
+"text": "Another",
+"start": 212.24,
+"end": 212.68,
+"part": 3
+},
+{
+"text": "shopper",
+"start": 212.68,
+"end": 213.12,
+"part": 3
+},
+{
+"text": "told",
+"start": 213.12,
+"end": 213.32,
+"part": 3
+},
+{
+"text": "authorities",
+"start": 213.32,
+"end": 213.8,
+"part": 3
+},
+{
+"text": "the",
+"start": 213.8,
+"end": 214.1,
+"part": 3
+},
+{
+"text": "salesperson",
+"start": 214.1,
+"end": 214.68,
+"part": 3
+},
+{
+"text": "simply",
+"start": 214.68,
+"end": 215.18,
+"part": 3
+},
+{
+"text": "added",
+"start": 215.18,
+"end": 215.5,
+"part": 3
+},
+{
+"text": "a",
+"start": 215.5,
+"end": 215.76,
+"part": 3
+},
+{
+"text": "zero.",
+"start": 215.76,
+"end": 216.08,
+"part": 3
+},
+{
+"text": "$1",
+"start": 216.54,
+"end": 216.8,
+"part": 3
+},
+{
+"text": ",300",
+"start": 216.8,
+"end": 217.14,
+"part": 3
+},
+{
+"text": "became",
+"start": 217.14,
+"end": 217.98,
+"part": 3
+},
+{
+"text": "13",
+"start": 217.98,
+"end": 218.66,
+"part": 3
+},
+{
+"text": ",000.",
+"start": 218.66,
+"end": 219.44,
+"part": 3
+},
+{
+"text": "Some",
+"start": 219.74,
+"end": 220.04,
+"part": 3
+},
+{
+"text": "say",
+"start": 220.04,
+"end": 220.3,
+"part": 3
+},
+{
+"text": "their",
+"start": 220.3,
+"end": 220.48,
+"part": 3
+},
+{
+"text": "payment",
+"start": 220.48,
+"end": 220.82,
+"part": 3
+},
+{
+"text": "plan",
+"start": 220.82,
+"end": 221.16,
+"part": 3
+},
+{
+"text": "turned",
+"start": 221.16,
+"end": 221.4,
+"part": 3
+},
+{
+"text": "out",
+"start": 221.4,
+"end": 221.6,
+"part": 3
+},
+{
+"text": "to",
+"start": 221.6,
+"end": 221.72,
+"part": 3
+},
+{
+"text": "be",
+"start": 221.72,
+"end": 221.84,
+"part": 3
+},
+{
+"text": "a",
+"start": 221.84,
+"end": 222.06,
+"part": 3
+},
+{
+"text": "high",
+"start": 222.06,
+"end": 222.32,
+"part": 3
+},
+{
+"text": "interest",
+"start": 222.32,
+"end": 222.64,
+"part": 3
+},
+{
+"text": "loan.",
+"start": 222.64,
+"end": 223.24,
+"part": 3
+},
+{
+"text": "Step",
+"start": 223.88,
+"end": 224.04,
+"part": 3
+},
+{
+"text": "five,",
+"start": 224.04,
+"end": 224.54,
+"part": 3
+},
+{
+"text": "the",
+"start": 225.02,
+"end": 225.16,
+"part": 3
+},
+{
+"text": "bag.",
+"start": 225.16,
+"end": 225.62,
+"part": 3
+},
+{
+"text": "Customers",
+"start": 226.12,
+"end": 226.4,
+"part": 3
+},
+{
+"text": "say",
+"start": 226.4,
+"end": 226.72,
+"part": 3
+},
+{
+"text": "they",
+"start": 226.72,
+"end": 226.9,
+"part": 3
+},
+{
+"text": "signed",
+"start": 226.9,
+"end": 227.22,
+"part": 3
+},
+{
+"text": "a",
+"start": 227.22,
+"end": 227.42,
+"part": 3
+},
+{
+"text": "tablet",
+"start": 227.42,
+"end": 227.74,
+"part": 3
+},
+{
+"text": "without",
+"start": 227.74,
+"end": 228.1,
+"part": 3
+},
+{
+"text": "being",
+"start": 228.1,
+"end": 228.42,
+"part": 3
+},
+{
+"text": "told",
+"start": 228.42,
+"end": 228.7,
+"part": 3
+},
+{
+"text": "what",
+"start": 228.7,
+"end": 228.92,
+"part": 3
+},
+{
+"text": "it",
+"start": 228.92,
+"end": 229.06,
+"part": 3
+},
+{
+"text": "was.",
+"start": 229.06,
+"end": 229.46,
+"part": 3
+},
+{
+"text": "At",
+"start": 229.82,
+"end": 230.0,
+"part": 3
+},
+{
+"text": "the",
+"start": 230.0,
+"end": 230.2,
+"part": 3
+},
+{
+"text": "bottom",
+"start": 230.2,
+"end": 230.36,
+"part": 3
+},
+{
+"text": "of",
+"start": 230.36,
+"end": 230.56,
+"part": 3
+},
+{
+"text": "the",
+"start": 230.56,
+"end": 230.68,
+"part": 3
+},
+{
+"text": "bag,",
+"start": 230.68,
+"end": 231.0,
+"part": 3
+},
+{
+"text": "under",
+"start": 231.1,
+"end": 231.42,
+"part": 3
+},
+{
+"text": "the",
+"start": 231.42,
+"end": 231.58,
+"part": 3
+},
+{
+"text": "free",
+"start": 231.58,
+"end": 231.78,
+"part": 3
+},
+{
+"text": "gifts,",
+"start": 231.78,
+"end": 232.22,
+"part": 3
+},
+{
+"text": "the",
+"start": 232.52,
+"end": 232.74,
+"part": 3
+},
+{
+"text": "receipt,",
+"start": 232.74,
+"end": 233.14,
+"part": 3
+},
+{
+"text": "all",
+"start": 233.6,
+"end": 233.84,
+"part": 3
+},
+{
+"text": "sales",
+"start": 233.84,
+"end": 234.14,
+"part": 3
+},
+{
+"text": "final,",
+"start": 234.14,
+"end": 234.56,
+"part": 3
+},
+{
+"text": "no",
+"start": 234.9,
+"end": 235.1,
+"part": 3
+},
+{
+"text": "refunds,",
+"start": 235.1,
+"end": 235.62,
+"part": 3
+},
+{
+"text": "no",
+"start": 235.94,
+"end": 236.1,
+"part": 3
+},
+{
+"text": "exchanges.",
+"start": 236.1,
+"end": 236.62,
+"part": 3
+},
+{
+"text": "The",
+"start": 237.08,
+"end": 237.28,
+"part": 3
+},
+{
+"text": "sample",
+"start": 237.28,
+"end": 237.54,
+"part": 3
+},
+{
+"text": "was",
+"start": 237.54,
+"end": 237.76,
+"part": 3
+},
+{
+"text": "free.",
+"start": 237.76,
+"end": 238.1,
+"part": 3
+},
+{
+"text": "The",
+"start": 238.4,
+"end": 238.66,
+"part": 3
+},
+{
+"text": "chair",
+"start": 238.66,
+"end": 238.98,
+"part": 3
+},
+{
+"text": "was",
+"start": 238.98,
+"end": 239.42,
+"part": 3
+},
+{
+"text": "not.",
+"start": 239.42,
+"end": 239.86,
+"part": 3
+},
+{
+"text": "Michelle",
+"start": 241.4,
+"end": 241.7,
+"part": 3
+},
+{
+"text": "did",
+"start": 241.7,
+"end": 242.04,
+"part": 3
+},
+{
+"text": "what",
+"start": 242.04,
+"end": 242.26,
+"part": 3
+},
+{
+"text": "most",
+"start": 242.26,
+"end": 242.58,
+"part": 3
+},
+{
+"text": "of",
+"start": 242.58,
+"end": 242.74,
+"part": 3
+},
+{
+"text": "us",
+"start": 242.74,
+"end": 242.9,
+"part": 3
+},
+{
+"text": "never",
+"start": 242.9,
+"end": 243.32,
+"part": 3
+},
+{
+"text": "do.",
+"start": 243.32,
+"end": 243.72,
+"part": 3
+},
+{
+"text": "She",
+"start": 243.94,
+"end": 244.2,
+"part": 3
+},
+{
+"text": "complained",
+"start": 244.2,
+"end": 244.58,
+"part": 3
+},
+{
+"text": "to",
+"start": 244.58,
+"end": 244.78,
+"part": 3
+},
+{
+"text": "the",
+"start": 244.78,
+"end": 244.9,
+"part": 3
+},
+{
+"text": "mall,",
+"start": 244.9,
+"end": 245.2,
+"part": 3
+},
+{
+"text": "filed",
+"start": 245.4,
+"end": 245.7,
+"part": 3
+},
+{
+"text": "a",
+"start": 245.7,
+"end": 245.88,
+"part": 3
+},
+{
+"text": "police",
+"start": 245.88,
+"end": 246.2,
+"part": 3
+},
+{
+"text": "report,",
+"start": 246.2,
+"end": 246.64,
+"part": 3
+},
+{
+"text": "handed",
+"start": 246.92,
+"end": 247.1,
+"part": 3
+},
+{
+"text": "out",
+"start": 247.1,
+"end": 247.36,
+"part": 3
+},
+{
+"text": "flyers,",
+"start": 247.36,
+"end": 247.76,
+"part": 3
+},
+{
+"text": "and",
+"start": 247.8,
+"end": 248.16,
+"part": 3
+},
+{
+"text": "found",
+"start": 248.16,
+"end": 248.38,
+"part": 3
+},
+{
+"text": "more",
+"start": 248.38,
+"end": 248.62,
+"part": 3
+},
+{
+"text": "than",
+"start": 248.62,
+"end": 248.88,
+"part": 3
+},
+{
+"text": "30",
+"start": 248.88,
+"end": 249.26,
+"part": 3
+},
+{
+"text": "people",
+"start": 249.26,
+"end": 249.66,
+"part": 3
+},
+{
+"text": "with",
+"start": 249.66,
+"end": 249.88,
+"part": 3
+},
+{
+"text": "complaints",
+"start": 249.88,
+"end": 250.3,
+"part": 3
+},
+{
+"text": "about",
+"start": 250.3,
+"end": 250.6,
+"part": 3
+},
+{
+"text": "that",
+"start": 250.6,
+"end": 250.82,
+"part": 3
+},
+{
+"text": "one",
+"start": 250.82,
+"end": 251.16,
+"part": 3
+},
+{
+"text": "store.",
+"start": 251.16,
+"end": 251.66,
+"part": 3
+},
+{
+"text": "If",
+"start": 252.08,
+"end": 252.12,
+"part": 3
+},
+{
+"text": "you",
+"start": 252.12,
+"end": 252.24,
+"part": 3
+},
+{
+"text": "like",
+"start": 252.24,
+"end": 252.4,
+"part": 3
+},
+{
+"text": "seeing",
+"start": 252.4,
+"end": 252.66,
+"part": 3
+},
+{
+"text": "this",
+"start": 252.66,
+"end": 252.9,
+"part": 3
+},
+{
+"text": "stuff",
+"start": 252.9,
+"end": 253.12,
+"part": 3
+},
+{
+"text": "dragged",
+"start": 253.12,
+"end": 253.48,
+"part": 3
+},
+{
+"text": "into",
+"start": 253.48,
+"end": 253.74,
+"part": 3
+},
+{
+"text": "the",
+"start": 253.74,
+"end": 253.96,
+"part": 3
+},
+{
+"text": "light,",
+"start": 253.96,
+"end": 254.14,
+"part": 3
+},
+{
+"text": "subscribe.",
+"start": 254.44,
+"end": 254.76,
+"part": 3
+},
+{
+"text": "The",
+"start": 255.46,
+"end": 255.6,
+"part": 3
+},
+{
+"text": "mall",
+"start": 255.6,
+"end": 255.84,
+"part": 3
+},
+{
+"text": "didn't",
+"start": 255.84,
+"end": 256.26,
+"part": 3
+},
+{
+"text": "fix",
+"start": 256.26,
+"end": 256.5,
+"part": 3
+},
+{
+"text": "it.",
+"start": 256.5,
+"end": 256.76,
+"part": 3
+},
+{
+"text": "What",
+"start": 257.02,
+"end": 257.18,
+"part": 3
+},
+{
+"text": "worked",
+"start": 257.18,
+"end": 257.62,
+"part": 3
+},
+{
+"text": "was",
+"start": 257.62,
+"end": 257.86,
+"part": 3
+},
+{
+"text": "going",
+"start": 257.86,
+"end": 258.1,
+"part": 3
+},
+{
+"text": "over",
+"start": 258.1,
+"end": 258.36,
+"part": 3
+},
+{
+"text": "its",
+"start": 258.36,
+"end": 258.6,
+"part": 3
+},
+{
+"text": "head,",
+"start": 258.6,
+"end": 258.92,
+"part": 3
+},
+{
+"text": "to",
+"start": 259.12,
+"end": 259.42,
+"part": 3
+},
+{
+"text": "Briarwood's",
+"start": 259.42,
+"end": 260.04,
+"part": 3
+},
+{
+"text": "owner,",
+"start": 260.04,
+"end": 260.28,
+"part": 3
+},
+{
+"text": "Simon",
+"start": 260.6,
+"end": 260.8,
+"part": 3
+},
+{
+"text": "Property",
+"start": 260.8,
+"end": 261.22,
+"part": 3
+},
+{
+"text": "Group.",
+"start": 261.22,
+"end": 261.58,
+"part": 3
+},
+{
+"text": "Only",
+"start": 261.94,
+"end": 262.24,
+"part": 3
+},
+{
+"text": "then",
+"start": 262.24,
+"end": 262.68,
+"part": 3
+},
+{
+"text": "did",
+"start": 262.68,
+"end": 262.88,
+"part": 3
+},
+{
+"text": "her",
+"start": 262.88,
+"end": 263.08,
+"part": 3
+},
+{
+"text": "mother",
+"start": 263.08,
+"end": 263.24,
+"part": 3
+},
+{
+"text": "get",
+"start": 263.24,
+"end": 263.44,
+"part": 3
+},
+{
+"text": "a",
+"start": 263.44,
+"end": 263.62,
+"part": 3
+},
+{
+"text": "refund.",
+"start": 263.62,
+"end": 263.96,
+"part": 3
+},
+{
+"text": "Happy",
+"start": 264.46,
+"end": 264.68,
+"part": 3
+},
+{
+"text": "ending,",
+"start": 264.68,
+"end": 264.92,
+"part": 3
+},
+{
+"text": "right?",
+"start": 264.96,
+"end": 265.32,
+"part": 3
+},
+{
+"text": "One",
+"start": 265.6,
+"end": 265.86,
+"part": 3
+},
+{
+"text": "bad",
+"start": 265.86,
+"end": 266.08,
+"part": 3
+},
+{
+"text": "store,",
+"start": 266.08,
+"end": 266.5,
+"part": 3
+},
+{
+"text": "one",
+"start": 266.82,
+"end": 266.96,
+"part": 3
+},
+{
+"text": "refund.",
+"start": 266.96,
+"end": 267.48,
+"part": 3
+},
+{
+"text": "Except",
+"start": 267.8,
+"end": 268.24,
+"part": 3
+},
+{
+"text": "it",
+"start": 268.24,
+"end": 268.74,
+"part": 3
+},
+{
+"text": "was",
+"start": 268.74,
+"end": 268.96,
+"part": 3
+},
+{
+"text": "never",
+"start": 268.96,
+"end": 269.36,
+"part": 3
+},
+{
+"text": "one",
+"start": 269.36,
+"end": 269.68,
+"part": 3
+},
+{
+"text": "store.",
+"start": 269.68,
+"end": 270.16,
+"part": 3
+},
+{
+"text": "In",
+"start": 271.32,
+"end": 271.56,
+"part": 3
+},
+{
+"text": "Manhattan",
+"start": 271.56,
+"end": 272.04,
+"part": 4
+},
+{
+"text": "Beach,",
+"start": 272.04,
+"end": 272.38,
+"part": 4
+},
+{
+"text": "California,",
+"start": 272.5,
+"end": 273.06,
+"part": 4
+},
+{
+"text": "there's",
+"start": 273.44,
+"end": 273.64,
+"part": 4
+},
+{
+"text": "a",
+"start": 273.64,
+"end": 273.86,
+"part": 4
+},
+{
+"text": "spa",
+"start": 273.86,
+"end": 274.04,
+"part": 4
+},
+{
+"text": "called",
+"start": 274.04,
+"end": 274.56,
+"part": 4
+},
+{
+"text": "Mia's",
+"start": 274.56,
+"end": 275.08,
+"part": 4
+},
+{
+"text": "by",
+"start": 275.08,
+"end": 275.2,
+"part": 4
+},
+{
+"text": "Vupra.",
+"start": 275.2,
+"end": 275.72,
+"part": 4
+},
+{
+"text": "Mary",
+"start": 275.72,
+"end": 276.54,
+"part": 4
+},
+{
+"text": "Ellen",
+"start": 276.54,
+"end": 276.84,
+"part": 4
+},
+{
+"text": "Eckert,",
+"start": 276.84,
+"end": 277.28,
+"part": 4
+},
+{
+"text": "82,",
+"start": 277.52,
+"end": 277.92,
+"part": 4
+},
+{
+"text": "a",
+"start": 278.38,
+"end": 278.52,
+"part": 4
+},
+{
+"text": "retired",
+"start": 278.52,
+"end": 278.88,
+"part": 4
+},
+{
+"text": "teacher",
+"start": 278.88,
+"end": 279.24,
+"part": 4
+},
+{
+"text": "in",
+"start": 279.24,
+"end": 279.42,
+"part": 4
+},
+{
+"text": "a",
+"start": 279.42,
+"end": 279.62,
+"part": 4
+},
+{
+"text": "motorized",
+"start": 279.62,
+"end": 280.06,
+"part": 4
+},
+{
+"text": "wheelchair,",
+"start": 280.06,
+"end": 280.54,
+"part": 4
+},
+{
+"text": "stopped",
+"start": 280.76,
+"end": 281.06,
+"part": 4
+},
+{
+"text": "for",
+"start": 281.06,
+"end": 281.34,
+"part": 4
+},
+{
+"text": "a",
+"start": 281.34,
+"end": 281.5,
+"part": 4
+},
+{
+"text": "free",
+"start": 281.5,
+"end": 281.6,
+"part": 4
+},
+{
+"text": "sample.",
+"start": 281.6,
+"end": 282.06,
+"part": 4
+},
+{
+"text": "Then",
+"start": 282.5,
+"end": 282.92,
+"part": 4
+},
+{
+"text": "she",
+"start": 282.92,
+"end": 283.28,
+"part": 4
+},
+{
+"text": "kept",
+"start": 283.28,
+"end": 283.66,
+"part": 4
+},
+{
+"text": "coming",
+"start": 283.66,
+"end": 284.0,
+"part": 4
+},
+{
+"text": "back",
+"start": 284.0,
+"end": 284.32,
+"part": 4
+},
+{
+"text": "for",
+"start": 284.32,
+"end": 284.58,
+"part": 4
+},
+{
+"text": "facials.",
+"start": 284.58,
+"end": 285.12,
+"part": 4
+},
+{
+"text": "Over",
+"start": 285.64,
+"end": 285.94,
+"part": 4
+},
+{
+"text": "a",
+"start": 285.94,
+"end": 286.3,
+"part": 4
+},
+{
+"text": "year,",
+"start": 286.3,
+"end": 286.54,
+"part": 4
+},
+{
+"text": "she",
+"start": 286.68,
+"end": 286.88,
+"part": 4
+},
+{
+"text": "was",
+"start": 286.88,
+"end": 287.08,
+"part": 4
+},
+{
+"text": "charged",
+"start": 287.08,
+"end": 287.46,
+"part": 4
+},
+{
+"text": "$53",
+"start": 287.46,
+"end": 288.12,
+"part": 4
+},
+{
+"text": ",500",
+"start": 288.12,
+"end": 289.32,
+"part": 4
+},
+{
+"text": "on",
+"start": 289.32,
+"end": 290.02,
+"part": 4
+},
+{
+"text": "four",
+"start": 290.02,
+"end": 290.46,
+"part": 4
+},
+{
+"text": "credit",
+"start": 290.46,
+"end": 290.8,
+"part": 4
+},
+{
+"text": "cards.",
+"start": 290.8,
+"end": 291.26,
+"part": 4
+},
+{
+"text": "$24",
+"start": 291.7,
+"end": 292.22,
+"part": 4
+},
+{
+"text": ",000",
+"start": 292.22,
+"end": 292.9,
+"part": 4
+},
+{
+"text": "in",
+"start": 292.9,
+"end": 293.1,
+"part": 4
+},
+{
+"text": "one",
+"start": 293.1,
+"end": 293.48,
+"part": 4
+},
+{
+"text": "visit.",
+"start": 293.48,
+"end": 293.92,
+"part": 4
+},
+{
+"text": "After",
+"start": 294.32,
+"end": 294.64,
+"part": 4
+},
+{
+"text": "disputes,",
+"start": 294.64,
+"end": 295.18,
+"part": 4
+},
+{
+"text": "she's",
+"start": 295.4,
+"end": 295.8,
+"part": 4
+},
+{
+"text": "still",
+"start": 295.8,
+"end": 296.1,
+"part": 4
+},
+{
+"text": "out",
+"start": 296.1,
+"end": 296.32,
+"part": 4
+},
+{
+"text": "more",
+"start": 296.32,
+"end": 296.5,
+"part": 4
+},
+{
+"text": "than",
+"start": 296.5,
+"end": 296.78,
+"part": 4
+},
+{
+"text": "$17",
+"start": 296.78,
+"end": 297.3,
+"part": 4
+},
+{
+"text": ",000.",
+"start": 297.3,
+"end": 298.12,
+"part": 4
+},
+{
+"text": "Her",
+"start": 298.4,
+"end": 298.66,
+"part": 4
+},
+{
+"text": "son",
+"start": 298.66,
+"end": 298.94,
+"part": 4
+},
+{
+"text": "asked",
+"start": 298.94,
+"end": 299.26,
+"part": 4
+},
+{
+"text": "the",
+"start": 299.26,
+"end": 299.46,
+"part": 4
+},
+{
+"text": "only",
+"start": 299.46,
+"end": 299.86,
+"part": 4
+},
+{
+"text": "question",
+"start": 299.86,
+"end": 300.26,
+"part": 4
+},
+{
+"text": "that",
+"start": 300.26,
+"end": 300.5,
+"part": 4
+},
+{
+"text": "matters.",
+"start": 300.5,
+"end": 300.96,
+"part": 4
+},
+{
+"text": "What",
+"start": 300.96,
+"end": 301.62,
+"part": 4
+},
+{
+"text": "kind",
+"start": 301.62,
+"end": 301.84,
+"part": 4
+},
+{
+"text": "of",
+"start": 301.84,
+"end": 302.02,
+"part": 4
+},
+{
+"text": "a",
+"start": 302.02,
+"end": 302.2,
+"part": 4
+},
+{
+"text": "spa",
+"start": 302.2,
+"end": 302.4,
+"part": 4
+},
+{
+"text": "charges",
+"start": 302.4,
+"end": 302.84,
+"part": 4
+},
+{
+"text": "anyone",
+"start": 302.84,
+"end": 303.26,
+"part": 4
+},
+{
+"text": "$54",
+"start": 303.26,
+"end": 304.1,
+"part": 4
+},
+{
+"text": ",000?",
+"start": 304.1,
+"end": 304.82,
+"part": 4
+},
+{
+"text": "Different",
+"start": 305.9,
+"end": 306.18,
+"part": 4
+},
+{
+"text": "state,",
+"start": 306.18,
+"end": 306.6,
+"part": 4
+},
+{
+"text": "same",
+"start": 306.84,
+"end": 307.2,
+"part": 4
+},
+{
+"text": "five",
+"start": 307.2,
+"end": 307.52,
+"part": 4
+},
+{
+"text": "steps.",
+"start": 307.52,
+"end": 307.96,
+"part": 4
+},
+{
+"text": "And",
+"start": 308.46,
+"end": 308.5,
+"part": 4
+},
+{
+"text": "there's",
+"start": 308.5,
+"end": 308.68,
+"part": 4
+},
+{
+"text": "a",
+"start": 308.68,
+"end": 308.92,
+"part": 4
+},
+{
+"text": "clue",
+"start": 308.92,
+"end": 309.12,
+"part": 4
+},
+{
+"text": "hiding",
+"start": 309.12,
+"end": 309.48,
+"part": 4
+},
+{
+"text": "in",
+"start": 309.48,
+"end": 309.8,
+"part": 4
+},
+{
+"text": "plain",
+"start": 309.8,
+"end": 310.02,
+"part": 4
+},
+{
+"text": "sight.",
+"start": 310.02,
+"end": 310.5,
+"part": 4
+},
+{
+"text": "The",
+"start": 311.06,
+"end": 311.08,
+"part": 4
+},
+{
+"text": "name",
+"start": 311.08,
+"end": 311.4,
+"part": 4
+},
+{
+"text": "on",
+"start": 311.4,
+"end": 311.66,
+"part": 4
+},
+{
+"text": "the",
+"start": 311.66,
+"end": 311.88,
+"part": 4
+},
+{
+"text": "jars.",
+"start": 311.88,
+"end": 312.34,
+"part": 4
+},
+{
+"text": "Vupra.",
+"start": 313.0,
+"end": 313.44,
+"part": 4
+},
+{
+"text": "Michigan,",
+"start": 314.02,
+"end": 314.38,
+"part": 4
+},
+{
+"text": "New",
+"start": 314.76,
+"end": 314.9,
+"part": 4
+},
+{
+"text": "Mexico,",
+"start": 314.9,
+"end": 315.34,
+"part": 4
+},
+{
+"text": "California.",
+"start": 315.76,
+"end": 316.32,
+"part": 4
+},
+{
+"text": "Stores",
+"start": 316.74,
+"end": 317.12,
+"part": 4
+},
+{
+"text": "thousands",
+"start": 317.12,
+"end": 317.78,
+"part": 4
+},
+{
+"text": "of",
+"start": 317.78,
+"end": 318.02,
+"part": 4
+},
+{
+"text": "miles",
+"start": 318.02,
+"end": 318.24,
+"part": 4
+},
+{
+"text": "apart,",
+"start": 318.24,
+"end": 318.72,
+"part": 4
+},
+{
+"text": "which",
+"start": 318.9,
+"end": 319.04,
+"part": 4
+},
+{
+"text": "the",
+"start": 319.04,
+"end": 319.2,
+"part": 4
+},
+{
+"text": "company",
+"start": 319.2,
+"end": 319.48,
+"part": 4
+},
+{
+"text": "calls",
+"start": 319.48,
+"end": 319.88,
+"part": 4
+},
+{
+"text": "independently",
+"start": 319.88,
+"end": 320.64,
+"part": 4
+},
+{
+"text": "owned.",
+"start": 320.64,
+"end": 321.2,
+"part": 4
+},
+{
+"text": "All",
+"start": 321.6,
+"end": 321.92,
+"part": 4
+},
+{
+"text": "buying",
+"start": 321.92,
+"end": 322.24,
+"part": 4
+},
+{
+"text": "from",
+"start": 322.24,
+"end": 322.52,
+"part": 4
+},
+{
+"text": "one",
+"start": 322.52,
+"end": 322.88,
+"part": 4
+},
+{
+"text": "distributor.",
+"start": 322.88,
+"end": 323.42,
+"part": 4
+},
+{
+"text": "Mazal",
+"start": 324.06,
+"end": 324.38,
+"part": 4
+},
+{
+"text": "Group",
+"start": 324.38,
+"end": 324.7,
+"part": 4
+},
+{
+"text": "of",
+"start": 324.7,
+"end": 325.02,
+"part": 4
+},
+{
+"text": "Chatsworth,",
+"start": 325.02,
+"end": 325.54,
+"part": 4
+},
+{
+"text": "California.",
+"start": 326.2,
+"end": 326.2,
+"part": 4
+},
+{
+"text": "Court",
+"start": 326.78,
+"end": 326.96,
+"part": 4
+},
+{
+"text": "records",
+"start": 326.96,
+"end": 327.28,
+"part": 4
+},
+{
+"text": "show",
+"start": 327.28,
+"end": 327.6,
+"part": 4
+},
+{
+"text": "stores",
+"start": 327.6,
+"end": 328.02,
+"part": 4
+},
+{
+"text": "with",
+"start": 328.02,
+"end": 328.2,
+"part": 4
+},
+{
+"text": "a",
+"start": 328.2,
+"end": 328.42,
+"part": 4
+},
+{
+"text": "Mazal",
+"start": 328.42,
+"end": 328.72,
+"part": 4
+},
+{
+"text": "brand",
+"start": 328.72,
+"end": 328.98,
+"part": 4
+},
+{
+"text": "in",
+"start": 328.98,
+"end": 329.14,
+"part": 4
+},
+{
+"text": "their",
+"start": 329.14,
+"end": 329.28,
+"part": 4
+},
+{
+"text": "name",
+"start": 329.28,
+"end": 329.54,
+"part": 4
+},
+{
+"text": "must",
+"start": 329.54,
+"end": 329.88,
+"part": 4
+},
+{
+"text": "sell",
+"start": 329.88,
+"end": 330.26,
+"part": 4
+},
+{
+"text": "only",
+"start": 330.26,
+"end": 330.78,
+"part": 4
+},
+{
+"text": "Mazal",
+"start": 330.78,
+"end": 331.08,
+"part": 4
+},
+{
+"text": "products,",
+"start": 331.08,
+"end": 331.62,
+"part": 4
+},
+{
+"text": "follow",
+"start": 331.9,
+"end": 332.16,
+"part": 4
+},
+{
+"text": "its",
+"start": 332.16,
+"end": 332.36,
+"part": 4
+},
+{
+"text": "refund",
+"start": 332.36,
+"end": 332.72,
+"part": 4
+},
+{
+"text": "policy,",
+"start": 332.72,
+"end": 333.2,
+"part": 4
+},
+{
+"text": "and",
+"start": 333.56,
+"end": 333.7,
+"part": 4
+},
+{
+"text": "send",
+"start": 333.7,
+"end": 333.94,
+"part": 4
+},
+{
+"text": "complaints",
+"start": 333.94,
+"end": 334.38,
+"part": 4
+},
+{
+"text": "to",
+"start": 334.38,
+"end": 334.66,
+"part": 4
+},
+{
+"text": "headquarters.",
+"start": 334.66,
+"end": 335.14,
+"part": 4
+},
+{
+"text": "A",
+"start": 335.76,
+"end": 335.84,
+"part": 4
+},
+{
+"text": "former",
+"start": 335.84,
+"end": 336.12,
+"part": 4
+},
+{
+"text": "employee",
+"start": 336.12,
+"end": 336.58,
+"part": 4
+},
+{
+"text": "says",
+"start": 336.58,
+"end": 336.94,
+"part": 4
+},
+{
+"text": "it",
+"start": 336.94,
+"end": 337.14,
+"part": 4
+},
+{
+"text": "works",
+"start": 337.14,
+"end": 337.4,
+"part": 4
+},
+{
+"text": "with",
+"start": 337.4,
+"end": 337.58,
+"part": 4
+},
+{
+"text": "at",
+"start": 337.58,
+"end": 337.72,
+"part": 4
+},
+{
+"text": "least",
+"start": 337.72,
+"end": 337.96,
+"part": 4
+},
+{
+"text": "2",
+"start": 337.96,
+"end": 338.3,
+"part": 4
+},
+{
+"text": ",000",
+"start": 338.3,
+"end": 338.92,
+"part": 4
+},
+{
+"text": "stores.",
+"start": 338.92,
+"end": 339.48,
+"part": 4
+},
+{
+"text": "Mazal's",
+"start": 340.04,
+"end": 340.48,
+"part": 4
+},
+{
+"text": "lawyer",
+"start": 340.48,
+"end": 340.7,
+"part": 4
+},
+{
+"text": "says",
+"start": 340.7,
+"end": 340.98,
+"part": 4
+},
+{
+"text": "the",
+"start": 340.98,
+"end": 341.18,
+"part": 4
+},
+{
+"text": "company",
+"start": 341.18,
+"end": 341.5,
+"part": 4
+},
+{
+"text": "does",
+"start": 341.5,
+"end": 341.74,
+"part": 4
+},
+{
+"text": "not",
+"start": 341.74,
+"end": 342.12,
+"part": 4
+},
+{
+"text": "own",
+"start": 342.12,
+"end": 342.42,
+"part": 4
+},
+{
+"text": "or",
+"start": 342.42,
+"end": 342.76,
+"part": 4
+},
+{
+"text": "operate",
+"start": 342.76,
+"end": 343.3,
+"part": 4
+},
+{
+"text": "any",
+"start": 343.3,
+"end": 343.7,
+"part": 4
+},
+{
+"text": "retail",
+"start": 343.7,
+"end": 344.08,
+"part": 4
+},
+{
+"text": "stores.",
+"start": 344.08,
+"end": 344.6,
+"part": 4
+},
+{
+"text": "Now,",
+"start": 345.24,
+"end": 345.46,
+"part": 4
+},
+{
+"text": "what's",
+"start": 345.76,
+"end": 346.12,
+"part": 4
+},
+{
+"text": "in",
+"start": 346.12,
+"end": 346.24,
+"part": 4
+},
+{
+"text": "the",
+"start": 346.24,
+"end": 346.44,
+"part": 4
+},
+{
+"text": "jars?",
+"start": 346.44,
+"end": 346.78,
+"part": 4
+},
+{
+"text": "NPR",
+"start": 347.42,
+"end": 347.82,
+"part": 4
+},
+{
+"text": "got",
+"start": 347.82,
+"end": 348.12,
+"part": 4
+},
+{
+"text": "the",
+"start": 348.12,
+"end": 348.36,
+"part": 4
+},
+{
+"text": "price",
+"start": 348.36,
+"end": 348.54,
+"part": 4
+},
+{
+"text": "forms.",
+"start": 348.54,
+"end": 349.0,
+"part": 4
+},
+{
+"text": "One",
+"start": 349.54,
+"end": 349.76,
+"part": 4
+},
+{
+"text": "Vupra",
+"start": 349.76,
+"end": 350.14,
+"part": 4
+},
+{
+"text": "mask",
+"start": 350.14,
+"end": 350.42,
+"part": 4
+},
+{
+"text": "sells",
+"start": 350.42,
+"end": 350.74,
+"part": 4
+},
+{
+"text": "to",
+"start": 350.74,
+"end": 350.96,
+"part": 4
+},
+{
+"text": "the",
+"start": 350.96,
+"end": 351.12,
+"part": 4
+},
+{
+"text": "store",
+"start": 351.12,
+"end": 351.34,
+"part": 4
+},
+{
+"text": "for",
+"start": 351.34,
+"end": 351.56,
+"part": 4
+},
+{
+"text": "$23.",
+"start": 351.56,
+"end": 352.14,
+"part": 4
+},
+{
+"text": "Suggested",
+"start": 353.02,
+"end": 353.58,
+"part": 4
+},
+{
+"text": "retail",
+"start": 353.58,
+"end": 353.84,
+"part": 4
+},
+{
+"text": "price,",
+"start": 353.84,
+"end": 354.26,
+"part": 4
+},
+{
+"text": "3",
+"start": 354.74,
+"end": 354.9,
+"part": 4
+},
+{
+"text": ",000.",
+"start": 354.9,
+"end": 355.64,
+"part": 4
+},
+{
+"text": "That's",
+"start": 355.92,
+"end": 356.36,
+"part": 4
+},
+{
+"text": "130",
+"start": 356.36,
+"end": 357.1,
+"part": 4
+},
+{
+"text": "times.",
+"start": 357.1,
+"end": 357.88,
+"part": 4
+},
+{
+"text": "A",
+"start": 357.88,
+"end": 358.52,
+"part": 4
+},
+{
+"text": "retail",
+"start": 358.52,
+"end": 358.84,
+"part": 4
+},
+{
+"text": "expert",
+"start": 358.84,
+"end": 359.24,
+"part": 4
+},
+{
+"text": "told",
+"start": 359.24,
+"end": 359.48,
+"part": 4
+},
+{
+"text": "NPR",
+"start": 359.48,
+"end": 359.98,
+"part": 4
+},
+{
+"text": "even",
+"start": 359.98,
+"end": 360.42,
+"part": 4
+},
+{
+"text": "luxury",
+"start": 360.42,
+"end": 360.94,
+"part": 4
+},
+{
+"text": "brands",
+"start": 360.94,
+"end": 361.34,
+"part": 4
+},
+{
+"text": "rarely",
+"start": 361.34,
+"end": 361.84,
+"part": 4
+},
+{
+"text": "go",
+"start": 361.84,
+"end": 362.06,
+"part": 4
+},
+{
+"text": "above",
+"start": 362.06,
+"end": 362.36,
+"part": 4
+},
+{
+"text": "20",
+"start": 362.36,
+"end": 362.76,
+"part": 4
+},
+{
+"text": "times.",
+"start": 362.76,
+"end": 363.3,
+"part": 4
+},
+{
+"text": "NPR",
+"start": 363.78,
+"end": 364.16,
+"part": 4
+},
+{
+"text": "also",
+"start": 364.16,
+"end": 364.58,
+"part": 4
+},
+{
+"text": "paid",
+"start": 364.58,
+"end": 364.82,
+"part": 4
+},
+{
+"text": "a",
+"start": 364.82,
+"end": 365.0,
+"part": 4
+},
+{
+"text": "lab",
+"start": 365.0,
+"end": 365.14,
+"part": 4
+},
+{
+"text": "to",
+"start": 365.14,
+"end": 365.32,
+"part": 4
+},
+{
+"text": "test",
+"start": 365.32,
+"end": 365.64,
+"part": 4
+},
+{
+"text": "a",
+"start": 365.64,
+"end": 365.94,
+"part": 4
+},
+{
+"text": "Vupra",
+"start": 365.94,
+"end": 366.22,
+"part": 4
+},
+{
+"text": "anti",
+"start": 366.22,
+"end": 366.64,
+"part": 4
+},
+{
+"text": "-aging",
+"start": 366.64,
+"end": 366.96,
+"part": 4
+},
+{
+"text": "serum.",
+"start": 366.96,
+"end": 367.44,
+"part": 4
+},
+{
+"text": "Suggested",
+"start": 367.84,
+"end": 368.42,
+"part": 4
+},
+{
+"text": "price?",
+"start": 368.42,
+"end": 368.66,
+"part": 4
+},
+{
+"text": "$1",
+"start": 369.12,
+"end": 369.24,
+"part": 4
+},
+{
+"text": ",300.",
+"start": 369.24,
+"end": 370.0,
+"part": 4
+},
+{
+"text": "The",
+"start": 370.98,
+"end": 371.24,
+"part": 4
+},
+{
+"text": "label",
+"start": 371.24,
+"end": 371.54,
+"part": 4
+},
+{
+"text": "promises",
+"start": 371.54,
+"end": 372.06,
+"part": 4
+},
+{
+"text": "vitamin",
+"start": 372.06,
+"end": 372.48,
+"part": 4
+},
+{
+"text": "A",
+"start": 372.48,
+"end": 372.8,
+"part": 4
+},
+{
+"text": "and",
+"start": 372.8,
+"end": 373.08,
+"part": 4
+},
+{
+"text": "vitamin",
+"start": 373.08,
+"end": 373.38,
+"part": 4
+},
+{
+"text": "E.",
+"start": 373.38,
+"end": 373.76,
+"part": 4
+},
+{
+"text": "The",
+"start": 374.1,
+"end": 374.36,
+"part": 4
+},
+{
+"text": "lab",
+"start": 374.36,
+"end": 374.66,
+"part": 4
+},
+{
+"text": "found",
+"start": 374.66,
+"end": 375.0,
+"part": 4
+},
+{
+"text": "neither.",
+"start": 375.0,
+"end": 375.46,
+"part": 4
+},
+{
+"text": "One",
+"start": 376.0,
+"end": 376.22,
+"part": 4
+},
+{
+"text": "box?",
+"start": 376.22,
+"end": 376.58,
+"part": 4
+},
+{
+"text": "Not",
+"start": 376.92,
+"end": 377.12,
+"part": 4
+},
+{
+"text": "the",
+"start": 377.12,
+"end": 377.32,
+"part": 4
+},
+{
+"text": "final",
+"start": 377.32,
+"end": 377.54,
+"part": 4
+},
+{
+"text": "word.",
+"start": 377.54,
+"end": 377.96,
+"part": 4
+},
+{
+"text": "But",
+"start": 378.16,
+"end": 378.4,
+"part": 4
+},
+{
+"text": "the",
+"start": 378.4,
+"end": 378.56,
+"part": 4
+},
+{
+"text": "lab's",
+"start": 378.56,
+"end": 378.96,
+"part": 4
+},
+{
+"text": "boss",
+"start": 378.96,
+"end": 379.18,
+"part": 4
+},
+{
+"text": "compared",
+"start": 379.18,
+"end": 379.62,
+"part": 4
+},
+{
+"text": "it",
+"start": 379.62,
+"end": 379.76,
+"part": 4
+},
+{
+"text": "to",
+"start": 379.76,
+"end": 379.86,
+"part": 4
+},
+{
+"text": "a",
+"start": 379.86,
+"end": 380.1,
+"part": 4
+},
+{
+"text": "product",
+"start": 380.1,
+"end": 380.32,
+"part": 4
+},
+{
+"text": "that",
+"start": 380.32,
+"end": 380.52,
+"part": 4
+},
+{
+"text": "sells",
+"start": 380.52,
+"end": 380.8,
+"part": 4
+},
+{
+"text": "for",
+"start": 380.8,
+"end": 381.06,
+"part": 4
+},
+{
+"text": "under",
+"start": 381.06,
+"end": 381.38,
+"part": 4
+},
+{
+"text": "$10.",
+"start": 381.38,
+"end": 381.92,
+"part": 4
+},
+{
+"text": "It's",
+"start": 383.82,
+"end": 384.46,
+"part": 4
+},
+{
+"text": "not",
+"start": 384.46,
+"end": 384.66,
+"part": 4
+},
+{
+"text": "only",
+"start": 384.66,
+"end": 385.12,
+"part": 4
+},
+{
+"text": "Vupra.",
+"start": 385.12,
+"end": 385.64,
+"part": 4
+},
+{
+"text": "In",
+"start": 385.64,
+"end": 386.14,
+"part": 4
+},
+{
+"text": "Los",
+"start": 386.14,
+"end": 386.34,
+"part": 4
+},
+{
+"text": "Angeles,",
+"start": 386.34,
+"end": 386.88,
+"part": 4
+},
+{
+"text": "CBS",
+"start": 387.16,
+"end": 387.5,
+"part": 4
+},
+{
+"text": "investigated",
+"start": 387.5,
+"end": 388.18,
+"part": 4
+},
+{
+"text": "a",
+"start": 388.18,
+"end": 388.42,
+"part": 4
+},
+{
+"text": "store",
+"start": 388.42,
+"end": 388.68,
+"part": 4
+},
+{
+"text": "called",
+"start": 388.68,
+"end": 389.12,
+"part": 4
+},
+{
+"text": "Be",
+"start": 389.12,
+"end": 389.34,
+"part": 4
+},
+{
+"text": "&",
+"start": 389.34,
+"end": 389.52,
+"part": 4
+},
+{
+"text": "Co.",
+"start": 389.52,
+"end": 389.72,
+"part": 4
+},
+{
+"text": "Victor",
+"start": 390.3,
+"end": 390.54,
+"part": 4
+},
+{
+"text": "Chisholm,",
+"start": 390.54,
+"end": 391.06,
+"part": 4
+},
+{
+"text": "a",
+"start": 391.24,
+"end": 391.36,
+"part": 4
+},
+{
+"text": "30",
+"start": 391.36,
+"end": 391.6,
+"part": 4
+},
+{
+"text": "-year",
+"start": 391.6,
+"end": 391.72,
+"part": 4
+},
+{
+"text": "-old",
+"start": 391.72,
+"end": 391.88,
+"part": 4
+},
+{
+"text": "man",
+"start": 391.88,
+"end": 392.14,
+"part": 4
+},
+{
+"text": "with",
+"start": 392.14,
+"end": 392.3,
+"part": 4
+},
+{
+"text": "an",
+"start": 392.3,
+"end": 392.5,
+"part": 4
+},
+{
+"text": "intellectual",
+"start": 392.5,
+"end": 392.94,
+"part": 4
+},
+{
+"text": "disability,",
+"start": 392.94,
+"end": 393.64,
+"part": 4
+},
+{
+"text": "has",
+"start": 394.02,
+"end": 394.08,
+"part": 4
+},
+{
+"text": "receipts",
+"start": 394.08,
+"end": 394.52,
+"part": 4
+},
+{
+"text": "showing",
+"start": 394.52,
+"end": 394.84,
+"part": 4
+},
+{
+"text": "about",
+"start": 394.84,
+"end": 395.16,
+"part": 4
+},
+{
+"text": "$41",
+"start": 395.16,
+"end": 395.78,
+"part": 4
+},
+{
+"text": ",700",
+"start": 395.78,
+"end": 397.0,
+"part": 4
+},
+{
+"text": "there,",
+"start": 397.0,
+"end": 397.78,
+"part": 4
+},
+{
+"text": "skincare",
+"start": 398.28,
+"end": 398.82,
+"part": 4
+},
+{
+"text": "and",
+"start": 398.82,
+"end": 399.26,
+"part": 4
+},
+{
+"text": "a",
+"start": 399.26,
+"end": 399.48,
+"part": 4
+},
+{
+"text": "red",
+"start": 399.48,
+"end": 399.58,
+"part": 4
+},
+{
+"text": "light",
+"start": 399.58,
+"end": 399.78,
+"part": 4
+},
+{
+"text": "device.",
+"start": 399.78,
+"end": 400.32,
+"part": 4
+},
+{
+"text": "He",
+"start": 400.72,
+"end": 400.84,
+"part": 4
+},
+{
+"text": "says",
+"start": 400.84,
+"end": 401.04,
+"part": 4
+},
+{
+"text": "he",
+"start": 401.04,
+"end": 401.18,
+"part": 4
+},
+{
+"text": "was",
+"start": 401.18,
+"end": 401.36,
+"part": 4
+},
+{
+"text": "also",
+"start": 401.36,
+"end": 401.72,
+"part": 4
+},
+{
+"text": "pressured",
+"start": 401.72,
+"end": 402.1,
+"part": 4
+},
+{
+"text": "into",
+"start": 402.1,
+"end": 402.34,
+"part": 4
+},
+{
+"text": "sending",
+"start": 402.34,
+"end": 402.7,
+"part": 4
+},
+{
+"text": "employees",
+"start": 402.7,
+"end": 403.2,
+"part": 4
+},
+{
+"text": "more",
+"start": 403.2,
+"end": 403.44,
+"part": 4
+},
+{
+"text": "than",
+"start": 403.44,
+"end": 403.66,
+"part": 4
+},
+{
+"text": "$10",
+"start": 403.66,
+"end": 404.12,
+"part": 4
+},
+{
+"text": ",000",
+"start": 404.12,
+"end": 404.76,
+"part": 4
+},
+{
+"text": "in",
+"start": 404.76,
+"end": 405.1,
+"part": 4
+},
+{
+"text": "tips.",
+"start": 405.1,
+"end": 405.46,
+"part": 4
+},
+{
+"text": "The",
+"start": 405.98,
+"end": 406.12,
+"part": 4
+},
+{
+"text": "store's",
+"start": 406.12,
+"end": 406.54,
+"part": 4
+},
+{
+"text": "lawyer",
+"start": 406.54,
+"end": 406.76,
+"part": 4
+},
+{
+"text": "calls",
+"start": 406.76,
+"end": 407.12,
+"part": 4
+},
+{
+"text": "the",
+"start": 407.12,
+"end": 407.32,
+"part": 4
+},
+{
+"text": "coverage",
+"start": 407.32,
+"end": 407.66,
+"part": 4
+},
+{
+"text": "one",
+"start": 407.66,
+"end": 408.0,
+"part": 4
+},
+{
+"text": "-sided",
+"start": 408.0,
+"end": 408.42,
+"part": 4
+},
+{
+"text": "and",
+"start": 408.42,
+"end": 408.78,
+"part": 4
+},
+{
+"text": "blames",
+"start": 408.78,
+"end": 409.06,
+"part": 4
+},
+{
+"text": "a",
+"start": 409.06,
+"end": 409.34,
+"part": 4
+},
+{
+"text": "rogue",
+"start": 409.34,
+"end": 409.52,
+"part": 4
+},
+{
+"text": "employee",
+"start": 409.52,
+"end": 410.02,
+"part": 4
+},
+{
+"text": "for",
+"start": 410.02,
+"end": 410.3,
+"part": 4
+},
+{
+"text": "the",
+"start": 410.3,
+"end": 410.48,
+"part": 4
+},
+{
+"text": "tips.",
+"start": 410.48,
+"end": 410.82,
+"part": 4
+},
+{
+"text": "And",
+"start": 411.1,
+"end": 411.38,
+"part": 4
+},
+{
+"text": "the",
+"start": 411.38,
+"end": 411.52,
+"part": 4
+},
+{
+"text": "free",
+"start": 411.52,
+"end": 411.74,
+"part": 4
+},
+{
+"text": "sample",
+"start": 411.74,
+"end": 412.14,
+"part": 4
+},
+{
+"text": "packs",
+"start": 412.14,
+"end": 412.38,
+"part": 4
+},
+{
+"text": "from",
+"start": 412.38,
+"end": 412.64,
+"part": 4
+},
+{
+"text": "Be",
+"start": 412.64,
+"end": 412.82,
+"part": 4
+},
+{
+"text": "&",
+"start": 412.82,
+"end": 413.02,
+"part": 4
+},
+{
+"text": "Co.",
+"start": 413.02,
+"end": 413.22,
+"part": 4
+},
+{
+"text": "listed",
+"start": 413.22,
+"end": 413.8,
+"part": 4
+},
+{
+"text": "an",
+"start": 413.8,
+"end": 414.06,
+"part": 4
+},
+{
+"text": "address",
+"start": 414.06,
+"end": 414.38,
+"part": 4
+},
+{
+"text": "in",
+"start": 414.38,
+"end": 414.8,
+"part": 4
+},
+{
+"text": "Chatsworth,",
+"start": 414.8,
+"end": 415.24,
+"part": 4
+},
+{
+"text": "California.",
+"start": 415.9,
+"end": 415.9,
+"part": 4
+},
+{
+"text": "That",
+"start": 417.48,
+"end": 417.62,
+"part": 4
+},
+{
+"text": "location",
+"start": 417.62,
+"end": 418.14,
+"part": 4
+},
+{
+"text": "now",
+"start": 418.14,
+"end": 418.54,
+"part": 4
+},
+{
+"text": "appears",
+"start": 418.54,
+"end": 418.9,
+"part": 4
+},
+{
+"text": "closed.",
+"start": 418.9,
+"end": 419.48,
+"part": 4
+},
+{
+"text": "Los",
+"start": 419.98,
+"end": 420.14,
+"part": 4
+},
+{
+"text": "Angeles",
+"start": 420.14,
+"end": 420.5,
+"part": 4
+},
+{
+"text": "police",
+"start": 420.5,
+"end": 420.86,
+"part": 4
+},
+{
+"text": "are",
+"start": 420.86,
+"end": 421.18,
+"part": 4
+},
+{
+"text": "looking",
+"start": 421.18,
+"end": 421.42,
+"part": 4
+},
+{
+"text": "into",
+"start": 421.42,
+"end": 421.7,
+"part": 4
+},
+{
+"text": "his",
+"start": 421.7,
+"end": 421.88,
+"part": 4
+},
+{
+"text": "case.",
+"start": 421.88,
+"end": 422.36,
+"part": 4
+},
+{
+"text": "Worst",
+"start": 423.72,
+"end": 423.96,
+"part": 5
+},
+{
+"text": "part?",
+"start": 423.96,
+"end": 424.32,
+"part": 5
+},
+{
+"text": "None",
+"start": 424.86,
+"end": 425.08,
+"part": 5
+},
+{
+"text": "of",
+"start": 425.08,
+"end": 425.26,
+"part": 5
+},
+{
+"text": "this",
+"start": 425.26,
+"end": 425.42,
+"part": 5
+},
+{
+"text": "is",
+"start": 425.42,
+"end": 425.68,
+"part": 5
+},
+{
+"text": "new.",
+"start": 425.68,
+"end": 426.0,
+"part": 5
+},
+{
+"text": "In",
+"start": 427.24,
+"end": 427.66,
+"part": 5
+},
+{
+"text": "2013,",
+"start": 427.66,
+"end": 428.44,
+"part": 5
+},
+{
+"text": "federal",
+"start": 428.92,
+"end": 429.14,
+"part": 5
+},
+{
+"text": "agents",
+"start": 429.14,
+"end": 429.58,
+"part": 5
+},
+{
+"text": "ran",
+"start": 429.58,
+"end": 429.82,
+"part": 5
+},
+{
+"text": "an",
+"start": 429.82,
+"end": 430.06,
+"part": 5
+},
+{
+"text": "operation",
+"start": 430.06,
+"end": 430.62,
+"part": 5
+},
+{
+"text": "codenamed",
+"start": 430.62,
+"end": 431.28,
+"part": 5
+},
+{
+"text": "Salty",
+"start": 431.28,
+"end": 431.98,
+"part": 5
+},
+{
+"text": "Wins.",
+"start": 431.98,
+"end": 432.28,
+"part": 5
+},
+{
+"text": "They",
+"start": 432.78,
+"end": 433.0,
+"part": 5
+},
+{
+"text": "watched",
+"start": 433.0,
+"end": 433.36,
+"part": 5
+},
+{
+"text": "skincare",
+"start": 433.36,
+"end": 433.88,
+"part": 5
+},
+{
+"text": "stores",
+"start": 433.88,
+"end": 434.22,
+"part": 5
+},
+{
+"text": "around",
+"start": 434.22,
+"end": 434.56,
+"part": 5
+},
+{
+"text": "Washington,",
+"start": 434.56,
+"end": 435.16,
+"part": 5
+},
+{
+"text": "made",
+"start": 435.46,
+"end": 435.64,
+"part": 5
+},
+{
+"text": "purchases,",
+"start": 435.64,
+"end": 436.2,
+"part": 5
+},
+{
+"text": "and",
+"start": 436.46,
+"end": 436.78,
+"part": 5
+},
+{
+"text": "documented",
+"start": 436.78,
+"end": 437.26,
+"part": 5
+},
+{
+"text": "what",
+"start": 437.26,
+"end": 437.54,
+"part": 5
+},
+{
+"text": "they",
+"start": 437.54,
+"end": 437.74,
+"part": 5
+},
+{
+"text": "called",
+"start": 437.74,
+"end": 438.1,
+"part": 5
+},
+{
+"text": "a",
+"start": 438.1,
+"end": 438.44,
+"part": 5
+},
+{
+"text": "credit",
+"start": 438.44,
+"end": 438.64,
+"part": 5
+},
+{
+"text": "card",
+"start": 438.64,
+"end": 438.96,
+"part": 5
+},
+{
+"text": "overcharge",
+"start": 438.96,
+"end": 439.68,
+"part": 5
+},
+{
+"text": "scheme.",
+"start": 439.68,
+"end": 440.1,
+"part": 5
+},
+{
+"text": "Another",
+"start": 440.1,
+"end": 440.86,
+"part": 5
+},
+{
+"text": "case",
+"start": 440.86,
+"end": 441.2,
+"part": 5
+},
+{
+"text": "went",
+"start": 441.2,
+"end": 441.4,
+"part": 5
+},
+{
+"text": "after",
+"start": 441.4,
+"end": 441.66,
+"part": 5
+},
+{
+"text": "a",
+"start": 441.66,
+"end": 441.86,
+"part": 5
+},
+{
+"text": "bigger",
+"start": 441.86,
+"end": 442.1,
+"part": 5
+},
+{
+"text": "chain",
+"start": 442.1,
+"end": 442.42,
+"part": 5
+},
+{
+"text": "on",
+"start": 442.42,
+"end": 442.58,
+"part": 5
+},
+{
+"text": "the",
+"start": 442.58,
+"end": 442.76,
+"part": 5
+},
+{
+"text": "East",
+"start": 442.76,
+"end": 443.0,
+"part": 5
+},
+{
+"text": "Coast,",
+"start": 443.0,
+"end": 443.36,
+"part": 5
+},
+{
+"text": "including",
+"start": 443.52,
+"end": 443.92,
+"part": 5
+},
+{
+"text": "Orogold",
+"start": 443.92,
+"end": 444.6,
+"part": 5
+},
+{
+"text": "Kiosks,",
+"start": 444.6,
+"end": 445.42,
+"part": 5
+},
+{
+"text": "a",
+"start": 445.62,
+"end": 445.76,
+"part": 5
+},
+{
+"text": "brand",
+"start": 445.76,
+"end": 446.04,
+"part": 5
+},
+{
+"text": "owned",
+"start": 446.04,
+"end": 446.36,
+"part": 5
+},
+{
+"text": "by",
+"start": 446.36,
+"end": 446.58,
+"part": 5
+},
+{
+"text": "the",
+"start": 446.58,
+"end": 446.78,
+"part": 5
+},
+{
+"text": "same",
+"start": 446.78,
+"end": 447.12,
+"part": 5
+},
+{
+"text": "families",
+"start": 447.12,
+"end": 447.64,
+"part": 5
+},
+{
+"text": "behind",
+"start": 447.64,
+"end": 448.02,
+"part": 5
+},
+{
+"text": "Mazal",
+"start": 448.02,
+"end": 448.44,
+"part": 5
+},
+{
+"text": "Group.",
+"start": 448.44,
+"end": 448.7,
+"part": 5
+},
+{
+"text": "Its",
+"start": 449.2,
+"end": 449.32,
+"part": 5
+},
+{
+"text": "owner",
+"start": 449.32,
+"end": 449.66,
+"part": 5
+},
+{
+"text": "pleaded",
+"start": 449.66,
+"end": 450.0,
+"part": 5
+},
+{
+"text": "guilty",
+"start": 450.0,
+"end": 450.44,
+"part": 5
+},
+{
+"text": "to",
+"start": 450.44,
+"end": 450.74,
+"part": 5
+},
+{
+"text": "visa",
+"start": 450.74,
+"end": 451.0,
+"part": 5
+},
+{
+"text": "fraud",
+"start": 451.0,
+"end": 451.36,
+"part": 5
+},
+{
+"text": "and",
+"start": 451.36,
+"end": 451.6,
+"part": 5
+},
+{
+"text": "money",
+"start": 451.6,
+"end": 451.94,
+"part": 5
+},
+{
+"text": "laundering.",
+"start": 451.94,
+"end": 452.36,
+"part": 5
+},
+{
+"text": "His",
+"start": 452.86,
+"end": 453.0,
+"part": 5
+},
+{
+"text": "business",
+"start": 453.0,
+"end": 453.36,
+"part": 5
+},
+{
+"text": "had",
+"start": 453.36,
+"end": 453.62,
+"part": 5
+},
+{
+"text": "made",
+"start": 453.62,
+"end": 453.82,
+"part": 5
+},
+{
+"text": "over",
+"start": 453.82,
+"end": 454.16,
+"part": 5
+},
+{
+"text": "14",
+"start": 454.16,
+"end": 454.88,
+"part": 5
+},
+{
+"text": "million",
+"start": 454.88,
+"end": 455.44,
+"part": 5
+},
+{
+"text": "dollars,",
+"start": 455.44,
+"end": 456.2,
+"part": 5
+},
+{
+"text": "sentenced",
+"start": 456.46,
+"end": 456.86,
+"part": 5
+},
+{
+"text": "to",
+"start": 456.86,
+"end": 457.28,
+"part": 5
+},
+{
+"text": "six",
+"start": 457.28,
+"end": 457.52,
+"part": 5
+},
+{
+"text": "and",
+"start": 457.52,
+"end": 457.68,
+"part": 5
+},
+{
+"text": "a",
+"start": 457.68,
+"end": 457.82,
+"part": 5
+},
+{
+"text": "half",
+"start": 457.82,
+"end": 457.96,
+"part": 5
+},
+{
+"text": "years.",
+"start": 457.96,
+"end": 458.42,
+"part": 5
+},
+{
+"text": "He",
+"start": 458.84,
+"end": 459.0,
+"part": 5
+},
+{
+"text": "served",
+"start": 459.0,
+"end": 459.36,
+"part": 5
+},
+{
+"text": "30",
+"start": 459.36,
+"end": 459.84,
+"part": 5
+},
+{
+"text": "months.",
+"start": 459.84,
+"end": 460.24,
+"part": 5
+},
+{
+"text": "An",
+"start": 460.72,
+"end": 460.88,
+"part": 5
+},
+{
+"text": "FBI",
+"start": 460.88,
+"end": 461.3,
+"part": 5
+},
+{
+"text": "agent",
+"start": 461.3,
+"end": 461.72,
+"part": 5
+},
+{
+"text": "told",
+"start": 461.72,
+"end": 461.98,
+"part": 5
+},
+{
+"text": "NPR",
+"start": 461.98,
+"end": 462.5,
+"part": 5
+},
+{
+"text": "the",
+"start": 462.5,
+"end": 462.92,
+"part": 5
+},
+{
+"text": "goal",
+"start": 462.92,
+"end": 463.22,
+"part": 5
+},
+{
+"text": "was",
+"start": 463.22,
+"end": 463.46,
+"part": 5
+},
+{
+"text": "to",
+"start": 463.46,
+"end": 463.64,
+"part": 5
+},
+{
+"text": "cut",
+"start": 463.64,
+"end": 463.84,
+"part": 5
+},
+{
+"text": "the",
+"start": 463.84,
+"end": 464.12,
+"part": 5
+},
+{
+"text": "head",
+"start": 464.12,
+"end": 464.3,
+"part": 5
+},
+{
+"text": "off",
+"start": 464.3,
+"end": 464.52,
+"part": 5
+},
+{
+"text": "the",
+"start": 464.52,
+"end": 464.7,
+"part": 5
+},
+{
+"text": "snake.",
+"start": 464.7,
+"end": 465.08,
+"part": 5
+},
+{
+"text": "The",
+"start": 465.5,
+"end": 465.66,
+"part": 5
+},
+{
+"text": "snake,",
+"start": 465.66,
+"end": 466.06,
+"part": 5
+},
+{
+"text": "it",
+"start": 466.2,
+"end": 466.42,
+"part": 5
+},
+{
+"text": "turns",
+"start": 466.42,
+"end": 466.62,
+"part": 5
+},
+{
+"text": "out,",
+"start": 466.62,
+"end": 467.02,
+"part": 5
+},
+{
+"text": "had",
+"start": 467.3,
+"end": 467.46,
+"part": 5
+},
+{
+"text": "licensees.",
+"start": 467.46,
+"end": 468.36,
+"part": 5
+},
+{
+"text": "Today,",
+"start": 469.1,
+"end": 469.82,
+"part": 5
+},
+{
+"text": "NPR",
+"start": 470.24,
+"end": 470.54,
+"part": 5
+},
+{
+"text": "says",
+"start": 470.54,
+"end": 470.96,
+"part": 5
+},
+{
+"text": "the",
+"start": 470.96,
+"end": 471.26,
+"part": 5
+},
+{
+"text": "same",
+"start": 471.26,
+"end": 471.66,
+"part": 5
+},
+{
+"text": "business",
+"start": 471.66,
+"end": 472.04,
+"part": 5
+},
+{
+"text": "model",
+"start": 472.04,
+"end": 472.4,
+"part": 5
+},
+{
+"text": "is",
+"start": 472.4,
+"end": 472.6,
+"part": 5
+},
+{
+"text": "running",
+"start": 472.6,
+"end": 472.84,
+"part": 5
+},
+{
+"text": "from",
+"start": 472.84,
+"end": 473.1,
+"part": 5
+},
+{
+"text": "Honolulu",
+"start": 473.1,
+"end": 473.62,
+"part": 5
+},
+{
+"text": "to",
+"start": 473.62,
+"end": 473.98,
+"part": 5
+},
+{
+"text": "Annapolis.",
+"start": 473.98,
+"end": 474.68,
+"part": 5
+},
+{
+"text": "The",
+"start": 475.14,
+"end": 475.24,
+"part": 5
+},
+{
+"text": "Santa",
+"start": 475.24,
+"end": 475.54,
+"part": 5
+},
+{
+"text": "Fe",
+"start": 475.54,
+"end": 475.72,
+"part": 5
+},
+{
+"text": "spa",
+"start": 475.72,
+"end": 476.02,
+"part": 5
+},
+{
+"text": "owner",
+"start": 476.02,
+"end": 476.36,
+"part": 5
+},
+{
+"text": "settled",
+"start": 476.36,
+"end": 476.72,
+"part": 5
+},
+{
+"text": "with",
+"start": 476.72,
+"end": 477.0,
+"part": 5
+},
+{
+"text": "New",
+"start": 477.0,
+"end": 477.16,
+"part": 5
+},
+{
+"text": "Mexico",
+"start": 477.16,
+"end": 477.56,
+"part": 5
+},
+{
+"text": "for",
+"start": 477.56,
+"end": 477.9,
+"part": 5
+},
+{
+"text": "$350",
+"start": 477.9,
+"end": 478.82,
+"part": 5
+},
+{
+"text": ",000.",
+"start": 478.82,
+"end": 479.62,
+"part": 5
+},
+{
+"text": "In",
+"start": 480.32,
+"end": 480.58,
+"part": 5
+},
+{
+"text": "Hawaii,",
+"start": 480.58,
+"end": 481.06,
+"part": 5
+},
+{
+"text": "Mazal",
+"start": 481.56,
+"end": 481.72,
+"part": 5
+},
+{
+"text": "Group,",
+"start": 481.72,
+"end": 481.98,
+"part": 5
+},
+{
+"text": "the",
+"start": 482.22,
+"end": 482.34,
+"part": 5
+},
+{
+"text": "families",
+"start": 482.34,
+"end": 482.7,
+"part": 5
+},
+{
+"text": "and",
+"start": 482.7,
+"end": 483.0,
+"part": 5
+},
+{
+"text": "two",
+"start": 483.0,
+"end": 483.34,
+"part": 5
+},
+{
+"text": "local",
+"start": 483.34,
+"end": 483.66,
+"part": 5
+},
+{
+"text": "licensees",
+"start": 483.66,
+"end": 484.46,
+"part": 5
+},
+{
+"text": "agreed",
+"start": 484.46,
+"end": 484.72,
+"part": 5
+},
+{
+"text": "to",
+"start": 484.72,
+"end": 484.96,
+"part": 5
+},
+{
+"text": "pay",
+"start": 484.96,
+"end": 485.14,
+"part": 5
+},
+{
+"text": "$950",
+"start": 485.14,
+"end": 486.1,
+"part": 5
+},
+{
+"text": ",000",
+"start": 486.1,
+"end": 486.78,
+"part": 5
+},
+{
+"text": "in",
+"start": 486.78,
+"end": 486.9,
+"part": 5
+},
+{
+"text": "a",
+"start": 486.9,
+"end": 487.1,
+"part": 5
+},
+{
+"text": "class",
+"start": 487.1,
+"end": 487.28,
+"part": 5
+},
+{
+"text": "action.",
+"start": 487.28,
+"end": 487.74,
+"part": 5
+},
+{
+"text": "They",
+"start": 488.18,
+"end": 488.44,
+"part": 5
+},
+{
+"text": "deny",
+"start": 488.44,
+"end": 488.94,
+"part": 5
+},
+{
+"text": "wrongdoing.",
+"start": 488.94,
+"end": 489.54,
+"part": 5
+},
+{
+"text": "And",
+"start": 490.08,
+"end": 490.18,
+"part": 5
+},
+{
+"text": "a",
+"start": 490.18,
+"end": 490.38,
+"part": 5
+},
+{
+"text": "month",
+"start": 490.38,
+"end": 490.54,
+"part": 5
+},
+{
+"text": "before",
+"start": 490.54,
+"end": 490.92,
+"part": 5
+},
+{
+"text": "NPR",
+"start": 490.92,
+"end": 491.44,
+"part": 5
+},
+{
+"text": "published,",
+"start": 491.44,
+"end": 491.98,
+"part": 5
+},
+{
+"text": "Mazal",
+"start": 492.28,
+"end": 492.64,
+"part": 5
+},
+{
+"text": "Group's",
+"start": 492.64,
+"end": 493.0,
+"part": 5
+},
+{
+"text": "California",
+"start": 493.0,
+"end": 493.52,
+"part": 5
+},
+{
+"text": "business",
+"start": 493.52,
+"end": 493.94,
+"part": 5
+},
+{
+"text": "license",
+"start": 493.94,
+"end": 494.3,
+"part": 5
+},
+{
+"text": "was",
+"start": 494.3,
+"end": 494.64,
+"part": 5
+},
+{
+"text": "terminated.",
+"start": 494.64,
+"end": 495.14,
+"part": 5
+},
+{
+"text": "The",
+"start": 495.14,
+"end": 495.82,
+"part": 5
+},
+{
+"text": "sign",
+"start": 495.82,
+"end": 496.1,
+"part": 5
+},
+{
+"text": "on",
+"start": 496.1,
+"end": 496.28,
+"part": 5
+},
+{
+"text": "the",
+"start": 496.28,
+"end": 496.52,
+"part": 5
+},
+{
+"text": "Chatsworth",
+"start": 496.52,
+"end": 496.84,
+"part": 5
+},
+{
+"text": "headquarters",
+"start": 496.84,
+"end": 497.32,
+"part": 5
+},
+{
+"text": "now",
+"start": 497.32,
+"end": 497.82,
+"part": 5
+},
+{
+"text": "says",
+"start": 497.82,
+"end": 498.2,
+"part": 5
+},
+{
+"text": "INV",
+"start": 498.2,
+"end": 499.04,
+"part": 5
+},
+{
+"text": "Brands.",
+"start": 499.04,
+"end": 499.48,
+"part": 5
+},
+{
+"text": "Innovation",
+"start": 500.0,
+"end": 500.46,
+"part": 5
+},
+{
+"text": "Brands,",
+"start": 500.46,
+"end": 500.96,
+"part": 5
+},
+{
+"text": "founded",
+"start": 501.28,
+"end": 501.48,
+"part": 5
+},
+{
+"text": "in",
+"start": 501.48,
+"end": 501.8,
+"part": 5
+},
+{
+"text": "2024",
+"start": 501.8,
+"end": 502.48,
+"part": 5
+},
+{
+"text": "by",
+"start": 502.48,
+"end": 502.9,
+"part": 5
+},
+{
+"text": "Mazal's",
+"start": 502.9,
+"end": 503.38,
+"part": 5
+},
+{
+"text": "owner",
+"start": 503.38,
+"end": 503.64,
+"part": 5
+},
+{
+"text": "and",
+"start": 503.64,
+"end": 503.94,
+"part": 5
+},
+{
+"text": "her",
+"start": 503.94,
+"end": 504.14,
+"part": 5
+},
+{
+"text": "husband.",
+"start": 504.14,
+"end": 504.52,
+"part": 5
+},
+{
+"text": "New",
+"start": 505.68,
+"end": 505.82,
+"part": 5
+},
+{
+"text": "name,",
+"start": 505.82,
+"end": 506.16,
+"part": 5
+},
+{
+"text": "same",
+"start": 506.66,
+"end": 506.96,
+"part": 5
+},
+{
+"text": "address.",
+"start": 506.96,
+"end": 507.36,
+"part": 5
+},
+{
+"text": "So",
+"start": 508.84,
+"end": 509.18,
+"part": 6
+},
+{
+"text": "House",
+"start": 509.18,
+"end": 509.96,
+"part": 6
+},
+{
+"text": "Rules",
+"start": 509.96,
+"end": 510.2,
+"part": 6
+},
+{
+"text": "1.",
+"start": 510.2,
+"end": 511.2,
+"part": 6
+},
+{
+"text": "The",
+"start": 511.68,
+"end": 511.82,
+"part": 6
+},
+{
+"text": "sample",
+"start": 511.82,
+"end": 512.16,
+"part": 6
+},
+{
+"text": "is",
+"start": 512.16,
+"end": 512.5,
+"part": 6
+},
+{
+"text": "a",
+"start": 512.5,
+"end": 512.76,
+"part": 6
+},
+{
+"text": "toll",
+"start": 512.76,
+"end": 512.94,
+"part": 6
+},
+{
+"text": "booth.",
+"start": 512.94,
+"end": 513.26,
+"part": 6
+},
+{
+"text": "Take",
+"start": 513.72,
+"end": 513.88,
+"part": 6
+},
+{
+"text": "it",
+"start": 513.88,
+"end": 514.0,
+"part": 6
+},
+{
+"text": "if",
+"start": 514.0,
+"end": 514.12,
+"part": 6
+},
+{
+"text": "you",
+"start": 514.12,
+"end": 514.26,
+"part": 6
+},
+{
+"text": "want,",
+"start": 514.26,
+"end": 514.6,
+"part": 6
+},
+{
+"text": "but",
+"start": 514.76,
+"end": 514.92,
+"part": 6
+},
+{
+"text": "keep",
+"start": 514.92,
+"end": 515.24,
+"part": 6
+},
+{
+"text": "walking.",
+"start": 515.24,
+"end": 515.8,
+"part": 6
+},
+{
+"text": "The",
+"start": 516.16,
+"end": 516.32,
+"part": 6
+},
+{
+"text": "trick",
+"start": 516.32,
+"end": 516.54,
+"part": 6
+},
+{
+"text": "starts",
+"start": 516.54,
+"end": 516.94,
+"part": 6
+},
+{
+"text": "the",
+"start": 516.94,
+"end": 517.16,
+"part": 6
+},
+{
+"text": "moment",
+"start": 517.16,
+"end": 517.5,
+"part": 6
+},
+{
+"text": "you",
+"start": 517.5,
+"end": 517.74,
+"part": 6
+},
+{
+"text": "stop.",
+"start": 517.74,
+"end": 518.2,
+"part": 6
+},
+{
+"text": "2.",
+"start": 518.78,
+"end": 519.08,
+"part": 6
+},
+{
+"text": "No",
+"start": 519.6,
+"end": 519.8,
+"part": 6
+},
+{
+"text": "chair,",
+"start": 519.8,
+"end": 520.2,
+"part": 6
+},
+{
+"text": "no",
+"start": 520.52,
+"end": 520.78,
+"part": 6
+},
+{
+"text": "back",
+"start": 520.78,
+"end": 521.04,
+"part": 6
+},
+{
+"text": "room.",
+"start": 521.04,
+"end": 521.46,
+"part": 6
+},
+{
+"text": "Ever.",
+"start": 521.74,
+"end": 522.16,
+"part": 6
+},
+{
+"text": "3.",
+"start": 522.7,
+"end": 523.12,
+"part": 6
+},
+{
+"text": "No",
+"start": 523.6,
+"end": 523.78,
+"part": 6
+},
+{
+"text": "price",
+"start": 523.78,
+"end": 524.04,
+"part": 6
+},
+{
+"text": "on",
+"start": 524.04,
+"end": 524.2,
+"part": 6
+},
+{
+"text": "the",
+"start": 524.2,
+"end": 524.32,
+"part": 6
+},
+{
+"text": "shelf?",
+"start": 524.32,
+"end": 524.62,
+"part": 6
+},
+{
+"text": "Get",
+"start": 524.62,
+"end": 525.14,
+"part": 6
+},
+{
+"text": "the",
+"start": 525.14,
+"end": 525.32,
+"part": 6
+},
+{
+"text": "total",
+"start": 525.32,
+"end": 525.58,
+"part": 6
+},
+{
+"text": "in",
+"start": 525.58,
+"end": 525.88,
+"part": 6
+},
+{
+"text": "writing",
+"start": 525.88,
+"end": 526.18,
+"part": 6
+},
+{
+"text": "before",
+"start": 526.18,
+"end": 526.58,
+"part": 6
+},
+{
+"text": "anything",
+"start": 526.58,
+"end": 527.14,
+"part": 6
+},
+{
+"text": "touches",
+"start": 527.14,
+"end": 527.54,
+"part": 6
+},
+{
+"text": "your",
+"start": 527.54,
+"end": 527.78,
+"part": 6
+},
+{
+"text": "face.",
+"start": 527.78,
+"end": 528.26,
+"part": 6
+},
+{
+"text": "Card",
+"start": 529.7,
+"end": 529.86,
+"part": 6
+},
+{
+"text": "Declined?",
+"start": 529.86,
+"end": 530.34,
+"part": 6
+},
+{
+"text": "Don't",
+"start": 530.76,
+"end": 531.02,
+"part": 6
+},
+{
+"text": "reach",
+"start": 531.02,
+"end": 531.18,
+"part": 6
+},
+{
+"text": "for",
+"start": 531.18,
+"end": 531.38,
+"part": 6
+},
+{
+"text": "a",
+"start": 531.38,
+"end": 531.56,
+"part": 6
+},
+{
+"text": "second",
+"start": 531.56,
+"end": 531.82,
+"part": 6
+},
+{
+"text": "card,",
+"start": 531.82,
+"end": 532.26,
+"part": 6
+},
+{
+"text": "leave,",
+"start": 532.56,
+"end": 532.9,
+"part": 6
+},
+{
+"text": "and",
+"start": 533.24,
+"end": 533.5,
+"part": 6
+},
+{
+"text": "check",
+"start": 533.5,
+"end": 533.68,
+"part": 6
+},
+{
+"text": "your",
+"start": 533.68,
+"end": 533.92,
+"part": 6
+},
+{
+"text": "banking",
+"start": 533.92,
+"end": 534.2,
+"part": 6
+},
+{
+"text": "app",
+"start": 534.2,
+"end": 534.4,
+"part": 6
+},
+{
+"text": "before",
+"start": 534.4,
+"end": 534.68,
+"part": 6
+},
+{
+"text": "you",
+"start": 534.68,
+"end": 534.88,
+"part": 6
+},
+{
+"text": "walk",
+"start": 534.88,
+"end": 535.06,
+"part": 6
+},
+{
+"text": "out.",
+"start": 535.06,
+"end": 535.52,
+"part": 6
+},
+{
+"text": "5.",
+"start": 536.04,
+"end": 536.28,
+"part": 6
+},
+{
+"text": "Don't",
+"start": 536.82,
+"end": 537.08,
+"part": 6
+},
+{
+"text": "count",
+"start": 537.08,
+"end": 537.26,
+"part": 6
+},
+{
+"text": "on",
+"start": 537.26,
+"end": 537.5,
+"part": 6
+},
+{
+"text": "3",
+"start": 537.5,
+"end": 537.8,
+"part": 6
+},
+{
+"text": "days",
+"start": 537.8,
+"end": 538.06,
+"part": 6
+},
+{
+"text": "to",
+"start": 538.06,
+"end": 538.32,
+"part": 6
+},
+{
+"text": "change",
+"start": 538.32,
+"end": 538.54,
+"part": 6
+},
+{
+"text": "your",
+"start": 538.54,
+"end": 538.72,
+"part": 6
+},
+{
+"text": "mind.",
+"start": 538.72,
+"end": 539.08,
+"part": 6
+},
+{
+"text": "The",
+"start": 539.42,
+"end": 539.5,
+"part": 6
+},
+{
+"text": "Federal",
+"start": 539.5,
+"end": 539.8,
+"part": 6
+},
+{
+"text": "Cooling",
+"start": 539.8,
+"end": 540.24,
+"part": 6
+},
+{
+"text": "Off",
+"start": 540.24,
+"end": 540.44,
+"part": 6
+},
+{
+"text": "rule",
+"start": 540.44,
+"end": 540.64,
+"part": 6
+},
+{
+"text": "covers",
+"start": 540.64,
+"end": 541.0,
+"part": 6
+},
+{
+"text": "sales",
+"start": 541.0,
+"end": 541.28,
+"part": 6
+},
+{
+"text": "at",
+"start": 541.28,
+"end": 541.46,
+"part": 6
+},
+{
+"text": "your",
+"start": 541.46,
+"end": 541.66,
+"part": 6
+},
+{
+"text": "home",
+"start": 541.66,
+"end": 541.92,
+"part": 6
+},
+{
+"text": "or",
+"start": 541.92,
+"end": 542.2,
+"part": 6
+},
+{
+"text": "a",
+"start": 542.2,
+"end": 542.46,
+"part": 6
+},
+{
+"text": "temporary",
+"start": 542.46,
+"end": 542.8,
+"part": 6
+},
+{
+"text": "spot,",
+"start": 542.8,
+"end": 543.26,
+"part": 6
+},
+{
+"text": "not",
+"start": 543.46,
+"end": 543.78,
+"part": 6
+},
+{
+"text": "at",
+"start": 543.78,
+"end": 543.96,
+"part": 6
+},
+{
+"text": "a",
+"start": 543.96,
+"end": 544.14,
+"part": 6
+},
+{
+"text": "store's",
+"start": 544.14,
+"end": 544.52,
+"part": 6
+},
+{
+"text": "permanent",
+"start": 544.52,
+"end": 544.8,
+"part": 6
+},
+{
+"text": "location.",
+"start": 544.8,
+"end": 545.42,
+"part": 6
+},
+{
+"text": "Your",
+"start": 545.8,
+"end": 545.98,
+"part": 6
+},
+{
+"text": "real",
+"start": 545.98,
+"end": 546.32,
+"part": 6
+},
+{
+"text": "exit",
+"start": 546.32,
+"end": 546.68,
+"part": 6
+},
+{
+"text": "is",
+"start": 546.68,
+"end": 546.94,
+"part": 6
+},
+{
+"text": "your",
+"start": 546.94,
+"end": 547.22,
+"part": 6
+},
+{
+"text": "card",
+"start": 547.22,
+"end": 547.42,
+"part": 6
+},
+{
+"text": "company.",
+"start": 547.42,
+"end": 547.86,
+"part": 6
+},
+{
+"text": "Dispute",
+"start": 548.18,
+"end": 548.74,
+"part": 6
+},
+{
+"text": "fast!",
+"start": 548.74,
+"end": 549.26,
+"part": 6
+},
+{
+"text": "And",
+"start": 549.8,
+"end": 549.96,
+"part": 6
+},
+{
+"text": "6.",
+"start": 549.96,
+"end": 550.4,
+"part": 6
+},
+{
+"text": "If",
+"start": 550.4,
+"end": 550.96,
+"part": 6
+},
+{
+"text": "your",
+"start": 550.96,
+"end": 551.16,
+"part": 6
+},
+{
+"text": "mom",
+"start": 551.16,
+"end": 551.38,
+"part": 6
+},
+{
+"text": "or",
+"start": 551.38,
+"end": 551.54,
+"part": 6
+},
+{
+"text": "dad",
+"start": 551.54,
+"end": 551.8,
+"part": 6
+},
+{
+"text": "walks",
+"start": 551.8,
+"end": 552.12,
+"part": 6
+},
+{
+"text": "the",
+"start": 552.12,
+"end": 552.28,
+"part": 6
+},
+{
+"text": "mall",
+"start": 552.28,
+"end": 552.4,
+"part": 6
+},
+{
+"text": "for",
+"start": 552.4,
+"end": 552.64,
+"part": 6
+},
+{
+"text": "exercise,",
+"start": 552.64,
+"end": 553.22,
+"part": 6
+},
+{
+"text": "glance",
+"start": 553.62,
+"end": 553.7,
+"part": 6
+},
+{
+"text": "at",
+"start": 553.7,
+"end": 553.88,
+"part": 6
+},
+{
+"text": "their",
+"start": 553.88,
+"end": 554.0,
+"part": 6
+},
+{
+"text": "statements",
+"start": 554.0,
+"end": 554.36,
+"part": 6
+},
+{
+"text": "now",
+"start": 554.36,
+"end": 554.66,
+"part": 6
+},
+{
+"text": "and",
+"start": 554.66,
+"end": 554.82,
+"part": 6
+},
+{
+"text": "then.",
+"start": 554.82,
+"end": 555.06,
+"part": 6
+},
+{
+"text": "That's",
+"start": 555.34,
+"end": 555.56,
+"part": 6
+},
+{
+"text": "how",
+"start": 555.56,
+"end": 555.72,
+"part": 6
+},
+{
+"text": "families",
+"start": 555.72,
+"end": 556.08,
+"part": 6
+},
+{
+"text": "here",
+"start": 556.08,
+"end": 556.34,
+"part": 6
+},
+{
+"text": "found",
+"start": 556.34,
+"end": 556.64,
+"part": 6
+},
+{
+"text": "out.",
+"start": 556.64,
+"end": 557.04,
+"part": 6
+},
+{
+"text": "A",
+"start": 557.42,
+"end": 557.52,
+"part": 6
+},
+{
+"text": "credit",
+"start": 557.52,
+"end": 557.86,
+"part": 6
+},
+{
+"text": "score,",
+"start": 557.86,
+"end": 558.32,
+"part": 6
+},
+{
+"text": "an",
+"start": 558.62,
+"end": 558.78,
+"part": 6
+},
+{
+"text": "empty",
+"start": 558.78,
+"end": 559.14,
+"part": 6
+},
+{
+"text": "bank",
+"start": 559.14,
+"end": 559.48,
+"part": 6
+},
+{
+"text": "account.",
+"start": 559.48,
+"end": 559.92,
+"part": 6
+},
+{
+"text": "Michelle's",
+"start": 560.4,
+"end": 560.8,
+"part": 6
+},
+{
+"text": "mom",
+"start": 560.8,
+"end": 560.96,
+"part": 6
+},
+{
+"text": "got",
+"start": 560.96,
+"end": 561.18,
+"part": 6
+},
+{
+"text": "her",
+"start": 561.18,
+"end": 561.32,
+"part": 6
+},
+{
+"text": "money",
+"start": 561.32,
+"end": 561.52,
+"part": 6
+},
+{
+"text": "back",
+"start": 561.52,
+"end": 561.78,
+"part": 6
+},
+{
+"text": "because",
+"start": 561.78,
+"end": 562.08,
+"part": 6
+},
+{
+"text": "her",
+"start": 562.08,
+"end": 562.3,
+"part": 6
+},
+{
+"text": "daughter",
+"start": 562.3,
+"end": 562.6,
+"part": 6
+},
+{
+"text": "refused",
+"start": 562.6,
+"end": 563.14,
+"part": 6
+},
+{
+"text": "to",
+"start": 563.14,
+"end": 563.42,
+"part": 6
+},
+{
+"text": "go",
+"start": 563.42,
+"end": 563.56,
+"part": 6
+},
+{
+"text": "away.",
+"start": 563.56,
+"end": 563.98,
+"part": 6
+},
+{
+"text": "A",
+"start": 564.4,
+"end": 564.54,
+"part": 6
+},
+{
+"text": "lot",
+"start": 564.54,
+"end": 564.7,
+"part": 6
+},
+{
+"text": "of",
+"start": 564.7,
+"end": 564.84,
+"part": 6
+},
+{
+"text": "people",
+"start": 564.84,
+"end": 565.04,
+"part": 6
+},
+{
+"text": "in",
+"start": 565.04,
+"end": 565.22,
+"part": 6
+},
+{
+"text": "this",
+"start": 565.22,
+"end": 565.36,
+"part": 6
+},
+{
+"text": "story",
+"start": 565.36,
+"end": 565.7,
+"part": 6
+},
+{
+"text": "never",
+"start": 565.7,
+"end": 566.02,
+"part": 6
+},
+{
+"text": "did.",
+"start": 566.02,
+"end": 566.48,
+"part": 6
+},
+{
+"text": "Has",
+"start": 567.04,
+"end": 567.16,
+"part": 6
+},
+{
+"text": "a",
+"start": 567.16,
+"end": 567.3,
+"part": 6
+},
+{
+"text": "mall",
+"start": 567.3,
+"end": 567.48,
+"part": 6
+},
+{
+"text": "kiosk",
+"start": 567.48,
+"end": 568.0,
+"part": 6
+},
+{
+"text": "ever",
+"start": 568.0,
+"end": 568.14,
+"part": 6
+},
+{
+"text": "tried",
+"start": 568.14,
+"end": 568.42,
+"part": 6
+},
+{
+"text": "this",
+"start": 568.42,
+"end": 568.6,
+"part": 6
+},
+{
+"text": "on",
+"start": 568.6,
+"end": 568.78,
+"part": 6
+},
+{
+"text": "you?",
+"start": 568.78,
+"end": 569.02,
+"part": 6
+},
+{
+"text": "Tell",
+"start": 569.4,
+"end": 569.54,
+"part": 6
+},
+{
+"text": "me",
+"start": 569.54,
+"end": 569.68,
+"part": 6
+},
+{
+"text": "what",
+"start": 569.68,
+"end": 569.8,
+"part": 6
+},
+{
+"text": "they",
+"start": 569.8,
+"end": 569.96,
+"part": 6
+},
+{
+"text": "said",
+"start": 569.96,
+"end": 570.2,
+"part": 6
+},
+{
+"text": "first.",
+"start": 570.2,
+"end": 570.62,
+"part": 6
+},
+{
+"text": "And",
+"start": 571.0,
+"end": 571.1,
+"part": 6
+},
+{
+"text": "if",
+"start": 571.1,
+"end": 571.2,
+"part": 6
+},
+{
+"text": "you",
+"start": 571.2,
+"end": 571.32,
+"part": 6
+},
+{
+"text": "wanna",
+"start": 571.32,
+"end": 571.5,
+"part": 6
+},
+{
+"text": "see",
+"start": 571.5,
+"end": 571.72,
+"part": 6
+},
+{
+"text": "what",
+"start": 571.72,
+"end": 571.88,
+"part": 6
+},
+{
+"text": "restaurants",
+"start": 571.88,
+"end": 572.44,
+"part": 6
+},
+{
+"text": "are",
+"start": 572.44,
+"end": 572.7,
+"part": 6
+},
+{
+"text": "quietly",
+"start": 572.7,
+"end": 573.1,
+"part": 6
+},
+{
+"text": "doing",
+"start": 573.1,
+"end": 573.38,
+"part": 6
+},
+{
+"text": "to",
+"start": 573.38,
+"end": 573.56,
+"part": 6
+},
+{
+"text": "your",
+"start": 573.56,
+"end": 573.7,
+"part": 6
+},
+{
+"text": "tip,",
+"start": 573.7,
+"end": 573.96,
+"part": 6
+},
+{
+"text": "that",
+"start": 574.26,
+"end": 574.44,
+"part": 6
+},
+{
+"text": "one's",
+"start": 574.44,
+"end": 574.72,
+"part": 6
+},
+{
+"text": "right",
+"start": 574.72,
+"end": 574.96,
+"part": 6
+},
+{
+"text": "here.",
+"start": 574.96,
+"end": 575.3,
+"part": 6
 }
 ]
