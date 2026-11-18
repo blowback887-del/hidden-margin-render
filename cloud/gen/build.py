@@ -153,7 +153,7 @@ names = "At Bg6 BigNum Bug6 C6 Center ChapterCard ChapterTag Col CorpSub Counter
 rest = body.split("type Beat =", 1)[1]
 need = [n for n in names if n in ("Bg6", "Bug6", "C6", "Scene6", "ChapterTag", "setClips") or re.search(r"[<{\s]" + n + r"[\s/>({]", rest)]
 body = re.sub(r'import \{ At, Bg6[^}]*\} from "../brand/hm6";', "import { " + ", ".join(need) + ' } from "../brand/hm6";', body)
-ev_need = [n for n in ("Evidence", "Headline", "AdVsTruth", "ArchiveFx") if re.search(r"<" + n + r"[\s/>]", rest)]
+ev_need = [n for n in ("Evidence", "Headline", "AdVsTruth", "ArchiveFx", "CaseBoard") if re.search(r"<" + n + r"[\s/>]", rest)]
 if ev_need: body = body.replace(' } from "../brand/hm6";', ' } from "../brand/hm6";\nimport { ' + ", ".join(ev_need) + ' } from "../brand/evidence";', 1)
 if not mus: body = body.replace("useVideoConfig, interpolate }", "useVideoConfig }")
 out = f"{R}/src/videos/{comp}.tsx"

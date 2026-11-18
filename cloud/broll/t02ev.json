@@ -1,0 +1,198 @@
+{
+ "evidence_out": "public/evidence/t02",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "npr-head",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "The skincare scheme that led to consumer complaints"
+   ]
+  },
+  {
+   "name": "npr-42k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "charged $42,000 for skincare products"
+   ]
+  },
+  {
+   "name": "npr-44k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "two charges totaling $44,280"
+   ]
+  },
+  {
+   "name": "npr-anliker",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "leaving with $5,000 in Voupre skincare products"
+   ]
+  },
+  {
+   "name": "npr-walker",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "The salesperson took her walker"
+   ]
+  },
+  {
+   "name": "npr-noprice",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "The products carry no price tags"
+   ]
+  },
+  {
+   "name": "npr-zero",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "the salesperson added a zero"
+   ]
+  },
+  {
+   "name": "npr-receipt",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "All sales final. No refunds. No exchanges."
+   ]
+  },
+  {
+   "name": "npr-flyers",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "distributed flyers warning shoppers away",
+    "Simon Property Group"
+   ]
+  },
+  {
+   "name": "npr-53k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "charged her $53,500 across four credit cards"
+   ]
+  },
+  {
+   "name": "npr-noown",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "does not own or operate any retail locations"
+   ]
+  },
+  {
+   "name": "npr-130x",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "up to 130 times the wholesale price",
+    "costs $23 wholesale"
+   ]
+  },
+  {
+   "name": "npr-luxury",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "rarely stretch the suggested retail price to even 20 times"
+   ]
+  },
+  {
+   "name": "npr-under10",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "retails for under $10"
+   ]
+  },
+  {
+   "name": "npr-overcharge",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "credit card overcharge scheme",
+    "from Honolulu to Annapolis"
+   ]
+  },
+  {
+   "name": "npr-salty",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "Salty Winds"
+   ]
+  },
+  {
+   "name": "npr-snake",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "we wanted to cut the head off the snake"
+   ]
+  },
+  {
+   "name": "npr-14m",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "earned more than $14 million"
+   ]
+  },
+  {
+   "name": "npr-350k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "agreeing to pay $350,000 in restitution"
+   ]
+  },
+  {
+   "name": "npr-950k",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "agreed to pay $950,000 in restitution"
+   ]
+  },
+  {
+   "name": "npr-terminated",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "terminated its business license in California"
+   ]
+  },
+  {
+   "name": "npr-inv",
+   "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+   "find": [
+    "bore a similar sign saying INV Brands"
+   ]
+  },
+  {
+   "name": "cbs-head",
+   "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
+   "find": [
+    "Bee & Co. skincare store at Westfield Topanga mall closes"
+   ]
+  },
+  {
+   "name": "cbs-tips",
+   "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
+   "find": [
+    "more than $10,000 in tips"
+   ]
+  },
+  {
+   "name": "cbs-onesided",
+   "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
+   "find": [
+    "a one-sided and misleading account"
+   ]
+  },
+  {
+   "name": "cbs-chatsworth",
+   "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
+   "find": [
+    "is based in Chatsworth"
+   ]
+  },
+  {
+   "name": "npr-mint",
+   "url": "https://www.npr.org/sections/health-shots/2012/11/26/165570502/give-and-take-how-the-rule-of-reciprocation-binds-us",
+   "find": [
+    "Servers who gave a second mint got a 20 percent increase"
+   ]
+  }
+ ]
+}

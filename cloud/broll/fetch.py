@@ -116,6 +116,13 @@ if EV:
                         if r: b = {"x": r[0], "y": r[1], "width": r[2], "height": r[3]}
                         if b and 0 <= b["y"] < h: finds[ph] = [round(b["x"] * dpr), round(b["y"] * dpr), round(b["width"] * dpr), round(b["height"] * dpr)]
                     except Exception as ex: print("find", ph, ex)
+                if e.get("declutter", True):  # всплывашки и реклама поверх текста (T02: окно «Now is your moment» у NPR)
+                    pg.wait_for_timeout(1500)
+                    pg.evaluate("""() => { for (const el of document.querySelectorAll('body *')) { const cs = getComputedStyle(el);
+                      if ((cs.position === 'fixed' || cs.position === 'sticky') && el.tagName !== 'HTML') el.style.setProperty('display', 'none', 'important'); }
+                      document.querySelectorAll('iframe, [role=dialog], [aria-modal=true], [id^=google_ads], [class*="ad-container"], [class*="ad-wrap"], .ad, aside').forEach(el => el.style.setProperty('visibility', 'hidden', 'important'));
+                      document.documentElement.style.overflow = 'auto'; document.body.style.overflow = 'auto'; }""")
+                    pg.wait_for_timeout(300)
                 pg.screenshot(path=png)
         else:  # image
             raw = f"work/{e['name']}.img"

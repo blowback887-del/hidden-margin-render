@@ -139,3 +139,44 @@ export const ArchiveFx: React.FC<{ grain?: number }> = ({ grain = 0.16 }) => {
     </AbsoluteFill>
   );
 };
+
+/**
+ * Доска расследования (T02, 18.11.2026): точки-дела появляются по одной, от каждой тянется красная нить
+ * к центру (hub), когда он появляется. Координаты — пиксели кадра 1920×1080; at — секунды от начала сцены.
+ * Сквозная схема выпуска: в начале центр — «?», в главе про дистрибьютора — имя.
+ */
+type Pin = { label: string; sub?: string; x: number; y: number; at: number; color?: string };
+export const CaseBoard: React.FC<{ pins: Pin[]; hub?: Pin & { q?: number }; title?: string; dim?: number }> = ({ pins, hub, title, dim = 0.55 }) => {
+  const { p } = useT();
+  const hk = hub ? p(hub.at, hub.at + 0.5, Easing.out(Easing.cubic)) : 0;
+  const qk = hub?.q !== undefined ? p(hub.q, hub.q + 0.4) : 1; // q — когда «?» сменяется настоящим именем
+  return (
+    <AbsoluteFill style={{ background: `rgba(2,22,28,${dim})` }}>
+      <svg width="1920" height="1080" style={{ position: "absolute", inset: 0 }}>
+        {hub && pins.map((n, i) => {
+          const k = p(Math.max(n.at, hub.at) + 0.1 + i * 0.12, Math.max(n.at, hub.at) + 0.8 + i * 0.12, Easing.inOut(Easing.cubic));
+          return <line key={i} x1={n.x} y1={n.y} x2={lerp(n.x, hub.x, k)} y2={lerp(n.y, hub.y, k)} stroke="#e8463a" strokeWidth={4} strokeLinecap="round" opacity={0.9} />;
+        })}
+      </svg>
+      {title && <div style={{ position: "absolute", left: 80, top: 64, opacity: p(0, 0.4) }}><Kicker6 color={C6.accent}>{title}</Kicker6></div>}
+      {pins.map((n, i) => {
+        const k = p(n.at, n.at + 0.35, Easing.out(Easing.back(1.6)));
+        return (
+          <div key={i} style={{ position: "absolute", left: n.x, top: n.y, translate: "-50% -50%", scale: String(0.6 + 0.4 * k), opacity: Math.min(1, k * 1.5), display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
+            <div style={{ width: 26, height: 26, borderRadius: "50%", background: n.color ?? "#e8463a", boxShadow: "0 0 0 6px rgba(232,70,58,.25), 0 6px 18px rgba(0,0,0,.5)" }} />
+            <div style={{ background: "#f6f1e7", color: "#1b1b1b", padding: "10px 20px", borderRadius: 8, boxShadow: "0 12px 34px rgba(0,0,0,.45)", textAlign: "center", rotate: `${(i % 2 ? 1 : -1) * 1.5}deg` }}>
+              <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 32, letterSpacing: "0.02em" }}>{n.label}</div>
+              {n.sub && <div style={{ fontFamily: SANS, fontWeight: 600, fontSize: 24, color: "#a1271d", marginTop: 2 }}>{n.sub}</div>}
+            </div>
+          </div>
+        );
+      })}
+      {hub && (
+        <div style={{ position: "absolute", left: hub.x, top: hub.y, translate: "-50% -50%", scale: String(0.7 + 0.3 * hk), opacity: hk, background: "#0b1e24", border: `4px solid ${C6.accent}`, borderRadius: 14, padding: "18px 40px", textAlign: "center", boxShadow: `0 0 60px ${C6.accent}44, 0 20px 50px rgba(0,0,0,.6)` }}>
+          <div style={{ fontFamily: SERIF, fontSize: 64, color: C6.accent, lineHeight: 1.05 }}>{qk < 1 ? "?" : hub.label}</div>
+          {hub.sub && qk >= 1 && <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 26, letterSpacing: "0.14em", textTransform: "uppercase", color: C6.mint, marginTop: 6 }}>{hub.sub}</div>}
+        </div>
+      )}
+    </AbsoluteFill>
+  );
+};
