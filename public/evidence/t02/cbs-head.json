@@ -6,12 +6,5 @@
  "url": "https://www.cbsnews.com/news/bee-and-co-skincare-store-westfield-topanga-closed-coercive-sales-tactics/",
  "host": "cbsnews.com",
  "frame": "screen",
- "finds": {
-  "Bee & Co. skincare store at Westfield Topanga mall closes": [
-   347,
-   402,
-   1114,
-   162
-  ]
- }
+ "finds": {}
 }

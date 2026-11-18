@@ -119,7 +119,7 @@ if EV:
                 if e.get("declutter", True):  # всплывашки и реклама поверх текста (T02: окно «Now is your moment» у NPR)
                     pg.wait_for_timeout(1500)
                     pg.evaluate("""() => { for (const el of document.querySelectorAll('body *')) { const cs = getComputedStyle(el);
-                      if ((cs.position === 'fixed' || cs.position === 'sticky') && el.tagName !== 'HTML') el.style.setProperty('display', 'none', 'important'); }
+                      if ((cs.position === 'fixed' || cs.position === 'sticky') && el.tagName !== 'HTML') el.style.setProperty('visibility', 'hidden', 'important'); }
                       document.querySelectorAll('iframe, [role=dialog], [aria-modal=true], [id^=google_ads], [class*="ad-container"], [class*="ad-wrap"], .ad, aside').forEach(el => el.style.setProperty('visibility', 'hidden', 'important'));
                       document.documentElement.style.overflow = 'auto'; document.body.style.overflow = 'auto'; }""")
                     pg.wait_for_timeout(300)

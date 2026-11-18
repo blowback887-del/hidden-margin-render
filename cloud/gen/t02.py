@@ -237,8 +237,13 @@ dict(start="Three. No price", stock=K("shelf-pink"), sfx=[('ep06-pop:0.3', '0.2'
      el='''<Center y={880}><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>3 · GET THE TOTAL IN WRITING FIRST</Label6></Plate6></Center>'''),
 dict(start="Four. Card declined", stock=K("card-phone-app"), sfx=[('t02-declined:0.3', '0.4')],
      el='''<Center y={880}><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>4 · DECLINED? DON'T HAND OVER CARD #2. LEAVE.</Label6></Plate6></Center>'''),
-dict(start="Five. Don't count", sfx=[('t02-paper:0.3', '0.1')],
-     el=ev("t02", "ftc-cooling", marks=[("gives you three days to cancel certain sales", "cooling off rule")], source="FTC · consumer.ftc.gov")),
+dict(start="Five. Don't count", stock=K("phone-in-hand"), dim=0.3, sfx=[('ep06-pop:0.3', '@{cooling off rule}')],
+     el='''<Center y={800}><In at={@{cooling off rule}} from="fade"><Plate6 at={@{cooling off rule}} pad="28px 50px"><Col gap={16} align="flex-start">
+  <Label6 at={@{cooling off rule}} size={38} color={C6.ink}>FTC COOLING-OFF RULE · 3 DAYS</Label6>
+  <Label6 at={@{your home}} size={38} color={C6.money}>YOUR HOME, A TEMPORARY SPOT ✓</Label6>
+  <Label6 at={@{permanent location}} size={38} color={C6.loss}>A STORE'S PERMANENT LOCATION ✗</Label6>
+</Col></Plate6></In></Center>
+<Source6 at={@{cooling off rule}}>FTC · consumer.ftc.gov</Source6>'''),
 dict(start="Your real exit", stock=K("older-man-card-phone"), sfx=[('ep06-pop:0.3', '0.2')],
      el='''<Center y={880}><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>5 · DISPUTE WITH YOUR CARD COMPANY. FAST.</Label6></Plate6></Center>'''),
 dict(start="And six", stock=K("daughter-father-talk"), alt=(K("old-man-laptop"), "A credit score"), sfx=[('ep06-pop:0.3', '0.3')],
