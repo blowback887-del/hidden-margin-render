@@ -1,0 +1,23 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.oig.dol.gov/public/Press%20Releases/Owner%20of%20Mall%20Kiosk%20Businesses%20Pleads%20Guilty%20to%20Immigration%20and%20Money%20Laundering%20Charges%207.6.16.pdf",
+ "host": "oig.dol.gov",
+ "frame": "paper",
+ "finds": {
+  "pleaded guilty": [
+   1078,
+   585,
+   181,
+   37
+  ],
+  "$14 million": [
+   963,
+   1068,
+   146,
+   37
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.npr.org/sections/health-shots/2012/11/26/165570502/give-and-take-how-the-rule-of-reciprocation-binds-us",
+ "host": "npr.org",
+ "frame": "screen",
+ "finds": {
+  "Servers who gave a second mint got a 20 percent increase": [
+   455,
+   598,
+   988,
+   44
+  ]
+ }
+}

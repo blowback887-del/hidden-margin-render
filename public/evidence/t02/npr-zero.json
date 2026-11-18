@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+ "host": "npr.org",
+ "frame": "screen",
+ "finds": {
+  "the salesperson added a zero": [
+   1080,
+   705,
+   498,
+   44
+  ]
+ }
+}

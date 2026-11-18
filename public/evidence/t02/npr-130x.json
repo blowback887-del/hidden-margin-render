@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+ "host": "npr.org",
+ "frame": "screen",
+ "finds": {
+  "up to 130 times the wholesale price": [
+   455,
+   705,
+   1268,
+   98
+  ],
+  "costs $23 wholesale": [
+   1141,
+   813,
+   340,
+   44
+  ]
+ }
+}

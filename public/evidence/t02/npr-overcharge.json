@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+ "host": "npr.org",
+ "frame": "screen",
+ "finds": {
+  "credit card overcharge scheme": [
+   455,
+   814,
+   1229,
+   98
+  ],
+  "from Honolulu to Annapolis": [
+   455,
+   868,
+   1216,
+   98
+  ]
+ }
+}

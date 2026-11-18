@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+ "host": "npr.org",
+ "frame": "screen",
+ "finds": {
+  "rarely stretch the suggested retail price to even 20 times": [
+   455,
+   598,
+   1257,
+   98
+  ]
+ }
+}

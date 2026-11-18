@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+ "host": "npr.org",
+ "frame": "screen",
+ "finds": {
+  "distributed flyers warning shoppers away": [
+   455,
+   652,
+   695,
+   44
+  ],
+  "Simon Property Group": [
+   578,
+   814,
+   376,
+   44
+  ]
+ }
+}
