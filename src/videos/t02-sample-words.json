@@ -1,0 +1,1316 @@
+[
+{
+"text": "It",
+"start": 0.0,
+"end": 0.16,
+"part": 1
+},
+{
+"text": "starts",
+"start": 0.16,
+"end": 0.54,
+"part": 1
+},
+{
+"text": "with",
+"start": 0.54,
+"end": 0.74,
+"part": 1
+},
+{
+"text": "a",
+"start": 0.74,
+"end": 1.0,
+"part": 1
+},
+{
+"text": "free",
+"start": 1.0,
+"end": 1.22,
+"part": 1
+},
+{
+"text": "skincare",
+"start": 1.22,
+"end": 1.8,
+"part": 1
+},
+{
+"text": "sample",
+"start": 1.8,
+"end": 2.14,
+"part": 1
+},
+{
+"text": "at",
+"start": 2.14,
+"end": 2.34,
+"part": 1
+},
+{
+"text": "the",
+"start": 2.34,
+"end": 2.52,
+"part": 1
+},
+{
+"text": "mall.",
+"start": 2.52,
+"end": 2.8,
+"part": 1
+},
+{
+"text": "You've",
+"start": 3.22,
+"end": 3.46,
+"part": 1
+},
+{
+"text": "walked",
+"start": 3.46,
+"end": 3.58,
+"part": 1
+},
+{
+"text": "past",
+"start": 3.58,
+"end": 3.88,
+"part": 1
+},
+{
+"text": "these",
+"start": 3.88,
+"end": 4.14,
+"part": 1
+},
+{
+"text": "kiosks",
+"start": 4.14,
+"end": 4.7,
+"part": 1
+},
+{
+"text": "a",
+"start": 4.7,
+"end": 5.06,
+"part": 1
+},
+{
+"text": "hundred",
+"start": 5.06,
+"end": 5.34,
+"part": 1
+},
+{
+"text": "times.",
+"start": 5.34,
+"end": 5.9,
+"part": 1
+},
+{
+"text": "In",
+"start": 6.44,
+"end": 6.5,
+"part": 1
+},
+{
+"text": "Ann",
+"start": 6.5,
+"end": 6.82,
+"part": 1
+},
+{
+"text": "Arbor,",
+"start": 6.82,
+"end": 6.98,
+"part": 1
+},
+{
+"text": "Michigan,",
+"start": 7.14,
+"end": 7.44,
+"part": 1
+},
+{
+"text": "one",
+"start": 7.9,
+"end": 8.0,
+"part": 1
+},
+{
+"text": "woman",
+"start": 8.0,
+"end": 8.28,
+"part": 1
+},
+{
+"text": "walked",
+"start": 8.28,
+"end": 8.6,
+"part": 1
+},
+{
+"text": "out",
+"start": 8.6,
+"end": 8.78,
+"part": 1
+},
+{
+"text": "of",
+"start": 8.78,
+"end": 8.86,
+"part": 1
+},
+{
+"text": "a",
+"start": 8.86,
+"end": 9.02,
+"part": 1
+},
+{
+"text": "store",
+"start": 9.02,
+"end": 9.22,
+"part": 1
+},
+{
+"text": "like",
+"start": 9.22,
+"end": 9.46,
+"part": 1
+},
+{
+"text": "this",
+"start": 9.46,
+"end": 9.74,
+"part": 1
+},
+{
+"text": "with",
+"start": 9.74,
+"end": 9.98,
+"part": 1
+},
+{
+"text": "$5",
+"start": 9.98,
+"end": 10.46,
+"part": 1
+},
+{
+"text": ",000",
+"start": 10.46,
+"end": 11.18,
+"part": 1
+},
+{
+"text": "of",
+"start": 11.18,
+"end": 11.68,
+"part": 1
+},
+{
+"text": "skincare",
+"start": 11.68,
+"end": 12.22,
+"part": 1
+},
+{
+"text": "she",
+"start": 12.22,
+"end": 12.48,
+"part": 1
+},
+{
+"text": "never",
+"start": 12.48,
+"end": 12.92,
+"part": 1
+},
+{
+"text": "wanted.",
+"start": 12.92,
+"end": 13.4,
+"part": 1
+},
+{
+"text": "And",
+"start": 13.8,
+"end": 13.94,
+"part": 1
+},
+{
+"text": "honestly,",
+"start": 13.94,
+"end": 14.34,
+"part": 1
+},
+{
+"text": "she",
+"start": 14.7,
+"end": 14.98,
+"part": 1
+},
+{
+"text": "got",
+"start": 14.98,
+"end": 15.16,
+"part": 1
+},
+{
+"text": "off",
+"start": 15.16,
+"end": 15.4,
+"part": 1
+},
+{
+"text": "easy.",
+"start": 15.4,
+"end": 15.76,
+"part": 1
+},
+{
+"text": "Also",
+"start": 17.18,
+"end": 17.5,
+"part": 1
+},
+{
+"text": "in",
+"start": 17.5,
+"end": 17.7,
+"part": 1
+},
+{
+"text": "Michigan,",
+"start": 17.7,
+"end": 18.1,
+"part": 1
+},
+{
+"text": "an",
+"start": 18.38,
+"end": 18.52,
+"part": 1
+},
+{
+"text": "elderly",
+"start": 18.52,
+"end": 18.88,
+"part": 1
+},
+{
+"text": "man",
+"start": 18.88,
+"end": 19.18,
+"part": 1
+},
+{
+"text": "with",
+"start": 19.18,
+"end": 19.42,
+"part": 1
+},
+{
+"text": "dementia",
+"start": 19.42,
+"end": 19.88,
+"part": 1
+},
+{
+"text": "was",
+"start": 19.88,
+"end": 20.22,
+"part": 1
+},
+{
+"text": "charged",
+"start": 20.22,
+"end": 20.6,
+"part": 1
+},
+{
+"text": "$42",
+"start": 20.6,
+"end": 21.32,
+"part": 1
+},
+{
+"text": ",000",
+"start": 21.32,
+"end": 22.16,
+"part": 1
+},
+{
+"text": "for",
+"start": 22.16,
+"end": 22.66,
+"part": 1
+},
+{
+"text": "skincare.",
+"start": 22.66,
+"end": 23.32,
+"part": 1
+},
+{
+"text": "His",
+"start": 23.62,
+"end": 23.8,
+"part": 1
+},
+{
+"text": "family",
+"start": 23.8,
+"end": 24.12,
+"part": 1
+},
+{
+"text": "only",
+"start": 24.12,
+"end": 24.36,
+"part": 1
+},
+{
+"text": "found",
+"start": 24.36,
+"end": 24.7,
+"part": 1
+},
+{
+"text": "out",
+"start": 24.7,
+"end": 25.0,
+"part": 1
+},
+{
+"text": "when",
+"start": 25.0,
+"end": 25.14,
+"part": 1
+},
+{
+"text": "his",
+"start": 25.14,
+"end": 25.34,
+"part": 1
+},
+{
+"text": "credit",
+"start": 25.34,
+"end": 25.6,
+"part": 1
+},
+{
+"text": "score",
+"start": 25.6,
+"end": 25.92,
+"part": 1
+},
+{
+"text": "dropped.",
+"start": 25.92,
+"end": 26.36,
+"part": 1
+},
+{
+"text": "In",
+"start": 26.36,
+"end": 27.22,
+"part": 1
+},
+{
+"text": "Santa",
+"start": 27.22,
+"end": 27.52,
+"part": 1
+},
+{
+"text": "Fe,",
+"start": 27.52,
+"end": 27.86,
+"part": 1
+},
+{
+"text": "a",
+"start": 28.12,
+"end": 28.32,
+"part": 1
+},
+{
+"text": "67",
+"start": 28.32,
+"end": 28.84,
+"part": 1
+},
+{
+"text": "-year",
+"start": 28.84,
+"end": 29.1,
+"part": 1
+},
+{
+"text": "-old",
+"start": 29.1,
+"end": 29.28,
+"part": 1
+},
+{
+"text": "woman",
+"start": 29.28,
+"end": 29.58,
+"part": 1
+},
+{
+"text": "was",
+"start": 29.58,
+"end": 29.8,
+"part": 1
+},
+{
+"text": "kept",
+"start": 29.8,
+"end": 30.06,
+"part": 1
+},
+{
+"text": "in",
+"start": 30.06,
+"end": 30.24,
+"part": 1
+},
+{
+"text": "a",
+"start": 30.24,
+"end": 30.44,
+"part": 1
+},
+{
+"text": "store",
+"start": 30.44,
+"end": 30.64,
+"part": 1
+},
+{
+"text": "for",
+"start": 30.64,
+"end": 30.88,
+"part": 1
+},
+{
+"text": "hours",
+"start": 30.88,
+"end": 31.46,
+"part": 1
+},
+{
+"text": "until",
+"start": 31.46,
+"end": 31.8,
+"part": 1
+},
+{
+"text": "she",
+"start": 31.8,
+"end": 32.06,
+"part": 1
+},
+{
+"text": "agreed",
+"start": 32.06,
+"end": 32.32,
+"part": 1
+},
+{
+"text": "to",
+"start": 32.32,
+"end": 32.56,
+"part": 1
+},
+{
+"text": "spend",
+"start": 32.56,
+"end": 32.8,
+"part": 1
+},
+{
+"text": "$600.",
+"start": 32.8,
+"end": 33.62,
+"part": 1
+},
+{
+"text": "Later,",
+"start": 34.6,
+"end": 34.96,
+"part": 1
+},
+{
+"text": "her",
+"start": 35.28,
+"end": 35.38,
+"part": 1
+},
+{
+"text": "banking",
+"start": 35.38,
+"end": 35.76,
+"part": 1
+},
+{
+"text": "app",
+"start": 35.76,
+"end": 36.02,
+"part": 1
+},
+{
+"text": "showed",
+"start": 36.02,
+"end": 36.3,
+"part": 1
+},
+{
+"text": "two",
+"start": 36.3,
+"end": 36.64,
+"part": 1
+},
+{
+"text": "charges,",
+"start": 36.64,
+"end": 37.22,
+"part": 1
+},
+{
+"text": "$44",
+"start": 38.06,
+"end": 38.12,
+"part": 1
+},
+{
+"text": ",280.",
+"start": 38.12,
+"end": 39.6,
+"part": 1
+},
+{
+"text": "NPR",
+"start": 40.54,
+"end": 40.96,
+"part": 1
+},
+{
+"text": "spent",
+"start": 40.96,
+"end": 41.34,
+"part": 1
+},
+{
+"text": "a",
+"start": 41.34,
+"end": 41.74,
+"part": 1
+},
+{
+"text": "year",
+"start": 41.74,
+"end": 41.96,
+"part": 1
+},
+{
+"text": "on",
+"start": 41.96,
+"end": 42.28,
+"part": 1
+},
+{
+"text": "stories",
+"start": 42.28,
+"end": 42.6,
+"part": 1
+},
+{
+"text": "like",
+"start": 42.6,
+"end": 42.86,
+"part": 1
+},
+{
+"text": "these.",
+"start": 42.86,
+"end": 43.26,
+"part": 1
+},
+{
+"text": "More",
+"start": 43.58,
+"end": 43.72,
+"part": 1
+},
+{
+"text": "than",
+"start": 43.72,
+"end": 43.96,
+"part": 1
+},
+{
+"text": "50",
+"start": 43.96,
+"end": 44.4,
+"part": 1
+},
+{
+"text": "people,",
+"start": 44.4,
+"end": 44.88,
+"part": 1
+},
+{
+"text": "nearly",
+"start": 45.18,
+"end": 45.4,
+"part": 1
+},
+{
+"text": "500",
+"start": 45.4,
+"end": 46.1,
+"part": 1
+},
+{
+"text": "complaints,",
+"start": 46.1,
+"end": 46.96,
+"part": 1
+},
+{
+"text": "and",
+"start": 47.3,
+"end": 47.58,
+"part": 1
+},
+{
+"text": "the",
+"start": 47.58,
+"end": 47.8,
+"part": 1
+},
+{
+"text": "trail",
+"start": 47.8,
+"end": 48.06,
+"part": 1
+},
+{
+"text": "kept",
+"start": 48.06,
+"end": 48.46,
+"part": 1
+},
+{
+"text": "pointing",
+"start": 48.46,
+"end": 48.84,
+"part": 1
+},
+{
+"text": "to",
+"start": 48.84,
+"end": 49.14,
+"part": 1
+},
+{
+"text": "one",
+"start": 49.14,
+"end": 49.46,
+"part": 1
+},
+{
+"text": "company.",
+"start": 49.46,
+"end": 49.92,
+"part": 1
+},
+{
+"text": "So",
+"start": 50.64,
+"end": 50.82,
+"part": 1
+},
+{
+"text": "how",
+"start": 50.82,
+"end": 51.18,
+"part": 1
+},
+{
+"text": "does",
+"start": 51.18,
+"end": 51.36,
+"part": 1
+},
+{
+"text": "a",
+"start": 51.36,
+"end": 51.64,
+"part": 1
+},
+{
+"text": "free",
+"start": 51.64,
+"end": 51.8,
+"part": 1
+},
+{
+"text": "sample",
+"start": 51.8,
+"end": 52.28,
+"part": 1
+},
+{
+"text": "turn",
+"start": 52.28,
+"end": 52.56,
+"part": 1
+},
+{
+"text": "into",
+"start": 52.56,
+"end": 52.82,
+"part": 1
+},
+{
+"text": "a",
+"start": 52.82,
+"end": 53.08,
+"part": 1
+},
+{
+"text": "$5",
+"start": 53.08,
+"end": 53.34,
+"part": 1
+},
+{
+"text": ",000",
+"start": 53.34,
+"end": 53.92,
+"part": 1
+},
+{
+"text": "bill?",
+"start": 53.92,
+"end": 54.42,
+"part": 1
+},
+{
+"text": "And,",
+"start": 54.42,
+"end": 55.02,
+"part": 1
+},
+{
+"text": "if",
+"start": 55.2,
+"end": 55.32,
+"part": 1
+},
+{
+"text": "federal",
+"start": 55.32,
+"end": 55.66,
+"part": 1
+},
+{
+"text": "agents",
+"start": 55.66,
+"end": 56.1,
+"part": 1
+},
+{
+"text": "documented",
+"start": 56.1,
+"end": 56.66,
+"part": 1
+},
+{
+"text": "a",
+"start": 56.66,
+"end": 56.94,
+"part": 1
+},
+{
+"text": "credit",
+"start": 56.94,
+"end": 57.12,
+"part": 1
+},
+{
+"text": "card",
+"start": 57.12,
+"end": 57.38,
+"part": 1
+},
+{
+"text": "overcharge",
+"start": 57.38,
+"end": 58.02,
+"part": 1
+},
+{
+"text": "scheme",
+"start": 58.02,
+"end": 58.34,
+"part": 1
+},
+{
+"text": "back",
+"start": 58.34,
+"end": 58.56,
+"part": 1
+},
+{
+"text": "in",
+"start": 58.56,
+"end": 58.8,
+"part": 1
+},
+{
+"text": "2013,",
+"start": 58.8,
+"end": 59.42,
+"part": 1
+},
+{
+"text": "why",
+"start": 60.02,
+"end": 60.16,
+"part": 1
+},
+{
+"text": "is",
+"start": 60.16,
+"end": 60.34,
+"part": 1
+},
+{
+"text": "the",
+"start": 60.34,
+"end": 60.54,
+"part": 1
+},
+{
+"text": "same",
+"start": 60.54,
+"end": 60.84,
+"part": 1
+},
+{
+"text": "business",
+"start": 60.84,
+"end": 61.26,
+"part": 1
+},
+{
+"text": "model",
+"start": 61.26,
+"end": 61.58,
+"part": 1
+},
+{
+"text": "still",
+"start": 61.58,
+"end": 61.96,
+"part": 1
+},
+{
+"text": "running",
+"start": 61.96,
+"end": 62.3,
+"part": 1
+},
+{
+"text": "today?",
+"start": 62.3,
+"end": 62.7,
+"part": 1
+},
+{
+"text": "The",
+"start": 63.48,
+"end": 63.6,
+"part": 1
+},
+{
+"text": "woman",
+"start": 63.6,
+"end": 63.82,
+"part": 1
+},
+{
+"text": "with",
+"start": 63.82,
+"end": 64.04,
+"part": 1
+},
+{
+"text": "the",
+"start": 64.04,
+"end": 64.24,
+"part": 1
+},
+{
+"text": "$5",
+"start": 64.24,
+"end": 64.54,
+"part": 1
+},
+{
+"text": ",000",
+"start": 64.54,
+"end": 64.88,
+"part": 1
+},
+{
+"text": "has",
+"start": 64.88,
+"end": 65.44,
+"part": 1
+},
+{
+"text": "a",
+"start": 65.44,
+"end": 65.68,
+"part": 1
+},
+{
+"text": "daughter,",
+"start": 65.68,
+"end": 65.98,
+"part": 1
+},
+{
+"text": "Michelle",
+"start": 66.4,
+"end": 66.7,
+"part": 1
+},
+{
+"text": "Anlicker.",
+"start": 66.7,
+"end": 67.24,
+"part": 1
+},
+{
+"text": "And",
+"start": 67.7,
+"end": 67.84,
+"part": 1
+},
+{
+"text": "Michelle",
+"start": 67.84,
+"end": 68.26,
+"part": 1
+},
+{
+"text": "was",
+"start": 68.26,
+"end": 68.6,
+"part": 1
+},
+{
+"text": "not",
+"start": 68.6,
+"end": 69.0,
+"part": 1
+},
+{
+"text": "going",
+"start": 69.0,
+"end": 69.26,
+"part": 1
+},
+{
+"text": "to",
+"start": 69.26,
+"end": 69.42,
+"part": 1
+},
+{
+"text": "let",
+"start": 69.42,
+"end": 69.56,
+"part": 1
+},
+{
+"text": "this",
+"start": 69.56,
+"end": 69.78,
+"part": 1
+},
+{
+"text": "go.",
+"start": 69.78,
+"end": 70.18,
+"part": 1
+},
+{
+"text": "Christmas,",
+"start": 70.86,
+"end": 71.28,
+"part": 1
+},
+{
+"text": "2024,",
+"start": 71.72,
+"end": 72.46,
+"part": 1
+},
+{
+"text": "Briarwood",
+"start": 73.04,
+"end": 73.46,
+"part": 1
+},
+{
+"text": "Mall.",
+"start": 73.46,
+"end": 73.78,
+"part": 1
+},
+{
+"text": "A",
+"start": 74.22,
+"end": 74.36,
+"part": 1
+},
+{
+"text": "store",
+"start": 74.36,
+"end": 74.62,
+"part": 1
+},
+{
+"text": "called",
+"start": 74.62,
+"end": 75.0,
+"part": 1
+},
+{
+"text": "Beauty",
+"start": 75.0,
+"end": 75.36,
+"part": 1
+},
+{
+"text": "Essentials.",
+"start": 75.36,
+"end": 76.0,
+"part": 1
+},
+{
+"text": "Her",
+"start": 76.5,
+"end": 76.68,
+"part": 1
+},
+{
+"text": "mother",
+"start": 76.68,
+"end": 76.88,
+"part": 1
+},
+{
+"text": "left",
+"start": 76.88,
+"end": 77.18,
+"part": 1
+},
+{
+"text": "with",
+"start": 77.18,
+"end": 77.42,
+"part": 1
+},
+{
+"text": "$5",
+"start": 77.42,
+"end": 77.86,
+"part": 1
+},
+{
+"text": ",000",
+"start": 77.86,
+"end": 78.7,
+"part": 1
+},
+{
+"text": "of",
+"start": 78.7,
+"end": 79.0,
+"part": 1
+},
+{
+"text": "Voupre",
+"start": 79.0,
+"end": 79.3,
+"part": 1
+},
+{
+"text": "products.",
+"start": 79.3,
+"end": 79.92,
+"part": 1
+},
+{
+"text": "Remember",
+"start": 80.32,
+"end": 80.74,
+"part": 1
+},
+{
+"text": "that",
+"start": 80.74,
+"end": 81.0,
+"part": 1
+},
+{
+"text": "name.",
+"start": 81.0,
+"end": 81.34,
+"part": 1
+},
+{
+"text": "When",
+"start": 81.34,
+"end": 81.96,
+"part": 1
+},
+{
+"text": "Michelle",
+"start": 81.96,
+"end": 82.28,
+"part": 1
+},
+{
+"text": "went",
+"start": 82.28,
+"end": 82.52,
+"part": 1
+},
+{
+"text": "back",
+"start": 82.52,
+"end": 82.72,
+"part": 1
+},
+{
+"text": "to",
+"start": 82.72,
+"end": 82.9,
+"part": 1
+},
+{
+"text": "sort",
+"start": 82.9,
+"end": 83.1,
+"part": 1
+},
+{
+"text": "it",
+"start": 83.1,
+"end": 83.26,
+"part": 1
+},
+{
+"text": "out,",
+"start": 83.26,
+"end": 83.52,
+"part": 1
+},
+{
+"text": "the",
+"start": 83.74,
+"end": 83.84,
+"part": 1
+},
+{
+"text": "staff",
+"start": 83.84,
+"end": 84.18,
+"part": 1
+},
+{
+"text": "had",
+"start": 84.18,
+"end": 84.4,
+"part": 1
+},
+{
+"text": "an",
+"start": 84.4,
+"end": 84.56,
+"part": 1
+},
+{
+"text": "explanation",
+"start": 84.56,
+"end": 85.08,
+"part": 1
+},
+{
+"text": "ready.",
+"start": 85.08,
+"end": 85.42,
+"part": 1
+},
+{
+"text": "They",
+"start": 85.84,
+"end": 86.06,
+"part": 1
+},
+{
+"text": "accused",
+"start": 86.06,
+"end": 86.5,
+"part": 1
+},
+{
+"text": "her",
+"start": 86.5,
+"end": 86.7,
+"part": 1
+},
+{
+"text": "mother",
+"start": 86.7,
+"end": 87.08,
+"part": 1
+},
+{
+"text": "of",
+"start": 87.08,
+"end": 87.4,
+"part": 1
+},
+{
+"text": "stealing.",
+"start": 87.4,
+"end": 87.98,
+"part": 1
+},
+{
+"text": "Merry",
+"start": 89.14,
+"end": 89.4,
+"part": 1
+},
+{
+"text": "Christmas!",
+"start": 89.4,
+"end": 89.84,
+"part": 1
+}
+]
