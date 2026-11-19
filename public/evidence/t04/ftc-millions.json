@@ -1,0 +1,23 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "ftc.gov",
+ "frame": "paper",
+ "finds": {
+  "hundreds of": [
+   1260,
+   1198,
+   177,
+   35
+  ],
+  "routinely doubles the initially advertised price.": [
+   745,
+   1658,
+   635,
+   42
+  ]
+ }
+}

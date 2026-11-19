@@ -1,0 +1,17 @@
+{
+ "size": [
+  1920,
+  951
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "lens.com",
+ "frame": "shot",
+ "finds": {
+  "Continue": [
+   1194,
+   622,
+   450,
+   68
+  ]
+ }
+}

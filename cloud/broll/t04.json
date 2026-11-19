@@ -1,0 +1,237 @@
+{
+ "out": "public/broll/t04",
+ "sheet": "public/research/t04-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "01-laptop-night-shop",
+   "id": 7988266,
+   "url": "https://videos.pexels.com/video-files/7988266/7988266-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "02-hacker-hoodie",
+   "id": 32829629,
+   "url": "https://videos.pexels.com/video-files/32829629/13993517_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "03-glitch",
+   "id": 8478590,
+   "url": "https://videos.pexels.com/video-files/8478590/8478590-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "04-times-square",
+   "id": 6025488,
+   "url": "https://videos.pexels.com/video-files/6025488/6025488-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "05-eye-closeup",
+   "id": 4061841,
+   "url": "https://videos.pexels.com/video-files/4061841/4061841-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "06-magnifier-bill",
+   "id": 1797018,
+   "url": "https://videos.pexels.com/video-files/1797018/1797018-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "07-google-search",
+   "id": 18839549,
+   "url": "https://videos.pexels.com/video-files/18839549/18839549-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "08-hands-shop-laptop",
+   "id": 6609086,
+   "url": "https://videos.pexels.com/video-files/6609086/6609086-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "09-eye-exam",
+   "id": 5241181,
+   "url": "https://videos.pexels.com/video-files/5241181/5241181-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "10-lens-eyechart",
+   "id": 5995133,
+   "url": "https://videos.pexels.com/video-files/5995133/5995133-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "11-typing-lowlight",
+   "id": 5281595,
+   "url": "https://videos.pexels.com/video-files/5281595/5281595-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "12-trackpad",
+   "id": 7313678,
+   "url": "https://videos.pexels.com/video-files/7313678/7313678-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "13-card-laptop",
+   "id": 6994764,
+   "url": "https://videos.pexels.com/video-files/6994764/6994764-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "14-vhs-rewind",
+   "id": 855908,
+   "url": "https://videos.pexels.com/video-files/855908/855908-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "15-envelope-seal",
+   "id": 5916730,
+   "url": "https://videos.pexels.com/video-files/5916730/5916730-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "16-calendar-write",
+   "id": 9057574,
+   "url": "https://videos.pexels.com/video-files/9057574/9057574-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "17-calculator-docs",
+   "id": 6963487,
+   "url": "https://videos.pexels.com/video-files/6963487/6963487-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "18-tax-form",
+   "id": 6964256,
+   "url": "https://videos.pexels.com/video-files/6964256/6964256-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "19-calc-taxform",
+   "id": 6962710,
+   "url": "https://videos.pexels.com/video-files/6962710/6962710-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "20-call-center",
+   "id": 8865706,
+   "url": "https://videos.pexels.com/video-files/8865706/8865706-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "21-agent-headset",
+   "id": 7661524,
+   "url": "https://videos.pexels.com/video-files/7661524/7661524-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "22-frustrated-laptop",
+   "id": 5981187,
+   "url": "https://videos.pexels.com/video-files/5981187/5981187-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "23-shocked-man",
+   "id": 4954375,
+   "url": "https://videos.pexels.com/video-files/4954375/4954375-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "24-man-glasses-shock",
+   "id": 6290467,
+   "url": "https://videos.pexels.com/video-files/6290467/6290467-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "25-email-typing",
+   "id": 6183189,
+   "url": "https://videos.pexels.com/video-files/6183189/6183189-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "26-presentation",
+   "id": 9034418,
+   "url": "https://videos.pexels.com/video-files/9034418/9034418-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "27-office-night",
+   "id": 7317314,
+   "url": "https://videos.pexels.com/video-files/7317314/7317314-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "28-courthouse",
+   "id": 40903701,
+   "url": "https://videos.pexels.com/video-files/40903701/17486538_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "29-gavel",
+   "id": 6699964,
+   "url": "https://videos.pexels.com/video-files/6699964/6699964-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "30-judge-verdict",
+   "id": 6101343,
+   "url": "https://videos.pexels.com/video-files/6101343/6101343-hd_2048_1080_30fps.mp4"
+  },
+  {
+   "name": "31-lawyers",
+   "id": 4480390,
+   "url": "https://videos.pexels.com/video-files/4480390/4480390-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "32-money-counter",
+   "id": 5909916,
+   "url": "https://videos.pexels.com/video-files/5909916/5909916-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "33-packages-door",
+   "id": 7362618,
+   "url": "https://videos.pexels.com/video-files/7362618/7362618-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "34-phone-impatient",
+   "id": 7346555,
+   "url": "https://videos.pexels.com/video-files/7346555/7346555-uhd_1920_1440_25fps.mp4"
+  },
+  {
+   "name": "35-phone-scroll-shop",
+   "id": 5700371,
+   "url": "https://videos.pexels.com/video-files/5700371/5700371-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "36-couple-bills-phone",
+   "id": 6962701,
+   "url": "https://videos.pexels.com/video-files/6962701/6962701-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "37-eyeglasses-chart",
+   "id": 5995502,
+   "url": "https://videos.pexels.com/video-files/5995502/5995502-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "38-detective-board",
+   "id": 6100411,
+   "url": "https://videos.pexels.com/video-files/6100411/6100411-hd_2048_1080_30fps.mp4"
+  },
+  {
+   "name": "39-detectives-docs",
+   "id": 8371026,
+   "url": "https://videos.pexels.com/video-files/8371026/8371026-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "40-button-press",
+   "id": 4207976,
+   "url": "https://videos.pexels.com/video-files/4207976/4207976-hd_2048_1080_24fps.mp4"
+  },
+  {
+   "name": "41-man-confused",
+   "id": 11194553,
+   "url": "https://videos.pexels.com/video-files/11194553/11194553-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "42-eye-drops",
+   "id": 6658290,
+   "url": "https://videos.pexels.com/video-files/6658290/6658290-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "43-woman-receipts",
+   "id": 5981293,
+   "url": "https://videos.pexels.com/video-files/5981293/5981293-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "44-eye-exam-girl",
+   "id": 5995136,
+   "url": "https://videos.pexels.com/video-files/5995136/5995136-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "45-facepalm",
+   "id": 6962334,
+   "url": "https://videos.pexels.com/video-files/6962334/6962334-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "46-card-tablet",
+   "id": 4872891,
+   "url": "https://videos.pexels.com/video-files/4872891/4872891-hd_1920_1080_25fps.mp4"
+  }
+ ]
+}

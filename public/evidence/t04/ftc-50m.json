@@ -1,0 +1,17 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "ftc.gov",
+ "frame": "paper",
+ "finds": {
+  "Nearly 50 million Americans wear contact lenses": [
+   392,
+   508,
+   670,
+   42
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "size": [
+  1920,
+  648
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "lens.com",
+ "frame": "shot",
+ "finds": {
+  "NO HIDDEN FEES": [
+   1153,
+   423,
+   276,
+   94
+  ]
+ }
+}

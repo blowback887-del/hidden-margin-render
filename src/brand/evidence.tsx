@@ -34,7 +34,7 @@ const BrowserBar: React.FC<{ w: number; url?: string }> = ({ w, url }) => {
  */
 export const Evidence: React.FC<{
   src: string; size: [number, number]; dur: number; marks?: Mark[]; focus?: Box; zoom?: number;
-  frame?: "paper" | "screen"; url?: string; source?: string; color?: string;
+  frame?: "paper" | "screen" | "shot"; url?: string; source?: string; color?: string;
   /** уменьшенный общий план в углу, пока камера у строки (урок T02): верх статьи (шапка + фото) или сама страница документа */
   inset?: { src: string; size: [number, number] } | true;
 }> = ({ src, size, dur, marks = [], focus, zoom, frame = "paper", url, source, color = "rgba(255,209,102,.62)", inset }) => {
@@ -50,7 +50,7 @@ export const Evidence: React.FC<{
   // если строка высоко — держим и полосу браузера; если низко (полоса съела бы весь наезд) — наезжаем, а шапку статьи даёт inset
   const sBar = box ? 1080 / (box.y + box.h + bar + 90) : s0;
   const keepBar = frame === "screen" && sBar >= s0 * 1.5;
-  if (box && frame === "screen") s1 = Math.max(s0, Math.min(s1, 1920 / (box.w + 360), keepBar ? sBar : 99));
+  if (box && frame !== "paper") s1 = Math.max(s0, Math.min(s1, 1920 / (box.w + 360), keepBar ? sBar : 99));
   const firstAt = marks.length ? Math.min(...marks.map((m) => m.at)) : 1.6;
   const spotMarks = marks.filter((m) => m.spot !== false);
   const spotBox = spotMarks.length ? spotMarks.reduce<Box>((a, m) => ({ x: Math.min(a.x, m.x), y: Math.min(a.y, m.y), w: Math.max(a.x + a.w, m.x + m.w) - Math.min(a.x, m.x), h: Math.max(a.y + a.h, m.y + m.h) - Math.min(a.y, m.y) }), spotMarks[0]) : null;
@@ -69,7 +69,7 @@ export const Evidence: React.FC<{
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 0, top: 0, width: W, height: H, transformOrigin: "0 0", transform: `translate(${960 - cx * s}px, ${540 - cy * s}px) scale(${s})` }}>
         {frame === "screen" && <BrowserBar w={W} url={url} />}
-        <Img src={staticFile(src)} style={{ position: "absolute", left: 0, top: 0, width: W, height: H, borderRadius: frame === "screen" ? `0 0 ${W * 0.008}px ${W * 0.008}px` : 2, boxShadow: frame === "paper" ? "0 2px 0 #d9d2c3, 0 4px 0 #cfc7b6, 0 40px 120px rgba(0,0,0,.65)" : "0 30px 120px rgba(0,0,0,.6)" }} />
+        <Img src={staticFile(src)} style={{ position: "absolute", left: 0, top: 0, width: W, height: H, borderRadius: frame === "screen" ? `0 0 ${W * 0.008}px ${W * 0.008}px` : frame === "shot" ? W * 0.006 : 2, boxShadow: frame === "paper" ? "0 2px 0 #d9d2c3, 0 4px 0 #cfc7b6, 0 40px 120px rgba(0,0,0,.65)" : "0 30px 120px rgba(0,0,0,.6)" }} />
         {frame === "paper" && <PaperGrain w={W} h={H} />}
         {spotBox && (() => {
           const kk = p(firstAt, firstAt + 0.45, Easing.out(Easing.cubic));

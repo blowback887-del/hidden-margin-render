@@ -1,0 +1,23 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "ftc.gov",
+ "frame": "paper",
+ "finds": {
+  "Alaska, Delaware, Montana, New Hampshire, and": [
+   710,
+   1505,
+   686,
+   42
+  ],
+  "Virginia, Florida, and New Jersey.": [
+   874,
+   1735,
+   468,
+   42
+  ]
+ }
+}

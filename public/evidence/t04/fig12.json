@@ -1,0 +1,35 @@
+{
+ "size": [
+  1920,
+  956
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "lens.com",
+ "frame": "shot",
+ "finds": {
+  "$649.71": [
+   1613,
+   629,
+   77,
+   25
+  ],
+  "Order Summary": [
+   1253,
+   378,
+   238,
+   42
+  ],
+  "Submit Order": [
+   36,
+   278,
+   229,
+   39
+  ],
+  "$429.71": [
+   1606,
+   722,
+   92,
+   40
+  ]
+ }
+}

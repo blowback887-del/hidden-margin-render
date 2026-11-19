@@ -1,0 +1,29 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "ftc.gov",
+ "frame": "paper",
+ "finds": {
+  "We are not charging": [
+   1177,
+   296,
+   297,
+   42
+  ],
+  "customers sales taxes or state taxes,": [
+   633,
+   335,
+   489,
+   40
+  ],
+  "we are unable to change the amount": [
+   963,
+   939,
+   494,
+   42
+  ]
+ }
+}

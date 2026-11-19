@@ -1,0 +1,23 @@
+{
+ "size": [
+  1920,
+  719
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "lens.com",
+ "frame": "shot",
+ "finds": {
+  "tax recovery charges": [
+   182,
+   135,
+   351,
+   47
+  ],
+  "Taxes & fees": [
+   250,
+   32,
+   337,
+   50
+  ]
+ }
+}

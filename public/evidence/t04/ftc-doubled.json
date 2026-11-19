@@ -1,0 +1,29 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "ftc.gov",
+ "frame": "paper",
+ "finds": {
+  "It doubled the price of my order.": [
+   928,
+   930,
+   445,
+   42
+  ],
+  "but they are not": [
+   1242,
+   1122,
+   224,
+   42
+  ],
+  "hidden and they are shown within": [
+   633,
+   1160,
+   466,
+   42
+  ]
+ }
+}

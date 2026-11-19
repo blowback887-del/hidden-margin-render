@@ -1,0 +1,23 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "ftc.gov",
+ "frame": "paper",
+ "finds": {
+  "taxes and fees for $241.92,": [
+   682,
+   718,
+   372,
+   41
+  ],
+  "contact lens [sic] are exempt from sales tax in": [
+   802,
+   1076,
+   648,
+   42
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "ftc.gov",
+ "frame": "paper",
+ "finds": {
+  "As early as August 31, 2022,": [
+   392,
+   781,
+   399,
+   42
+  ],
+  "scrolled down below the red": [
+   193,
+   1088,
+   392,
+   35
+  ],
+  "Current Checkout Process": [
+   471,
+   1011,
+   392,
+   36
+  ],
+  "have not materially changed": [
+   1110,
+   1548,
+   391,
+   42
+  ]
+ }
+}
