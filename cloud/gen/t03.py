@@ -143,9 +143,8 @@ dict(start="Dollar General says occasional", tag=C2, stock=K("dg-remodel"), dim=
 <Source6 at={0.4}>Dollar General statement, via Fortune · Oct 28, 2026</Source6>'''),
 dict(start="It says its goal", tag=C2, sfx=[('t02-paper:0.3', '0.1')],
      el=ev("t03", "fortune-goal", marks=[("Our goal is 100% accuracy between shelf and register prices in every store", "one hundred percent accuracy")], source="Dollar General statement, via Fortune · Oct 28, 2026", inset="fortune-top")),
-dict(start="But in a court case", tag=C2, stock=K("judge-courtroom"), dim=0.5, sfx=[('ep06-scratch:0.3', '@{virtually impossible}')],
-     el='''<Center y={520}><In at={0.2} from="fade"><Plate6 at={0.2} pad="40px 64px"><Words text="“virtually impossible for a retailer to match shelf pricing and scanned pricing 100% of the time”" at={0.25} step={0.06} size={56} hl={["impossible"]} maxW={1450} /></Plate6></In></Center>
-<Source6 at={0.3}>Dollar General in a court filing, as quoted by Axios Cleveland · Dec 10, 2025</Source6>''' + ILL),
+dict(start="But in a court case", tag=C2, sfx=[('ep06-scratch:0.3', '@{virtually impossible}')],
+     el=ev("t03", "axios-virtually", marks=[("virtually impossible for a retailer to match shelf pricing and scanned pricing 100% of the time", "virtually impossible")], source="Axios Cleveland · Dec 10, 2025", inset="axios-top")),
 dict(start="Nobody asked for a hundred", tag=C2, dim=0.0, sfx=[('ep06-stamp:0.35', '@{ninety-eight}')],
      el='''<Center y={520}><Row gap={140}><In at={0.1} from="fade"><div style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 220, color: C6.ink, opacity: 0.55, textDecoration: "line-through", textDecorationColor: C6.loss, textDecorationThickness: 14 }}>100%</div></In><BigNum at={@{ninety-eight}} size={220} label="THE ACTUAL STANDARD">98%</BigNum></Row></Center>'''),
 dict(start="And if this were only", tag=C2, stock=K("clock-hands"), alt=(K("detective-docs"), "So we checked"), sfx=[('tick:0.3', '@{checked what happened}')],

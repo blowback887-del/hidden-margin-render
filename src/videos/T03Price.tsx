@@ -127,9 +127,8 @@ const BEATS: Beat[] = [
   { from: 202.74, to: 211.18, tag: [2, "The Gap"], back: null, el: (<>
 <Evidence src="evidence/t03/fortune-goal.png" size={[2880, 1800]} dur={8.44} frame="screen" marks={[{ x: 377, y: 597, w: 1094, h: 40, at: 1.3 }]} inset={{ src: "evidence/t03/fortune-top.png", size: [2880, 1800] }} source="Dollar General statement, via Fortune · Oct 28, 2026" url="fortune.com" />
 </>) },
-  { from: 211.18, to: 218.54, tag: [2, "The Gap"], back: (<><Stock6 n={50} dur={7.36} dim={0.5} graphics={true} /></>), el: (<>
-<Center y={520}><In at={0.2} from="fade"><Plate6 at={0.2} pad="40px 64px"><Words text="“virtually impossible for a retailer to match shelf pricing and scanned pricing 100% of the time”" at={0.25} step={0.06} size={56} hl={["impossible"]} maxW={1450} /></Plate6></In></Center>
-<Source6 at={0.3}>Dollar General in a court filing, as quoted by Axios Cleveland · Dec 10, 2025</Source6><div style={{ position: "absolute", right: 70, top: 56 }}><Label6 at={0} size={22} color={C6.mint}>ILLUSTRATIVE FOOTAGE</Label6></div>
+  { from: 211.18, to: 218.54, tag: [2, "The Gap"], back: null, el: (<>
+<Evidence src="evidence/t03/axios-virtually.png" size={[2880, 1800]} dur={7.36} frame="screen" marks={[{ x: 240, y: 655, w: 1558, h: 90, at: 5.4 }]} inset={{ src: "evidence/t03/axios-top.png", size: [2880, 1800] }} source="Axios Cleveland · Dec 10, 2025" url="axios.com" />
 </>) },
   { from: 218.54, to: 222.24, tag: [2, "The Gap"], back: null, el: (<>
 <Drift><Center y={520}><Row gap={140}><In at={0.1} from="fade"><div style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 220, color: C6.ink, opacity: 0.55, textDecoration: "line-through", textDecorationColor: C6.loss, textDecorationThickness: 14 }}>100%</div></In><BigNum at={2.68} size={220} label="THE ACTUAL STANDARD">98%</BigNum></Row></Center></Drift>
