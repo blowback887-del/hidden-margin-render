@@ -7,10 +7,22 @@
  "host": "ftc.gov",
  "frame": "paper",
  "finds": {
-  "Philippines": [
+  "Philippines-based call center.": [
    541,
    968,
-   252,
+   403,
+   42
+  ],
+  "is the sole owner, officer, and employee of": [
+   829,
+   1198,
+   584,
+   42
+  ],
+  "sole owner of Speed Commerce.": [
+   709,
+   1275,
+   446,
    42
   ]
  }

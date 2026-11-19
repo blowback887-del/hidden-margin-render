@@ -90,7 +90,7 @@ export const SumColumn: React.FC<{ rows: { label: string; value: string; at: num
       })}
       <div style={{ height: 4, background: C6.accent, borderRadius: 2, width: `${100 * p(total.at - 0.3, total.at)}%`, marginTop: 6 }} />
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", opacity: kt, scale: String(0.9 + 0.1 * kt), transformOrigin: "right center" }}>
-        <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 34, letterSpacing: "0.12em", color: C6.accent, textTransform: "uppercase" }}>{total.label}</div>
+        <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 28, letterSpacing: "0.12em", color: C6.accent, textTransform: "uppercase", marginRight: 30 }}>{total.label}</div>
         <div style={{ fontFamily: SERIF, fontSize: 104, color: C6.accent, lineHeight: 1 }}>{total.value}</div>
       </div>
       <div style={{ marginTop: 8 }}><Note o={p(rows[0].at, rows[0].at + 0.5)}>{note}</Note></div>
@@ -143,7 +143,7 @@ export const StatesBoard: React.FC<{ a: { st: string; at: number }[]; b: { st: s
         <div style={{ marginTop: 10 }}><Note o={p(b[0].at, b[0].at + 0.4)}>* ACCORDING TO THE FTC COMPLAINT, ¶49</Note></div>
       </div>}
       {stampAt !== undefined && (
-        <div style={{ position: "absolute", left: "50%", top: "52%", translate: "-50% -50%", rotate: "-7deg", opacity: Math.min(1, ks * 1.5), scale: String(1.6 - 0.6 * ks), padding: "14px 34px", border: `7px solid ${C6.loss}`, borderRadius: 14, color: C6.loss, background: "rgba(4,30,38,.7)", fontFamily: SANS, fontWeight: 900, fontSize: 58, letterSpacing: "0.06em", whiteSpace: "nowrap" }}>“TAXES &amp; FEES” CHARGED ANYWAY</div>
+        <div style={{ position: "absolute", left: "50%", top: "104%", translate: "-50% -50%", rotate: "-4deg", opacity: Math.min(1, ks * 1.5), scale: String(1.6 - 0.6 * ks), padding: "14px 34px", border: `7px solid ${C6.loss}`, borderRadius: 14, color: C6.loss, background: "rgba(4,30,38,.7)", fontFamily: SANS, fontWeight: 900, fontSize: 58, letterSpacing: "0.06em", whiteSpace: "nowrap" }}>“TAXES &amp; FEES” CHARGED ANYWAY</div>
       )}
     </div>
   );
@@ -155,7 +155,7 @@ export const EmailCard: React.FC<{ at: number; slideAt?: number }> = ({ at, slid
   const k = p(at, at + 0.45, easeBack);
   const ks = slideAt !== undefined ? p(slideAt, slideAt + 0.5, Easing.out(Easing.cubic)) : 0;
   return (
-    <div style={{ position: "relative", width: 1300, height: 700 }}>
+    <div style={{ position: "relative", width: 1300, height: 700, scale: "1.3" }}>
       <div style={{ position: "absolute", left: 0, top: 0, width: 900, opacity: Math.min(1, k * 1.3), scale: String(0.92 + 0.08 * k), borderRadius: 16, background: "#f7f6f2", boxShadow: "0 30px 90px rgba(0,0,0,.55)", overflow: "hidden", fontFamily: SANS, color: "#222" }}>
         <div style={{ background: "#2b3a40", color: "#fff", padding: "16px 26px", fontSize: 24, fontWeight: 700, letterSpacing: "0.06em" }}>INBOX</div>
         <div style={{ padding: "26px 34px", display: "flex", flexDirection: "column", gap: 12, fontSize: 30 }}>
@@ -271,7 +271,7 @@ export const RebateWait: React.FC<{ at: number; mailAt: number }> = ({ at, mailA
   const row = (a: string, b: string, k: number, color: string) => (
     <div style={{ opacity: Math.min(1, k * 1.4), translate: `${(1 - k) * 30}px 0`, display: "flex", justifyContent: "space-between", alignItems: "baseline", width: 980, padding: "18px 30px", borderRadius: 14, background: "rgba(4,30,38,.8)", borderLeft: `8px solid ${color}` }}>
       <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 32, letterSpacing: "0.12em", color: C6.mint, textTransform: "uppercase" }}>{a}</div>
-      <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: 70, color }}>{b}</div>
+      <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: 70, color, whiteSpace: "nowrap" }}>{b}</div>
     </div>
   );
   return (

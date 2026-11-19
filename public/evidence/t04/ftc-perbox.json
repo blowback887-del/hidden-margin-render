@@ -1,0 +1,23 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Lens.com-Complaint.pdf",
+ "host": "ftc.gov",
+ "frame": "paper",
+ "finds": {
+  "brand of contact lenses you": [
+   632,
+   203,
+   416,
+   42
+  ],
+  "per box.": [
+   632,
+   241,
+   139,
+   42
+  ]
+ }
+}
