@@ -5,6 +5,7 @@ Any direct URL works: Pexels, Pixabay, Coverr, Mixkit, Wikimedia, archive.org �
 "evidence" (17.11.2026): documents and screenshots for on-screen proof → public/evidence/<ep>/<name>.png + .json
   {"name": "ftc-order", "url": "https://...pdf", "page": 3, "find": ["junk fees", "drip pricing"]}       — PDF page at 200 dpi
   {"name": "menu", "url": "https://site/menu", "find": ["service fee"], "w": 1440, "h": 900, "hide": [".cookie"]}  — web page, 2x
+  {"name": "x", "url": "https://site/a", "html": "public/research/snap/x.html", "find": [...]}  — saved copy of a page the server can't open
   {"name": "ad", "url": "https://.../ad.jpg", "type": "image"}                                            — picture as is
 The .json holds the picture size and the box of every "find" phrase in picture pixels (cloud/gen/evid.py uses it).
 Evidence-only configs are fine: "clips" may be empty."""
@@ -86,10 +87,12 @@ if EV:
             if "_pw" not in globals():
                 from playwright.sync_api import sync_playwright
                 _pw = sync_playwright().start(); _br = _pw.chromium.launch(); _pages = {}
-            key = (e["url"], w, h, dpr)
+            # "html": копия страницы из встроенного браузера (сайт закрыт для сервера капчей/проверкой) — тот же вид, без скриптов
+            src = ("file://" + os.path.abspath(e["html"])) if e.get("html") else e["url"]
+            key = (src, w, h, dpr)
             if key not in _pages:  # одна статья — одна загрузка на все её улики (T02: 22 улики из NPR)
                 pg = _br.new_page(viewport={"width": w, "height": h}, device_scale_factor=dpr, user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36")
-                try: pg.goto(e["url"], wait_until="networkidle", timeout=25000)
+                try: pg.goto(src, wait_until="networkidle", timeout=25000)
                 except Exception as ex:  # сайты с рекламой не затихают (NPR) — берём то, что загрузилось
                     print("goto: no networkidle, continuing:", str(ex).splitlines()[0]); pg.wait_for_timeout(4000)
                 _pages[key] = pg

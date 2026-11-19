@@ -1,0 +1,48 @@
+{
+ "evidence_out": "public/evidence/t03",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "guardian-top",
+   "url": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
+   "html": "public/research/snap/t03-guardian.html"
+  },
+  {
+   "name": "guardian-4300",
+   "url": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
+   "html": "public/research/snap/t03-guardian.html",
+   "find": [
+    "Dollar General stores have failed more than 4,300 government price-accuracy inspections in 23 states since January 2022"
+   ]
+  },
+  {
+   "name": "guardian-staff",
+   "url": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
+   "html": "public/research/snap/t03-guardian.html",
+   "find": [
+    "Often there are only one or two people on duty."
+   ]
+  },
+  {
+   "name": "guardian-manual",
+   "url": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
+   "html": "public/research/snap/t03-guardian.html",
+   "find": [
+    "someone needs to remove the old labels manually and replace them with new ones"
+   ]
+  },
+  {
+   "name": "axios-top",
+   "url": "https://www.axios.com/local/cleveland/2025/12/10/ohio-overcharging-guardian-family-dollar-general",
+   "html": "public/research/snap/t03-axios.html"
+  },
+  {
+   "name": "axios-virtually",
+   "url": "https://www.axios.com/local/cleveland/2025/12/10/ohio-overcharging-guardian-family-dollar-general",
+   "html": "public/research/snap/t03-axios.html",
+   "find": [
+    "virtually impossible for a retailer to match shelf pricing and scanned pricing 100% of the time"
+   ]
+  }
+ ]
+}
