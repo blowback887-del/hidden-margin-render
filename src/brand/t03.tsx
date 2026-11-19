@@ -240,10 +240,10 @@ export const ScaleTilt: React.FC<{ at: number; tiltAt: number }> = ({ at, tiltAt
  */
 export const Drift: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { t } = useT();
-  const x = 30 + 40 * Math.sin(t * 0.18), y = 35 + 25 * Math.cos(t * 0.13);
+  const x = 30 + 45 * Math.sin(t * 0.3), y = 35 + 30 * Math.cos(t * 0.22);
   return (
     <AbsoluteFill>
-      <AbsoluteFill style={{ background: `radial-gradient(circle at ${x}% ${y}%, rgba(127,209,199,.10), rgba(127,209,199,0) 45%)`, pointerEvents: "none" }} />
+      <AbsoluteFill style={{ background: `radial-gradient(circle at ${x}% ${y}%, rgba(127,209,199,.16), rgba(127,209,199,0) 50%)`, pointerEvents: "none" }} />
       {children}
     </AbsoluteFill>
   );
