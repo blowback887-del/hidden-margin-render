@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.yahoo.com/news/articles/dollar-general-agrees-pay-15m-170034665.html",
+ "host": "yahoo.com",
+ "frame": "screen",
+ "finds": {
+  "failed more than 40% of their pricing accuracy inspections": [
+   412,
+   1473,
+   1260,
+   106
+  ],
+  "72% of items were priced inaccurately": [
+   412,
+   1665,
+   1258,
+   106
+  ]
+ }
+}

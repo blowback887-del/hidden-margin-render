@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://abc11.com/story/dollar-general-is-sued-ftc-20-states-whats-being-described-deceptive-pricing/19984515/",
+ "host": "abc11.com",
+ "frame": "screen",
+ "finds": {
+  "Dollar General is sued by the FTC and 20 states": [
+   298,
+   506,
+   1290,
+   86
+  ]
+ }
+}

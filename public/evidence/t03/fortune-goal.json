@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://fortune.com/2026/10/28/dollar-general-ftc-lawsuit-overcharging-shelf-prices/",
+ "host": "fortune.com",
+ "frame": "screen",
+ "finds": {
+  "Our goal is 100% accuracy between shelf and register prices in every store": [
+   377,
+   597,
+   1094,
+   40
+  ]
+ }
+}

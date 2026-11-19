@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+ "host": "wcpo.com",
+ "frame": "screen",
+ "finds": {
+  "Every Dollar General store in Butler County recently failed an auditor inspection": [
+   410,
+   601,
+   1231,
+   42
+  ]
+ }
+}

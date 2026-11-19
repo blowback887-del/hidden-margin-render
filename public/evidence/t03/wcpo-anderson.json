@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+ "host": "wcpo.com",
+ "frame": "screen",
+ "finds": {
+  "consumer complaint letter from a St. Clair Township resident William Anderson": [
+   410,
+   602,
+   1363,
+   102
+  ],
+  "Prices cannot be changed at the register. All prices are final.": [
+   410,
+   722,
+   1277,
+   102
+  ]
+ }
+}

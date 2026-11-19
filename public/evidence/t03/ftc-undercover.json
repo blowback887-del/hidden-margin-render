@@ -1,0 +1,17 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+ "host": "raw.githubusercontent.com",
+ "frame": "paper",
+ "finds": {
+  "Every single undercover purchase resulted in Dollar General charging more at the register": [
+   200,
+   201,
+   1283,
+   114
+  ]
+ }
+}

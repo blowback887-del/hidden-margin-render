@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.yahoo.com/news/articles/dollar-general-agrees-pay-15m-170034665.html",
+ "host": "yahoo.com",
+ "frame": "screen",
+ "finds": {
+  "putting stuff back": [
+   532,
+   797,
+   278,
+   42
+  ]
+ }
+}

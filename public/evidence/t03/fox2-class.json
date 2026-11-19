@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.fox2detroit.com/news/dollar-general-8-5m-settlement-last-day-file-claim",
+ "host": "fox2detroit.com",
+ "frame": "screen",
+ "finds": {
+  "Last day to file a claim": [
+   448,
+   710,
+   1334,
+   164
+  ]
+ }
+}

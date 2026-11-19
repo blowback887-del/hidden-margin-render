@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.supermarketnews.com/grocery-operations/dollar-general-must-donate-over-1-8m-in-food-after-overcharging",
+ "host": "supermarketnews.com",
+ "frame": "screen",
+ "finds": {
+  "Dollar General must donate $1.875 million worth of food and personal items to Foodlink": [
+   404,
+   593,
+   1282,
+   40
+  ]
+ }
+}

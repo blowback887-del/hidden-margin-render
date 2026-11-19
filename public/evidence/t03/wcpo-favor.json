@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+ "host": "wcpo.com",
+ "frame": "screen",
+ "finds": {
+  "errors were actually all in the customer": [
+   588,
+   602,
+   593,
+   42
+  ]
+ }
+}

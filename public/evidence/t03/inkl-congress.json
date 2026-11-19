@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.inkl.com/news/congress-members-investigate-dollar-store-chains-over-price-disparities",
+ "host": "inkl.com",
+ "frame": "screen",
+ "finds": {
+  "Thirty members of Congress are demanding answers": [
+   232,
+   598,
+   978,
+   164
+  ]
+ }
+}
