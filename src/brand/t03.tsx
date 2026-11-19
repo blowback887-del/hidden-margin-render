@@ -234,8 +234,17 @@ export const ScaleTilt: React.FC<{ at: number; tiltAt: number }> = ({ at, tiltAt
   );
 };
 
-/** Медленный наезд на графическую сцену без видео: в стоящем кадре есть жизнь (норма монтажа) */
+/**
+ * Жизнь в графической сцене без видео: движется только мягкий свет на ФОНЕ, текст и цифры стоят на месте.
+ * (Урок T04, Павел 19.11.2026: прежний наезд на всю сцену заставлял буквы и цифры «плавать».)
+ */
 export const Drift: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { t } = useT();
-  return <AbsoluteFill style={{ scale: String(1 + 0.007 * t) }}>{children}</AbsoluteFill>;
+  const x = 30 + 40 * Math.sin(t * 0.18), y = 35 + 25 * Math.cos(t * 0.13);
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{ background: `radial-gradient(circle at ${x}% ${y}%, rgba(127,209,199,.10), rgba(127,209,199,0) 45%)`, pointerEvents: "none" }} />
+      {children}
+    </AbsoluteFill>
+  );
 };

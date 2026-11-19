@@ -107,7 +107,7 @@ export const BoxVsFee: React.FC<{ at: number; feeAt: number; left: [string, stri
   const col = (lab: string, val: string, h: number, k: number, color: string) => (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 18, opacity: Math.min(1, k * 1.3) }}>
       <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: 92, color }}>{val}</div>
-      <div style={{ width: 230, height: h * k, background: color, borderRadius: "14px 14px 0 0", boxShadow: "0 20px 50px rgba(0,0,0,.4)" }} />
+      <div style={{ width: 230, height: h, transform: `scaleY(${k})`, transformOrigin: "bottom", background: color, borderRadius: "14px 14px 0 0", boxShadow: "0 20px 50px rgba(0,0,0,.4)" }} />
       <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 30, letterSpacing: "0.16em", color: C6.ink, textTransform: "uppercase" }}>{lab}</div>
     </div>
   );
@@ -192,7 +192,8 @@ export const OrgChart: React.FC<{ at: number; ownerAt: number; speedAt: number; 
       <div style={{ marginTop: 6, fontFamily: SANS, fontWeight: 600, fontSize: 22, letterSpacing: "0.14em", color, textTransform: "uppercase" }}>{sub}</div>
     </div>
   );
-  const line = (k: number) => <div style={{ width: 6, height: 70 * k, background: C6.mint, opacity: 0.7, borderRadius: 3, alignSelf: "center" }} />;
+  // высота линии постоянная (растёт только scaleY): иначе схема перестраивается и блоки «прыгают» (урок T04)
+  const line = (k: number) => <div style={{ width: 6, height: 70, transform: `scaleY(${k})`, transformOrigin: "top", background: C6.mint, opacity: 0.7, borderRadius: 3, alignSelf: "center" }} />;
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 0 }}>
       {box("Cary Samourkachian", "sole owner · officer · employee of Lens.com", p(ownerAt, ownerAt + 0.4, easeBack), C6.accent, 760)}

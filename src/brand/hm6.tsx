@@ -154,13 +154,14 @@ export const Source6: React.FC<{ children: React.ReactNode; at?: number }> = ({ 
 };
 
 /** Табличка главы слева сверху (держится всю сцену) */
-export const ChapterTag: React.FC<{ n: number; title: string }> = ({ n, title }) => {
+// метка главы появляется только в первой сцене главы, дальше стоит неподвижно (урок T04: прыгала на каждой склейке)
+export const ChapterTag: React.FC<{ n: number; title: string; anim?: boolean }> = ({ n, title, anim = true }) => {
   const { p } = useT();
-  const k = p(0, 0.5);
+  const k = anim ? p(0, 0.5) : 1;
   return (
     <div style={{ position: "absolute", left: 80, top: 60, display: "flex", alignItems: "center", gap: 16, opacity: k, translate: `${(1 - k) * -18}px 0` }}>
       <div style={{ fontFamily: SERIF, fontSize: 42, color: C6.accent, textShadow: shadow }}>{String(n).padStart(2, "0")}</div>
-      <div style={{ width: 36 * k, height: 2, background: C6.accent }} />
+      <div style={{ width: 36, height: 2, background: C6.accent, transform: `scaleX(${k})`, transformOrigin: "left" }} />
       <Kicker6 size={22} color={C6.ink}>{title}</Kicker6>
     </div>
   );
@@ -173,7 +174,7 @@ export const ChapterCard: React.FC<{ n: number; title: string; at?: number; labe
   return (
     <Col gap={20}>
       <div style={{ opacity: k }}><Kicker6 size={28} color={C6.accent}>{label ?? `Chapter ${n}`}</Kicker6></div>
-      <div style={{ width: 120 * k, height: 2, background: C6.accent, opacity: 0.8 }} />
+      <div style={{ width: 120, height: 2, background: C6.accent, opacity: 0.8, transform: `scaleX(${k})` }} />
       <Words text={title} at={at + 0.2} size={128} />
     </Col>
   );
@@ -366,7 +367,7 @@ export const TwoBars: React.FC<{ at: number; a: { label: string; value: string; 
       <Col gap={14}>
         <div style={{ height: h + 120, display: "flex", flexDirection: "column", justifyContent: "flex-end", alignItems: "center", gap: 12 }}>
           <div style={{ opacity: p(t0 + 0.4, t0 + 0.7) }}><Num6 color={c} size={96}>{x.value}</Num6></div>
-          <div style={{ width: 190, height: Math.max(6, (x.v / max) * h * k), borderRadius: "14px 14px 0 0", background: `linear-gradient(180deg, ${c}, ${c}99)`, boxShadow: `0 0 50px ${c}33` }} />
+          <div style={{ width: 190, height: Math.max(6, (x.v / max) * h), transform: `scaleY(${k})`, transformOrigin: "bottom", borderRadius: "14px 14px 0 0", background: `linear-gradient(180deg, ${c}, ${c}99)`, boxShadow: `0 0 50px ${c}33` }} />
         </div>
         <Kicker6 size={30} color={C6.ink}>{x.label}</Kicker6>
       </Col>

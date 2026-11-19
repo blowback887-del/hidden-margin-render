@@ -92,7 +92,8 @@ for k, sc in enumerate(S):
             t2 = float(rep(re.match(r"(.*)", ph))) if not isinstance(ph, (int, float)) else ph
             back += f'\n<Stock6 n={{{n2}}} from={{{t2}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if (sc.get("sepia") or sc.get("archive")) else ""} />'
         if sc.get("sepia") or sc.get("archive"): back += "\n<ArchiveFx />"
-    tag = f'tag: [{sc["tag"][0]}, "{sc["tag"][1]}"], ' if sc.get("tag") else ""
+    first = sc.get("tag") and (k == 0 or S[k - 1].get("tag") != sc["tag"])  # метка главы анимируется только в первой сцене главы
+    tag = f'tag: [{sc["tag"][0]}, "{sc["tag"][1]}", {"true" if first else "false"}], ' if sc.get("tag") else ""
     hard = "hard: true, " if sc.get("hard") else ""
     beats.append(f"  {{ from: {t0}, to: {t1}, {tag}{hard}back: {('(<>' + back + '</>)') if back else 'null'}, el: (<>\n{el}\n</>) }},")
 
@@ -117,7 +118,7 @@ const LENS: Record<number, number> = {json.dumps(lens)};
 const CLIP_FN = (n: number) => ({{ src: staticFile(`{cfg["out"].replace("public/", "")}/${{CLIPS[n]}}.mp4`), len: LENS[n] ?? 10 }});
 setClips(CLIP_FN);
 
-type Beat = {{ from: number; to: number; tag?: [number, string]; hard?: boolean; back: React.ReactNode; el: React.ReactNode }};
+type Beat = {{ from: number; to: number; tag?: [number, string, boolean]; hard?: boolean; back: React.ReactNode; el: React.ReactNode }};
 const BEATS: Beat[] = [
 '''
 mus = "\n".join(
@@ -144,7 +145,7 @@ export const {comp}: React.FC = () => {{
         <Sequence key={{i}} from={{Math.round(b.from * fps)}} durationInFrames={{Math.max(1, Math.round((b.to - b.from) * fps))}} name={{`Beat ${{i + 1}}`}}>
           {{b.back}}
           <Scene6 dur={{b.to - b.from}} hard={{b.hard}}>{{b.el}}</Scene6>
-          {{b.tag && <ChapterTag n={{b.tag[0]}} title={{b.tag[1]}} />}}
+          {{b.tag && <ChapterTag n={{b.tag[0]}} title={{b.tag[1]}} anim={{b.tag[2]}} />}}
         </Sequence>
       ))}}
       <Bug6 />
