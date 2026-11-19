@@ -1,0 +1,673 @@
+{
+ "out": "public/broll/t03",
+ "sheet": "public/research/t03-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "01-aisle-cart-pov",
+   "id": 29376327,
+   "url": "https://videos.pexels.com/video-files/29376327/12655225_2556_1440_30fps.mp4"
+  },
+  {
+   "name": "02-checkout-scan",
+   "id": 29832466,
+   "url": "https://videos.pexels.com/video-files/29832466/12812517_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "03-cashier-busy",
+   "id": 18541849,
+   "url": "https://videos.pexels.com/video-files/18541849/18541849-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "04-creamer-pour",
+   "id": 8717675,
+   "url": "https://videos.pexels.com/video-files/8717675/8717675-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "05-woman-receipts-frustrated",
+   "id": 5981295,
+   "url": "https://videos.pexels.com/video-files/5981295/5981295-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "06-courthouse-flags",
+   "id": 40903701,
+   "url": "https://videos.pexels.com/video-files/40903701/17486538_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "07-elderly-bills",
+   "id": 7546417,
+   "url": "https://videos.pexels.com/video-files/7546417/7546417-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "08-scales-justice",
+   "id": 5636967,
+   "url": "https://videos.pexels.com/video-files/5636967/5636967-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "09-soda-aisle-wide",
+   "id": 40793113,
+   "url": "https://videos.pexels.com/video-files/40793113/17426399_1920_1080_59fps.mp4"
+  },
+  {
+   "name": "10-scanner-shelves",
+   "id": 4292300,
+   "url": "https://videos.pexels.com/video-files/4292300/4292300-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "11-clipboard-retail",
+   "id": 8195530,
+   "url": "https://videos.pexels.com/video-files/8195530/8195530-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "12-town-aerial-twilight",
+   "id": 33845059,
+   "url": "https://videos.pexels.com/video-files/33845059/14362854_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "13-man-rubs-eyes",
+   "id": 6962334,
+   "url": "https://videos.pexels.com/video-files/6962334/6962334-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "14-man-shocked",
+   "id": 4587767,
+   "url": "https://videos.pexels.com/video-files/4587767/4587767-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "15-man-glasses-shock",
+   "id": 6290467,
+   "url": "https://videos.pexels.com/video-files/6290467/6290467-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "16-worker-shelves",
+   "id": 36074343,
+   "url": "https://videos.pexels.com/video-files/36074343/15298983_2400_1080_30fps.mp4"
+  },
+  {
+   "name": "17-server-room",
+   "id": 7140928,
+   "url": "https://videos.pexels.com/video-files/7140928/7140928-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "18-empty-checkouts",
+   "id": 1322056,
+   "url": "https://videos.pexels.com/video-files/1322056/1322056-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "19-conv-store-counter",
+   "id": 14936143,
+   "url": "https://videos.pexels.com/video-files/14936143/14936143-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "20-hourglass",
+   "id": 8985069,
+   "url": "https://videos.pexels.com/video-files/8985069/8985069-hd_2048_858_24fps.mp4"
+  },
+  {
+   "name": "21-pump-rising",
+   "id": 29576552,
+   "url": "https://videos.pexels.com/video-files/29576552/12731018_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "22-wi-capitol",
+   "id": 5486742,
+   "url": "https://videos.pexels.com/video-files/5486742/5486742-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "23-receipt-bills",
+   "id": 7735915,
+   "url": "https://videos.pexels.com/video-files/7735915/7735915-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "24-cart-pov-busy",
+   "id": 39238830,
+   "url": "https://videos.pexels.com/video-files/39238830/16698700_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "25-rural-road-aerial",
+   "id": 30116557,
+   "url": "https://videos.pexels.com/video-files/30116557/12916444_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "26-hand-few-dollars",
+   "id": 7710776,
+   "url": "https://videos.pexels.com/video-files/7710776/7710776-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "27-counting-bills",
+   "id": 6327793,
+   "url": "https://videos.pexels.com/video-files/6327793/6327793-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "28-senior-choosing",
+   "id": 8420786,
+   "url": "https://videos.pexels.com/video-files/8420786/8420786-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "29-couple-bills-worry",
+   "id": 6963961,
+   "url": "https://videos.pexels.com/video-files/6963961/6963961-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "30-money-counter",
+   "id": 5909916,
+   "url": "https://videos.pexels.com/video-files/5909916/5909916-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "31-clock-hands",
+   "id": 854314,
+   "url": "https://videos.pexels.com/video-files/854314/854314-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "32-food-bank",
+   "id": 6894022,
+   "url": "https://videos.pexels.com/video-files/6894022/6894022-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "33-phone-store-scroll",
+   "id": 5700371,
+   "url": "https://videos.pexels.com/video-files/5700371/5700371-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "34-us-capitol",
+   "id": 29188206,
+   "url": "https://videos.pexels.com/video-files/29188206/12603590_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "35-pen-contract",
+   "id": 8478946,
+   "url": "https://videos.pexels.com/video-files/8478946/8478946-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "36-man-phone-grocery",
+   "id": 8466804,
+   "url": "https://videos.pexels.com/video-files/8466804/8466804-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "37-phone-card-buy",
+   "id": 6898061,
+   "url": "https://videos.pexels.com/video-files/6898061/6898061-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "38-gavel",
+   "id": 6699964,
+   "url": "https://videos.pexels.com/video-files/6699964/6699964-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "39-register-touch",
+   "id": 3981582,
+   "url": "https://videos.pexels.com/video-files/3981582/3981582-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "40-couple-phone-aisle",
+   "id": 4121685,
+   "url": "https://videos.pexels.com/video-files/4121685/4121685-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "41-receipt-handover",
+   "id": 6683955,
+   "url": "https://videos.pexels.com/video-files/6683955/6683955-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "42-letter-magnifier",
+   "id": 6980366,
+   "url": "https://videos.pexels.com/video-files/6980366/6980366-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "43-eye-roll",
+   "id": 8626756,
+   "url": "https://videos.pexels.com/video-files/8626756/8626756-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "44-man-frustrated-white",
+   "id": 10149185,
+   "url": "https://videos.pexels.com/video-files/10149185/10149185-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "45-market-blur",
+   "id": 13752470,
+   "url": "https://videos.pexels.com/video-files/13752470/13752470-hd_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "46-dairy-aisle",
+   "id": 39221961,
+   "url": "https://videos.pexels.com/video-files/39221961/16690546_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "47-aisle-bright",
+   "id": 34506445,
+   "url": "https://videos.pexels.com/video-files/34506445/14620293_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "48-cashier-veg",
+   "id": 8421356,
+   "url": "https://videos.pexels.com/video-files/8421356/8421356-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "49-self-checkout",
+   "id": 7457422,
+   "url": "https://videos.pexels.com/video-files/7457422/7457422-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "50-judge-courtroom",
+   "id": 6101367,
+   "url": "https://videos.pexels.com/video-files/6101367/6101367-hd_2048_1080_30fps.mp4"
+  },
+  {
+   "name": "51-detective-docs",
+   "id": 7319201,
+   "url": "https://videos.pexels.com/video-files/7319201/7319201-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "52-empty-wallet",
+   "id": 11099870,
+   "url": "https://videos.pexels.com/video-files/11099870/11099870-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "53-man-counting-glasses",
+   "id": 6326942,
+   "url": "https://videos.pexels.com/video-files/6326942/6326942-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "54-elderly-basket",
+   "id": 8420602,
+   "url": "https://videos.pexels.com/video-files/8420602/8420602-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "55-town-street-sunset",
+   "id": 16967928,
+   "url": "https://videos.pexels.com/video-files/16967928/16967928-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "56-gas-station-aerial",
+   "id": 37609161,
+   "url": "https://videos.pexels.com/video-files/37609161/15940206_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "57-dg-brookville-oh",
+   "id": "wm57",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Brookville%2C_Ohio_3-19-2021_-_51052588278.jpg/1920px-Brookville%2C_Ohio_3-19-2021_-_51052588278.jpg",
+   "photo": true,
+   "credit": "Brookville, Ohio \u00b7 loganrickert \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "58-dg-amity-oh",
+   "id": "wm58",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Amity%2C_Knox_County%2C_Ohio_2.jpg/1920px-Amity%2C_Knox_County%2C_Ohio_2.jpg",
+   "photo": true,
+   "credit": "Amity, Ohio \u00b7 JBTHEMILKER \u00b7 CC BY-SA 4.0"
+  },
+  {
+   "name": "59-dg-barre-vt",
+   "id": "wm59",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Dollar_General_Barre_VT_October_2016.jpg/1920px-Dollar_General_Barre_VT_October_2016.jpg",
+   "photo": true,
+   "credit": "Barre, VT \u00b7 Artaxerxes \u00b7 CC BY-SA 3.0"
+  },
+  {
+   "name": "60-dg-union-grove-wi",
+   "id": "wm60",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Dollar_general_store_union_Grove_wi.jpg",
+   "photo": true,
+   "credit": "Union Grove, WI \u00b7 Ceeren \u00b7 CC0"
+  },
+  {
+   "name": "61-dg-hartford-ny",
+   "id": "wm61",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Dollar_General%2C_Hartford%2C_New_York.jpg/1920px-Dollar_General%2C_Hartford%2C_New_York.jpg",
+   "photo": true,
+   "credit": "Hartford, NY \u00b7 Tyler A. McNeil \u00b7 CC BY-SA 4.0"
+  },
+  {
+   "name": "62-dg-jakin-road",
+   "id": "wm62",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dollar_General%2C_US84_west_of_Jakin%2C_Early_County.jpg/1920px-Dollar_General%2C_US84_west_of_Jakin%2C_Early_County.jpg",
+   "photo": true,
+   "credit": "Early County, GA \u00b7 Michael Rivera \u00b7 CC BY-SA 4.0"
+  },
+  {
+   "name": "63-dg-hattiesburg",
+   "id": "wm63",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Dollar_General_%283298914954%29.jpg/1920px-Dollar_General_%283298914954%29.jpg",
+   "photo": true,
+   "credit": "Hattiesburg, MS \u00b7 hattiesburgmemory \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "64-dg-commerce-tx",
+   "id": "wm64",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Commerce_March_2017_070_%28Dollar_General%29.jpg/1920px-Commerce_March_2017_070_%28Dollar_General%29.jpg",
+   "photo": true,
+   "credit": "Commerce, TX \u00b7 Michael Barera \u00b7 CC BY-SA 4.0"
+  },
+  {
+   "name": "65-dg-sapulpa",
+   "id": "wm65",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Dollar_General_Sapulpa_OIK_2026-09-15_09-51-53.jpg/1920px-Dollar_General_Sapulpa_OIK_2026-09-15_09-51-53.jpg",
+   "photo": true,
+   "credit": "Sapulpa, OK \u00b7 G. Edward Johnson \u00b7 CC BY 4.0"
+  },
+  {
+   "name": "66-dg-eufaula",
+   "id": "wm66",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Dollar_General_in_Eufaula%2C_AL.jpg/1920px-Dollar_General_in_Eufaula%2C_AL.jpg",
+   "photo": true,
+   "credit": "Eufaula, AL \u00b7 FLGALine1999 \u00b7 CC0"
+  },
+  {
+   "name": "67-dg-register",
+   "id": "wm67",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/DGRegisterStore.jpg/1920px-DGRegisterStore.jpg",
+   "photo": true,
+   "credit": "Fort White, FL \u00b7 Excel23 \u00b7 CC BY-SA 4.0"
+  },
+  {
+   "name": "68-dg-empty-shelves",
+   "id": "wm68",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Empty_Dollar_General_Market_store_shelves_during_COVID-19_pandemic.jpg/1920px-Empty_Dollar_General_Market_store_shelves_during_COVID-19_pandemic.jpg",
+   "photo": true,
+   "credit": "California \u00b7 TaurusEmerald \u00b7 CC BY-SA 4.0"
+  },
+  {
+   "name": "69-dg-trucks",
+   "id": "wm69",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Dollar_General_Distribution_Center_trucks%2C_Alachua.JPG/1920px-Dollar_General_Distribution_Center_trucks%2C_Alachua.JPG",
+   "photo": true,
+   "credit": "Alachua, FL \u00b7 Michael Rivera \u00b7 CC BY-SA 4.0"
+  },
+  {
+   "name": "70-dg-pa-shinglehouse",
+   "id": "wm70",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Dollar_General_%289449385215%29.jpg/1920px-Dollar_General_%289449385215%29.jpg",
+   "photo": true,
+   "credit": "Shinglehouse, PA \u00b7 Random Retail \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "71-dg-pa-montoursville",
+   "id": "wm71",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Dollar_General_%2812350694074%29.jpg/1920px-Dollar_General_%2812350694074%29.jpg",
+   "photo": true,
+   "credit": "Montoursville, PA \u00b7 Random Retail \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "72-dg-new-store",
+   "id": "wm72",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Welcome_to_a_Brand_New_Dollar_General_%2814919261808%29.jpg/1920px-Welcome_to_a_Brand_New_Dollar_General_%2814919261808%29.jpg",
+   "photo": true,
+   "credit": "Random Retail \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "73-dg-remodel",
+   "id": "wm73",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Dollar_General_%2815060596710%29.jpg/1920px-Dollar_General_%2815060596710%29.jpg",
+   "photo": true,
+   "credit": "Random Retail \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "74-dg-rr-a",
+   "id": "wm74",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Dollar_General_%2810213401596%29.jpg/1920px-Dollar_General_%2810213401596%29.jpg",
+   "photo": true,
+   "credit": "Random Retail \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "75-dg-rr-b",
+   "id": "wm75",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Dollar_General_%2815214800527%29.jpg/1920px-Dollar_General_%2815214800527%29.jpg",
+   "photo": true,
+   "credit": "Random Retail \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "76-dg-rr-c",
+   "id": "wm76",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Dollar_General_%2815546717491%29.jpg/1920px-Dollar_General_%2815546717491%29.jpg",
+   "photo": true,
+   "credit": "Random Retail \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "77-dg-rr-d",
+   "id": "wm77",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dollar_General_%2815405992828%29.jpg/1920px-Dollar_General_%2815405992828%29.jpg",
+   "photo": true,
+   "credit": "Random Retail \u00b7 CC BY 2.0"
+  },
+  {
+   "name": "78-dg-ny-waverly",
+   "id": "wm78",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Dollar_General_%2810386771825%29.jpg/1920px-Dollar_General_%2810386771825%29.jpg",
+   "photo": true,
+   "credit": "Waverly, NY \u00b7 Random Retail \u00b7 CC BY 2.0"
+  }
+ ],
+ "evidence_out": "public/evidence/t03",
+ "evidence": [
+  {
+   "name": "ftc-caption",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 1,
+   "find": [
+    "UNITED STATES DISTRICT COURT",
+    "FEDERAL TRADE COMMISSION"
+   ]
+  },
+  {
+   "name": "ftc-75",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 3,
+   "find": [
+    "roughly 75% of the United States population living within five miles",
+    "approximately 80% of Dollar General stores are located in towns of 20,000 or fewer people",
+    "Households earning $35,000 or less represent 60%"
+   ]
+  },
+  {
+   "name": "ftc-29265",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 4,
+   "find": [
+    "at least 29,265 complaints"
+   ]
+  },
+  {
+   "name": "ftc-undercover",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 25,
+   "find": [
+    "Every single undercover purchase resulted in Dollar General charging more at the register"
+   ]
+  },
+  {
+   "name": "ftc-ca",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 33,
+   "find": [
+    "approximately $37.61",
+    "Dollar General charged $50.72"
+   ]
+  },
+  {
+   "name": "ftc-iowa",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 36,
+   "find": [
+    "Iowa conducted eight inspections at seven stores",
+    "Dollar General failed each"
+   ]
+  },
+  {
+   "name": "ftc-wi",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 38,
+   "find": [
+    "the average overcharge being 17% higher cost than the stated price"
+   ]
+  },
+  {
+   "name": "ftc-settle",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 39,
+   "find": [
+    "$1.75 million settlement with Vermont",
+    "$850,000 settlement with Wisconsin",
+    "$1.55 million settlement with Pennsylvania"
+   ]
+  },
+  {
+   "name": "ftc-weekly",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 40,
+   "find": [
+    "Dollar General typically changes prices in its stores on a weekly basis"
+   ]
+  },
+  {
+   "name": "ftc-regardless",
+   "url": "https://raw.githubusercontent.com/blowback887-del/hidden-margin-render/main/public/research/t03-ftc-complaint.pdf",
+   "page": 41,
+   "find": [
+    "consumers will be charged the updated price at the register regardless of whether shelf prices have yet been updated"
+   ]
+  },
+  {
+   "name": "wcpo-top",
+   "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies"
+  },
+  {
+   "name": "wcpo-allfail",
+   "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+   "find": [
+    "Every Dollar General store in Butler County recently failed an auditor inspection"
+   ]
+  },
+  {
+   "name": "wcpo-anderson",
+   "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+   "find": [
+    "consumer complaint letter from a St. Clair Township resident William Anderson",
+    "Prices cannot be changed at the register. All prices are final."
+   ]
+  },
+  {
+   "name": "wcpo-88",
+   "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+   "find": [
+    "double figure error rates up to 88%",
+    "plus or minus 2% error rate"
+   ]
+  },
+  {
+   "name": "wcpo-coffee",
+   "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+   "find": [
+    "Nestle Coffee Mate creamer had a shelf price of $2.00 but scanned at $4.35."
+   ]
+  },
+  {
+   "name": "wcpo-coke",
+   "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+   "find": [
+    "A six-pack of Diet Coke had a shelf price of $4.00 but scanned at $5.25.",
+    "Snapple Apple had a shelf price of $1.00 but scanned at $1.50."
+   ]
+  },
+  {
+   "name": "wcpo-favor",
+   "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+   "find": [
+    "errors were actually all in the customer"
+   ]
+  },
+  {
+   "name": "wcpo-yost",
+   "url": "https://www.wcpo.com/news/local-news/butler-county/ohio-attorney-general-sues-dollar-general-after-stories-fail-inspections-due-to-price-inaccuracies",
+   "find": [
+    "This seems like a company trying to make an extra buck and hoping no one will notice."
+   ]
+  },
+  {
+   "name": "abc-head",
+   "url": "https://abc11.com/story/dollar-general-is-sued-ftc-20-states-whats-being-described-deceptive-pricing/19984515/",
+   "find": [
+    "Dollar General is sued by the FTC and 20 states"
+   ]
+  },
+  {
+   "name": "fortune-top",
+   "url": "https://fortune.com/2026/10/28/dollar-general-ftc-lawsuit-overcharging-shelf-prices/"
+  },
+  {
+   "name": "fortune-31",
+   "url": "https://fortune.com/2026/10/28/dollar-general-ftc-lawsuit-overcharging-shelf-prices/",
+   "find": [
+    "its stores in the state failed 31% of price inspections"
+   ]
+  },
+  {
+   "name": "fortune-goal",
+   "url": "https://fortune.com/2026/10/28/dollar-general-ftc-lawsuit-overcharging-shelf-prices/",
+   "find": [
+    "Our goal is 100% accuracy between shelf and register prices in every store"
+   ]
+  },
+  {
+   "name": "axios-virtually",
+   "url": "https://www.axios.com/local/cleveland/2025/12/10/ohio-overcharging-guardian-family-dollar-general",
+   "find": [
+    "virtually impossible for a retailer to match shelf pricing and scanned pricing 100% of the time"
+   ]
+  },
+  {
+   "name": "yahoo-top",
+   "url": "https://www.yahoo.com/news/articles/dollar-general-agrees-pay-15m-170034665.html"
+  },
+  {
+   "name": "yahoo-pa",
+   "url": "https://www.yahoo.com/news/articles/dollar-general-agrees-pay-15m-170034665.html",
+   "find": [
+    "failed more than 40% of their pricing accuracy inspections",
+    "72% of items were priced inaccurately"
+   ]
+  },
+  {
+   "name": "yahoo-auto",
+   "url": "https://www.yahoo.com/news/articles/dollar-general-agrees-pay-15m-170034665.html",
+   "find": [
+    "When prices change, the companies automatically update the registers."
+   ]
+  },
+  {
+   "name": "yahoo-dann",
+   "url": "https://www.yahoo.com/news/articles/dollar-general-agrees-pay-15m-170034665.html",
+   "find": [
+    "putting stuff back"
+   ]
+  },
+  {
+   "name": "slashdot-4300",
+   "url": "https://tech.slashdot.org/story/25/12/08/1858239",
+   "find": [
+    "Dollar General stores failed over 4,300 inspections across 23 states"
+   ]
+  },
+  {
+   "name": "smn-ny",
+   "url": "https://www.supermarketnews.com/grocery-operations/dollar-general-must-donate-over-1-8m-in-food-after-overcharging",
+   "find": [
+    "Dollar General must donate $1.875 million worth of food and personal items to Foodlink"
+   ]
+  },
+  {
+   "name": "inkl-congress",
+   "url": "https://www.inkl.com/news/congress-members-investigate-dollar-store-chains-over-price-disparities",
+   "find": [
+    "Thirty members of Congress are demanding answers"
+   ]
+  },
+  {
+   "name": "fox2-class",
+   "url": "https://www.fox2detroit.com/news/dollar-general-8-5m-settlement-last-day-file-claim",
+   "find": [
+    "Last day to file a claim"
+   ]
+  }
+ ]
+}
