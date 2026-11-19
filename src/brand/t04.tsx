@@ -137,11 +137,11 @@ export const StatesBoard: React.FC<{ a: { st: string; at: number }[]; b: { st: s
         <Note o={p(a[0].at - 0.3, a[0].at)} color={C6.accent}>NO STATE SALES TAX</Note>
         {a.map((s) => tile(s, C6.accent))}
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+      {b.length > 0 && <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
         <Note o={p(b[0].at - 0.3, b[0].at)} color="#8EC5FF">CONTACT LENSES EXEMPT*</Note>
         {b.map((s) => tile(s, "#8EC5FF"))}
         <div style={{ marginTop: 10 }}><Note o={p(b[0].at, b[0].at + 0.4)}>* ACCORDING TO THE FTC COMPLAINT, ¶49</Note></div>
-      </div>
+      </div>}
       {stampAt !== undefined && (
         <div style={{ position: "absolute", left: "50%", top: "52%", translate: "-50% -50%", rotate: "-7deg", opacity: Math.min(1, ks * 1.5), scale: String(1.6 - 0.6 * ks), padding: "14px 34px", border: `7px solid ${C6.loss}`, borderRadius: 14, color: C6.loss, background: "rgba(4,30,38,.7)", fontFamily: SANS, fontWeight: 900, fontSize: 58, letterSpacing: "0.06em", whiteSpace: "nowrap" }}>“TAXES &amp; FEES” CHARGED ANYWAY</div>
       )}
