@@ -50,3 +50,16 @@
 - Мичиган, Scanner Law: вернуть разницу; магазин может заплатить бонус 10× разницы (мин. $1, макс. $5); заявить в течение 30 дней с чеком; не заплатили за 2 дня — можно судиться на $250 или фактический ущерб. https://www.michigan.gov/ag/news/press-releases/2024/12/17/state-attorney-general-re-issues-consumer-alert-on-scanner-law-protections ; https://www.moneytalksnews.com/the-register-rang-up-the-wrong-price-heres-how-to-get-it-back-plus-a-bonus/
 - Нью-Йорк, Колорадо, Пенсильвания — по мировым DG обязан брать самую низкую цену и вешать таблички. (supermarketnews, itechguides)
 - Советы: смотреть на экран кассы, фото ценника, проверить чек до выхода, жаловаться в weights & measures штата / генпрокурору / ReportFraud.ftc.gov. (moneytalksnews)
+
+## Фактчекер (19.11.2026) — что исправлено в сценарии v3
+- Coffee Mate: магазин 1425 Millville Road — город в источниках не назван → «in Butler County, Ohio».
+- 29 265 → «at least»; цитата Йоста дословно «This seems like…».
+- Порядок мировых: Огайо (27.10.2023) → Висконсин (20.11.2023, $850 006) → Нью-Джерси (28.11.2023). 31% в Висконсине — по Guardian.
+- 75% в 5 милях и 80% в городах до 20 тыс. — атрибуция «according to the federal lawsuit».
+- Слова DG: «Our goal is 100% accuracy…», «occasional price discrepancies can occur», команды «expected to make things right for the customer», «Nothing could be further from the truth», «defend this litigation vigorously» → в сценарии «denies the allegations».
+- «trick» → «where the gap opens» (умысел не доказан); «usually» к старому ценнику (часть товаров пробивалась дешевле).
+- Сумма мировых: 8 штук, 7 штатов, $8 635 586 (NY — товарами); год первой мировой Висконсина спорный (2018/2019) → без «since 2019» и «seven years».
+- Нью-Йорк: возвраты покупателям в сделке не упомянуты → «includes no refunds».
+- Тайные покупки FTC: 16.01–01.04.2026, Cleveland OH, Springfield MO, Sharpsburg PA, Baltimore MD; чистые переплаты $3.25, $4.07, $2.60, $3.65.
+- Калифорнийка: июнь 2025, 13 позиций, цены из приложения и онлайн-акций DG.
+- Письмо Конгресса 19.12.2025 (Budzinski + 29), адресовано CEO DG и Family Dollar; арбитраж — одна из тем.
