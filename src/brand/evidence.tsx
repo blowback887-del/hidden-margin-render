@@ -50,11 +50,11 @@ export const Evidence: React.FC<{
   // если строка высоко — держим и полосу браузера; если низко (полоса съела бы весь наезд) — наезжаем, а шапку статьи даёт inset
   const sBar = box ? 1080 / (box.y + box.h + bar + 90) : s0;
   const keepBar = frame === "screen" && sBar >= s0 * 1.5;
-  if (box && frame === "screen") s1 = Math.max(s0, Math.min(s1, 1920 / (box.w + 200), keepBar ? sBar : 99));
+  if (box && frame === "screen") s1 = Math.max(s0, Math.min(s1, 1920 / (box.w + 360), keepBar ? sBar : 99));
   const firstAt = marks.length ? Math.min(...marks.map((m) => m.at)) : 1.6;
   const spotMarks = marks.filter((m) => m.spot !== false);
   const spotBox = spotMarks.length ? spotMarks.reduce<Box>((a, m) => ({ x: Math.min(a.x, m.x), y: Math.min(a.y, m.y), w: Math.max(a.x + a.w, m.x + m.w) - Math.min(a.x, m.x), h: Math.max(a.y + a.h, m.y + m.h) - Math.min(a.y, m.y) }), spotMarks[0]) : null;
-  const arrive = Math.max(1.2, Math.min(firstAt - 0.05, dur - 0.6));
+  const arrive = Math.max(1.2, Math.min(firstAt - 0.05, 1.9, dur - 0.6)); // камера у строки заранее, маркер — на слове голоса
   const hold = Math.min(1.3, Math.max(0.25, arrive - 0.9)); // сначала общий план страницы, потом подъезд
   const k = box ? p(hold, arrive, Easing.inOut(Easing.cubic)) : 0;
   const drift = 1 + 0.035 * Math.min(1, t / Math.max(1, dur)); // в стоящем кадре есть жизнь

@@ -14,17 +14,17 @@ const easeBack = Easing.out(Easing.back(1.5));
 const MONO = "'Courier New', 'DejaVu Sans Mono', monospace";
 
 const Note: React.FC<{ children: React.ReactNode; o?: number }> = ({ children, o = 1 }) => (
-  <div style={{ opacity: 0.75 * o, fontFamily: SANS, fontWeight: 600, fontSize: 20, letterSpacing: "0.2em", color: C6.mint, textTransform: "uppercase" }}>{children}</div>
+  <div style={{ opacity: 0.85 * o, fontFamily: SANS, fontWeight: 600, fontSize: 24, letterSpacing: "0.2em", color: C6.mint, textTransform: "uppercase" }}>{children}</div>
 );
 
 /** Полочный ценник (жёлтая наклейка с ценой) */
-export const ShelfTag: React.FC<{ at: number; item: string; price: string; scale?: number; fade?: number }> = ({ at, item, price, scale = 1, fade }) => {
+export const ShelfTag: React.FC<{ at: number; item: string; price: string; scale?: number; fade?: number; label?: string }> = ({ at, item, price, scale = 1, fade, label = "SHELF PRICE" }) => {
   const { p } = useT();
   const k = p(at, at + 0.4, easeBack);
   const f = fade !== undefined ? 1 - 0.75 * p(fade, fade + 1.6) : 1;
   return (
     <div style={{ opacity: Math.min(1, k * 1.4) * f, scale: String((0.8 + 0.2 * k) * scale), rotate: "-2deg", width: 520, height: 300, borderRadius: 10, background: "#FFE14D", boxShadow: "0 30px 70px rgba(0,0,0,.5)", position: "relative", overflow: "hidden", filter: f < 1 ? `saturate(${f})` : undefined }}>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: 56, background: "#111", color: "#FFE14D", fontFamily: SANS, fontWeight: 800, fontSize: 26, letterSpacing: "0.22em", display: "flex", alignItems: "center", paddingLeft: 28 }}>SHELF PRICE</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: 56, background: "#111", color: "#FFE14D", fontFamily: SANS, fontWeight: 800, fontSize: 26, letterSpacing: "0.22em", display: "flex", alignItems: "center", paddingLeft: 28 }}>{label}</div>
       <div style={{ position: "absolute", left: 28, top: 74, fontFamily: SANS, fontWeight: 700, fontSize: 28, color: "#222", textTransform: "uppercase", letterSpacing: "0.04em" }}>{item}</div>
       <div style={{ position: "absolute", right: 30, bottom: 6, fontFamily: SANS, fontWeight: 900, fontSize: 150, color: "#111", letterSpacing: "-0.02em" }}>{price}</div>
       <div style={{ position: "absolute", left: 28, bottom: 26, display: "flex", gap: 3 }}>
@@ -51,16 +51,16 @@ export const RegisterScreen: React.FC<{ at: number; item: string; price: string;
 };
 
 /** Устройство выпуска: ценник против кассы. regAt — когда «пробивается» касса. */
-export const ShelfVsRegister: React.FC<{ at: number; item: string; shelf: string; reg: string; regAt: number; note?: string; scale?: number; delta?: string; deltaAt?: number; fade?: number }> = ({ at, item, shelf, reg, regAt, note = "ILLUSTRATION · PRICES FROM THE INSPECTION", scale = 1, delta, deltaAt }) => {
+export const ShelfVsRegister: React.FC<{ at: number; item: string; shelf: string; reg: string; regAt: number; note?: string; scale?: number; delta?: string; deltaAt?: number; fade?: number; label?: string }> = ({ at, item, shelf, reg, regAt, note = "ILLUSTRATION · PRICES FROM THE INSPECTION", scale = 1, delta, deltaAt, label }) => {
   const { p } = useT();
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 34, scale: String(scale) }}>
       <div style={{ display: "flex", alignItems: "center", gap: 70 }}>
-        <ShelfTag at={at} item={item} price={shelf} />
+        <ShelfTag at={at} item={item} price={shelf} label={label} />
         <div style={{ opacity: p(regAt - 0.2, regAt), fontFamily: SERIF, fontSize: 110, color: C6.accent }}>→</div>
         <RegisterScreen at={regAt} item={item} price={reg} />
       </div>
-      {delta && <div style={{ opacity: p(deltaAt ?? regAt + 0.6, (deltaAt ?? regAt + 0.6) + 0.3), scale: String(0.8 + 0.2 * p(deltaAt ?? regAt + 0.6, (deltaAt ?? regAt + 0.6) + 0.35, easeBack)), fontFamily: SERIF, fontSize: 120, color: C6.loss, lineHeight: 1 }}>{delta}</div>}
+      {delta && <div style={{ opacity: p(deltaAt ?? regAt + 0.6, (deltaAt ?? regAt + 0.6) + 0.3), scale: String(0.8 + 0.2 * p(deltaAt ?? regAt + 0.6, (deltaAt ?? regAt + 0.6) + 0.35, easeBack)), fontFamily: SANS, fontWeight: 900, fontSize: 130, color: C6.loss, lineHeight: 1, textShadow: "0 6px 24px rgba(0,0,0,.45)" }}>{delta}</div>}
       <Note o={p(at + 0.3, at + 0.7)}>{note}</Note>
     </div>
   );
@@ -82,7 +82,7 @@ export const FinalSign: React.FC<{ at: number; hlAt?: number; stamp?: string; st
           <div style={{ position: "absolute", left: -14, top: 8, height: "86%", width: `calc(${hk * 100}% + 28px)`, background: "rgba(255,209,102,.8)", zIndex: 0, borderRadius: 6 }} />
           <span style={{ position: "relative" }}>ALL PRICES ARE FINAL.</span>
         </div>
-        {stamp && <div style={{ position: "absolute", left: "50%", top: "52%", translate: "-50% -50%", rotate: "-12deg", opacity: sk, scale: String(2 - sk), border: `10px solid ${C6.loss}`, borderRadius: 18, padding: "8px 36px", fontFamily: SANS, fontWeight: 900, fontSize: 104, color: C6.loss, letterSpacing: "0.06em", whiteSpace: "nowrap", background: "rgba(251,250,246,.35)" }}>{stamp}</div>}
+        {stamp && <div style={{ position: "absolute", left: "72%", top: "88%", translate: "-50% -50%", rotate: "-12deg", opacity: sk, scale: String(2 - sk), border: `10px solid ${C6.loss}`, borderRadius: 18, padding: "8px 36px", fontFamily: SANS, fontWeight: 900, fontSize: 76, color: C6.loss, letterSpacing: "0.06em", whiteSpace: "nowrap", background: "rgba(251,250,246,.35)" }}>{stamp}</div>}
       </div>
       <Note o={p(at + 0.3, at + 0.7)}>RECONSTRUCTION · SIGN TEXT AS QUOTED BY WCPO</Note>
     </div>
@@ -183,7 +183,7 @@ export const SalesClock: React.FC<{ at: number; stopAt: number; minutes: number;
       <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
         <div style={{ fontFamily: SERIF, fontSize: 170, lineHeight: 1, color: done > 0.5 ? C6.accent : C6.ink }}>{hh}:{String(mm).padStart(2, "0")}</div>
         {label && <div style={{ opacity: done, fontFamily: SANS, fontWeight: 800, fontSize: 36, letterSpacing: "0.08em", color: C6.ink, maxWidth: 760 }}>{label}</div>}
-        {sub && <div style={{ opacity: done, fontFamily: SANS, fontWeight: 600, fontSize: 22, letterSpacing: "0.16em", color: C6.mint, textTransform: "uppercase" }}>{sub}</div>}
+        {sub && <div style={{ opacity: done, fontFamily: SANS, fontWeight: 600, fontSize: 26, letterSpacing: "0.16em", color: C6.mint, textTransform: "uppercase" }}>{sub}</div>}
       </div>
     </div>
   );
@@ -199,8 +199,8 @@ export const StateCards: React.FC<{ cards: { state: string; rule: string; src: s
         return (
           <div key={i} style={{ opacity: Math.min(1, k * 1.4), translate: `0 ${(1 - k) * 40}px`, width: 520, minHeight: 360, padding: "34px 36px", borderRadius: 22, background: "rgba(3,30,38,.92)", boxShadow: `inset 0 0 0 3px ${C6.accent}55, 0 26px 60px rgba(0,0,0,.5)`, display: "flex", flexDirection: "column", gap: 18 }}>
             <div style={{ fontFamily: SERIF, fontSize: 64, color: C6.accent, lineHeight: 1 }}>{c.state}</div>
-            <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 34, lineHeight: 1.25, color: C6.ink }}>{c.rule}</div>
-            <div style={{ marginTop: "auto", fontFamily: SANS, fontWeight: 600, fontSize: 18, letterSpacing: "0.14em", color: C6.mint, textTransform: "uppercase" }}>{c.src}</div>
+            <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 40, lineHeight: 1.22, color: C6.ink }}>{c.rule}</div>
+            <div style={{ marginTop: "auto", fontFamily: SANS, fontWeight: 600, fontSize: 22, letterSpacing: "0.12em", color: C6.mint, textTransform: "uppercase" }}>{c.src}</div>
           </div>
         );
       })}
