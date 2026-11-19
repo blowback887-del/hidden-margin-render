@@ -36,7 +36,7 @@ FTC = "FTC + UTAH + NEVADA v. LENS.COM · COMPLAINT · OCT 2, 2026"
 FIG = lambda n: f"SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. {n} · FEB 24, 2026"
 C1, C2, C3, C4, C5 = (1, "The Checkout"), (2, "Under the Button"), (3, "Whose Taxes?"), (4, "They Knew"), (5, "Don't Get Caught")
 FIND = '<FindBadge at={-1} />'
-BADGE = '<FeeBadge at={-1} from={[150, 160, 0.3]} />'
+BADGE = '<FeeBadge at={-1} from={[140, 250, 0.3]} />'
 
 
 def fig(n, marks=(), zoom=None):
@@ -57,7 +57,7 @@ S = [
 dict(start="In February twenty twenty-six", stock=K("lens-eyechart"), sfx=[('ep06-whoosh:0.2', '0.05')],
      el=plate("FEBRUARY 2026 · A CONTACT LENS WEBSITE", "@{a contact lens}", y=880, size=38)),
 dict(start="advertised a full year", dim=0.0, sfx=[('ep06-pop:0.25', '@{one hundred forty-six}'), ('t02-declined:0.35', '@{The checkout total}')],
-     el='''<OpenFlip at={@{one hundred forty-six} - 0.3} totalAt={@{The checkout total}} />'''),
+     el='''<OpenFlip at={0.1} totalAt={@{The checkout total}} />'''),
 dict(start="No hacker", stock=K("hacker-hoodie"), clean=True, alt=(K("glitch"), "No glitch"), sfx=[('ep06-scratch:0.25', '0.05')], el=''),
 dict(start="Every screen of that checkout", stock=K("detectives-docs"), sfx=[('t02-paper:0.3', '@{federal lawsuit}')],
      el=plate("EVERY SCREEN · IN A FEDERAL LAWSUIT", "@{federal lawsuit}", y=880)),
@@ -69,7 +69,7 @@ dict(start="About fifty million", stock=K("eye-closeup"), sfx=[('ep06-counter:0.
 dict(start="So let's play a game", stock=K("magnifier-bill"), sfx=[('tick:0.3', '@{play a game}')],
      el=plate("A GAME: THE EXACT SCREENS A SHOPPER SAW", "@{exact screens}", y=880, size=38)),
 dict(start="Somewhere along the way", dim=0.0, sfx=[('ep06-pop:0.25', '@{two hundred seventy-three}'), ('tick:0.3', '@{Try to spot}')],
-     el='''<Center y={500}><Words text="Find the $273.44." at={@{two hundred seventy-three}} size={130} hl={["$273.44."]} /></Center>
+     el='''<Center y={500}><Words text="Find the $273.44." at={0.1} size={130} hl={["$273.44."]} /></Center>
 <Center y={680}><Label6 at={@{on the page}} size={34} color={C6.mint}>IT'S ON THE PAGE THE WHOLE TIME</Label6></Center>
 <FindBadge at={@{Try to spot}} />'''),
 dict(start="Ready? Let's go shopping", stock=K("laptop-night-shop"), clean=True, sfx=[('click:0.35', '@{go shopping}')], el=FIND),
@@ -83,7 +83,7 @@ dict(start="You click", tag=C1, sfx=[('click:0.35', '0.05'), ('ep06-pop:0.2', '@
 dict(start="Scroll a little", tag=C1, sfx=[('ep09-bell:0.22', '@{No hidden fees}')],
      el=fig(3, [("NO HIDDEN FEES", "No hidden fees")]) + FIND),
 dict(start="Hold on to that one", tag=C1, stock=K("hands-shop-laptop"), dim=0.55, sfx=[('ep06-whoosh:0.25', "@{We'll need}")],
-     el='''<FeeBadge at={0.05} from={[960, 500, 1]} to={[150, 160, 0.3]} moveAt={@{We'll need}} moveDur={0.7} />''' + FIND),
+     el='''<FeeBadge at={0.05} from={[960, 500, 1]} to={[140, 250, 0.3]} moveAt={@{We'll need}} moveDur={0.7} />''' + FIND),
 dict(start="You want a year's supply", tag=C1, stock=K("eye-drops"), sfx=[('ep06-pop:0.2', '@{eight boxes total}')],
      el=plate("4 BOXES PER EYE · 8 BOXES = A YEAR", "@{Four boxes}", y=880) + FIND + BADGE),
 dict(start="You type in your prescription", tag=C1, sfx=[('click:0.3', '0.1'), ('click:0.3', '@{then your doctor}')],
@@ -119,9 +119,9 @@ dict(start="That's where it was", tag=C2, dim=0.0, sfx=[('ep06-whoosh:0.25', '@{
 dict(start="The lawsuit says shoppers", tag=C2, sfx=[('t02-paper:0.3', '0.1')],
      el=doc("ftc-never", [("instruction never see the", "never saw"), ("line item at all;", "that line at all")])),
 dict(start="One forty-six thirty-two, plus", tag=C2, dim=0.0, sfx=[('ep06-pop:0.2', '0.1'), ('ep06-pop:0.2', '@{plus the fee}'), ('ep06-pop:0.2', '@{plus shipping}'), ('ding:0.35', '@{To the cent}')],
-     el='''<Center y={520}><SumColumn rows={[{ label: "lenses, after rebate", value: "$146.32", at: 0.1 }, { label: "taxes &amp; fees", value: "$273.44", at: @{plus the fee}, color: C6.loss }, { label: "shipping", value: "$9.95", at: @{plus shipping} }]} total={{ label: "total after rebate", value: "$429.71", at: @{Four twenty-nine} }} /></Center>'''),
-dict(start="And that's the number after the rebate", tag=C2, dim=0.0, sfx=[('buzz:0.25', '@{six forty-nine}'), ('ep06-coin:0.25', '@{six forty-nine} + 1.4')],
-     el='''<Center y={500}><RebateWait at={@{six forty-nine}} mailAt={@{six forty-nine} + 1.4} /></Center>'''),
+     el='''<Center y={520}><SumColumn rows={[{ label: "lenses, after rebate", value: "$146.32", at: 0.1 }, { label: "taxes & fees", value: "$273.44", at: @{plus the fee}, color: C6.loss }, { label: "shipping", value: "$9.95", at: @{plus shipping} }]} total={{ label: "total after rebate", value: "$429.71", at: @{Four twenty-nine} }} /></Center>'''),
+dict(start="And that's the number after the rebate", tag=C2, dim=0.0, sfx=[('buzz:0.25', '@{Submit the order}'), ('ep06-coin:0.25', '@{six forty-nine} + 1.2')],
+     el='''<Center y={500}><RebateWait at={@{Submit the order}} mailAt={@{six forty-nine} + 1.2} /></Center>'''),
 dict(start="The two hundred twenty dollar rebate", tag=C2, stock=K("envelope-seal"), alt=(K("calendar-write"), "wait for a prepaid"), sfx=[('t02-paper:0.25', '@{by mail}')],
      el=plate("REBATE: MAIL A FORM · WAIT FOR A PREPAID CARD", "@{by mail}", y=880, size=38) + '<Source6 at={@{by mail}}>Lens.com rebate FAQ</Source6>'),
 dict(start="Now let's do the math", tag=C2, stock=K("calculator-docs"), sfx=[('click:0.3', '@{the math the ad}')],
@@ -169,7 +169,7 @@ dict(start="One class action from", tag=C3, stock=K("detectives-docs"), alt=(K("
         plate("THE BREAKDOWN: ONLY IF YOU ASK FOR A “FULL RECEIPT”", "@{the only way}", y=880, size=36)),
 dict(start="One rep also said", tag=C3, stock=K("call-center"), sfx=[('ep06-pop:0.25', '@{per box}')],
      el=plate("“APPLIED PER BOX” · LENS.COM REP, 2024", "@{per box}", y=880) + '<Source6 at={@{per box}}>FTC complaint, ¶83</Source6>'),
-dict(start="If that's right", tag=C3, stock=K("packages-door"), sfx=[('ep06-counter:0.3', '@{biggest order there is}')],
+dict(start="If that's right", tag=C3, stock=K("shocked-man"), sfx=[('ep06-counter:0.3', '@{biggest order there is}')],
      el=plate("A YEAR'S SUPPLY = THE BIGGEST ORDER", "@{biggest order there is}", y=880)),
 dict(start="Customers noticed", tag=C3, stock=K("frustrated-laptop"), sfx=[('ep06-counter:0.3', '@{thousands of complaints}')],
      el='''<Center x={1430} y={330}><Plate6 at={@{thousands of complaints}}><BigNum at={@{thousands of complaints}} icon="receipt" size={110} label="COMPLAINTS · LENS.COM'S OWN RECORDS">1000s</BigNum></Plate6></Center>
@@ -188,7 +188,7 @@ dict(start="August thirty-first", tag=C4, dim=0.0, hard=True, sfx=[('ep06-pop:0.
 dict(start="According to the lawsuit, that presentation", tag=C4, sfx=[('t02-paper:0.3', '0.1')],
      el=doc("ftc-ppt", [("Current Checkout Process", "said it plainly"), ("scrolled down below the red", "below the Continue")])),
 dict(start="It went to the owner", tag=C4, dim=0.0, sfx=[('ep06-pop:0.25', '@{Cary}'), ('ep06-pop:0.2', '@{only employee}')],
-     el='''<Center y={500}><OrgChart at={@{only employee}} ownerAt={@{Cary}} speedAt={@{only employee} + 0.6} callAt={99} /></Center>'''),
+     el='''<Center y={500}><OrgChart at={@{only employee}} ownerAt={0.1} speedAt={@{only employee} + 0.6} callAt={99} /></Center>'''),
 dict(start="Customer service runs through", tag=C4, stock=K("agent-headset"), alt=(K("call-center"), "an outside call center"), sfx=[('ep06-pop:0.2', '@{Speed Commerce}')],
      el=plate("SPEED COMMERCE · ALSO HIS", "@{Speed Commerce}", y=880, out="@{an outside call center}") + plate("OUTSIDE CALL CENTER · PHILIPPINES", "@{an outside call center}", y=880) + '<Source6 at={0.3}>FTC complaint, ¶18–19</Source6>'),
 dict(start="So after that slide", tag=C4, dim=0.0, sfx=[('tick:0.3', '@{what changed}'), ('ep06-boom:0.35', '@{nothing that mattered}')],
@@ -234,7 +234,7 @@ dict(start="A price after rebate", tag=C5, stock=K("card-tablet"), sfx=[('ep06-p
 dict(start="And you can shop anywhere", tag=C5, stock=K("eye-exam"), alt=(K("eyeglasses-chart"), "even if you don't"), sfx=[('ep06-pop:0.3', '@{shop anywhere}')],
      el=plate("4 · YOUR PRESCRIPTION IS YOURS · ASK FOR A COPY", "@{shop anywhere}", y=880, size=40) + '<Source6 at={@{federal law}}>FTC Contact Lens Rule</Source6>'),
 dict(start="If you were charged for something", tag=C5, dim=0.0, sfx=[('ep06-pop:0.3', '@{reportfraud}')],
-     el='''<Center y={430}><Plate6 at={@{card issuer}}><Label6 at={@{card issuer}} size={44} color={C6.ink}>CALL YOUR CARD ISSUER</Label6></Plate6></Center>
+     el='''<Center y={430}><Plate6 at={0.1}><Label6 at={0.1} size={44} color={C6.ink}>CALL YOUR CARD ISSUER</Label6></Plate6></Center>
 <Center y={620}><Words text="ReportFraud.ftc.gov" at={@{reportfraud}} size={110} hl={["ReportFraud.ftc.gov"]} serif={false} /></Center>'''),
 dict(start="Remember why customers choose", dim=0.0, sfx=[('ep09-bell:0.25', '@{No hidden fees}')],
      el=fig(3, [("NO HIDDEN FEES", "No hidden fees")])),

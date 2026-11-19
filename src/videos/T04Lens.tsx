@@ -11,7 +11,7 @@ import { Evidence, AdVsTruth } from "../brand/evidence";
 // ===================================================================
 export const T04LENS_DURATION_SEC = 560.18;
 const CLIPS: Record<number, string> = {"1": "01-laptop-night-shop", "2": "02-hacker-hoodie", "3": "03-glitch", "4": "04-times-square", "5": "05-eye-closeup", "6": "06-magnifier-bill", "7": "07-google-search", "8": "08-hands-shop-laptop", "9": "09-eye-exam", "10": "10-lens-eyechart", "11": "11-typing-lowlight", "12": "12-trackpad", "13": "13-card-laptop", "14": "14-vhs-rewind", "15": "15-envelope-seal", "16": "16-calendar-write", "17": "17-calculator-docs", "18": "18-tax-form", "19": "19-calc-taxform", "20": "20-call-center", "21": "21-agent-headset", "22": "22-frustrated-laptop", "23": "23-shocked-man", "24": "24-man-glasses-shock", "25": "25-email-typing", "26": "26-presentation", "27": "27-office-night", "28": "28-courthouse", "29": "29-gavel", "30": "30-judge-verdict", "31": "31-lawyers", "32": "32-money-counter", "33": "33-packages-door", "34": "34-phone-impatient", "35": "35-phone-scroll-shop", "36": "36-couple-bills-phone", "37": "37-eyeglasses-chart", "38": "38-detective-board", "39": "39-detectives-docs", "40": "40-button-press", "41": "41-man-confused", "42": "42-eye-drops", "43": "43-woman-receipts", "44": "44-eye-exam-girl", "45": "45-facepalm", "46": "46-card-tablet"};
-const LENS: Record<number, number> = {};
+const LENS: Record<number, number> = {"1": 10.0, "2": 10.0, "3": 6.17, "4": 10.0, "5": 10.0, "6": 10.0, "7": 10.0, "8": 10.0, "9": 10.0, "10": 8.27, "11": 8.73, "12": 10.0, "13": 10.0, "14": 10.0, "15": 10.0, "16": 10.0, "17": 10.0, "18": 10.0, "19": 10.0, "20": 10.0, "21": 10.0, "22": 10.0, "23": 5.83, "24": 10.0, "25": 8.0, "26": 7.1, "27": 10.0, "28": 10.0, "29": 10.0, "30": 10.0, "31": 6.97, "32": 10.0, "33": 8.37, "34": 10.0, "35": 8.9, "36": 10.0, "37": 6.47, "38": 10.0, "39": 10.0, "40": 10.0, "41": 10.0, "42": 10.0, "43": 10.0, "44": 10.0, "45": 10.0, "46": 8.8};
 const CLIP_FN = (n: number) => ({ src: staticFile(`broll/t04/${CLIPS[n]}.mp4`), len: LENS[n] ?? 10 });
 setClips(CLIP_FN);
 
@@ -21,7 +21,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.14} from="fade"><Plate6 at={2.14}><Label6 at={2.14} size={38} color={C6.ink}>FEBRUARY 2026 · A CONTACT LENS WEBSITE</Label6></Plate6></In></Center>
 </>) },
   { from: 3.44, to: 11.98, back: null, el: (<>
-<Drift><OpenFlip at={2.46 - 0.3} totalAt={4.78} /></Drift>
+<Drift><OpenFlip at={0.1} totalAt={4.78} /></Drift>
 </>) },
   { from: 11.98, to: 14.24, back: (<><Stock6 n={2} dur={2.26} dim={0} graphics={false} />
 <Stock6 n={3} from={1.16} dur={2.26} dim={0} graphics={false} /></>), el: (<>
@@ -41,7 +41,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.56} from="fade"><Plate6 at={2.56}><Label6 at={2.56} size={38} color={C6.ink}>A GAME: THE EXACT SCREENS A SHOPPER SAW</Label6></Plate6></In></Center>
 </>) },
   { from: 32.12, to: 40.0, back: null, el: (<>
-<Drift><Center y={500}><Words text="Find the $273.44." at={2.04} size={130} hl={["$273.44."]} /></Center>
+<Drift><Center y={500}><Words text="Find the $273.44." at={0.1} size={130} hl={["$273.44."]} /></Center>
 <Center y={680}><Label6 at={4.44} size={34} color={C6.mint}>IT'S ON THE PAGE THE WHOLE TIME</Label6></Center>
 <FindBadge at={6.14} /></Drift>
 </>) },
@@ -61,48 +61,48 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t04/fig3.png" size={[1920, 648]} dur={9.14} frame="shot" marks={[{ x: 1153, y: 423, w: 276, h: 94, at: 6.7 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 3 · FEB 24, 2026" /><FindBadge at={-1} />
 </>) },
   { from: 73.98, to: 76.52, tag: [1, "The Checkout"], back: (<><Stock6 n={8} dur={2.54} dim={0.55} graphics={true} /></>), el: (<>
-<FeeBadge at={0.05} from={[960, 500, 1]} to={[150, 160, 0.3]} moveAt={1.2} moveDur={0.7} /><FindBadge at={-1} />
+<FeeBadge at={0.05} from={[960, 500, 1]} to={[140, 250, 0.3]} moveAt={1.2} moveDur={0.7} /><FindBadge at={-1} />
 </>) },
   { from: 76.52, to: 80.84, tag: [1, "The Checkout"], back: (<><Stock6 n={42} dur={4.32} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={1.7} from="fade"><Plate6 at={1.7}><Label6 at={1.7} size={40} color={C6.ink}>4 BOXES PER EYE · 8 BOXES = A YEAR</Label6></Plate6></In></Center><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Center x={960} y={880}><In at={1.7} from="fade"><Plate6 at={1.7}><Label6 at={1.7} size={40} color={C6.ink}>4 BOXES PER EYE · 8 BOXES = A YEAR</Label6></Plate6></In></Center><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 80.84, to: 82.94, tag: [1, "The Checkout"], back: null, el: (<>
-<Evidence src="evidence/t04/fig4.png" size={[1920, 961]} dur={2.1} frame="shot" source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 4 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/fig4.png" size={[1920, 961]} dur={2.1} frame="shot" source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 4 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 82.94, to: 89.28, tag: [1, "The Checkout"], back: null, el: (<>
-<Evidence src="evidence/t04/fig7.png" size={[1920, 956]} dur={6.34} frame="shot" marks={[{ x: 1782, y: 431, w: 74, h: 28, at: 1.76 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 7 · FEB 24, 2026" /><Center x={960} y={900}><In at={3.76} from="fade"><Plate6 at={3.76}><Label6 at={3.76} size={38} color={C6.ink}>$73.16 × 2 EYES = $146.32 AFTER REBATE</Label6></Plate6></In></Center><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/fig7.png" size={[1920, 956]} dur={6.34} frame="shot" marks={[{ x: 1782, y: 431, w: 74, h: 28, at: 1.76 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 7 · FEB 24, 2026" /><Center x={960} y={900}><In at={3.76} from="fade"><Plate6 at={3.76}><Label6 at={3.76} size={38} color={C6.ink}>$73.16 × 2 EYES = $146.32 AFTER REBATE</Label6></Plate6></In></Center><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 89.28, to: 93.22, tag: [1, "The Checkout"], back: null, el: (<>
-<Evidence src="evidence/t04/case.png" size={[1920, 192]} dur={3.94} frame="shot" marks={[{ x: 285, y: 92, w: 332, h: 42, at: 2.0 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 11 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/case.png" size={[1920, 192]} dur={3.94} frame="shot" marks={[{ x: 285, y: 92, w: 332, h: 42, at: 2.0 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 11 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 93.22, to: 97.08, tag: [1, "The Checkout"], back: null, el: (<>
-<Evidence src="evidence/t04/fig7.png" size={[1920, 956]} dur={3.86} frame="shot" marks={[{ x: 1315, y: 688, w: 546, h: 67, at: 2.22 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 7 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/fig7.png" size={[1920, 956]} dur={3.86} frame="shot" marks={[{ x: 1315, y: 688, w: 546, h: 67, at: 2.22 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 7 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 97.08, to: 105.6, tag: [1, "The Checkout"], back: null, el: (<>
-<Evidence src="evidence/t04/fig9.png" size={[1920, 953]} dur={8.52} frame="shot" marks={[{ x: 675, y: 588, w: 94, h: 27, at: 1.14 }, { x: 727, y: 654, w: 460, h: 69, at: 5.86 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 9 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/fig9.png" size={[1920, 953]} dur={8.52} frame="shot" marks={[{ x: 675, y: 588, w: 94, h: 27, at: 1.14 }, { x: 727, y: 654, w: 460, h: 69, at: 5.86 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 9 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 105.6, to: 111.48, tag: [1, "The Checkout"], back: null, el: (<>
 <Drift><Center y={330}><Words text="Found the $273.44 yet?" at={0.05} size={96} hl={["$273.44"]} /></Center>
-<Center y={640}><ContinueBtn at={0.1} pressAt={4.8 + 0.4} /></Center><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} /></Drift>
+<Center y={640}><ContinueBtn at={0.1} pressAt={4.8 + 0.4} /></Center><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} /></Drift>
 </>) },
   { from: 111.48, to: 119.68, tag: [1, "The Checkout"], back: null, el: (<>
-<Evidence src="evidence/t04/fig12.png" size={[1920, 956]} dur={8.2} frame="shot" marks={[{ x: 1613, y: 629, w: 77, h: 25, at: 1.98 }, { x: 1606, y: 722, w: 92, h: 40, at: 6.4 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 12 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/fig12.png" size={[1920, 956]} dur={8.2} frame="shot" marks={[{ x: 1613, y: 629, w: 77, h: 25, at: 1.98 }, { x: 1606, y: 722, w: 92, h: 40, at: 6.4 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 12 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 119.68, to: 127.42, tag: [1, "The Checkout"], back: (<><Stock6 n={41} dur={7.74} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={5.96} from="fade"><Plate6 at={5.96}><Label6 at={5.96} size={40} color={C6.ink}>TWO TOTALS · NO “TAXES &amp; FEES” LINE</Label6></Plate6></In></Center><Source6 at={5.96}>FTC complaint, ¶41</Source6><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Center x={960} y={880}><In at={5.96} from="fade"><Plate6 at={5.96}><Label6 at={5.96} size={40} color={C6.ink}>TWO TOTALS · NO “TAXES &amp; FEES” LINE</Label6></Plate6></In></Center><Source6 at={5.96}>FTC complaint, ¶41</Source6><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 127.42, to: 132.76, tag: [1, "The Checkout"], back: null, el: (<>
-<Evidence src="evidence/t04/fig13.png" size={[1920, 957]} dur={5.34} frame="shot" marks={[{ x: 337, y: 12, w: 85, h: 21, at: 3.12 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 13 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/fig13.png" size={[1920, 957]} dur={5.34} frame="shot" marks={[{ x: 331, y: 647, w: 413, h: 71, at: 3.12 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 13 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 132.76, to: 138.78, tag: [2, "Under the Button"], hard: true, back: (<><Stock6 n={14} dur={6.02} dim={0} graphics={true} />
 <Stock6 n={12} from={4.92} dur={6.02} dim={0} graphics={true} /></>), el: (<>
-<FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 138.78, to: 146.46, tag: [2, "Under the Button"], back: null, el: (<>
-<Evidence src="evidence/t04/fig10.png" size={[1920, 951]} dur={7.68} frame="shot" marks={[{ x: 822, y: 198, w: 271, h: 47, at: 1.38 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 10 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/fig10.png" size={[1920, 951]} dur={7.68} frame="shot" marks={[{ x: 822, y: 198, w: 271, h: 47, at: 1.38 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 10 · FEB 24, 2026" /><FindBadge at={-1} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 146.46, to: 153.06, tag: [2, "Under the Button"], back: null, el: (<>
-<Evidence src="evidence/t04/fig11.png" size={[1920, 953]} dur={6.6} frame="shot" marks={[{ x: 971, y: 468, w: 156, h: 29, at: 1.34 }, { x: 1774, y: 468, w: 88, h: 29, at: 2.98 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 11 · FEB 24, 2026" /><FindBadge at={-1} foundAt={2.98} /><FeeBadge at={-1} from={[150, 160, 0.3]} />
+<Evidence src="evidence/t04/fig11.png" size={[1920, 953]} dur={6.6} frame="shot" marks={[{ x: 971, y: 468, w: 156, h: 29, at: 1.34 }, { x: 1774, y: 468, w: 88, h: 29, at: 2.98 }]} source="SCREENSHOT · FTC v. LENS.COM COMPLAINT · FIG. 11 · FEB 24, 2026" /><FindBadge at={-1} foundAt={2.98} /><FeeBadge at={-1} from={[140, 250, 0.3]} />
 </>) },
   { from: 153.06, to: 157.06, tag: [2, "Under the Button"], back: null, el: (<>
 <Drift><ButtonOverSummary at={0.05} downAt={1.78} /></Drift>
@@ -111,10 +111,10 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t04/ftc-never.png" size={[1700, 2200]} dur={5.34} frame="paper" marks={[{ x: 193, y: 201, w: 339, h: 35, at: 2.88 }, { x: 738, y: 201, w: 213, h: 40, at: 3.78 }]} inset source="FTC + UTAH + NEVADA v. LENS.COM · COMPLAINT · OCT 2, 2026" />
 </>) },
   { from: 162.4, to: 168.88, tag: [2, "Under the Button"], back: null, el: (<>
-<Drift><Center y={520}><SumColumn rows={[{ label: "lenses, after rebate", value: "$146.32", at: 0.1 }, { label: "taxes &amp; fees", value: "$273.44", at: 1.62, color: C6.loss }, { label: "shipping", value: "$9.95", at: 2.74 }]} total={{ label: "total after rebate", value: "$429.71", at: 3.78 }} /></Center></Drift>
+<Drift><Center y={520}><SumColumn rows={[{ label: "lenses, after rebate", value: "$146.32", at: 0.1 }, { label: "taxes & fees", value: "$273.44", at: 1.62, color: C6.loss }, { label: "shipping", value: "$9.95", at: 2.74 }]} total={{ label: "total after rebate", value: "$429.71", at: 3.78 }} /></Center></Drift>
 </>) },
   { from: 168.88, to: 178.12, tag: [2, "Under the Button"], back: null, el: (<>
-<Drift><Center y={500}><RebateWait at={6.88} mailAt={6.88 + 1.4} /></Center></Drift>
+<Drift><Center y={500}><RebateWait at={2.64} mailAt={6.88 + 1.2} /></Center></Drift>
 </>) },
   { from: 178.12, to: 183.84, tag: [2, "Under the Button"], back: (<><Stock6 n={15} dur={5.72} dim={0} graphics={true} />
 <Stock6 n={16} from={4.24} dur={5.72} dim={0} graphics={true} /></>), el: (<>
@@ -179,7 +179,7 @@ const BEATS: Beat[] = [
   { from: 307.42, to: 310.84, tag: [3, "Whose Taxes?"], back: (<><Stock6 n={20} dur={3.42} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.04} from="fade"><Plate6 at={2.04}><Label6 at={2.04} size={40} color={C6.ink}>“APPLIED PER BOX” · LENS.COM REP, 2024</Label6></Plate6></In></Center><Source6 at={2.04}>FTC complaint, ¶83</Source6>
 </>) },
-  { from: 310.84, to: 317.72, tag: [3, "Whose Taxes?"], back: (<><Stock6 n={33} dur={6.88} dim={0} graphics={true} /></>), el: (<>
+  { from: 310.84, to: 317.72, tag: [3, "Whose Taxes?"], back: (<><Stock6 n={23} dur={6.88} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={5.1} from="fade"><Plate6 at={5.1}><Label6 at={5.1} size={40} color={C6.ink}>A YEAR'S SUPPLY = THE BIGGEST ORDER</Label6></Plate6></In></Center>
 </>) },
   { from: 317.72, to: 324.22, tag: [3, "Whose Taxes?"], back: (<><Stock6 n={22} dur={6.5} dim={0} graphics={true} /></>), el: (<>
@@ -206,7 +206,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t04/ftc-ppt.png" size={[1700, 2200]} dur={10.68} frame="paper" marks={[{ x: 471, y: 1011, w: 392, h: 36, at: 2.14 }, { x: 193, y: 1088, w: 392, h: 35, at: 6.14 }]} inset source="FTC + UTAH + NEVADA v. LENS.COM · COMPLAINT · OCT 2, 2026" />
 </>) },
   { from: 368.96, to: 378.3, tag: [4, "They Knew"], back: null, el: (<>
-<Drift><Center y={500}><OrgChart at={6.84} ownerAt={1.3} speedAt={6.84 + 0.6} callAt={99} /></Center></Drift>
+<Drift><Center y={500}><OrgChart at={6.84} ownerAt={0.1} speedAt={6.84 + 0.6} callAt={99} /></Center></Drift>
 </>) },
   { from: 378.3, to: 384.26, tag: [4, "They Knew"], back: (<><Stock6 n={21} dur={5.96} dim={0} graphics={true} />
 <Stock6 n={20} from={4.18} dur={5.96} dim={0} graphics={true} /></>), el: (<>
@@ -272,7 +272,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.88} from="fade"><Plate6 at={0.88}><Label6 at={0.88} size={40} color={C6.ink}>4 · YOUR PRESCRIPTION IS YOURS · ASK FOR A COPY</Label6></Plate6></In></Center><Source6 at={2.22}>FTC Contact Lens Rule</Source6>
 </>) },
   { from: 529.1, to: 536.66, tag: [5, "Don't Get Caught"], back: null, el: (<>
-<Drift><Center y={430}><Plate6 at={2.8}><Label6 at={2.8} size={44} color={C6.ink}>CALL YOUR CARD ISSUER</Label6></Plate6></Center>
+<Drift><Center y={430}><Plate6 at={0.1}><Label6 at={0.1} size={44} color={C6.ink}>CALL YOUR CARD ISSUER</Label6></Plate6></Center>
 <Center y={620}><Words text="ReportFraud.ftc.gov" at={4.6} size={110} hl={["ReportFraud.ftc.gov"]} serif={false} /></Center></Drift>
 </>) },
   { from: 536.66, to: 540.8, back: null, el: (<>
@@ -288,7 +288,7 @@ const BEATS: Beat[] = [
 ];
 
 // звуковые эффекты — только на смысловые события (секунды ролика)
-const SFX: [number, string, number][] = [[0.05, "ep06-whoosh", 0.2], [5.9, "ep06-pop", 0.25], [8.22, "t02-declined", 0.35], [12.03, "ep06-scratch", 0.25], [16.44, "t02-paper", 0.3], [17.88, "t02-paper", 0.3], [18.84, "ep06-stamp", 0.3], [24.42, "ep06-counter", 0.3], [27.92, "tick", 0.3], [34.16, "ep06-pop", 0.25], [38.26, "tick", 0.3], [40.98, "click", 0.35], [46.22, "click", 0.3], [49.96, "ep06-pop", 0.25], [55.67, "click", 0.35], [59.7, "ep06-pop", 0.2], [71.54, "ep09-bell", 0.22], [75.18, "ep06-whoosh", 0.25], [79.58, "ep06-pop", 0.2], [80.94, "click", 0.3], [82.24, "click", 0.3], [84.7, "ep06-pop", 0.25], [86.7, "ep06-kaching", 0.25], [91.28, "ep06-pop", 0.25], [94.3, "ding", 0.25], [95.44, "click", 0.4], [98.22, "ep06-pop", 0.2], [105.7, "tick", 0.35], [106.5, "tick", 0.35], [110.4, "click", 0.45], [113.46, "buzz", 0.3], [117.88, "ep06-pop", 0.2], [125.64, "ep06-stamp", 0.3], [130.54, "click", 0.4], [132.81, "t04-rewind", 0.4], [137.68, "ep06-whoosh", 0.2], [140.16, "ep06-pop", 0.2], [147.8, "ep06-pop", 0.2], [149.44, "impact", 0.4], [154.84, "ep06-whoosh", 0.25], [157.16, "t02-paper", 0.3], [162.5, "ep06-pop", 0.2], [164.02, "ep06-pop", 0.2], [165.14, "ep06-pop", 0.2], [167.74, "ding", 0.35], [175.76, "buzz", 0.25], [177.16, "ep06-coin", 0.25], [180.36, "t02-paper", 0.25], [184.98, "click", 0.3], [187.84, "ep06-pop", 0.25], [192.14, "ep06-counter", 0.3], [194.26, "impact", 0.35], [201.46, "ep06-counter", 0.3], [203.96, "impact", 0.35], [209.86, "ep06-pop", 0.2], [218.48, "ep09-bell", 0.2], [225.44, "ep06-pop", 0.2], [232.96, "ep06-stamp", 0.3], [238.12, "click", 0.35], [241.26, "ep06-pop", 0.25], [247.84, "ep06-pop", 0.2], [250.05, "ep06-pop", 0.2], [258.06, "ep06-pop", 0.2], [265.24, "ep06-stamp", 0.4], [266.3, "t02-paper", 0.3], [273.16, "t02-paper", 0.3], [275.04, "buzz", 0.3], [286.0, "ep06-scratch", 0.3], [294.56, "ep06-pop", 0.25], [301.34, "ep06-pop", 0.25], [306.1, "t02-paper", 0.25], [309.46, "ep06-pop", 0.25], [315.94, "ep06-counter", 0.3], [322.38, "ep06-counter", 0.3], [324.32, "t02-paper", 0.3], [332.44, "ep06-stamp", 0.3], [338.48, "ep09-bell", 0.2], [345.18, "rise", 0.3], [349.26, "ep06-pop", 0.25], [356.24, "t02-paper", 0.3], [358.38, "t02-paper", 0.3], [370.26, "ep06-pop", 0.25], [375.8, "ep06-pop", 0.2], [381.24, "ep06-pop", 0.2], [386.8, "tick", 0.3], [389.78, "ep06-boom", 0.35], [398.54, "ep06-stamp", 0.3], [406.0, "ep06-pop", 0.25], [409.8, "ep09-bell", 0.2], [415.06, "ep06-pop", 0.25], [421.68, "ep06-stamp", 0.35], [423.18, "t02-paper", 0.3], [430.54, "ep06-stamp", 0.3], [435.76, "ep06-pop", 0.25], [439.64, "ep06-pop", 0.25], [446.8, "ep06-kaching", 0.3], [455.46, "ep06-pop", 0.25], [462.76, "click", 0.35], [464.48, "ep06-pop", 0.25], [468.82, "impact", 0.35], [476.36, "ep06-pop", 0.25], [479.96, "ep06-scratch", 0.25], [485.44, "ep06-pop", 0.25], [491.18, "ep06-whoosh", 0.2], [495.04, "ep06-pop", 0.3], [503.58, "ep06-pop", 0.3], [512.26, "ep06-pop", 0.3], [520.34, "ep06-pop", 0.3], [533.7, "ep06-pop", 0.3], [539.34, "ep09-bell", 0.25], [543.6, "ep06-whoosh", 0.25], [544.78, "ep06-stamp", 0.35]];
+const SFX: [number, string, number][] = [[0.05, "ep06-whoosh", 0.2], [5.9, "ep06-pop", 0.25], [8.22, "t02-declined", 0.35], [12.03, "ep06-scratch", 0.25], [16.44, "t02-paper", 0.3], [17.88, "t02-paper", 0.3], [18.84, "ep06-stamp", 0.3], [24.42, "ep06-counter", 0.3], [27.92, "tick", 0.3], [34.16, "ep06-pop", 0.25], [38.26, "tick", 0.3], [40.98, "click", 0.35], [46.22, "click", 0.3], [49.96, "ep06-pop", 0.25], [55.67, "click", 0.35], [59.7, "ep06-pop", 0.2], [71.54, "ep09-bell", 0.22], [75.18, "ep06-whoosh", 0.25], [79.58, "ep06-pop", 0.2], [80.94, "click", 0.3], [82.24, "click", 0.3], [84.7, "ep06-pop", 0.25], [86.7, "ep06-kaching", 0.25], [91.28, "ep06-pop", 0.25], [94.3, "ding", 0.25], [95.44, "click", 0.4], [98.22, "ep06-pop", 0.2], [105.7, "tick", 0.35], [106.5, "tick", 0.35], [110.4, "click", 0.45], [113.46, "buzz", 0.3], [117.88, "ep06-pop", 0.2], [125.64, "ep06-stamp", 0.3], [130.54, "click", 0.4], [132.81, "t04-rewind", 0.4], [137.68, "ep06-whoosh", 0.2], [140.16, "ep06-pop", 0.2], [147.8, "ep06-pop", 0.2], [149.44, "impact", 0.4], [154.84, "ep06-whoosh", 0.25], [157.16, "t02-paper", 0.3], [162.5, "ep06-pop", 0.2], [164.02, "ep06-pop", 0.2], [165.14, "ep06-pop", 0.2], [167.74, "ding", 0.35], [171.52, "buzz", 0.25], [176.96, "ep06-coin", 0.25], [180.36, "t02-paper", 0.25], [184.98, "click", 0.3], [187.84, "ep06-pop", 0.25], [192.14, "ep06-counter", 0.3], [194.26, "impact", 0.35], [201.46, "ep06-counter", 0.3], [203.96, "impact", 0.35], [209.86, "ep06-pop", 0.2], [218.48, "ep09-bell", 0.2], [225.44, "ep06-pop", 0.2], [232.96, "ep06-stamp", 0.3], [238.12, "click", 0.35], [241.26, "ep06-pop", 0.25], [247.84, "ep06-pop", 0.2], [250.05, "ep06-pop", 0.2], [258.06, "ep06-pop", 0.2], [265.24, "ep06-stamp", 0.4], [266.3, "t02-paper", 0.3], [273.16, "t02-paper", 0.3], [275.04, "buzz", 0.3], [286.0, "ep06-scratch", 0.3], [294.56, "ep06-pop", 0.25], [301.34, "ep06-pop", 0.25], [306.1, "t02-paper", 0.25], [309.46, "ep06-pop", 0.25], [315.94, "ep06-counter", 0.3], [322.38, "ep06-counter", 0.3], [324.32, "t02-paper", 0.3], [332.44, "ep06-stamp", 0.3], [338.48, "ep09-bell", 0.2], [345.18, "rise", 0.3], [349.26, "ep06-pop", 0.25], [356.24, "t02-paper", 0.3], [358.38, "t02-paper", 0.3], [370.26, "ep06-pop", 0.25], [375.8, "ep06-pop", 0.2], [381.24, "ep06-pop", 0.2], [386.8, "tick", 0.3], [389.78, "ep06-boom", 0.35], [398.54, "ep06-stamp", 0.3], [406.0, "ep06-pop", 0.25], [409.8, "ep09-bell", 0.2], [415.06, "ep06-pop", 0.25], [421.68, "ep06-stamp", 0.35], [423.18, "t02-paper", 0.3], [430.54, "ep06-stamp", 0.3], [435.76, "ep06-pop", 0.25], [439.64, "ep06-pop", 0.25], [446.8, "ep06-kaching", 0.3], [455.46, "ep06-pop", 0.25], [462.76, "click", 0.35], [464.48, "ep06-pop", 0.25], [468.82, "impact", 0.35], [476.36, "ep06-pop", 0.25], [479.96, "ep06-scratch", 0.25], [485.44, "ep06-pop", 0.25], [491.18, "ep06-whoosh", 0.2], [495.04, "ep06-pop", 0.3], [503.58, "ep06-pop", 0.3], [512.26, "ep06-pop", 0.3], [520.34, "ep06-pop", 0.3], [533.7, "ep06-pop", 0.3], [539.34, "ep09-bell", 0.25], [543.6, "ep06-whoosh", 0.25], [544.78, "ep06-stamp", 0.35]];
 
 export const T04Lens: React.FC = () => {
   const { fps } = useVideoConfig();

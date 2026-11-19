@@ -51,6 +51,7 @@ export const Evidence: React.FC<{
   const sBar = box ? 1080 / (box.y + box.h + bar + 90) : s0;
   const keepBar = frame === "screen" && sBar >= s0 * 1.5;
   if (box && frame !== "paper") s1 = Math.max(s0, Math.min(s1, 1920 / (box.w + 360), keepBar ? sBar : 99));
+  if (box && frame === "shot") s1 = Math.min(s1, s0 * 1.7); // скриншоты из иска мутнеют при сильном наезде (T04)
   const firstAt = marks.length ? Math.min(...marks.map((m) => m.at)) : 1.6;
   const spotMarks = marks.filter((m) => m.spot !== false);
   const spotBox = spotMarks.length ? spotMarks.reduce<Box>((a, m) => ({ x: Math.min(a.x, m.x), y: Math.min(a.y, m.y), w: Math.max(a.x + a.w, m.x + m.w) - Math.min(a.x, m.x), h: Math.max(a.y + a.h, m.y + m.h) - Math.min(a.y, m.y) }), spotMarks[0]) : null;

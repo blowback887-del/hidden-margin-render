@@ -237,7 +237,7 @@ export const UnderTheButton: React.FC<{ at: number; badgeAt?: number; slideAt?: 
       {empty && <div style={{ position: "absolute", left: 960, top: 560, translate: "-50% -50%", width: 620, height: 260, borderRadius: 14, border: `4px dashed rgba(247,244,236,${0.45 * ke})`, display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 26, letterSpacing: "0.2em", color: C6.mint, opacity: ke }}>BELOW THE BUTTON</div>
       </div>}
-      {badgeAt !== undefined && <FeeBadge at={badgeAt} from={[960, 640, 0.8]} to={[960, 570, 0.55]} moveAt={slideAt} moveDur={1.6} tilt={-6} />}
+      {badgeAt !== undefined && <FeeBadge at={badgeAt} from={[1460, 300, 0.75]} to={[960, 580, 0.55]} moveAt={slideAt} moveDur={1.6} tilt={-6} />}
       {caption && capAt !== undefined && <div style={{ position: "absolute", left: 0, right: 0, top: 860, textAlign: "center", opacity: p(capAt, capAt + 0.4), fontFamily: SERIF, fontSize: 58, color: C6.ink }}>{caption}</div>}
     </AbsoluteFill>
   );
