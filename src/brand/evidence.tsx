@@ -35,7 +35,9 @@ const BrowserBar: React.FC<{ w: number; url?: string }> = ({ w, url }) => {
 export const Evidence: React.FC<{
   src: string; size: [number, number]; dur: number; marks?: Mark[]; focus?: Box; zoom?: number;
   frame?: "paper" | "screen"; url?: string; source?: string; color?: string;
-}> = ({ src, size, dur, marks = [], focus, zoom, frame = "paper", url, source, color = "rgba(255,209,102,.62)" }) => {
+  /** уменьшенный общий план в углу, пока камера у строки (урок T02): верх статьи (шапка + фото) или сама страница документа */
+  inset?: { src: string; size: [number, number] } | true;
+}> = ({ src, size, dur, marks = [], focus, zoom, frame = "paper", url, source, color = "rgba(255,209,102,.62)", inset }) => {
   const { t, p } = useT();
   const [W, H] = size;
   const bar = frame === "screen" ? Math.max(44, W * 0.032) : 0;
@@ -43,21 +45,32 @@ export const Evidence: React.FC<{
   const s0 = Math.min(1640 / W, 940 / (H + bar));
   const box = focus ?? (marks.length ? marks.reduce<Box>((a, m) => ({ x: Math.min(a.x, m.x), y: Math.min(a.y, m.y), w: Math.max(a.x + a.w, m.x + m.w) - Math.min(a.x, m.x), h: Math.max(a.y + a.h, m.y + m.h) - Math.min(a.y, m.y) }), marks[0]) : null);
   // документ: наезд не сильнее ширины листа — строки целиком (пилот 17.11); сайт: наезд к строке, у сайтов колонки узкие
-  const s1 = box ? Math.max(s0, zoom ?? Math.min(1380 / (box.w + 80), 520 / (box.h + 60), s0 * 5, frame === "paper" ? 1840 / W : 99)) : s0;
+  let s1 = box ? Math.max(s0, zoom ?? Math.min(1380 / (box.w + 80), 520 / (box.h + 60), s0 * 5, frame === "paper" ? 1840 / W : 99)) : s0;
+  // сайт: полоса браузера с адресом остаётся в кадре (урок T02 — «белый лист из Word»): верх кадра не ниже полосы
+  // если строка высоко — держим и полосу браузера; если низко (полоса съела бы весь наезд) — наезжаем, а шапку статьи даёт inset
+  const sBar = box ? 1080 / (box.y + box.h + bar + 90) : s0;
+  const keepBar = frame === "screen" && sBar >= s0 * 1.5;
+  if (box && frame === "screen") s1 = Math.max(s0, Math.min(s1, 1920 / (box.w + 200), keepBar ? sBar : 99));
   const firstAt = marks.length ? Math.min(...marks.map((m) => m.at)) : 1.6;
   const spotMarks = marks.filter((m) => m.spot !== false);
   const spotBox = spotMarks.length ? spotMarks.reduce<Box>((a, m) => ({ x: Math.min(a.x, m.x), y: Math.min(a.y, m.y), w: Math.max(a.x + a.w, m.x + m.w) - Math.min(a.x, m.x), h: Math.max(a.y + a.h, m.y + m.h) - Math.min(a.y, m.y) }), spotMarks[0]) : null;
   const arrive = Math.max(1.2, Math.min(firstAt - 0.05, dur - 0.6));
-  const k = box ? p(0.25, arrive, Easing.inOut(Easing.cubic)) : 0;
+  const hold = Math.min(1.3, Math.max(0.25, arrive - 0.9)); // сначала общий план страницы, потом подъезд
+  const k = box ? p(hold, arrive, Easing.inOut(Easing.cubic)) : 0;
   const drift = 1 + 0.035 * Math.min(1, t / Math.max(1, dur)); // в стоящем кадре есть жизнь
   const s = lerp(s0, s1, k) * drift;
-  const cx = box ? lerp(W / 2, box.x + box.w / 2, k) : W / 2;
-  const cy = box ? lerp((H - bar) / 2, box.y + box.h / 2, k) : (H - bar) / 2;
+  // строку не режем по краям: если она помещается при центре страницы — держим страницу по центру
+  const bcx = box ? box.x + box.w / 2 : W / 2;
+  const cxT = box && Math.abs(W / 2 - bcx) + box.w / 2 + 50 <= 960 / s1 ? W / 2 : bcx;
+  const cx = box ? lerp(W / 2, cxT, k) : W / 2;
+  const cyT = box ? (keepBar ? Math.min(box.y + box.h / 2, 540 / s1 - bar - 14) : box.y + box.h / 2) : 0;
+  const cy = box ? lerp((H - bar) / 2, cyT, k) : (H - bar) / 2;
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 0, top: 0, width: W, height: H, transformOrigin: "0 0", transform: `translate(${960 - cx * s}px, ${540 - cy * s}px) scale(${s})` }}>
         {frame === "screen" && <BrowserBar w={W} url={url} />}
-        <Img src={staticFile(src)} style={{ position: "absolute", left: 0, top: 0, width: W, height: H, borderRadius: frame === "screen" ? `0 0 ${W * 0.008}px ${W * 0.008}px` : 2, boxShadow: "0 30px 120px rgba(0,0,0,.6)" }} />
+        <Img src={staticFile(src)} style={{ position: "absolute", left: 0, top: 0, width: W, height: H, borderRadius: frame === "screen" ? `0 0 ${W * 0.008}px ${W * 0.008}px` : 2, boxShadow: frame === "paper" ? "0 2px 0 #d9d2c3, 0 4px 0 #cfc7b6, 0 40px 120px rgba(0,0,0,.65)" : "0 30px 120px rgba(0,0,0,.6)" }} />
+        {frame === "paper" && <PaperGrain w={W} h={H} />}
         {spotBox && (() => {
           const kk = p(firstAt, firstAt + 0.45, Easing.out(Easing.cubic));
           const pad = Math.max(6, spotBox.h * 0.6);
@@ -70,10 +83,32 @@ export const Evidence: React.FC<{
           return <div key={i} style={{ position: "absolute", left: m.x - pad, top: m.y - pad * 0.6, width: (m.w + pad * 2) * kk, height: m.h + pad * 1.2, background: color, mixBlendMode: "multiply", borderRadius: pad * 0.6 }} />;
         })}
       </div>
+      {inset && box && (() => {
+        const ki = p(arrive + 0.1, arrive + 0.5, Easing.out(Easing.cubic));
+        const isrc = inset === true ? src : inset.src;
+        const [iw, ih] = inset === true ? [W, H] : inset.size;
+        const tw = 360, th = Math.min(inset === true ? 470 : 250, tw * ih / iw);
+        const sc = tw / iw;
+        return (
+          <div style={{ position: "absolute", right: 56, top: 120, width: tw, height: th, overflow: "hidden", borderRadius: 10, opacity: ki, translate: `0 ${(1 - ki) * 20}px`, boxShadow: "0 18px 50px rgba(0,0,0,.6)", border: "3px solid rgba(247,244,236,.9)", background: "#fff" }}>
+            <Img src={staticFile(isrc)} style={{ position: "absolute", left: 0, top: 0, width: tw, height: ih * sc }} />
+            {inset === true && <div style={{ position: "absolute", left: box.x * sc - 6, top: box.y * sc - 6, width: box.w * sc + 12, height: box.h * sc + 12, border: "3px solid #e8463a", borderRadius: 4 }} />}
+          </div>
+        );
+      })()}
       {source && <SourcePill at={0.3}>{source}</SourcePill>}
     </AbsoluteFill>
   );
 };
+
+/** Бумага: лёгкое зерно и тёплый тон, чтобы PDF выглядел листом, а не экраном (урок T02) */
+const PaperGrain: React.FC<{ w: number; h: number }> = ({ w, h }) => (
+  <svg width={w} height={h} style={{ position: "absolute", left: 0, top: 0, mixBlendMode: "multiply", opacity: 0.22, pointerEvents: "none" }}>
+    <filter id="paperg"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed={7} /><feColorMatrix type="matrix" values="0 0 0 0 0.93  0 0 0 0 0.88  0 0 0 0 0.78  0 0 0 0.9 0" /></filter>
+    <rect width={w} height={h} filter="url(#paperg)" />
+    <rect width={w} height={h} fill="none" stroke="rgba(120,100,70,.35)" strokeWidth={w * 0.004} />
+  </svg>
+);
 
 /** Подпись источника на тёмной плашке — читается и поверх белого документа */
 const SourcePill: React.FC<{ children: React.ReactNode; at: number }> = ({ children, at }) => {

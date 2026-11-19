@@ -97,6 +97,10 @@ for k, sc in enumerate(S):
     beats.append(f"  {{ from: {t0}, to: {t1}, {tag}{hard}back: {('(<>' + back + '</>)') if back else 'null'}, el: (<>\n{el}\n</>) }},")
 
 dur_total = ends[-1]
+if EP.get("music_at"):  # музыка по главам: трек начинается с первой сцены главы, соседние перекрываются на 0.6 с
+    st_ = [times[[k for k in range(len(S)) if S[k]["start"] == ph][0]] for ph, _, _ in EP["music_at"] if any(sc["start"] == ph for sc in S)]
+    EP["music"] = [dict(**{"from": max(0, round(st_[i] - (0.6 if i else 0), 2))}, to=round(st_[i + 1] + 0.6, 2) if i + 1 < len(st_) else dur_total, file=f, vol=v)
+                   for i, (_, f, v) in enumerate(EP["music_at"][:len(st_)])]
 comp = EP["comp"] + ("Pilot" if pilot else "")
 music = EP.get("music", [])
 hdr = f'''import React from "react";
@@ -155,6 +159,11 @@ need = [n for n in names if n in ("Bg6", "Bug6", "C6", "Scene6", "ChapterTag", "
 body = re.sub(r'import \{ At, Bg6[^}]*\} from "../brand/hm6";', "import { " + ", ".join(need) + ' } from "../brand/hm6";', body)
 ev_need = [n for n in ("Evidence", "Headline", "AdVsTruth", "ArchiveFx", "CaseBoard") if re.search(r"<" + n + r"[\s/>]", rest)]
 if ev_need: body = body.replace(' } from "../brand/hm6";', ' } from "../brand/hm6";\nimport { ' + ", ".join(ev_need) + ' } from "../brand/evidence";', 1)
+# графика выпуска (src/brand/<file>.tsx, EP["brand"] = ["t03"]) — импортируем только используемое
+for mod in EP.get("brand", []):
+    exp = re.findall(r"^export const (\w+)", open(f"{R}/src/brand/{mod}.tsx").read(), re.M)
+    use = [n for n in exp if re.search(r"<" + n + r"[\s/>]", rest)]
+    if use: body = body.replace(' } from "../brand/hm6";', ' } from "../brand/hm6";\nimport { ' + ", ".join(use) + f' }} from "../brand/{mod}";', 1)
 if not mus: body = body.replace("useVideoConfig, interpolate }", "useVideoConfig }")
 out = f"{R}/src/videos/{comp}.tsx"
 open(out, "w").write(body)

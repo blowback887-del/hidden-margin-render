@@ -21,7 +21,8 @@ def _meta(ep, name):
     return json.load(open(p))
 
 
-def ev(ep, name, marks=(), source=None, frame=None, zoom=None, focus=None, url=None, col=None):
+def ev(ep, name, marks=(), source=None, frame=None, zoom=None, focus=None, url=None, col=None, inset=None):
+    """inset: имя улики-шапки (\"wcpo-top\") — уменьшенный верх статьи в углу; True — мини-страница документа с рамкой (урок T02)."""
     """col=(x0, x1) — колонка текста статьи: камера показывает всю ширину колонки, строки не режутся (урок T02)."""
     m = _meta(ep, name)
     w, h = m["size"]
@@ -40,6 +41,9 @@ def ev(ep, name, marks=(), source=None, frame=None, zoom=None, focus=None, url=N
         focus = (col[0] - 30, max(0, bx[1] - 150), col[1] - col[0] + 60, bx[3] + 300)
     if focus: parts.append("focus={{ x: %d, y: %d, w: %d, h: %d }}" % tuple(m["finds"][focus] if isinstance(focus, str) else focus))
     if zoom: parts.append(f"zoom={{{zoom}}}")
+    if inset is True: parts.append("inset")
+    elif inset:
+        mi = _meta(ep, inset); parts.append('inset={{ src: "evidence/%s/%s.png", size: [%d, %d] }}' % (ep, inset, mi["size"][0], mi["size"][1]))
     if source: parts.append(f'source="{source}"')
     if frame == "screen": parts.append(f'url="{url or m.get("host", "")}"')
     return "<Evidence " + " ".join(parts) + " />"
