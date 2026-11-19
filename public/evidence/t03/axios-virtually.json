@@ -6,5 +6,12 @@
  "url": "https://www.axios.com/local/cleveland/2025/12/10/ohio-overcharging-guardian-family-dollar-general",
  "host": "axios.com",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "virtually impossible for a retailer to match shelf pricing and scanned pricing 100% of the time": [
+   240,
+   655,
+   1558,
+   90
+  ]
+ }
 }
