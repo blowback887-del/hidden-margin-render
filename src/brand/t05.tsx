@@ -118,7 +118,7 @@ export const Disclosure: React.FC<{ at: number; price?: string; item?: string; w
 export const ListReveal: React.FC<{ title: string; items: { text: string; at: number; hot?: boolean }[]; titleAt?: number; strike?: boolean; w?: number }> = ({ title, items, titleAt = 0.05, strike = false, w = 900 }) => {
   const { p } = useT();
   return (
-    <div style={{ width: w, padding: "34px 44px", borderRadius: 22, background: C6.panel, border: `2px solid ${C6.line}` }}>
+    <div style={{ width: w, padding: "34px 44px", borderRadius: 22, background: C6.panel, border: `2px solid ${C6.line}`, opacity: p(titleAt, titleAt + 0.35) }}>
       <div style={{ opacity: p(titleAt, titleAt + 0.3) }}><Note size={24} color={C6.accent}>{title}</Note></div>
       <div style={{ display: "flex", flexDirection: "column", gap: 14, marginTop: 22 }}>
         {items.map((it, i) => {

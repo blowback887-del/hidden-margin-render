@@ -41,7 +41,7 @@ const BEATS: Beat[] = [
 <Stock6 n={43} from={2.76} dur={5.56} dim={0.55} graphics={true} /></>), el: (<>
 <Center y={500}><Words text="+$9.59 for nothing." at={2.76} size={130} hl={["+$9.59"]} /></Center><Source6 at={2.76}>our calculation: $123.93 − $114.34</Source6>
 </>) },
-  { from: 45.52, to: 51.62, back: (<><Stock6 n={53} dur={6.1} dim={0.45} graphics={true} /></>), el: (<>
+  { from: 45.52, to: 51.62, back: (<><Stock6 n={34} dur={6.1} dim={0.45} graphics={true} /></>), el: (<>
 <Center y={470}><ESL at={3.66} price="$?.??" top="YOUR STORE" w={460} /></Center><Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.ink}>WHO DECIDES WHO PAYS MORE?</Label6></Plate6></In></Center>
 </>) },
   { from: 51.62, to: 58.7, tag: [1, "Same Cart, Different Price", true], hard: true, back: null, el: (<>
@@ -80,7 +80,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t05/cr-aware.png" size={[2880, 1800]} dur={4.04} frame="screen" marks={[{ x: 300, y: 595, w: 1405, h: 112, at: 1.74 }]} zoom={0.9} inset={{ src: "evidence/t05/cr-top.png", size: [2880, 1800] }} source="INSTACART, QUOTED IN THE CONSUMER REPORTS RELEASE" url="consumerreports.org" />
 </>) },
   { from: 127.42, to: 133.0, tag: [1, "Same Cart, Different Price", false], back: (<><Stock6 n={15} dur={5.58} dim={0} graphics={false} /></>), el: (<>
-<Meme at={3.7} text="shopper #3. unaware." y={900} size={70} />
+<Meme at={3.7} text="test subject. unaware." y={900} size={70} />
 </>) },
   { from: 133.0, to: 144.14, tag: [1, "Same Cart, Different Price", false], back: null, el: (<>
 <Drift><Center y={420}><ESL at={0.1} price="$3.99" top="EGGS · 1 DOZEN" w={520} flipAt={6.08} flipTo="$4.79" /></Center>
@@ -111,11 +111,11 @@ const BEATS: Beat[] = [
   { from: 185.44, to: 191.4, tag: [2, "Not New", false], back: null, el: (<>
 <Drift><Center y={500}><PricePair at={0.1} a={["NEAR A RIVAL", "$14.29"]} b={["ONLY GAME IN TOWN", "$15.79"]} bAt={5.14} note="SWINGLINE STAPLER · STAPLES.COM · WSJ TEST, 2012" /></Center></Drift>
 </>) },
-  { from: 191.4, to: 200.94, tag: [2, "Not New", false], back: (<><Stock6 n={49} dur={9.54} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={820}><In at={4.76} from="fade"><Plate6 at={4.76}><Label6 at={4.76} size={36} color={C6.money}>DISCOUNT AREAS ≈ $59,900 AVG INCOME</Label6></Plate6></In></Center><Center x={960} y={920}><In at={8.1} from="fade"><Plate6 at={8.1}><Label6 at={8.1} size={36} color={C6.loss}>HIGHER-PRICE AREAS ≈ $48,700</Label6></Plate6></In></Center><Source6 at={4.76}>WSJ findings via The Verge, 2012</Source6>
+  { from: 191.4, to: 200.94, tag: [2, "Not New", false], back: (<><Stock6 n={20} dur={9.54} dim={0} graphics={true} /></>), el: (<>
+<Center x={960} y={820}><In at={1.5} from="fade"><Plate6 at={1.5}><Label6 at={1.5} size={36} color={C6.money}>DISCOUNT AREAS ≈ $59,900 AVG INCOME</Label6></Plate6></In></Center><Center x={960} y={920}><In at={8.1} from="fade"><Plate6 at={8.1}><Label6 at={8.1} size={36} color={C6.loss}>HIGHER-PRICE AREAS ≈ $48,700</Label6></Plate6></In></Center><Source6 at={4.76}>WSJ findings via The Verge, 2012</Source6>
 </>) },
-  { from: 200.94, to: 207.94, tag: [2, "Not New", false], back: (<><Stock6 n={29} dur={7.0} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={2.56} from="fade"><Plate6 at={2.56}><Label6 at={2.56} size={40} color={C6.ink}>STAPLES: “A VARIETY OF FACTORS”</Label6></Plate6></In></Center>
+  { from: 200.94, to: 207.94, tag: [2, "Not New", false], back: null, el: (<>
+<Drift><Center y={500}><Words text="“A variety of factors.”" at={2.56} size={110} hl={["factors.”"]} /></Center><Center x={960} y={700}><In at={0.15} from="fade"><Plate6 at={0.15}><Label6 at={0.15} size={32} color={C6.mint}>STAPLES, TO THE WALL STREET JOURNAL · 2012</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 207.94, to: 209.88, tag: [2, "Not New", false], back: (<><Stock6 n={24} dur={1.94} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.15} from="fade"><Plate6 at={0.15}><Label6 at={0.15} size={40} color={C6.ink}>2012 · ORBITZ</Label6></Plate6></In></Center>
@@ -130,8 +130,8 @@ const BEATS: Beat[] = [
 <Stock6 n={57} from={4.56} dur={8.1} dim={0} graphics={false} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} out={4.56} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={36} color={C6.ink}>ORBITZ: NOT A HIGHER PRICE FOR THE SAME ROOM</Label6></Plate6></In></Center><Meme at={4.56} text="me, learning my laptop thinks I'm rich" y={900} size={66} />
 </>) },
-  { from: 226.92, to: 233.16, tag: [2, "Not New", false], back: (<><Stock6 n={25} dur={6.24} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={0.15} from="fade"><Plate6 at={0.15}><Label6 at={0.15} size={40} color={C6.ink}>2019 · KARE 11 · MINNEAPOLIS</Label6></Plate6></In></Center>
+  { from: 226.92, to: 233.16, tag: [2, "Not New", false], back: null, el: (<>
+<Evidence src="evidence/t05/kare-top.png" size={[2880, 1800]} dur={6.24} frame="screen" zoom={0.9} source="KARE 11 · MINNEAPOLIS · FEB 2019" url="kare11.com" />
 </>) },
   { from: 233.16, to: 241.34, tag: [2, "Not New", false], back: null, el: (<>
 <Evidence src="evidence/t05/kare-shaver.png" size={[2880, 1800]} dur={8.18} frame="screen" marks={[{ x: 312, y: 602, w: 402, h: 40, at: 2.64 }]} zoom={0.9} inset={{ src: "evidence/t05/kare-top.png", size: [2880, 1800] }} source="KARE 11 INVESTIGATION · FEB 2019" url="kare11.com" />
@@ -165,7 +165,7 @@ const BEATS: Beat[] = [
 </>) },
   { from: 305.5, to: 322.24, tag: [3, "Who Builds It", false], back: (<><Stock6 n={28} dur={16.74} dim={0.62} graphics={true} />
 <Stock6 n={30} from={11.0} dur={16.74} dim={0.62} graphics={true} /></>), el: (<>
-<Center y={540}><ListReveal title="WHAT A PRICE CAN BE BUILT FROM · FTC, JAN 2025" w={980} items={[{ text: "Your location", at: 7.24 }, { text: "Your demographics", at: 8.44 }, { text: "Your browsing history", at: 9.64 }, { text: "What you leave in your cart", at: 11.74 }, { text: "How your mouse moves", at: 13.5, hot: true }]} /></Center>
+<Center y={540}><ListReveal title="WHAT A PRICE CAN BE BUILT FROM · FTC, JAN 2025" titleAt={4.66} w={980} items={[{ text: "Your location", at: 7.24 }, { text: "Your demographics", at: 8.44 }, { text: "Your browsing history", at: 9.64 }, { text: "What you leave in your cart", at: 11.74 }, { text: "How your mouse moves", at: 13.5, hot: true }]} /></Center>
 </>) },
   { from: 322.24, to: 326.88, tag: [3, "Who Builds It", false], back: (<><Stock6 n={31} dur={4.64} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.66} from="fade"><Plate6 at={3.66}><Label6 at={3.66} size={40} color={C6.ink}>FTC: HYPOTHETICAL EXAMPLES ONLY</Label6></Plate6></In></Center>
@@ -180,7 +180,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t05/ftc-250.png" size={[2880, 1800]} dur={10.72} frame="screen" marks={[{ x: 750, y: 594, w: 237, h: 34, at: 5.9 }]} zoom={0.9} source="FEDERAL TRADE COMMISSION · JAN 2025" url="ftc.gov" />
 </>) },
   { from: 347.62, to: 358.22, tag: [3, "Who Builds It", false], back: (<><Stock6 n={59} dur={10.6} dim={0} graphics={true} />
-<Stock6 n={47} from={3.02} dur={10.6} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={24} from={3.02} dur={10.6} dim={0} graphics={true} /></>), el: (<>
 <Subscribe6 at={2.12} /><Center x={960} y={880}><In at={7.02} from="fade"><Plate6 at={7.02}><Label6 at={7.02} size={38} color={C6.ink}>SAME PRICE FOR EVERYONE: $0</Label6></Plate6></In></Center>
 </>) },
   { from: 358.22, to: 367.4, tag: [3, "Who Builds It", false], back: (<><Stock6 n={32} dur={9.18} dim={0} graphics={true} /></>), el: (<>
@@ -196,7 +196,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t05/delta-reply.png" size={[2880, 1800]} dur={5.2} frame="screen" marks={[{ x: 1782, y: 659, w: 228, h: 48, at: 3.26 }]} zoom={0.9} source="DELTA NEWS HUB · AUG 2025" url="news.delta.com" />
 </>) },
   { from: 382.98, to: 393.12, tag: [3, "Who Builds It", false], back: (<><Stock6 n={34} dur={10.14} dim={0} graphics={true} />
-<Stock6 n={27} from={8.56} dur={10.14} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={12} from={8.56} dur={10.14} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={7.38} from="fade"><Plate6 at={7.38}><Label6 at={7.38} size={34} color={C6.ink}>WALMART: DIGITAL PRICE TAGS IN ALL U.S. STORES WITHIN A YEAR</Label6></Plate6></In></Center>
 </>) },
   { from: 393.12, to: 396.02, tag: [3, "Who Builds It", false], back: (<><Stock6 n={35} dur={2.9} dim={0} graphics={true} /></>), el: (<>
@@ -215,7 +215,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={3.02} from="fade"><Plate6 at={3.02}><Label6 at={3.02} size={40} color={C6.ink}>SO PEOPLE STARTED WRITING LAWS</Label6></Plate6></In></Center>
 </>) },
   { from: 419.7, to: 428.5, tag: [4, "Pushback", true], hard: true, back: null, el: (<>
-<Evidence src="evidence/t05/ny-ag.png" size={[2880, 1800]} dur={8.8} frame="screen" marks={[{ x: 192, y: 813, w: 1706, h: 93, at: 1.88 }]} zoom={0.9} source="NEW YORK ATTORNEY GENERAL · NOV 2025" url="ag.ny.gov" />
+<Evidence src="evidence/t05/ny-ag.png" size={[2880, 1800]} dur={8.8} frame="screen" marks={[{ x: 192, y: 813, w: 1706, h: 93, at: 1.88 }]} zoom={0.7} source="NEW YORK ATTORNEY GENERAL · NOV 2025" url="ag.ny.gov" />
 </>) },
   { from: 428.5, to: 435.5, tag: [4, "Pushback", false], back: null, el: (<>
 <Evidence src="evidence/t05/ny-law.png" size={[2880, 1800]} dur={7.0} frame="screen" marks={[{ x: 300, y: 643, w: 1024, h: 44, at: 2.28 }]} zoom={0.9} source="GOODWIN LAW · ON N.Y. GEN. BUS. LAW § 349-A" url="goodwinlaw.com" />
@@ -233,14 +233,14 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.24} from="fade"><Plate6 at={2.24}><Label6 at={2.24} size={42} color={C6.accent}>SEATTLE · FIRST U.S. CITY TO BAN IT</Label6></Plate6></In></Center>
 </>) },
   { from: 458.12, to: 471.74, tag: [4, "Pushback", false], back: null, el: (<>
-<Drift><Center y={540}><ListReveal strike title="SEATTLE: CAN'T BE USED TO SET YOUR GROCERY PRICE" w={1000} items={[{ text: "Your race", at: 4.9 }, { text: "Your gender", at: 6.28 }, { text: "Whether you have a job", at: 7.52 }, { text: "Your browsing & social media", at: 8.48 }, { text: "Your conversations with chatbots", at: 11.18, hot: true }]} /></Center></Drift>
+<Drift><Center y={540}><ListReveal strike title="SEATTLE: CAN'T BE USED TO SET YOUR GROCERY PRICE" titleAt={3.3} w={1000} items={[{ text: "Your race", at: 4.9 }, { text: "Your gender", at: 6.28 }, { text: "Whether you have a job", at: 7.52 }, { text: "Your browsing & social media", at: 8.48 }, { text: "Your conversations with chatbots", at: 11.18, hot: true }]} /></Center></Drift>
 </>) },
   { from: 471.74, to: 479.26, tag: [4, "Pushback", false], back: null, el: (<>
 <Evidence src="evidence/t05/seattle.png" size={[2880, 1800]} dur={7.52} frame="screen" marks={[{ x: 760, y: 597, w: 538, h: 50, at: 5.42 }]} zoom={0.9} source="COMMON DREAMS · SEPT 2026" url="commondreams.org" />
 </>) },
-  { from: 479.26, to: 489.6, tag: [4, "Pushback", false], back: (<><Stock6 n={38} dur={10.34} dim={0} graphics={true} />
+  { from: 479.26, to: 489.6, tag: [4, "Pushback", false], back: (<><Stock6 n={43} dur={10.34} dim={0} graphics={true} />
 <Stock6 n={42} from={6.36} dur={10.34} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={820}><In at={4.88} out={6.36} from="fade"><Plate6 at={4.88}><Label6 at={4.88} size={32} color={C6.ink}>GROCERS: THE BAN COULD COST COUPONS &amp; LOYALTY DEALS</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.36} from="fade"><Plate6 at={6.36}><Label6 at={6.36} size={32} color={C6.ink}>SAFEWAY: DOESN'T USE PERSONAL INFO TO CHARGE MORE</Label6></Plate6></In></Center>
+<Center x={960} y={820}><In at={1.88} out={6.36} from="fade"><Plate6 at={1.88}><Label6 at={1.88} size={32} color={C6.ink}>GROCERS: THE BAN COULD COST COUPONS &amp; LOYALTY DEALS</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.36} from="fade"><Plate6 at={6.36}><Label6 at={6.36} size={32} color={C6.ink}>SAFEWAY: DOESN'T USE PERSONAL INFO TO CHARGE MORE</Label6></Plate6></In></Center>
 </>) },
   { from: 489.6, to: 496.22, tag: [4, "Pushback", false], back: (<><Stock6 n={54} dur={6.62} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={820}><In at={2.2} out={5.44} from="fade"><Plate6 at={2.2}><Label6 at={2.2} size={36} color={C6.ink}>SEATTLE: SEPT 2027</Label6></Plate6></In></Center><Center x={960} y={880}><In at={5.44} from="fade"><Plate6 at={5.44}><Label6 at={5.44} size={36} color={C6.ink}>FTC: PROPOSED GUIDANCE, AUG 2026</Label6></Plate6></In></Center>
@@ -254,7 +254,7 @@ const BEATS: Beat[] = [
   { from: 504.84, to: 513.98, tag: [5, "Make It Guess Wrong", false], back: (<><Stock6 n={57} dur={9.14} dim={0.4} graphics={true} /></>), el: (<>
 <Center x={960} y={800}><In at={2.88} from="fade"><Plate6 at={2.88}><Label6 at={2.88} size={36} color={C6.accent}>1 · APP, LOGGED IN</Label6></Plate6></In></Center><Center x={960} y={900}><In at={5.8} from="fade"><Plate6 at={5.8}><Label6 at={5.8} size={36} color={C6.accent}>2 · PRIVATE WINDOW, LOGGED OUT</Label6></Plate6></In></Center>
 </>) },
-  { from: 513.98, to: 519.0, tag: [5, "Make It Guess Wrong", false], back: (<><Stock6 n={41} dur={5.02} dim={0} graphics={true} /></>), el: (<>
+  { from: 513.98, to: 519.0, tag: [5, "Make It Guess Wrong", false], back: (<><Stock6 n={6} dur={5.02} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>STORE APPS · LOCATION → OFF</Label6></Plate6></In></Center>
 </>) },
   { from: 519.0, to: 527.88, tag: [5, "Make It Guess Wrong", false], back: null, el: (<>
