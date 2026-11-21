@@ -1,0 +1,307 @@
+{
+ "out": "public/broll/t05",
+ "sheet": "public/research/t05-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "01-eggs-shopper",
+   "id": 29832465,
+   "url": "https://videos.pexels.com/video-files/29832465/12812523_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "02-eggs-macro",
+   "id": 7033782,
+   "url": "https://videos.pexels.com/video-files/7033782/7033782-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "03-eggs-closeup",
+   "id": 4098416,
+   "url": "https://videos.pexels.com/video-files/4098416/4098416-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "04-phone-closeup",
+   "id": 7822029,
+   "url": "https://videos.pexels.com/video-files/7822029/7822029-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "05-shop-online-phone",
+   "id": 6771533,
+   "url": "https://videos.pexels.com/video-files/6771533/6771533-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "06-app-scroll",
+   "id": 5700371,
+   "url": "https://videos.pexels.com/video-files/5700371/5700371-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "07-delivery-door",
+   "id": 7362611,
+   "url": "https://videos.pexels.com/video-files/7362611/7362611-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "08-cart-aisle",
+   "id": 29068393,
+   "url": "https://videos.pexels.com/video-files/29068393/12563855_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "09-shoppers-market",
+   "id": 10901926,
+   "url": "https://videos.pexels.com/video-files/10901926/10901926-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "10-seattle-needle",
+   "id": 32971130,
+   "url": "https://videos.pexels.com/video-files/32971130/14055304_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "11-seattle-aerial",
+   "id": 32971137,
+   "url": "https://videos.pexels.com/video-files/32971137/14055357_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "12-cereal-aisle",
+   "id": 29376327,
+   "url": "https://videos.pexels.com/video-files/29376327/12655224_1918_1080_30fps.mp4"
+  },
+  {
+   "name": "13-snack-aisle",
+   "id": 28671127,
+   "url": "https://videos.pexels.com/video-files/28671127/12450410_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "14-sale-tags",
+   "id": 5889450,
+   "url": "https://videos.pexels.com/video-files/5889450/5889450-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "15-mouse-small",
+   "id": 11483235,
+   "url": "https://videos.pexels.com/video-files/11483235/11483235-hd_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "16-poker-chips",
+   "id": 7683458,
+   "url": "https://videos.pexels.com/video-files/7683458/7683458-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "17-poker-man",
+   "id": 6665613,
+   "url": "https://videos.pexels.com/video-files/6665613/6665613-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "18-pages-flip",
+   "id": 7235019,
+   "url": "https://videos.pexels.com/video-files/7235019/7235019-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "19-stapler-rotating",
+   "id": 7098041,
+   "url": "https://videos.pexels.com/video-files/7098041/7098041-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "20-stapler-close",
+   "id": 6339908,
+   "url": "https://videos.pexels.com/video-files/6339908/6339908-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "21-suburb-drive",
+   "id": 25208599,
+   "url": "https://videos.pexels.com/video-files/25208599/11899862_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "22-highway-villages",
+   "id": 3452641,
+   "url": "https://videos.pexels.com/video-files/3452641/3452641-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "23-hotel-lobby",
+   "id": 34555902,
+   "url": "https://videos.pexels.com/video-files/34555902/14641679_2048_1080_24fps.mp4"
+  },
+  {
+   "name": "24-macbook",
+   "id": 4474880,
+   "url": "https://videos.pexels.com/video-files/4474880/4474880-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "25-parking-aerial",
+   "id": 29182298,
+   "url": "https://videos.pexels.com/video-files/29182298/12600826_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "26-parking-busy",
+   "id": 31621464,
+   "url": "https://videos.pexels.com/video-files/31621464/13472456_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "27-store-exterior",
+   "id": 40716827,
+   "url": "https://videos.pexels.com/video-files/40716827/17393614_1920_1080_59fps.mp4"
+  },
+  {
+   "name": "28-server-cables",
+   "id": 1085656,
+   "url": "https://videos.pexels.com/video-files/1085656/1085656-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "29-boardroom",
+   "id": 8847938,
+   "url": "https://videos.pexels.com/video-files/8847938/8847938-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "30-mouse-hand",
+   "id": 33974735,
+   "url": "https://videos.pexels.com/video-files/33974735/14413820_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "31-dad-baby",
+   "id": 6324038,
+   "url": "https://videos.pexels.com/video-files/6324038/6324038-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "32-plane-taxi",
+   "id": 33330998,
+   "url": "https://videos.pexels.com/video-files/33330998/14197682_1920_1080_120fps.mp4"
+  },
+  {
+   "name": "33-departure-board",
+   "id": 12903821,
+   "url": "https://videos.pexels.com/video-files/12903821/12903821-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "34-dairy-aisle",
+   "id": 39221961,
+   "url": "https://videos.pexels.com/video-files/39221961/16690546_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "35-stock-clerk",
+   "id": 36074343,
+   "url": "https://videos.pexels.com/video-files/36074343/15298983_2400_1080_30fps.mp4"
+  },
+  {
+   "name": "36-milk-carton",
+   "id": 4185165,
+   "url": "https://videos.pexels.com/video-files/4185165/4185165-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "37-chambers",
+   "id": 4474358,
+   "url": "https://videos.pexels.com/video-files/4474358/4474358-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "38-council-mic",
+   "id": 6951391,
+   "url": "https://videos.pexels.com/video-files/6951391/6951391-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "39-phone-dark",
+   "id": 33942937,
+   "url": "https://videos.pexels.com/video-files/33942937/14403288_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "40-rubik",
+   "id": 8342765,
+   "url": "https://videos.pexels.com/video-files/8342765/8342765-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "41-phone-hands",
+   "id": 29288894,
+   "url": "https://videos.pexels.com/video-files/29288894/12631794_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "42-cashier",
+   "id": 36635591,
+   "url": "https://videos.pexels.com/video-files/36635591/15532409_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "43-woman-frustrated",
+   "id": 5981347,
+   "url": "https://videos.pexels.com/video-files/5981347/5981347-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "44-couple-surprised",
+   "id": 6963495,
+   "url": "https://videos.pexels.com/video-files/6963495/6963495-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "45-code-screen",
+   "id": 34268861,
+   "url": "https://videos.pexels.com/video-files/34268861/14519718_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "46-hedge-maze",
+   "id": 37478253,
+   "url": "https://videos.pexels.com/video-files/37478253/15875546_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "47-people-phones",
+   "id": 3252019,
+   "url": "https://videos.pexels.com/video-files/3252019/3252019-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "48-woman-pricetag",
+   "id": 5981953,
+   "url": "https://videos.pexels.com/video-files/5981953/5981953-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "49-suburb-aerial",
+   "id": 40115701,
+   "url": "https://videos.pexels.com/video-files/40115701/17125318_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "50-eye-closeup",
+   "id": 7298045,
+   "url": "https://videos.pexels.com/video-files/7298045/7298045-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "51-nyc-street",
+   "id": 34593193,
+   "url": "https://videos.pexels.com/video-files/34593193/14658993_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "52-woman-bed-phone",
+   "id": 7986738,
+   "url": "https://videos.pexels.com/video-files/7986738/7986738-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "53-supermarket-evening",
+   "id": 10441074,
+   "url": "https://videos.pexels.com/video-files/10441074/10441074-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "54-card-reader",
+   "id": 11158789,
+   "url": "https://videos.pexels.com/video-files/11158789/11158789-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "55-press-newspaper",
+   "id": 38826405,
+   "url": "https://videos.pexels.com/video-files/38826405/16503971_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "56-man-annoyed",
+   "id": 6964014,
+   "url": "https://videos.pexels.com/video-files/6964014/6964014-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "57-confusion",
+   "id": 26281515,
+   "url": "https://videos.pexels.com/video-files/26281515/11944702_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "58-crt-static",
+   "id": 20063221,
+   "url": "https://videos.pexels.com/video-files/20063221/20063221-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "59-thumb-scroll",
+   "id": 6756650,
+   "url": "https://videos.pexels.com/video-files/6756650/6756650-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "60-flight-board",
+   "id": 4684084,
+   "url": "https://videos.pexels.com/video-files/4684084/4684084-hd_1920_1080_25fps.mp4"
+  }
+ ]
+}
