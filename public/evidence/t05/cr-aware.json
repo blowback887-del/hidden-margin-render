@@ -6,5 +6,12 @@
  "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
  "host": "consumerreports.org",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "end shoppers are not aware": [
+   300,
+   595,
+   1405,
+   112
+  ]
+ }
 }

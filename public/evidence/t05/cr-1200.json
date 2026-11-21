@@ -6,5 +6,12 @@
  "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
  "host": "consumerreports.org",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "about $1,200 per year": [
+   300,
+   659,
+   394,
+   48
+  ]
+ }
 }

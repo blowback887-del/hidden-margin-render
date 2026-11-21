@@ -6,5 +6,12 @@
  "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
  "host": "consumerreports.org",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "$3.99, $4.28, $4.59, $4.69, and $4.79": [
+   922,
+   851,
+   657,
+   48
+  ]
+ }
 }
