@@ -1,0 +1,15 @@
+So how do you make the algorithm guess wrong?
+
+Check the price twice. Once in the app, logged in. Once in a private browser window, logged out. If they don't match, now you know.
+
+Turn off location for store apps you don't need it in. Remember that Target parking lot.
+
+Don't trust the crossed-out price. Trust the price you actually pay. On the same sale, the "original" price was the part that moved.
+
+And if you're in New York, look for that one sentence. If it's there, you're being priced personally.
+
+Back to those eggs. Five shoppers, one carton, five prices. The eggs didn't change. The only thing that changed was the shopper. [PAUSE]
+
+So next time you see a price, ask one question. Is this the price of the eggs, or the price of me?
+
+Have you ever caught a price changing on you? Tell me what it was in the comments.

@@ -1,0 +1,17 @@
+Those numbers come from an investigation by Consumer Reports, the Groundwork Collaborative and More Perfect Union. Last year they recruited more than four hundred volunteers in four cities. Same items, same stores, same moment.
+
+Nearly three quarters of the items came up at different prices for different people. Some had five prices at once. On staples like cereal, pasta and peanut butter, the gap averaged thirteen percent. A box of Wheat Thins? Up to twenty-three. [PAUSE]
+
+The researchers found these tests at stores like Safeway, Kroger and Costco, running through Instacart's app. Instacart's own AI pricing software, called Eversight, made them possible.
+
+And here's my favorite detail. On some sale items, the sale price stayed the same for everyone. What changed was the "original" price above it. So one shopper saw a small discount and another saw a bigger one. On the exact same sale. [PAUSE]
+
+Instacart said the tests were random, didn't use personal data, and the differences were negligible. The report did the math anyway. Spread across a year of groceries for a family of four, it estimated about twelve hundred dollars.
+
+Instacart also said the shoppers didn't know they were in an experiment. Which, if you think about it, is kind of the point of an experiment. Nobody tells the lab rat.
+
+Which means a price tag isn't what you think it is. It used to be a fact about the product. Here, it's a test. How much will people pay before they close the app? [PAUSE]
+
+That December, right after the report came out, Instacart said it would end all of its item price tests.
+
+Problem solved? For one app, maybe. Those tests were random. The bigger question is what happens when a price isn't random at all. And that idea is a lot older than the app.

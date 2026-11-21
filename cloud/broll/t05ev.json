@@ -1,0 +1,172 @@
+{
+ "evidence_out": "public/evidence/t05",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "cr-top",
+   "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
+   "find": []
+  },
+  {
+   "name": "cr-eggs",
+   "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
+   "find": [
+    "$3.99, $4.28, $4.59, $4.69, and $4.79"
+   ]
+  },
+  {
+   "name": "cr-23",
+   "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
+   "find": [
+    "the highest price 23% more than the lowest"
+   ]
+  },
+  {
+   "name": "cr-1200",
+   "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
+   "find": [
+    "about $1,200 per year"
+   ]
+  },
+  {
+   "name": "cr-aware",
+   "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
+   "find": [
+    "end shoppers are not aware"
+   ]
+  },
+  {
+   "name": "cr-original",
+   "url": "https://www.consumerreports.org/media-room/press-releases/2025/12/new-report-exposes-instacarts-hidden-price-games/",
+   "find": [
+    "creating the impression of a larger discount"
+   ]
+  },
+  {
+   "name": "instacart-ends",
+   "url": "https://www.yahoo.com/news/articles/instacart-ends-ai-driven-price-144243422.html",
+   "find": [
+    "price tests"
+   ]
+  },
+  {
+   "name": "staples",
+   "url": "https://consumerist.com/2012/12/28/staples-com-others-charge-you-different-prices-based-on-where-you-live",
+   "find": [
+    "$15.79",
+    "$14.29"
+   ]
+  },
+  {
+   "name": "orbitz",
+   "url": "https://www.macrumors.com/2012/06/25/orbitz-presenting-more-expensive-hotels-to-mac-users",
+   "find": [
+    "$20 to $30 more a night"
+   ]
+  },
+  {
+   "name": "kare-top",
+   "url": "https://www.kare11.com/article/money/consumer/how-to-avoid-target-app-parking-lot-price-switch/89-9ef4106a-895d-4522-8a00-c15cff0a0514",
+   "find": []
+  },
+  {
+   "name": "kare-shaver",
+   "url": "https://www.kare11.com/article/money/consumer/how-to-avoid-target-app-parking-lot-price-switch/89-9ef4106a-895d-4522-8a00-c15cff0a0514",
+   "find": [
+    "It was $99.99 in the store"
+   ]
+  },
+  {
+   "name": "kare-tv",
+   "url": "https://www.kare11.com/article/money/consumer/how-to-avoid-target-app-parking-lot-price-switch/89-9ef4106a-895d-4522-8a00-c15cff0a0514",
+   "find": [
+    "$499.99",
+    "$599.99"
+   ]
+  },
+  {
+   "name": "kare-262",
+   "url": "https://www.kare11.com/article/money/consumer/how-to-avoid-target-app-parking-lot-price-switch/89-9ef4106a-895d-4522-8a00-c15cff0a0514",
+   "find": [
+    "$262 cheaper"
+   ]
+  },
+  {
+   "name": "ftc-2024",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-issues-orders-eight-companies-seeking-information-surveillance-pricing",
+   "find": [
+    "eight companies"
+   ]
+  },
+  {
+   "name": "ftc-mouse",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-surveillance-pricing-study-indicates-wide-range-personal-data-used-set-individualized-consumer",
+   "find": [
+    "mouse movements on a webpage"
+   ]
+  },
+  {
+   "name": "ftc-baby",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-surveillance-pricing-study-indicates-wide-range-personal-data-used-set-individualized-consumer",
+   "find": [
+    "higher priced baby thermometers"
+   ]
+  },
+  {
+   "name": "ftc-250",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-surveillance-pricing-study-indicates-wide-range-personal-data-used-set-individualized-consumer",
+   "find": [
+    "at least 250 clients"
+   ]
+  },
+  {
+   "name": "delta-ajc",
+   "url": "https://www.ajc.com/business/2025/07/delta-uses-ai-to-set-airfares-some-senators-are-worried/",
+   "find": [
+    "20% by the end of the year"
+   ]
+  },
+  {
+   "name": "delta-reply",
+   "url": "https://news.delta.com/delta-responds-misinformation-around-ai-pricing",
+   "find": [
+    "personal data"
+   ]
+  },
+  {
+   "name": "walmart-letter",
+   "url": "https://www.supermarketnews.com/grocery-technology/walmart-ceo-no-personal-info-used-in-pricing",
+   "find": [
+    "the product, not the person"
+   ]
+  },
+  {
+   "name": "ny-ag",
+   "url": "https://ag.ny.gov/press-release/2025/attorney-general-james-warns-new-yorkers-about-algorithmic-pricing-new-law-takes",
+   "find": [
+    "Algorithmic Pricing Disclosure Act"
+   ]
+  },
+  {
+   "name": "ny-law",
+   "url": "https://www.nysenate.gov/legislation/laws/GBS/349-A",
+   "find": [
+    "THIS PRICE WAS SET BY AN ALGORITHM USING YOUR PERSONAL DATA"
+   ]
+  },
+  {
+   "name": "ny-ban",
+   "url": "https://patch.com/new-york/new-york-city/what-services-could-become-cheaper-surveillance-pricing-ban",
+   "find": [
+    "Kathy Hochul"
+   ]
+  },
+  {
+   "name": "seattle",
+   "url": "https://www.commondreams.org/news/seattle-ban-surveillance-pricing",
+   "find": [
+    "conversations with chatbots"
+   ]
+  }
+ ]
+}

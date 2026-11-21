@@ -1,0 +1,19 @@
+Twenty twelve. The Wall Street Journal tests Staples dot com from more than forty-two thousand ZIP codes. A plain Swingline stapler.
+
+Some people saw fourteen twenty-nine. Others saw fifteen seventy-nine. The pattern tracked one thing above all. Whether a rival store, like OfficeMax or Office Depot, was within about twenty miles.
+
+Live near competition, get the discount. Live where Staples was the only game in town, pay full price. And the Journal noticed something awkward. The discounts tended to land in richer ZIP codes. The higher prices landed where people earned less.
+
+Staples said prices vary by geography for "a variety of factors," including the costs of doing business.
+
+Same year, Orbitz. The travel site found that Mac users spent twenty to thirty dollars more a night on hotels. So it started showing them pricier hotels more prominently. To be fair, Orbitz said it never charged them more for the same room. It just assumed your laptop knew your budget. [PAUSE]
+
+Then, twenty nineteen. A Minneapolis TV station, KARE 11, gets a tip from a viewer. She bought an electric shaver inside Target for ninety-nine ninety-nine. Back in her car, the Target app showed sixty-nine ninety-nine.
+
+So reporters spent two months testing it. In one test, the app showed a Samsung TV for four ninety-nine ninety-nine. They pulled into the store's parking lot, and the same TV in the same app jumped to five ninety-nine ninety-nine.
+
+Out of ten items, four went up. The total difference was two hundred sixty-two dollars. So the cheapest way to shop at Target was to not be at Target. [PAUSE]
+
+Target said the app simply switched to in-store prices once you were in the store, and it updated the app to label which price was which. But think about what the app had to know to do that. Where your phone was. Close enough to know you'd pulled in.
+
+See the pattern? Every time someone gets caught, there's an explanation and a fix. Meanwhile the tools keep getting better. Who's building them?
