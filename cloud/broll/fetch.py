@@ -96,7 +96,10 @@ if EV:
                 except Exception as ex:  # сайты с рекламой не затихают (NPR) — берём то, что загрузилось
                     print("goto: no networkidle, continuing:", str(ex).splitlines()[0]); pg.wait_for_timeout(4000)
                 _pages[key] = pg
-            pg = _pages[key]; pg.evaluate("window.scrollTo(0, 0)")
+            pg = _pages[key]
+            # сайты, которые блокируют прокрутку (окно cookies, overflow:hidden у html/body) — иначе фраза ниже экрана не находится (T05, Consumer Reports)
+            pg.evaluate("() => { for (const el of [document.documentElement, document.body]) { el.style.setProperty('overflow', 'auto', 'important'); el.style.setProperty('height', 'auto', 'important'); } }")
+            pg.evaluate("window.scrollTo(0, 0)")
             if True:
                 for sel in e.get("hide", []):
                     pg.add_style_tag(content=f"{sel}{{display:none !important}}")
