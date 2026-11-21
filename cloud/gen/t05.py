@@ -36,6 +36,9 @@ EGGS = '["$3.99", "$4.28", "$4.59", "$4.69", "$4.79"]'
 
 
 def doc(name, marks=(), source=None, **kw):
+    kw.setdefault("zoom", 0.9)  # урок T05: сильный наезд резал строки по краям
+    if name.startswith("cr-") and name != "cr-top": kw.setdefault("inset", "cr-top")
+    if name.startswith("kare-") and name != "kare-top": kw.setdefault("inset", "kare-top")
     return ev("t05", name, marks=list(marks), source=source, **kw)
 
 
@@ -54,7 +57,7 @@ dict(start="One dozen eggs", stock=K("eggs-macro"), clean=True, sfx=[('ep06-whoo
      el=plate("ONE DOZEN EGGS · SAME STORE · SAME TIME", "@{Same store}", y=880, size=38)),
 dict(start="Three ninety-nine", stock=K("eggs-closeup"), dim=0.72,
      sfx=[('ep06-pop:0.22', '0.05'), ('ep06-pop:0.22', '@{Four twenty-eight}'), ('ep06-pop:0.22', '@{Four fifty-nine}'), ('ep06-pop:0.22', '@{Four sixty-nine}'), ('impact:0.25', '@{Four seventy-nine}')],
-     el=f'''<Center y={{520}}><TagRow prices={{{EGGS}}} times={{[0.05, @{{Four twenty-eight}}, @{{Four fifty-nine}}, @{{Four sixty-nine}}, @{{Four seventy-nine}}]}} title="1 dozen eggs" w={{250}} /></Center>'''),
+     el=f'''<Center y={{520}}><TagRow prices={{{EGGS}}} times={{[0.05, @{{Four twenty-eight}}, @{{Four fifty-nine}}, @{{Four sixty-nine}}, @{{Four seventy-nine}}]}} title="1 dozen eggs" w={{310}} /></Center>'''),
 dict(start="That was a Safeway", sfx=[('t02-paper:0.3', '0.1')],
      el=doc("cr-eggs", [("$3.99, $4.28, $4.59, $4.69, and $4.79", "Instacart app")], source=CR)),
 dict(start="Five shoppers, one carton", stock=K("people-phones"), sfx=[('ep06-stamp:0.22', '@{nobody told them}')],
@@ -62,8 +65,9 @@ dict(start="Five shoppers, one carton", stock=K("people-phones"), sfx=[('ep06-st
 dict(start="In Seattle, thirty-nine people", stock=K("seattle-aerial"), alt=(K("cart-aisle"), "put the exact same"), sfx=[('ep06-whoosh:0.2', '0.05')],
      el=plate("SEATTLE · 39 SHOPPERS · THE SAME 20 ITEMS", "@{thirty-nine people}", y=880, size=38)),
 dict(start="They got five different totals", dim=0.0, sfx=[('ep06-pop:0.25', '@{one hundred fourteen}'), ('impact:0.25', '@{one twenty-three}')],
-     el='''<Center y={500}><PricePair at={@{one hundred fourteen}} a={["CHEAPEST CART", "$114.34"]} b={["MOST EXPENSIVE", "$123.93"]} bAt={@{one twenty-three}} note="SAME 20 ITEMS · SAFEWAY, SEATTLE · SEPT 4, 2025" /></Center>''' + src("Consumer Reports investigation, 2025")),
-dict(start="Same cart. Same store.", stock=K("cart-aisle"), dim=0.55, sfx=[('ep06-kaching:0.25', '@{nearly ten dollars}')],
+     el='''<Center y={250}><Label6 at={0.05} size={40} color={C6.accent}>SAME CART · FIVE DIFFERENT TOTALS</Label6></Center>
+<Center y={540}><PricePair at={@{one hundred fourteen}} a={["CHEAPEST CART", "$114.34"]} b={["MOST EXPENSIVE", "$123.93"]} bAt={@{one twenty-three}} note="SAME 20 ITEMS · SAFEWAY, SEATTLE · SEPT 4, 2025" /></Center>''' + src("Consumer Reports investigation, 2025")),
+dict(start="Same cart. Same store.", stock=K("snack-aisle"), alt=(K("woman-frustrated"), "nearly ten dollars"), dim=0.55, sfx=[('ep06-kaching:0.25', '@{nearly ten dollars}')],
      el='''<Center y={500}><Words text="+$9.59 for nothing." at={@{nearly ten dollars}} size={130} hl={["+$9.59"]} /></Center>''' + src("our calculation: $123.93 − $114.34", "@{nearly ten dollars}")),
 dict(start="So who decides", stock=K("supermarket-evening"), dim=0.45, sfx=[('ep06-pop:0.25', '@{price tag at your store}')],
      el='''<Center y={470}><ESL at={@{price tag at your store}} price="$?.??" top="YOUR STORE" w={460} /></Center>''' + plate("WHO DECIDES WHO PAYS MORE?", "0.1", y=880)),
@@ -71,6 +75,8 @@ dict(start="So who decides", stock=K("supermarket-evening"), dim=0.45, sfx=[('ep
 # ======================= PART 2 · ГЛАВА 1 · ЭКСПЕРИМЕНТ =======================
 dict(start="Those numbers come from", tag=C1, hard=True, sfx=[('t02-paper:0.3', '0.1')],
      el=doc("cr-top", [], source=CR)),
+dict(start="Last year they recruited", tag=C1, stock=K("delivery-door"), sfx=[('ep06-pop:0.22', '@{four hundred}')],
+     el=plate("400+ VOLUNTEERS · 4 CITIES · SAME ITEMS, SAME MOMENT", "@{four hundred}", y=880, size=36)),
 dict(start="Nearly three quarters", tag=C1, stock=K("shop-online-phone"), dim=0.55, sfx=[('ep06-counter:0.3', '@{three quarters}'), ('ep06-pop:0.22', '@{five prices at once}')],
      el='''<Center y={440}><Words text="3 in 4 items" at={@{three quarters}} size={140} hl={["3", "4"]} /></Center>
 <Center y={620}><Label6 at={@{different prices}} size={36} color={C6.mint}>SHOWED DIFFERENT PRICES TO DIFFERENT SHOPPERS</Label6></Center>''' + src("Consumer Reports / Groundwork, 2025", "@{three quarters}")),
@@ -98,8 +104,10 @@ dict(start="Which means a price tag", tag=C1, dim=0.0, sfx=[('ep06-pop:0.22', '0
 <Center y={780}><Label6 at={@{How much will people}} size={46} color={C6.accent}>HOW MUCH WILL PEOPLE PAY?</Label6></Center>'''),
 dict(start="That December", tag=C1, sfx=[('t02-paper:0.3', '0.1')],
      el=doc("instacart-ends", [("price tests", "end all")], source="REUTERS VIA YAHOO NEWS · DEC 2025")),
-dict(start="Problem solved?", tag=C1, stock=K("pages-flip"), sfx=[('ep06-whoosh:0.2', '@{a lot older}')],
-     el=plate("THOSE TESTS WERE RANDOM. WHAT IF A PRICE ISN'T?", "@{what happens}", y=880, size=38)),
+dict(start="Problem solved?", tag=C1, stock=K("hedge-maze"), sfx=[],
+     el=plate("THOSE TESTS WERE RANDOM", "@{Those tests}", y=880, size=38)),
+dict(start="The bigger question", tag=C1, stock=K("crt-static"), clean=True, sfx=[('ep06-whoosh:0.2', '@{a lot older}')],
+     el=plate("WHAT IF A PRICE ISN'T RANDOM AT ALL?", "@{isn't random}", y=880, size=40, color="C6.accent")),
 
 # ======================= PART 3 · ГЛАВА 2 · ЭТО НЕ НОВО =======================
 dict(start="Twenty twelve", tag=C2, stock=K("press-newspaper"), hard=True, archive=True, sfx=[('t02-paper:0.25', '0.1')],
@@ -117,15 +125,15 @@ dict(start="And the Journal noticed", tag=C2, stock=K("suburb-aerial"), sfx=[('e
         plate("HIGHER-PRICE AREAS ≈ $48,700", "@{earned less}", y=920, size=36, color="C6.loss") + src("WSJ findings via The Verge, 2012", "@{richer ZIP codes}")),
 dict(start="Staples said prices vary", tag=C2, stock=K("boardroom"), sfx=[('ep06-pop:0.22', '@{a variety of factors}')],
      el=plate("STAPLES: “A VARIETY OF FACTORS”", "@{a variety of factors}", y=880, size=40)),
-dict(start="Same year, Orbitz", tag=C2, stock=K("hotel-lobby"), sfx=[('ep06-whoosh:0.2', '0.05')],
+dict(start="Same year, Orbitz", tag=C2, stock=K("macbook"), sfx=[('ep06-whoosh:0.2', '0.05')],
      el=plate("2012 · ORBITZ", "0.15", y=880)),
 dict(start="The travel site found", tag=C2, sfx=[('ep06-pop:0.22', '@{twenty to thirty}')],
      el=doc("orbitz", [("$20 to $30 more a night", "twenty to thirty")], source="MACRUMORS, ON THE WSJ REPORT · JUNE 2012")),
-dict(start="So it started showing them", tag=C2, stock=K("macbook"), sfx=[('ep06-pop:0.22', '@{more prominently}')],
+dict(start="So it started showing them", tag=C2, stock=K("hotel-lobby"), sfx=[('ep06-pop:0.22', '@{more prominently}')],
      el=plate("MAC USERS → PRICIER HOTELS SHOWN MORE PROMINENTLY", "@{more prominently}", y=880, size=36)),
-dict(start="To be fair, Orbitz said", tag=C2, stock=K("confusion"), clean=True, sfx=[('ding:0.2', '@{It just assumed}')],
+dict(start="To be fair, Orbitz said", tag=C2, stock=K("macbook"), alt=(K("confusion"), "It just assumed"), clean=True, sfx=[('ding:0.2', '@{It just assumed}')],
      el=plate("ORBITZ: NOT A HIGHER PRICE FOR THE SAME ROOM", "0.2", y=880, size=36, out="@{It just assumed}") +
-        '''<Meme at={@{It just assumed}} text="my laptop, apparently: rich" y={900} size={66} />'''),
+        '''<Meme at={@{It just assumed}} text="me, learning my laptop thinks I'm rich" y={900} size={66} />'''),
 dict(start="Then, twenty nineteen", tag=C2, stock=K("parking-aerial"), sfx=[('ep06-whoosh:0.2', '0.05')],
      el=plate("2019 · KARE 11 · MINNEAPOLIS", "0.15", y=880)),
 dict(start="She bought an electric shaver", tag=C2, sfx=[('ep06-pop:0.22', '@{ninety-nine ninety-nine}'), ('buzz:0.25', '@{sixty-nine ninety-nine}')],
@@ -133,14 +141,14 @@ dict(start="She bought an electric shaver", tag=C2, sfx=[('ep06-pop:0.22', '@{ni
 dict(start="So reporters spent two months", tag=C2, stock=K("parking-busy"), sfx=[('ep06-pop:0.2', '@{two months}')],
      el=plate("TWO-MONTH TEST · TARGET APP", "@{two months}", y=880)),
 dict(start="In one test, the app showed", tag=C2, dim=0.0, sfx=[('ep06-pop:0.2', '@{four ninety-nine}'), ('impact:0.25', '@{jumped to}')],
-     el='''<Center y={480}><PhoneJump at={0.1} from="$499.99" to="$599.99" jumpAt={@{jumped to}} /></Center>'''),
+     el='''<Center y={470}><div style={{ scale: "1.3" }}><PhoneJump at={0.1} from="$499.99" to="$599.99" jumpAt={@{jumped to}} /></div></Center>'''),
 dict(start="Out of ten items", tag=C2, sfx=[('ep06-kaching:0.25', '@{two hundred sixty-two}')],
      el=doc("kare-262", [("$262 cheaper", "two hundred sixty-two")], source="KARE 11 INVESTIGATION · FEB 2019")),
 dict(start="So the cheapest way", tag=C2, stock=K("suburb-drive"), clean=True, sfx=[('ep06-scratch:0.25', '@{to not be}')],
      el='''<Meme at={@{to not be}} text="best price: anywhere but the store" y={900} size={64} />'''),
 dict(start="Target said the app simply", tag=C2, stock=K("phone-hands"), sfx=[('ep06-pop:0.2', '@{label which price}')],
      el=plate("TARGET: IN-STORE PRICES IN STORE · APP NOW LABELS THEM", "@{label which price}", y=880, size=34) + src("KARE 11, Feb 2019", "@{label which price}")),
-dict(start="But think about what the app", tag=C2, stock=K("eye-closeup"), clean=True, sfx=[('ep06-pop:0.2', '@{Where your phone}')],
+dict(start="But think about what the app", tag=C2, stock=K("phone-dark"), clean=True, sfx=[('ep06-pop:0.2', '@{Where your phone}')],
      el=plate("IT KNEW WHERE YOUR PHONE WAS", "@{Where your phone}", y=880, size=42, color="C6.accent")),
 dict(start="See the pattern?", tag=C2, stock=K("code-screen"), sfx=[('ep06-pop:0.2', '@{explanation}'), ('ep06-pop:0.2', '@{a fix}'), ('rise:0.25', "@{Who's building}")],
      el=plate("CAUGHT → EXPLANATION → FIX", "@{explanation}", y=860, size=40, out="@{Meanwhile}") +
@@ -151,7 +159,7 @@ dict(start="In twenty twenty-four, the Federal", tag=C3, hard=True, sfx=[('ep06-
      el=doc("ftc-2024", [("eight companies", "eight companies")], source="FEDERAL TRADE COMMISSION · JULY 2024")),
 dict(start="Not stores. The middlemen.", tag=C3, stock=K("boardroom"), dim=0.6, sfx=[('ep06-pop:0.2', '@{Mastercard}'), ('ep06-pop:0.2', '@{JPMorgan}'), ('ep06-pop:0.2', '@{Accenture}'), ('ep06-pop:0.2', '@{McKinsey}')],
      el='''<Center y={520}><ListReveal title="FTC ORDERS · 4 OF THE 8 COMPANIES" w={760} items={[{ text: "Mastercard", at: @{Mastercard} }, { text: "JPMorgan Chase", at: @{JPMorgan} }, { text: "Accenture", at: @{Accenture} }, { text: "McKinsey", at: @{McKinsey} }]} /></Center>'''),
-dict(start="In January twenty twenty-five", tag=C3, stock=K("server-cables"), dim=0.62,
+dict(start="In January twenty twenty-five", tag=C3, stock=K("server-cables"), alt=(K("mouse-hand"), "the things you leave"), dim=0.62,
      sfx=[('ep06-pop:0.2', '@{your location}'), ('ep06-pop:0.2', '@{your demographics}'), ('ep06-pop:0.2', '@{your browsing}'), ('ep06-pop:0.2', '@{sitting in your cart}'), ('impact:0.25', '@{how your mouse}')],
      el='''<Center y={540}><ListReveal title="WHAT A PRICE CAN BE BUILT FROM · FTC, JAN 2025" w={980} items={[{ text: "Your location", at: @{your location} }, { text: "Your demographics", at: @{your demographics} }, { text: "Your browsing history", at: @{your browsing} }, { text: "What you leave in your cart", at: @{sitting in your cart} }, { text: "How your mouse moves", at: @{how your mouse}, hot: true }]} /></Center>'''),
 dict(start="The FTC couldn't name", tag=C3, stock=K("dad-baby"), sfx=[('ep06-pop:0.2', '@{hypothetical}')],
@@ -162,7 +170,7 @@ dict(start="The theory being", tag=C3, stock=K("woman-bed-phone"), clean=True, s
      el='''<Meme at={@{two in the morning}} text="2:00 AM. not comparison shopping." y={900} size={64} />'''),
 dict(start="The agency said the study", tag=C3, sfx=[('ep06-counter:0.3', '@{two hundred fifty}')],
      el=doc("ftc-250", [("at least 250 clients", "two hundred fifty")], source="FEDERAL TRADE COMMISSION · JAN 2025")),
-dict(start="If you've found something useful", tag=C3, stock=K("thumb-scroll"), sfx=[('click:0.35', '@{subscribe}')],
+dict(start="If you've found something useful", tag=C3, stock=K("thumb-scroll"), alt=(K("people-phones"), "Every week"), sfx=[('click:0.35', '@{subscribe}')],
      el='''<Subscribe6 at={@{subscribe}} />''' + plate("SAME PRICE FOR EVERYONE: $0", "@{unlike your cart}", y=880, size=38)),
 dict(start="Then the idea went airborne", tag=C3, stock=K("plane-taxi"), sfx=[('ep06-whoosh:0.25', '0.05')],
      el=plate("DELTA + FETCHERR · AI PRICING", "@{Fetcherr}", y=880)),
@@ -172,16 +180,16 @@ dict(start="Three senators wrote", tag=C3, stock=K("departure-board"), sfx=[('ep
      el=plate("3 SENATORS: FARES “UP TO EACH … PERSONAL ‘PAIN POINT’”", "@{pain point}", y=880, size=34)),
 dict(start="Delta wrote back", tag=C3, sfx=[('ep06-stamp:0.22', '@{never takes}')],
      el=doc("delta-reply", [("personal data", "never takes")], source="DELTA NEWS HUB · AUG 2025")),
-dict(start="And now the same question", tag=C3, stock=K("dairy-aisle"), sfx=[('ep06-pop:0.2', '@{all its U.S. stores}')],
+dict(start="And now the same question", tag=C3, stock=K("dairy-aisle"), alt=(K("store-exterior"), "within the next year"), sfx=[('ep06-pop:0.2', '@{all its U.S. stores}')],
      el=plate("WALMART: DIGITAL PRICE TAGS IN ALL U.S. STORES WITHIN A YEAR", "@{all its U.S. stores}", y=880, size=34)),
 dict(start="A worker used to swap", tag=C3, stock=K("stock-clerk"), sfx=[],
      el=plate("PAPER TAGS · SWAPPED BY HAND", "@{paper tags}", y=880, size=38)),
 dict(start="Now a price can change instantly", tag=C3, dim=0.0, sfx=[('buzz:0.25', '@{instantly}')],
-     el='''<Center y={500}><Row gap={40}><ESL at={0.05} price="$3.49" top="MILK" w={330} flipAt={@{instantly}} flipTo="$3.79" /><ESL at={0.15} price="$4.29" top="EGGS" w={330} flipAt={@{instantly}} flipTo="$4.59" /><ESL at={0.25} price="$2.99" top="BREAD" w={330} flipAt={@{instantly}} flipTo="$3.19" /></Row></Center>''' +
+     el='''<Center y={500}><Row gap={40}><ESL at={0.05} price="$3.49" top="MILK" w={420} flipAt={@{instantly}} flipTo="$3.79" /><ESL at={0.15} price="$4.29" top="EGGS" w={420} flipAt={@{instantly}} flipTo="$4.59" /><ESL at={0.25} price="$2.99" top="BREAD" w={420} flipAt={@{instantly}} flipTo="$3.19" /></Row></Center>''' +
         plate("ILLUSTRATION · ONE CENTRAL COMPUTER, EVERY TAG AT ONCE", "@{central computer}", y=900, size=30, color="C6.mint")),
 dict(start="Walmart says the tags have no", tag=C3, sfx=[('ep06-pop:0.2', '@{prices the product}')],
      el=doc("walmart-letter", [("the product, not the person", "prices the product")], source="SUPERMARKET NEWS · SEPT 2026") +
-        plate("WALMART: NO CAMERAS, NO MICROPHONES IN THE TAGS", "0.2", y=960, size=30)),
+        plate("WALMART: NO CAMERAS, NO MICROPHONES IN THE TAGS", "0.2", y=150, size=28)),
 dict(start="That's the promise", tag=C3, dim=0.0, sfx=[('ep06-pop:0.2', '@{behind the number}')],
      el='''<Center y={430}><ESL at={0.1} price="$4.29" top="ANY STORE" bottom="why this price? —" w={520} /></Center>''' +
         plate("THE TAG NEVER SAYS WHY", "@{behind the number}", y=820, size=42, color="C6.accent")),
@@ -206,10 +214,10 @@ dict(start="The list of things grocers", tag=C4, dim=0.0,
      el='''<Center y={540}><ListReveal strike title="SEATTLE: CAN'T BE USED TO SET YOUR GROCERY PRICE" w={1000} items={[{ text: "Your race", at: @{Your race} }, { text: "Your gender", at: @{Your gender} }, { text: "Whether you have a job", at: @{have a job} }, { text: "Your browsing & social media", at: @{Your browsing} }, { text: "Your conversations with chatbots", at: @{conversations with chatbots}, hot: true }]} /></Center>'''),
 dict(start="Somebody, somewhere", tag=C4, sfx=[('ep06-pop:0.2', '@{told an AI}')],
      el=doc("seattle", [("conversations with chatbots", "told an AI")], source="COMMON DREAMS · SEPT 2026")),
-dict(start="Not everyone cheered", tag=C4, stock=K("council-mic"), sfx=[('ep06-pop:0.2', '@{loyalty discounts}'), ('ep06-pop:0.2', '@{Safeway said}')],
+dict(start="Not everyone cheered", tag=C4, stock=K("council-mic"), alt=(K("cashier"), "Safeway said"), sfx=[('ep06-pop:0.2', '@{loyalty discounts}'), ('ep06-pop:0.2', '@{Safeway said}')],
      el=plate("GROCERS: THE BAN COULD COST COUPONS &amp; LOYALTY DEALS", "@{loyalty discounts}", y=820, size=32, out="@{Safeway said}") +
         plate("SAFEWAY: DOESN'T USE PERSONAL INFO TO CHARGE MORE", "@{Safeway said}", y=880, size=32)),
-dict(start="Seattle's rules don't start", tag=C4, stock=K("pages-flip"), sfx=[('ep06-pop:0.2', '@{twenty twenty-seven}'), ('ep06-pop:0.2', '@{this August}')],
+dict(start="Seattle's rules don't start", tag=C4, stock=K("card-reader"), sfx=[('ep06-pop:0.2', '@{twenty twenty-seven}'), ('ep06-pop:0.2', '@{this August}')],
      el=plate("SEATTLE: SEPT 2027", "@{twenty twenty-seven}", y=820, size=36, out="@{this August}") + plate("FTC: PROPOSED GUIDANCE, AUG 2026", "@{this August}", y=880, size=36)),
 dict(start="Until any of that reaches", tag=C4, stock=K("woman-pricetag"), sfx=[('rise:0.25', '@{the only defense}')],
      el='''<Center y={860}><Words text="The only defense is you." at={@{the only defense}} size={84} hl={["you."]} /></Center>'''),
@@ -217,7 +225,7 @@ dict(start="Until any of that reaches", tag=C4, stock=K("woman-pricetag"), sfx=[
 # ======================= PART 6 · ГЛАВА 5 · КАК НЕ ПОПАСТЬСЯ =======================
 dict(start="So how do you make", tag=C5, stock=K("rubik"), hard=True, sfx=[('ep06-whoosh:0.2', '0.05')],
      el=plate("MAKE THE ALGORITHM GUESS WRONG", "0.2", y=880)),
-dict(start="Check the price twice", tag=C5, stock=K("man-annoyed"), dim=0.4, sfx=[('click:0.3', '@{logged in}'), ('click:0.3', '@{logged out}')],
+dict(start="Check the price twice", tag=C5, stock=K("confusion"), dim=0.4, sfx=[('click:0.3', '@{logged in}'), ('click:0.3', '@{logged out}')],
      el=plate("1 · APP, LOGGED IN", "@{logged in}", y=800, size=36, color="C6.accent") + plate("2 · PRIVATE WINDOW, LOGGED OUT", "@{logged out}", y=900, size=36, color="C6.accent")),
 dict(start="Turn off location", tag=C5, stock=K("phone-hands"), sfx=[('click:0.35', '0.3')],
      el=plate("STORE APPS · LOCATION → OFF", "0.2", y=880, size=40)),
@@ -227,13 +235,13 @@ dict(start="And if you're in New York", tag=C5, stock=K("nyc-street"), dim=0.55,
      el='''<Center y={480}><Disclosure at={@{one sentence}} price="$12.40" item="Your cart" w={1100} /></Center>'''),
 dict(start="Back to those eggs", tag=C5, stock=K("eggs-closeup"), dim=0.72,
      sfx=[('ep06-pop:0.2', '0.2'), ('ep06-pop:0.2', '0.4'), ('ep06-pop:0.2', '0.6'), ('ep06-pop:0.2', '0.8'), ('ep06-pop:0.2', '1.0')],
-     el=f'''<Center y={{520}}><TagRow prices={{{EGGS}}} times={{[0.2, 0.4, 0.6, 0.8, 1.0]}} title="1 dozen eggs" w={{250}} /></Center>'''),
+     el=f'''<Center y={{520}}><TagRow prices={{{EGGS}}} times={{[0.2, 0.4, 0.6, 0.8, 1.0]}} title="1 dozen eggs" w={{310}} /></Center>'''),
 dict(start="The eggs didn't change", tag=C5, stock=K("eggs-shopper"), clean=True, sfx=[('impact:0.2', '@{the shopper}')],
      el=plate("THE ONLY THING THAT CHANGED: THE SHOPPER", "@{the shopper}", y=880, size=38, color="C6.accent")),
 dict(start="So next time you see a price", tag=C5, dim=0.0, sfx=[('ep06-pop:0.2', '@{price of the eggs}'), ('impact:0.25', '@{price of me}')],
      el='''<Center y={360}><ESL at={0.1} price="$?.??" top="EGGS · 1 DOZEN" w={420} /></Center>
 <Center y={720}><Words text="The price of the eggs, or the price of me?" at={@{price of the eggs}} size={74} hl={["me?"]} /></Center>'''),
-dict(start="Have you ever caught", stock=K("couple-surprised"), dim=0.45, end_pad=8.0, sfx=[('ep06-pop:0.2', '@{in the comments}')],
+dict(start="Have you ever caught", stock=K("couple-surprised"), alt=(K("woman-bed-phone"), "Tell me"), dim=0.45, end_pad=8.0, sfx=[('ep06-pop:0.2', '@{in the comments}')],
      el='''<Center y={300}><Words text="Ever caught a price changing on you?" at={@{Have you ever}} size={74} hl={["changing"]} /></Center>
 <Center y={440}><Label6 at={@{in the comments}} size={38} color={C6.accent}>TELL US WHAT IT WAS · COMMENTS</Label6></Center>'''),
 ]

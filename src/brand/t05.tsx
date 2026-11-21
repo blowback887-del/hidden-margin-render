@@ -85,10 +85,10 @@ export const SaleTwins: React.FC<{ at: number; sale: string; olds: string[]; old
         {olds.map((o, i) => {
           const k = p(at + 0.2 * i, at + 0.2 * i + 0.35, easeBack);
           return (
-            <div key={i} style={{ opacity: Math.min(1, k * 1.3), scale: String(0.85 + 0.15 * k), width: 380, padding: "26px 30px", borderRadius: 18, background: "#FFF6D6", border: "5px solid #D7141A", textAlign: "center", boxShadow: "0 18px 44px rgba(0,0,0,.45)" }}>
-              <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: 40, color: "#D7141A", letterSpacing: "0.1em" }}>SALE</div>
-              <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 40, color: "#6b6b6b", textDecoration: "line-through", opacity: ko, marginTop: 6 }}>{`was ${o}`}</div>
-              <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: 104, color: INK, lineHeight: 1 }}>{sale}</div>
+            <div key={i} style={{ opacity: Math.min(1, k * 1.3), scale: String(0.85 + 0.15 * k), width: 470, padding: "34px 36px", borderRadius: 22, background: "#FFF6D6", border: "6px solid #D7141A", textAlign: "center", boxShadow: "0 18px 44px rgba(0,0,0,.45)" }}>
+              <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: 50, color: "#D7141A", letterSpacing: "0.1em" }}>SALE</div>
+              <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 50, color: "#6b6b6b", textDecoration: "line-through", opacity: ko, marginTop: 6 }}>{`was ${o}`}</div>
+              <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: 130, color: INK, lineHeight: 1 }}>{sale}</div>
             </div>
           );
         })}
