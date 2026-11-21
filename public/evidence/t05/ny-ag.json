@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://ag.ny.gov/press-release/2025/attorney-general-james-warns-new-yorkers-about-algorithmic-pricing-new-law-takes",
+ "host": "ag.ny.gov",
+ "frame": "screen",
+ "finds": {
+  "Algorithmic Pricing Disclosure Act": [
+   192,
+   813,
+   1706,
+   93
+  ]
+ }
+}

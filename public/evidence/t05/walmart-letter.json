@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.supermarketnews.com/grocery-technology/walmart-ceo-no-personal-info-used-in-pricing",
+ "host": "supermarketnews.com",
+ "frame": "screen",
+ "finds": {
+  "the product, not the person": [
+   1071,
+   600,
+   385,
+   40
+  ]
+ }
+}

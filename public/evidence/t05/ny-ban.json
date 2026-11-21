@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://patch.com/new-york/new-york-city/what-services-could-become-cheaper-surveillance-pricing-ban",
+ "host": "patch.com",
+ "frame": "screen",
+ "finds": {
+  "Kathy Hochul": [
+   608,
+   648,
+   212,
+   42
+  ]
+ }
+}

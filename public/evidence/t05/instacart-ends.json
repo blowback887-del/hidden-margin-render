@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.yahoo.com/news/articles/instacart-ends-ai-driven-price-144243422.html",
+ "host": "yahoo.com",
+ "frame": "screen",
+ "finds": {
+  "price tests": [
+   996,
+   605,
+   172,
+   42
+  ]
+ }
+}

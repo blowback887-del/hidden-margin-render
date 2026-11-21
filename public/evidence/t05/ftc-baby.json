@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-surveillance-pricing-study-indicates-wide-range-personal-data-used-set-individualized-consumer",
+ "host": "ftc.gov",
+ "frame": "screen",
+ "finds": {
+  "higher priced baby thermometers": [
+   723,
+   666,
+   424,
+   34
+  ]
+ }
+}

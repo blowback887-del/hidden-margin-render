@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.macrumors.com/2012/06/25/orbitz-presenting-more-expensive-hotels-to-mac-users",
+ "host": "macrumors.com",
+ "frame": "screen",
+ "finds": {
+  "$20 to $30 more a night": [
+   1012,
+   597,
+   296,
+   32
+  ]
+ }
+}

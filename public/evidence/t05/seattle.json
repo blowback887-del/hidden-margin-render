@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.commondreams.org/news/seattle-ban-surveillance-pricing",
+ "host": "commondreams.org",
+ "frame": "screen",
+ "finds": {
+  "conversations with chatbots": [
+   760,
+   597,
+   538,
+   50
+  ]
+ }
+}

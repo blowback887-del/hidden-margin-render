@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://news.delta.com/delta-responds-misinformation-around-ai-pricing",
+ "host": "news.delta.com",
+ "frame": "screen",
+ "finds": {
+  "personal data": [
+   1782,
+   659,
+   228,
+   48
+  ]
+ }
+}

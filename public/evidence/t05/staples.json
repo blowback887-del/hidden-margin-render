@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.theblaze.com/news/2012/12/26/think-youre-getting-a-good-deal-think-again-some-online-stores-charging-different-prices-based-on-where-they-think-you-live",
+ "host": "theblaze.com",
+ "frame": "screen",
+ "finds": {
+  "$15,79": [
+   628,
+   673,
+   132,
+   50
+  ],
+  "$14.29": [
+   542,
+   743,
+   130,
+   50
+  ]
+ }
+}

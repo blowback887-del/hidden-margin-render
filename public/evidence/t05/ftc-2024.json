@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-issues-orders-eight-companies-seeking-information-surveillance-pricing",
+ "host": "ftc.gov",
+ "frame": "screen",
+ "finds": {
+  "eight companies": [
+   620,
+   593,
+   471,
+   72
+  ]
+ }
+}

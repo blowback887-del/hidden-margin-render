@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.goodwinlaw.com/en/insights/blogs/2025/12/new-york-enacts-legislation-requiring-the-disclosure-of-algorithmic-pricing",
+ "host": "goodwinlaw.com",
+ "frame": "screen",
+ "finds": {
+  "THIS PRICE WAS SET BY AN ALGORITHM USING YOUR PERSONAL DATA": [
+   300,
+   643,
+   1024,
+   44
+  ]
+ }
+}
