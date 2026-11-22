@@ -34,7 +34,7 @@ Now look at the top of the page. A tomahawk steak. Fifty-eight. Almost nobody or
 Writer William Poundstone calls it an anchor. A ridiculously expensive item they don't expect anyone to buy. Its job is to sit there and make everything below it look like a bargain. Next to fifty-eight, fourteen feels like a steal.
 > SEE: весы: 58 тянет вниз, 14 подпрыгивает вверх с подписью «bargain?»
 
-Notice the prices aren't lined up in a neat column, either. Poundstone says that's on purpose. Give people a column of prices, and the cheap ones run down it and pick from the three cheapest things.
+Notice the prices aren't lined up in a neat column, either. Poundstone says that's on purpose. Give people a column of prices, and the price-conscious ones run straight down it and pick from the three cheapest things.
 > SEE: две версии меню: цены колонкой справа (палец ползёт вниз к трём дешёвым) против цен, спрятанных в описаниях
 
 Then the server comes over. Great choice. Want to add bacon? Three dollars. Truffle fries instead of regular? Two more.
@@ -70,7 +70,7 @@ So the burger is the bait. The soda is the business.
 > SEE: бургер на крючке; газировка в сейфе
 
 And to be fair, the restaurant isn't getting rich either. A full-service restaurant usually keeps somewhere between one and five cents of every dollar as actual profit. Rent, staff, insurance, the grill that breaks every summer.
-> SEE: доллар режется на части; остаются 3–5 центов; подписи rent, staff, insurance
+> SEE: доллар режется на части; остаются 1–5 центов; подписи rent, staff, insurance
 
 But notice something. So far, you agreed to every dollar. You said yes to the bacon. You said yes to the soda.
 > SEE: чек: каждая строка с галочкой «you said yes»
@@ -145,8 +145,8 @@ The complaint says the fee ran from 2021 to the summer of 2023. Toast strongly d
 Back in 2023, a restaurant owner in Missouri told Fox Business he'd lost seventy percent of his online orders. "It appears to the customer like we're penalizing them for ordering online," he said.
 > SEE: витрина небольшой закусочной (сток); цитата-плашка с источником Fox Business
 
-Remember those three to five cents the restaurant keeps from every dollar? For its last quarter alone, Toast reported one hundred sixty-nine million dollars in profit. [PAUSE]
-> SEE: монетка 3–5¢ слева; справа столбик «$169M — Q3 2026»
+Remember those few cents the restaurant keeps from every dollar? For its last quarter alone, Toast reported one hundred sixty-nine million dollars in profit. [PAUSE]
+> SEE: монетка 1–5¢ слева; справа столбик «$169M — Q3 2026»
 
 ## PART 6
 
