@@ -54,9 +54,9 @@ export const Bill: React.FC<{ lines: BillLine[]; total?: { value: string; at: nu
                   <span style={{ position: "relative", fontWeight: 700 }}>{l.value}</span>
                 </div>
                 {l.tag && (
-                  <div style={{ position: "absolute", right: -w * 0.42, top: "50%", translate: "0 -50%", opacity: tg, scale: String(0.7 + 0.3 * tg), rotate: "-6deg",
+                  <div style={{ position: "absolute", right: -w * 0.5, top: "50%", translate: "0 -50%", opacity: tg, scale: String(0.7 + 0.3 * tg), rotate: "-6deg",
                     padding: "4px 14px", border: `3px solid ${l.tag === "yes" ? C6.money : C6.loss}`, color: l.tag === "yes" ? C6.money : C6.loss,
-                    fontFamily: SANS, fontWeight: 800, fontSize: fs * 0.62, letterSpacing: "0.12em", whiteSpace: "nowrap", textTransform: "uppercase", background: "rgba(6,58,71,.85)" }}>
+                    fontFamily: SANS, fontWeight: 800, fontSize: fs * 0.85, letterSpacing: "0.1em", whiteSpace: "nowrap", textTransform: "uppercase", background: "rgba(6,58,71,.85)" }}>
                     {l.tag === "yes" ? "you said yes" : "nobody asked"}
                   </div>
                 )}
@@ -102,7 +102,7 @@ export const MenuCard: React.FC<{ items: { name: string; desc?: string; price: s
 /** Три версии меню из опыта Cornell: «$20», «20», «twenty dollars»; над «20» в момент winAt — «+8%». */
 export const ThreeMenus: React.FC<{ at: number; winAt: number }> = ({ at, winAt }) => {
   const { p } = useT();
-  const cards = ["$20.00", "20", "twenty dollars"];
+  const cards = ["$20", "20", "twenty dollars"];
   const w = p(winAt, winAt + 0.35, easeBack);
   return (
     <div style={{ display: "flex", gap: 46, alignItems: "flex-end" }}>
@@ -111,12 +111,12 @@ export const ThreeMenus: React.FC<{ at: number; winAt: number }> = ({ at, winAt 
         const win = i === 1;
         return (
           <div key={i} style={{ position: "relative", opacity: Math.min(1, k * 1.4), translate: `0 ${(1 - k) * 30}px` }}>
-            {win && <div style={{ position: "absolute", left: "50%", top: -110, translate: "-50% 0", opacity: w, scale: String(0.6 + 0.4 * w), fontFamily: SERIF, fontSize: 92, color: C6.accent }}>+8%</div>}
+            {win && <div style={{ position: "absolute", left: "50%", top: -150, translate: "-50% 0", opacity: w, scale: String(0.6 + 0.4 * w), fontFamily: SERIF, fontSize: 120, color: C6.accent }}>+8%</div>}
             <div style={{ width: 400, height: 300, background: "#FBF7EE", borderRadius: 6, boxShadow: win ? `0 0 0 ${6 * w}px ${C6.accent}, 0 30px 60px rgba(0,0,0,.45)` : "0 30px 60px rgba(0,0,0,.45)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18 }}>
               <div style={{ fontFamily: SERIF, fontSize: 44, color: "#2a2a26" }}>Same dish</div>
               <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: c.length > 8 ? 46 : 74, color: "#2a2a26" }}>{c}</div>
             </div>
-            <div style={{ marginTop: 18 }}><Note size={20} color={win ? C6.accent : C6.mint}>{["dollar sign", "no dollar sign", "spelled out"][i]}</Note></div>
+            <div style={{ marginTop: 22 }}><Note size={28} color={win ? C6.accent : C6.mint}>{["dollar sign", "no dollar sign", "spelled out"][i]}</Note></div>
           </div>
         );
       })}
@@ -185,9 +185,10 @@ export const SodaMargin: React.FC<{ at: number; pctAt: number }> = ({ at, pctAt 
       <div style={{ fontFamily: SERIF, fontSize: 64, color: C6.ink, opacity: p(at, at + 0.3) }}>A $2.50 fountain soda</div>
       <div style={{ width: 1100, height: 110, display: "flex", borderRadius: 16, overflow: "hidden", boxShadow: "0 20px 40px rgba(0,0,0,.35)" }}>
         {parts.map(([l, v, c], i) => (
-          <div key={i} style={{ width: `${v * 100}%`, height: "100%", background: c, transformOrigin: "left", scale: `${i === 0 ? Math.min(1, k * 2) : k} 1`, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: SANS, fontWeight: 800, fontSize: i ? 34 : 20, color: "#063A47", letterSpacing: "0.06em", textTransform: "uppercase" }}>{k > 0.9 ? (i ? `${l} · $2.15` : "$0.35") : ""}</div>
+          <div key={i} style={{ width: `${v * 100}%`, height: "100%", background: c, transformOrigin: "left", scale: `${i === 0 ? Math.min(1, k * 2) : k} 1`, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: SANS, fontWeight: 800, fontSize: 36, color: "#063A47", letterSpacing: "0.06em", textTransform: "uppercase" }}>{k > 0.9 && i ? `${l} · $2.15` : ""}</div>
         ))}
       </div>
+      <div style={{ width: 1100, marginTop: -14, fontFamily: SANS, fontWeight: 700, fontSize: 26, color: "#8EC5FF", letterSpacing: "0.1em", opacity: k }}>◀ $0.35 · SYRUP, WATER, ICE, CUP</div>
       <div style={{ display: "flex", gap: 60, alignItems: "baseline", opacity: p(pctAt, pctAt + 0.35) }}>
         <div style={{ fontFamily: SERIF, fontSize: 120, color: C6.accent, lineHeight: 1 }}>≈86¢</div>
         <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 34, color: C6.mint, letterSpacing: "0.12em" }}>OF EVERY $1 · GROSS PROFIT</div>
@@ -254,26 +255,27 @@ export const TipBase: React.FC<{ at: number; feeAt: number }> = ({ at, feeAt }) 
 export const FeeRoute: React.FC<{ at: number; feeAt: number; goAt: number }> = ({ at, feeAt, goAt }) => {
   const { p } = useT();
   const f = p(feeAt, feeAt + 0.3, easeBack);
-  const g = p(goAt, goAt + 0.9, Easing.inOut(Easing.cubic));
+  const g = p(goAt, goAt + 0.8, Easing.inOut(Easing.cubic));
   const box = (title: string, sub: string, col: string, o: number, dim = false) => (
-    <div style={{ opacity: o * (dim ? 0.55 : 1), width: 330, height: 190, borderRadius: 22, background: C6.panel, boxShadow: `inset 0 0 0 3px ${col}`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8 }}>
-      <div style={{ fontFamily: SERIF, fontSize: 54, color: C6.ink }}>{title}</div>
-      <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 22, letterSpacing: "0.14em", color: col }}>{sub}</div>
+    <div style={{ opacity: o * (dim ? 0.45 : 1), width: 420, height: 210, borderRadius: 24, background: C6.panel, boxShadow: `inset 0 0 0 4px ${col}`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 10 }}>
+      <div style={{ fontFamily: SERIF, fontSize: 70, color: C6.ink }}>{title}</div>
+      <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 28, letterSpacing: "0.12em", color: col }}>{sub}</div>
     </div>
   );
   return (
-    <div style={{ width: 1500, height: 520, position: "relative" }}>
-      <div style={{ position: "absolute", left: 0, top: 120, opacity: p(at, at + 0.35) }}>
-        <div style={{ width: 420, padding: "28px 34px", borderRadius: 18, background: "#F4F6F5", color: "#16191b", fontFamily: SANS, boxShadow: "0 30px 60px rgba(0,0,0,.45)" }}>
-          <div style={{ fontWeight: 600, fontSize: 22, letterSpacing: "0.14em", color: "#5b6268" }}>ONLINE ORDER</div>
-          <div style={{ display: "flex", justifyContent: "space-between", fontSize: 34, fontWeight: 700, marginTop: 10 }}><span>Subtotal</span><span>$10.50</span></div>
-          <div style={{ display: "flex", justifyContent: "space-between", fontSize: 34, fontWeight: 800, marginTop: 8, color: "#B3261E", opacity: f, scale: String(0.8 + 0.2 * f) }}><span>Fee</span><span>$0.99</span></div>
+    <div style={{ width: 1500, height: 700, position: "relative" }}>
+      <div style={{ position: "absolute", left: 0, top: 150, opacity: p(at, at + 0.35) }}>
+        <div style={{ width: 520, padding: "34px 40px", borderRadius: 20, background: "#F4F6F5", color: "#16191b", fontFamily: SANS, boxShadow: "0 30px 60px rgba(0,0,0,.45)" }}>
+          <div style={{ fontWeight: 700, fontSize: 28, letterSpacing: "0.14em", color: "#5b6268" }}>ONLINE ORDER</div>
+          <div style={{ display: "flex", justifyContent: "space-between", fontSize: 46, fontWeight: 700, marginTop: 14 }}><span>Subtotal</span><span>$10.50</span></div>
+          <div style={{ display: "flex", justifyContent: "space-between", fontSize: 46, fontWeight: 800, marginTop: 10, color: "#B3261E", opacity: f, scale: String(0.8 + 0.2 * f) }}><span>Fee</span><span>$0.99</span></div>
         </div>
       </div>
-      <div style={{ position: "absolute", left: 620, top: 0 }}>{box("Restaurant", "GOT NONE OF IT", C6.mint, p(at + 0.2, at + 0.5), g > 0.5)}</div>
-      <div style={{ position: "absolute", left: 620, top: 300 }}>{box("Toast", "WHERE IT WENT", C6.accent, p(at + 0.3, at + 0.6))}</div>
-      <div style={{ position: "absolute", left: 430, top: 250, width: 230, height: 8, background: C6.accent, borderRadius: 4, rotate: "38deg", transformOrigin: "left center", scale: `${g} 1` }} />
-      <div style={{ position: "absolute", left: 1000, top: 150, width: 460, opacity: p(goAt + 0.6, goAt + 1) }}><Note size={20} color={C6.mint}>ACCORDING TO THE FTC COMPLAINT · TOAST DISPUTES IT · SEPT 2021 – JULY 2023</Note></div>
+      <div style={{ position: "absolute", left: 1060, top: 20 }}>{box("Restaurant", "GOT NONE OF IT", C6.mint, p(feeAt + 0.3, feeAt + 0.6), g > 0.5)}</div>
+      <div style={{ position: "absolute", left: 1060, top: 390 }}>{box("Toast", "WHERE IT WENT", C6.accent, p(feeAt + 0.4, feeAt + 0.7))}</div>
+      <div style={{ position: "absolute", left: 540, top: 395, width: 500, height: 10, background: C6.accent, borderRadius: 5, rotate: "11deg", transformOrigin: "left center", scale: `${g} 1` }} />
+      <div style={{ position: "absolute", left: 1010, top: 470, width: 0, height: 0, borderTop: "22px solid transparent", borderBottom: "22px solid transparent", borderLeft: `40px solid ${C6.accent}`, opacity: g > 0.95 ? 1 : 0 }} />
+      <div style={{ position: "absolute", left: 0, top: 660, width: 1500, opacity: p(goAt + 0.6, goAt + 1) }}><Note size={24} color={C6.mint}>ACCORDING TO THE FTC COMPLAINT · TOAST DISPUTES IT · SEPT 2021 – JULY 2023</Note></div>
     </div>
   );
 };

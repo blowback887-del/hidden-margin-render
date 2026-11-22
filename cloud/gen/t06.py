@@ -68,7 +68,7 @@ LINES = dict(
 ORDER = ["burger", "bacon", "fries", "soda", "sub", "fee", "tax", "card", "tip"]
 
 
-def bill(show, at=None, hl=None, tags=None, blur=(), total=None, x=960, y=540, w=560, note=ILL, noteAt="0.05", start="-1"):
+def bill(show, at=None, hl=None, tags=None, blur=(), total=None, x=960, y=540, w=680, note=ILL, noteAt="0.05", start="-1"):
     """show: ключи строк по порядку; at: {ключ: время печати}; hl: {ключ: время}; tags: {ключ: ("yes"|"no", время)}."""
     at, hl, tags = at or {}, hl or {}, tags or {}
     rows = []
@@ -89,7 +89,8 @@ FOOD = ["burger", "bacon", "fries", "soda", "sub"]
 MENU = '''[{ name: "Tomahawk Ribeye", desc: "32 oz, bone-in", price: "58", anchor: true, hlAt: %s },
  { name: "Grilled Salmon", desc: "lemon butter", price: "26" },
  { name: "Chicken Sandwich", desc: "brioche", price: "16" },
- { name: "Classic Burger", desc: "cheddar, pickles", price: "14", hlAt: %s }]'''
+ { name: "Classic Burger", desc: "cheddar, pickles", price: "14", hlAt: %s },
+ { name: "Side Salad", desc: "house", price: "9" }]'''
 
 S = [
 # ======================= PART 1 · ХОЛОДНЫЙ ВХОД =======================
@@ -118,15 +119,15 @@ dict(start="So let's walk your order", dim=0.0, sfx=[('ep06-receipt:0.3', '0.1')
 # ======================= PART 2 · ГЛАВА 1 · МЕНЮ =======================
 dict(start="That missing dollar sign", tag=C1, hard=True, stock=K("menu-glass"), sfx=[('ep06-stamp:0.25', '@{Menu engineering}')],
      el=plate("MENU ENGINEERING", "@{Menu engineering}", y=880, size=50, color="C6.accent")),
-dict(start="There are consultants", tag=C1, stock=K("meeting"), sfx=[('ep06-pop:0.22', '@{Gregg Rapp}')],
+dict(start="There are consultants", tag=C1, stock=K("friends-menu"), sfx=[('ep06-pop:0.22', '@{Gregg Rapp}')],
      el=plate("MENU ENGINEER GREGG RAPP: DROP THE $, THE DECIMAL POINT, THE CENTS", "@{Gregg Rapp}", y=880, size=32) + src("Rapp, via Barking Up the Wrong Tree", "@{Gregg Rapp}")),
-dict(start="The researchers think the reason", tag=C1, stock=K("terminal-hand"), alt=(K("credit-card"), "Take it away"), dim=0.35, sfx=[('ep06-pop:0.22', '@{reminds you}')],
+dict(start="The researchers think the reason", tag=C1, stock=K("pay-cafe"), alt=(K("credit-card"), "Take it away"), dim=0.35, sfx=[('ep06-pop:0.22', '@{reminds you}')],
      el=plate("THE $ REMINDS YOU THAT YOU'RE PAYING", "@{reminds you}", y=880, size=38, out="@{Take it away}") +
         plate("WITHOUT IT: “A NICE, FRIENDLY NUMBER”", "@{Take it away}", y=880, size=38, color="C6.accent")),
 dict(start="Now look at the top of the page", tag=C1, dim=0.0, sfx=[('t02-paper:0.25', '0.05'), ('ep06-pop:0.22', '@{Fifty-eight}')],
      el='''<Center y={540}><MenuCard at={0.05} w={820} items={%s} /></Center>''' % (MENU % ("@{A tomahawk steak}", "@{That's the point}"))),
 dict(start="Writer William Poundstone", tag=C1, stock=K("tomahawk"), alt=(K("steak-plate"), "Its job is to sit"), dim=0.35, sfx=[('ep06-stamp:0.22', '@{an anchor}')],
-     el=plate("“ANCHOR”: AN ITEM THEY DON'T EXPECT ANYONE TO BUY", "@{an anchor}", y=880, size=36) + src("William Poundstone, “Priceless” · via ABC News", "@{an anchor}")),
+     el=plate("“ANCHOR”: AN ITEM THEY DON'T EXPECT ANYONE TO BUY", "@{an anchor}", y=880, size=36, out="@{Its job is to sit}") + plate("…SO EVERYTHING BELOW IT LOOKS LIKE A BARGAIN", "@{Its job is to sit}", y=880, size=36, color="C6.accent") + src("William Poundstone, “Priceless” · via ABC News", "@{an anchor}")),
 dict(start="Next to fifty-eight", tag=C1, dim=0.0, sfx=[('ep06-whoosh:0.25', '@{fourteen feels}')],
      el='''<Center y={560}><AnchorSeesaw at={0.05} tiltAt={@{fourteen feels}} /></Center>'''),
 dict(start="Notice the prices aren't lined up", tag=C1, dim=0.0, sfx=[('ep06-pop:0.22', '@{a column of prices}'), ('ep06-pop:0.22', '@{three cheapest}')],
@@ -146,8 +147,8 @@ dict(start="It even suggests a leaderboard", tag=C1, sfx=[('ep06-pop:0.22', '@{l
      el=doc("toast-upsell", [("leaderboard for the server", "leaderboard")], source="TOAST · RESTAURANT BLOG “ON THE LINE”")),
 dict(start="There's a leaderboard", tag=C1, dim=0.0, sfx=[('ep06-pop:0.22', '0.1'), ('ep06-scratch:0.25', '@{For your bacon}')],
      el='''<Center y={500}><Leaderboard at={0.05} topAt={@{For your bacon}} /></Center>'''),
-dict(start="And here's the principle", tag=C1, stock=K("departure-board"), alt=(K("boarding"), "Like an airline's"), dim=0.4, sfx=[('ep06-stamp:0.25', '@{opening bid}'), ('ep06-whoosh:0.2', "@{Like an airline's}")],
-     el=plate("MENU PRICE = OPENING BID", "@{opening bid}", y=860, size=50, color="C6.accent", out="@{Like an airline's}") +
+dict(start="And here's the principle", tag=C1, stock=K("departure-board"), dim=0.4, sfx=[('ep06-stamp:0.25', '@{opening bid}'), ('ep06-whoosh:0.2', "@{Like an airline's}")],
+     el=plate("MENU PRICE = OPENING BID", "@{isn't the price}", y=860, size=50, color="C6.accent", out="@{Like an airline's}") +
         plate("LIKE AN AIRLINE'S BASE FARE", "@{Like an airline's}", y=860, size=44, out="@{The real number}") +
         plate("THE REAL NUMBER COMES AFTER YOU SAY YES", "@{The real number}", y=860, size=40)),
 
@@ -157,18 +158,18 @@ dict(start="Now the soda", tag=C2, hard=True, stock=K("cola-ice"), dim=0.3, sfx=
 dict(start="You probably think the burger", tag=C2, stock=K("burger-grill"), alt=(K("kitchen-grill"), "Meat, bun"), sfx=[('ep09-sizzle:0.2', '0.1')],
      el=plate("THE EXPENSIVE PART?", "@{expensive part}", y=880, size=44)),
 dict(start="In a typical small sit-down", tag=C2, dim=0.0, sfx=[('ep06-counter:0.3', '@{about a third}')],
-     el='''<Center y={470}><Donut6 at={@{about a third}} pct={33.7} center="33.7%" size={420} /></Center>
-<Center y={800}><Label6 at={@{about a third}} size={32} color={C6.mint}>FOOD &amp; NON-ALCOHOLIC DRINK COST · SHARE OF SALES · MEDIAN</Label6></Center>''' + src("National Restaurant Association · 2024 data · restaurants under $2M", "@{the median}")),
-dict(start="The soda is a different story", tag=C2, stock=K("soda-pour"), sfx=[('ep06-pop:0.22', '@{one beverage executive}')],
+     el='''<Center y={470}><Donut6 at={0.1} pct={33.7} center="33.7%" size={420} /></Center>
+<Center y={800}><Label6 at={0.3} size={32} color={C6.mint}>FOOD &amp; NON-ALCOHOLIC DRINK COST · SHARE OF SALES · MEDIAN</Label6></Center>''' + src("National Restaurant Association · 2024 data · restaurants under $2M", "0.3")),
+dict(start="The soda is a different story", tag=C2, stock=K("cola-pour2"), sfx=[('ep06-pop:0.22', '@{one beverage executive}')],
      el=plate("ONE BEVERAGE EXECUTIVE, IN THE TRADE PRESS", "@{one beverage executive}", y=880, size=38)),
 dict(start="A fountain soda that sells", tag=C2, sfx=[('t02-paper:0.3', '0.1'), ('ep06-kaching:0.25', '@{two fifteen}')],
      el=doc("mrm-soda", [("$2.15 in gross profit", "two fifteen")], source="MODERN RESTAURANT MANAGEMENT · JULY 2026")),
 dict(start="That's eighty-six cents", tag=C2, dim=0.0, sfx=[('ep06-counter:0.3', '0.1'), ('ep06-pop:0.22', '@{You paid}')],
-     el='''<Center y={460}><SodaMargin at={0.05} pctAt={0.3} /></Center>''' + plate("YOU PAID $3.50", "@{You paid}", y=880, size=44, color="C6.accent") + src("our calculation: $2.15 ÷ $2.50", "0.3")),
-dict(start="So the burger is the bait", tag=C2, stock=K("bacon-burger"), alt=(K("cola-pour2"), "The soda is the business"), clean=True, sfx=[('ep06-pop:0.22', '@{the bait}'), ('ep06-kaching:0.25', '@{the business}')],
+     el='''<Center y={460}><SodaMargin at={0.05} pctAt={0.3} /></Center>''' + plate("SYRUP · WATER · ICE · A CUP", "@{Syrup}", y=880, size=40, out="@{You paid}") + plate("YOU PAID $3.50", "@{You paid}", y=880, size=44, color="C6.accent") + src("our calculation: $2.15 ÷ $2.50", "0.3")),
+dict(start="So the burger is the bait", tag=C2, stock=K("bacon-burger"), alt=(K("counting-money"), "The soda is the business"), clean=True, sfx=[('ep06-pop:0.22', '@{the bait}'), ('ep06-kaching:0.25', '@{the business}')],
      el=plate("THE BAIT", "@{the bait}", y=880, size=56, color="C6.accent", out="@{The soda is the business}") + plate("THE BUSINESS", "@{the business}", y=880, size=56, color="C6.money")),
-dict(start="And to be fair", tag=C2, stock=K("chef-kitchen"), alt=(K("empty-cafe"), "Rent, staff"), sfx=[('ep06-pop:0.22', '@{between one and five}')],
-     el=plate("A FULL-SERVICE RESTAURANT KEEPS ~1–5¢ OF EVERY $1", "@{between one and five}", y=880, size=36) + src("Toast · Restaurant365 · NRA", "@{between one and five}")),
+dict(start="And to be fair", tag=C2, stock=K("chef-kitchen"), alt=(K("delivery-bag"), "Rent, staff"), sfx=[('ep06-pop:0.22', '@{between one and five}')],
+     el=plate("A FULL-SERVICE RESTAURANT KEEPS ~1–5¢ OF EVERY $1", "@{between one and five}", y=880, size=36, out="@{Rent, staff}") + plate("RENT · STAFF · INSURANCE · REPAIRS", "@{Rent, staff}", y=880, size=40) + src("Toast · Restaurant365 · NRA", "@{between one and five}")),
 dict(start="But notice something", tag=C2, dim=0.0, sfx=[('ep06-stamp:0.2', '@{every dollar}'), ('ep06-stamp:0.2', '@{yes to the bacon}'), ('ep06-stamp:0.2', '@{yes to the soda}')],
      el=bill(FOOD, tags={"burger": ("yes", "@{every dollar}"), "bacon": ("yes", "@{yes to the bacon}"), "fries": ("yes", "@{yes to the bacon}"), "soda": ("yes", "@{yes to the soda}")}, x=760, start="0.05", note=ILL, noteAt="0.05")),
 dict(start="The next dollars", tag=C2, dim=0.0, sfx=[('rise:0.3', '0.1'), ('ep06-receipt:0.3', '@{never said yes}')],
@@ -176,7 +177,7 @@ dict(start="The next dollars", tag=C2, dim=0.0, sfx=[('rise:0.3', '0.1'), ('ep06
 
 # ======================= PART 4 · ГЛАВА 3 · МЕЛКИЙ ШРИФТ =======================
 dict(start="Down at the bottom of the bill", tag=C3, hard=True, dim=0.0, sfx=[('ep06-receipt:0.3', '@{Kitchen Appreciation}'), ('impact:0.25', '@{Seventy-nine cents}')],
-     el=bill(FOOD + ["fee"], at={"fee": "@{Kitchen Appreciation}"}, hl={"fee": "@{Seventy-nine cents}"}, start="0.05", note=ILL)),
+     el=bill(FOOD + ["fee"], at={"fee": "@{Kitchen Appreciation}"}, hl={"fee": "@{Seventy-nine cents}"}, note=ILL)),
 dict(start="That's not on the menu", tag=C3, stock=K("menu-hands"), dim=0.3, sfx=[('ep06-pop:0.22', '@{tiny line}')],
      el=plate("ONLY IN THE TINY LINE AT THE VERY BOTTOM", "@{tiny line}", y=880, size=38)),
 dict(start="Consumer advocate Christopher Elliott", tag=C3, sfx=[('t02-paper:0.3', '0.1'), ('ep06-pop:0.22', '@{A health mandate}')],
@@ -190,14 +191,14 @@ dict(start="He'd ordered chicken", tag=C3, stock=K("chicken-plate"), clean=True,
 dict(start="The restaurant took it off", tag=C3, stock=K("diner-woman"), sfx=[('ep06-pop:0.22', '@{never notice}')],
      el=plate("MANY PEOPLE NEVER NOTICE", "@{never notice}", y=880, size=42)),
 dict(start="Sometimes a state does see it", tag=C3, stock=K("phoenix"), sfx=[('ep06-whoosh:0.2', '0.05')],
-     el=plate("ARIZONA · 2023 · TWO SCOTTSDALE RESTAURANTS", "@{Arizona's}", y=880, size=38)),
+     el=plate("ARIZONA ATTORNEY GENERAL · 2023", "@{Arizona's}", y=880, size=40)),
 dict(start="over a three and a half percent", tag=C3, sfx=[('t02-paper:0.3', '0.1')],
      el=doc("azag-benefits", [("3.5% Employee Benefits charge", "employee benefits")], source="ARIZONA ATTORNEY GENERAL · APRIL 2023", zoom=0.75)),
 dict(start="They paid twenty thousand", tag=C3, sfx=[('ep06-kaching:0.25', '@{twenty thousand}')],
-     el=doc("azag", [("$20,000", "twenty thousand")], source="ARIZONA ATTORNEY GENERAL · APRIL 2023", zoom=0.7)),
+     el=doc("azag", [("$20,000", "twenty thousand")], source="ARIZONA ATTORNEY GENERAL · APRIL 2023", zoom=1.0)),
 dict(start="So isn't this illegal?", tag=C3, stock=K("shrug"), clean=True, sfx=[('ding:0.25', '@{Depends}')],
      el='''<Meme at={@{Depends}} text="depends where you're sitting." y={920} size={68} />'''),
-dict(start="California passed a law", tag=C3, stock=K("la-palms"), dim=0.3, sfx=[('ep06-pop:0.22', '@{California passed}'), ('ep06-stamp:0.25', '@{restaurants got an exception}')],
+dict(start="California passed a law", tag=C3, stock=K("la-palms"), alt=(K("courthouse"), "two days before"), dim=0.3, sfx=[('ep06-pop:0.22', '@{California passed}'), ('ep06-stamp:0.25', '@{restaurants got an exception}')],
      el=plate("CALIFORNIA · SB 478 BANS HIDDEN FEES · JULY 1, 2024", "@{California passed}", y=820, size=34, out="@{two days before}") +
         plate("2 DAYS BEFORE: RESTAURANTS EXEMPTED (SB 1524)", "@{two days before}", y=820, size=34, color="C6.accent") +
         plate("…IF THE FEE IS WRITTEN ON THE MENU", "@{as long as}", y=920, size=30, color="C6.mint")),
@@ -213,11 +214,11 @@ dict(start="One of Elliott's readers", tag=C3, sfx=[('t02-paper:0.3', '0.1'), ('
      el=doc("elliott-hawaii", [("charged tax on the fees", "taxed the fees")], source="THE ELLIOTT REPORT · NOV 2026", zoom=0.72)),
 dict(start="Then comes a three percent", tag=C3, dim=0.0, sfx=[('ep06-receipt:0.3', '@{Seventy-five cents}')],
      el=bill(FOOD + ["fee", "tax", "card"], at={"card": "@{Seventy-five cents}"}, hl={"card": "@{Seventy-five cents}"}, note=ILL)),
-dict(start="Here's what the sign by the door", tag=C3, stock=K("wallet-cards"), alt=(K("tap-pay"), "Pay with debit"), dim=0.3, sfx=[('ep06-pop:0.22', '@{Visa caps}'), ('ep06-stamp:0.22', '@{ban it outright}'), ('ding:0.25', '@{Pay with debit}')],
+dict(start="Here's what the sign by the door", tag=C3, stock=K("wallet-cards"), alt=(K("tap-pay"), "Connecticut"), dim=0.3, sfx=[('ep06-pop:0.22', '@{Visa caps}'), ('ep06-stamp:0.22', '@{ban it outright}'), ('ding:0.25', '@{Pay with debit}')],
      el=plate("VISA CAPS IT AT 3%", "@{Visa caps}", y=880, size=42, out="@{Connecticut}") +
         plate("BANNED: CONNECTICUT · MAINE · MASSACHUSETTS", "@{Connecticut}", y=880, size=36, out="@{only allowed on credit}") +
         plate("CREDIT CARDS ONLY · NEVER ON DEBIT", "@{only allowed on credit}", y=880, size=42, color="C6.accent") + src("Experian · Stripe · Money Crashers", "@{Visa caps}")),
-dict(start="If this is the kind of thing", tag=C3, stock=K("phone-scroll"), sfx=[('click:0.35', '@{subscribe}')],
+dict(start="If this is the kind of thing", tag=C3, stock=K("diner-fries"), sfx=[('click:0.35', '@{subscribe}')],
      el='''<Subscribe6 at={@{subscribe}} />''' + plate("ONE OF THESE EVERY FEW DAYS", "@{every few days}", y=880, size=36)),
 dict(start="We're at twenty-five ninety", tag=C3, dim=0.0, sfx=[('ep06-pop:0.22', '0.1'), ('rise:0.3', '@{most expensive part}')],
      el=bill(FOOD + ["fee", "tax", "card"], total=("25.90", "0.1", "SO FAR"), x=640, note=None) +
@@ -232,7 +233,7 @@ dict(start="Twenty percent. Twenty-two", tag=C4, dim=0.0, sfx=[('ep06-pop:0.2', 
 dict(start="But twenty percent of what", tag=C4, dim=0.0, sfx=[('ep06-pop:0.2', '0.1'), ('buzz:0.25', '@{The tax}'), ('ep06-stamp:0.25', '@{tipped on a fee}')],
      el='''<Center y={460}><TipBase at={0.1} feeAt={@{The tax}} /></Center>''' + plate("YOU JUST TIPPED ON A FEE", "@{tipped on a fee}", y=880, size=46, color="C6.accent")),
 dict(start="It's a setting", tag=C4, sfx=[('t02-paper:0.3', '0.1'), ('ep06-pop:0.22', '@{before or after tax}')],
-     el=doc("toast-tip-help", [("before or after tax", "before or after tax")], source="TOAST SUPPORT · HELP CENTER")),
+     el=doc("toast-tip-help", [("before or after tax", "before or after tax")], source="TOAST SUPPORT · HELP CENTER", zoom=0.75)),
 dict(start="In March, Fox News reported", tag=C4, sfx=[('t02-paper:0.3', '0.1'), ('ep06-pop:0.22', '@{double dipping}')],
      el=doc("foxnews-db", [("double-dipping", "double dipping")], source="FOX NEWS · MARCH 2026")),
 dict(start="And it works", tag=C4, stock=K("taxi-nyc"), sfx=[('ep06-whoosh:0.2', '0.05')],
@@ -240,7 +241,7 @@ dict(start="And it works", tag=C4, stock=K("taxi-nyc"), sfx=[('ep06-whoosh:0.2',
 dict(start="screens with higher suggested", tag=C4, dim=0.0, sfx=[('ep06-pop:0.2', '0.1'), ('ep06-pop:0.2', '@{twenty, twenty-five, thirty}'), ('impact:0.25', '@{roughly ten percent}')],
      el='''<Center y={470}><Row gap={90}><TipScreen at={0.1} w={470} opts={["15%", "20%", "25%"]} label="TAXI SCREEN A" total="Tip?" sub="SUGGESTED" /><TipScreen at={@{twenty, twenty-five, thirty}} w={470} opts={["20%", "25%", "30%"]} label="TAXI SCREEN B" total="Tip?" sub="SUGGESTED" /></Row></Center>''' +
         plate("HIGHER BUTTONS → TIPS UP ≈10%", "@{roughly ten percent}", y=920, size=44, color="C6.accent")),
-dict(start="So who makes these machines", tag=C4, stock=K("pos-card"), alt=(K("terminal-hand"), "The same Toast"), sfx=[('ep06-stamp:0.22', '@{one company}')],
+dict(start="So who makes these machines", tag=C4, stock=K("pos-card"), alt=(K("pos-woman"), "The same Toast"), sfx=[('ep06-stamp:0.22', '@{one company}')],
      el=plate("ONE COMPANY: TOAST", "@{one company}", y=880, size=46, color="C6.accent", out="@{The same Toast}") +
         plate("THE SAME TOAST WITH THE UPSELLING LEADERBOARD", "@{The same Toast}", y=880, size=36)),
 dict(start="About one hundred eighty-nine", tag=C4, dim=0.0, sfx=[('ep06-counter:0.3', '0.2')],
@@ -251,11 +252,11 @@ dict(start="And last month", tag=C4, sfx=[('t02-paper:0.3', '0.1'), ('ep06-stamp
 dict(start="According to the complaint", tag=C4, dim=0.0, sfx=[('ep06-pop:0.22', '@{ninety-nine cent}'), ('ep06-whoosh:0.25', '@{Neither were the restaurants}')],
      el='''<Center y={520}><FeeRoute at={0.05} feeAt={@{ninety-nine cent}} goAt={@{Neither were the restaurants}} /></Center>'''),
 dict(start="And the money went to Toast", tag=C4, sfx=[('t02-paper:0.3', '0.1'), ('ep06-whoosh:0.25', '@{the money went}')],
-     el=doc("ftc-toast-money", [("went to Toast and not the restaurants", "the money went")], source="FEDERAL TRADE COMMISSION · OCT 29, 2026")),
+     el=doc("ftc-toast-money", [("went to Toast and not the restaurants", "the money went")], source="FEDERAL TRADE COMMISSION · OCT 29, 2026", zoom=0.75)),
 dict(start="Back then, Fox Business", tag=C4, sfx=[('t02-paper:0.3', '0.1'), ('ep06-pop:0.22', "@{own website}")],
      el=doc("foxbiz-site", [("restaurants' own websites", "own website")], source="FOX BUSINESS · JULY 2023")),
 dict(start="The complaint says the fee ran", tag=C4, sfx=[('t02-paper:0.3', '0.1'), ('ep06-pop:0.22', '@{summer of 2023}')],
-     el=doc("ftc-toast", [("late-July 2023", "summer of 2023")], source="FEDERAL TRADE COMMISSION · OCT 29, 2026")),
+     el=doc("ftc-toast", [("late-July 2023", "summer of 2023")], source="FEDERAL TRADE COMMISSION · OCT 29, 2026", zoom=0.75)),
 dict(start="Toast strongly disagrees", tag=C4, stock=K("scales"), dim=0.4, sfx=[('ep06-stamp:0.22', '@{strongly disagrees}')],
      el=plate("ALLEGATIONS · TOAST STRONGLY DISAGREES · A COURT WILL DECIDE", "@{strongly disagrees}", y=880, size=34, color="C6.accent")),
 dict(start="Back in 2023, a restaurant owner", tag=C4, sfx=[('t02-paper:0.3', '0.1'), ('impact:0.25', '@{seventy percent}')],
@@ -272,17 +273,16 @@ dict(start="So here's your receipt", tag=C5, hard=True, dim=0.0, sfx=[('ep06-rec
         '''<Center x={1400} y={440}><Words text="$17.08" at={@{seventeen dollars}} size={170} hl={["$17.08"]} /></Center>
 <Center x={1400} y={580}><Label6 at={@{More than the burger}} size={34} color={C6.accent}>MORE THAN THE BURGER ITSELF</Label6></Center>'''),
 dict(start="Most of it you agreed to", tag=C5, dim=0.0, sfx=[('ep06-stamp:0.2', '@{agreed to}'), ('ep06-stamp:0.22', '@{nobody asked}')],
-     el=bill(ORDER, total=("$31.08", "-1"), x=740, y=530, tags={"bacon": ("yes", "@{agreed to}"), "fries": ("yes", "@{agreed to}"), "soda": ("yes", "@{agreed to}"), "fee": ("no", "@{nobody asked}"), "card": ("no", "@{nobody asked}"), "tip": ("no", "@{nobody asked}")}, note=None)),
+     el=bill(ORDER, total=("$31.08", "-1"), x=740, y=530, tags={"bacon": ("yes", "@{agreed to}"), "fries": ("yes", "@{agreed to}"), "soda": ("yes", "@{agreed to}"), "fee": ("no", "@{nobody asked}"), "tip": ("no", "@{nobody asked}")}, note=None)),
 dict(start="Here's how you take it back", tag=C5, stock=K("couple-dinner"), alt=(K("water-pour"), "Tap water"), dim=0.72,
      sfx=[('click:0.3', '@{Check the bottom}'), ('click:0.3', '@{Say no}'), ('click:0.3', '@{Tap water}'), ('click:0.3', '@{Pay with debit}'), ('ep06-kaching:0.25', '@{hit custom}')],
-     el='''<Center y={520}><ListReveal title="HOW TO TAKE IT BACK" w={1040} items={[{ text: "Read the bottom of the menu first", at: @{Check the bottom} }, { text: "Skip the add-on you didn't come for", at: @{Say no} }, { text: "Tap water is free", at: @{Tap water} }, { text: "Pay with debit — no card surcharge", at: @{Pay with debit} }, { text: "Hit Custom: tip on the food, not the fees", at: @{hit custom}, hot: true }]} /></Center>'''),
+     el='''<Center y={520}><ListReveal title="HOW TO TAKE IT BACK" w={1040} items={[{ text: "Read the bottom of the menu first", at: @{Check the bottom} }, { text: "Skip the add-on you didn't come for", at: @{Say no} }, { text: "Tap water is free", at: @{Tap water} }, { text: "Pay with debit — no card surcharge", at: @{Pay with debit} }, { text: "Custom tip: food, not fees", at: @{hit custom}, hot: true }]} /></Center>'''),
 dict(start="Same burger, a fair tip", tag=C5, dim=0.0, sfx=[('ep06-pop:0.22', '0.05'), ('ding:0.3', '@{Around eighteen}')],
      el='''<Center y={500}><TwoReceipts at={0.05} bAt={@{Around eighteen}} /></Center>''' + plate("ILLUSTRATIVE EXAMPLE · TIP 20% OF THE FOOD", "@{Around eighteen}", y=990, size=24, color="C6.mint")),
 dict(start="What's the weirdest fee", stock=K("shock-glasses"), dim=0.45, sfx=[('ep06-pop:0.2', '@{in the comments}')],
-     el='''<Center y={300}><Words text="The weirdest fee you've ever found?" at={0.1} size={76} hl={["weirdest"]} /></Center>
-<Center y={440}><Label6 at={@{in the comments}} size={38} color={C6.accent}>TELL US IN THE COMMENTS</Label6></Center>'''),
-dict(start="And if you're wondering", stock=K("server-food"), dim=0.65, end_pad=8.0, sfx=[('ep06-whoosh:0.2', '@{That story}')],
-     el='''<EndCard6 at={@{That story}} next="Where the service charge really goes" />'''),
+     el='''<Center y={790}><Words text="The weirdest fee you've ever found?" at={0.05} size={76} hl={["weirdest"]} /></Center>''' + plate("TELL US IN THE COMMENTS", "@{in the comments}", y=930, size=36, color="C6.accent")),
+dict(start="And if you're wondering", stock=K("server-food"), dim=0.55, end_pad=8.0, sfx=[('ep06-whoosh:0.2', '0.3')],
+     el='''<EndCard6 at={0.3} next="Where the service charge goes" />'''),
 ]
 
 EP["music_at"] = [
