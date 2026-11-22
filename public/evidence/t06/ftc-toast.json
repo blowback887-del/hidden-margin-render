@@ -3,8 +3,21 @@
   2880,
   1800
  ],
- "url": "https://ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+ "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
  "host": "ftc.gov",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "$0.99 fee": [
+   1019,
+   593,
+   119,
+   34
+  ],
+  "late-July 2023": [
+   2624,
+   593,
+   182,
+   34
+  ]
+ }
 }
