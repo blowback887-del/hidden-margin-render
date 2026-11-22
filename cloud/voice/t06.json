@@ -1,0 +1,13 @@
+{
+ "episode": "t06",
+ "lang": "en",
+ "words_out": "src/videos/t06-menu-words.json",
+ "audio_out": "public/audio/t06-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {
+   "part": 1,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/smpNLrVwHRD6reAJFaeE/tChFmO8O4cTvOkaEE1vM/content.mp3?Expires=1795348800&KeyName=assets-cdn-key-1&Signature=L8z0TDA1g3VWFq9tnIn880YK32k="
+  }
+ ]
+}
