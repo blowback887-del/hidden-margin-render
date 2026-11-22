@@ -1,0 +1,70 @@
+{
+ "evidence_out": "public/evidence/t06",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "ftc-toast-top",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+   "html": "public/research/snap/t06-ftc.html",
+   "find": []
+  },
+  {
+   "name": "ftc-toast",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+   "html": "public/research/snap/t06-ftc.html",
+   "find": [
+    "$0.99 fee",
+    "late-July 2023"
+   ]
+  },
+  {
+   "name": "ftc-toast-money",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+   "html": "public/research/snap/t06-ftc.html",
+   "find": [
+    "went to Toast and not the restaurants"
+   ]
+  },
+  {
+   "name": "toast-upsell-top",
+   "url": "https://pos.toasttab.com/blog/on-the-line/how-to-train-restaurant-upselling-techniques",
+   "find": [],
+   "hide": [
+    "#onetrust-consent-sdk",
+    "#onetrust-banner-sdk",
+    "[id*='consent']",
+    "[class*='consent']",
+    "[class*='cookie']"
+   ]
+  },
+  {
+   "name": "toast-upsell",
+   "url": "https://pos.toasttab.com/blog/on-the-line/how-to-train-restaurant-upselling-techniques",
+   "find": [
+    "reminding employees",
+    "leaderboard for the server"
+   ],
+   "hide": [
+    "#onetrust-consent-sdk",
+    "#onetrust-banner-sdk",
+    "[id*='consent']",
+    "[class*='consent']",
+    "[class*='cookie']"
+   ]
+  },
+  {
+   "name": "toast-tip-help",
+   "url": "https://support.toasttab.com/article/Receipts-Display-Suggested-Tip-Amounts",
+   "find": [
+    "before or after tax"
+   ],
+   "hide": [
+    "#onetrust-consent-sdk",
+    "#onetrust-banner-sdk",
+    "[id*='consent']",
+    "[class*='consent']",
+    "[class*='cookie']"
+   ]
+  }
+ ]
+}
