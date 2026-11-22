@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://news.cornell.edu/node/273666",
+ "host": "news.cornell.edu",
+ "frame": "screen",
+ "finds": {
+  "did not use dollar signs": [
+   1334,
+   671,
+   382,
+   54
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://support.toasttab.com/article/Receipts-Display-Suggested-Tip-Amounts",
+ "host": "support.toasttab.com",
+ "frame": "screen",
+ "finds": {
+  "before or after tax": [
+   1205,
+   595,
+   226,
+   36
+  ]
+ }
+}

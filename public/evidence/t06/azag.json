@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.azag.gov/press-release/attorney-general-mayes-announces-20000-settlement-two-phoenix-area-restaurants",
+ "host": "azag.gov",
+ "frame": "screen",
+ "finds": {
+  "$20,000": [
+   715,
+   345,
+   102,
+   32
+  ],
+  "3.5% Employee Benefits charge": [
+   2113,
+   1799,
+   440,
+   38
+  ]
+ }
+}

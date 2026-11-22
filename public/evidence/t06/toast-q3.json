@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://finviz.com/news/414791/toast-announces-third-quarter-2026-financial-results",
+ "host": "finviz.com",
+ "frame": "screen",
+ "finds": {
+  "$169 million": [
+   892,
+   596,
+   194,
+   44
+  ],
+  "approximately 189,000": [
+   1160,
+   1148,
+   360,
+   44
+  ]
+ }
+}

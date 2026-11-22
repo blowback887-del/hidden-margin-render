@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.elliott.org/blog/its-time-to-take-the-surprise-out-of-your-restaurant-bill/",
+ "host": "elliott.org",
+ "frame": "screen",
+ "finds": {
+  "charged tax on the fees": [
+   998,
+   601,
+   376,
+   40
+  ]
+ }
+}
