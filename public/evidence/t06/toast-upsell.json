@@ -6,5 +6,18 @@
  "url": "https://pos.toasttab.com/blog/on-the-line/how-to-train-restaurant-upselling-techniques",
  "host": "pos.toasttab.com",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "reminding employees": [
+   830,
+   659,
+   311,
+   40
+  ],
+  "leaderboard for the server": [
+   1054,
+   245,
+   371,
+   40
+  ]
+ }
 }

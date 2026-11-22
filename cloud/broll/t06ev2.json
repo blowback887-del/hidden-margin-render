@@ -35,7 +35,8 @@
     "[id*='consent']",
     "[class*='consent']",
     "[class*='cookie']"
-   ]
+   ],
+   "html": "public/research/snap/t06-toast.html"
   },
   {
    "name": "toast-upsell",
@@ -50,21 +51,8 @@
     "[id*='consent']",
     "[class*='consent']",
     "[class*='cookie']"
-   ]
-  },
-  {
-   "name": "toast-tip-help",
-   "url": "https://support.toasttab.com/article/Receipts-Display-Suggested-Tip-Amounts",
-   "find": [
-    "before or after tax"
    ],
-   "hide": [
-    "#onetrust-consent-sdk",
-    "#onetrust-banner-sdk",
-    "[id*='consent']",
-    "[class*='consent']",
-    "[class*='cookie']"
-   ]
+   "html": "public/research/snap/t06-toast.html"
   }
  ]
 }
