@@ -1,0 +1,357 @@
+{
+ "out": "public/broll/t06",
+ "sheet": "public/research/t06-broll-sheet.jpg",
+ "max_sec": 10,
+ "clips": [
+  {
+   "name": "01-menu-hands",
+   "id": 6327103,
+   "url": "https://videos.pexels.com/video-files/6327103/6327103-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "02-couple-menu",
+   "id": 5101157,
+   "url": "https://videos.pexels.com/video-files/5101157/5101157-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "03-friends-menu",
+   "id": 3970144,
+   "url": "https://videos.pexels.com/video-files/3970144/3970144-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "04-pay-cafe",
+   "id": 6683939,
+   "url": "https://videos.pexels.com/video-files/6683939/6683939-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "05-pos-card",
+   "id": 11158789,
+   "url": "https://videos.pexels.com/video-files/11158789/11158789-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "06-terminal-hand",
+   "id": 28827282,
+   "url": "https://videos.pexels.com/video-files/28827282/12487432_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "07-burger-grill",
+   "id": 1396152,
+   "url": "https://videos.pexels.com/video-files/1396152/1396152-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "08-patty-flame",
+   "id": 5221128,
+   "url": "https://videos.pexels.com/video-files/5221128/5221128-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "09-burger-fries",
+   "id": 5986794,
+   "url": "https://videos.pexels.com/video-files/5986794/5986794-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "10-bacon-burger",
+   "id": 32922287,
+   "url": "https://videos.pexels.com/video-files/32922287/14031195_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "11-bacon-fry",
+   "id": 5542027,
+   "url": "https://videos.pexels.com/video-files/5542027/5542027-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "12-fries-fryer",
+   "id": 5780289,
+   "url": "https://videos.pexels.com/video-files/5780289/5780289-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "13-fries-ketchup",
+   "id": 7653233,
+   "url": "https://videos.pexels.com/video-files/7653233/7653233-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "14-tomahawk",
+   "id": 8523031,
+   "url": "https://videos.pexels.com/video-files/8523031/8523031-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "15-steak-plate",
+   "id": 3209765,
+   "url": "https://videos.pexels.com/video-files/3209765/3209765-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "16-soda-pour",
+   "id": 12511820,
+   "url": "https://videos.pexels.com/video-files/12511820/12511820-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "17-cola-ice",
+   "id": 8518236,
+   "url": "https://videos.pexels.com/video-files/8518236/8518236-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "18-waitress-order",
+   "id": 3970140,
+   "url": "https://videos.pexels.com/video-files/3970140/3970140-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "19-server-food",
+   "id": 6327644,
+   "url": "https://videos.pexels.com/video-files/6327644/6327644-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "20-waiter-couple",
+   "id": 6816117,
+   "url": "https://videos.pexels.com/video-files/6816117/6816117-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "21-chef-kitchen",
+   "id": 3768941,
+   "url": "https://videos.pexels.com/video-files/3768941/3768941-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "22-kitchen-grill",
+   "id": 7878311,
+   "url": "https://videos.pexels.com/video-files/7878311/7878311-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "23-couple-dinner",
+   "id": 5102309,
+   "url": "https://videos.pexels.com/video-files/5102309/5102309-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "24-restaurant-night",
+   "id": 31471146,
+   "url": "https://videos.pexels.com/video-files/31471146/13419210_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "25-diner-fries",
+   "id": 7653238,
+   "url": "https://videos.pexels.com/video-files/7653238/7653238-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "26-diner-woman",
+   "id": 6531806,
+   "url": "https://videos.pexels.com/video-files/6531806/6531806-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "27-chicken-plate",
+   "id": 34521396,
+   "url": "https://videos.pexels.com/video-files/34521396/14626228_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "28-bill-water",
+   "id": 7735915,
+   "url": "https://videos.pexels.com/video-files/7735915/7735915-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "29-woman-receipts",
+   "id": 5981292,
+   "url": "https://videos.pexels.com/video-files/5981292/5981292-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "30-woman-upset",
+   "id": 5981352,
+   "url": "https://videos.pexels.com/video-files/5981352/5981352-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "31-calculator",
+   "id": 7688068,
+   "url": "https://videos.pexels.com/video-files/7688068/7688068-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "32-taxi-nyc",
+   "id": 5834223,
+   "url": "https://videos.pexels.com/video-files/5834223/5834223-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "33-taxi-door",
+   "id": 5834621,
+   "url": "https://videos.pexels.com/video-files/5834621/5834621-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "34-coins-fall",
+   "id": 31978273,
+   "url": "https://videos.pexels.com/video-files/31978273/13626199_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "35-shocked-man",
+   "id": 4587767,
+   "url": "https://videos.pexels.com/video-files/4587767/4587767-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "36-shock-glasses",
+   "id": 6290467,
+   "url": "https://videos.pexels.com/video-files/6290467/6290467-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "37-frustrated",
+   "id": 6962334,
+   "url": "https://videos.pexels.com/video-files/6962334/6962334-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "38-laughing",
+   "id": 8627656,
+   "url": "https://videos.pexels.com/video-files/8627656/8627656-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "39-counting-money",
+   "id": 5466769,
+   "url": "https://videos.pexels.com/video-files/5466769/5466769-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "40-stock-screens",
+   "id": 8480244,
+   "url": "https://videos.pexels.com/video-files/8480244/8480244-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "41-meeting",
+   "id": 7804946,
+   "url": "https://videos.pexels.com/video-files/7804946/7804946-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "42-scales",
+   "id": 5636967,
+   "url": "https://videos.pexels.com/video-files/5636967/5636967-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "43-fishing-hook",
+   "id": 8918110,
+   "url": "https://videos.pexels.com/video-files/8918110/8918110-hd_2048_1080_24fps.mp4"
+  },
+  {
+   "name": "44-utah-road",
+   "id": 36446023,
+   "url": "https://videos.pexels.com/video-files/36446023/15454656_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "45-moab",
+   "id": 37490082,
+   "url": "https://videos.pexels.com/video-files/37490082/15882027_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "46-waikiki",
+   "id": 5230286,
+   "url": "https://videos.pexels.com/video-files/5230286/5230286-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "47-phoenix",
+   "id": 4046192,
+   "url": "https://videos.pexels.com/video-files/4046192/4046192-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "48-la-palms",
+   "id": 13565018,
+   "url": "https://videos.pexels.com/video-files/13565018/13565018-hd_2048_864_24fps.mp4"
+  },
+  {
+   "name": "49-courthouse",
+   "id": 40903701,
+   "url": "https://videos.pexels.com/video-files/40903701/17486538_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "50-boarding",
+   "id": 3701060,
+   "url": "https://videos.pexels.com/video-files/3701060/3701060-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "51-departure-board",
+   "id": 4684084,
+   "url": "https://videos.pexels.com/video-files/4684084/4684084-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "52-laptop-order",
+   "id": 8937981,
+   "url": "https://videos.pexels.com/video-files/8937981/8937981-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "53-delivery-bag",
+   "id": 4170498,
+   "url": "https://videos.pexels.com/video-files/4170498/4170498-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "54-water-pour",
+   "id": 6933529,
+   "url": "https://videos.pexels.com/video-files/6933529/6933529-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "55-credit-card",
+   "id": 7535111,
+   "url": "https://videos.pexels.com/video-files/7535111/7535111-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "56-shrug",
+   "id": 11194553,
+   "url": "https://videos.pexels.com/video-files/11194553/11194553-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "57-pos-woman",
+   "id": 4524440,
+   "url": "https://videos.pexels.com/video-files/4524440/4524440-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "58-pay-waiter",
+   "id": 6816190,
+   "url": "https://videos.pexels.com/video-files/6816190/6816190-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "59-empty-cafe",
+   "id": 36461686,
+   "url": "https://videos.pexels.com/video-files/36461686/15460865_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "60-shopkeeper",
+   "id": 8421652,
+   "url": "https://videos.pexels.com/video-files/8421652/8421652-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "61-phone-scroll",
+   "id": 10238038,
+   "url": "https://videos.pexels.com/video-files/10238038/10238038-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "62-dollar-stack",
+   "id": 4393482,
+   "url": "https://videos.pexels.com/video-files/4393482/4393482-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "63-menu-glass",
+   "id": 8428488,
+   "url": "https://videos.pexels.com/video-files/8428488/8428488-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "64-chalk-prices",
+   "id": 5920147,
+   "url": "https://videos.pexels.com/video-files/5920147/5920147-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "65-wallet-cards",
+   "id": 11272053,
+   "url": "https://videos.pexels.com/video-files/11272053/11272053-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "66-tap-pay",
+   "id": 6540557,
+   "url": "https://videos.pexels.com/video-files/6540557/6540557-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "67-delivery-pay",
+   "id": 4170167,
+   "url": "https://videos.pexels.com/video-files/4170167/4170167-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "68-cola-pour2",
+   "id": 8880961,
+   "url": "https://videos.pexels.com/video-files/8880961/8880961-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "69-grill-flames",
+   "id": 8523306,
+   "url": "https://videos.pexels.com/video-files/8523306/8523306-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "70-handshake",
+   "id": 8426047,
+   "url": "https://videos.pexels.com/video-files/8426047/8426047-hd_1920_1080_25fps.mp4"
+  }
+ ]
+}

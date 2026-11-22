@@ -1,0 +1,157 @@
+{
+ "evidence_out": "public/evidence/t06",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "cornell-top",
+   "url": "https://news.cornell.edu/node/273666",
+   "find": []
+  },
+  {
+   "name": "cornell",
+   "url": "https://news.cornell.edu/node/273666",
+   "find": [
+    "did not use dollar signs"
+   ]
+  },
+  {
+   "name": "toast-upsell-top",
+   "url": "https://pos.toasttab.com/blog/on-the-line/how-to-train-restaurant-upselling-techniques",
+   "find": []
+  },
+  {
+   "name": "toast-upsell",
+   "url": "https://pos.toasttab.com/blog/on-the-line/how-to-train-restaurant-upselling-techniques",
+   "find": [
+    "reminding employees",
+    "leaderboard for the server"
+   ]
+  },
+  {
+   "name": "mrm-top",
+   "url": "https://modernrestaurantmanagement.com/?p=40885",
+   "find": []
+  },
+  {
+   "name": "mrm-soda",
+   "url": "https://modernrestaurantmanagement.com/?p=40885",
+   "find": [
+    "$2.15 in gross profit"
+   ]
+  },
+  {
+   "name": "elliott-top",
+   "url": "https://www.elliott.org/blog/its-time-to-take-the-surprise-out-of-your-restaurant-bill/",
+   "find": []
+  },
+  {
+   "name": "elliott-names",
+   "url": "https://www.elliott.org/blog/its-time-to-take-the-surprise-out-of-your-restaurant-bill/",
+   "find": [
+    "kitchen appreciation fee"
+   ]
+  },
+  {
+   "name": "elliott-beef",
+   "url": "https://www.elliott.org/blog/its-time-to-take-the-surprise-out-of-your-restaurant-bill/",
+   "find": [
+    "beef-cost surcharge"
+   ]
+  },
+  {
+   "name": "elliott-hawaii",
+   "url": "https://www.elliott.org/blog/its-time-to-take-the-surprise-out-of-your-restaurant-bill/",
+   "find": [
+    "charged tax on the fees"
+   ]
+  },
+  {
+   "name": "azag",
+   "url": "https://www.azag.gov/press-release/attorney-general-mayes-announces-20000-settlement-two-phoenix-area-restaurants",
+   "find": [
+    "$20,000",
+    "3.5% Employee Benefits charge"
+   ]
+  },
+  {
+   "name": "newsweek-fl",
+   "url": "https://newsweek.com/florida-targets-hidden-restaurant-fees-what-are-other-states-doing-12132495",
+   "find": [
+    "take effect on July 1, 2026"
+   ]
+  },
+  {
+   "name": "toast-tip-help",
+   "url": "https://support.toasttab.com/article/Receipts-Display-Suggested-Tip-Amounts",
+   "find": [
+    "before or after tax"
+   ]
+  },
+  {
+   "name": "foxnews-top",
+   "url": "https://www.foxnews.com/food-drink/restaurants-may-quietly-inflating-your-tip-diners-starting-notice",
+   "find": []
+  },
+  {
+   "name": "foxnews-db",
+   "url": "https://www.foxnews.com/food-drink/restaurants-may-quietly-inflating-your-tip-diners-starting-notice",
+   "find": [
+    "double-dipping"
+   ]
+  },
+  {
+   "name": "ftc-toast-top",
+   "url": "https://ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+   "find": []
+  },
+  {
+   "name": "ftc-toast",
+   "url": "https://ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+   "find": [
+    "$0.99 fee",
+    "late-July 2023"
+   ]
+  },
+  {
+   "name": "ftc-toast-money",
+   "url": "https://ftc.gov/news-events/news/press-releases/2026/10/ftc-states-take-action-against-toast-inc-over-hidden-unauthorized-fees-deceptive-subscription",
+   "find": [
+    "went to Toast and not the restaurants"
+   ]
+  },
+  {
+   "name": "foxbiz-top",
+   "url": "https://www.foxbusiness.com/lifestyle/sudden-fees-charged-millions-americans-big-tech-vendor-toast-spark-congressional-query",
+   "find": []
+  },
+  {
+   "name": "foxbiz-70",
+   "url": "https://www.foxbusiness.com/lifestyle/sudden-fees-charged-millions-americans-big-tech-vendor-toast-spark-congressional-query",
+   "find": [
+    "70% of his online orders"
+   ]
+  },
+  {
+   "name": "foxbiz-quote",
+   "url": "https://www.foxbusiness.com/lifestyle/sudden-fees-charged-millions-americans-big-tech-vendor-toast-spark-congressional-query",
+   "find": [
+    "penalizing them for ordering online"
+   ]
+  },
+  {
+   "name": "foxbiz-site",
+   "url": "https://www.foxbusiness.com/lifestyle/restaurateurs-fuming-ominous-new-fee-billed-customers-big-tech-vendor",
+   "find": [
+    "restaurants' own websites"
+   ]
+  },
+  {
+   "name": "toast-q3",
+   "url": "https://finviz.com/news/414791/toast-announces-third-quarter-2026-financial-results",
+   "find": [
+    "$169 million",
+    "approximately 189,000"
+   ]
+  }
+ ]
+}
