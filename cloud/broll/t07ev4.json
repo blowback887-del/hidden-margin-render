@@ -1,0 +1,72 @@
+{
+ "evidence_out": "public/evidence/t07",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "nacs-margin-top",
+   "url": "https://www.convenience.org/stay-current/conveniencecorner/who-makes-money-selling-gas",
+   "find": [],
+   "hide": [
+    "#advertisement",
+    "[id^=placement_]",
+    "[id*=advert]"
+   ]
+  },
+  {
+   "name": "nacs-margin",
+   "url": "https://www.convenience.org/stay-current/conveniencecorner/who-makes-money-selling-gas",
+   "find": [
+    "10- to 15-cent profit"
+   ],
+   "hide": [
+    "#advertisement",
+    "[id^=placement_]",
+    "[id*=advert]"
+   ]
+  },
+  {
+   "name": "nacs-sales-top",
+   "url": "https://www.convenience.org/stay-current/news/2026/april/15/u-s-convenience-in-store-sales-top-$340-billion",
+   "find": [],
+   "hide": [
+    "#advertisement",
+    "[id^=placement_]",
+    "[id*=advert]"
+   ]
+  },
+  {
+   "name": "nacs-sales",
+   "url": "https://www.convenience.org/stay-current/news/2026/april/15/u-s-convenience-in-store-sales-top-$340-billion",
+   "find": [
+    "21.3 billion"
+   ],
+   "hide": [
+    "#advertisement",
+    "[id^=placement_]",
+    "[id*=advert]"
+   ]
+  },
+  {
+   "name": "nacs-fraction-top",
+   "url": "https://www.convenience.org/topics/fuels-and-energy/why-gas-is-priced-using-fractions-of-a-penny",
+   "find": [],
+   "hide": [
+    "#advertisement",
+    "[id^=placement_]",
+    "[id*=advert]"
+   ]
+  },
+  {
+   "name": "nacs-fraction",
+   "url": "https://www.convenience.org/topics/fuels-and-energy/why-gas-is-priced-using-fractions-of-a-penny",
+   "find": [
+    "That 0.9 cent in the price"
+   ],
+   "hide": [
+    "#advertisement",
+    "[id^=placement_]",
+    "[id*=advert]"
+   ]
+  }
+ ]
+}
