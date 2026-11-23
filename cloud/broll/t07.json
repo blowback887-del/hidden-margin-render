@@ -1,0 +1,347 @@
+{
+ "out": "public/broll/t07",
+ "sheet": "public/research/t07-sheet.jpg",
+ "max_sec": 14,
+ "clips": [
+  {
+   "name": "01-pump-display",
+   "id": 9592759,
+   "url": "https://videos.pexels.com/video-files/9592759/9592759-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "02-pump-rise",
+   "id": 29576552,
+   "url": "https://videos.pexels.com/video-files/29576552/12731018_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "03-fill-car",
+   "id": 29576549,
+   "url": "https://videos.pexels.com/video-files/29576549/12731048_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "04-refill-person",
+   "id": 9109484,
+   "url": "https://videos.pexels.com/video-files/9109484/9109484-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "05-nozzle",
+   "id": 15556113,
+   "url": "https://videos.pexels.com/video-files/15556113/15556113-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "06-pumps-self",
+   "id": 4092537,
+   "url": "https://videos.pexels.com/video-files/4092537/4092537-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "07-pump-close",
+   "id": 39102373,
+   "url": "https://videos.pexels.com/video-files/39102373/16637026_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "08-man-refuel",
+   "id": 39102371,
+   "url": "https://videos.pexels.com/video-files/39102371/16637016_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "09-station-night",
+   "id": 14603998,
+   "url": "https://videos.pexels.com/video-files/14603998/14603998-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "10-station-day",
+   "id": 14603999,
+   "url": "https://videos.pexels.com/video-files/14603999/14603999-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "11-neon-station",
+   "id": 34964497,
+   "url": "https://videos.pexels.com/video-files/34964497/14811596_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "12-shell-night",
+   "id": 14627006,
+   "url": "https://videos.pexels.com/video-files/14627006/14627006-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "13-night-drone",
+   "id": 29352648,
+   "url": "https://videos.pexels.com/video-files/29352648/12649743_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "14-aerial-urban",
+   "id": 29840670,
+   "url": "https://videos.pexels.com/video-files/29840670/12814745_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "15-aerial-flag",
+   "id": 37609161,
+   "url": "https://videos.pexels.com/video-files/37609161/15940206_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "16-price-sign",
+   "id": 4324135,
+   "url": "https://videos.pexels.com/video-files/4324135/4324135-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "17-drive-by",
+   "id": 4092535,
+   "url": "https://videos.pexels.com/video-files/4092535/4092535-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "18-open-sign",
+   "id": 19888801,
+   "url": "https://videos.pexels.com/video-files/19888801/19888801-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "19-storefront-night",
+   "id": 39372797,
+   "url": "https://videos.pexels.com/video-files/39372797/16761842_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "20-vending-night",
+   "id": 25810707,
+   "url": "https://videos.pexels.com/video-files/25810707/11911342_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "21-card-phone",
+   "id": 7534330,
+   "url": "https://videos.pexels.com/video-files/7534330/7534330-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "22-phone-card-top",
+   "id": 7535102,
+   "url": "https://videos.pexels.com/video-files/7535102/7535102-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "23-worried-card",
+   "id": 7534958,
+   "url": "https://videos.pexels.com/video-files/7534958/7534958-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "24-crying-card",
+   "id": 7534962,
+   "url": "https://videos.pexels.com/video-files/7534962/7534962-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "25-worried-couple",
+   "id": 6962701,
+   "url": "https://videos.pexels.com/video-files/6962701/6962701-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "26-couple-bills",
+   "id": 6963972,
+   "url": "https://videos.pexels.com/video-files/6963972/6963972-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "27-card-reader",
+   "id": 11158789,
+   "url": "https://videos.pexels.com/video-files/11158789/11158789-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "28-tap-card",
+   "id": 6540557,
+   "url": "https://videos.pexels.com/video-files/6540557/6540557-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "29-empty-wallet",
+   "id": 11099870,
+   "url": "https://videos.pexels.com/video-files/11099870/11099870-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "30-hourglass",
+   "id": 1196530,
+   "url": "https://videos.pexels.com/video-files/1196530/1196530-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "31-coins-jar",
+   "id": 31602655,
+   "url": "https://videos.pexels.com/video-files/31602655/13465769_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "32-pennies",
+   "id": 7062994,
+   "url": "https://videos.pexels.com/video-files/7062994/7062994-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "33-store-aisle",
+   "id": 28671131,
+   "url": "https://videos.pexels.com/video-files/28671131/12450440_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "34-snack-aisle",
+   "id": 28671127,
+   "url": "https://videos.pexels.com/video-files/28671127/12450410_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "35-cashier",
+   "id": 14936143,
+   "url": "https://videos.pexels.com/video-files/14936143/14936143-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "36-buying-drinks",
+   "id": 4473193,
+   "url": "https://videos.pexels.com/video-files/4473193/4473193-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "37-beer-shelf",
+   "id": 11598349,
+   "url": "https://videos.pexels.com/video-files/11598349/11598349-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "38-cola-pour",
+   "id": 12511820,
+   "url": "https://videos.pexels.com/video-files/12511820/12511820-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "39-hotdog-grill",
+   "id": 5780434,
+   "url": "https://videos.pexels.com/video-files/5780434/5780434-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "40-hotdog-hold",
+   "id": 32304951,
+   "url": "https://videos.pexels.com/video-files/32304951/13777115_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "41-coffee-take",
+   "id": 18883841,
+   "url": "https://videos.pexels.com/video-files/18883841/18883841-hd_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "42-fuel-gauge",
+   "id": 4223775,
+   "url": "https://videos.pexels.com/video-files/4223775/4223775-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "43-dashboard",
+   "id": 13850345,
+   "url": "https://videos.pexels.com/video-files/13850345/13850345-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "44-engine-open",
+   "id": 20693197,
+   "url": "https://videos.pexels.com/video-files/20693197/20693197-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "45-mechanic-binder",
+   "id": 6870342,
+   "url": "https://videos.pexels.com/video-files/6870342/6870342-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "46-refinery",
+   "id": 37151630,
+   "url": "https://videos.pexels.com/video-files/37151630/15738797_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "47-pumpjacks",
+   "id": 10227529,
+   "url": "https://videos.pexels.com/video-files/10227529/10227529-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "48-rocket",
+   "id": 854262,
+   "url": "https://videos.pexels.com/video-files/854262/854262-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "49-feather",
+   "id": 7292648,
+   "url": "https://videos.pexels.com/video-files/7292648/7292648-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "50-chart-dark",
+   "id": 38736274,
+   "url": "https://videos.pexels.com/video-files/38736274/16457004_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "51-street-phones",
+   "id": 39102147,
+   "url": "https://videos.pexels.com/video-files/39102147/16636794_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "52-sacramento",
+   "id": 35293419,
+   "url": "https://videos.pexels.com/video-files/35293419/14953228_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "53-ca-highway",
+   "id": 29102065,
+   "url": "https://videos.pexels.com/video-files/29102065/12572926_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "54-network",
+   "id": 35008786,
+   "url": "https://videos.pexels.com/video-files/35008786/14830838_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "55-server",
+   "id": 5028622,
+   "url": "https://videos.pexels.com/video-files/5028622/5028622-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "56-courthouse",
+   "id": 40903701,
+   "url": "https://videos.pexels.com/video-files/40903701/17486538_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "57-lawyer-doc",
+   "id": 8731305,
+   "url": "https://videos.pexels.com/video-files/8731305/8731305-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "58-shocked-screen",
+   "id": 6962693,
+   "url": "https://videos.pexels.com/video-files/6962693/6962693-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "59-shocked-glasses",
+   "id": 8626645,
+   "url": "https://videos.pexels.com/video-files/8626645/8626645-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "60-facepalm",
+   "id": 6654092,
+   "url": "https://videos.pexels.com/video-files/6654092/6654092-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "61-thumbs-up",
+   "id": 8151832,
+   "url": "https://videos.pexels.com/video-files/8151832/8151832-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "62-calculator",
+   "id": 5466771,
+   "url": "https://videos.pexels.com/video-files/5466771/5466771-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "63-highway-sunset",
+   "id": 27622908,
+   "url": "https://videos.pexels.com/video-files/27622908/12187245_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "64-drive-night",
+   "id": 28928755,
+   "url": "https://videos.pexels.com/video-files/28928755/12519832_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "65-cars-lined",
+   "id": 8996523,
+   "url": "https://videos.pexels.com/video-files/8996523/8996523-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "66-vintage-station",
+   "id": 31388121,
+   "url": "https://videos.pexels.com/video-files/31388121/13393607_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "67-old-pump",
+   "id": 3010407,
+   "url": "https://videos.pexels.com/video-files/3010407/3010407-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "68-busy-station",
+   "id": 40304917,
+   "url": "https://videos.pexels.com/video-files/40304917/17217625_1920_1080_60fps.mp4"
+  }
+ ]
+}
