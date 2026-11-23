@@ -6,5 +6,18 @@
  "url": "https://www.cstoredive.com/news/7-eleven-circle-k-named-in-lawsuit-over-using-ai-to-boost-gas-prices/823558/",
  "host": "cstoredive.com",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "about 6 cents": [
+   425,
+   668,
+   1200,
+   107
+  ],
+  "30-cent increase": [
+   834,
+   797,
+   248,
+   42
+  ]
+ }
 }

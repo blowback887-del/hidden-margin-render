@@ -6,5 +6,12 @@
  "url": "https://signalscv.com/2026/06/california-lawsuit-alleges-ai-gas-price-fixing/",
  "host": "signalscv.com",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "pumps and signs": [
+   878,
+   669,
+   270,
+   42
+  ]
+ }
 }

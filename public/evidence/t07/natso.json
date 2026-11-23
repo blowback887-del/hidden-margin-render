@@ -6,5 +6,12 @@
  "url": "https://www.natso.com/design-and-element-advice-for-creating-a-convenience-store-in-a-truck-stop/",
  "host": "natso.com",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "traffic generator": [
+   1379,
+   599,
+   218,
+   38
+  ]
+ }
 }

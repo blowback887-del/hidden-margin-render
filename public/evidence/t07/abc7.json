@@ -7,11 +7,17 @@
  "host": "abc7.com",
  "frame": "screen",
  "finds": {
-  "Kalibrate": [
-   398,
-   626,
-   103,
-   38
+  "central nervous system": [
+   533,
+   630,
+   293,
+   34
+  ],
+  "downward spiral": [
+   2341,
+   698,
+   214,
+   34
   ]
  }
 }

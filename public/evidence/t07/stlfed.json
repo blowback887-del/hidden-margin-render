@@ -6,5 +6,12 @@
  "url": "https://www.stlouisfed.org/on-the-economy/2026/aug/when-oil-prices-drop-why-do-gasoline-prices-stay-elevated",
  "host": "stlouisfed.org",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "decline much more slowly": [
+   1038,
+   606,
+   366,
+   38
+  ]
+ }
 }

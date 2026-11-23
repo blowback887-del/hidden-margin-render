@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://gasprices.aaa.com/premium-fuel-research/",
+ "host": "gasprices.aaa.com",
+ "frame": "screen",
+ "finds": {
+  "no significant improvement in horsepower": [
+   626,
+   678,
+   662,
+   40
+  ],
+  "16.5 million": [
+   548,
+   348,
+   182,
+   40
+  ]
+ }
+}
