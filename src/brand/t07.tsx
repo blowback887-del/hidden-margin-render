@@ -204,10 +204,10 @@ export const StoreMap: React.FC<{ at?: number; pathAt: number; grabAt?: number; 
         <path d={path} fill="none" stroke={C6.accent} strokeWidth={7} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={`${len}`} strokeDashoffset={len * (1 - d)} style={{ filter: `drop-shadow(0 0 8px ${C6.accent})` }} />
         <circle cx={w * 0.66} cy={h * 0.45} r={26} fill={C6.loss} opacity={g} />
       </svg>
-      <div style={{ position: "absolute", left: w * 0.5, top: h * 0.11, translate: "-50% 0" }}><Note size={22} color={C6.blue}>DRINK COOLER · BACK WALL</Note></div>
-      <div style={{ position: "absolute", left: w * 0.09, top: h * 0.53, translate: "-50% 0" }}><Note size={20} color={C6.accent}>REGISTER</Note></div>
-      <div style={{ position: "absolute", left: w * 0.19, top: h + 14, translate: "-50% 0" }}><Note size={20}>DOOR</Note></div>
-      <div style={{ position: "absolute", left: w * 0.66 - 60, top: h * 0.45 - 80, opacity: g }}><Note size={22} color={C6.loss}>+ SNACK</Note></div>
+      <div style={{ position: "absolute", left: w * 0.5, top: h * 0.11, translate: "-50% 0" }}><Note size={30} color={C6.blue}>DRINK COOLER · BACK WALL</Note></div>
+      <div style={{ position: "absolute", left: w * 0.09, top: h * 0.53, translate: "-50% 0" }}><Note size={28} color={C6.accent}>REGISTER</Note></div>
+      <div style={{ position: "absolute", left: w * 0.19, top: h + 14, translate: "-50% 0" }}><Note size={28}>DOOR</Note></div>
+      <div style={{ position: "absolute", left: w * 0.66 - 60, top: h * 0.45 - 80, opacity: g }}><Note size={30} color={C6.loss}>+ SNACK</Note></div>
     </div>
   );
 };
@@ -279,8 +279,8 @@ export const WholesaleRetail: React.FC<{ at?: number; retailAt: number; w?: numb
       </svg>
       <div style={{ position: "absolute", left: 0, top: h + 20, opacity: p(at, at + 0.3) }}><Note size={26} color={C6.ink}>2007</Note></div>
       <div style={{ position: "absolute", right: 0, top: h + 20, opacity: p(at, at + 0.3) }}><Note size={26} color={C6.ink}>2026</Note></div>
-      <div style={{ position: "absolute", right: 0, top: h * 0.68 + 22, opacity: p(at + 1.0, at + 1.3) }}><Note size={28} color={C6.blue}>WHOLESALE GAP · +20¢</Note></div>
-      <div style={{ position: "absolute", right: 0, top: h * 0.06 - 56, opacity: p(retailAt + 1.3, retailAt + 1.6) }}><Note size={28} color={C6.loss}>WHAT YOU PAY · ≈ +$1</Note></div>
+      <div style={{ position: "absolute", right: 0, top: h * 0.68 + 22, opacity: p(at + 1.0, at + 1.3) }}><Note size={28} color={C6.blue}>WHOLESALE GAP · GREW ~20¢</Note></div>
+      <div style={{ position: "absolute", right: 0, top: h * 0.06 - 56, opacity: p(retailAt + 1.3, retailAt + 1.6) }}><Note size={28} color={C6.loss}>WHAT YOU PAY · GAP NOW ≈ $1</Note></div>
     </div>
   );
 };
@@ -317,10 +317,11 @@ export const AlgoHub: React.FC<{ at?: number; syncAt?: number; n?: number; w?: n
 /** Реконструкция окна ПО: предупреждение «Downward spiral» при цене ниже конкурента. */
 export const SpiralWarn: React.FC<{ at?: number; warnAt: number; w?: number }> = ({ at = 0.05, warnAt, w = 900 }) => {
   const { p } = useT();
+  const sc = w / 900;
   const k = p(at, at + 0.4, easeBack);
   const wk = p(warnAt, warnAt + 0.3, easeBack);
   return (
-    <div style={{ opacity: Math.min(1, k * 1.4), scale: String(0.9 + 0.1 * k), width: w, borderRadius: 18, overflow: "hidden", background: "#eef1f2", boxShadow: "0 40px 80px rgba(0,0,0,.5)", fontFamily: SANS, color: "#1d2a2e" }}>
+    <div style={{ opacity: Math.min(1, k * 1.4), scale: String((0.9 + 0.1 * k) * sc), width: 900, borderRadius: 18, overflow: "hidden", background: "#eef1f2", boxShadow: "0 40px 80px rgba(0,0,0,.5)", fontFamily: SANS, color: "#1d2a2e" }}>
       <div style={{ height: 50, background: "#d4dadc", display: "flex", alignItems: "center", gap: 10, padding: "0 18px" }}>
         {["#ff5f57", "#febc2e", "#28c840"].map((c) => <div key={c} style={{ width: 16, height: 16, borderRadius: 8, background: c }} />)}
         <div style={{ marginLeft: 14, fontWeight: 700, fontSize: 20, letterSpacing: "0.1em", color: "#4a5d61" }}>PRICE RECOMMENDATION</div>
