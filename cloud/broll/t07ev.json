@@ -1,0 +1,197 @@
+{
+ "evidence_out": "public/evidence/t07",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "nacs-hold-top",
+   "url": "https://www.convenience.org/Media/Daily/2022/Jul/5/3-Whos-Responsible-for-Debit-Card-Holds_Payments",
+   "find": []
+  },
+  {
+   "name": "nacs-hold",
+   "url": "https://www.convenience.org/Media/Daily/2022/Jul/5/3-Whos-Responsible-for-Debit-Card-Holds_Payments",
+   "find": [
+    "175"
+   ]
+  },
+  {
+   "name": "nacs-margin-top",
+   "url": "https://www.convenience.org/stay-current/conveniencecorner/who-makes-money-selling-gas",
+   "find": []
+  },
+  {
+   "name": "nacs-margin",
+   "url": "https://www.convenience.org/stay-current/conveniencecorner/who-makes-money-selling-gas",
+   "find": [
+    "10-15 cents",
+    "$2"
+   ]
+  },
+  {
+   "name": "cbs-md-top",
+   "url": "https://www.cbsnews.com/baltimore/news/gas-stations-maryland-must-post-cash-and-credit-prices-aiming-to-end-bait-switch-signage/",
+   "find": []
+  },
+  {
+   "name": "cbs-md",
+   "url": "https://www.cbsnews.com/baltimore/news/gas-stations-maryland-must-post-cash-and-credit-prices-aiming-to-end-bait-switch-signage/",
+   "find": [
+    "bait and switch",
+    "same size"
+   ]
+  },
+  {
+   "name": "wptv-top",
+   "url": "https://www.wptv.com/wptv-investigates/more-gas-stations-charge-credit-card-users-1-more-a-gallon-and-its-legal",
+   "find": []
+  },
+  {
+   "name": "wptv",
+   "url": "https://www.wptv.com/wptv-investigates/more-gas-stations-charge-credit-card-users-1-more-a-gallon-and-its-legal",
+   "find": [
+    "$1",
+    "legal"
+   ]
+  },
+  {
+   "name": "nacs-sales-top",
+   "url": "https://www.convenience.org/stay-current/news/2026/april/15/u-s-convenience-in-store-sales-top-$340-billion",
+   "find": []
+  },
+  {
+   "name": "nacs-sales",
+   "url": "https://www.convenience.org/stay-current/news/2026/april/15/u-s-convenience-in-store-sales-top-$340-billion",
+   "find": [
+    "21.3 billion",
+    "38.8%",
+    "38.9%"
+   ]
+  },
+  {
+   "name": "nacs-fraction-top",
+   "url": "https://www.convenience.org/topics/fuels-and-energy/why-gas-is-priced-using-fractions-of-a-penny",
+   "find": []
+  },
+  {
+   "name": "nacs-fraction",
+   "url": "https://www.convenience.org/topics/fuels-and-energy/why-gas-is-priced-using-fractions-of-a-penny",
+   "find": [
+    "1930s",
+    "10%"
+   ]
+  },
+  {
+   "name": "natso-top",
+   "url": "https://www.natso.com/design-and-element-advice-for-creating-a-convenience-store-in-a-truck-stop/",
+   "find": []
+  },
+  {
+   "name": "natso",
+   "url": "https://www.natso.com/design-and-element-advice-for-creating-a-convenience-store-in-a-truck-stop/",
+   "find": [
+    "traffic generator"
+   ]
+  },
+  {
+   "name": "aaa-premium-top",
+   "url": "https://newsroom.aaa.com/2016/09/u-s-drivers-waste-2-1-billion-annually-premium-gasoline/",
+   "find": []
+  },
+  {
+   "name": "aaa-premium",
+   "url": "https://newsroom.aaa.com/2016/09/u-s-drivers-waste-2-1-billion-annually-premium-gasoline/",
+   "find": [
+    "higher octane, not higher quality",
+    "2.1 billion"
+   ]
+  },
+  {
+   "name": "cnn-premium-top",
+   "url": "https://abc17news.com/?p=1629206",
+   "find": []
+  },
+  {
+   "name": "cnn-premium",
+   "url": "https://abc17news.com/?p=1629206",
+   "find": [
+    "pure profit",
+    "20 cents"
+   ]
+  },
+  {
+   "name": "aaa-march-top",
+   "url": "https://gasprices.aaa.com/news/page/9?draft=live",
+   "find": []
+  },
+  {
+   "name": "aaa-march",
+   "url": "https://gasprices.aaa.com/news/page/9?draft=live",
+   "find": [
+    "One Dollar in One Month"
+   ]
+  },
+  {
+   "name": "stlfed-top",
+   "url": "https://www.stlouisfed.org/on-the-economy/2026/aug/when-oil-prices-drop-why-do-gasoline-prices-stay-elevated",
+   "find": []
+  },
+  {
+   "name": "stlfed",
+   "url": "https://www.stlouisfed.org/on-the-economy/2026/aug/when-oil-prices-drop-why-do-gasoline-prices-stay-elevated",
+   "find": [
+    "gasoline prices"
+   ]
+  },
+  {
+   "name": "aaa-nov-top",
+   "url": "https://gasprices.aaa.com/?p=5267",
+   "find": []
+  },
+  {
+   "name": "aaa-nov",
+   "url": "https://gasprices.aaa.com/?p=5267",
+   "find": [
+    "most expensive November"
+   ]
+  },
+  {
+   "name": "abc7-top",
+   "url": "https://abc7.com/post/walmart-circle-bp-7-11-among-gas-stations-sued-using-ai-powered-tool-kalibrate-collude-raise-california-prices/19379814/",
+   "find": []
+  },
+  {
+   "name": "abc7",
+   "url": "https://abc7.com/post/walmart-circle-bp-7-11-among-gas-stations-sued-using-ai-powered-tool-kalibrate-collude-raise-california-prices/19379814/",
+   "find": [
+    "Kalibrate",
+    "1,700"
+   ]
+  },
+  {
+   "name": "signal-top",
+   "url": "https://signalscv.com/2026/06/california-lawsuit-alleges-ai-gas-price-fixing/",
+   "find": []
+  },
+  {
+   "name": "signal",
+   "url": "https://signalscv.com/2026/06/california-lawsuit-alleges-ai-gas-price-fixing/",
+   "find": [
+    "central nervous system",
+    "downward spiral"
+   ]
+  },
+  {
+   "name": "cstore-top",
+   "url": "https://www.cstoredive.com/news/7-eleven-circle-k-named-in-lawsuit-over-using-ai-to-boost-gas-prices/823558/",
+   "find": []
+  },
+  {
+   "name": "cstore",
+   "url": "https://www.cstoredive.com/news/7-eleven-circle-k-named-in-lawsuit-over-using-ai-to-boost-gas-prices/823558/",
+   "find": [
+    "30 cents",
+    "134 million"
+   ]
+  }
+ ]
+}
