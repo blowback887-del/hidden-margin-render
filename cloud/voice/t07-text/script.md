@@ -60,7 +60,7 @@ Regular. Plus. Premium. The word premium does a lot of work. It sounds like you'
 AAA tested it. In cars built for regular, premium did nothing. No extra horsepower, no better mileage, no cleaner exhaust. Their engineers put it simply. Premium means higher octane, not higher quality.
 > SEE: скриншот пресс-релиза AAA; цитата-плашка «higher octane, not higher quality»
 
-In one year, AAA estimated, sixteen and a half million drivers who'd done it anyway. More than two hundred seventy million times. That's over two billion dollars spent on nothing. [PAUSE]
+In one year, AAA estimated, sixteen and a half million drivers did it anyway. More than two hundred seventy million times. That's over two billion dollars spent on nothing. [PAUSE]
 > SEE: счётчик «16.5 million drivers», «270 million fill-ups», «$2.1 billion»
 
 And back then, premium only cost about fifty cents more. Here's what happened next.
