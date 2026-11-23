@@ -1,0 +1,13 @@
+{
+ "episode": "t07",
+ "lang": "en",
+ "words_out": "src/videos/t07-gas-words.json",
+ "audio_out": "public/audio/t07-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {
+   "part": 1,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/D5i9ILTXpiB9LtKqA9r8/K7hEXGCRPCSK2h8EdTpi/content.mp3?Expires=1795435200&KeyName=assets-cdn-key-1&Signature=5Nlo32aa1GO2Ev-xYWt2V5ug2tE="
+  }
+ ]
+}
