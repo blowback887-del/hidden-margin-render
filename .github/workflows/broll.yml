@@ -31,5 +31,4 @@ jobs:
           git config user.email "broll-bot@users.noreply.github.com"
           git add public/broll public/research public/sfx public/evidence 2>/dev/null || git add public/broll public/research public/sfx
           git commit -m "Stock clips for ${{ inputs.config }}" || echo "nothing to commit"
-          git pull --rebase
-          git push
+          for i in 1 2 3 4 5 6; do git pull --rebase && git push && break; echo "push race, retry $i"; sleep $((RANDOM % 15 + 5)); done

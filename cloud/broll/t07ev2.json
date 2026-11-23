@@ -1,0 +1,104 @@
+{
+ "evidence_out": "public/evidence/t07",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "cbs-md-top",
+   "url": "https://www.cbsnews.com/baltimore/news/gas-stations-maryland-must-post-cash-and-credit-prices-aiming-to-end-bait-switch-signage/",
+   "html": "public/research/snap/t07-cbs-md.html",
+   "find": []
+  },
+  {
+   "name": "cbs-md",
+   "url": "https://www.cbsnews.com/baltimore/news/gas-stations-maryland-must-post-cash-and-credit-prices-aiming-to-end-bait-switch-signage/",
+   "html": "public/research/snap/t07-cbs-md.html",
+   "find": [
+    "bait and switch",
+    "5 to 20 cents more per gallon"
+   ]
+  },
+  {
+   "name": "stlfed-top",
+   "url": "https://www.stlouisfed.org/on-the-economy/2026/aug/when-oil-prices-drop-why-do-gasoline-prices-stay-elevated",
+   "html": "public/research/snap/t07-stlfed.html",
+   "find": []
+  },
+  {
+   "name": "stlfed",
+   "url": "https://www.stlouisfed.org/on-the-economy/2026/aug/when-oil-prices-drop-why-do-gasoline-prices-stay-elevated",
+   "html": "public/research/snap/t07-stlfed.html",
+   "find": [
+    "decline much more slowly"
+   ]
+  },
+  {
+   "name": "natso-top",
+   "url": "https://www.natso.com/design-and-element-advice-for-creating-a-convenience-store-in-a-truck-stop/",
+   "html": "public/research/snap/t07-natso.html",
+   "find": []
+  },
+  {
+   "name": "natso",
+   "url": "https://www.natso.com/design-and-element-advice-for-creating-a-convenience-store-in-a-truck-stop/",
+   "html": "public/research/snap/t07-natso.html",
+   "find": [
+    "traffic generator"
+   ]
+  },
+  {
+   "name": "aaa-research-top",
+   "url": "https://gasprices.aaa.com/premium-fuel-research/",
+   "html": "public/research/snap/t07-aaa-research.html",
+   "find": []
+  },
+  {
+   "name": "aaa-research",
+   "url": "https://gasprices.aaa.com/premium-fuel-research/",
+   "html": "public/research/snap/t07-aaa-research.html",
+   "find": [
+    "no significant improvement in horsepower",
+    "16.5 million"
+   ]
+  },
+  {
+   "name": "abc7-top",
+   "url": "https://abc7.com/post/walmart-circle-bp-7-11-among-gas-stations-sued-using-ai-powered-tool-kalibrate-collude-raise-california-prices/19379814/",
+   "html": "public/research/snap/t07-abc7.html",
+   "find": []
+  },
+  {
+   "name": "abc7",
+   "url": "https://abc7.com/post/walmart-circle-bp-7-11-among-gas-stations-sued-using-ai-powered-tool-kalibrate-collude-raise-california-prices/19379814/",
+   "html": "public/research/snap/t07-abc7.html",
+   "find": [
+    "central nervous system",
+    "downward spiral",
+    "1,700 gas stations",
+    "$134 million"
+   ]
+  },
+  {
+   "name": "nacs-margin",
+   "url": "https://www.convenience.org/stay-current/conveniencecorner/who-makes-money-selling-gas",
+   "find": [
+    "10- to 15-cent profit",
+    "45% of drivers"
+   ]
+  },
+  {
+   "name": "signal",
+   "url": "https://signalscv.com/2026/06/california-lawsuit-alleges-ai-gas-price-fixing/",
+   "find": [
+    "pumps and signs"
+   ]
+  },
+  {
+   "name": "cstore",
+   "url": "https://www.cstoredive.com/news/7-eleven-circle-k-named-in-lawsuit-over-using-ai-to-boost-gas-prices/823558/",
+   "find": [
+    "about 6 cents",
+    "30-cent increase"
+   ]
+  }
+ ]
+}
