@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://gasprices.aaa.com/news/page/9?draft=live",
+ "host": "gasprices.aaa.com",
+ "frame": "screen",
+ "finds": {
+  "One Dollar in One Month": [
+   1032,
+   594,
+   684,
+   94
+  ]
+ }
+}

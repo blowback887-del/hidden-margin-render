@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.wptv.com/wptv-investigates/more-gas-stations-charge-credit-card-users-1-more-a-gallon-and-its-legal",
+ "host": "wptv.com",
+ "frame": "screen",
+ "finds": {
+  "$1": [
+   2278,
+   658,
+   98,
+   112
+  ],
+  "legal": [
+   1450,
+   758,
+   208,
+   112
+  ]
+ }
+}

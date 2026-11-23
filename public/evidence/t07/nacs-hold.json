@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.convenience.org/Media/Daily/2022/Jul/5/3-Whos-Responsible-for-Debit-Card-Holds_Payments",
+ "host": "convenience.org",
+ "frame": "screen",
+ "finds": {
+  "175": [
+   422,
+   647,
+   52,
+   38
+  ]
+ }
+}

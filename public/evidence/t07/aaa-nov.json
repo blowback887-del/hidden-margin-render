@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://gasprices.aaa.com/?p=5267",
+ "host": "gasprices.aaa.com",
+ "frame": "screen",
+ "finds": {
+  "most expensive November": [
+   572,
+   902,
+   426,
+   40
+  ]
+ }
+}
