@@ -342,6 +342,34 @@
    "name": "68-busy-station",
    "id": 40304917,
    "url": "https://videos.pexels.com/video-files/40304917/17217625_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "69-archive-minneapolis-1937",
+   "id": 9000,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Far_Away_Places%2C_A_Gas_station_in_Minneapolis%2C_Minnesota%2C_December_1937._-_Flickr_-_polkbritton.jpg/1920px-Far_Away_Places%2C_A_Gas_station_in_Minneapolis%2C_Minnesota%2C_December_1937._-_Flickr_-_polkbritton.jpg",
+   "photo": true,
+   "credit": "Public domain, Wikimedia Commons"
+  },
+  {
+   "name": "70-archive-carrier-mills-1939",
+   "id": 9001,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Oak_Street_at_the_railroad_tracks%2C_Carrier_Mills%2C_Illinois%2C_8b17311.tif/lossy-page1-1920px-Oak_Street_at_the_railroad_tracks%2C_Carrier_Mills%2C_Illinois%2C_8b17311.tif.jpg",
+   "photo": true,
+   "credit": "Public domain, Wikimedia Commons"
+  },
+  {
+   "name": "71-archive-minot-1930",
+   "id": 9002,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Westland_Super_Service_Station%2C_Minot%2C_N.Dak..jpg",
+   "photo": true,
+   "credit": "Public domain, Wikimedia Commons"
+  },
+  {
+   "name": "72-archive-sinclair-1935",
+   "id": 9003,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Sinclair_gas_station%2C_Mount_Carmel%2C_Pennsylvania%2C_c._1935-1942.jpg",
+   "photo": true,
+   "credit": "Public domain, Wikimedia Commons"
   }
  ]
 }
