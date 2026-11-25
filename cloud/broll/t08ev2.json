@@ -1,0 +1,124 @@
+{
+ "evidence_out": "public/evidence/t08",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "mcd-letter-top",
+   "url": "https://web.archive.org/web/2025/https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
+   "find": [],
+   "hide": [
+    "#wm-ipp-base",
+    "#wm-ipp",
+    "#donato",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
+   ]
+  },
+  {
+   "name": "mcd-letter",
+   "url": "https://web.archive.org/web/2025/https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
+   "find": [
+    "U.S. fans"
+   ],
+   "hide": [
+    "#wm-ipp-base",
+    "#wm-ipp",
+    "#donato",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
+   ]
+  },
+  {
+   "name": "mcd-letter-95",
+   "url": "https://web.archive.org/web/2025/https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
+   "find": [
+    "95%"
+   ],
+   "hide": [
+    "#wm-ipp-base",
+    "#wm-ipp",
+    "#donato",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
+   ]
+  },
+  {
+   "name": "mcd-evm-top",
+   "url": "https://web.archive.org/web/2025/https://corporate.mcdonalds.com/corpmcd/our-stories/article/extra-value-meals-sausage-mcmuffin-big-mac.html",
+   "find": [],
+   "hide": [
+    "#wm-ipp-base",
+    "#wm-ipp",
+    "#donato",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
+   ]
+  },
+  {
+   "name": "mcd-evm",
+   "url": "https://web.archive.org/web/2025/https://corporate.mcdonalds.com/corpmcd/our-stories/article/extra-value-meals-sausage-mcmuffin-big-mac.html",
+   "find": [
+    "15 percent"
+   ],
+   "hide": [
+    "#wm-ipp-base",
+    "#wm-ipp",
+    "#donato",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
+   ]
+  },
+  {
+   "name": "ap-sales2",
+   "url": "https://www.news4jax.com/business/2026/11/04/visits-to-us-mcdonalds-locations-falls-as-customers-struggle-with-the-high-cost-of-living/",
+   "find": [
+    "fell 0.2%"
+   ],
+   "hide": [
+    "#wm-ipp-base",
+    "#wm-ipp",
+    "#donato",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
+   ]
+  },
+  {
+   "name": "ap-profit2",
+   "url": "https://www.news4jax.com/business/2026/11/04/visits-to-us-mcdonalds-locations-falls-as-customers-struggle-with-the-high-cost-of-living/",
+   "find": [
+    "Net income rose"
+   ],
+   "hide": [
+    "#wm-ipp-base",
+    "#wm-ipp",
+    "#donato",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
+   ]
+  },
+  {
+   "name": "cbs-hikes2",
+   "url": "https://www.cbsnews.com/news/mcdonalds-menu-price-hikes-fast-food/",
+   "find": [
+    "17.59"
+   ],
+   "hide": [
+    "#wm-ipp-base",
+    "#wm-ipp",
+    "#donato",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
+   ]
+  },
+  {
+   "name": "mcd-myths",
+   "url": "https://web.archive.org/web/2025id_/https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/McDUS%20Pricing%20Myths%20vs%20Facts%20052924.pdf",
+   "page": 1,
+   "find": [
+    "Big Mac",
+    "9.29",
+    "Fries"
+   ]
+  }
+ ]
+}
