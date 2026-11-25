@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.cbsnews.com/news/mcdonalds-menu-price-hikes-fast-food/",
+ "host": "cbsnews.com",
+ "frame": "screen",
+ "finds": {
+  "17.59": [
+   809,
+   718,
+   88,
+   52
+  ]
+ }
+}

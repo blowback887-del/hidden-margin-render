@@ -1,0 +1,23 @@
+{
+ "size": [
+  1700,
+  2400
+ ],
+ "url": "https://web.archive.org/web/2025id_/https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/McDUS%20Pricing%20Myths%20vs%20Facts%20052924.pdf",
+ "host": "web.archive.org",
+ "frame": "paper",
+ "finds": {
+  "Big Mac": [
+   307,
+   1125,
+   118,
+   42
+  ],
+  "Fries": [
+   434,
+   1512,
+   74,
+   42
+  ]
+ }
+}

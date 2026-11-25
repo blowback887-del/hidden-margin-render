@@ -3,8 +3,15 @@
   2880,
   1800
  ],
- "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
- "host": "corporate.mcdonalds.com",
+ "url": "https://web.archive.org/web/2025/https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
+ "host": "web.archive.org",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "U.S. fans": [
+   366,
+   594,
+   130,
+   32
+  ]
+ }
 }

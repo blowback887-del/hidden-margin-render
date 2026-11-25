@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.news4jax.com/business/2026/11/04/visits-to-us-mcdonalds-locations-falls-as-customers-struggle-with-the-high-cost-of-living/",
+ "host": "news4jax.com",
+ "frame": "screen",
+ "finds": {
+  "fell 0.2%": [
+   2064,
+   603,
+   122,
+   44
+  ]
+ }
+}
