@@ -1,0 +1,262 @@
+{
+ "evidence_out": "public/evidence/t08",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "mcd-letter-top",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
+   "find": []
+  },
+  {
+   "name": "mcd-letter",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
+   "find": [
+    "U.S. fans",
+    "franchisees"
+   ]
+  },
+  {
+   "name": "mcd-letter-18",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
+   "find": [
+    "$18"
+   ]
+  },
+  {
+   "name": "cbs-hikes-top",
+   "url": "https://www.cbsnews.com/news/mcdonalds-menu-price-hikes-fast-food",
+   "find": []
+  },
+  {
+   "name": "cbs-hikes",
+   "url": "https://www.cbsnews.com/news/mcdonalds-menu-price-hikes-fast-food",
+   "find": [
+    "17.59"
+   ]
+  },
+  {
+   "name": "mr-darien-top",
+   "url": "https://marketrealist.com/has-mc-donalds-hiked-prices-of-some-of-its-food-items-to-over-100",
+   "find": []
+  },
+  {
+   "name": "mr-darien",
+   "url": "https://marketrealist.com/has-mc-donalds-hiked-prices-of-some-of-its-food-items-to-over-100",
+   "find": [
+    "Darien"
+   ]
+  },
+  {
+   "name": "reuters-profit-top",
+   "url": "https://uk.finance.yahoo.com/news/mcdonalds-top-us-exec-denounces-201355464.html",
+   "find": []
+  },
+  {
+   "name": "reuters-profit",
+   "url": "https://uk.finance.yahoo.com/news/mcdonalds-top-us-exec-denounces-201355464.html",
+   "find": [
+    "gross profit"
+   ]
+  },
+  {
+   "name": "ksl-tooften-top",
+   "url": "https://www.ksl.com/article/51363107",
+   "find": []
+  },
+  {
+   "name": "ksl-tooften",
+   "url": "https://www.ksl.com/article/51363107",
+   "find": [
+    "too often"
+   ]
+  },
+  {
+   "name": "ksl-board",
+   "url": "https://www.ksl.com/article/51363107",
+   "find": [
+    "menu board"
+   ]
+  },
+  {
+   "name": "cnn-2019-top",
+   "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2025/09/08/mcdonalds-is-giving-its-value-menu-another-shakeup-on-monday/",
+   "find": []
+  },
+  {
+   "name": "cnn-2019",
+   "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2025/09/08/mcdonalds-is-giving-its-value-menu-another-shakeup-on-monday/",
+   "find": [
+    "eliminated in 2019"
+   ]
+  },
+  {
+   "name": "nacs-lowincome-top",
+   "url": "https://www.convenience.org/Media/Daily/2025/November/6/3-McDonalds-Dip-in-Low-Income-Customers_Finance",
+   "find": []
+  },
+  {
+   "name": "nacs-lowincome",
+   "url": "https://www.convenience.org/Media/Daily/2025/November/6/3-McDonalds-Dip-in-Low-Income-Customers_Finance",
+   "find": [
+    "double digits"
+   ]
+  },
+  {
+   "name": "tt-app-top",
+   "url": "https://www.tastingtable.com/2099096/problem-mcdonalds-mobile-app-according-to-customers",
+   "find": []
+  },
+  {
+   "name": "tt-app",
+   "url": "https://www.tastingtable.com/2099096/problem-mcdonalds-mobile-app-according-to-customers",
+   "find": [
+    "deals"
+   ]
+  },
+  {
+   "name": "nzh-app-top",
+   "url": "https://nzherald.co.nz/business/mcdonalds-app-users-claim-fast-food-giant-is-price-gouging/6OQRI7U44FEYZDJUKTF2FPKSWA",
+   "find": []
+  },
+  {
+   "name": "nzh-app",
+   "url": "https://nzherald.co.nz/business/mcdonalds-app-users-claim-fast-food-giant-is-price-gouging/6OQRI7U44FEYZDJUKTF2FPKSWA",
+   "find": [
+    "personalised"
+   ]
+  },
+  {
+   "name": "newshub-app-top",
+   "url": "https://newshub.co.nz/home/money/2023/08/mcdonald-s-under-fire-amid-accusations-of-price-gouging-meals-on-app.html",
+   "find": []
+  },
+  {
+   "name": "newshub-app",
+   "url": "https://newshub.co.nz/home/money/2023/08/mcdonald-s-under-fire-amid-accusations-of-price-gouging-meals-on-app.html",
+   "find": [
+    "personalised"
+   ]
+  },
+  {
+   "name": "fortune-combo-top",
+   "url": "https://fortune.com/2025/08/21/mcdonalds-combo-meal-price-reduction-us-affordability-ceo-value-perception/",
+   "find": []
+  },
+  {
+   "name": "fortune-combo",
+   "url": "https://fortune.com/2025/08/21/mcdonalds-combo-meal-price-reduction-us-affordability-ceo-value-perception/",
+   "find": [
+    "15%"
+   ]
+  },
+  {
+   "name": "mcd-evm-top",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/extra-value-meals-sausage-mcmuffin-big-mac.html",
+   "find": []
+  },
+  {
+   "name": "mcd-evm",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/extra-value-meals-sausage-mcmuffin-big-mac.html",
+   "find": [
+    "15 percent"
+   ]
+  },
+  {
+   "name": "aol-wsj-top",
+   "url": "https://www.aol.com/mcdonald-enters-mcdiscount-era-cheaper-150000484.html",
+   "find": []
+  },
+  {
+   "name": "aol-wsj",
+   "url": "https://www.aol.com/mcdonald-enters-mcdiscount-era-cheaper-150000484.html",
+   "find": [
+    "cover"
+   ]
+  },
+  {
+   "name": "foxb-evm-top",
+   "url": "https://www.foxbusiness.com/lifestyle/mcdonalds-brings-back-extra-value-meals-lure-budget-conscious-customers",
+   "find": []
+  },
+  {
+   "name": "foxb-evm",
+   "url": "https://www.foxbusiness.com/lifestyle/mcdonalds-brings-back-extra-value-meals-lure-budget-conscious-customers",
+   "find": [
+    "2019"
+   ]
+  },
+  {
+   "name": "nbc-vary-top",
+   "url": "https://www.nbcphiladelphia.com/entertainment/the-scene/mcdonalds-bringing-back-popular-meal-deal-with-more-affordable-prices/4262825/",
+   "find": []
+  },
+  {
+   "name": "nbc-vary",
+   "url": "https://www.nbcphiladelphia.com/entertainment/the-scene/mcdonalds-bringing-back-popular-meal-deal-with-more-affordable-prices/4262825/",
+   "find": [
+    "vary by location"
+   ]
+  },
+  {
+   "name": "ap-sales-top",
+   "url": "https://www.news4jax.com/business/2026/11/04/visits-to-us-mcdonalds-locations-falls-as-customers-struggle-with-the-high-cost-of-living/",
+   "find": []
+  },
+  {
+   "name": "ap-sales",
+   "url": "https://www.news4jax.com/business/2026/11/04/visits-to-us-mcdonalds-locations-falls-as-customers-struggle-with-the-high-cost-of-living/",
+   "find": [
+    "0.2%"
+   ]
+  },
+  {
+   "name": "ap-profit",
+   "url": "https://www.news4jax.com/business/2026/11/04/visits-to-us-mcdonalds-locations-falls-as-customers-struggle-with-the-high-cost-of-living/",
+   "find": [
+    "2.49 billion"
+   ]
+  },
+  {
+   "name": "rd-bundles-top",
+   "url": "https://www.restaurantdive.com/news/mcdonalds-tests-entry-level-value-mix-match-bundles/873702/",
+   "find": []
+  },
+  {
+   "name": "rd-bundles",
+   "url": "https://www.restaurantdive.com/news/mcdonalds-tests-entry-level-value-mix-match-bundles/873702/",
+   "find": [
+    "1,900"
+   ]
+  },
+  {
+   "name": "fox-soami-top",
+   "url": "https://www.foxnews.com/food-drink/mcdonalds-2-50-mcdouble-sparks-backlash-americans-say-fast-food-no-longer-cheap.print",
+   "find": []
+  },
+  {
+   "name": "fox-soami",
+   "url": "https://www.foxnews.com/food-drink/mcdonalds-2-50-mcdouble-sparks-backlash-americans-say-fast-food-no-longer-cheap.print",
+   "find": [
+    "So am I"
+   ]
+  },
+  {
+   "name": "mcd-myths",
+   "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/McDUS%20Pricing%20Myths%20vs%20Facts%20052924.pdf",
+   "page": 1,
+   "find": [
+    "Big Mac",
+    "9.29",
+    "Fries"
+   ]
+  },
+  {
+   "name": "mcd-myths-p2",
+   "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/McDUS%20Pricing%20Myths%20vs%20Facts%20052924.pdf",
+   "page": 2,
+   "find": [
+    "40%"
+   ]
+  }
+ ]
+}
