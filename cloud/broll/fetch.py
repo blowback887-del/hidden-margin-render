@@ -15,16 +15,80 @@ EP = os.path.splitext(os.path.basename(sys.argv[1]))[0]
 cfg.setdefault("clips", []); cfg.setdefault("out", f"public/broll/{EP}"); cfg.setdefault("sheet", f"public/research/{EP}-sheet.jpg")
 os.makedirs(cfg["out"], exist_ok=True); os.makedirs(os.path.dirname(cfg["sheet"]), exist_ok=True)
 def run(c): print("+", " ".join(c), flush=True); subprocess.run(c, check=True)
+
+# ---------- живые кадры через yt-dlp (25.11.2026) ----------
+#  clips: {"name": "ad1", "src": "https://www.youtube.com/watch?v=...", "from": "1:12", "to": "1:19", "audio": false}
+#         "src" — страница видео (YouTube, archive.org, C-SPAN, Vimeo…); качается только кусок from–to
+#  probe: [{"name": "ad1", "src": "https://...", "every": 5}] — без монтажа: субтитры с таймкодами (.txt) и лист кадров
+#         каждые N секунд с подписью времени → public/research/<ep>-probe/  (чтобы выбрать точные секунды)
+YT = ["yt-dlp", "--no-playlist", "--no-warnings", "--retries", "5"]
+if os.environ.get("YTDLP_COOKIES") and os.path.exists(os.environ["YTDLP_COOKIES"]): YT += ["--cookies", os.environ["YTDLP_COOKIES"]]
+def sec(t):
+    if isinstance(t, (int, float)): return float(t)
+    p = [float(x) for x in str(t).split(":")]; s = 0
+    for x in p: s = s * 60 + x
+    return s
+def ytdl_section(c):
+    a, b = sec(c.get("from", 0)), sec(c["to"]) if c.get("to") is not None else None
+    out = f"work/{c['name']}.src.%(ext)s"
+    sect = ["--download-sections", f"*{a}-{b}", "--force-keyframes-at-cuts"] if b else []
+    run(YT + ["-f", "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b[height<=1080]/b",
+              "--merge-output-format", "mp4", *sect, "-o", out, c["src"]])
+    got = [f for f in os.listdir("work") if f.startswith(f"{c['name']}.src.")]
+    if not got: raise SystemExit(f"yt-dlp: nothing downloaded for {c['name']}")
+    return f"work/{got[0]}"
+def fmt(s): s = int(s); return f"{s // 60}:{s % 60:02d}"
+def probe(p):
+    d = f"public/research/{EP}-probe"; os.makedirs(d, exist_ok=True); n = p["name"]
+    # 1) субтитры (свои или автоматические) → короткий текст «м:сс фраза»
+    subprocess.run(YT + ["--skip-download", "--write-subs", "--write-auto-subs", "--sub-langs", "en.*,en", "--sub-format", "vtt",
+                         "--write-info-json", "-o", f"work/probe-{n}.%(ext)s", p["src"]])
+    vtt = sorted(f for f in os.listdir("work") if f.startswith(f"probe-{n}.") and f.endswith(".vtt"))
+    lines, last = [], ""
+    if vtt:
+        cur = None
+        for ln in open(f"work/{vtt[0]}", encoding="utf-8", errors="ignore"):
+            ln = ln.strip()
+            m = re.match(r"(\d+):(\d+):(\d+)\.\d+ -->", ln) or re.match(r"(\d+):(\d+)\.\d+ -->", ln)
+            if m: g = [int(x) for x in m.groups()]; cur = (g[0] * 3600 + g[1] * 60 + g[2]) if len(g) == 3 else g[0] * 60 + g[1]; continue
+            t = re.sub(r"<[^>]+>", "", ln).strip()
+            if cur is not None and t and not t.startswith(("WEBVTT", "Kind:", "Language:")) and t != last:
+                lines.append(f"{fmt(cur)}  {t}"); last = t
+    info = {}
+    inf = [f for f in os.listdir("work") if f.startswith(f"probe-{n}.") and f.endswith(".info.json")]
+    if inf: j = json.load(open(f"work/{inf[0]}")); info = {k: j.get(k) for k in ("title", "channel", "uploader", "duration", "upload_date", "webpage_url")}
+    open(f"{d}/{n}.txt", "w").write(json.dumps(info, ensure_ascii=False) + "\n\n" + ("\n".join(lines) or "(no subtitles)") + "\n")
+    # 2) лист кадров: низкое качество целиком, кадр каждые N секунд с таймкодом
+    every = p.get("every", 5); lo = f"work/probe-{n}-lo.mp4"
+    subprocess.run(YT + ["-f", "bv*[height<=360]/b[height<=360]/wv*/w", "-o", lo, p["src"]] +
+                   (["--download-sections", f"*{sec(p['from'])}-{sec(p['to'])}"] if p.get("to") else []))
+    if os.path.exists(lo):
+        off = sec(p.get("from", 0)) if p.get("to") else 0
+        run(["ffmpeg", "-y", "-v", "error", "-i", lo, "-vf",
+             f"fps=1/{every},scale=320:180:force_original_aspect_ratio=decrease,pad=320:180:(ow-iw)/2:(oh-ih)/2,"
+             f"drawtext=text='%{{pts\\:hms\\:{off}}}':x=4:y=4:fontsize=18:fontcolor=yellow:box=1:boxcolor=black@0.7,tile=6x8",
+             "-q:v", "4", f"{d}/{n}-%02d.jpg"])
+    print(f"probe {n}: {len(lines)} subtitle lines, info: {info.get('title')}")
+
+import re
+for p in cfg.get("probe", []):
+    try: probe(p)
+    except Exception as ex: print(f"probe {p['name']}: FAILED — {ex}")
 tiles = []
 W, H = cfg.get("w", 1920), cfg.get("h", 1080)   # вертикаль: w 1080, h 1920
 TW, TH = (320, 180) if W > H else (180, 320)
 for c in cfg["clips"]:
-    raw = f"work/{c['id']}" + (".jpg" if c.get("photo") else ".mp4"); dst = f"{cfg['out']}/{c['name']}.mp4"
+    raw = f"work/{c.get('id', c['name'])}" + (".jpg" if c.get("photo") else ".mp4"); dst = f"{cfg['out']}/{c['name']}.mp4"
     if os.path.exists(dst) and not os.environ.get("REFETCH"): tiles.append(f"work/sheet/{c['name']}.jpg"); \
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", dst, "-vf", f"select='eq(n\\,15)+eq(n\\,135)+eq(n\\,270)',scale={TW}:{TH},tile=3x1", "-frames:v", "1", "-vsync", "0", tiles[-1]]); continue
-    run(["curl", "-sSfL", "-A", "Mozilla/5.0 (HiddenMarginBot; stock fetch)", "-o", raw, c["url"]])
+    if c.get("src"):  # живые кадры: страница YouTube / archive.org / C-SPAN и т.п. → только нужный кусок
+        try: raw = ytdl_section(c)
+        except BaseException as ex: print(f"clip {c['name']}: FAILED — {ex}"); continue   # один упавший кусок не роняет набор
+    else:
+        run(["curl", "-sSfL", "-A", "Mozilla/5.0 (HiddenMarginBot; stock fetch)", "-o", raw, c["url"]])
     photo = ["-loop", "1", "-framerate", "30"] if c.get("photo") else []   # фото → неподвижный клип (наезд даёт Stock6)
-    run(["ffmpeg", "-y", "-v", "error", *photo, "-i", raw, "-t", str(cfg["max_sec"]), "-an",
+    aud = ["-c:a", "aac", "-b:a", "160k", "-ar", "48000"] if c.get("audio") else ["-an"]   # "audio": true — оставить живой звук (реплика из рекламы)
+    run(["ffmpeg", "-y", "-v", "error", *photo, "-i", raw, "-t", str(c.get("max_sec", cfg.get("max_sec", 12))), *aud,
          "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p", "-movflags", "+faststart", dst])
     t = f"work/sheet/{c['name']}.jpg"

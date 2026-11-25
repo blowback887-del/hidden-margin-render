@@ -1,0 +1,10 @@
+{
+  "max_sec": 12,
+  "clips": [
+    {"name": "yt-test", "src": "https://www.youtube.com/watch?v=jNQXAC9IVRw", "from": "0:03", "to": "0:10", "audio": true},
+    {"name": "ia-test", "src": "https://archive.org/details/DuckandC1951", "from": "0:20", "to": "0:28"}
+  ],
+  "probe": [
+    {"name": "yt-probe", "src": "https://www.youtube.com/watch?v=jNQXAC9IVRw", "every": 2}
+  ]
+}

@@ -24,6 +24,15 @@ jobs:
           if python3 -c "import json,sys; c=json.load(open('${{ inputs.config }}')); sys.exit(0 if any((e.get('type') or ('pdf' if e['url'].lower().split('?')[0].endswith('.pdf') else 'page'))=='page' for e in c.get('evidence',[])) else 1)"; then
             pip install -q playwright && python3 -m playwright install --with-deps chromium
           fi
+      - name: Live-footage check (YouTube / archive.org pages in the config)
+        id: live
+        run: |
+          python3 -c "import json,sys; c=json.load(open('${{ inputs.config }}')); sys.exit(0 if c.get('probe') or any(x.get('src') for x in c.get('clips',[])) else 1)" && echo "need=1" >> "$GITHUB_OUTPUT" || true
+      - if: steps.live.outputs.need == '1'
+        uses: denoland/setup-deno@v2
+        with: {deno-version: v2.x}
+      - if: steps.live.outputs.need == '1'
+        run: pip install -q -U "yt-dlp[default]" && yt-dlp --version
       - run: python3 cloud/broll/fetch.py "${{ inputs.config }}"
       - name: Commit clips + contact sheet
         run: |
