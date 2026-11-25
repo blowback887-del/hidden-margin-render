@@ -1,0 +1,409 @@
+{
+ "out": "public/broll/t08",
+ "sheet": "public/research/t08-sheet.jpg",
+ "max_sec": 14,
+ "clips": [
+  {
+   "name": "01-highway-night",
+   "id": 28928755,
+   "url": "https://videos.pexels.com/video-files/28928755/12519832_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "02-family-minivan",
+   "id": 6181413,
+   "url": "https://videos.pexels.com/video-files/6181413/6181413-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "03-rest-area-aerial",
+   "id": 31441100,
+   "url": "https://videos.pexels.com/video-files/31441100/13409772_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "04-truckstop",
+   "id": 18370431,
+   "url": "https://videos.pexels.com/video-files/18370431/18370431-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "05-mcd-sign-close",
+   "id": 4404085,
+   "url": "https://videos.pexels.com/video-files/4404085/4404085-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "06-mcd-night",
+   "id": 30166585,
+   "url": "https://videos.pexels.com/video-files/30166585/12935854_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "07-drive-thru-night",
+   "id": 34527267,
+   "url": "https://videos.pexels.com/video-files/34527267/14628731_2048_1080_24fps.mp4"
+  },
+  {
+   "name": "08-burger-fries-table",
+   "id": 9701461,
+   "url": "https://videos.pexels.com/video-files/9701461/9701461-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "09-meal-close",
+   "id": 5986794,
+   "url": "https://videos.pexels.com/video-files/5986794/5986794-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "10-man-eating-burger",
+   "id": 4731063,
+   "url": "https://videos.pexels.com/video-files/4731063/4731063-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "11-fries-close",
+   "id": 7490594,
+   "url": "https://videos.pexels.com/video-files/7490594/7490594-hd_2048_1080_30fps.mp4"
+  },
+  {
+   "name": "12-frying",
+   "id": 35851610,
+   "url": "https://videos.pexels.com/video-files/35851610/15203371_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "13-potatoes",
+   "id": 28190229,
+   "url": "https://videos.pexels.com/video-files/28190229/12322386_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "14-fries-ketchup",
+   "id": 4731140,
+   "url": "https://videos.pexels.com/video-files/4731140/4731140-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "15-man-counting",
+   "id": 6698944,
+   "url": "https://videos.pexels.com/video-files/6698944/6698944-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "16-suited-counting",
+   "id": 6285703,
+   "url": "https://videos.pexels.com/video-files/6285703/6285703-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "17-flying-dollars",
+   "id": 4393479,
+   "url": "https://videos.pexels.com/video-files/4393479/4393479-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "18-meeting",
+   "id": 3246669,
+   "url": "https://videos.pexels.com/video-files/3246669/3246669-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "19-stock-screens",
+   "id": 38484636,
+   "url": "https://videos.pexels.com/video-files/38484636/16343738_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "20-terminal-receipt",
+   "id": 28827282,
+   "url": "https://videos.pexels.com/video-files/28827282/12487432_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "21-drive-thru-pay",
+   "id": 6529570,
+   "url": "https://videos.pexels.com/video-files/6529570/6529570-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "22-drive-thru-order",
+   "id": 6529452,
+   "url": "https://videos.pexels.com/video-files/6529452/6529452-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "23-drive-thru-going",
+   "id": 6529448,
+   "url": "https://videos.pexels.com/video-files/6529448/6529448-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "24-drive-thru-sign",
+   "id": 6529450,
+   "url": "https://videos.pexels.com/video-files/6529450/6529450-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "25-empty-drive-thru",
+   "id": 6529446,
+   "url": "https://videos.pexels.com/video-files/6529446/6529446-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "26-chalk-erase",
+   "id": 5920147,
+   "url": "https://videos.pexels.com/video-files/5920147/5920147-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "27-big-menu-board",
+   "id": 6103527,
+   "url": "https://videos.pexels.com/video-files/6103527/6103527-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "28-retro-jukebox",
+   "id": 35611172,
+   "url": "https://videos.pexels.com/video-files/35611172/15091418_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "29-worker-break",
+   "id": 4297001,
+   "url": "https://videos.pexels.com/video-files/4297001/4297001-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "30-eating-alone",
+   "id": 17846383,
+   "url": "https://videos.pexels.com/video-files/17846383/17846383-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "31-elderly-couple",
+   "id": 7244289,
+   "url": "https://videos.pexels.com/video-files/7244289/7244289-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "32-grandfather-kids",
+   "id": 7853961,
+   "url": "https://videos.pexels.com/video-files/7853961/7853961-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "33-boys-eating",
+   "id": 6529486,
+   "url": "https://videos.pexels.com/video-files/6529486/6529486-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "34-scrolling-phone",
+   "id": 6756650,
+   "url": "https://videos.pexels.com/video-files/6756650/6756650-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "35-phone-pay-meal",
+   "id": 5075208,
+   "url": "https://videos.pexels.com/video-files/5075208/5075208-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "36-phone-notif",
+   "id": 7821643,
+   "url": "https://videos.pexels.com/video-files/7821643/7821643-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "37-data-stream",
+   "id": 29717603,
+   "url": "https://videos.pexels.com/video-files/29717603/12777871_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "38-phone-typing",
+   "id": 10374923,
+   "url": "https://videos.pexels.com/video-files/10374923/10374923-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "39-shocked-man",
+   "id": 4587767,
+   "url": "https://videos.pexels.com/video-files/4587767/4587767-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "40-incredulous",
+   "id": 6290467,
+   "url": "https://videos.pexels.com/video-files/6290467/6290467-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "41-facepalm",
+   "id": 10149185,
+   "url": "https://videos.pexels.com/video-files/10149185/10149185-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "42-disappointed",
+   "id": 10515020,
+   "url": "https://videos.pexels.com/video-files/10515020/10515020-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "43-empty-restaurant",
+   "id": 7320541,
+   "url": "https://videos.pexels.com/video-files/7320541/7320541-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "44-empty-tables",
+   "id": 12153352,
+   "url": "https://videos.pexels.com/video-files/12153352/12153352-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "45-newspaper",
+   "id": 7263305,
+   "url": "https://videos.pexels.com/video-files/7263305/7263305-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "46-calculator",
+   "id": 7688068,
+   "url": "https://videos.pexels.com/video-files/7688068/7688068-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "47-calc-phone",
+   "id": 6927295,
+   "url": "https://videos.pexels.com/video-files/6927295/6927295-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "48-empty-wallet",
+   "id": 11099870,
+   "url": "https://videos.pexels.com/video-files/11099870/11099870-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "49-cashier-card",
+   "id": 6683944,
+   "url": "https://videos.pexels.com/video-files/6683944/6683944-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "50-highway-drone",
+   "id": 4036019,
+   "url": "https://videos.pexels.com/video-files/4036019/4036019-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "51-road-signs",
+   "id": 4035988,
+   "url": "https://videos.pexels.com/video-files/4035988/4035988-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "52-interchange",
+   "id": 34665064,
+   "url": "https://videos.pexels.com/video-files/34665064/14693582_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "53-flag",
+   "id": 30211345,
+   "url": "https://videos.pexels.com/video-files/30211345/12952407_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "54-oklahoma-road",
+   "id": 5917607,
+   "url": "https://videos.pexels.com/video-files/5917607/5917607-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "55-paper-bag",
+   "id": 6139791,
+   "url": "https://videos.pexels.com/video-files/6139791/6139791-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "56-cola-ice",
+   "id": 8518236,
+   "url": "https://videos.pexels.com/video-files/8518236/8518236-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "57-burger-bite",
+   "id": 3120243,
+   "url": "https://videos.pexels.com/video-files/3120243/3120243-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "58-sesame-bun",
+   "id": 8862078,
+   "url": "https://videos.pexels.com/video-files/8862078/8862078-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "59-i95-connecticut",
+   "id": 9059,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Interstate_95_in_Connecticut_%2810936883133%29.jpg/1920px-Interstate_95_in_Connecticut_%2810936883133%29.jpg",
+   "photo": true,
+   "credit": "Adam Moss, CC BY-SA 2.0, Wikimedia Commons"
+  },
+  {
+   "name": "60-service-plaza",
+   "id": 9060,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/McDonald%27s_at_Eastbound_Ludlow_Service_Plaza_MA.jpg/1920px-McDonald%27s_at_Eastbound_Ludlow_Service_Plaza_MA.jpg",
+   "photo": true,
+   "credit": "Kenneth C. Zirkel, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "61-thruway-drive-thru",
+   "id": 9061,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/McDonald%27s_drive-thru_entrance%2C_New_York_State_Thruway_DeWitt_Service_Area%2C_DeWitt%2C_New_York_-_20210828.jpg/1920px-McDonald%27s_drive-thru_entrance%2C_New_York_State_Thruway_DeWitt_Service_Area%2C_DeWitt%2C_New_York_-_20210828.jpg",
+   "photo": true,
+   "credit": "Andre Carrotflower, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "62-ct-manchester",
+   "id": 9062,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/McDonald%27s_%28Manchester%2C_Connecticut%29.jpg/1920px-McDonald%27s_%28Manchester%2C_Connecticut%29.jpg",
+   "photo": true,
+   "credit": "JJBers, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "name": "63-ct-lisbon",
+   "id": 9063,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/McDonald%27s_%28Lisbon%2C_Connecticut%29_%2850246129856%29.jpg/1920px-McDonald%27s_%28Lisbon%2C_Connecticut%29_%2850246129856%29.jpg",
+   "photo": true,
+   "credit": "JJBers, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "name": "64-menu-board-cc0",
+   "id": 9064,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/McDonald%27s_breakfast_menu_%2830514572481%29.jpg/1920px-McDonald%27s_breakfast_menu_%2830514572481%29.jpg",
+   "photo": true,
+   "credit": "dankeck, CC0, Wikimedia Commons"
+  },
+  {
+   "name": "65-big-mac-meal",
+   "id": 9065,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Double_Big_Mac_Meal_at_McDonald%27s_%285116376216%29.jpg/1920px-Double_Big_Mac_Meal_at_McDonald%27s_%285116376216%29.jpg",
+   "photo": true,
+   "credit": "Aranami, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "name": "66-archive-mcd",
+   "id": 9066,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/McDonald%27s_-_DPLA_-_36f9d21ce43dc9dee70eddda7d21fefa.jpg/1920px-McDonald%27s_-_DPLA_-_36f9d21ce43dc9dee70eddda7d21fefa.jpg",
+   "photo": true,
+   "credit": "David E. Lucas, public domain, Wikimedia Commons"
+  },
+  {
+   "name": "67-value-burgers",
+   "id": 9067,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Value_menu_hamburgers.jpg/1920px-Value_menu_hamburgers.jpg",
+   "photo": true,
+   "credit": "TheDapperDan, public domain, Wikimedia Commons"
+  },
+  {
+   "name": "68-orlando-interior",
+   "id": 9068,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/McDonald%27s%2C_6875_Sand_Lake_Rd%2C_Orlando_interior_3.jpg/1920px-McDonald%27s%2C_6875_Sand_Lake_Rd%2C_Orlando_interior_3.jpg",
+   "photo": true,
+   "credit": "Michael Rivera, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "69-kiosk",
+   "id": 9069,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/McDonaldsKiosk67.jpg/1920px-McDonaldsKiosk67.jpg",
+   "photo": true,
+   "credit": "EvanTech10, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "70-mcchicken",
+   "id": 9070,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/McD-McChicken.jpg/1920px-McD-McChicken.jpg",
+   "photo": true,
+   "credit": "Evan-Amos, public domain, Wikimedia Commons"
+  },
+  {
+   "name": "71-interstate44",
+   "id": 9071,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/McDonalds_on_Interstate_44.jpg/1920px-McDonalds_on_Interstate_44.jpg",
+   "photo": true,
+   "credit": "TheWhitePelican, CC BY 3.0, Wikimedia Commons"
+  },
+  {
+   "name": "72-midnight-lineup",
+   "id": 9072,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Midnight_McDonald%27s_Lineup%2C_Buffalo%2C_New_York_-_20220903.jpg/1920px-Midnight_McDonald%27s_Lineup%2C_Buffalo%2C_New_York_-_20220903.jpg",
+   "photo": true,
+   "credit": "Andre Carrotflower, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "73-needles-ca",
+   "id": 9073,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/McDonalds_Needles_CA_2026-04-05_10-39-34.jpg/1920px-McDonalds_Needles_CA_2026-04-05_10-39-34.jpg",
+   "photo": true,
+   "credit": "G. Edward Johnson, CC BY 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "74-calverton-md",
+   "id": 9074,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/McDonalds_Orchard_Center_Calvertion_MD_2023-03-01_08-55-07.jpg/1920px-McDonalds_Orchard_Center_Calvertion_MD_2023-03-01_08-55-07.jpg",
+   "photo": true,
+   "credit": "G. Edward Johnson, CC BY 4.0, Wikimedia Commons"
+  }
+ ]
+}
