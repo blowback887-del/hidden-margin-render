@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.ksl.com/article/51363107",
+ "host": "ksl.com",
+ "frame": "screen",
+ "finds": {
+  "menu board": [
+   1069,
+   753,
+   250,
+   64
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.foxnews.com/food-drink/mcdonalds-2-50-mcdouble-sparks-backlash-americans-say-fast-food-no-longer-cheap.print",
+ "host": "foxnews.com",
+ "frame": "screen",
+ "finds": {
+  "So am I": [
+   991,
+   599,
+   92,
+   32
+  ]
+ }
+}
