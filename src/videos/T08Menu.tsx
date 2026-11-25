@@ -71,7 +71,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={7.32} from="fade"><Plate6 at={7.32}><Label6 at={7.32} size={44} color={C6.accent}>WHAT McDONALD'S DID NEXT</Label6></Plate6></In></Center>
 </>) },
   { from: 89.44, to: 101.24, tag: [2, "Their Own Numbers", true], hard: true, back: null, el: (<>
-<Drift><Center y={470}><MenuBoard at={0.05} w={1100} rh={120} title="McDONALD'S OWN FACT SHEET · AVERAGES" foot="+$2.00 · SAME TRAY" footAt={9.26} rows={[{ name: "Big Mac Meal \u00b7 2019", price: "$7.29", at: 4.84 }, { name: "Big Mac Meal \u00b7 2024", price: "$9.29", at: 7.6, hlAt: 9.26 }]} /></Center><Source6 at={0.4}>McDonald's “U.S. Pricing: Myths vs. Facts” · May 2024</Source6></Drift>
+<Drift><Center y={470}><MenuBoard at={0.05} w={1100} rh={120} title="McDONALD'S OWN FACT SHEET · AVERAGES" foot="+$2.00 · SAME TRAY" footAt={9.26} rows={[{ name: "Big Mac Meal \u00b7 2019", price: "$7.29", at: 0.3, hlAt: 4.84 }, { name: "Big Mac Meal \u00b7 2024", price: "$9.29", at: 7.6, hlAt: 9.26 }]} /></Center><Source6 at={0.4}>McDonald's “U.S. Pricing: Myths vs. Facts” · May 2024</Source6></Drift>
 </>) },
   { from: 101.24, to: 113.18, tag: [2, "Their Own Numbers", false], back: null, el: (<>
 <Evidence src="evidence/t08/mcd-myths.png" size={[1700, 2400]} dur={11.94} frame="paper" marks={[{ x: 108, y: 1122, w: 520, h: 86, at: 7.34 }, { x: 700, y: 1132, w: 880, h: 46, at: 11.28 }]} source="McDONALD'S “U.S. PRICING: MYTHS VS. FACTS” · MAY 2024" /><Center x={960} y={960}><In at={11.28} from="fade"><Plate6 at={11.28}><Label6 at={11.28} size={34} color={C6.accent}>MYTH: +104% · FACT (PER McDONALD'S): +27%</Label6></Plate6></In></Center>
@@ -82,8 +82,7 @@ const BEATS: Beat[] = [
 <Center y={600}><Label6 at={0.2} size={34} color={C6.mint}>MEDIUM FRIES · 2019 → 2024</Label6></Center>
 <Center y={760}><Words text="+44%" at={9.12} size={150} color={C6.loss} hl={["+44%"]} /></Center><Source6 at={0.4}>McDonald's fact sheet via The Daily Meal</Source6>
 </>) },
-  { from: 124.14, to: 131.98, tag: [2, "Their Own Numbers", false], back: (<><Stock6 n={13} dur={7.84} dim={0} graphics={false} />
-<Stock6 n={12} from={2.72} dur={7.84} dim={0} graphics={false} /></>), el: (<>
+  { from: 124.14, to: 131.98, tag: [2, "Their Own Numbers", false], back: (<><Stock6 n={12} dur={7.84} dim={0} graphics={false} /></>), el: (<>
 <Meme at={0.05} text="premium potatoes." y={900} size={76} out={2.72} /><Center x={960} y={880}><In at={2.72} from="fade"><Plate6 at={2.72}><Label6 at={2.72} size={34} color={C6.accent}>THE CHEAPEST THING ON THE TRAY · THE BIGGEST % RAISE</Label6></Plate6></In></Center>
 </>) },
   { from: 131.98, to: 139.6, tag: [2, "Their Own Numbers", false], back: null, el: (<>
@@ -101,7 +100,7 @@ const BEATS: Beat[] = [
   { from: 156.94, to: 159.28, tag: [2, "Their Own Numbers", false], back: null, el: (<>
 <Drift><Center y={480}><TwoBars at={0.05} a={{ label: "GROSS PROFIT · 2019", value: "$11.2B", v: 11.18 }} b={{ label: "2023", value: "$14.6B", v: 14.56, color: C6.money, at: 0.4 }} h={480} /></Center><Center x={960} y={960}><In at={0.6} from="fade"><Plate6 at={0.6}><Label6 at={0.6} size={50} color={C6.money}>+30%</Label6></Plate6></In></Center><Source6 at={0.4}>Reuters · McDonald's annual reports</Source6></Drift>
 </>) },
-  { from: 159.28, to: 164.26, tag: [2, "Their Own Numbers", false], back: (<><Stock6 n={16} dur={4.98} dim={0} graphics={false} /></>), el: (<>
+  { from: 159.28, to: 164.26, tag: [2, "Their Own Numbers", false], back: (<><Stock6 n={15} dur={4.98} dim={0} graphics={false} /></>), el: (<>
 <Meme at={0.05} text="costs went up for everybody." y={900} size={70} out={2.74} /><Meme at={2.74} text="only one side ended up with more." y={900} size={70} />
 </>) },
   { from: 164.26, to: 172.08, tag: [2, "Their Own Numbers", false], back: (<><Stock6 n={21} dur={7.82} dim={0} graphics={true} />
@@ -128,12 +127,12 @@ const BEATS: Beat[] = [
   { from: 194.5, to: 199.02, tag: [3, "The Missing Meal", false], back: null, el: (<>
 <Drift><Center y={480}><MenuBoard at={0.05} w={1000} rh={110} title="THE BOARD · 2019" foot="ILLUSTRATION · 2019 AVERAGE PRICES" footAt={0.3} rows={[{ name: "Extra Value Meals", price: "#1\u2013#10", goneAt: 3.0, hlAt: 0.1 }, { name: "Big Mac", price: "$4.39" }, { name: "Medium Fries", price: "$2.29" }]} /></Center></Drift>
 </>) },
-  { from: 199.02, to: 204.66, tag: [3, "The Missing Meal", false], back: (<><Stock6 n={26} dur={5.64} dim={0} graphics={true} />
-<Stock6 n={27} from={3.24} dur={5.64} dim={0} graphics={true} /></>), el: (<>
+  { from: 199.02, to: 204.66, tag: [3, "The Missing Meal", false], back: (<><Stock6 n={23} dur={5.64} dim={0} graphics={true} />
+<Stock6 n={49} from={3.24} dur={5.64} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.24} from="fade"><Plate6 at={3.24}><Label6 at={3.24} size={36} color={C6.ink}>PANDEMIC → INFLATION → HIGHER BOARDS</Label6></Plate6></In></Center>
 </>) },
-  { from: 204.66, to: 210.1, tag: [3, "The Missing Meal", false], back: (<><Stock6 n={18} dur={5.44} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={32} color={C6.ink}>CEO CHRIS KEMPCZINSKI · INVESTOR CALL · AUG 2025</Label6></Plate6></In></Center>
+  { from: 204.66, to: 210.1, tag: [3, "The Missing Meal", false], back: (<><Stock6 n={19} dur={5.44} dim={0.45} graphics={true} /></>), el: (<>
+<Center x={960} y={880}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={34} color={C6.ink}>McDONALD'S CEO · INVESTOR CALL · AUG 2025</Label6></Plate6></In></Center>
 </>) },
   { from: 210.1, to: 216.04, tag: [3, "The Missing Meal", false], back: null, el: (<>
 <Evidence src="evidence/t08/ksl-tooften.png" size={[2880, 1800]} dur={5.94} frame="screen" marks={[{ x: 898, y: 600, w: 122, h: 34, at: 1.46 }]} zoom={0.9} inset={{ src: "evidence/t08/ksl-tooften-top.png", size: [2880, 1800] }} source="CNN VIA KSL · AUG 2025" url="ksl.com" />
@@ -157,8 +156,7 @@ const BEATS: Beat[] = [
 <Stock6 n={32} from={4.24} dur={8.28} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={1.5} out={4.24} from="fade"><Plate6 at={1.5}><Label6 at={1.5} size={38} color={C6.ink}>LUNCH BETWEEN TWO JOBS</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.24} from="fade"><Plate6 at={4.24}><Label6 at={4.24} size={38} color={C6.ink}>SATURDAY WITH THE GRANDKIDS</Label6></Plate6></In></Center>
 </>) },
-  { from: 255.7, to: 259.98, tag: [3, "The Missing Meal", false], back: (<><Stock6 n={43} dur={4.28} dim={0} graphics={true} />
-<Stock6 n={44} from={2.94} dur={4.28} dim={0} graphics={true} /></>), el: (<>
+  { from: 255.7, to: 259.98, tag: [3, "The Missing Meal", false], back: (<><Stock6 n={25} dur={4.28} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
   { from: 259.98, to: 266.74, tag: [3, "The Missing Meal", false], back: null, el: (<>
@@ -181,14 +179,14 @@ const BEATS: Beat[] = [
 <Center x={520} y={300}><In at={4.32} from="fade"><Plate6 at={4.32}><Label6 at={4.32} size={38} color={C6.accent}>NAME</Label6></Plate6></In></Center><Center x={1400} y={430}><In at={5.58} from="fade"><Plate6 at={5.58}><Label6 at={5.58} size={38} color={C6.accent}>ORDERS</Label6></Plate6></In></Center><Center x={600} y={640}><In at={6.56} from="fade"><Plate6 at={6.56}><Label6 at={6.56} size={38} color={C6.accent}>8:12 AM · FRIDAYS</Label6></Plate6></In></Center><Center x={1300} y={780}><In at={7.76} from="fade"><Plate6 at={7.76}><Label6 at={7.76} size={38} color={C6.accent}>ALWAYS A BIG MAC</Label6></Plate6></In></Center>
 </>) },
   { from: 301.88, to: 309.5, tag: [4, "The Phone", false], back: null, el: (<>
-<Drift><Center y={440}><Counter6 to={150} at={3.8} dur={1.0} size={220} fmt={(v) => Math.round(v) + "M+"} /></Center>
-<Center y={640}><Label6 at={3.8} size={34} color={C6.mint}>ACTIVE LOYALTY USERS · WORLDWIDE · END OF 2023</Label6></Center><Source6 at={3.8}>McDonald's Q4 2023 earnings call · Restaurant Dive</Source6></Drift>
+<Drift><Center y={440}><Counter6 to={150} at={3.8} dur={0.8} size={220} fmt={(v) => Math.round(v) + "M+"} /></Center>
+<Center y={640}><Label6 at={0.2} size={34} color={C6.mint}>LOYALTY USERS · WORLDWIDE · END OF 2023</Label6></Center><Source6 at={3.8}>McDonald's Q4 2023 earnings call · Restaurant Dive</Source6></Drift>
 </>) },
   { from: 309.5, to: 315.22, tag: [4, "The Phone", false], back: (<><Stock6 n={36} dur={5.72} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.16} from="fade"><Plate6 at={3.16}><Label6 at={3.16} size={34} color={C6.ink}>KNOWS WHAT YOU BUY → DECIDES WHAT TO OFFER YOU</Label6></Plate6></In></Center>
 </>) },
   { from: 315.22, to: 322.26, tag: [4, "The Phone", false], back: null, el: (<>
-<Evidence src="evidence/t08/nzh-app-top.png" size={[2880, 1800]} dur={7.04} frame="screen" zoom={0.9} source="NZ HERALD · AUG 2023" url="nzherald.co.nz" /><Center x={960} y={960}><In at={4.16} from="fade"><Plate6 at={4.16}><Label6 at={4.16} size={34} color={C6.accent}>SAME DEALS · DIFFERENT PRICES ON DIFFERENT PHONES</Label6></Plate6></In></Center>
+<Evidence src="evidence/t08/newshub-app-top.png" size={[2880, 1800]} dur={7.04} frame="screen" zoom={0.9} source="NEWSHUB · NEW ZEALAND · AUG 2023" url="newshub.co.nz" /><Center x={960} y={960}><In at={4.16} from="fade"><Plate6 at={4.16}><Label6 at={4.16} size={34} color={C6.accent}>SAME DEALS · DIFFERENT PRICES ON DIFFERENT PHONES</Label6></Plate6></In></Center>
 </>) },
   { from: 322.26, to: 328.22, tag: [4, "The Phone", false], back: null, el: (<>
 <Evidence src="evidence/t08/newshub-app.png" size={[2880, 1800]} dur={5.96} frame="screen" marks={[{ x: 812, y: 667, w: 232, h: 46, at: 1.92 }]} zoom={0.9} inset={{ src: "evidence/t08/newshub-app-top.png", size: [2880, 1800] }} source="NEWSHUB · NEW ZEALAND · AUG 2023" url="newshub.co.nz" />
@@ -200,10 +198,10 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.92} from="fade"><Plate6 at={2.92}><Label6 at={2.92} size={36} color={C6.ink}>THE BEST APP DEALS DRIED UP · USER REPORTS</Label6></Plate6></In></Center>
 </>) },
   { from: 341.42, to: 349.32, tag: [4, "The Phone", false], back: null, el: (<>
-<Drift><Center y={480}><TwoLocks aAt={3.06} bAt={4.22} /></Center></Drift>
+<Drift><Center y={480}><TwoLocks aAt={0.2} bAt={4.22} /></Center></Drift>
 </>) },
   { from: 349.32, to: 358.7, tag: [5, "The Trick", true], hard: true, back: null, el: (<>
-<Evidence src="evidence/t08/fortune-combo-top.png" size={[2880, 1800]} dur={9.38} frame="screen" zoom={0.9} source="FORTUNE · AUG 2025" url="fortune.com" /><Center x={960} y={960}><In at={6.74} from="fade"><Plate6 at={6.74}><Label6 at={6.74} size={38} color={C6.accent}>THE BEST TRICK IN THIS STORY</Label6></Plate6></In></Center>
+<Evidence src="evidence/t08/fortune-combo.png" size={[2880, 1800]} dur={9.38} frame="screen" marks={[{ x: 1703, y: 713, w: 52, h: 40, at: 5.26 }]} zoom={0.9} inset={{ src: "evidence/t08/fortune-combo-top.png", size: [2880, 1800] }} source="FORTUNE · AUG 2025" url="fortune.com" /><Center x={960} y={960}><In at={6.74} from="fade"><Plate6 at={6.74}><Label6 at={6.74} size={38} color={C6.accent}>THE BEST TRICK IN THIS STORY</Label6></Plate6></In></Center>
 </>) },
   { from: 358.7, to: 362.94, tag: [5, "The Trick", false], back: (<><Stock6 n={69} dur={4.24} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.08} from="fade"><Plate6 at={3.08}><Label6 at={3.08} size={40} color={C6.accent}>SEPT 2025 · EXTRA VALUE MEALS ARE BACK</Label6></Plate6></In></Center><Source6 at={0.4}>Photo: EvanTech10 · Wikimedia, CC BY-SA 4.0</Source6>
@@ -218,7 +216,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t08/aol-wsj.png" size={[2880, 1800]} dur={5.8} frame="screen" marks={[{ x: 757, y: 668, w: 86, h: 38, at: 2.46 }]} zoom={0.9} inset={{ src: "evidence/t08/aol-wsj-top.png", size: [2880, 1800] }} source="WSJ VIA DELISH / AOL · AUG 2025" url="aol.com" />
 </>) },
   { from: 378.7, to: 382.62, tag: [5, "The Trick", false], back: (<><Stock6 n={40} dur={3.92} dim={0} graphics={false} /></>), el: (<>
-<Meme at={3.08} text="“set by the market.”" y={900} size={76} />
+<Meme at={3.08} text="set by the market." y={900} size={76} />
 </>) },
   { from: 382.62, to: 386.34, tag: [5, "The Trick", false], back: null, el: (<>
 <Evidence src="evidence/t08/foxb-evm-top.png" size={[2880, 1800]} dur={3.72} frame="screen" zoom={0.9} source="FOX BUSINESS · SEPT 2025" url="foxbusiness.com" />
@@ -233,28 +231,28 @@ const BEATS: Beat[] = [
 <Drift><Center y={470}><Words text="−15% off prices that rose +40%" at={0.1} size={110} maxW={1500} hl={["−15%", "+40%"]} /></Center><Center x={960} y={880}><In at={3.04} from="fade"><Plate6 at={3.04}><Label6 at={3.04} size={36} color={C6.ink}>THE SAME PRICES THAT CLIMBED AFTER 2019</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 398.9, to: 413.28, tag: [5, "The Trick", false], back: null, el: (<>
-<Drift><Center y={470}><CalcSteps steps={[{ value: "$1.00", at: 4.88 }, { op: "+40%", value: "$1.40", at: 7.19 }, { op: "−15% “SAVINGS”", value: "$1.19", at: 12.58, final: true }]} note="ILLUSTRATION USING McDONALD'S OWN AVERAGES" noteAt={0.3} /></Center></Drift>
+<Drift><Center y={470}><CalcSteps steps={[{ value: "$1.00", at: 4.88 }, { op: "+40%", value: "$1.40", at: 7.19 }, { op: "−15% “SAVINGS”", value: "$1.19", at: 12.58, final: true }]} note="ILLUSTRATION USING McDONALD'S OWN AVERAGES" noteAt={4.88} /></Center></Drift>
 </>) },
   { from: 413.28, to: 423.76, tag: [5, "The Trick", false], back: null, el: (<>
 <Drift><Center y={440}><Words text="≈ +19%" at={3.34} size={240} hl={["+19%"]} /></Center>
-<Center y={650}><Label6 at={3.34} size={32} color={C6.mint}>VS. 2019 SEPARATE-ITEM PRICES · USING THEIR OWN AVERAGES</Label6></Center></Drift>
+<Center y={650}><Label6 at={0.1} size={32} color={C6.mint}>VS. 2019 PRICES · USING THEIR OWN AVERAGES</Label6></Center></Drift>
 </>) },
   { from: 423.76, to: 429.42, tag: [5, "The Trick", false], back: null, el: (<>
 <Evidence src="evidence/t08/nbc-vary.png" size={[2880, 1800]} dur={5.66} frame="screen" marks={[{ x: 418, y: 708, w: 236, h: 40, at: 3.7 }]} zoom={0.9} inset={{ src: "evidence/t08/nbc-vary-top.png", size: [2880, 1800] }} source="NBC10 PHILADELPHIA / AP · SEPT 2025" url="nbcphiladelphia.com" /><Center x={960} y={960}><In at={2.42} from="fade"><Plate6 at={2.42}><Label6 at={2.42} size={38} color={C6.accent}>LIMITED-TIME OFFER</Label6></Plate6></In></Center>
 </>) },
   { from: 429.42, to: 438.76, tag: [5, "The Trick", false], back: null, el: (<>
-<Drift><Center y={470}><ThreeMoves steps={[{ word: "RAISE", sub: "the board", at: 1.5 }, { word: "REMOVE", sub: "the discount", at: 2.74 }, { word: "RESELL", sub: "the discount", at: 4.52 }]} /></Center><Center x={960} y={880}><In at={7.72} from="fade"><Plate6 at={7.72}><Label6 at={7.72} size={40} color={C6.accent}>…AND CALL IT VALUE</Label6></Plate6></In></Center></Drift>
+<Drift><Center y={470}><ThreeMoves steps={[{ word: "RAISE", sub: "the board", at: 0.1 }, { word: "REMOVE", sub: "the discount", at: 2.74 }, { word: "RESELL", sub: "the discount", at: 4.52 }]} /></Center><Center x={960} y={880}><In at={7.72} from="fade"><Plate6 at={7.72}><Label6 at={7.72} size={40} color={C6.accent}>…AND CALL IT VALUE</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 438.76, to: 449.52, tag: [6, "Your Move", true], hard: true, back: null, el: (<>
 <Evidence src="evidence/t08/ap-sales2.png" size={[2880, 1800]} dur={10.76} frame="screen" marks={[{ x: 2064, y: 603, w: 122, h: 44, at: 6.66 }]} zoom={0.9} source="AP VIA NEWS4JAX · NOV 4, 2026" url="news4jax.com" />
 </>) },
-  { from: 449.52, to: 454.2, tag: [6, "Your Move", false], back: (<><Stock6 n={25} dur={4.68} dim={0} graphics={true} /></>), el: (<>
+  { from: 449.52, to: 454.2, tag: [6, "Your Move", false], back: (<><Stock6 n={30} dur={4.68} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.1} from="fade"><Plate6 at={2.1}><Label6 at={2.1} size={40} color={C6.ink}>U.S. FAST-FOOD VISITS · Q3 2026: −2.6%</Label6></Plate6></In></Center><Source6 at={2.1}>AP · Revenue Management Solutions</Source6>
 </>) },
   { from: 454.2, to: 464.0, tag: [6, "Your Move", false], back: null, el: (<>
 <Drift><Center y={420}><Words text="+9%" at={3.1} size={150} color={C6.money} hl={["+9%"]} /></Center>
 <Center y={620}><Counter6 to={2.49} at={4.46} dur={0.9} size={180} color={C6.money} fmt={(v) => "$" + v.toFixed(2) + "B"} /></Center>
-<Center y={800}><Label6 at={7.58} size={34} color={C6.mint}>NET INCOME · WORLDWIDE · ONE QUARTER</Label6></Center><Source6 at={0.3}>McDonald's Q3 2026 results via AP</Source6></Drift>
+<Center y={800}><Label6 at={0.1} size={34} color={C6.mint}>SAME REPORT · McDONALD'S NET INCOME · WORLDWIDE · ONE QUARTER</Label6></Center><Source6 at={0.3}>McDonald's Q3 2026 results via AP</Source6></Drift>
 </>) },
   { from: 464.0, to: 472.9, tag: [6, "Your Move", false], back: (<><Stock6 n={24} dur={8.9} dim={0} graphics={true} />
 <Stock6 n={47} from={5.66} dur={8.9} dim={0} graphics={true} /></>), el: (<>
@@ -277,7 +275,7 @@ const BEATS: Beat[] = [
   { from: 497.48, to: 508.78, tag: [6, "Your Move", false], back: null, el: (<>
 <Drift><Center y={480}><Checklist items={[{ text: "The combo on the board", at: 2.48 }, { text: "The three items, added up", at: 3.94 }, { text: "The deal in the app", at: 5.66 }, { text: "Take the lowest · ask for the value meal by name", at: 7.32 }]} /></Center></Drift>
 </>) },
-  { from: 508.78, to: 514.66, tag: [6, "Your Move", false], back: (<><Stock6 n={51} dur={5.88} dim={0} graphics={true} />
+  { from: 508.78, to: 514.66, tag: [6, "Your Move", false], back: (<><Stock6 n={54} dur={5.88} dim={0} graphics={true} />
 <Stock6 n={73} from={3.62} dur={5.88} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={4.9} from="fade"><Plate6 at={4.9}><Label6 at={4.9} size={40} color={C6.money}>THE NEXT EXIT MIGHT NOT BE</Label6></Plate6></In></Center><Source6 at={3.62}>Photo: G. Edward Johnson · Wikimedia, CC BY 4.0</Source6>
 </>) },
@@ -285,12 +283,12 @@ const BEATS: Beat[] = [
 <Drift><Center y={430}><PriceDuel at={0.05} a={{ label: "never the normal price", value: "$17.59", color: C6.loss }} b={{ label: "wasn't a gift either", value: "$9.29", color: C6.accent, at: 3.8 }} /></Center><Center x={960} y={900}><In at={6.54} from="fade"><Plate6 at={6.54}><Label6 at={6.54} size={40} color={C6.accent}>THEY SAW YOU COMING · NOW YOU SEE THEM COMING</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 524.68, to: 537.7, back: (<><Stock6 n={72} dur={13.02} dim={0.55} graphics={true} /></>), el: (<>
-<EndCard6 at={0.3} next="The Menu Said $14. The Bill Said $31." /><Center x={960} y={180}><In at={0.4} from="fade"><Plate6 at={0.4}><Label6 at={0.4} size={36} color={C6.accent}>WHAT DOES A BIG MAC MEAL COST WHERE YOU LIVE?</Label6></Plate6></In></Center>
+<EndCard6 at={0.3} next="The Sign Said $3.99. Your Bank Said $175." /><Center x={960} y={180}><In at={0.4} from="fade"><Plate6 at={0.4}><Label6 at={0.4} size={36} color={C6.accent}>WHAT DOES A BIG MAC MEAL COST WHERE YOU LIVE?</Label6></Plate6></In></Center>
 </>) },
 ];
 
 // звуковые эффекты — только на смысловые события (секунды ролика)
-const SFX: [number, string, number][] = [[0.05, "ep06-counter", 0.3], [2.02, "impact", 0.3], [10.7, "ep06-whoosh", 0.2], [12.14, "t02-paper", 0.3], [14.43, "ep06-scratch", 0.25], [20.6, "ep06-pop", 0.22], [22.85, "t02-paper", 0.3], [24.15, "t02-paper", 0.3], [32.37, "impact", 0.3], [35.03, "ep06-pop", 0.25], [37.04, "ep06-pop", 0.25], [41.9, "ep06-stamp", 0.25], [44.05, "t02-paper", 0.3], [44.42, "ep06-counter", 0.3], [56.54, "ep06-pop", 0.22], [58.14, "ep06-pop", 0.22], [59.28, "ep06-stamp", 0.25], [62.92, "ep06-whoosh", 0.2], [74.14, "ep06-stamp", 0.25], [75.9, "ding", 0.3], [85.42, "rise", 0.25], [89.49, "ep06-whoosh", 0.2], [94.28, "ep06-counter", 0.3], [97.04, "ep06-counter", 0.3], [101.29, "t02-paper", 0.3], [112.52, "ep06-stamp", 0.3], [116.88, "ep06-counter", 0.3], [118.96, "ep06-counter", 0.3], [122.3, "impact", 0.3], [124.24, "sparkle", 0.25], [137.04, "ep06-counter", 0.3], [142.22, "ep06-pop", 0.22], [142.88, "ep06-pop", 0.22], [143.66, "ep06-pop", 0.22], [148.05, "t02-paper", 0.3], [155.3, "ep06-kaching", 0.3], [156.99, "impact", 0.3], [162.02, "ep06-coin", 0.25], [166.2, "ep06-pop", 0.22], [176.02, "ep06-fall", 0.25], [178.47, "ep06-whoosh", 0.2], [183.34, "ep06-pop", 0.22], [187.22, "ep06-stamp", 0.25], [189.29, "t02-paper", 0.3], [197.5, "ep06-fall", 0.25], [199.22, "scribble", 0.25], [204.96, "ep06-pop", 0.22], [210.15, "t02-paper", 0.3], [214.04, "impact", 0.25], [220.38, "ep06-stamp", 0.25], [223.44, "ep06-counter", 0.3], [232.65, "t02-paper", 0.3], [240.2, "ep06-fall", 0.25], [243.72, "rise", 0.25], [258.64, "ep06-whoosh", 0.2], [260.03, "t02-paper", 0.3], [265.44, "ep06-stamp", 0.25], [268.7, "ding", 0.25], [279.34, "ep06-whoosh", 0.2], [284.96, "ep06-pop", 0.22], [285.86, "ep06-pop", 0.22], [289.51, "t02-paper", 0.3], [297.08, "ep06-pop", 0.2], [298.34, "ep06-pop", 0.2], [299.32, "ep06-pop", 0.2], [300.52, "ep06-pop", 0.2], [305.68, "ep06-counter", 0.3], [312.66, "ep06-pop", 0.22], [315.27, "t02-paper", 0.3], [322.31, "t02-paper", 0.3], [324.18, "ep06-pop", 0.25], [339.58, "ep06-fall", 0.22], [344.48, "click", 0.35], [345.64, "click", 0.35], [349.37, "t02-paper", 0.3], [356.06, "rise", 0.25], [361.78, "ep06-kaching", 0.25], [362.99, "t02-paper", 0.3], [364.82, "ep06-pop", 0.25], [370.22, "ep06-kaching", 0.25], [372.95, "t02-paper", 0.3], [381.78, "ep06-scratch", 0.25], [382.67, "t02-paper", 0.3], [386.39, "ding", 0.25], [389.38, "ep06-stamp", 0.25], [393.68, "ep06-pop", 0.25], [403.78, "ep06-counter", 0.25], [406.09, "ep06-counter", 0.25], [411.48, "impact", 0.3], [416.62, "impact", 0.3], [423.81, "t02-paper", 0.3], [427.46, "ep06-pop", 0.25], [430.92, "ep06-stamp", 0.25], [432.16, "ep06-stamp", 0.25], [433.94, "ep06-kaching", 0.3], [438.81, "t02-paper", 0.3], [445.42, "ep06-fall", 0.25], [451.62, "ep06-fall", 0.25], [458.66, "ep06-counter", 0.3], [461.78, "ep06-kaching", 0.3], [466.74, "ep06-pop", 0.22], [471.64, "buzz", 0.22], [475.08, "ep06-counter", 0.25], [479.06, "ep06-pop", 0.22], [483.8, "click", 0.3], [484.4, "click", 0.3], [485.0, "click", 0.3], [485.6, "click", 0.3], [486.2, "ep06-pop", 0.25], [495.44, "ep06-stamp", 0.25], [499.96, "ding", 0.25], [501.42, "ding", 0.25], [503.14, "ding", 0.25], [504.8, "ep06-kaching", 0.25], [507.38, "ding", 0.25], [512.4, "ep06-whoosh", 0.2], [514.71, "ep06-pop", 0.25], [518.46, "ep06-pop", 0.25], [521.2, "impact", 0.3], [524.98, "ep06-whoosh", 0.2]];
+const SFX: [number, string, number][] = [[0.05, "ep06-counter", 0.3], [2.02, "impact", 0.3], [10.7, "ep06-whoosh", 0.2], [12.14, "t02-paper", 0.3], [14.43, "ep06-scratch", 0.25], [20.6, "ep06-pop", 0.22], [22.85, "t02-paper", 0.3], [24.15, "t02-paper", 0.3], [32.37, "impact", 0.3], [35.03, "ep06-pop", 0.25], [37.04, "ep06-pop", 0.25], [41.9, "ep06-stamp", 0.25], [44.05, "t02-paper", 0.3], [44.42, "ep06-counter", 0.3], [56.54, "ep06-pop", 0.22], [58.14, "ep06-pop", 0.22], [59.28, "ep06-stamp", 0.25], [62.92, "ep06-whoosh", 0.2], [74.14, "ep06-stamp", 0.25], [75.9, "ding", 0.3], [85.42, "rise", 0.25], [89.49, "ep06-whoosh", 0.2], [94.28, "ep06-counter", 0.3], [97.04, "ep06-counter", 0.3], [101.29, "t02-paper", 0.3], [112.52, "ep06-stamp", 0.3], [116.88, "ep06-counter", 0.3], [118.96, "ep06-counter", 0.3], [122.3, "impact", 0.3], [124.24, "sparkle", 0.25], [137.04, "ep06-counter", 0.3], [142.22, "ep06-pop", 0.22], [142.88, "ep06-pop", 0.22], [143.66, "ep06-pop", 0.22], [148.05, "t02-paper", 0.3], [155.3, "ep06-kaching", 0.3], [156.99, "impact", 0.3], [162.02, "ep06-coin", 0.25], [166.2, "ep06-pop", 0.22], [176.02, "ep06-fall", 0.25], [178.47, "ep06-whoosh", 0.2], [183.34, "ep06-pop", 0.22], [187.22, "ep06-stamp", 0.25], [189.29, "t02-paper", 0.3], [197.5, "ep06-fall", 0.25], [202.26, "ep06-pop", 0.2], [204.96, "ep06-pop", 0.22], [210.15, "t02-paper", 0.3], [214.04, "impact", 0.25], [220.38, "ep06-stamp", 0.25], [223.44, "ep06-counter", 0.3], [232.65, "t02-paper", 0.3], [240.2, "ep06-fall", 0.25], [243.72, "rise", 0.25], [258.64, "ep06-whoosh", 0.2], [260.03, "t02-paper", 0.3], [265.44, "ep06-stamp", 0.25], [268.7, "ding", 0.25], [279.34, "ep06-whoosh", 0.2], [284.96, "ep06-pop", 0.22], [285.86, "ep06-pop", 0.22], [289.51, "t02-paper", 0.3], [297.08, "ep06-pop", 0.2], [298.34, "ep06-pop", 0.2], [299.32, "ep06-pop", 0.2], [300.52, "ep06-pop", 0.2], [305.68, "ep06-counter", 0.3], [312.66, "ep06-pop", 0.22], [315.27, "t02-paper", 0.3], [322.31, "t02-paper", 0.3], [324.18, "ep06-pop", 0.25], [339.58, "ep06-fall", 0.22], [341.62, "click", 0.35], [345.64, "click", 0.35], [349.37, "t02-paper", 0.3], [356.06, "rise", 0.25], [361.78, "ep06-kaching", 0.25], [362.99, "t02-paper", 0.3], [364.82, "ep06-pop", 0.25], [370.22, "ep06-kaching", 0.25], [372.95, "t02-paper", 0.3], [381.78, "ep06-scratch", 0.25], [382.67, "t02-paper", 0.3], [386.39, "ding", 0.25], [389.38, "ep06-stamp", 0.25], [393.68, "ep06-pop", 0.25], [403.78, "ep06-counter", 0.25], [406.09, "ep06-counter", 0.25], [411.48, "impact", 0.3], [416.62, "impact", 0.3], [423.81, "t02-paper", 0.3], [427.46, "ep06-pop", 0.25], [430.92, "ep06-stamp", 0.25], [432.16, "ep06-stamp", 0.25], [433.94, "ep06-kaching", 0.3], [438.81, "t02-paper", 0.3], [445.42, "ep06-fall", 0.25], [451.62, "ep06-fall", 0.25], [458.66, "ep06-counter", 0.3], [461.78, "ep06-kaching", 0.3], [466.74, "ep06-pop", 0.22], [471.64, "buzz", 0.22], [475.08, "ep06-counter", 0.25], [479.06, "ep06-pop", 0.22], [483.8, "click", 0.3], [484.4, "click", 0.3], [485.0, "click", 0.3], [485.6, "click", 0.3], [486.2, "ep06-pop", 0.25], [495.44, "ep06-stamp", 0.25], [499.96, "ding", 0.25], [501.42, "ding", 0.25], [503.14, "ding", 0.25], [504.8, "ep06-kaching", 0.25], [507.38, "ding", 0.25], [512.4, "ep06-whoosh", 0.2], [514.71, "ep06-pop", 0.25], [518.46, "ep06-pop", 0.25], [521.2, "impact", 0.3], [524.98, "ep06-whoosh", 0.2]];
 
 export const T08Menu: React.FC = () => {
   const { fps } = useVideoConfig();

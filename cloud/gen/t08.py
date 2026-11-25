@@ -104,7 +104,7 @@ dict(start="But the real story is bigger", stock=K("highway-drone"), alt=(K("int
 
 # ======================= PART 2 · ГЛАВА 2 · ИХ ЖЕ ЦИФРЫ =======================
 dict(start="Let's read their own numbers", tag=C2, hard=True, dim=0.0, sfx=[('ep06-whoosh:0.2', '0.05'), ('ep06-counter:0.3', '@{seven twenty-nine}'), ('ep06-counter:0.3', '@{nine twenty-nine}')],
-     el=board([dict(name="Big Mac Meal · 2019", price="$7.29", at="@{seven twenty-nine}"), dict(name="Big Mac Meal · 2024", price="$9.29", at="@{nine twenty-nine}", hlAt="@{Two dollars more}")],
+     el=board([dict(name="Big Mac Meal · 2019", price="$7.29", at="0.3", hlAt="@{seven twenty-nine}"), dict(name="Big Mac Meal · 2024", price="$9.29", at="@{nine twenty-nine}", hlAt="@{Two dollars more}")],
               "McDONALD'S OWN FACT SHEET · AVERAGES", y=470, w=1100, rh=120, foot="+$2.00 · SAME TRAY", footAt="@{Two dollars more}") + src("McDonald's “U.S. Pricing: Myths vs. Facts” · May 2024", "0.4")),
 dict(start="McDonald's put that in a chart", tag=C2, sfx=[('t02-paper:0.3', '0.05'), ('ep06-stamp:0.3', '@{twenty-seven}')],
      el="MYTHS_27"),
@@ -112,7 +112,7 @@ dict(start="But look further down the same chart", tag=C2, stock=K("fries-close"
      el='''<Center y={430}><Words text="$2.29 → $3.29" at={@{Two twenty-nine}} size={150} hl={["$3.29"]} /></Center>
 <Center y={600}><Label6 at={0.2} size={34} color={C6.mint}>MEDIUM FRIES · 2019 → 2024</Label6></Center>
 <Center y={760}><Words text="+44%" at={@{forty-four percent}} size={150} color={C6.loss} hl={["+44%"]} /></Center>''' + src("McDonald's fact sheet via The Daily Meal", "0.4")),
-dict(start="Potatoes, oil and salt", tag=C2, stock=K("potatoes"), alt=(K("frying"), "The cheapest thing"), clean=True, sfx=[('sparkle:0.25', '0.1')],
+dict(start="Potatoes, oil and salt", tag=C2, stock=K("frying"), clean=True, sfx=[('sparkle:0.25', '0.1')],
      el='''<Meme at={0.05} text="premium potatoes." y={900} size={76} out={@{The cheapest thing}} />''' + plate("THE CHEAPEST THING ON THE TRAY · THE BIGGEST % RAISE", "@{The cheapest thing}", y=880, size=34, color="C6.accent")),
 dict(start="And across the whole menu", tag=C2, dim=0.0, sfx=[('ep06-counter:0.3', '@{forty percent}')],
      el=board([dict(name="Big Mac", price="$4.39", to="$5.29", toAt="@{went up forty}"), dict(name="Quarter Pounder w/ Cheese", price="$4.49", to="$5.39", toAt="@{went up forty}"),
@@ -127,7 +127,7 @@ dict(start="Between twenty nineteen and twenty twenty-three", tag=C2, sfx=[('t02
 dict(start="Up about thirty percent", tag=C2, dim=0.0, sfx=[('impact:0.3', '0.05')],
      el='''<Center y={480}><TwoBars at={0.05} a={{ label: "GROSS PROFIT · 2019", value: "$11.2B", v: 11.18 }} b={{ label: "2023", value: "$14.6B", v: 14.56, color: C6.money, at: 0.4 }} h={480} /></Center>''' +
         plate("+30%", "0.6", y=960, size=50, color="C6.money") + src("Reuters · McDonald's annual reports", "0.4")),
-dict(start="Costs went up for everybody", tag=C2, stock=K("suited-counting"), clean=True, sfx=[('ep06-coin:0.25', '@{Only one side}')],
+dict(start="Costs went up for everybody", tag=C2, stock=K("man-counting"), clean=True, sfx=[('ep06-coin:0.25', '@{Only one side}')],
      el='''<Meme at={0.05} text="costs went up for everybody." y={900} size={70} out={@{Only one side}} /><Meme at={@{Only one side}} text="only one side ended up with more." y={900} size={70} />'''),
 dict(start="So if the average meal went up", tag=C2, stock=K("drive-thru-pay"), alt=(K("empty-wallet"), "feel like they got robbed"), sfx=[('ep06-pop:0.22', '@{only}')],
      el=plate("“ONLY” +27%", "@{only}", y=880, size=44, out="@{feel like they got robbed}") + plate("SO WHY DOES IT FEEL LIKE A ROBBERY?", "@{feel like they got robbed}", y=880, size=40, color="C6.accent")),
@@ -147,10 +147,10 @@ dict(start="In twenty nineteen, McDonald's quietly dropped", tag=C3, sfx=[('t02-
 dict(start="No funeral", tag=C3, dim=0.0, sfx=[('ep06-fall:0.25', '@{faded off the board}')],
      el=board([dict(name="Extra Value Meals", price="#1–#10", goneAt="@{faded off the board}", hlAt="0.1"), dict(name="Big Mac", price="$4.39"), dict(name="Medium Fries", price="$2.29")],
               "THE BOARD · 2019", y=480, w=1000, rh=110, foot="ILLUSTRATION · 2019 AVERAGE PRICES", footAt="0.3")),
-dict(start="Then came the pandemic", tag=C3, stock=K("chalk-erase"), alt=(K("big-menu-board"), "prices on the board kept climbing"), sfx=[('scribble:0.25', '0.2')],
+dict(start="Then came the pandemic", tag=C3, stock=K("drive-thru-going"), alt=(K("cashier-card"), "prices on the board kept climbing"), sfx=[('ep06-pop:0.2', '@{prices on the board}')],
      el=plate("PANDEMIC → INFLATION → HIGHER BOARDS", "@{prices on the board}", y=880, size=36)),
-dict(start="By last year, the CEO", tag=C3, stock=K("meeting"), sfx=[('ep06-pop:0.22', '0.3')],
-     el=plate("CEO CHRIS KEMPCZINSKI · INVESTOR CALL · AUG 2025", "0.3", y=880, size=32)),
+dict(start="By last year, the CEO", tag=C3, stock=K("stock-screens"), dim=0.45, sfx=[('ep06-pop:0.22', '0.3')],
+     el=plate("McDONALD'S CEO · INVESTOR CALL · AUG 2025", "0.3", y=880, size=34)),
 dict(start="Customers were, quote", tag=C3, sfx=[('t02-paper:0.3', '0.05'), ('impact:0.25', '@{more than ten dollars}')],
      el=doc("ksl-tooften", [("too often", "too often")], source="CNN VIA KSL · AUG 2025")),
 dict(start="He also said the single biggest", tag=C3, stock=K("menu-board-cc0"), dim=0.72, sfx=[('ep06-stamp:0.25', '@{is the menu board}')],
@@ -167,7 +167,7 @@ dict(start="Visits from higher earners", tag=C3, dim=0.0, sfx=[('rise:0.25', '0.
      el='''<Center y={470}><Scissors at={0.05} highAt={0.05} /></Center>'''),
 dict(start="Think about who that is", tag=C3, stock=K("worker-break"), alt=(K("grandfather-kids"), "The grandparent"), sfx=[],
      el=plate("LUNCH BETWEEN TWO JOBS", "@{The guy who stops}", y=880, size=38, out="@{The grandparent}") + plate("SATURDAY WITH THE GRANDKIDS", "@{The grandparent}", y=880, size=38)),
-dict(start="That was McDonald's whole business", tag=C3, stock=K("empty-restaurant"), alt=(K("empty-tables"), "walking away"), sfx=[('ep06-whoosh:0.2', '@{walking away}')],
+dict(start="That was McDonald's whole business", tag=C3, stock=K("empty-drive-thru"), sfx=[('ep06-whoosh:0.2', '@{walking away}')],
      el=""),
 dict(start="People said it plainly", tag=C3, sfx=[('t02-paper:0.3', '0.05'), ('ep06-stamp:0.25', '@{So am I}')],
      el=doc("fox-soami", [("So am I", "So am I")], source="FOX NEWS · CUSTOMER POSTS (NAMES HIDDEN)")),
@@ -185,24 +185,24 @@ dict(start="But a deal in the app isn't free", tag=C4, stock=K("phone-typing"), 
      el=plate("NAME", "@{Your name}", y=300, x=520, size=38, color="C6.accent") + plate("ORDERS", "@{your orders}", y=430, x=1400, size=38, color="C6.accent") +
         plate("8:12 AM · FRIDAYS", "@{what time you come}", y=640, x=600, size=38, color="C6.accent") + plate("ALWAYS A BIG MAC", "@{what you always get}", y=780, x=1300, size=38, color="C6.accent")),
 dict(start="By the end of twenty twenty-three", tag=C4, dim=0.0, sfx=[('ep06-counter:0.3', '@{a hundred and fifty million}')],
-     el='''<Center y={440}><Counter6 to={150} at={@{a hundred and fifty million}} dur={1.0} size={220} fmt={(v) => Math.round(v) + "M+"} /></Center>
-<Center y={640}><Label6 at={@{a hundred and fifty million}} size={34} color={C6.mint}>ACTIVE LOYALTY USERS · WORLDWIDE · END OF 2023</Label6></Center>''' + src("McDonald's Q4 2023 earnings call · Restaurant Dive", "@{a hundred and fifty million}")),
+     el='''<Center y={440}><Counter6 to={150} at={@{a hundred and fifty million}} dur={0.8} size={220} fmt={(v) => Math.round(v) + "M+"} /></Center>
+<Center y={640}><Label6 at={0.2} size={34} color={C6.mint}>LOYALTY USERS · WORLDWIDE · END OF 2023</Label6></Center>''' + src("McDonald's Q4 2023 earnings call · Restaurant Dive", "@{a hundred and fifty million}")),
 dict(start="And once a company knows", tag=C4, stock=K("phone-notif"), sfx=[('ep06-pop:0.22', '@{decide exactly}')],
      el=plate("KNOWS WHAT YOU BUY → DECIDES WHAT TO OFFER YOU", "@{decide exactly}", y=880, size=34)),
 dict(start="In New Zealand", tag=C4, sfx=[('t02-paper:0.3', '0.05')],
-     el=doc("nzh-app-top", [], source="NZ HERALD · AUG 2023") + plate("SAME DEALS · DIFFERENT PRICES ON DIFFERENT PHONES", "@{found different prices}", y=960, size=34, color="C6.accent")),
+     el=doc("newshub-app-top", [], source="NEWSHUB · NEW ZEALAND · AUG 2023") + plate("SAME DEALS · DIFFERENT PRICES ON DIFFERENT PHONES", "@{found different prices}", y=960, size=34, color="C6.accent")),
 dict(start="McDonald's there said", tag=C4, sfx=[('t02-paper:0.3', '0.05'), ('ep06-pop:0.25', '@{personalised}')],
      el=doc("newshub-app", [("personalised", "personalised")], source="NEWSHUB · NEW ZEALAND · AUG 2023")),
 dict(start="Here in the U.S., nobody has proven", tag=C4, stock=K("phone-pay-meal"), sfx=[],
      el=plate("U.S.: NOT PROVEN", "0.2", y=880, size=44, out="@{But customers keep posting}") + plate("USER REPORTS: APP AND BOARD DON'T MATCH", "@{But customers keep posting}", y=880, size=36, color="C6.accent")),
 dict(start="And over time, users say", tag=C4, stock=K("scrolling-phone"), sfx=[('ep06-fall:0.22', '@{quietly dried up}')],
      el=plate("THE BEST APP DEALS DRIED UP · USER REPORTS", "@{quietly dried up}", y=880, size=36)),
-dict(start="So now the cheap meal had two locks", tag=C4, dim=0.0, sfx=[('click:0.35', '@{You needed the app}'), ('click:0.35', '@{And you needed the deal}')],
-     el='''<Center y={480}><TwoLocks aAt={@{You needed the app}} bAt={@{And you needed the deal}} /></Center>'''),
+dict(start="So now the cheap meal had two locks", tag=C4, dim=0.0, sfx=[('click:0.35', '0.2'), ('click:0.35', '@{And you needed the deal}')],
+     el='''<Center y={480}><TwoLocks aAt={0.2} bAt={@{And you needed the deal}} /></Center>'''),
 
 # ======================= PART 5 · ГЛАВА 5 · ТРЮК =======================
 dict(start="By the summer of twenty twenty-five", tag=C5, hard=True, sfx=[('t02-paper:0.3', '0.05'), ('rise:0.25', '@{the best trick}')],
-     el=doc("fortune-combo-top", [], source="FORTUNE · AUG 2025") + plate("THE BEST TRICK IN THIS STORY", "@{the best trick}", y=960, size=38, color="C6.accent")),
+     el=doc("fortune-combo", [("15%", "the fix it came up with")], source="FORTUNE · AUG 2025") + plate("THE BEST TRICK IN THIS STORY", "@{the best trick}", y=960, size=38, color="C6.accent")),
 dict(start="In September, McDonald's announced", tag=C5, stock=K("kiosk"), sfx=[('ep06-kaching:0.25', '@{were back}')],
      el=plate("SEPT 2025 · EXTRA VALUE MEALS ARE BACK", "@{were back}", y=880, size=40, color="C6.accent") + src("Photo: EvanTech10 · Wikimedia, CC BY-SA 4.0", "0.4")),
 dict(start="Eight combos", tag=C5, sfx=[('t02-paper:0.3', '0.05'), ('ep06-pop:0.25', '@{fifteen percent}')],
@@ -213,7 +213,7 @@ dict(start="There was even an eight-dollar", tag=C5, dim=0.0, sfx=[('ep06-kachin
 dict(start="The Wall Street Journal reported", tag=C5, sfx=[('t02-paper:0.3', '0.05')],
      el=doc("aol-wsj", [("cover", "help cover the cost")], source="WSJ VIA DELISH / AOL · AUG 2025")),
 dict(start="Remember that the next time", tag=C5, stock=K("incredulous"), clean=True, sfx=[('ep06-scratch:0.25', '@{set by the market}')],
-     el='''<Meme at={@{set by the market}} text="“set by the market.”" y={900} size={76} />'''),
+     el='''<Meme at={@{set by the market}} text="set by the market." y={900} size={76} />'''),
 dict(start="Headlines called it", tag=C5, sfx=[('t02-paper:0.3', '0.05')],
      el=doc("foxb-evm-top", [], source="FOX BUSINESS · SEPT 2025")),
 dict(start="Sounds great", tag=C5, stock=K("big-mac-meal"), clean=True, sfx=[('ding:0.25', '0.05')],
@@ -223,25 +223,25 @@ dict(start="But fifteen percent off of what", tag=C5, stock=K("facepalm"), clean
 dict(start="Off the separate prices", tag=C5, dim=0.0, sfx=[('ep06-pop:0.25', '@{went up about forty}')],
      el='''<Center y={470}><Words text="−15% off prices that rose +40%" at={0.1} size={110} maxW={1500} hl={["−15%", "+40%"]} /></Center>''' + plate("THE SAME PRICES THAT CLIMBED AFTER 2019", "@{went up about forty}", y=880, size=36)),
 dict(start="Let's do the math", tag=C5, dim=0.0, sfx=[('ep06-counter:0.25', '@{call it a dollar}'), ('ep06-counter:0.25', '@{A dollar forty}'), ('impact:0.3', '@{a dollar nineteen}')],
-     el='''<Center y={470}><CalcSteps steps={[{ value: "$1.00", at: @{call it a dollar} }, { op: "+40%", value: "$1.40", at: @{A dollar forty} }, { op: "−15% “SAVINGS”", value: "$1.19", at: @{a dollar nineteen}, final: true }]} note="ILLUSTRATION USING McDONALD'S OWN AVERAGES" noteAt={0.3} /></Center>'''),
+     el='''<Center y={470}><CalcSteps steps={[{ value: "$1.00", at: @{call it a dollar} }, { op: "+40%", value: "$1.40", at: @{A dollar forty} }, { op: "−15% “SAVINGS”", value: "$1.19", at: @{a dollar nineteen}, final: true }]} note="ILLUSTRATION USING McDONALD'S OWN AVERAGES" noteAt={@{call it a dollar}} /></Center>'''),
 dict(start="So even with the new discount", tag=C5, dim=0.0, sfx=[('impact:0.3', '@{roughly nineteen percent}')],
      el='''<Center y={440}><Words text="≈ +19%" at={@{roughly nineteen percent}} size={240} hl={["+19%"]} /></Center>
-<Center y={650}><Label6 at={@{roughly nineteen percent}} size={32} color={C6.mint}>VS. 2019 SEPARATE-ITEM PRICES · USING THEIR OWN AVERAGES</Label6></Center>'''),
+<Center y={650}><Label6 at={0.1} size={32} color={C6.mint}>VS. 2019 PRICES · USING THEIR OWN AVERAGES</Label6></Center>'''),
 dict(start="And the eight-dollar Big Mac Meal", tag=C5, sfx=[('t02-paper:0.3', '0.05'), ('ep06-pop:0.25', '@{Prices vary by location}')],
      el=doc("nbc-vary", [("vary by location", "Prices vary by location")], source="NBC10 PHILADELPHIA / AP · SEPT 2025") + plate("LIMITED-TIME OFFER", "@{limited-time offer}", y=960, size=38, color="C6.accent")),
 dict(start="That's the move", tag=C5, dim=0.0, sfx=[('ep06-stamp:0.25', '@{Raise the board}'), ('ep06-stamp:0.25', '@{Remove the discount}'), ('ep06-kaching:0.3', '@{sell the discount back}')],
-     el='''<Center y={470}><ThreeMoves steps={[{ word: "RAISE", sub: "the board", at: @{Raise the board} }, { word: "REMOVE", sub: "the discount", at: @{Remove the discount} }, { word: "RESELL", sub: "the discount", at: @{sell the discount back} }]} /></Center>''' +
+     el='''<Center y={470}><ThreeMoves steps={[{ word: "RAISE", sub: "the board", at: 0.1 }, { word: "REMOVE", sub: "the discount", at: @{Remove the discount} }, { word: "RESELL", sub: "the discount", at: @{sell the discount back} }]} /></Center>''' +
         plate("…AND CALL IT VALUE", "@{call it value}", y=880, size=40, color="C6.accent")),
 
 # ======================= PART 6 · ГЛАВА 6 · СЕЙЧАС И ЧТО ДЕЛАТЬ =======================
 dict(start="And it still isn't working", tag=C6x, hard=True, sfx=[('t02-paper:0.3', '0.05'), ('ep06-fall:0.25', '@{slipped}')],
      el="AP_SALES"),
-dict(start="Fast food visits across the country", tag=C6x, stock=K("empty-drive-thru"), sfx=[('ep06-fall:0.25', '@{more than two percent}')],
+dict(start="Fast food visits across the country", tag=C6x, stock=K("eating-alone"), sfx=[('ep06-fall:0.25', '@{more than two percent}')],
      el=plate("U.S. FAST-FOOD VISITS · Q3 2026: −2.6%", "@{more than two percent}", y=880, size=40) + src("AP · Revenue Management Solutions", "@{more than two percent}")),
 dict(start="In the same report", tag=C6x, dim=0.0, sfx=[('ep06-counter:0.3', '@{Two point four nine}'), ('ep06-kaching:0.3', '@{In one quarter}')],
      el='''<Center y={420}><Words text="+9%" at={@{went up nine percent}} size={150} color={C6.money} hl={["+9%"]} /></Center>
 <Center y={620}><Counter6 to={2.49} at={@{Two point four nine}} dur={0.9} size={180} color={C6.money} fmt={(v) => "$" + v.toFixed(2) + "B"} /></Center>
-<Center y={800}><Label6 at={@{In one quarter}} size={34} color={C6.mint}>NET INCOME · WORLDWIDE · ONE QUARTER</Label6></Center>''' + src("McDonald's Q3 2026 results via AP", "0.3")),
+<Center y={800}><Label6 at={0.1} size={34} color={C6.mint}>SAME REPORT · McDONALD'S NET INCOME · WORLDWIDE · ONE QUARTER</Label6></Center>''' + src("McDonald's Q3 2026 results via AP", "0.3")),
 dict(start="So now they're trying again", tag=C6x, stock=K("drive-thru-sign"), alt=(K("calc-phone"), "Their own finance chief"), sfx=[('ep06-pop:0.22', '@{three dollars and under}'), ('buzz:0.22', "@{didn't catch on}")],
      el=plate("“$3 & UNDER” MENU · SPRING 2026", "@{three dollars and under}", y=880, size=40, out="@{Their own finance chief}") + plate("CFO: IT DIDN'T CATCH ON", "@{didn't catch on}", y=880, size=40, color="C6.accent")),
 dict(start="Now they're testing new bundles", tag=C6x, stock=K("mcchicken"), alt=(K("paper-bag"), "A national version"), sfx=[('ep06-counter:0.25', '@{nineteen hundred}'), ('ep06-pop:0.22', '@{three fifty}')],
@@ -255,13 +255,13 @@ dict(start="So here's how you use this", tag=C6x, stock=K("interstate44"), sfx=[
      el=plate("THE BOARD IS THE OPENING BID", "@{The board is the opening bid}", y=880, size=50, color="C6.accent") + src("Photo: TheWhitePelican · Wikimedia, CC BY 3.0", "0.4")),
 dict(start="Before you order", tag=C6x, dim=0.0, sfx=[('ding:0.25', '@{The combo on the board}'), ('ding:0.25', '@{The three items}'), ('ding:0.25', '@{And the deal in the app}'), ('ep06-kaching:0.25', '@{Take the lowest}'), ('ding:0.25', '@{ask for it by name}')],
      el='''<Center y={480}><Checklist items={[{ text: "The combo on the board", at: @{The combo on the board} }, { text: "The three items, added up", at: @{The three items} }, { text: "The deal in the app", at: @{And the deal in the app} }, { text: "Take the lowest · ask for the value meal by name", at: @{Take the lowest} }]} /></Center>'''),
-dict(start="And if the McDonald's on your exit", tag=C6x, stock=K("road-signs"), alt=(K("needles-ca"), "the next one down the road"), sfx=[('ep06-whoosh:0.2', '@{the next one down the road}')],
+dict(start="And if the McDonald's on your exit", tag=C6x, stock=K("oklahoma-road"), alt=(K("needles-ca"), "the next one down the road"), sfx=[('ep06-whoosh:0.2', '@{the next one down the road}')],
      el=plate("THE NEXT EXIT MIGHT NOT BE", "@{might not be}", y=880, size=40, color="C6.money") + src("Photo: G. Edward Johnson · Wikimedia, CC BY 4.0", "@{the next one down the road}")),
 dict(start="Seventeen fifty-nine was never", tag=C6x, dim=0.0, sfx=[('ep06-pop:0.25', '0.05'), ('ep06-pop:0.25', '@{But nine twenty-nine}'), ('impact:0.3', '@{They saw you coming}')],
      el='''<Center y={430}><PriceDuel at={0.05} a={{ label: "never the normal price", value: "$17.59", color: C6.loss }} b={{ label: "wasn't a gift either", value: "$9.29", color: C6.accent, at: @{But nine twenty-nine} }} /></Center>''' +
         plate("THEY SAW YOU COMING · NOW YOU SEE THEM COMING", "@{They saw you coming}", y=900, size=40, color="C6.accent")),
 dict(start="Tell me in the comments", stock=K("midnight-lineup"), dim=0.55, end_pad=8.0, sfx=[('ep06-whoosh:0.2', '0.3')],
-     el='''<EndCard6 at={0.3} next="The Menu Said $14. The Bill Said $31." />''' + plate("WHAT DOES A BIG MAC MEAL COST WHERE YOU LIVE?", "0.4", y=180, size=36, color="C6.accent")),
+     el='''<EndCard6 at={0.3} next="The Sign Said $3.99. Your Bank Said $175." />''' + plate("WHAT DOES A BIG MAC MEAL COST WHERE YOU LIVE?", "0.4", y=180, size=36, color="C6.accent")),
 ]
 
 # музыка по главам (Фонотека YouTube, автора указывать не нужно)

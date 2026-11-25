@@ -88,7 +88,7 @@ export const PriceDuel: React.FC<{ at?: number; a: { label: string; value: strin
 /** Наш расчёт столбиком: $1.00 → +40% → $1.40 → −15% → $1.19. steps[i].at — момент шага. */
 export const CalcSteps: React.FC<{ steps: { op?: string; value: string; at: number; final?: boolean }[]; w?: number; note?: string; noteAt?: number }> = ({ steps, w = 760, note, noteAt }) => {
   const { p } = useT();
-  const k = p(steps[0].at - 0.2, steps[0].at + 0.2);
+  const k = p(Math.min(steps[0].at, noteAt ?? 99) - 0.2, Math.min(steps[0].at, noteAt ?? 99) + 0.2);
   return (
     <div style={{ opacity: k, width: w, padding: "30px 40px", borderRadius: 28, background: C6.panel, boxShadow: `inset 0 0 0 2px ${C6.line}, 0 30px 60px rgba(0,0,0,.4)` }}>
       {steps.map((s, i) => {
