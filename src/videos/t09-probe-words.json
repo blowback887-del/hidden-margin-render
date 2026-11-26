@@ -1,0 +1,1310 @@
+[
+{
+"text": "$499.",
+"start": 0.66,
+"end": 1.26,
+"part": 1
+},
+{
+"text": "That's",
+"start": 2.4,
+"end": 2.86,
+"part": 1
+},
+{
+"text": "what",
+"start": 2.86,
+"end": 2.96,
+"part": 1
+},
+{
+"text": "the",
+"start": 2.96,
+"end": 3.16,
+"part": 1
+},
+{
+"text": "tag",
+"start": 3.16,
+"end": 3.34,
+"part": 1
+},
+{
+"text": "on",
+"start": 3.34,
+"end": 3.54,
+"part": 1
+},
+{
+"text": "this",
+"start": 3.54,
+"end": 3.8,
+"part": 1
+},
+{
+"text": "Kate",
+"start": 3.8,
+"end": 3.98,
+"part": 1
+},
+{
+"text": "Spade",
+"start": 3.98,
+"end": 4.4,
+"part": 1
+},
+{
+"text": "bag",
+"start": 4.4,
+"end": 4.64,
+"part": 1
+},
+{
+"text": "says",
+"start": 4.64,
+"end": 4.9,
+"part": 1
+},
+{
+"text": "it's",
+"start": 4.9,
+"end": 5.2,
+"part": 1
+},
+{
+"text": "worth,",
+"start": 5.2,
+"end": 5.5,
+"part": 1
+},
+{
+"text": "comparable",
+"start": 6.16,
+"end": 6.44,
+"part": 1
+},
+{
+"text": "value.",
+"start": 6.44,
+"end": 7.06,
+"part": 1
+},
+{
+"text": "And",
+"start": 7.54,
+"end": 7.64,
+"part": 1
+},
+{
+"text": "the",
+"start": 7.64,
+"end": 7.82,
+"part": 1
+},
+{
+"text": "price",
+"start": 7.82,
+"end": 7.98,
+"part": 1
+},
+{
+"text": "you",
+"start": 7.98,
+"end": 8.2,
+"part": 1
+},
+{
+"text": "actually",
+"start": 8.2,
+"end": 8.68,
+"part": 1
+},
+{
+"text": "pay",
+"start": 8.68,
+"end": 9.08,
+"part": 1
+},
+{
+"text": "is",
+"start": 9.08,
+"end": 9.48,
+"part": 1
+},
+{
+"text": "$169.",
+"start": 9.48,
+"end": 10.22,
+"part": 1
+},
+{
+"text": "You",
+"start": 11.66,
+"end": 11.86,
+"part": 1
+},
+{
+"text": "just",
+"start": 11.86,
+"end": 12.1,
+"part": 1
+},
+{
+"text": "saved",
+"start": 12.1,
+"end": 12.42,
+"part": 1
+},
+{
+"text": "$330.",
+"start": 12.42,
+"end": 13.84,
+"part": 1
+},
+{
+"text": "Except,",
+"start": 14.92,
+"end": 15.48,
+"part": 1
+},
+{
+"text": "according",
+"start": 15.78,
+"end": 16.04,
+"part": 1
+},
+{
+"text": "to",
+"start": 16.04,
+"end": 16.24,
+"part": 1
+},
+{
+"text": "a",
+"start": 16.24,
+"end": 16.42,
+"part": 1
+},
+{
+"text": "lawsuit",
+"start": 16.42,
+"end": 16.7,
+"part": 1
+},
+{
+"text": "filed",
+"start": 16.7,
+"end": 17.1,
+"part": 1
+},
+{
+"text": "this",
+"start": 17.1,
+"end": 17.36,
+"part": 1
+},
+{
+"text": "year,",
+"start": 17.36,
+"end": 17.8,
+"part": 1
+},
+{
+"text": "$499",
+"start": 18.22,
+"end": 18.5,
+"part": 1
+},
+{
+"text": "was",
+"start": 18.5,
+"end": 19.18,
+"part": 1
+},
+{
+"text": "rarely,",
+"start": 19.18,
+"end": 19.76,
+"part": 1
+},
+{
+"text": "if",
+"start": 20.02,
+"end": 20.14,
+"part": 1
+},
+{
+"text": "ever,",
+"start": 20.14,
+"end": 20.6,
+"part": 1
+},
+{
+"text": "a",
+"start": 20.72,
+"end": 20.98,
+"part": 1
+},
+{
+"text": "real",
+"start": 20.98,
+"end": 21.22,
+"part": 1
+},
+{
+"text": "price",
+"start": 21.22,
+"end": 21.56,
+"part": 1
+},
+{
+"text": "at",
+"start": 21.56,
+"end": 21.76,
+"part": 1
+},
+{
+"text": "that",
+"start": 21.76,
+"end": 21.96,
+"part": 1
+},
+{
+"text": "store.",
+"start": 21.96,
+"end": 22.36,
+"part": 1
+},
+{
+"text": "The",
+"start": 22.76,
+"end": 22.96,
+"part": 1
+},
+{
+"text": "lawsuit",
+"start": 22.96,
+"end": 23.32,
+"part": 1
+},
+{
+"text": "lists",
+"start": 23.32,
+"end": 23.62,
+"part": 1
+},
+{
+"text": "prices",
+"start": 23.62,
+"end": 24.04,
+"part": 1
+},
+{
+"text": "from",
+"start": 24.04,
+"end": 24.3,
+"part": 1
+},
+{
+"text": "that",
+"start": 24.3,
+"end": 24.5,
+"part": 1
+},
+{
+"text": "store.",
+"start": 24.5,
+"end": 24.86,
+"part": 1
+},
+{
+"text": "Not",
+"start": 25.16,
+"end": 25.42,
+"part": 1
+},
+{
+"text": "one",
+"start": 25.42,
+"end": 25.8,
+"part": 1
+},
+{
+"text": "of",
+"start": 25.8,
+"end": 25.94,
+"part": 1
+},
+{
+"text": "them",
+"start": 25.94,
+"end": 26.16,
+"part": 1
+},
+{
+"text": "ever",
+"start": 26.16,
+"end": 26.54,
+"part": 1
+},
+{
+"text": "rose",
+"start": 26.54,
+"end": 26.88,
+"part": 1
+},
+{
+"text": "to",
+"start": 26.88,
+"end": 27.12,
+"part": 1
+},
+{
+"text": "that",
+"start": 27.12,
+"end": 27.28,
+"part": 1
+},
+{
+"text": "comparable",
+"start": 27.28,
+"end": 27.76,
+"part": 1
+},
+{
+"text": "value.",
+"start": 27.76,
+"end": 28.28,
+"part": 1
+},
+{
+"text": "And",
+"start": 28.28,
+"end": 28.8,
+"part": 1
+},
+{
+"text": "the",
+"start": 28.8,
+"end": 28.96,
+"part": 1
+},
+{
+"text": "lawsuit",
+"start": 28.96,
+"end": 29.22,
+"part": 1
+},
+{
+"text": "says",
+"start": 29.22,
+"end": 29.6,
+"part": 1
+},
+{
+"text": "that",
+"start": 29.6,
+"end": 29.8,
+"part": 1
+},
+{
+"text": "on",
+"start": 29.8,
+"end": 29.92,
+"part": 1
+},
+{
+"text": "the",
+"start": 29.92,
+"end": 30.12,
+"part": 1
+},
+{
+"text": "same",
+"start": 30.12,
+"end": 30.42,
+"part": 1
+},
+{
+"text": "day,",
+"start": 30.42,
+"end": 30.78,
+"part": 1
+},
+{
+"text": "in",
+"start": 30.92,
+"end": 31.04,
+"part": 1
+},
+{
+"text": "the",
+"start": 31.04,
+"end": 31.24,
+"part": 1
+},
+{
+"text": "same",
+"start": 31.24,
+"end": 31.58,
+"part": 1
+},
+{
+"text": "outlet",
+"start": 31.58,
+"end": 31.9,
+"part": 1
+},
+{
+"text": "center",
+"start": 31.9,
+"end": 32.2,
+"part": 1
+},
+{
+"text": "in",
+"start": 32.2,
+"end": 32.42,
+"part": 1
+},
+{
+"text": "Oregon,",
+"start": 32.42,
+"end": 32.8,
+"part": 1
+},
+{
+"text": "Michael",
+"start": 33.22,
+"end": 33.48,
+"part": 1
+},
+{
+"text": "Kors",
+"start": 33.48,
+"end": 33.82,
+"part": 1
+},
+{
+"text": "had",
+"start": 33.82,
+"end": 34.04,
+"part": 1
+},
+{
+"text": "a",
+"start": 34.04,
+"end": 34.26,
+"part": 1
+},
+{
+"text": "similar",
+"start": 34.26,
+"end": 34.58,
+"part": 1
+},
+{
+"text": "leather",
+"start": 34.58,
+"end": 34.86,
+"part": 1
+},
+{
+"text": "tote",
+"start": 34.86,
+"end": 35.22,
+"part": 1
+},
+{
+"text": "for",
+"start": 35.22,
+"end": 35.4,
+"part": 1
+},
+{
+"text": "$95",
+"start": 35.4,
+"end": 36.12,
+"part": 1
+},
+{
+"text": ".20.",
+"start": 36.12,
+"end": 37.12,
+"part": 1
+},
+{
+"text": "So",
+"start": 38.38,
+"end": 38.8,
+"part": 1
+},
+{
+"text": "who",
+"start": 38.8,
+"end": 39.18,
+"part": 1
+},
+{
+"text": "wrote",
+"start": 39.18,
+"end": 39.46,
+"part": 1
+},
+{
+"text": "$4",
+"start": 39.46,
+"end": 39.82,
+"part": 1
+},
+{
+"text": ".99",
+"start": 39.82,
+"end": 40.28,
+"part": 1
+},
+{
+"text": "on",
+"start": 40.28,
+"end": 40.56,
+"part": 1
+},
+{
+"text": "that",
+"start": 40.56,
+"end": 40.76,
+"part": 1
+},
+{
+"text": "tag?",
+"start": 40.76,
+"end": 41.18,
+"part": 1
+},
+{
+"text": "And",
+"start": 41.44,
+"end": 41.72,
+"part": 1
+},
+{
+"text": "what",
+"start": 41.72,
+"end": 42.04,
+"part": 1
+},
+{
+"text": "exactly",
+"start": 42.04,
+"end": 42.46,
+"part": 1
+},
+{
+"text": "is",
+"start": 42.46,
+"end": 42.64,
+"part": 1
+},
+{
+"text": "it",
+"start": 42.64,
+"end": 42.8,
+"part": 1
+},
+{
+"text": "comparable",
+"start": 42.8,
+"end": 43.24,
+"part": 1
+},
+{
+"text": "to?",
+"start": 43.24,
+"end": 43.72,
+"part": 1
+},
+{
+"text": "If",
+"start": 44.22,
+"end": 44.46,
+"part": 1
+},
+{
+"text": "you've",
+"start": 44.46,
+"end": 44.66,
+"part": 1
+},
+{
+"text": "ever",
+"start": 44.66,
+"end": 45.0,
+"part": 1
+},
+{
+"text": "walked",
+"start": 45.0,
+"end": 45.28,
+"part": 1
+},
+{
+"text": "out",
+"start": 45.28,
+"end": 45.5,
+"part": 1
+},
+{
+"text": "of",
+"start": 45.5,
+"end": 45.6,
+"part": 1
+},
+{
+"text": "an",
+"start": 45.6,
+"end": 45.72,
+"part": 1
+},
+{
+"text": "outlet",
+"start": 45.72,
+"end": 46.0,
+"part": 1
+},
+{
+"text": "mall",
+"start": 46.0,
+"end": 46.24,
+"part": 1
+},
+{
+"text": "with",
+"start": 46.24,
+"end": 46.46,
+"part": 1
+},
+{
+"text": "three",
+"start": 46.46,
+"end": 46.82,
+"part": 1
+},
+{
+"text": "bags",
+"start": 46.82,
+"end": 47.22,
+"part": 1
+},
+{
+"text": "and",
+"start": 47.22,
+"end": 47.46,
+"part": 1
+},
+{
+"text": "the",
+"start": 47.46,
+"end": 47.6,
+"part": 1
+},
+{
+"text": "feeling",
+"start": 47.6,
+"end": 47.86,
+"part": 1
+},
+{
+"text": "that",
+"start": 47.86,
+"end": 48.06,
+"part": 1
+},
+{
+"text": "you",
+"start": 48.06,
+"end": 48.24,
+"part": 1
+},
+{
+"text": "beat",
+"start": 48.24,
+"end": 48.5,
+"part": 1
+},
+{
+"text": "the",
+"start": 48.5,
+"end": 48.74,
+"part": 1
+},
+{
+"text": "system,",
+"start": 48.74,
+"end": 49.12,
+"part": 1
+},
+{
+"text": "this",
+"start": 49.42,
+"end": 49.72,
+"part": 1
+},
+{
+"text": "one's",
+"start": 49.72,
+"end": 50.04,
+"part": 1
+},
+{
+"text": "about",
+"start": 50.04,
+"end": 50.34,
+"part": 1
+},
+{
+"text": "you.",
+"start": 50.34,
+"end": 50.78,
+"part": 1
+},
+{
+"text": "Because",
+"start": 50.98,
+"end": 51.4,
+"part": 1
+},
+{
+"text": "that",
+"start": 51.4,
+"end": 51.66,
+"part": 1
+},
+{
+"text": "feeling",
+"start": 51.66,
+"end": 52.22,
+"part": 1
+},
+{
+"text": "is",
+"start": 52.22,
+"end": 52.58,
+"part": 1
+},
+{
+"text": "the",
+"start": 52.58,
+"end": 52.86,
+"part": 1
+},
+{
+"text": "product.",
+"start": 52.86,
+"end": 53.22,
+"part": 1
+},
+{
+"text": "Here's",
+"start": 53.88,
+"end": 54.14,
+"part": 1
+},
+{
+"text": "the",
+"start": 54.14,
+"end": 54.34,
+"part": 1
+},
+{
+"text": "first",
+"start": 54.34,
+"end": 54.56,
+"part": 1
+},
+{
+"text": "thing",
+"start": 54.56,
+"end": 54.74,
+"part": 1
+},
+{
+"text": "you",
+"start": 54.74,
+"end": 54.88,
+"part": 1
+},
+{
+"text": "can",
+"start": 54.88,
+"end": 55.02,
+"part": 1
+},
+{
+"text": "do",
+"start": 55.02,
+"end": 55.16,
+"part": 1
+},
+{
+"text": "on",
+"start": 55.16,
+"end": 55.32,
+"part": 1
+},
+{
+"text": "your",
+"start": 55.32,
+"end": 55.46,
+"part": 1
+},
+{
+"text": "next",
+"start": 55.46,
+"end": 55.68,
+"part": 1
+},
+{
+"text": "trip.",
+"start": 55.68,
+"end": 56.02,
+"part": 1
+},
+{
+"text": "Put",
+"start": 56.02,
+"end": 56.52,
+"part": 1
+},
+{
+"text": "your",
+"start": 56.52,
+"end": 56.7,
+"part": 1
+},
+{
+"text": "thumb",
+"start": 56.7,
+"end": 57.0,
+"part": 1
+},
+{
+"text": "over",
+"start": 57.0,
+"end": 57.34,
+"part": 1
+},
+{
+"text": "the",
+"start": 57.34,
+"end": 57.62,
+"part": 1
+},
+{
+"text": "big",
+"start": 57.62,
+"end": 57.8,
+"part": 1
+},
+{
+"text": "number.",
+"start": 57.8,
+"end": 58.2,
+"part": 1
+},
+{
+"text": "Look",
+"start": 58.58,
+"end": 58.68,
+"part": 1
+},
+{
+"text": "only",
+"start": 58.68,
+"end": 59.14,
+"part": 1
+},
+{
+"text": "at",
+"start": 59.14,
+"end": 59.38,
+"part": 1
+},
+{
+"text": "the",
+"start": 59.38,
+"end": 59.5,
+"part": 1
+},
+{
+"text": "small",
+"start": 59.5,
+"end": 59.84,
+"part": 1
+},
+{
+"text": "one.",
+"start": 59.84,
+"end": 60.16,
+"part": 1
+},
+{
+"text": "Would",
+"start": 60.6,
+"end": 60.7,
+"part": 1
+},
+{
+"text": "you",
+"start": 60.7,
+"end": 60.88,
+"part": 1
+},
+{
+"text": "pay",
+"start": 60.88,
+"end": 61.1,
+"part": 1
+},
+{
+"text": "169",
+"start": 61.1,
+"end": 61.72,
+"part": 1
+},
+{
+"text": "for",
+"start": 61.72,
+"end": 62.2,
+"part": 1
+},
+{
+"text": "this",
+"start": 62.2,
+"end": 62.4,
+"part": 1
+},
+{
+"text": "bag",
+"start": 62.4,
+"end": 62.68,
+"part": 1
+},
+{
+"text": "if",
+"start": 62.68,
+"end": 62.88,
+"part": 1
+},
+{
+"text": "there",
+"start": 62.88,
+"end": 63.02,
+"part": 1
+},
+{
+"text": "were",
+"start": 63.02,
+"end": 63.16,
+"part": 1
+},
+{
+"text": "no",
+"start": 63.16,
+"end": 63.48,
+"part": 1
+},
+{
+"text": "other",
+"start": 63.48,
+"end": 63.82,
+"part": 1
+},
+{
+"text": "number",
+"start": 63.82,
+"end": 64.08,
+"part": 1
+},
+{
+"text": "on",
+"start": 64.08,
+"end": 64.26,
+"part": 1
+},
+{
+"text": "the",
+"start": 64.26,
+"end": 64.42,
+"part": 1
+},
+{
+"text": "tag?",
+"start": 64.42,
+"end": 64.72,
+"part": 1
+},
+{
+"text": "That's",
+"start": 65.1,
+"end": 65.58,
+"part": 1
+},
+{
+"text": "the",
+"start": 65.58,
+"end": 65.76,
+"part": 1
+},
+{
+"text": "real",
+"start": 65.76,
+"end": 66.06,
+"part": 1
+},
+{
+"text": "price.",
+"start": 66.06,
+"end": 66.52,
+"part": 1
+},
+{
+"text": "The",
+"start": 66.94,
+"end": 67.1,
+"part": 1
+},
+{
+"text": "other",
+"start": 67.1,
+"end": 67.32,
+"part": 1
+},
+{
+"text": "one",
+"start": 67.32,
+"end": 67.6,
+"part": 1
+},
+{
+"text": "is",
+"start": 67.6,
+"end": 67.82,
+"part": 1
+},
+{
+"text": "there",
+"start": 67.82,
+"end": 68.02,
+"part": 1
+},
+{
+"text": "to",
+"start": 68.02,
+"end": 68.24,
+"part": 1
+},
+{
+"text": "work",
+"start": 68.24,
+"end": 68.42,
+"part": 1
+},
+{
+"text": "on",
+"start": 68.42,
+"end": 68.66,
+"part": 1
+},
+{
+"text": "you.",
+"start": 68.66,
+"end": 68.94,
+"part": 1
+},
+{
+"text": "And",
+"start": 69.32,
+"end": 69.42,
+"part": 1
+},
+{
+"text": "before",
+"start": 69.42,
+"end": 69.68,
+"part": 1
+},
+{
+"text": "this",
+"start": 69.68,
+"end": 69.9,
+"part": 1
+},
+{
+"text": "video",
+"start": 69.9,
+"end": 70.18,
+"part": 1
+},
+{
+"text": "is",
+"start": 70.18,
+"end": 70.36,
+"part": 1
+},
+{
+"text": "over,",
+"start": 70.36,
+"end": 70.7,
+"part": 1
+},
+{
+"text": "you'll",
+"start": 70.94,
+"end": 71.14,
+"part": 1
+},
+{
+"text": "meet",
+"start": 71.14,
+"end": 71.28,
+"part": 1
+},
+{
+"text": "a",
+"start": 71.28,
+"end": 71.5,
+"part": 1
+},
+{
+"text": "CEO",
+"start": 71.5,
+"end": 71.88,
+"part": 1
+},
+{
+"text": "who",
+"start": 71.88,
+"end": 72.18,
+"part": 1
+},
+{
+"text": "tried",
+"start": 72.18,
+"end": 72.42,
+"part": 1
+},
+{
+"text": "to",
+"start": 72.42,
+"end": 72.58,
+"part": 1
+},
+{
+"text": "get",
+"start": 72.58,
+"end": 72.76,
+"part": 1
+},
+{
+"text": "rid",
+"start": 72.76,
+"end": 73.02,
+"part": 1
+},
+{
+"text": "of",
+"start": 73.02,
+"end": 73.24,
+"part": 1
+},
+{
+"text": "numbers",
+"start": 73.24,
+"end": 73.48,
+"part": 1
+},
+{
+"text": "like",
+"start": 73.48,
+"end": 73.7,
+"part": 1
+},
+{
+"text": "that.",
+"start": 73.7,
+"end": 74.06,
+"part": 1
+},
+{
+"text": "What",
+"start": 74.4,
+"end": 74.56,
+"part": 1
+},
+{
+"text": "happened",
+"start": 74.56,
+"end": 74.8,
+"part": 1
+},
+{
+"text": "to",
+"start": 74.8,
+"end": 75.04,
+"part": 1
+},
+{
+"text": "him",
+"start": 75.04,
+"end": 75.28,
+"part": 1
+},
+{
+"text": "is",
+"start": 75.28,
+"end": 75.62,
+"part": 1
+},
+{
+"text": "the",
+"start": 75.62,
+"end": 75.84,
+"part": 1
+},
+{
+"text": "strangest",
+"start": 75.84,
+"end": 76.46,
+"part": 1
+},
+{
+"text": "part",
+"start": 76.46,
+"end": 76.68,
+"part": 1
+},
+{
+"text": "of",
+"start": 76.68,
+"end": 76.84,
+"part": 1
+},
+{
+"text": "this",
+"start": 76.84,
+"end": 76.98,
+"part": 1
+},
+{
+"text": "whole",
+"start": 76.98,
+"end": 77.3,
+"part": 1
+},
+{
+"text": "story.",
+"start": 77.3,
+"end": 77.78,
+"part": 1
+}
+]
