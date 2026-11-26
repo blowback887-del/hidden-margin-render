@@ -1,0 +1,37 @@
+{
+ "episode": "t09",
+ "lang": "en",
+ "words_out": "src/videos/t09-outlet-words.json",
+ "audio_out": "public/audio/t09-voiceover.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {
+   "part": 1,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/WQDt6rAPC8OMEagwbx7I/JbcwM65qAN1eEk81Eo1F/content.mp3?Expires=1795690800&KeyName=assets-cdn-key-1&Signature=_Eulo5LXw77huTJBXDmWcS0CR8o="
+  },
+  {
+   "part": 2,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/XwQoEo2lJsizAFKmXi6D/zZXu8wmH6S5HoOKqwXmj/content.mp3?Expires=1795690800&KeyName=assets-cdn-key-1&Signature=pkA9lsoO3KF43rjptNYX3cGPUdA="
+  },
+  {
+   "part": 3,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/khKPuANjEqv83g4jEtUa/ud4wZ70Azw0jEekARQnH/content.mp3?Expires=1795690800&KeyName=assets-cdn-key-1&Signature=IaWKARnVC7Ap5M48TafepyQFN30="
+  },
+  {
+   "part": 4,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/SI7OuEWvSGV21zLw7IvG/8jm1W5tkJ3K7s4wdvJk5/content.mp3?Expires=1795690800&KeyName=assets-cdn-key-1&Signature=KFsuC_pHGrEFBIBDRSLa-ad86IA="
+  },
+  {
+   "part": 5,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/7PipqBPzHndlcKRahhKK/XiAXzTUXcboj6xA29fQY/content.mp3?Expires=1795690800&KeyName=assets-cdn-key-1&Signature=RfwH0X7uH1EREdFOO-Ofd5td3kA="
+  },
+  {
+   "part": 6,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/G6kif4fQk30P7blHB62Z/8rseeDdpm3KM7URkkFXc/content.mp3?Expires=1795690800&KeyName=assets-cdn-key-1&Signature=rJZ1dhNS6n1VXgVFMtMHgFo1I94="
+  },
+  {
+   "part": 7,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/s9eh1Oxyvu5TNJbJPbfX/Dy3yDFHsZuRR3bYZ7cLj/content.mp3?Expires=1795690800&KeyName=assets-cdn-key-1&Signature=5bwf4Rrt_8cyF9MxFx-kxxYyV7k="
+  }
+ ]
+}
