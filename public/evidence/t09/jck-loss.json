@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.jckonline.com/2013/02/28/jc-penney-lost-nearly-1-billion-in-2012",
+ "host": "jckonline.com",
+ "frame": "screen",
+ "finds": {
+  "985": [
+   678,
+   601,
+   54,
+   40
+  ],
+  "reference price": [
+   1384,
+   1344,
+   206,
+   40
+  ]
+ }
+}

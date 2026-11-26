@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.whitehouse.senate.gov/news/release/sens-and-rep-to-ftc-outlet-stores-may-be-misleading-consumers",
+ "host": "whitehouse.senate.gov",
+ "frame": "screen",
+ "finds": {
+  "excess inventory": [
+   905,
+   601,
+   342,
+   48
+  ],
+  "85%": [
+   2459,
+   661,
+   83,
+   48
+  ]
+ }
+}

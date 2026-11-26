@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.wtkr.com/2016/12/10/jcpenney-kohls-macys-and-sears-sued-over-misleading-prices",
+ "host": "wtkr.com",
+ "frame": "screen",
+ "finds": {
+  "1,179.99": [
+   764,
+   663,
+   133,
+   42
+  ],
+  "120": [
+   926,
+   1001,
+   57,
+   42
+  ]
+ }
+}
