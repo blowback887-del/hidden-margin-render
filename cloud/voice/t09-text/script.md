@@ -1,4 +1,4 @@
-# T09 — Why the Outlet Sells a $499 Bag for $169 — сценарий (версия 3, длинная, ~13,5 мин, после фактчекера)
+# T09 — Why the Outlet Sells a $499 Bag for $169 — сценарий (версия 4, ~12,5 мин, после фактчекера и проверки по удержанию)
 Окраска: детектив «кто написал на бирке $499» + сухая сатира на язык цен. Ставки растут от одной сумки к целой стране и к нам самим.
 Сквозная линия: одна бирка Kate Spade Outlet «comparable value $499 / $169» (иск 2026). Расследование: бирка → вещь (сшита для аутлета) → цифра (кто её пишет) → все магазины (иски) → развязка: единственный CEO, который убрал фальшивые цены, и что с ним стало (JCPenney 2012). Ответ на главный вопрос: цифра на бирке существует, потому что работает на нас.
 Отложенное обещание: в ~1:30 обещаем «человека, который попробовал это прекратить» — раскрываем на ~10:00.
@@ -91,6 +91,12 @@ Here's how to catch it before you pay. Look at the label inside. A J.Crew Factor
 Then read the fabric line. If the outlet version is mostly polyester and the mall version is cotton, you now know what the discount was for.
 > SEE: палец на строке состава
 
+To be fair, not every outlet deal is fake. Checkbook found that some stores really sell leftovers. A Burberry outlet shirt with a seven hundred dollar original price, marked down to two fifty. Scratched dressers at an RH outlet, eighty percent off.
+> SEE: Burberry outlet (фото), бирка «$700 → $250»; поцарапанный комод с наклейкой −80%
+
+Those are the real thing, just late. And they often look messy. At Nike clearance stores, Checkbook saw stickers slapped on by hand, with the date the item came in or got marked down. A real markdown often looks like a sticker on an old price, not a neat printed tag with two numbers.
+> SEE: рука клеит ценник-стикер поверх старой цены; дата на стикере
+
 Every week we take one price tag like this apart. If you want the next one, subscribe. It costs you nothing, and there's no comparable value.
 > SEE: кнопка подписки, бирка «comparable value: $0»
 
@@ -161,16 +167,7 @@ So, according to the city, the original price was higher than any price it actua
 Or take Macy's. The city said a cross pendant necklace went online with an original price of a hundred and twenty dollars, and a sale price of thirty. Seventy-five percent off, from the day it went on sale. And in the five months after, it never sold for more than thirty. [PAUSE]
 > SEE: подвеска на бархате; бирка «ORIGINAL $120 · 75% OFF · $30»; календарь «day one»
 
-Off-price stores have their own version. T.J. Maxx puts a comparison price on its tags. When shoppers sued in twenty fifteen, its own website described that number as its buying staff's estimate.
-> SEE: скриншот определения на сайте TJ Maxx (архив 2015) — «our buying staff's estimate»
-
-ABC News checked one Michael Kors purse in a T.J. Maxx. The tag said compare at three twenty-eight. The maker's suggested price was two twenty-eight.
-> SEE: заголовок ABC News 2015; бирка «Compare at $328», плашка «maker's suggested price: $228»
-
-T.J. Maxx settled, and a judge approved it in twenty eighteen. It agreed to explain its numbers better and put up more signs. The comparison prices are still on the tags.
-> SEE: табличка у входа о comparison prices; бирка
-
-So here's the obvious question. If stores keep getting sued over this, why doesn't anybody just stop? [PAUSE]
+So here's the obvious question. If the biggest stores in America keep getting sued over this, why doesn't anybody just stop? [PAUSE]
 > SEE: стопка исков на столе
 
 Somebody tried.
@@ -214,25 +211,16 @@ A Northwestern marketing professor put it this way at the time. People don't wan
 And in December twenty sixteen, J.C. Penney was one of the four stores Los Angeles sued over original prices. [PAUSE]
 > SEE: возврат к заголовку 2016 года, JCPenney подсвечен
 
+And it works on smart people, because nobody judges a price alone. We judge it next to something. One sixty-nine next to four ninety-nine feels like a win. Next to ninety-five twenty, it feels like a mistake.
+> SEE: та же цифра $169 рядом с $499 (зелёная) и рядом с $95.20 (красная)
+
 That's the answer to the question we started with. Who wrote four ninety-nine on that tag? A store did. But it wrote it for us. Because when one store tried to stop, shoppers walked away.
 > SEE: бирка $499, рука с ручкой; затем очередь покупателей
 
 ## PART 7
 
-Why does a made-up number work on smart people? Because nobody judges a price alone. We judge it next to something. One sixty-nine next to four ninety-nine feels like a win. Next to ninety-five twenty, it feels like a mistake.
-> SEE: та же цифра $169 рядом с $499 (зелёная) и рядом с $95.20 (красная)
-
-Even the drive is part of it. Checkbook says outlet centers were usually built at least an hour from big cities, so they wouldn't pull full-price shoppers out of the local malls. And after an hour on the highway, who drives home with nothing?
-> SEE: трасса, указатель «Premium Outlets»; парковка, полные пакеты
-
-To be fair, real bargains do exist. Checkbook found that some stores really sell leftovers. A Burberry outlet shirt with a seven hundred dollar original price, marked down to two fifty. Scratched dressers at an RH outlet, eighty percent off.
-> SEE: Burberry outlet (фото), бирка «$700 → $250»; поцарапанный комод с наклейкой −80%
-
-Those are the real thing, just late. And they often look messy. At Nike clearance stores, Checkbook saw stickers slapped on by hand, with the date the item came in or got marked down. A real markdown often looks like a sticker on an old price, not a neat printed tag with two numbers.
-> SEE: рука клеит ценник-стикер поверх старой цены; дата на стикере
-
-So next time, three moves. Thumb over the big number. Check the label inside, for the code and the fabric. And take ten seconds with your phone, because Checkbook often found Adidas cheaper at Amazon or Dick's than at the Adidas outlet.
-> SEE: три иконки по очереди: палец на бирке, этикетка, телефон с поиском
+So the next time you see two prices on one tag, cover the big one, check the label inside, and take ten seconds with your phone. Checkbook often found Adidas cheaper at Amazon or Dick's than at the Adidas outlet.
+> SEE: палец на бирке → этикетка → телефон с поиском, быстро, по секунде
 
 Now back to our bag. One sixty-nine might be a fair price for it. It might not. But it was never a four hundred ninety-nine dollar bag on sale. It's a one sixty-nine bag with a story written on its tag. [PAUSE]
 > SEE: бирка Kate Spade, $499 тает, остаётся $169
