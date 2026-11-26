@@ -1,0 +1,288 @@
+{
+ "evidence_out": "public/evidence/t09",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "time2-jcp-top",
+   "url": "https://business.time.com/2013/05/02/jc-penney-reintroduces-fake-prices-and-lots-of-coupons-too-of-course/",
+   "find": []
+  },
+  {
+   "name": "time2-jcp",
+   "url": "https://business.time.com/2013/05/02/jc-penney-reintroduces-fake-prices-and-lots-of-coupons-too-of-course/",
+   "find": [
+    "fake prices",
+    "$245"
+   ]
+  },
+  {
+   "name": "yahoo-mk-top",
+   "url": "https://uk.finance.yahoo.com/news/michael-kors-settles-u-lawsuit-203317343.html",
+   "find": []
+  },
+  {
+   "name": "yahoo-mk",
+   "url": "https://uk.finance.yahoo.com/news/michael-kors-settles-u-lawsuit-203317343.html",
+   "find": [
+    "4.88 million",
+    "Value"
+   ],
+   "hide": [
+    "#consent-page",
+    ".consent-overlay"
+   ]
+  },
+  {
+   "name": "hinojos-p1",
+   "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2013/05/21/11-55793.pdf",
+   "page": 1,
+   "find": [
+    "price advertisements matter",
+    "matter"
+   ]
+  },
+  {
+   "name": "hinojos-p15",
+   "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2013/05/21/11-55793.pdf",
+   "page": 15,
+   "find": [
+    "price advertisements matter",
+    "matter"
+   ]
+  },
+  {
+   "name": "hinojos-p16",
+   "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2013/05/21/11-55793.pdf",
+   "page": 16,
+   "find": [
+    "price advertisements matter",
+    "matter"
+   ]
+  },
+  {
+   "name": "hinojos-p17",
+   "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2013/05/21/11-55793.pdf",
+   "page": 17,
+   "find": [
+    "price advertisements matter",
+    "matter"
+   ]
+  },
+  {
+   "name": "curry-tina-p1",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 1,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-tina-p2",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 2,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-tina-p10",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 10,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-tina-p11",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 11,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-tina-p12",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 12,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-tina-p13",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 13,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-tina-p14",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 14,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-tina-p15",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 15,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-tina-p16",
+   "url": "https://truthinadvertising.org/wp-content/uploads/2026/03/Curry-v-Tapestry-and-Coach-complaint.pdf",
+   "page": 16,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p1",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 1,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p2",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 2,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p10",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 10,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p11",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 11,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p12",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 12,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p13",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 13,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p14",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 14,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p15",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 15,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  },
+  {
+   "name": "curry-recap-p16",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+   "page": 16,
+   "find": [
+    "comparable value",
+    "Woodburn",
+    "95.20",
+    "47.20",
+    "none of the prices"
+   ]
+  }
+ ]
+}
