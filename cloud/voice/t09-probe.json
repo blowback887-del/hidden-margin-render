@@ -1,0 +1,13 @@
+{
+ "episode": "t09probe",
+ "lang": "en",
+ "words_out": "src/videos/t09-probe-words.json",
+ "audio_out": "public/audio/t09-probe.mp3",
+ "pause_sec": 1.2,
+ "parts": [
+  {
+   "part": 1,
+   "url": "https://elevenlabsusercontent.com/database/workspace/180b3af939034deb89405d010050f853/content_generation/WQDt6rAPC8OMEagwbx7I/JbcwM65qAN1eEk81Eo1F/content.mp3?Expires=1795690800&KeyName=assets-cdn-key-1&Signature=_Eulo5LXw77huTJBXDmWcS0CR8o="
+  }
+ ]
+}
