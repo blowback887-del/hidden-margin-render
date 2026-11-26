@@ -1,7 +1,8 @@
 # T09 — материалы для загрузки
 
 ## Название
-Why the Outlet Sells a $499 Bag for $169
+Why Is the Outlet Selling a $499 Bag for $169?
+(vidIQ 92; форма хита «Why Is Costco Selling $300 Jackets for $40?» 2 млн / 3375x. Для Test & Compare после 1000 показов: «You Didn't Save $330 at the Outlet» — 91)
 
 ## Описание
 That outlet tag says "comparable value $499." You pay $169. You feel like you won. But according to a 2026 lawsuit, $499 was rarely, if ever, a real price at that store.
@@ -34,5 +35,5 @@ Music: YouTube Audio Library.
 ## Теги
 outlet stores, outlet mall, comparable value, fake discounts, outlet prices, made for outlet, kate spade outlet, michael kors outlet, tommy hilfiger outlet, j crew factory, jcpenney, ron johnson, fake sale prices, compare at price, msrp, shopping tips, consumer protection, how stores trick you, retail tricks, they saw you coming
 
-## Обложка (коротко для Павла)
-Бирка аутлета: «$499» зачёркнута, крупно «$169», надпись «IT WAS NEVER $499».
+## Обложка
+Промпт по аналитике (outliers vidIQ 26.11): реальное фото, рука держит сумку с огромной бумажной биркой $499 зачёркнута → $169, яркий аутлет на фоне, красный ярлык WARNING + белая полоса с текстом YOU GOT PLAYED.
