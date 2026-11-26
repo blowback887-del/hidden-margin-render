@@ -1,0 +1,148 @@
+{
+ "evidence_out": "public/evidence/t09",
+ "clips": [],
+ "evidence": [
+  {
+   "name": "wh-letter-top",
+   "url": "https://www.whitehouse.senate.gov/news/release/sens-and-rep-to-ftc-outlet-stores-may-be-misleading-consumers",
+   "find": []
+  },
+  {
+   "name": "wh-letter",
+   "url": "https://www.whitehouse.senate.gov/news/release/sens-and-rep-to-ftc-outlet-stores-may-be-misleading-consumers",
+   "find": [
+    "excess inventory",
+    "85%"
+   ]
+  },
+  {
+   "name": "aal-tommy-top",
+   "url": "https://allaboutlawyer.com/tommy-hilfiger-outlet-fake-discounts-class-action/",
+   "find": []
+  },
+  {
+   "name": "aal-tommy",
+   "url": "https://allaboutlawyer.com/tommy-hilfiger-outlet-fake-discounts-class-action/",
+   "find": [
+    "polyester",
+    "original price"
+   ]
+  },
+  {
+   "name": "aal-kate-top",
+   "url": "https://allaboutlawyer.com/kate-spade-outlet-tapestry-fake-discount-class-action-lawsuit/",
+   "find": []
+  },
+  {
+   "name": "aal-kate",
+   "url": "https://allaboutlawyer.com/kate-spade-outlet-tapestry-fake-discount-class-action-lawsuit/",
+   "find": [
+    "comparable value",
+    "Oregon"
+   ]
+  },
+  {
+   "name": "tfl-mk-top",
+   "url": "https://www.thefashionlaw.com/deceptive-outlet-pricing-lawsuit-costs-michael-kors-nearly-5-million/",
+   "find": []
+  },
+  {
+   "name": "tfl-mk",
+   "url": "https://www.thefashionlaw.com/deceptive-outlet-pricing-lawsuit-costs-michael-kors-nearly-5-million/",
+   "find": [
+    "MSRP",
+    "4.88"
+   ]
+  },
+  {
+   "name": "bof-mk-top",
+   "url": "https://www.businessoffashion.com/news/news-analysis/michael-kors-settles-us-lawsuit-alleging-deceptive-price-tags/",
+   "find": []
+  },
+  {
+   "name": "bof-mk",
+   "url": "https://www.businessoffashion.com/news/news-analysis/michael-kors-settles-us-lawsuit-alleging-deceptive-price-tags/",
+   "find": [
+    "Value"
+   ]
+  },
+  {
+   "name": "justia-hinojos-top",
+   "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/11-55793/11-55793-2013-05-21.html",
+   "find": []
+  },
+  {
+   "name": "justia-hinojos",
+   "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/11-55793/11-55793-2013-05-21.html",
+   "find": [
+    "price advertisements matter"
+   ]
+  },
+  {
+   "name": "wtkr-la-top",
+   "url": "https://www.wtkr.com/2016/12/10/jcpenney-kohls-macys-and-sears-sued-over-misleading-prices",
+   "find": []
+  },
+  {
+   "name": "wtkr-la",
+   "url": "https://www.wtkr.com/2016/12/10/jcpenney-kohls-macys-and-sears-sued-over-misleading-prices",
+   "find": [
+    "1,179.99",
+    "120"
+   ]
+  },
+  {
+   "name": "abc7-la-top",
+   "url": "https://abc7ny.com/jc-penny-sears-kohls-macys/1647845/",
+   "find": []
+  },
+  {
+   "name": "time-jcp-top",
+   "url": "https://business.time.com/?p=79069",
+   "find": []
+  },
+  {
+   "name": "time-jcp",
+   "url": "https://business.time.com/?p=79069",
+   "find": [
+    "fake prices",
+    "245"
+   ]
+  },
+  {
+   "name": "jck-loss-top",
+   "url": "https://www.jckonline.com/2013/02/28/jc-penney-lost-nearly-1-billion-in-2012",
+   "find": []
+  },
+  {
+   "name": "jck-loss",
+   "url": "https://www.jckonline.com/2013/02/28/jc-penney-lost-nearly-1-billion-in-2012",
+   "find": [
+    "985",
+    "reference price"
+   ]
+  },
+  {
+   "name": "npr-jcp-top",
+   "url": "https://www.npr.org/sections/money/2013/03/01/173203739/sales-are-like-drugs-what-happens-when-a-store-wants-customers-to-quit",
+   "find": []
+  },
+  {
+   "name": "npr-jcp",
+   "url": "https://www.npr.org/sections/money/2013/03/01/173203739/sales-are-like-drugs-what-happens-when-a-store-wants-customers-to-quit",
+   "find": [
+    "Apple"
+   ]
+  },
+  {
+   "name": "checkbook-top",
+   "url": "https://www.checkbook.org/national/outlet-stores-what-do-they-really-sell",
+   "find": []
+  },
+  {
+   "name": "cbsphl-top",
+   "url": "https://www.cbsnews.com/philadelphia/news/outlet-store-secrets-exposed-deals/",
+   "find": []
+  }
+ ]
+}
