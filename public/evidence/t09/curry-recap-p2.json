@@ -1,0 +1,23 @@
+{
+ "size": [
+  1700,
+  2200
+ ],
+ "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.192511/gov.uscourts.ord.192511.1.0.pdf",
+ "host": "storage.courtlistener.com",
+ "frame": "paper",
+ "finds": {
+  "comparable value": [
+   1020,
+   438,
+   266,
+   30
+  ],
+  "Woodburn": [
+   615,
+   438,
+   148,
+   30
+  ]
+ }
+}
