@@ -98,7 +98,7 @@ dict(start="Except, according to a lawsuit filed this year", sfx=[('t02-paper:0.
         plate("“RARELY, IF EVER” A REAL PRICE · PER THE LAWSUIT", "@{rarely, if ever}", y=960, size=34, color="C6.accent")),
 dict(start="The lawsuit lists prices from that store", dim=0.0, sfx=[('t02-paper:0.3', '0.05'), ('ep06-fall:0.25', '@{Not one of them}')],
      el='''<Center y={500}><PriceCeiling at={0.05} ceil="$499" ceilLabel="COMPARABLE VALUE" low="never reached it" lowLabel="PRICES LISTED IN THE LAWSUIT" drawAt={0.4} note="ILLUSTRATION OF THE LAWSUIT'S CLAIM · ¶56" noteAt={@{Not one of them}} /></Center>'''),
-dict(start="And the lawsuit says that on the same day", stock=K("parking-center"), alt=(K("mall-walk"), "Michael Kors had"), sfx=[('ep06-pop:0.25', '@{ninety-five dollars}')],
+dict(start="And the lawsuit says that on the same day", stock=K("parking-aerial2"), alt=(K("parking-aerial"), "Michael Kors had"), sfx=[('ep06-pop:0.25', '@{ninety-five dollars}')],
      el=plate("SAME DAY · SAME OUTLET CENTER · OREGON", "0.3", y=880, size=36, out="@{Michael Kors had}") +
         plate("SIMILAR LEATHER TOTE NEXT DOOR: $95.20 · PER THE LAWSUIT", "@{ninety-five dollars}", y=880, size=36, color="C6.accent") + src(ILL, "0.4")),
 dict(start="So who wrote four ninety-nine", dim=0.0, sfx=[('rise:0.25', '0.1'), ('ep06-pop:0.25', '@{comparable to}')],
@@ -133,11 +133,11 @@ dict(start="So where does it all come from", tag=C2, sfx=[('t02-paper:0.3', '0.0
      el=doc("wh-letter", [("85%", "eighty-five percent")], source="LETTER TO THE FTC · 2014 · ANALYSTS' ESTIMATE") +
         plate("UPWARDS OF 85% MADE FOR OUTLETS · ANALYSTS' ESTIMATE, 2014", "@{made only for outlets}", y=960, size=32, color="C6.accent")),
 dict(start="That was almost thirteen years ago", tag=C2, sfx=[('ep06-pop:0.22', '@{Four researchers}'), ('ep06-pop:0.22', '@{Three months}'), ('ep06-pop:0.22', '@{Forty brands}')],
-     stock=K("planner-pages"),
+     stock=K("docs-table"),
      el=plate("CONSUMERS' CHECKBOOK · NONPROFIT · JUNE 2026", "@{Consumers' Checkbook}", y=200, size=36, color="C6.accent") +
         plate("4 RESEARCHERS", "@{Four researchers}", y=960, x=560, size=36, color="C6.accent") + plate("3 MONTHS", "@{Three months}", y=960, x=960, size=36, color="C6.accent") +
         plate("40 BRANDS", "@{Forty brands}", y=960, x=1360, size=36, color="C6.accent")),
-dict(start="They found that more than half", tag=C2, stock=K("mall-escalators"), alt=(K("discount-windows"), "J.Crew Factory"), sfx=[('ep06-pop:0.2', '@{J.Crew Factory}'), ('ep06-pop:0.2', '@{Banana Republic Factory}'), ('ep06-pop:0.2', '@{Gap Factory}'), ('ep06-pop:0.2', '@{Ann Taylor Factory}'), ('ding:0.25', '@{Kate Spade sells a mix}')],
+dict(start="They found that more than half", tag=C2, stock=K("mall-escalators"), alt=(K("mannequins"), "J.Crew Factory"), sfx=[('ep06-pop:0.2', '@{J.Crew Factory}'), ('ep06-pop:0.2', '@{Banana Republic Factory}'), ('ep06-pop:0.2', '@{Gap Factory}'), ('ep06-pop:0.2', '@{Ann Taylor Factory}'), ('ding:0.25', '@{Kate Spade sells a mix}')],
      el=plate("MORE THAN HALF · MADE FOR THE OUTLET", "0.3", y=200, size=40, color="C6.accent") +
         plate("J.CREW FACTORY", "@{J.Crew Factory}", y=880, size=40, out="@{Banana Republic Factory}") + plate("BANANA REPUBLIC FACTORY", "@{Banana Republic Factory}", y=880, size=40, out="@{Gap Factory}") +
         plate("GAP FACTORY", "@{Gap Factory}", y=880, size=40, out="@{Ann Taylor Factory}") + plate("ANN TAYLOR FACTORY", "@{Ann Taylor Factory}", y=880, size=40, out="@{Kate Spade sells a mix}") +
@@ -165,7 +165,7 @@ dict(start="Same name on the chest", tag=C3, sfx=[('t02-paper:0.3', '0.05')],
 dict(start="Checkbook found the same pattern", tag=C3, stock=K("suit-buttoning"), alt=(K("blazer-lowlight"), "At the regular store"), sfx=[('ep06-counter:0.25', '@{a hundred and forty dollars}'), ('ep06-counter:0.25', '@{three hundred and fifty}')],
      el=plate("FACTORY JACKET · $140 · NO LINING", "@{a hundred and forty dollars}", y=880, size=40, out="@{At the regular store}") +
         plate("REGULAR STORE · $350 · PARTLY LINED", "@{three hundred and fifty}", y=880, size=40, color="C6.accent") + src("Consumers' Checkbook · 2026", "0.4")),
-dict(start="Cole Haan outlet dress shoes", tag=C3, stock=K("sole-hammer"), alt=(K("coat-mannequins"), "A Gap Factory barn jacket"), sfx=[('ep06-pop:0.22', '@{rubber soles}'), ('ep06-counter:0.25', '@{fifty dollars}'), ('ep06-counter:0.25', '@{a hundred and forty-eight}')],
+dict(start="Cole Haan outlet dress shoes", tag=C3, stock=K("shoe-bend"), alt=(K("coat-mannequins"), "A Gap Factory barn jacket"), sfx=[('ep06-pop:0.22', '@{rubber soles}'), ('ep06-counter:0.25', '@{fifty dollars}'), ('ep06-counter:0.25', '@{a hundred and forty-eight}')],
      el=plate("OUTLET: RUBBER SOLES · STORE: LEATHER", "@{rubber soles}", y=880, size=38, out="@{A Gap Factory barn jacket}") +
         plate("BARN JACKET · FACTORY $50", "@{fifty dollars}", y=880, size=40, out="@{a hundred and forty-eight}") +
         plate("REGULAR GAP · $148 · MORE BUTTONS, MORE TAILORING", "@{a hundred and forty-eight}", y=880, size=36, color="C6.accent")),
@@ -173,22 +173,22 @@ dict(start="So the outlet isn't selling you", tag=C3, stock=K("leather-artisan")
      el=plate("A CHEAPER THING · WITH THE EXPENSIVE THING'S NAME", "@{the expensive thing's name}", y=880, size=36, color="C6.accent", out="@{And the tag points}") +
         plate("…AND THE TAG POINTS AT THE EXPENSIVE ONE", "@{And the tag points}", y=880, size=36)),
 dict(start="Here's how to catch it before you pay", tag=C3, stock=K("live-jcrew-diamonds"), clean=True, sfx=[('ding:0.3', '0.1'), ('ep06-pop:0.25', '@{two little diamonds}')],
-     el=plate("TRICK #2 · READ THE LABEL INSIDE", "0.1", y=120, size=34, color="C6.accent") + src("Footage: CBC Marketplace", "0.3")),
-dict(start="Banana Republic Factory has three", tag=C3, stock=K("live-talbots"), clean=True, sfx=[('ep06-pop:0.22', '@{three dots}')],
-     el=plate("BANANA REPUBLIC FACTORY · 3 DIAMONDS", "0.05", y=120, size=34, color="C6.accent", out="@{A Talbots outlet label}") +
-        plate("TALBOTS OUTLET · WHITE LABEL, 3 DOTS", "@{A Talbots outlet label}", y=120, size=34, color="C6.accent") + src("Footage: 9NEWS Denver · 2026", "0.3")),
+     el=plate("TRICK #2 · READ THE LABEL INSIDE", "0.1", y=120, size=34, color="C6.accent", out="@{Banana Republic Factory has three}") +
+        plate("BANANA REPUBLIC FACTORY · 3 DIAMONDS", "@{Banana Republic Factory has three}", y=120, size=34, color="C6.accent") + src("Footage: CBC Marketplace", "0.3")),
+dict(start="A Talbots outlet label", tag=C3, stock=K("live-talbots"), clean=True, sfx=[('ep06-pop:0.22', '@{three dots}')],
+     el=plate("TALBOTS OUTLET · WHITE LABEL, 3 DOTS", "0.05", y=120, size=34, color="C6.accent") + src("Footage: 9NEWS Denver · 2026", "0.3")),
 dict(start="At Brooks Brothers", tag=C3, dim=0.0, sfx=[('ep06-pop:0.25', '@{just says eighteen eighteen}'), ('ep06-pop:0.25', '@{Established eighteen eighteen}')],
      el='''<Center y={470}><TagTrio tags={[{ label: "OUTLET LABEL", value: "1818", at: @{just says eighteen eighteen}, color: C6.loss }, { label: "REGULAR STORE", value: "EST. 1818", at: @{Established eighteen eighteen} }]} /></Center>''' + src("Consumers' Checkbook · 2026", "0.4")),
 dict(start="Then read the fabric line", tag=C3, stock=K("fabric-cut"), alt=(K("folding-sweater"), "you now know"), sfx=[('ep06-stamp:0.25', '@{what the discount was for}')],
      el=plate("MOSTLY POLYESTER AT THE OUTLET? THAT'S WHAT THE DISCOUNT WAS FOR", "@{you now know}", y=880, size=32, color="C6.accent")),
-dict(start="To be fair, not every outlet deal is fake", tag=C3, stock=K("shoes-shelf"), alt=(K("mannequins"), "A Burberry outlet shirt"), sfx=[('ep06-pop:0.22', '@{seven hundred dollar}')],
+dict(start="To be fair, not every outlet deal is fake", tag=C3, stock=K("box-shelf"), alt=(K("blazer-lowlight"), "A Burberry outlet shirt"), sfx=[('ep06-pop:0.22', '@{seven hundred dollar}')],
      el=plate("REAL LEFTOVERS EXIST", "0.2", y=880, size=40, out="@{A Burberry outlet shirt}") +
         plate("BURBERRY OUTLET SHIRT · $700 → $250", "@{seven hundred dollar}", y=880, size=40, color="C6.money") + src("Consumers' Checkbook · 2026", "0.4")),
 dict(start="Scratched dressers at an RH outlet", tag=C3, stock=K("warehouse-inside"), sfx=[('ep06-pop:0.22', '@{eighty percent off}')],
      el=plate("SCRATCHED DRESSERS · RH OUTLET · −80%", "0.1", y=880, size=40, color="C6.money") + src(ILL, "0.4")),
 dict(start="Those are the real thing, just late", tag=C3, stock=K("closed-sign"), sfx=[],
      el=plate("THE REAL THING · JUST LATE", "0.2", y=880, size=44)),
-dict(start="At Nike clearance stores", tag=C3, stock=K("printed-sale-tag"), alt=(K("chalk-price-erase"), "A real markdown"), sfx=[('ep06-pop:0.22', '@{stickers slapped on}')],
+dict(start="At Nike clearance stores", tag=C3, stock=K("printed-sale-tag"), alt=(K("bags-sale-tag"), "A real markdown"), sfx=[('ep06-pop:0.22', '@{stickers slapped on}')],
      el=plate("NIKE CLEARANCE · HAND STICKERS WITH A DATE", "@{stickers slapped on}", y=880, size=36, out="@{A real markdown}") +
         plate("REAL MARKDOWN = A STICKER ON AN OLD PRICE", "@{A real markdown}", y=880, size=38, color="C6.accent")),
 dict(start="Every week we take one price tag", tag=C3, dim=0.0, sfx=[('ding:0.25', '@{subscribe}'), ('ep06-pop:0.25', '@{no comparable value}')],
@@ -244,10 +244,10 @@ dict(start="A sale that never ends isn't a sale", tag=C4, dim=0.0, sfx=[('ep06-s
 # ======================= PART 5 · ГЛАВА 5 · ЭТО ВЕЗДЕ =======================
 dict(start="At this point you might think", tag=C5, hard=True, stock=K("highway-aerial"), alt=(K("highway-coastal"), "Stay away from outlet malls"), sfx=[('ep06-whoosh:0.2', '0.05')],
      el=plate("OUTLETS ARE A SPECIAL CASE?", "0.3", y=880, size=44)),
-dict(start="Except the same number lives", tag=C5, stock=K("family-clothes-shop"), alt=(K("elderly-rack"), "every week"), sfx=[('ep06-stamp:0.25', '@{every week}')],
+dict(start="Except the same number lives", tag=C5, stock=K("woman-rack"), alt=(K("elderly-rack"), "every week"), sfx=[('ep06-stamp:0.25', '@{every week}')],
      el=plate("THE SAME NUMBER · IN STORES YOU SHOP EVERY WEEK", "@{the same number lives}", y=880, size=36, color="C6.accent")),
-dict(start="Years before the outlet lawsuits", tag=C5, stock=K("cashier"), sfx=[('t02-paper:0.3', "@{took Kohl's to court}")],
-     el=plate("HINOJOS v. KOHL'S", "@{took Kohl's to court}", y=880, size=44, color="C6.accent")),
+dict(start="Years before the outlet lawsuits", tag=C5, stock=K("family-clothes-shop"), sfx=[('t02-paper:0.3', "@{took Kohl's to court}")],
+     el=plate("COURT CASE · HINOJOS v. KOHL'S", "@{took Kohl's to court}", y=200, size=40, color="C6.accent") + src(ILL, "0.4")),
 dict(start="He'd bought a Samsonite suitcase", tag=C5, stock=K("suitcase-carousel"), sfx=[('ep06-pop:0.25', '@{fifty percent off}'), ('ep06-counter:0.3', '@{two ninety-nine ninety-nine}')],
      el=tag("ORIGINAL", "$299.99", "50% OFF", at="@{fifty percent off}", y=560, x=1400, scale=0.62, brand="SUITCASE · KOHL'S") + src(ILL + " · TAG: ILLUSTRATION", "0.3")),
 dict(start="His claim was that Kohl's routinely", tag=C5, stock=K("card-pay"), sfx=[('ep06-stamp:0.25', '@{at the sale price}')],
@@ -258,7 +258,7 @@ dict(start="A lower court threw the case out", tag=C5, stock=K("gavel"), sfx=[('
 dict(start="In twenty thirteen, the federal appeals court disagreed", tag=C5, sfx=[('t02-paper:0.3', '0.05'), ('impact:0.3', '@{price advertisements matter}')],
      el="HINOJOS"),
 dict(start="In December twenty sixteen, the city of Los Angeles", tag=C5, sfx=[('t02-paper:0.3', '0.05'), ('ep06-pop:0.22', '@{J.C. Penney}'), ('ep06-pop:0.22', "@{Kohl's}"), ('ep06-pop:0.22', "@{Macy's}"), ('ep06-pop:0.22', '@{And Sears}')],
-     stock=K("newsagent"),
+     stock=K("newspaper-man"),
      el=plate("DEC 2016 · CITY OF LOS ANGELES SUES", "0.2", y=200, size=38, color="C6.accent") + src("WTKR / CNN Wire · Dec 2016", "0.4") +
         plate("J.C. PENNEY", "@{J.C. Penney}", y=960, x=420, size=34, color="C6.accent") + plate("KOHL'S", "@{Kohl's}", y=960, x=780, size=34, color="C6.accent") +
         plate("MACY'S", "@{Macy's}", y=960, x=1120, size=34, color="C6.accent") + plate("SEARS", "@{And Sears}", y=960, x=1460, size=34, color="C6.accent")),
@@ -286,17 +286,17 @@ dict(start="Johnson looked at J.C. Penney", tag=C6x, stock=K("half-price"), alt=
      el=plate("A STORE HOOKED ON FAKE PRICES", "@{hooked on fake prices}", y=880, size=44, color="C6.accent", out="@{Coupons}") + plate("MARKED UP · MARKED DOWN · COUPONS", "@{Coupons}", y=880, size=40)),
 dict(start="So in early twenty twelve", tag=C6x, stock=K("live-fair-square"), clean=True, sfx=[('ep06-stamp:0.3', '@{fake prices}')],
      el=plate("2012 · NO MORE “FAKE PRICES”", "@{fake prices}", y=120, size=36, color="C6.accent") + src("Footage: News 5 Cleveland · 2012", "0.3")),
-dict(start="One everyday price on the tag", tag=C6x, stock=K("sale-tags-marble"), sfx=[('ep06-stamp:0.3', '@{fair and square}')],
+dict(start="One everyday price on the tag", tag=C6x, stock=K("seniors-boutique"), sfx=[('ep06-stamp:0.3', '@{fair and square}')],
      el=plate("ONE EVERYDAY PRICE", "0.1", y=880, size=44, out="@{fair and square}") + plate("“FAIR AND SQUARE”", "@{fair and square}", y=880, size=56, color="C6.accent")),
 dict(start="On paper, this is exactly what", tag=C6x, dim=0.0, sfx=[('ding:0.3', '@{the real price}')],
      el=f'<Center y={{560}}><HangTag at={{0.05}} brand="J.C. PENNEY · 2012" top={{{{ label: "EVERYDAY PRICE", value: "$25" }}}} price={{{{ label: "NO FAKE “ORIGINAL”", value: "✓" }}}} scale={{0.85}} priceColor={{C6.money}} priceColorAt={{0.05}} /></Center>' +
         plate("ILLUSTRATION", "0.3", y=1000, size=24)),
 dict(start="The customers left", tag=C6x, stock=K("mall-empty-drone"), sfx=[('ep06-fall:0.3', '0.1')],
      el=plate("THE CUSTOMERS LEFT.", "0.1", y=880, size=56)),
-dict(start="The New York Times found one of them", tag=C6x, stock=K("grocery-woman"), alt=(K("phone-shop"), "When Penney dropped the sales"), sfx=[],
+dict(start="The New York Times found one of them", tag=C6x, stock=K("grocery-woman"), alt=(K("grocery-veg"), "When Penney dropped the sales"), sfx=[],
      el=plate("A MISSOURI SHOPPER · THE NEW YORK TIMES, 2013", "0.2", y=880, size=34, out="@{When Penney dropped the sales}") +
         plate("NO SALES → SHE STOPPED GOING", "@{When Penney dropped the sales}", y=880, size=40) + src(ILL, "0.4")),
-dict(start="It wasn't that the prices were bad", tag=C6x, stock=K("hands-face"), clean=True, sfx=[('ep06-scratch:0.25', '@{any fun}')],
+dict(start="It wasn't that the prices were bad", tag=C6x, stock=K("shocked-woman"), clean=True, sfx=[('ep06-scratch:0.25', '@{any fun}')],
      el='''<Meme at={@{any fun}} text="no sale. no fun." y={900} size={80} />''' + src("Paraphrase · The New York Times, 2013", "0.3")),
 dict(start="In twenty twelve, sales at stores open", tag=C6x, sfx=[('t02-paper:0.3', '0.05'), ('ep06-fall:0.3', '@{twenty-five percent}'), ('impact:0.3', '@{nine hundred and eighty-five}')],
      el=doc("jck-loss", [("985", "nine hundred and eighty-five")], source="JCK · FEB 2013 · J.C. PENNEY 2012 RESULTS") +
@@ -309,7 +309,7 @@ dict(start="She always wants a reference price. That's the big number", tag=C6x,
      el=tag("COMPARABLE VALUE", "$499", "$169", at="0.05", y=560, scale=0.9, hlTopAt="@{That's the big number}") +
         plate("A “REFERENCE PRICE”", "@{That's the big number}", y=990, size=32, color="C6.accent")),
 dict(start="The sales and the coupons came back", tag=C6x, stock=K("live-jcp-comeback"), clean=True, sfx=[('ding:0.25', '0.1')],
-     el=src("J.C. Penney ad · 2013", "0.3")),
+     el=plate("J.C. PENNEY AD · 2013", "0.1", y=880, size=36, color="C6.accent") + src("J.C. Penney ad · 2013", "0.3")),
 dict(start="And according to reports, J.C. Penney quietly raised", tag=C6x, sfx=[('t02-paper:0.3', '0.05')],
      el="TIME_TOP"),
 dict(start="One side table went from", tag=C6x, sfx=[('ep06-counter:0.3', '@{a hundred and fifty dollars}'), ('impact:0.3', '@{two forty-five}')],
@@ -327,13 +327,13 @@ dict(start="One sixty-nine next to four ninety-nine", tag=C6x, dim=0.0, sfx=[('d
 dict(start="That's the answer to the question", tag=C6x, dim=0.0, sfx=[('scribble:0.3', '@{A store did}')],
      el=tag("COMPARABLE VALUE", "$499", "$169", at="0.05", y=560, scale=0.9, hlTopAt="@{Who wrote four ninety-nine}") +
         plate("A STORE WROTE IT · FOR US", "@{But it wrote it for us}", y=990, size=36, color="C6.accent")),
-dict(start="Because when one store tried to stop", tag=C6x, stock=K("mall-crowd-high"), sfx=[('ep06-stamp:0.3', '@{shoppers walked away}')],
+dict(start="Because when one store tried to stop", tag=C6x, stock=K("shopping-spree"), sfx=[('ep06-stamp:0.3', '@{shoppers walked away}')],
      el=plate("ONE STORE TRIED TO STOP · SHOPPERS WALKED AWAY", "@{shoppers walked away}", y=880, size=36)),
 
 # ======================= PART 7 · ГЛАВА 7 · ЧТО ДЕЛАТЬ =======================
 dict(start="So the next time you see two prices", tag=C7, hard=True, dim=0.0, sfx=[('ding:0.25', '@{cover the big one}'), ('ding:0.25', '@{check the label inside}'), ('ding:0.25', '@{take ten seconds}')],
      el='''<Center y={480}><Checklist items={[{ text: "Cover the big number", at: @{cover the big one} }, { text: "Check the label inside", at: @{check the label inside} }, { text: "Ten seconds on your phone", at: @{take ten seconds} }]} /></Center>'''),
-dict(start="Checkbook often found Adidas cheaper", tag=C7, stock=K("phone-shop"), sfx=[('ep06-kaching:0.25', '@{cheaper at Amazon}')],
+dict(start="Checkbook often found Adidas cheaper", tag=C7, stock=K("online-store"), sfx=[('ep06-kaching:0.25', '@{cheaper at Amazon}')],
      el=plate("ADIDAS: OFTEN CHEAPER AT AMAZON OR DICK'S THAN AT THE OUTLET", "@{cheaper at Amazon}", y=880, size=32, color="C6.money") + src("Consumers' Checkbook · 2026", "0.4")),
 dict(start="Now back to our bag", tag=C7, stock=K("women-bags"), sfx=[],
      el=plate("$169 · MIGHT BE FAIR · MIGHT NOT", "@{One sixty-nine might be}", y=880, size=40)),

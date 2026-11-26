@@ -205,10 +205,10 @@ export const FabricLabels: React.FC<{ at?: number; a: { title: string; lines: st
   const kb = p(b.at, b.at + 0.35, easeBack);
   const hl = hlAt !== undefined ? p(hlAt, hlAt + 0.3) : 0;
   const lab = (x: { title: string; lines: string[] }, k: number, mark: boolean) => (
-    <div style={{ width: 720, opacity: Math.min(1, k * 1.4), scale: String(0.9 + 0.1 * k), background: "#fbfaf6", borderRadius: 14, padding: "44px 40px", boxShadow: "0 30px 70px rgba(0,0,0,.45)", border: "2px dashed rgba(0,0,0,.18)" }}>
+    <div style={{ width: 780, opacity: Math.min(1, k * 1.4), scale: String(0.9 + 0.1 * k), background: "#fbfaf6", borderRadius: 14, padding: "44px 40px", boxShadow: "0 30px 70px rgba(0,0,0,.45)", border: "2px dashed rgba(0,0,0,.18)" }}>
       <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 34, letterSpacing: "0.2em", color: "#57544b", textAlign: "center", marginBottom: 22 }}>{x.title}</div>
       {x.lines.map((l, i) => (
-        <div key={i} style={{ fontFamily: SANS, fontWeight: 700, fontSize: 50, lineHeight: 1.45, color: INKD, whiteSpace: "nowrap", textAlign: "center", borderRadius: 8, background: mark && i === 0 && hl > 0 ? `rgba(255,107,91,${0.35 * hl})` : "transparent" }}>{l}</div>
+        <div key={i} style={{ fontFamily: SANS, fontWeight: 700, fontSize: 42, lineHeight: 1.5, color: INKD, whiteSpace: "nowrap", textAlign: "center", borderRadius: 8, background: mark && i === 0 && hl > 0 ? `rgba(255,107,91,${0.35 * hl})` : "transparent" }}>{l}</div>
       ))}
     </div>
   );

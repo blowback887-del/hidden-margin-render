@@ -31,8 +31,8 @@ const BEATS: Beat[] = [
   { from: 22.68, to: 28.18, back: null, el: (<>
 <Drift><Center y={500}><PriceCeiling at={0.05} ceil="$499" ceilLabel="COMPARABLE VALUE" low="never reached it" lowLabel="PRICES LISTED IN THE LAWSUIT" drawAt={0.4} note="ILLUSTRATION OF THE LAWSUIT'S CLAIM · ¶56" noteAt={2.1} /></Center></Drift>
 </>) },
-  { from: 28.18, to: 38.04, back: (<><Stock6 n={2} dur={9.86} dim={0} graphics={true} />
-<Stock6 n={4} from={4.56} dur={9.86} dim={0} graphics={true} /></>), el: (<>
+  { from: 28.18, to: 38.04, back: (<><Stock6 n={6} dur={9.86} dim={0} graphics={true} />
+<Stock6 n={5} from={4.56} dur={9.86} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.3} out={4.56} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={36} color={C6.ink}>SAME DAY · SAME OUTLET CENTER · OREGON</Label6></Plate6></In></Center><Center x={960} y={880}><In at={7.54} from="fade"><Plate6 at={7.54}><Label6 at={7.54} size={36} color={C6.accent}>SIMILAR LEATHER TOTE NEXT DOOR: $95.20 · PER THE LAWSUIT</Label6></Plate6></In></Center><Source6 at={0.4}>ILLUSTRATIVE FOOTAGE</Source6>
 </>) },
   { from: 38.04, to: 44.22, back: null, el: (<>
@@ -70,11 +70,11 @@ const BEATS: Beat[] = [
   { from: 117.56, to: 127.26, tag: [2, "Made For The Outlet", false], back: null, el: (<>
 <Evidence src="evidence/t09/wh-letter.png" size={[2880, 1800]} dur={9.7} frame="screen" marks={[{ x: 2459, y: 661, w: 83, h: 48, at: 5.36 }]} zoom={0.9} inset={{ src: "evidence/t09/wh-letter-top.png", size: [2880, 1800] }} source="LETTER TO THE FTC · 2014 · ANALYSTS' ESTIMATE" url="whitehouse.senate.gov" /><Center x={960} y={960}><In at={7.76} from="fade"><Plate6 at={7.76}><Label6 at={7.76} size={32} color={C6.accent}>UPWARDS OF 85% MADE FOR OUTLETS · ANALYSTS' ESTIMATE, 2014</Label6></Plate6></In></Center>
 </>) },
-  { from: 127.26, to: 137.72, tag: [2, "Made For The Outlet", false], back: (<><Stock6 n={71} dur={10.46} dim={0} graphics={true} /></>), el: (<>
+  { from: 127.26, to: 137.72, tag: [2, "Made For The Outlet", false], back: (<><Stock6 n={73} dur={10.46} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={200}><In at={4.34} from="fade"><Plate6 at={4.34}><Label6 at={4.34} size={36} color={C6.accent}>CONSUMERS' CHECKBOOK · NONPROFIT · JUNE 2026</Label6></Plate6></In></Center><Center x={560} y={960}><In at={7.24} from="fade"><Plate6 at={7.24}><Label6 at={7.24} size={36} color={C6.accent}>4 RESEARCHERS</Label6></Plate6></In></Center><Center x={960} y={960}><In at={8.62} from="fade"><Plate6 at={8.62}><Label6 at={8.62} size={36} color={C6.accent}>3 MONTHS</Label6></Plate6></In></Center><Center x={1360} y={960}><In at={9.66} from="fade"><Plate6 at={9.66}><Label6 at={9.66} size={36} color={C6.accent}>40 BRANDS</Label6></Plate6></In></Center>
 </>) },
   { from: 137.72, to: 151.3, tag: [2, "Made For The Outlet", false], back: (<><Stock6 n={3} dur={13.58} dim={0} graphics={true} />
-<Stock6 n={8} from={6.26} dur={13.58} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={7} from={6.26} dur={13.58} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={200}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={40} color={C6.accent}>MORE THAN HALF · MADE FOR THE OUTLET</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.26} out={7.46} from="fade"><Plate6 at={6.26}><Label6 at={6.26} size={40} color={C6.ink}>J.CREW FACTORY</Label6></Plate6></In></Center><Center x={960} y={880}><In at={7.46} out={9.16} from="fade"><Plate6 at={7.46}><Label6 at={7.46} size={40} color={C6.ink}>BANANA REPUBLIC FACTORY</Label6></Plate6></In></Center><Center x={960} y={880}><In at={9.16} out={10.3} from="fade"><Plate6 at={9.16}><Label6 at={9.16} size={40} color={C6.ink}>GAP FACTORY</Label6></Plate6></In></Center><Center x={960} y={880}><In at={10.3} out={11.76} from="fade"><Plate6 at={10.3}><Label6 at={10.3} size={40} color={C6.ink}>ANN TAYLOR FACTORY</Label6></Plate6></In></Center><Center x={960} y={880}><In at={11.76} from="fade"><Plate6 at={11.76}><Label6 at={11.76} size={40} color={C6.accent}>KATE SPADE OUTLET · A MIX</Label6></Plate6></In></Center><Source6 at={0.4}>Consumers' Checkbook · 2026</Source6>
 </>) },
   { from: 151.3, to: 156.48, tag: [2, "Made For The Outlet", false], back: null, el: (<>
@@ -107,7 +107,7 @@ const BEATS: Beat[] = [
 <Stock6 n={41} from={8.78} dur={12.22} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={5.88} out={8.78} from="fade"><Plate6 at={5.88}><Label6 at={5.88} size={40} color={C6.ink}>FACTORY JACKET · $140 · NO LINING</Label6></Plate6></In></Center><Center x={960} y={880}><In at={11.6} from="fade"><Plate6 at={11.6}><Label6 at={11.6} size={40} color={C6.accent}>REGULAR STORE · $350 · PARTLY LINED</Label6></Plate6></In></Center><Source6 at={0.4}>Consumers' Checkbook · 2026</Source6>
 </>) },
-  { from: 221.02, to: 235.18, tag: [3, "Made How?", false], back: (<><Stock6 n={45} dur={14.16} dim={0} graphics={true} />
+  { from: 221.02, to: 235.18, tag: [3, "Made How?", false], back: (<><Stock6 n={44} dur={14.16} dim={0} graphics={true} />
 <Stock6 n={40} from={5.92} dur={14.16} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.52} out={5.92} from="fade"><Plate6 at={2.52}><Label6 at={2.52} size={38} color={C6.ink}>OUTLET: RUBBER SOLES · STORE: LEATHER</Label6></Plate6></In></Center><Center x={960} y={880}><In at={7.82} out={10.32} from="fade"><Plate6 at={7.82}><Label6 at={7.82} size={40} color={C6.ink}>BARN JACKET · FACTORY $50</Label6></Plate6></In></Center><Center x={960} y={880}><In at={10.32} from="fade"><Plate6 at={10.32}><Label6 at={10.32} size={36} color={C6.accent}>REGULAR GAP · $148 · MORE BUTTONS, MORE TAILORING</Label6></Plate6></In></Center>
 </>) },
@@ -115,11 +115,11 @@ const BEATS: Beat[] = [
 <Stock6 n={36} from={7.46} dur={11.02} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={5.44} out={7.46} from="fade"><Plate6 at={5.44}><Label6 at={5.44} size={36} color={C6.accent}>A CHEAPER THING · WITH THE EXPENSIVE THING'S NAME</Label6></Plate6></In></Center><Center x={960} y={880}><In at={7.46} from="fade"><Plate6 at={7.46}><Label6 at={7.46} size={36} color={C6.ink}>…AND THE TAG POINTS AT THE EXPENSIVE ONE</Label6></Plate6></In></Center>
 </>) },
-  { from: 246.2, to: 254.34, tag: [3, "Made How?", false], back: (<><Stock6 n={93} dur={8.14} dim={0} graphics={false} /></>), el: (<>
-<Center x={960} y={120}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>TRICK #2 · READ THE LABEL INSIDE</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: CBC Marketplace</Source6>
+  { from: 246.2, to: 256.82, tag: [3, "Made How?", false], back: (<><Stock6 n={93} dur={10.62} dim={0} graphics={false} /></>), el: (<>
+<Center x={960} y={120}><In at={0.1} out={8.16} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>TRICK #2 · READ THE LABEL INSIDE</Label6></Plate6></In></Center><Center x={960} y={120}><In at={8.16} from="fade"><Plate6 at={8.16}><Label6 at={8.16} size={34} color={C6.accent}>BANANA REPUBLIC FACTORY · 3 DIAMONDS</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: CBC Marketplace</Source6>
 </>) },
-  { from: 254.34, to: 260.16, tag: [3, "Made How?", false], back: (<><Stock6 n={95} dur={5.82} dim={0} graphics={false} /></>), el: (<>
-<Center x={960} y={120}><In at={0.05} out={2.5} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={34} color={C6.accent}>BANANA REPUBLIC FACTORY · 3 DIAMONDS</Label6></Plate6></In></Center><Center x={960} y={120}><In at={2.5} from="fade"><Plate6 at={2.5}><Label6 at={2.5} size={34} color={C6.accent}>TALBOTS OUTLET · WHITE LABEL, 3 DOTS</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: 9NEWS Denver · 2026</Source6>
+  { from: 256.82, to: 260.16, tag: [3, "Made How?", false], back: (<><Stock6 n={95} dur={3.34} dim={0} graphics={false} /></>), el: (<>
+<Center x={960} y={120}><In at={0.05} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={34} color={C6.accent}>TALBOTS OUTLET · WHITE LABEL, 3 DOTS</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: 9NEWS Denver · 2026</Source6>
 </>) },
   { from: 260.16, to: 267.62, tag: [3, "Made How?", false], back: null, el: (<>
 <Drift><Center y={470}><TagTrio tags={[{ label: "OUTLET LABEL", value: "1818", at: 1.62, color: C6.loss }, { label: "REGULAR STORE", value: "EST. 1818", at: 4.3 }]} /></Center><Source6 at={0.4}>Consumers' Checkbook · 2026</Source6></Drift>
@@ -128,8 +128,8 @@ const BEATS: Beat[] = [
 <Stock6 n={54} from={5.92} dur={8.02} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={5.92} from="fade"><Plate6 at={5.92}><Label6 at={5.92} size={32} color={C6.accent}>MOSTLY POLYESTER AT THE OUTLET? THAT'S WHAT THE DISCOUNT WAS FOR</Label6></Plate6></In></Center>
 </>) },
-  { from: 275.64, to: 288.26, tag: [3, "Made How?", false], back: (<><Stock6 n={43} dur={12.62} dim={0} graphics={true} />
-<Stock6 n={7} from={7.16} dur={12.62} dim={0} graphics={true} /></>), el: (<>
+  { from: 275.64, to: 288.26, tag: [3, "Made How?", false], back: (<><Stock6 n={28} dur={12.62} dim={0} graphics={true} />
+<Stock6 n={41} from={7.16} dur={12.62} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} out={7.16} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>REAL LEFTOVERS EXIST</Label6></Plate6></In></Center><Center x={960} y={880}><In at={8.7} from="fade"><Plate6 at={8.7}><Label6 at={8.7} size={40} color={C6.money}>BURBERRY OUTLET SHIRT · $700 → $250</Label6></Plate6></In></Center><Source6 at={0.4}>Consumers' Checkbook · 2026</Source6>
 </>) },
   { from: 288.26, to: 292.06, tag: [3, "Made How?", false], back: (<><Stock6 n={26} dur={3.8} dim={0} graphics={true} /></>), el: (<>
@@ -139,7 +139,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={44} color={C6.ink}>THE REAL THING · JUST LATE</Label6></Plate6></In></Center>
 </>) },
   { from: 296.46, to: 309.8, tag: [3, "Made How?", false], back: (<><Stock6 n={21} dur={13.34} dim={0} graphics={true} />
-<Stock6 n={22} from={6.62} dur={13.34} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={16} from={6.62} dur={13.34} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.18} out={6.62} from="fade"><Plate6 at={2.18}><Label6 at={2.18} size={36} color={C6.ink}>NIKE CLEARANCE · HAND STICKERS WITH A DATE</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.62} from="fade"><Plate6 at={6.62}><Label6 at={6.62} size={38} color={C6.accent}>REAL MARKDOWN = A STICKER ON AN OLD PRICE</Label6></Plate6></In></Center>
 </>) },
   { from: 309.8, to: 319.22, tag: [3, "Made How?", false], back: null, el: (<>
@@ -205,12 +205,12 @@ const BEATS: Beat[] = [
 <Stock6 n={87} from={4.2} dur={7.4} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={44} color={C6.ink}>OUTLETS ARE A SPECIAL CASE?</Label6></Plate6></In></Center>
 </>) },
-  { from: 458.26, to: 463.2, tag: [5, "It's Everywhere", false], back: (<><Stock6 n={9} dur={4.94} dim={0} graphics={true} />
+  { from: 458.26, to: 463.2, tag: [5, "It's Everywhere", false], back: (<><Stock6 n={50} dur={4.94} dim={0} graphics={true} />
 <Stock6 n={51} from={3.38} dur={4.94} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.52} from="fade"><Plate6 at={0.52}><Label6 at={0.52} size={36} color={C6.accent}>THE SAME NUMBER · IN STORES YOU SHOP EVERY WEEK</Label6></Plate6></In></Center>
 </>) },
-  { from: 463.2, to: 468.2, tag: [5, "It's Everywhere", false], back: (<><Stock6 n={64} dur={5.0} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={3.8} from="fade"><Plate6 at={3.8}><Label6 at={3.8} size={44} color={C6.accent}>HINOJOS v. KOHL'S</Label6></Plate6></In></Center>
+  { from: 463.2, to: 468.2, tag: [5, "It's Everywhere", false], back: (<><Stock6 n={9} dur={5.0} dim={0} graphics={true} /></>), el: (<>
+<Center x={960} y={200}><In at={3.8} from="fade"><Plate6 at={3.8}><Label6 at={3.8} size={40} color={C6.accent}>COURT CASE · HINOJOS v. KOHL'S</Label6></Plate6></In></Center><Source6 at={0.4}>ILLUSTRATIVE FOOTAGE</Source6>
 </>) },
   { from: 468.2, to: 474.68, tag: [5, "It's Everywhere", false], back: (<><Stock6 n={56} dur={6.48} dim={0} graphics={true} /></>), el: (<>
 <Center x={1400} y={560}><HangTag at={2.4} brand="SUITCASE · KOHL'S" top={{ label: "ORIGINAL", value: "$299.99" }} price={{ value: "50% OFF" }} scale={0.62} /></Center><Source6 at={0.3}>ILLUSTRATIVE FOOTAGE · TAG: ILLUSTRATION</Source6>
@@ -224,7 +224,7 @@ const BEATS: Beat[] = [
   { from: 486.2, to: 498.64, tag: [5, "It's Everywhere", false], back: null, el: (<>
 <Evidence src="evidence/t09/hinojos-p16.png" size={[1100, 1700]} dur={12.44} frame="paper" marks={[{ x: 312, y: 386, w: 379, h: 30, at: 9.9 }]} source="HINOJOS v. KOHL'S · 9TH CIR. · MAY 2013" />
 </>) },
-  { from: 498.64, to: 508.76, tag: [5, "It's Everywhere", false], back: (<><Stock6 n={85} dur={10.12} dim={0} graphics={true} /></>), el: (<>
+  { from: 498.64, to: 508.76, tag: [5, "It's Everywhere", false], back: (<><Stock6 n={84} dur={10.12} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={200}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={38} color={C6.accent}>DEC 2016 · CITY OF LOS ANGELES SUES</Label6></Plate6></In></Center><Source6 at={0.4}>WTKR / CNN Wire · Dec 2016</Source6><Center x={420} y={960}><In at={6.46} from="fade"><Plate6 at={6.46}><Label6 at={6.46} size={34} color={C6.accent}>J.C. PENNEY</Label6></Plate6></In></Center><Center x={780} y={960}><In at={7.62} from="fade"><Plate6 at={7.62}><Label6 at={7.62} size={34} color={C6.accent}>KOHL'S</Label6></Plate6></In></Center><Center x={1120} y={960}><In at={8.36} from="fade"><Plate6 at={8.36}><Label6 at={8.36} size={34} color={C6.accent}>MACY'S</Label6></Plate6></In></Center><Center x={1460} y={960}><In at={9.06} from="fade"><Plate6 at={9.06}><Label6 at={9.06} size={34} color={C6.accent}>SEARS</Label6></Plate6></In></Center>
 </>) },
   { from: 508.76, to: 523.68, tag: [5, "It's Everywhere", false], back: (<><Stock6 n={57} dur={14.92} dim={0} graphics={true} />
@@ -261,7 +261,7 @@ const BEATS: Beat[] = [
   { from: 576.14, to: 582.2, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={94} dur={6.06} dim={0} graphics={false} /></>), el: (<>
 <Center x={960} y={120}><In at={4.52} from="fade"><Plate6 at={4.52}><Label6 at={4.52} size={36} color={C6.accent}>2012 · NO MORE “FAKE PRICES”</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: News 5 Cleveland · 2012</Source6>
 </>) },
-  { from: 582.2, to: 587.14, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={18} dur={4.94} dim={0} graphics={true} /></>), el: (<>
+  { from: 582.2, to: 587.14, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={52} dur={4.94} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} out={3.58} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={44} color={C6.ink}>ONE EVERYDAY PRICE</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.58} from="fade"><Plate6 at={3.58}><Label6 at={3.58} size={56} color={C6.accent}>“FAIR AND SQUARE”</Label6></Plate6></In></Center>
 </>) },
   { from: 587.14, to: 594.88, tag: [6, "Somebody Tried", false], back: null, el: (<>
@@ -271,10 +271,10 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={56} color={C6.ink}>THE CUSTOMERS LEFT.</Label6></Plate6></In></Center>
 </>) },
   { from: 596.52, to: 608.82, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={61} dur={12.3} dim={0} graphics={true} />
-<Stock6 n={65} from={9.12} dur={12.3} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={62} from={9.12} dur={12.3} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} out={9.12} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={34} color={C6.ink}>A MISSOURI SHOPPER · THE NEW YORK TIMES, 2013</Label6></Plate6></In></Center><Center x={960} y={880}><In at={9.12} from="fade"><Plate6 at={9.12}><Label6 at={9.12} size={40} color={C6.ink}>NO SALES → SHE STOPPED GOING</Label6></Plate6></In></Center><Source6 at={0.4}>ILLUSTRATIVE FOOTAGE</Source6>
 </>) },
-  { from: 608.82, to: 614.72, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={82} dur={5.9} dim={0} graphics={false} /></>), el: (<>
+  { from: 608.82, to: 614.72, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={78} dur={5.9} dim={0} graphics={false} /></>), el: (<>
 <Meme at={3.68} text="no sale. no fun." y={900} size={80} /><Source6 at={0.3}>Paraphrase · The New York Times, 2013</Source6>
 </>) },
   { from: 614.72, to: 624.76, tag: [6, "Somebody Tried", false], back: null, el: (<>
@@ -290,7 +290,7 @@ const BEATS: Beat[] = [
 <Drift><Center x={960} y={560}><HangTag at={0.05} brand="KATE SPADE OUTLET" top={{ label: "COMPARABLE VALUE", value: "$499" }} price={{ value: "$169" }} scale={0.9} hlTopAt={2.38} /></Center><Center x={960} y={990}><In at={2.38} from="fade"><Plate6 at={2.38}><Label6 at={2.38} size={32} color={C6.accent}>A “REFERENCE PRICE”</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 643.1, to: 645.26, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={91} dur={2.16} dim={0} graphics={false} /></>), el: (<>
-<Source6 at={0.3}>J.C. Penney ad · 2013</Source6>
+<Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.accent}>J.C. PENNEY AD · 2013</Label6></Plate6></In></Center><Source6 at={0.3}>J.C. Penney ad · 2013</Source6>
 </>) },
   { from: 645.26, to: 651.94, tag: [6, "Somebody Tried", false], back: null, el: (<>
 <Evidence src="evidence/t09/npr-jcp-top.png" size={[2880, 1800]} dur={6.68} frame="screen" zoom={0.9} source="NPR · MARCH 2013" url="npr.org" /><Center x={960} y={960}><In at={5.2} from="fade"><Plate6 at={5.2}><Label6 at={5.2} size={30} color={C6.accent}>REPORTS: EVERYDAY PRICES RAISED · TO HAVE SOMETHING TO MARK DOWN</Label6></Plate6></In></Center>
@@ -317,13 +317,13 @@ const BEATS: Beat[] = [
   { from: 687.36, to: 695.78, tag: [6, "Somebody Tried", false], back: null, el: (<>
 <Drift><Center x={960} y={560}><HangTag at={0.05} brand="KATE SPADE OUTLET" top={{ label: "COMPARABLE VALUE", value: "$499" }} price={{ value: "$169" }} scale={0.9} hlTopAt={3.1} /></Center><Center x={960} y={990}><In at={6.52} from="fade"><Plate6 at={6.52}><Label6 at={6.52} size={36} color={C6.accent}>A STORE WROTE IT · FOR US</Label6></Plate6></In></Center></Drift>
 </>) },
-  { from: 695.78, to: 700.5, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={10} dur={4.72} dim={0} graphics={true} /></>), el: (<>
+  { from: 695.78, to: 700.5, tag: [6, "Somebody Tried", false], back: (<><Stock6 n={15} dur={4.72} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.3} from="fade"><Plate6 at={2.3}><Label6 at={2.3} size={36} color={C6.ink}>ONE STORE TRIED TO STOP · SHOPPERS WALKED AWAY</Label6></Plate6></In></Center>
 </>) },
   { from: 700.5, to: 708.52, tag: [7, "Your Move", true], hard: true, back: null, el: (<>
 <Drift><Center y={480}><Checklist items={[{ text: "Cover the big number", at: 3.08 }, { text: "Check the label inside", at: 4.32 }, { text: "Ten seconds on your phone", at: 5.82 }]} /></Center></Drift>
 </>) },
-  { from: 708.52, to: 713.52, tag: [7, "Your Move", false], back: (<><Stock6 n={65} dur={5.0} dim={0} graphics={true} /></>), el: (<>
+  { from: 708.52, to: 713.52, tag: [7, "Your Move", false], back: (<><Stock6 n={66} dur={5.0} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={1.4} from="fade"><Plate6 at={1.4}><Label6 at={1.4} size={32} color={C6.money}>ADIDAS: OFTEN CHEAPER AT AMAZON OR DICK'S THAN AT THE OUTLET</Label6></Plate6></In></Center><Source6 at={0.4}>Consumers' Checkbook · 2026</Source6>
 </>) },
   { from: 713.52, to: 719.06, tag: [7, "Your Move", false], back: (<><Stock6 n={13} dur={5.54} dim={0} graphics={true} /></>), el: (<>
