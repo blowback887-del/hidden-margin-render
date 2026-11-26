@@ -1,0 +1,457 @@
+{
+ "out": "public/broll/t09",
+ "sheet": "public/research/t09-sheet.jpg",
+ "max_sec": 14,
+ "clips": [
+  {
+   "name": "01-mall-skylight",
+   "id": 32969885,
+   "url": "https://videos.pexels.com/video-files/32969885/14051936_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "02-parking-center",
+   "id": 31621464,
+   "url": "https://videos.pexels.com/video-files/31621464/13472456_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "03-mall-escalators",
+   "id": 35044987,
+   "url": "https://videos.pexels.com/video-files/35044987/14845280_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "04-mall-walk",
+   "id": 854665,
+   "url": "https://videos.pexels.com/video-files/854665/854665-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "05-parking-aerial",
+   "id": 29182298,
+   "url": "https://videos.pexels.com/video-files/29182298/12600826_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "06-parking-aerial2",
+   "id": 32835508,
+   "url": "https://videos.pexels.com/video-files/32835508/13995072_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "07-mannequins",
+   "id": 4517768,
+   "url": "https://videos.pexels.com/video-files/4517768/4517768-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "08-discount-windows",
+   "id": 4750084,
+   "url": "https://videos.pexels.com/video-files/4750084/4750084-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "09-family-clothes-shop",
+   "id": 4750086,
+   "url": "https://videos.pexels.com/video-files/4750086/4750086-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "10-mall-crowd-high",
+   "id": 15007111,
+   "url": "https://videos.pexels.com/video-files/15007111/15007111-hd_1920_1080_31fps.mp4"
+  },
+  {
+   "name": "11-mall-empty-drone",
+   "id": 14388669,
+   "url": "https://videos.pexels.com/video-files/14388669/14388669-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "12-friends-bags",
+   "id": 6565795,
+   "url": "https://videos.pexels.com/video-files/6565795/6565795-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "13-women-bags",
+   "id": 4930507,
+   "url": "https://videos.pexels.com/video-files/4930507/4930507-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "14-woman-many-bags",
+   "id": 5836820,
+   "url": "https://videos.pexels.com/video-files/5836820/5836820-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "15-shopping-spree",
+   "id": 5889074,
+   "url": "https://videos.pexels.com/video-files/5889074/5889074-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "16-bags-sale-tag",
+   "id": 5889067,
+   "url": "https://videos.pexels.com/video-files/5889067/5889067-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "17-red-sale-tags",
+   "id": 5889450,
+   "url": "https://videos.pexels.com/video-files/5889450/5889450-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "18-sale-tags-marble",
+   "id": 5889466,
+   "url": "https://videos.pexels.com/video-files/5889466/5889466-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "19-half-price",
+   "id": 5889611,
+   "url": "https://videos.pexels.com/video-files/5889611/5889611-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "20-big-discount",
+   "id": 5889616,
+   "url": "https://videos.pexels.com/video-files/5889616/5889616-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "21-printed-sale-tag",
+   "id": 5889461,
+   "url": "https://videos.pexels.com/video-files/5889461/5889461-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "22-chalk-price-erase",
+   "id": 5920147,
+   "url": "https://videos.pexels.com/video-files/5920147/5920147-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "23-closing-sale-poster",
+   "id": 7359087,
+   "url": "https://videos.pexels.com/video-files/7359087/7359087-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "24-closed-sign",
+   "id": 13633619,
+   "url": "https://videos.pexels.com/video-files/13633619/13633619-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "25-warehouse-racks",
+   "id": 37208842,
+   "url": "https://videos.pexels.com/video-files/37208842/15762361_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "26-warehouse-inside",
+   "id": 20591257,
+   "url": "https://videos.pexels.com/video-files/20591257/20591257-hd_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "27-warehouse-boxes",
+   "id": 37208839,
+   "url": "https://videos.pexels.com/video-files/37208839/15762450_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "28-box-shelf",
+   "id": 6170331,
+   "url": "https://videos.pexels.com/video-files/6170331/6170331-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "29-textile-above",
+   "id": 32268481,
+   "url": "https://videos.pexels.com/video-files/32268481/13762728_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "30-textile-weaving",
+   "id": 32243781,
+   "url": "https://videos.pexels.com/video-files/32243781/13751578_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "31-textile-worker",
+   "id": 31369405,
+   "url": "https://videos.pexels.com/video-files/31369405/13386008_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "32-textile-folding",
+   "id": 31369299,
+   "url": "https://videos.pexels.com/video-files/31369299/13385968_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "33-seamstress",
+   "id": 36066883,
+   "url": "https://videos.pexels.com/video-files/36066883/15296056_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "34-sewing-close",
+   "id": 32205570,
+   "url": "https://videos.pexels.com/video-files/32205570/13735634_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "35-leather-artisan",
+   "id": 34740040,
+   "url": "https://videos.pexels.com/video-files/34740040/14727187_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "36-leather-sewing",
+   "id": 34740044,
+   "url": "https://videos.pexels.com/video-files/34740044/14727096_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "37-polo-man",
+   "id": 7648782,
+   "url": "https://videos.pexels.com/video-files/7648782/7648782-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "38-buttoning-shirt",
+   "id": 7648798,
+   "url": "https://videos.pexels.com/video-files/7648798/7648798-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "39-suit-buttoning",
+   "id": 34802633,
+   "url": "https://videos.pexels.com/video-files/34802633/14756314_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "40-coat-mannequins",
+   "id": 6766338,
+   "url": "https://videos.pexels.com/video-files/6766338/6766338-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "41-blazer-lowlight",
+   "id": 35415156,
+   "url": "https://videos.pexels.com/video-files/35415156/15004892_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "42-tailor-measure",
+   "id": 6765479,
+   "url": "https://videos.pexels.com/video-files/6765479/6765479-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "43-shoes-shelf",
+   "id": 40305015,
+   "url": "https://videos.pexels.com/video-files/40305015/17217671_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "44-shoe-bend",
+   "id": 5218686,
+   "url": "https://videos.pexels.com/video-files/5218686/5218686-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "45-sole-hammer",
+   "id": 40318178,
+   "url": "https://videos.pexels.com/video-files/40318178/17222857_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "46-fabric-cut",
+   "id": 5815281,
+   "url": "https://videos.pexels.com/video-files/5815281/5815281-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "47-fabric-suede",
+   "id": 40318252,
+   "url": "https://videos.pexels.com/video-files/40318252/17222734_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "48-cotton-field",
+   "id": 40754470,
+   "url": "https://videos.pexels.com/video-files/40754470/17406034_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "49-magnify-dollar",
+   "id": 1797018,
+   "url": "https://videos.pexels.com/video-files/1797018/1797018-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "50-woman-rack",
+   "id": 5707912,
+   "url": "https://videos.pexels.com/video-files/5707912/5707912-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "51-elderly-rack",
+   "id": 8195087,
+   "url": "https://videos.pexels.com/video-files/8195087/8195087-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "52-seniors-boutique",
+   "id": 8195529,
+   "url": "https://videos.pexels.com/video-files/8195529/8195529-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "53-fitting-room-man",
+   "id": 7568636,
+   "url": "https://videos.pexels.com/video-files/7568636/7568636-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "54-folding-sweater",
+   "id": 7855136,
+   "url": "https://videos.pexels.com/video-files/7855136/7855136-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "55-gavel",
+   "id": 6699964,
+   "url": "https://videos.pexels.com/video-files/6699964/6699964-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "56-suitcase-carousel",
+   "id": 13606928,
+   "url": "https://videos.pexels.com/video-files/13606928/13606928-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "57-washer-spin",
+   "id": 15432350,
+   "url": "https://videos.pexels.com/video-files/15432350/15432350-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "58-laundromat",
+   "id": 5535856,
+   "url": "https://videos.pexels.com/video-files/5535856/5535856-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "59-cross-necklace",
+   "id": 36326286,
+   "url": "https://videos.pexels.com/video-files/36326286/15405926_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "60-silver-necklace",
+   "id": 6620872,
+   "url": "https://videos.pexels.com/video-files/6620872/6620872-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "61-grocery-woman",
+   "id": 29846459,
+   "url": "https://videos.pexels.com/video-files/29846459/12817261_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "62-grocery-veg",
+   "id": 8027660,
+   "url": "https://videos.pexels.com/video-files/8027660/8027660-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "63-card-pay",
+   "id": 11158789,
+   "url": "https://videos.pexels.com/video-files/11158789/11158789-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "64-cashier",
+   "id": 6683939,
+   "url": "https://videos.pexels.com/video-files/6683939/6683939-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "65-phone-shop",
+   "id": 7567646,
+   "url": "https://videos.pexels.com/video-files/7567646/7567646-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "66-online-store",
+   "id": 7568745,
+   "url": "https://videos.pexels.com/video-files/7568745/7568745-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "67-email-typing",
+   "id": 6183189,
+   "url": "https://videos.pexels.com/video-files/6183189/6183189-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "68-envelope",
+   "id": 7430218,
+   "url": "https://videos.pexels.com/video-files/7430218/7430218-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "69-pen-paper",
+   "id": 28405798,
+   "url": "https://videos.pexels.com/video-files/28405798/12375919_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "70-signing-docs",
+   "id": 7685212,
+   "url": "https://videos.pexels.com/video-files/7685212/7685212-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "71-planner-pages",
+   "id": 5546826,
+   "url": "https://videos.pexels.com/video-files/5546826/5546826-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "72-boardroom",
+   "id": 6951601,
+   "url": "https://videos.pexels.com/video-files/6951601/6951601-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "73-docs-table",
+   "id": 8847933,
+   "url": "https://videos.pexels.com/video-files/8847933/8847933-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "74-suit-walking",
+   "id": 15615496,
+   "url": "https://videos.pexels.com/video-files/15615496/15615496-hd_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "75-exit-door",
+   "id": 7685810,
+   "url": "https://videos.pexels.com/video-files/7685810/7685810-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "76-door-close",
+   "id": 2108274,
+   "url": "https://videos.pexels.com/video-files/2108274/2108274-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "77-graph-falling",
+   "id": 3945008,
+   "url": "https://videos.pexels.com/video-files/3945008/3945008-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "78-shocked-woman",
+   "id": 8626657,
+   "url": "https://videos.pexels.com/video-files/8626657/8626657-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "79-woman-mouth",
+   "id": 4587902,
+   "url": "https://videos.pexels.com/video-files/4587902/4587902-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "80-wow-woman",
+   "id": 10149031,
+   "url": "https://videos.pexels.com/video-files/10149031/10149031-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "81-disappointed-man",
+   "id": 10515020,
+   "url": "https://videos.pexels.com/video-files/10515020/10515020-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "82-hands-face",
+   "id": 10149185,
+   "url": "https://videos.pexels.com/video-files/10149185/10149185-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "83-frustrated-man",
+   "id": 4992093,
+   "url": "https://videos.pexels.com/video-files/4992093/4992093-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "84-newspaper-man",
+   "id": 7263305,
+   "url": "https://videos.pexels.com/video-files/7263305/7263305-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "85-newsagent",
+   "id": 12345283,
+   "url": "https://videos.pexels.com/video-files/12345283/12345283-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "86-highway-aerial",
+   "id": 4035997,
+   "url": "https://videos.pexels.com/video-files/4035997/4035997-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "87-highway-coastal",
+   "id": 31645395,
+   "url": "https://videos.pexels.com/video-files/31645395/13482584_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "88-counting-money",
+   "id": 5466769,
+   "url": "https://videos.pexels.com/video-files/5466769/5466769-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "89-clapping",
+   "id": 8775629,
+   "url": "https://videos.pexels.com/video-files/8775629/8775629-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "90-woman-bag-walk",
+   "id": 7570173,
+   "url": "https://videos.pexels.com/video-files/7570173/7570173-hd_1920_1080_30fps.mp4"
+  }
+ ]
+}
