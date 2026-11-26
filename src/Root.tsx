@@ -6,6 +6,7 @@ import { T02Sample, T02SAMPLE_DURATION_SEC } from "./videos/T02Sample";
 import { T03Price, T03PRICE_DURATION_SEC } from "./videos/T03Price";
 import { T04Lens, T04LENS_DURATION_SEC } from "./videos/T04Lens";
 import { T01Short, T01SHORT_DURATION_SEC } from "./videos/T01Short";
+import { T09Short, T09SHORT_DURATION_SEC } from "./videos/T09Short";
 import { T05Prices, T05PRICES_DURATION_SEC } from "./videos/T05Prices";
 import { T06Menu, T06MENU_DURATION_SEC } from "./videos/T06Menu";
 import { T07Gas, T07GAS_DURATION_SEC } from "./videos/T07Gas";
@@ -27,6 +28,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="T03-Price" component={T03Price} durationInFrames={Math.round(T03PRICE_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
       <Composition id="T02-Sample" component={T02Sample} durationInFrames={Math.round(T02SAMPLE_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
       <Composition id="T01-Restaurants" component={T01Restaurants} durationInFrames={Math.round(T01RESTAURANTS_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
+      <Composition id="T09-Short" component={T09Short} durationInFrames={Math.round(T09SHORT_DURATION_SEC * 30)} fps={30} width={1080} height={1920} />
       <Composition id="T01-Short" component={T01Short} durationInFrames={Math.round(T01SHORT_DURATION_SEC * 30)} fps={30} width={1080} height={1920} />
     </Folder>
   );
