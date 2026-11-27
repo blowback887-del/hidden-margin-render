@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.restaurantbusinessonline.com/consumer-trends/diners-arent-pleased-service-fees-you-feel-youre-paying-cable-bill",
+ "host": "restaurantbusinessonline.com",
+ "frame": "screen",
+ "finds": {
+  "cable bill": [
+   916,
+   603,
+   310,
+   150
+  ]
+ }
+}

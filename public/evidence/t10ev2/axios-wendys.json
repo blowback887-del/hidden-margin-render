@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.axios.com/2024/02/28/wendys-pricing-plans-digital-boards",
+ "host": "axios.com",
+ "frame": "screen",
+ "finds": {
+  "surge pricing": [
+   653,
+   596,
+   1476,
+   225
+  ]
+ }
+}
