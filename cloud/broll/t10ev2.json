@@ -1,0 +1,14 @@
+{
+ "out": "public/evidence/t10",
+ "sheet": "public/research/t10ev2-evidence-sheet.jpg",
+ "clips": [],
+ "evidence": [
+  {"name": "rd-popmenu", "url": "https://www.restaurantdive.com/news/tipping-fatigue-popmenu-consumers-pullback-on-tips/817089/", "html": "public/research/snap/t10-rd-popmenu.html", "find": ["35%"]},
+  {"name": "axios-wendys", "url": "https://www.axios.com/2024/02/28/wendys-pricing-plans-digital-boards", "html": "public/research/snap/t10-axios-wendys.html", "find": ["surge pricing", "will not raise prices"]},
+  {"name": "axios-mcd", "url": "https://www.axios.com/2025/05/01/mcdonalds-restaurants-fast-food-recession-starbucks", "html": "public/research/snap/t10-axios-mcd.html", "find": ["shying away"]},
+  {"name": "nbc-surge", "url": "https://www.nbcchicago.com/news/national-international/arizona-iced-tea-burger-king-wendys-dynamic-pricing-controversy/3368913/", "html": "public/research/snap/t10-nbc-surge.html", "find": ["No urge to surge"]},
+  {"name": "ibt-smokey", "url": "https://www.ibtimes.co.uk/smokey-bones-shuts-down-locations-bankruptcy-1794184", "html": "public/research/snap/t10-ibt-smokey.html", "find": ["Chapter 11"]},
+  {"name": "rb-technomic2", "url": "https://www.restaurantbusinessonline.com/consumer-trends/diners-arent-pleased-service-fees-you-feel-youre-paying-cable-bill", "find": ["cable bill"], "hide": ["#onetrust-banner-sdk", "#onetrust-consent-sdk", "[class*=cookie]", "[id*=cookie]", "[class*=consent]", "[id*=consent]"]},
+  {"name": "nra-costs2", "url": "https://www.restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/elevated-costs-continue-to-pressure-restaurant-profitability/", "find": ["36%"], "hide": ["#onetrust-banner-sdk", "#onetrust-consent-sdk", "[class*=cookie]", "[id*=cookie]", "[class*=consent]", "[id*=consent]"]}
+ ]
+}
