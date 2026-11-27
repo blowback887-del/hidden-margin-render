@@ -71,10 +71,10 @@ export const DiningRoom: React.FC<{ at?: number; from?: number; to?: number; toA
           <div style={{ position: "absolute", left: "50%", top: "50%", translate: "-50% -50%", rotate: "-6deg", opacity: dark, scale: String(0.8 + 0.2 * dark),
             padding: "14px 40px", border: `6px solid ${C6.loss}`, color: C6.loss, fontFamily: SANS, fontWeight: 900, fontSize: w * 0.075, letterSpacing: "0.12em", background: "rgba(6,20,26,.8)" }}>{sign}</div>
         )}
-        {pctShow && (
-          <div style={{ position: "absolute", right: 26, top: 18, fontFamily: SERIF, fontSize: w * 0.09, color: go > 0.5 ? C6.loss : WARM, opacity: 1 - dark }}>{pctShow}</div>
-        )}
       </div>
+      {pctShow && (
+        <div style={{ position: "absolute", left: w + 40, top: h * 0.3, fontFamily: SERIF, fontSize: w * 0.14, color: go > 0.5 ? C6.loss : WARM, opacity: 1 - dark }}>{pctShow}</div>
+      )}
       {label && <div style={{ marginTop: 22, opacity: p(labelAt ?? at, (labelAt ?? at) + 0.4) }}><Note size={24}>{label}</Note></div>}
     </div>
   );
@@ -154,7 +154,7 @@ export const FeeStamps: React.FC<{ fees: { text: string; at: number; red?: boole
       {fees.map((f, i) => {
         const k = p(f.at, f.at + 0.28, easeBack);
         return (
-          <div key={i} style={{ opacity: Math.min(1, k * 1.6), scale: String(1.5 - 0.5 * k), rotate: `${(i % 2 ? 2.5 : -2.5)}deg`, padding: "10px 34px",
+          <div key={i} style={{ opacity: Math.min(1, k * 1.6), scale: String(1.2 - 0.2 * k), rotate: `${(i % 2 ? 2.5 : -2.5)}deg`, padding: "10px 34px",
             border: `5px solid ${f.red ? C6.loss : C6.accent}`, color: f.red ? C6.loss : C6.accent, fontFamily: SANS, fontWeight: 900, fontSize: 52, letterSpacing: "0.1em", textTransform: "uppercase", background: "rgba(6,30,38,.78)" }}>
             {f.text}
           </div>
@@ -214,10 +214,9 @@ export const TwoLines: React.FC<{ at?: number; w?: number; h?: number; a?: strin
 export const ViewCount: React.FC<{ at?: number; to?: number; label?: string }> = ({ at = 0.1, to = 5, label = "VIEWS ON CHILI'S REPLY" }) => {
   const { p } = useT();
   const g = p(at, at + 1.3, Easing.out(Easing.cubic));
-  const v = to * g;
   return (
     <div style={{ opacity: p(at - 0.2, at + 0.1), display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
-      <div style={{ fontFamily: SERIF, fontSize: 220, color: C6.accent, lineHeight: 1, filter: g < 1 ? `blur(${(1 - g) * 3}px)` : undefined }}>{v >= to ? `${to}M+` : `${v.toFixed(1)}M`}</div>
+      <div style={{ fontFamily: SERIF, fontSize: 240, color: C6.accent, lineHeight: 1, scale: String(0.7 + 0.3 * g), opacity: Math.min(1, g * 2) }}>{`${to}M+`}</div>
       <Note size={28}>{label}</Note>
     </div>
   );
