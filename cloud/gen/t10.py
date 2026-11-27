@@ -85,16 +85,15 @@ ILL = "ILLUSTRATIVE FOOTAGE"
 
 S = [
 # ======================= PART 1 · ХОЛОДНЫЙ ВХОД · ЧЕК =======================
-dict(start="Twenty-four dollars and seventy-five cents", dim=0.0, sfx=[('ep06-receipt:0.3', '0.05'), ('ep06-pop:0.25', '@{Plus three dollars}'), ('ep06-stamp:0.3', '@{Admin fee}')],
-     el=receipt(burger="0.1", fries="@{Plus three dollars}", fee="@{Admin fee}", hl="@{Eighty-three cents}", circle="@{Eighty-three cents}", y=520) +
-        f'<Center x={{960}} y={{1010}}><Label6 at={{0.3}} size={{22}} color={{C6.mint}}>{AS_POSTED}</Label6></Center>'),
+dict(start="Twenty-four dollars and seventy-five cents", sfx=[('ep06-receipt:0.3', '0.05'), ('ep06-pop:0.25', '@{Plus three dollars}'), ('ep06-stamp:0.3', '@{Admin fee}')],
+     el=ev("t10", "reddit-receipt", marks=[("burger", "For one burger"), ("truffle", "Plus three dollars"), ("admin", "Admin fee")], source="REDDIT · r/EndTipping · OCT 2026 · SERVER'S NAME BLURRED", zoom=0.62) +
+        plate("ADMIN FEE · 83¢", "@{Eighty-three cents}", y=960, size=44, color="C6.loss")),
 dict(start="This is a real receipt from a restaurant in Denver", stock=K("denver-aerial"), sfx=[],
      el=plate("DENVER, COLORADO", "0.2", y=880, size=44)),
 dict(start="Somebody posted it on Reddit", sfx=[('t02-paper:0.3', '0.05')],
      el=doc("fox-earls", [("Earls", "ended up on Fox News")], source="FOX NEWS · NOV 2026", focus=(60, 180, 1640, 900), fb=f'<Center y={{470}}><Words text="Posted on Reddit. Picked up by Fox News." at={{0.1}} size={{84}} maxW={{1500}} hl={{["Reddit.", "Fox"]}} /></Center>' + src("Fox News · Nov 9, 2026"))),
-dict(start="The man who paid it had one question", dim=0.0, sfx=[('ep06-pop:0.25', '@{What is an admin fee}'), ('ep06-stamp:0.3', '@{No tip for you}')],
-     el=plate("ONE QUESTION", "0.05", y=200, size=34, color="C6.mint") + quote("“What is an admin fee?”", "THE DINER, AS QUOTED BY FOX NEWS (PARAPHRASED)", at="@{What is an admin fee}", size=96, hl=["admin", "fee?”"]) +
-        plate("“NO TIP FOR YOU!”", "@{No tip for you}", y=900, size=56, color="C6.loss")),
+dict(start="The man who paid it had one question", sfx=[('ep06-pop:0.25', '@{What is an admin fee}'), ('ep06-stamp:0.3', '@{No tip for you}')],
+     el=ev("t10", "reddit-post", marks=[("what the hell", "What is an admin fee"), ("no tip", "No tip for you")], source="REDDIT · r/EndTipping · OCT 2026 · USERNAME HIDDEN", zoom=1.4, focus="what the hell")),
 dict(start="Last time on this channel", dim=0.0, sfx=[('ep06-counter:0.3', '@{thirty-one}')],
      el='<Center y={440}><Words text="$14 → $31" at={0.15} size={200} hl={["$31"]} /></Center>' + plate("LAST TIME: ONE BURGER, FROM THE MENU TO THE TERMINAL", "0.3", y=760, size=34)),
 dict(start="This story is bigger", stock=K("wm-closed-fudd"), alt=(K("restaurant-aerial-night"), "They're emptying restaurants"), sfx=[('impact:0.3', "@{They're emptying restaurants}")],
@@ -137,8 +136,8 @@ dict(start="The most common answer, from four in ten people", dim=0.0, sfx=[('ep
      el='<Center y={450}><Donut6 at={0.1} pct={40} center="40%" label="“I’D BE LESS LIKELY TO COME BACK”" /></Center>' + src("Technomic survey · via Restaurant Business", "0.4")),
 dict(start="Technomic's own consumer insights director", dim=0.0, sfx=[('ep06-pop:0.25', '@{You feel like}')],
      el=plate("TECHNOMIC'S CONSUMER INSIGHTS DIRECTOR", "0.1", y=200, size=32) + quote("“You feel like you’re paying a cable bill.”", "ROBERT BYRNE · TECHNOMIC", at="@{You feel like}", size=96, hl=["cable", "bill.”"])),
-dict(start="That's this whole video in one sentence", dim=0.0, sfx=[('ep06-pop:0.25', '@{eighty-three cents}')],
-     el=receipt(at="0.05", circle="@{eighty-three cents}", hl="@{eighty-three cents}", y=520, scale=0.9)),
+dict(start="That's this whole video in one sentence", sfx=[('ep06-pop:0.25', '@{eighty-three cents}')],
+     el=ev("t10", "reddit-receipt", marks=[("admin", "eighty-three cents")], source="REDDIT · r/EndTipping · OCT 2026", zoom=1.3, focus="admin")),
 dict(start="It costs the restaurant you", stock=K("alone-candle"), dim=0.2, sfx=[('impact:0.35', '0.1')],
      el=plate("IT COSTS THE RESTAURANT YOU", "0.1", y=880, size=56, color="C6.accent")),
 dict(start="And here's what they don't print on the receipt", stock=K("elderly-pay-waiter"), sfx=[('ding:0.3', '@{you can just ask}')],
@@ -274,8 +273,8 @@ dict(start="But it's bait you can see", dim=0.0, sfx=[('ding:0.3', '@{a number y
         plate("THAT'S WHAT PEOPLE WERE STARVING FOR", "@{what people were starving for}", y=860, size=38, color="C6.accent")),
 
 # ======================= PART 6 · ГЛАВА 6 · ТВОЙ ХОД =======================
-dict(start="So, back to that receipt from Denver", tag=C6x, hard=True, dim=0.0, sfx=[('ep06-whoosh:0.2', '0.05'), ('ep06-pop:0.25', '@{eighty-three cents}')],
-     el=receipt(at="0.05", circle="@{eighty-three cents}", y=500, scale=0.9) + plate("HERE'S HOW YOU DON'T GET PLAYED", "@{Here's how}", y=980, size=34, color="C6.accent")),
+dict(start="So, back to that receipt from Denver", tag=C6x, hard=True, sfx=[('ep06-whoosh:0.2', '0.05'), ('ep06-pop:0.25', '@{eighty-three cents}')],
+     el=ev("t10", "reddit-post", marks=[("burger", "Twenty-four seventy-five"), ("truffle", "plus three"), ("admin", "eighty-three cents")], source="REDDIT · r/EndTipping · OCT 2026", zoom=0.55) + plate("HERE'S HOW YOU DON'T GET PLAYED", "@{Here's how}", y=980, size=34, color="C6.accent")),
 dict(start="Read the bottom of the menu before you order", stock=K("couple-menu"), sfx=[('ding:0.25', '0.1')],
      el=plate("1 · READ THE BOTTOM OF THE MENU — BEFORE YOU ORDER", "0.1", y=880, size=36, color="C6.accent")),
 dict(start="If there's a fee nobody told you about", stock=K("elderly-pay-waiter"), sfx=[('ding:0.25', '0.1')],

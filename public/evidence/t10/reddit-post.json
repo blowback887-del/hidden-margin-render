@@ -1,0 +1,53 @@
+{
+ "size": [
+  1554,
+  1570
+ ],
+ "url": "https://www.reddit.com/r/EndTipping/comments/1xixvk6/admin_fee_anyone/",
+ "host": "reddit.com",
+ "frame": "screen",
+ "finds": {
+  "burger": [
+   474,
+   996,
+   536,
+   44
+  ],
+  "truffle": [
+   530,
+   1036,
+   480,
+   44
+  ],
+  "admin": [
+   490,
+   1156,
+   530,
+   48
+  ],
+  "total": [
+   444,
+   1284,
+   676,
+   48
+  ],
+  "what the hell": [
+   70,
+   1476,
+   524,
+   40
+  ],
+  "no tip": [
+   586,
+   1516,
+   200,
+   40
+  ],
+  "title": [
+   76,
+   100,
+   434,
+   50
+  ]
+ }
+}

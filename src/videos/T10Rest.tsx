@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig, interpolate } from "remotion";
 import { Bg6, BigNum, Bug6, C6, Center, ChapterTag, Donut6, In, Label6, Scene6, setClips, Source6, Stock6, Subscribe6, Plate6, TwoBars, Words } from "../brand/hm6";
-import { DiningRoom, Receipt10, ForkRoad, FeeStamps, TwoLines, ViewCount } from "../brand/t10";
+import { DiningRoom, ForkRoad, FeeStamps, TwoLines, ViewCount } from "../brand/t10";
 import { ThreeMoves } from "../brand/t08";
 import { Checklist } from "../brand/t07";
 import { TipScreen } from "../brand/t06";
@@ -20,7 +20,7 @@ setClips(CLIP_FN);
 type Beat = { from: number; to: number; tag?: [number, string, boolean]; hard?: boolean; back: React.ReactNode; el: React.ReactNode };
 const BEATS: Beat[] = [
   { from: 0.0, to: 14.86, back: null, el: (<>
-<Center x={960} y={520}><div style={{ scale: "1" }}><Receipt10 at={0.05} w={860} circleAt={13.34} circleLine={2} lines={[{ label: "BURGER", value: "$24.75", at: 0.1 }, { label: "TRUFFLE FRIES UPGRADE", value: "$3.00", at: 4.22 }, { label: "ADMIN FEE", value: "$0.83", at: 12.24, fee: true, hlAt: 13.34 }]} /></div></Center><Center x={960} y={1010}><Label6 at={0.3} size={22} color={C6.mint}>THE RECEIPT AS POSTED ON REDDIT · OUR RECREATION</Label6></Center>
+<Evidence src="evidence/t10/reddit-receipt.png" size={[940, 1244]} dur={14.86} frame="paper" marks={[{ x: 134, y: 766, w: 536, h: 44, at: 1.92 }, { x: 190, y: 806, w: 480, h: 44, at: 4.22 }, { x: 150, y: 926, w: 530, h: 48, at: 12.24 }]} zoom={0.62} source="REDDIT · r/EndTipping · OCT 2026 · SERVER'S NAME BLURRED" /><Center x={960} y={960}><In at={13.34} from="fade"><Plate6 at={13.34}><Label6 at={13.34} size={44} color={C6.loss}>ADMIN FEE · 83¢</Label6></Plate6></In></Center>
 </>) },
   { from: 14.86, to: 18.02, back: (<><Stock6 n={30} dur={3.16} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={44} color={C6.ink}>DENVER, COLORADO</Label6></Plate6></In></Center>
@@ -29,7 +29,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t10/fox-earls.png" size={[2880, 1800]} dur={4.28} frame="screen" marks={[{ x: 702, y: 601, w: 78, h: 42, at: 2.56 }]} focus={{ x: 60, y: 180, w: 1640, h: 900 }} zoom={0.9} source="FOX NEWS · NOV 2026" url="foxnews.com" />
 </>) },
   { from: 22.3, to: 30.04, back: null, el: (<>
-<Center x={960} y={200}><In at={0.05} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={34} color={C6.mint}>ONE QUESTION</Label6></Plate6></In></Center><Center y={430}><Words text="“What is an admin fee?”" at={2.58} size={96} maxW={1500} hl={["admin", "fee?\u201d"]} /></Center><Center y={690}><Label6 at={2.58} size={30} color={C6.mint}>THE DINER, AS QUOTED BY FOX NEWS (PARAPHRASED)</Label6></Center><Center x={960} y={900}><In at={5.6} from="fade"><Plate6 at={5.6}><Label6 at={5.6} size={56} color={C6.loss}>“NO TIP FOR YOU!”</Label6></Plate6></In></Center>
+<Evidence src="evidence/t10/reddit-post.png" size={[1554, 1570]} dur={7.74} frame="screen" marks={[{ x: 70, y: 1476, w: 524, h: 40, at: 2.58 }, { x: 586, y: 1516, w: 200, h: 40, at: 5.6 }]} focus={{ x: 70, y: 1476, w: 524, h: 40 }} zoom={1.4} source="REDDIT · r/EndTipping · OCT 2026 · USERNAME HIDDEN" url="reddit.com" />
 </>) },
   { from: 30.04, to: 35.7, back: null, el: (<>
 <Center y={440}><Words text="$14 → $31" at={0.15} size={200} hl={["$31"]} /></Center><Center x={960} y={760}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={34} color={C6.ink}>LAST TIME: ONE BURGER, FROM THE MENU TO THE TERMINAL</Label6></Plate6></In></Center>
@@ -87,7 +87,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={32} color={C6.ink}>TECHNOMIC'S CONSUMER INSIGHTS DIRECTOR</Label6></Plate6></In></Center><Center y={430}><Words text="“You feel like you’re paying a cable bill.”" at={3.3} size={96} maxW={1500} hl={["cable", "bill.\u201d"]} /></Center><Center y={690}><Label6 at={3.3} size={30} color={C6.mint}>ROBERT BYRNE · TECHNOMIC</Label6></Center>
 </>) },
   { from: 154.54, to: 160.08, back: null, el: (<>
-<Center x={960} y={520}><div style={{ scale: "0.9" }}><Receipt10 at={0.05} w={860} circleAt={4.24} circleLine={2} lines={[{ label: "BURGER", value: "$24.75", at: 0.05 }, { label: "TRUFFLE FRIES UPGRADE", value: "$3.00", at: 0.05 }, { label: "ADMIN FEE", value: "$0.83", at: 0.05, fee: true, hlAt: 4.24 }]} /></div></Center>
+<Evidence src="evidence/t10/reddit-receipt.png" size={[940, 1244]} dur={5.54} frame="paper" marks={[{ x: 150, y: 926, w: 530, h: 48, at: 4.24 }]} focus={{ x: 150, y: 926, w: 530, h: 48 }} zoom={1.3} source="REDDIT · r/EndTipping · OCT 2026" />
 </>) },
   { from: 160.08, to: 162.86, back: (<><Stock6 n={38} dur={2.78} dim={0.2} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={56} color={C6.accent}>IT COSTS THE RESTAURANT YOU</Label6></Plate6></In></Center>
@@ -267,7 +267,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={220}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={44} color={C6.ink}>BAIT YOU CAN SEE</Label6></Plate6></In></Center><Center y={470}><Words text="A number you can check." at={3.68} size={120} hl={["check."]} /></Center><Center x={960} y={860}><In at={7.02} from="fade"><Plate6 at={7.02}><Label6 at={7.02} size={38} color={C6.accent}>THAT'S WHAT PEOPLE WERE STARVING FOR</Label6></Plate6></In></Center>
 </>) },
   { from: 519.62, to: 529.8, tag: [6, "Your Move", true], hard: true, back: null, el: (<>
-<Center x={960} y={500}><div style={{ scale: "0.9" }}><Receipt10 at={0.05} w={860} circleAt={5.62} circleLine={2} lines={[{ label: "BURGER", value: "$24.75", at: 0.05 }, { label: "TRUFFLE FRIES UPGRADE", value: "$3.00", at: 0.05 }, { label: "ADMIN FEE", value: "$0.83", at: 0.05, fee: true }]} /></div></Center><Center x={960} y={980}><In at={7.58} from="fade"><Plate6 at={7.58}><Label6 at={7.58} size={34} color={C6.accent}>HERE'S HOW YOU DON'T GET PLAYED</Label6></Plate6></In></Center>
+<Evidence src="evidence/t10/reddit-post.png" size={[1554, 1570]} dur={10.18} frame="screen" marks={[{ x: 474, y: 996, w: 536, h: 44, at: 3.5 }, { x: 530, y: 1036, w: 480, h: 44, at: 4.06 }, { x: 490, y: 1156, w: 530, h: 48, at: 5.62 }]} zoom={0.55} source="REDDIT · r/EndTipping · OCT 2026" url="reddit.com" /><Center x={960} y={980}><In at={7.58} from="fade"><Plate6 at={7.58}><Label6 at={7.58} size={34} color={C6.accent}>HERE'S HOW YOU DON'T GET PLAYED</Label6></Plate6></In></Center>
 </>) },
   { from: 529.8, to: 534.72, back: (<><Stock6 n={29} dur={4.92} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.accent}>1 · READ THE BOTTOM OF THE MENU — BEFORE YOU ORDER</Label6></Plate6></In></Center>

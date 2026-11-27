@@ -1,0 +1,35 @@
+{
+ "size": [
+  940,
+  1244
+ ],
+ "url": "https://www.reddit.com/r/EndTipping/comments/1xixvk6/admin_fee_anyone/",
+ "host": "reddit.com",
+ "frame": "paper",
+ "finds": {
+  "burger": [
+   134,
+   766,
+   536,
+   44
+  ],
+  "truffle": [
+   190,
+   806,
+   480,
+   44
+  ],
+  "admin": [
+   150,
+   926,
+   530,
+   48
+  ],
+  "total": [
+   104,
+   1054,
+   676,
+   48
+  ]
+ }
+}
