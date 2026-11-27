@@ -399,6 +399,36 @@
    "id": 33715990,
    "url": "https://images.pexels.com/photos/33715990/pexels-photo-33715990.jpeg?auto=compress&cs=tinysrgb&w=1920",
    "photo": true
+  },
+  {
+   "name": "78-live-cbs-closed",
+   "local": true,
+   "credit": "CBS Evening News, YouTube Ck2OlqZQSHI 2:29.5\u20132:35"
+  },
+  {
+   "name": "79-live-fox5-shutters",
+   "local": true,
+   "credit": "FOX 5 New York, YouTube DPXk-OAUnSA 1:00\u20131:08"
+  },
+  {
+   "name": "80-live-chilis-pepper",
+   "local": true,
+   "credit": "Chili's ad 'No Mascot', YouTube DM0AUuyHZWA 0:17.5\u20130:21.5"
+  },
+  {
+   "name": "81-live-chilis-pepper2",
+   "local": true,
+   "credit": "Chili's ad 'No Mascot', YouTube DM0AUuyHZWA 0:07.6\u20130:09.8"
+  },
+  {
+   "name": "82-live-abc-ceo",
+   "local": true,
+   "credit": "ABC News, YouTube m7SWPFzdkFw 0:44.5\u20130:51"
+  },
+  {
+   "name": "83-live-abc-statement",
+   "local": true,
+   "credit": "ABC News, YouTube m7SWPFzdkFw 1:04.5\u20131:09.5"
   }
  ]
 }
