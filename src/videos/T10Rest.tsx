@@ -5,6 +5,7 @@ import { DiningRoom, ForkRoad, FeeStamps, TwoLines, ViewCount } from "../brand/t
 import { ThreeMoves } from "../brand/t08";
 import { Checklist } from "../brand/t07";
 import { TipScreen } from "../brand/t06";
+import { Drift } from "../brand/t03";
 import { Evidence } from "../brand/evidence";
 
 // ===================================================================
@@ -32,14 +33,14 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t10/reddit-post.png" size={[1554, 1570]} dur={7.74} frame="screen" marks={[{ x: 70, y: 1476, w: 524, h: 40, at: 2.58 }, { x: 586, y: 1516, w: 200, h: 40, at: 5.6 }]} focus={{ x: 70, y: 1476, w: 524, h: 40 }} zoom={1.4} source="REDDIT · r/EndTipping · OCT 2026 · USERNAME HIDDEN" url="reddit.com" />
 </>) },
   { from: 30.04, to: 35.7, back: null, el: (<>
-<Center y={440}><Words text="$14 → $31" at={0.15} size={200} hl={["$31"]} /></Center><Center x={960} y={760}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={34} color={C6.ink}>LAST TIME: ONE BURGER, FROM THE MENU TO THE TERMINAL</Label6></Plate6></In></Center>
+<Drift><Center y={440}><Words text="$14 → $31" at={0.15} size={200} hl={["$31"]} /></Center><Center x={960} y={760}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={34} color={C6.ink}>LAST TIME: ONE BURGER, FROM THE MENU TO THE TERMINAL</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 35.7, to: 42.84, back: (<><Stock6 n={61} dur={7.14} dim={0} graphics={true} />
 <Stock6 n={39} from={5.2} dur={7.14} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={5.2} from="fade"><Plate6 at={5.2}><Label6 at={5.2} size={56} color={C6.accent}>THEY'RE EMPTYING RESTAURANTS</Label6></Plate6></In></Center>
 </>) },
   { from: 42.84, to: 51.74, back: null, el: (<>
-<Center x={820} y={500}><DiningRoom at={0.05} from={0.53} to={0.39} toAt={7.7} pctFrom="53%" pctTo="39%" label="AMERICANS WHO EAT AT A RESTAURANT AT LEAST ONCE A WEEK · GALLUP" w={1000} /></Center><Center x={360} y={980}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>2019</Label6></Plate6></In></Center><Center x={1560} y={980}><In at={5.22} from="fade"><Plate6 at={5.22}><Label6 at={5.22} size={36} color={C6.loss}>2026</Label6></Plate6></In></Center>
+<Drift><Center x={820} y={500}><DiningRoom at={0.05} from={0.53} to={0.39} toAt={7.7} pctFrom="53%" pctTo="39%" label="AMERICANS WHO EAT AT A RESTAURANT AT LEAST ONCE A WEEK · GALLUP" w={1000} /></Center><Center x={360} y={980}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>2019</Label6></Plate6></In></Center><Center x={1560} y={980}><In at={5.22} from="fade"><Plate6 at={5.22}><Label6 at={5.22} size={36} color={C6.loss}>2026</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 51.74, to: 54.92, back: null, el: (<>
 <Evidence src="evidence/t10/fox5-gallup.png" size={[2880, 1800]} dur={3.18} frame="screen" marks={[{ x: 151, y: 593, w: 67, h: 34, at: 0.42 }]} zoom={0.9} source="FOX 5 ATLANTA · GALLUP, JULY 2026" url="fox5atlanta.com" />
@@ -60,13 +61,13 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t10/nra-costs2.png" size={[2880, 1800]} dur={6.8} frame="screen" marks={[{ x: 1265, y: 601, w: 80, h: 48, at: 3.9 }]} zoom={0.9} source="NATIONAL RESTAURANT ASSOCIATION" url="restaurant.org" /><Center x={960} y={960}><In at={3.9} from="fade"><Plate6 at={3.9}><Label6 at={3.9} size={32} color={C6.accent}>COST OF RUNNING A RESTAURANT: +36% SINCE BEFORE THE PANDEMIC</Label6></Plate6></In></Center>
 </>) },
   { from: 86.98, to: 94.14, back: null, el: (<>
-<Center y={470}><Donut6 at={0.1} pct={42} center="42%" label="OF RESTAURANTS: NO PROFIT LAST YEAR" color={C6.loss} /></Center><Source6 at={0.4}>National Restaurant Association · via WTOP, Feb 2026</Source6>
+<Drift><Center y={470}><Donut6 at={0.1} pct={42} center="42%" label="OF RESTAURANTS: NO PROFIT LAST YEAR" color={C6.loss} /></Center><Source6 at={0.4}>National Restaurant Association · via WTOP, Feb 2026</Source6></Drift>
 </>) },
   { from: 94.14, to: 105.46, back: null, el: (<>
-<Center y={480}><ForkRoad at={0.1} bAt={5.98} hlAt={8.68} /></Center>
+<Drift><Center y={480}><ForkRoad at={0.1} bAt={5.98} hlAt={8.68} /></Center></Drift>
 </>) },
   { from: 105.46, to: 113.94, back: null, el: (<>
-<Center x={960} y={150}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.accent}>DOOR NUMBER TWO</Label6></Plate6></In></Center><Center y={540}><FeeStamps fees={[{ text: "SERVICE FEE", at: 2.4 }, { text: "KITCHEN APPRECIATION FEE", at: 3.7 }, { text: "OPERATIONS CHARGE", at: 5.16 }, { text: "ADMIN FEE", at: 7.16, red: true }]} /></Center>
+<Drift><Center x={960} y={150}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.accent}>DOOR NUMBER TWO</Label6></Plate6></In></Center><Center y={540}><FeeStamps fees={[{ text: "SERVICE FEE", at: 2.4 }, { text: "KITCHEN APPRECIATION FEE", at: 3.7 }, { text: "OPERATIONS CHARGE", at: 5.16 }, { text: "ADMIN FEE", at: 7.16, red: true }]} /></Center></Drift>
 </>) },
   { from: 113.94, to: 123.36, back: (<><Stock6 n={36} dur={9.42} dim={0} graphics={true} />
 <Stock6 n={37} from={5.64} dur={9.42} dim={0} graphics={true} /></>), el: (<>
@@ -83,7 +84,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={36} color={C6.ink}>TECHNOMIC · 1,000 DINERS · AN AUTOMATIC FEE ON THE BILL</Label6></Plate6></In></Center><Source6 at={0.4}>Technomic survey · via Restaurant Business</Source6>
 </>) },
   { from: 143.4, to: 148.74, back: null, el: (<>
-<Center y={450}><Donut6 at={0.1} pct={40} center="40%" label="“I’D BE LESS LIKELY TO COME BACK”" /></Center><Source6 at={0.4}>Technomic survey · via Restaurant Business</Source6>
+<Drift><Center y={450}><Donut6 at={0.1} pct={40} center="40%" label="“I’D BE LESS LIKELY TO COME BACK”" /></Center><Source6 at={0.4}>Technomic survey · via Restaurant Business</Source6></Drift>
 </>) },
   { from: 148.74, to: 154.54, back: null, el: (<>
 <Evidence src="evidence/t10/rb-technomic2.png" size={[2880, 1800]} dur={5.8} frame="screen" marks={[{ x: 916, y: 603, w: 310, h: 150, at: 4.1 }]} zoom={0.9} source="RESTAURANT BUSINESS · ROBERT BYRNE, TECHNOMIC" url="restaurantbusinessonline.com" />
@@ -104,14 +105,14 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={3.86} from="fade"><Plate6 at={3.86}><Label6 at={3.86} size={52} color={C6.accent}>THE SCREEN WAS</Label6></Plate6></In></Center>
 </>) },
   { from: 183.76, to: 191.72, back: null, el: (<>
-<Center y={500}><TipScreen at={0.1} total="" label="" sub="ADD A TIP?" w={600} /></Center><Center x={960} y={990}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={22} color={C6.mint}>ILLUSTRATION</Label6></Plate6></In></Center>
+<Drift><Center y={500}><TipScreen at={0.1} total="" label="" sub="ADD A TIP?" w={600} /></Center><Center x={960} y={990}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={22} color={C6.mint}>ILLUSTRATION</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 191.72, to: 197.5, back: (<><Stock6 n={10} dur={5.78} dim={0} graphics={true} />
 <Stock6 n={47} from={3.08} dur={5.78} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.08} from="fade"><Plate6 at={3.08}><Label6 at={3.08} size={46} color={C6.ink}>YOU ORDERED IT. YOU CARRIED IT.</Label6></Plate6></In></Center>
 </>) },
   { from: 197.5, to: 206.92, back: null, el: (<>
-<Center y={470}><TwoBars at={0.1} a={{ label: "A YEAR EARLIER", value: "35%", v: 35 }} b={{ label: "2025", value: "41%", v: 41, color: C6.loss, at: 2.9 }} h={440} /></Center><Center x={960} y={940}><In at={5.18} from="fade"><Plate6 at={5.18}><Label6 at={5.18} size={34} color={C6.accent}>“TIPPING CULTURE IS OUT OF CONTROL”</Label6></Plate6></In></Center><Source6 at={0.4}>Bankrate survey · 2025</Source6>
+<Drift><Center y={470}><TwoBars at={0.1} a={{ label: "A YEAR EARLIER", value: "35%", v: 35 }} b={{ label: "2025", value: "41%", v: 41, color: C6.loss, at: 2.9 }} h={440} /></Center><Center x={960} y={940}><In at={5.18} from="fade"><Plate6 at={5.18}><Label6 at={5.18} size={34} color={C6.accent}>“TIPPING CULTURE IS OUT OF CONTROL”</Label6></Plate6></In></Center><Source6 at={0.4}>Bankrate survey · 2025</Source6></Drift>
 </>) },
   { from: 206.92, to: 212.22, back: (<><Stock6 n={70} dur={5.3} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.46} from="fade"><Plate6 at={0.46}><Label6 at={0.46} size={40} color={C6.accent}>~2 IN 5: THE PRE-SET TIP SCREEN BUGS THEM</Label6></Plate6></In></Center><Source6 at={0.4}>Bankrate · 2025</Source6>
@@ -126,7 +127,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} out={4.08} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.ink}>THE FEES MAKE IT WORSE</Label6></Plate6></In></Center><Center y={440}><BigNum at={4.08} size={220} label="THINK A SERVICE FEE IS THE TIP · TECHNOMIC">25%+</BigNum></Center>
 </>) },
   { from: 238.14, to: 248.26, back: null, el: (<>
-<Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.accent}>IT ISN'T THE TIP</Label6></Plate6></In></Center><Center y={480}><ThreeMoves steps={[{ word: "FEE", sub: "the owner adds", at: 3.94 }, { word: "NO TIP", sub: "the customer skips", at: 5.2 }, { word: "LESS", sub: "for the server", at: 8.34 }]} /></Center>
+<Drift><Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.accent}>IT ISN'T THE TIP</Label6></Plate6></In></Center><Center y={480}><ThreeMoves steps={[{ word: "FEE", sub: "the owner adds", at: 3.94 }, { word: "NO TIP", sub: "the customer skips", at: 5.2 }, { word: "LESS", sub: "for the server", at: 8.34 }]} /></Center></Drift>
 </>) },
   { from: 248.26, to: 251.44, back: (<><Stock6 n={44} dur={3.18} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.05} out={1.62} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={50} color={C6.ink}>EVERYBODY LOSES</Label6></Plate6></In></Center><Center x={960} y={880}><In at={1.62} from="fade"><Plate6 at={1.62}><Label6 at={1.62} size={50} color={C6.accent}>…EXCEPT THE RECEIPT</Label6></Plate6></In></Center>
@@ -157,14 +158,14 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={3.14} from="fade"><Plate6 at={3.14}><Label6 at={3.14} size={38} color={C6.ink}>RESTAURANT PRICES CLIMB FASTER THAN GROCERIES</Label6></Plate6></In></Center>
 </>) },
   { from: 298.46, to: 304.64, tag: [4, "The Exit", false], back: null, el: (<>
-<Center y={470}><TwoLines at={0.2} aAt={0.98} bAt={4.6} /></Center>
+<Drift><Center y={470}><TwoLines at={0.2} aAt={0.98} bAt={4.6} /></Center></Drift>
 </>) },
   { from: 304.64, to: 309.24, back: (<><Stock6 n={11} dur={4.6} dim={0} graphics={true} />
 <Stock6 n={13} from={2.4} dur={4.6} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.4} from="fade"><Plate6 at={2.4}><Label6 at={2.4} size={42} color={C6.ink}>YOUR OWN KITCHEN LOOKS A LITTLE BETTER</Label6></Plate6></In></Center>
 </>) },
   { from: 309.24, to: 313.7, back: null, el: (<>
-<Center y={450}><Donut6 at={0.1} pct={60} center="6 in 10" label="AMERICANS EATING OUT LESS OFTEN" /></Center><Source6 at={0.4}>Popmenu surveys · 2026</Source6>
+<Drift><Center y={450}><Donut6 at={0.1} pct={60} center="6 in 10" label="AMERICANS EATING OUT LESS OFTEN" /></Center><Source6 at={0.4}>Popmenu surveys · 2026</Source6></Drift>
 </>) },
   { from: 313.7, to: 320.36, back: (<><Stock6 n={48} dur={6.66} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={1.32} out={3.88} from="fade"><Plate6 at={1.32}><Label6 at={1.32} size={50} color={C6.accent}>CUT THE MOST: DINNER</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.88} from="fade"><Plate6 at={3.88}><Label6 at={3.88} size={40} color={C6.ink}>THE ONE WITH THE TIP SCREEN AND THE FEE</Label6></Plate6></In></Center>
@@ -197,7 +198,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={44} color={C6.ink}>ONE MORE NUMBER</Label6></Plate6></In></Center>
 </>) },
   { from: 366.98, to: 374.32, back: null, el: (<>
-<Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>EAT OUT ONLY A FEW TIMES A YEAR</Label6></Plate6></In></Center><Center x={620} y={500}><BigNum at={1.34} size={180} label="2019">1 in 10</BigNum></Center><Center x={1300} y={500}><BigNum at={4.96} size={180} color={C6.loss} label="2026">1 in 5</BigNum></Center><Source6 at={0.4}>Gallup · via Fox News / NewsNation</Source6>
+<Drift><Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>EAT OUT ONLY A FEW TIMES A YEAR</Label6></Plate6></In></Center><Center x={620} y={500}><BigNum at={1.34} size={180} label="2019">1 in 10</BigNum></Center><Center x={1300} y={500}><BigNum at={4.96} size={180} color={C6.loss} label="2026">1 in 5</BigNum></Center><Source6 at={0.4}>Gallup · via Fox News / NewsNation</Source6></Drift>
 </>) },
   { from: 374.32, to: 380.56, back: (<><Stock6 n={12} dur={6.24} dim={0} graphics={true} />
 <Stock6 n={32} from={2.5} dur={6.24} dim={0} graphics={true} /></>), el: (<>
@@ -207,29 +208,29 @@ const BEATS: Beat[] = [
 <Subscribe6 at={4.08} /><Center x={960} y={990}><In at={5.06} from="fade"><Plate6 at={5.06}><Label6 at={5.06} size={32} color={C6.accent}>EVERY WEEK · ONE BILL · LINE BY LINE</Label6></Plate6></In></Center>
 </>) },
   { from: 389.46, to: 396.32, tag: [5, "The Opposite", true], hard: true, back: null, el: (<>
-<Center x={960} y={500}><DiningRoom at={0.05} from={0.39} fillAt={5.74} label="IF EVERYBODY IS LOSING CUSTOMERS…" w={1000} /></Center>
+<Drift><Center x={960} y={500}><DiningRoom at={0.05} from={0.39} fillAt={5.74} label="IF EVERYBODY IS LOSING CUSTOMERS…" w={1000} /></Center></Drift>
 </>) },
   { from: 396.32, to: 400.68, back: (<><Stock6 n={42} dur={4.36} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>JULY 2026 · A POST ON X</Label6></Plate6></In></Center><Source6 at={0.4}>ILLUSTRATIVE FOOTAGE</Source6>
 </>) },
   { from: 400.68, to: 406.2, back: null, el: (<>
-<Center x={960} y={300}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={38} color={C6.ink}>A BACON KING MEAL · BURGER KING MENU</Label6></Plate6></In></Center><Center y={520}><Words text="$18.19" at={3.0} size={220} hl={["$18.19"]} /></Center><Source6 at={0.4}>Price as posted on X · via Fox News, July 2026</Source6>
+<Drift><Center x={960} y={300}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={38} color={C6.ink}>A BACON KING MEAL · BURGER KING MENU</Label6></Plate6></In></Center><Center y={520}><Words text="$18.19" at={3.0} size={220} hl={["$18.19"]} /></Center><Source6 at={0.4}>Price as posted on X · via Fox News, July 2026</Source6></Drift>
 </>) },
   { from: 406.2, to: 410.36, back: null, el: (<>
-<Center y={430}><Words text="“Why should I get this when I could just go to a restaurant?”" at={1.18} size={78} maxW={1500} hl={["restaurant?\u201d"]} /></Center><Center y={690}><Label6 at={1.18} size={30} color={C6.mint}>A BURGER KING CUSTOMER ON X · VIA FOX NEWS</Label6></Center>
+<Drift><Center y={430}><Words text="“Why should I get this when I could just go to a restaurant?”" at={1.18} size={78} maxW={1500} hl={["restaurant?\u201d"]} /></Center><Center y={690}><Label6 at={1.18} size={30} color={C6.mint}>A BURGER KING CUSTOMER ON X · VIA FOX NEWS</Label6></Center></Drift>
 </>) },
   { from: 410.36, to: 413.44, back: (<><Stock6 n={54} dur={3.08} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.24} from="fade"><Plate6 at={2.24}><Label6 at={2.24} size={60} color={C6.accent}>CHILI'S</Label6></Plate6></In></Center><Source6 at={0.3}>Photo: Frank Schulenburg · CC BY-SA 4.0</Source6>
 </>) },
   { from: 413.44, to: 419.2, back: null, el: (<>
-<Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.accent}>CHILI'S, ON X</Label6></Plate6></In></Center><Center y={430}><Words text="“Why do y’all let fast food play you like this?”" at={0.2} size={86} maxW={1500} hl={["play", "you"]} /></Center><Center y={690}><Label6 at={0.2} size={30} color={C6.mint}>CHILI'S, REPLYING ON X · JULY 2026</Label6></Center>
+<Drift><Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.accent}>CHILI'S, ON X</Label6></Plate6></In></Center><Center y={430}><Words text="“Why do y’all let fast food play you like this?”" at={0.2} size={86} maxW={1500} hl={["play", "you"]} /></Center><Center y={690}><Label6 at={0.2} size={30} color={C6.mint}>CHILI'S, REPLYING ON X · JULY 2026</Label6></Center></Drift>
 </>) },
   { from: 419.2, to: 425.74, back: (<><Stock6 n={22} dur={6.54} dim={0} graphics={true} />
 <Stock6 n={21} from={3.48} dur={6.54} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} out={5.2} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={32} color={C6.ink}>SANDWICH · FRIES · BOTTOMLESS CHIPS & SALSA · UNLIMITED DRINK</Label6></Plate6></In></Center><Center x={960} y={880}><In at={5.2} from="fade"><Plate6 at={5.2}><Label6 at={5.2} size={80} color={C6.money}>$10.99</Label6></Plate6></In></Center>
 </>) },
   { from: 425.74, to: 429.54, back: null, el: (<>
-<Center y={470}><ViewCount at={0.15} /></Center><Source6 at={0.4}>Fox News · July 2026</Source6>
+<Drift><Center y={470}><ViewCount at={0.15} /></Center><Source6 at={0.4}>Fox News · July 2026</Source6></Drift>
 </>) },
   { from: 429.54, to: 440.72, back: (<><Stock6 n={53} dur={11.18} dim={0} graphics={true} />
 <Stock6 n={84} from={4.54} dur={11.18} dim={0} graphics={true} /></>), el: (<>
@@ -248,10 +249,10 @@ const BEATS: Beat[] = [
 <Center x={960} y={120}><In at={7.2} from="fade"><Plate6 at={7.2}><Label6 at={7.2} size={36} color={C6.accent}>“WE DON'T HAVE TO PAY FOR ANY MASCOTS”</Label6></Plate6></In></Center><Source6 at={0.3}>Chili's TV ad · 2024</Source6>
 </>) },
   { from: 469.5, to: 479.82, back: null, el: (<>
-<Center x={620} y={430}><BigNum at={0.1} size={190} color={C6.money} label="SALES">+24%</BigNum></Center><Center x={1300} y={430}><BigNum at={7.6} size={190} color={C6.money} label="GUESTS">+16%</BigNum></Center><Center x={960} y={900}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={32} color={C6.ink}>CHILI'S · APRIL–JUNE 2025 · SAME RESTAURANTS</Label6></Plate6></In></Center><Source6 at={0.4}>Brinker earnings · via Restaurant Business</Source6>
+<Drift><Center x={620} y={430}><BigNum at={0.1} size={190} color={C6.money} label="SALES">+24%</BigNum></Center><Center x={1300} y={430}><BigNum at={7.6} size={190} color={C6.money} label="GUESTS">+16%</BigNum></Center><Center x={960} y={900}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={32} color={C6.ink}>CHILI'S · APRIL–JUNE 2025 · SAME RESTAURANTS</Label6></Plate6></In></Center><Source6 at={0.4}>Brinker earnings · via Restaurant Business</Source6></Drift>
 </>) },
   { from: 479.82, to: 484.78, back: null, el: (<>
-<Center x={620} y={430}><BigNum at={0.1} size={190} color={C6.money} label="SALES">+21%</BigNum></Center><Center x={1300} y={430}><BigNum at={2.78} size={190} color={C6.money} label="GUESTS">+13%</BigNum></Center><Center x={960} y={900}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={32} color={C6.ink}>THE NEXT QUARTER</Label6></Plate6></In></Center><Source6 at={0.4}>Brinker Q1 FY2026 call</Source6>
+<Drift><Center x={620} y={430}><BigNum at={0.1} size={190} color={C6.money} label="SALES">+21%</BigNum></Center><Center x={1300} y={430}><BigNum at={2.78} size={190} color={C6.money} label="GUESTS">+13%</BigNum></Center><Center x={960} y={900}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={32} color={C6.ink}>THE NEXT QUARTER</Label6></Plate6></In></Center><Source6 at={0.4}>Brinker Q1 FY2026 call</Source6></Drift>
 </>) },
   { from: 484.78, to: 492.16, back: (<><Stock6 n={48} dur={7.38} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={36} color={C6.ink}>EVERYONE ELSE: FEWER CUSTOMERS, MONTH AFTER MONTH</Label6></Plate6></In></Center>
@@ -260,13 +261,13 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} out={3.52} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={50} color={C6.ink}>NOT A CHARITY</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.52} from="fade"><Plate6 at={3.52}><Label6 at={3.52} size={40} color={C6.ink}>2026: GROWTH COOLED · PRICES UP TOO</Label6></Plate6></In></Center><Source6 at={0.3}>Photo: Michael Rivera · CC BY-SA 4.0</Source6>
 </>) },
   { from: 498.66, to: 505.22, back: null, el: (<>
-<Center x={620} y={460}><BigNum at={0.54} size={180} label="EAT OFF THE 3 FOR ME MENU">1 in 5</BigNum></Center><Center x={1300} y={460}><BigNum at={4.24} size={180} label="PICK THE $10.99 VERSION">1 in 8</BigNum></Center><Source6 at={0.4}>Brinker Q3 FY2026 call · via Motley Fool</Source6>
+<Drift><Center x={620} y={460}><BigNum at={0.54} size={180} label="EAT OFF THE 3 FOR ME MENU">1 in 5</BigNum></Center><Center x={1300} y={460}><BigNum at={4.24} size={180} label="PICK THE $10.99 VERSION">1 in 8</BigNum></Center><Source6 at={0.4}>Brinker Q3 FY2026 call · via Motley Fool</Source6></Drift>
 </>) },
   { from: 505.22, to: 509.82, back: (<><Stock6 n={21} dur={4.6} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.05} out={1.92} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={50} color={C6.accent}>$10.99 = THE BAIT</Label6></Plate6></In></Center><Center x={960} y={880}><In at={1.92} from="fade"><Plate6 at={1.92}><Label6 at={1.92} size={46} color={C6.ink}>EVERYTHING ELSE = THE BUSINESS</Label6></Plate6></In></Center>
 </>) },
   { from: 509.82, to: 519.62, back: null, el: (<>
-<Center x={960} y={220}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={44} color={C6.ink}>BAIT YOU CAN SEE</Label6></Plate6></In></Center><Center y={470}><Words text="A number you can check." at={3.68} size={120} hl={["check."]} /></Center><Center x={960} y={860}><In at={7.02} from="fade"><Plate6 at={7.02}><Label6 at={7.02} size={38} color={C6.accent}>THAT'S WHAT PEOPLE WERE STARVING FOR</Label6></Plate6></In></Center>
+<Drift><Center x={960} y={220}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={44} color={C6.ink}>BAIT YOU CAN SEE</Label6></Plate6></In></Center><Center y={470}><Words text="A number you can check." at={3.68} size={120} hl={["check."]} /></Center><Center x={960} y={860}><In at={7.02} from="fade"><Plate6 at={7.02}><Label6 at={7.02} size={38} color={C6.accent}>THAT'S WHAT PEOPLE WERE STARVING FOR</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 519.62, to: 529.8, tag: [6, "Your Move", true], hard: true, back: null, el: (<>
 <Evidence src="evidence/t10/reddit-post.png" size={[1554, 1570]} dur={10.18} frame="screen" marks={[{ x: 474, y: 996, w: 536, h: 44, at: 3.5 }, { x: 530, y: 1036, w: 480, h: 44, at: 4.06 }, { x: 490, y: 1156, w: 530, h: 48, at: 5.62 }]} zoom={0.55} source="REDDIT · r/EndTipping · OCT 2026" url="reddit.com" /><Center x={960} y={980}><In at={7.58} from="fade"><Plate6 at={7.58}><Label6 at={7.58} size={34} color={C6.accent}>HERE'S HOW YOU DON'T GET PLAYED</Label6></Plate6></In></Center>
@@ -278,10 +279,10 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>2 · A FEE NOBODY TOLD YOU ABOUT? ASK THEM TO TAKE IT OFF</Label6></Plate6></In></Center>
 </>) },
   { from: 538.46, to: 543.96, back: null, el: (<>
-<Center y={480}><TipScreen at={0.05} total="" label="" sub="ADD A TIP?" w={640} /></Center><Center x={960} y={960}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>3 · HIT CUSTOM · TIP ON THE FOOD, NOT THE FEES</Label6></Plate6></In></Center>
+<Drift><Center y={480}><TipScreen at={0.05} total="" label="" sub="ADD A TIP?" w={640} /></Center><Center x={960} y={960}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>3 · HIT CUSTOM · TIP ON THE FOOD, NOT THE FEES</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 543.96, to: 550.86, back: null, el: (<>
-<Center y={520}><Checklist w={1240} items={[{ text: "Read the bottom of the MENU, before you order", at: 0.05 }, { text: "A fee nobody told you about? Ask them to take it off", at: 0.2 }, { text: "Tip screen: hit CUSTOM, tip on the food, not the fees", at: 0.35 }, { text: "Still hiding the price? Don’t go back", at: 5.42 }]} /></Center>
+<Drift><Center y={520}><Checklist w={1240} items={[{ text: "Read the bottom of the MENU, before you order", at: 0.05 }, { text: "A fee nobody told you about? Ask them to take it off", at: 0.2 }, { text: "Tip screen: hit CUSTOM, tip on the food, not the fees", at: 0.35 }, { text: "Still hiding the price? Don’t go back", at: 5.42 }]} /></Center></Drift>
 </>) },
   { from: 550.86, to: 556.66, back: (<><Stock6 n={9} dur={5.8} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.28} from="fade"><Plate6 at={2.28}><Label6 at={2.28} size={38} color={C6.accent}>FLORIDA: THESE CHARGES SHOWN BEFORE YOU ORDER</Label6></Plate6></In></Center>
@@ -290,17 +291,17 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.82} from="fade"><Plate6 at={2.82}><Label6 at={2.82} size={34} color={C6.accent}>FLORIDA INSPECTORS CITED A DUFFY'S · 3% FEE ON THE RECEIPT</Label6></Plate6></In></Center><Source6 at={0.3}>Fox News · Nov 2026</Source6>
 </>) },
   { from: 563.74, to: 566.48, back: null, el: (<>
-<Center y={470}><Words text="Fee: dropped." at={0.1} size={150} hl={["dropped."]} /></Center><Center x={960} y={760}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={32} color={C6.ink}>DUFFY'S SPORTS GRILL · SINCE THE CITATION</Label6></Plate6></In></Center>
+<Drift><Center y={470}><Words text="Fee: dropped." at={0.1} size={150} hl={["dropped."]} /></Center><Center x={960} y={760}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={32} color={C6.ink}>DUFFY'S SPORTS GRILL · SINCE THE CITATION</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 566.48, to: 574.28, back: (<><Stock6 n={17} dur={7.8} dim={0} graphics={true} />
 <Stock6 n={49} from={3.98} dur={7.8} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={5.94} from="fade"><Plate6 at={5.94}><Label6 at={5.94} size={44} color={C6.accent}>PEOPLE GOT TIRED OF BEING PLAYED</Label6></Plate6></In></Center>
 </>) },
   { from: 574.28, to: 577.24, back: null, el: (<>
-<Center x={960} y={500}><DiningRoom at={0.05} from={0.25} fillAt={0.2} label="THE PLACES THAT STOP PLAYING WILL GET US BACK" w={1000} /></Center>
+<Drift><Center x={960} y={500}><DiningRoom at={0.05} from={0.25} fillAt={0.2} label="THE PLACES THAT STOP PLAYING WILL GET US BACK" w={1000} /></Center></Drift>
 </>) },
   { from: 577.24, to: 585.12, back: null, el: (<>
-<Center y={440}><Words text="Which restaurant lost you for good?" at={0.1} size={96} maxW={1500} hl={["for", "good?"]} /></Center><Center x={960} y={720}><In at={2.02} from="fade"><Plate6 at={2.02}><Label6 at={2.02} size={40} color={C6.accent}>TELL ME IN THE COMMENTS ↓</Label6></Plate6></In></Center>
+<Drift><Center y={440}><Words text="Which restaurant lost you for good?" at={0.1} size={96} maxW={1500} hl={["for", "good?"]} /></Center><Center x={960} y={720}><In at={2.02} from="fade"><Plate6 at={2.02}><Label6 at={2.02} size={40} color={C6.accent}>TELL ME IN THE COMMENTS ↓</Label6></Plate6></In></Center></Drift>
 </>) },
 ];
 

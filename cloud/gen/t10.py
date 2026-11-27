@@ -23,7 +23,7 @@ EP = dict(
     broll="cloud/broll/t10.json",
     audio="audio/t10-voiceover.mp3",
     voice_vol=0.9,
-    brand=["t06", "t07", "t08", "t10"],
+    brand=["t03", "t06", "t07", "t08", "t10"],
     music=[],
     lens={},
 )
@@ -313,3 +313,8 @@ EP["music_at"] = [
     ("So here's the question", "audio/t06/music-c4-toast.mp3", 0.08),
     ("So, back to that receipt from Denver", "audio/t07/music-c5-how.mp3", 0.08),
 ]
+
+# урок T09/T10: графическим сценам — медленный свет фона (Drift), иначе неподвижность >3 с
+for _sc in S:
+    if not _sc.get("stock") and "<Evidence" not in _sc.get("el", ""):
+        _sc["el"] = "<Drift>" + _sc["el"] + "</Drift>"
