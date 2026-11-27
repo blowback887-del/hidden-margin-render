@@ -1,0 +1,404 @@
+{
+ "out": "public/broll/t10",
+ "sheet": "public/research/t10-sheet.jpg",
+ "max_sec": 14,
+ "clips": [
+  {
+   "name": "01-closed-street-chairs",
+   "id": 35573206,
+   "url": "https://videos.pexels.com/video-files/35573206/15073649_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "02-empty-dining-warm",
+   "id": 31877279,
+   "url": "https://videos.pexels.com/video-files/31877279/13578888_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "03-empty-cafe-night",
+   "id": 29562989,
+   "url": "https://videos.pexels.com/video-files/29562989/12725214_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "04-empty-cafe-windows",
+   "id": 36461686,
+   "url": "https://videos.pexels.com/video-files/36461686/15460868_2560_1440_24fps.mp4"
+  },
+  {
+   "name": "05-waitress-closing",
+   "id": 8441757,
+   "url": "https://videos.pexels.com/video-files/8441757/8441757-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "06-closed-sign-flip",
+   "id": 6229611,
+   "url": "https://videos.pexels.com/video-files/6229611/6229611-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "07-sorry-closed",
+   "id": 13633619,
+   "url": "https://videos.pexels.com/video-files/13633619/13633619-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "08-card-terminal",
+   "id": 8830802,
+   "url": "https://videos.pexels.com/video-files/8830802/8830802-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "09-pos-restaurant",
+   "id": 4524439,
+   "url": "https://videos.pexels.com/video-files/4524439/4524439-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "10-kiosk-bar",
+   "id": 37133173,
+   "url": "https://videos.pexels.com/video-files/37133173/15730983_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "11-cooking-pan",
+   "id": 854216,
+   "url": "https://videos.pexels.com/video-files/854216/854216-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "12-family-cooking",
+   "id": 8480206,
+   "url": "https://videos.pexels.com/video-files/8480206/8480206-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "13-spaghetti-home",
+   "id": 12691834,
+   "url": "https://videos.pexels.com/video-files/12691834/12691834-uhd_2560_1440_60fps.mp4"
+  },
+  {
+   "name": "14-grocery-aisles",
+   "id": 10901926,
+   "url": "https://videos.pexels.com/video-files/10901926/10901926-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "15-grocery-checkout",
+   "id": 39221980,
+   "url": "https://videos.pexels.com/video-files/39221980/16690550_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "16-friends-orlando",
+   "id": 32085182,
+   "url": "https://videos.pexels.com/video-files/32085182/13676905_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "17-friends-laughing",
+   "id": 9782943,
+   "url": "https://videos.pexels.com/video-files/9782943/9782943-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "18-drive-thru-pay",
+   "id": 6529448,
+   "url": "https://videos.pexels.com/video-files/6529448/6529448-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "19-drive-thru-order",
+   "id": 6529451,
+   "url": "https://videos.pexels.com/video-files/6529451/6529451-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "20-drive-thru-night",
+   "id": 19953502,
+   "url": "https://videos.pexels.com/video-files/19953502/19953502-uhd_2560_1440_24fps.mp4"
+  },
+  {
+   "name": "21-chips-salsa",
+   "id": 8522839,
+   "url": "https://videos.pexels.com/video-files/8522839/8522839-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "22-salsa-pour",
+   "id": 7613403,
+   "url": "https://videos.pexels.com/video-files/7613403/7613403-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "23-chilis-tumble",
+   "id": 11089428,
+   "url": "https://videos.pexels.com/video-files/11089428/11089428-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "24-burger-fries-plate",
+   "id": 4676465,
+   "url": "https://videos.pexels.com/video-files/4676465/4676465-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "25-burger-close",
+   "id": 8879530,
+   "url": "https://videos.pexels.com/video-files/8879530/8879530-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "26-calc-receipts",
+   "id": 7710749,
+   "url": "https://videos.pexels.com/video-files/7710749/7710749-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "27-frustrated-receipts",
+   "id": 5981292,
+   "url": "https://videos.pexels.com/video-files/5981292/5981292-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "28-waitress-wipe",
+   "id": 8440523,
+   "url": "https://videos.pexels.com/video-files/8440523/8440523-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "29-couple-menu",
+   "id": 5102427,
+   "url": "https://videos.pexels.com/video-files/5102427/5102427-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "30-denver-aerial",
+   "id": 13208526,
+   "url": "https://videos.pexels.com/video-files/13208526/13208526-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "31-denver-street",
+   "id": 34490100,
+   "url": "https://videos.pexels.com/video-files/34490100/14613759_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "32-family-dinner",
+   "id": 6305041,
+   "url": "https://videos.pexels.com/video-files/6305041/6305041-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "33-rain-windshield",
+   "id": 9968429,
+   "url": "https://videos.pexels.com/video-files/9968429/9968429-hd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "34-stressed-man",
+   "id": 7640684,
+   "url": "https://videos.pexels.com/video-files/7640684/7640684-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "35-couple-calc",
+   "id": 6963487,
+   "url": "https://videos.pexels.com/video-files/6963487/6963487-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "36-bar-beer",
+   "id": 5847793,
+   "url": "https://videos.pexels.com/video-files/5847793/5847793-uhd_2560_1080_30fps.mp4"
+  },
+  {
+   "name": "37-cracker-dip",
+   "id": 3872464,
+   "url": "https://videos.pexels.com/video-files/3872464/3872464-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "38-alone-candle",
+   "id": 6848412,
+   "url": "https://videos.pexels.com/video-files/6848412/6848412-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "39-restaurant-aerial-night",
+   "id": 31471146,
+   "url": "https://videos.pexels.com/video-files/31471146/13419211_2560_1440_60fps.mp4"
+  },
+  {
+   "name": "40-fastfood-night",
+   "id": 5266863,
+   "url": "https://videos.pexels.com/video-files/5266863/5266863-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "41-diner-tension",
+   "id": 6531895,
+   "url": "https://videos.pexels.com/video-files/6531895/6531895-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "42-burger-parking",
+   "id": 17846383,
+   "url": "https://videos.pexels.com/video-files/17846383/17846383-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "43-patty-flame",
+   "id": 5221128,
+   "url": "https://videos.pexels.com/video-files/5221128/5221128-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "44-dishwashing",
+   "id": 6195932,
+   "url": "https://videos.pexels.com/video-files/6195932/6195932-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "45-cash-tip-bar",
+   "id": 9563522,
+   "url": "https://videos.pexels.com/video-files/9563522/9563522-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "46-cafe-workers-neon",
+   "id": 4254302,
+   "url": "https://videos.pexels.com/video-files/4254302/4254302-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "47-tablet-cafe",
+   "id": 6602061,
+   "url": "https://videos.pexels.com/video-files/6602061/6602061-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "48-table-setting",
+   "id": 7426384,
+   "url": "https://videos.pexels.com/video-files/7426384/7426384-uhd_2560_1080_25fps.mp4"
+  },
+  {
+   "name": "49-friends-toast",
+   "id": 8922360,
+   "url": "https://videos.pexels.com/video-files/8922360/8922360-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "50-elderly-pay-waiter",
+   "id": 6816190,
+   "url": "https://videos.pexels.com/video-files/6816190/6816190-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "51-chef-focused",
+   "id": 8627113,
+   "url": "https://videos.pexels.com/video-files/8627113/8627113-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "52-waiter-thumbs",
+   "id": 6816188,
+   "url": "https://videos.pexels.com/video-files/6816188/6816188-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "53-wm-chilis-cc0",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Chili%27s_restaurant.png/1920px-Chili%27s_restaurant.png",
+   "credit": "Chili's restaurant.png \u2014 TylerMascola \u2014 CC0 (Wikimedia Commons)"
+  },
+  {
+   "name": "54-wm-chilis-chico",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Chili%E2%80%99s_Grill_%26_Bar%2C_Chico_%282026%29-L1000821.jpg/1920px-Chili%E2%80%99s_Grill_%26_Bar%2C_Chico_%282026%29-L1000821.jpg",
+   "credit": "Chili\u2019s Grill & Bar, Chico (2026)-L1000821.jpg \u2014 Frank Schulenburg \u2014 CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "55-wm-chilis-sign",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Chili%27s_closeup%2C_Tifton.jpg/1920px-Chili%27s_closeup%2C_Tifton.jpg",
+   "credit": "Chili's closeup, Tifton.jpg \u2014 Michael Rivera \u2014 CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "56-wm-wendys",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Wendy%E2%80%99s_-_Santa_Rosa_CA_-_Stierch.jpg/1920px-Wendy%E2%80%99s_-_Santa_Rosa_CA_-_Stierch.jpg",
+   "credit": "Wendy\u2019s - Santa Rosa CA - Stierch.jpg \u2014 Missvain \u2014 CC BY 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "57-wm-former-wendys",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Former_Wendy%27s%2C_Palm_Bay%2C_Florida.jpg/1920px-Former_Wendy%27s%2C_Palm_Bay%2C_Florida.jpg",
+   "credit": "Former Wendy's, Palm Bay, Florida.jpg \u2014 Pokemonprime \u2014 CC BY 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "58-wm-bahama",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg/1920px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg",
+   "credit": "Bahama Breeze International Drive Orlando, Florida - 1.jpg \u2014 Nielsoncaetanosalmeron \u2014 CC BY 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "59-wm-smokey",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Smokey_Bones_-_Cranberry_TWP%2C_PA_-_panoramio.jpg/1920px-Smokey_Bones_-_Cranberry_TWP%2C_PA_-_panoramio.jpg",
+   "credit": "Smokey Bones - Cranberry TWP, PA - panoramio.jpg \u2014 v343790 \u2014 CC BY 3.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "60-wm-bk-houston",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Burger_King_exterior_in_Houston%2C_TX.jpg/1920px-Burger_King_exterior_in_Houston%2C_TX.jpg",
+   "credit": "Burger King exterior in Houston, TX.jpg \u2014 Quintin Soloviev \u2014 CC BY 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "61-wm-closed-fudd",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Closed_Fuddruckers%2C_S_Wadsworth_Blvd%2C_Jefferson_Co.%2C_CO.JPG/1920px-Closed_Fuddruckers%2C_S_Wadsworth_Blvd%2C_Jefferson_Co.%2C_CO.JPG",
+   "credit": "Closed Fuddruckers, S Wadsworth Blvd, Jefferson Co., CO.JPG \u2014 Xnatedawgx \u2014 CC BY-SA 3.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "62-wm-closed-boston",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Closed_Boston_Market%2C_Miami_FL_22_May_2024_-_sign_on_door.jpg/1920px-Closed_Boston_Market%2C_Miami_FL_22_May_2024_-_sign_on_door.jpg",
+   "credit": "Closed Boston Market, Miami FL 22 May 2024 - sign on door.jpg \u2014 Phillip Pessar \u2014 CC BY 2.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "63-empty-restaurant",
+   "id": 7320541,
+   "url": "https://videos.pexels.com/video-files/7320541/7320541-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "64-empty-tables",
+   "id": 12153352,
+   "url": "https://videos.pexels.com/video-files/12153352/12153352-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "65-facepalm",
+   "id": 10149185,
+   "url": "https://videos.pexels.com/video-files/10149185/10149185-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "66-shocked-man",
+   "id": 4587767,
+   "url": "https://videos.pexels.com/video-files/4587767/4587767-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "67-empty-drive-thru",
+   "id": 6529446,
+   "url": "https://videos.pexels.com/video-files/6529446/6529446-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "68-woman-upset",
+   "id": 5981352,
+   "url": "https://videos.pexels.com/video-files/5981352/5981352-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "69-empty-cafe",
+   "id": 36461686,
+   "url": "https://videos.pexels.com/video-files/36461686/15460865_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "70-pos-woman",
+   "id": 4524440,
+   "url": "https://videos.pexels.com/video-files/4524440/4524440-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "71-tap-pay",
+   "id": 6540557,
+   "url": "https://videos.pexels.com/video-files/6540557/6540557-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "72-menu-glass",
+   "id": 8428488,
+   "url": "https://videos.pexels.com/video-files/8428488/8428488-hd_2048_1080_25fps.mp4"
+  },
+  {
+   "name": "73-soda-pour",
+   "id": 12511820,
+   "url": "https://videos.pexels.com/video-files/12511820/12511820-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "74-menu-hands",
+   "id": 6327103,
+   "url": "https://videos.pexels.com/video-files/6327103/6327103-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "75-frustrated-man",
+   "id": 6962334,
+   "url": "https://videos.pexels.com/video-files/6962334/6962334-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "76-empty-wallet",
+   "id": 7927581,
+   "url": "https://images.pexels.com/photos/7927581/pexels-photo-7927581.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  },
+  {
+   "name": "77-shrug",
+   "id": 33715990,
+   "url": "https://images.pexels.com/photos/33715990/pexels-photo-33715990.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "photo": true
+  }
+ ]
+}
