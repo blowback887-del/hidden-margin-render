@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.fox5atlanta.com/news/americans-ditching-longtime-tradition-restaurant-dining-hits-record-low.amp",
+ "host": "fox5atlanta.com",
+ "frame": "screen",
+ "finds": {
+  "Gallup": [
+   446,
+   606,
+   116,
+   44
+  ]
+ }
+}

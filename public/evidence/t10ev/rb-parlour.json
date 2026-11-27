@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.restaurantbusinessonline.com/financing/restaurants-keep-adding-service-fees-even-customers-say-they-dont-them",
+ "host": "restaurantbusinessonline.com",
+ "frame": "screen",
+ "finds": {
+  "crackers": [
+   236,
+   711,
+   135,
+   44
+  ],
+  "health": [
+   783,
+   328,
+   99,
+   44
+  ]
+ }
+}

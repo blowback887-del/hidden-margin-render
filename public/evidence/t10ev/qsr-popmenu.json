@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.qsrmagazine.com/news/two-thirds-of-consumers-are-spending-less-at-restaurants-popmenu-finds/",
+ "host": "qsrmagazine.com",
+ "frame": "screen",
+ "finds": {
+  "60%": [
+   456,
+   550,
+   72,
+   44
+  ],
+  "dinner": [
+   1252,
+   550,
+   104,
+   44
+  ]
+ }
+}

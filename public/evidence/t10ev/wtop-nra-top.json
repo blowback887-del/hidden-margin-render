@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://wtop.com/business-finance/2026/02/chief-economist-says-42-of-restaurants-did-not-turn-a-profit-last-year",
+ "host": "wtop.com",
+ "frame": "screen",
+ "finds": {
+  "42%": [
+   730,
+   376,
+   62,
+   38
+  ]
+ }
+}

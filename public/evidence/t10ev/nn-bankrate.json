@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://digital-release.newsnationnow.com/?p=3397808",
+ "host": "digital-release.newsnationnow.com",
+ "frame": "screen",
+ "finds": {
+  "41%": [
+   886,
+   590,
+   72,
+   46
+  ],
+  "out of control": [
+   1056,
+   458,
+   454,
+   100
+  ]
+ }
+}

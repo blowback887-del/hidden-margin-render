@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.foxnews.com/food-drink/restaurant-admin-fees-spark-backlash-diners-question-what-theyre-paying",
+ "host": "foxnews.com",
+ "frame": "screen",
+ "finds": {
+  "Duffy's": [
+   608,
+   601,
+   108,
+   42
+  ]
+ }
+}

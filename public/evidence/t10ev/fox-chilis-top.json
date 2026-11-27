@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.foxnews.com/food-drink/chilis-goes-viral-after-roasting-fast-food-prices-why-let-them-play-you-like-this",
+ "host": "foxnews.com",
+ "frame": "screen",
+ "finds": {
+  "Chili's": [
+   252,
+   595,
+   249,
+   114
+  ]
+ }
+}

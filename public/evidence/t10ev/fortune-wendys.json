@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://dc.fortune.com/2026/02/16/wendys-closes-hundreds-of-restaurants-after-plunge-in-same-store-sales-worse-than-wall-street-expected/",
+ "host": "dc.fortune.com",
+ "frame": "screen",
+ "finds": {
+  "Wendy's": [
+   1718,
+   596,
+   98,
+   34
+  ]
+ }
+}

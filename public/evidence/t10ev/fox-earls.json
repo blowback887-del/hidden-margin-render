@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.foxnews.com/food-drink/restaurant-admin-fees-spark-backlash-diners-question-what-theyre-paying",
+ "host": "foxnews.com",
+ "frame": "screen",
+ "finds": {
+  "Earls": [
+   702,
+   601,
+   78,
+   42
+  ],
+  "No tip for you": [
+   478,
+   1765,
+   212,
+   42
+  ]
+ }
+}
