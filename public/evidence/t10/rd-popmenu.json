@@ -6,5 +6,12 @@
  "url": "https://www.restaurantdive.com/news/tipping-fatigue-popmenu-consumers-pullback-on-tips/817089/",
  "host": "restaurantdive.com",
  "frame": "screen",
- "finds": {}
+ "finds": {
+  "35%": [
+   678,
+   592,
+   176,
+   98
+  ]
+ }
 }

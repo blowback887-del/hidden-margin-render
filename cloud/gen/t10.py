@@ -86,7 +86,7 @@ ILL = "ILLUSTRATIVE FOOTAGE"
 S = [
 # ======================= PART 1 · ХОЛОДНЫЙ ВХОД · ЧЕК =======================
 dict(start="Twenty-four dollars and seventy-five cents", sfx=[('ep06-receipt:0.3', '0.05'), ('ep06-pop:0.25', '@{Plus three dollars}'), ('ep06-stamp:0.3', '@{Admin fee}')],
-     el=ev("t10", "reddit-receipt", marks=[("burger", "For one burger"), ("truffle", "Plus three dollars"), ("admin", "Admin fee")], source="REDDIT · r/EndTipping · OCT 2026 · SERVER'S NAME BLURRED", zoom=0.62) +
+     el=ev("t10", "reddit-receipt", marks=[("burger", "For one burger"), ("truffle", "Plus three dollars"), ("admin", "Admin fee")], source="REDDIT · r/EndTipping · OCT 2026 · SERVER'S NAME BLURRED", zoom=0.62, focus=(0, 0, 940, 1244)) +
         plate("ADMIN FEE · 83¢", "@{Eighty-three cents}", y=960, size=44, color="C6.loss")),
 dict(start="This is a real receipt from a restaurant in Denver", stock=K("denver-aerial"), sfx=[],
      el=plate("DENVER, COLORADO", "0.2", y=880, size=44)),
@@ -114,9 +114,11 @@ dict(start="And before we're done", stock=K("friends-orlando"), sfx=[('rise:0.25
         plate("…AND PACKED ITS DINING ROOMS", "@{And packed its dining rooms}", y=880, size=42)),
 
 # ======================= PART 2 · ГЛАВА 2 · СБОР =======================
-dict(start="Let's be fair to restaurants", tag=C2, hard=True, stock=K("chef-focused"), alt=(K("calc-receipts"), "The National Restaurant Association"), sfx=[('ep06-whoosh:0.2', '0.05'), ('ep06-counter:0.3', '@{thirty-six percent}')],
-     el=plate("THEIR COSTS ARE REAL", "0.3", y=880, size=44, out="@{The National Restaurant Association}") +
-        plate("COST OF RUNNING A RESTAURANT: +36% SINCE BEFORE THE PANDEMIC", "@{thirty-six percent}", y=880, size=34, color="C6.accent") + src("National Restaurant Association", "@{The National Restaurant Association}")),
+dict(start="Let's be fair to restaurants", tag=C2, hard=True, stock=K("chef-focused"), sfx=[('ep06-whoosh:0.2', '0.05')],
+     el=plate("THEIR COSTS ARE REAL", "0.3", y=880, size=44)),
+dict(start="The National Restaurant Association says", tag=C2, stock=None if has("nra-costs2", "36%") else K("calc-receipts"), sfx=[('ep06-counter:0.3', '@{thirty-six percent}')],
+     el=doc("nra-costs2", [("36%", "thirty-six percent")], source="NATIONAL RESTAURANT ASSOCIATION", inset=None, fb=src("National Restaurant Association", "0.2")) +
+        plate("COST OF RUNNING A RESTAURANT: +36% SINCE BEFORE THE PANDEMIC", "@{thirty-six percent}", y=960, size=32, color="C6.accent")),
 dict(start="And forty-two percent of restaurants told the association", dim=0.0, sfx=[('ep06-counter:0.3', '0.1'), ('impact:0.25', '@{Forty-two percent}')],
      el='<Center y={470}><Donut6 at={0.1} pct={42} center="42%" label="OF RESTAURANTS: NO PROFIT LAST YEAR" color={C6.loss} /></Center>' + src("National Restaurant Association · via WTOP, Feb 2026", "0.4")),
 dict(start="So every owner faced the same choice", dim=0.0, sfx=[('ep06-pop:0.25', '@{Raise the menu price}'), ('ep06-pop:0.25', '@{Or keep the menu price}'), ('ding:0.25', "@{somewhere you won't look}")],
@@ -135,17 +137,17 @@ dict(start="The research firm Technomic asked", sfx=[('t02-paper:0.3', '0.05')],
 dict(start="The most common answer, from four in ten people", dim=0.0, sfx=[('ep06-counter:0.3', '0.1'), ('impact:0.25', "@{I'd be less likely}")],
      el='<Center y={450}><Donut6 at={0.1} pct={40} center="40%" label="“I’D BE LESS LIKELY TO COME BACK”" /></Center>' + src("Technomic survey · via Restaurant Business", "0.4")),
 dict(start="Technomic's own consumer insights director", dim=0.0, sfx=[('ep06-pop:0.25', '@{You feel like}')],
-     el=plate("TECHNOMIC'S CONSUMER INSIGHTS DIRECTOR", "0.1", y=200, size=32) + quote("“You feel like you’re paying a cable bill.”", "ROBERT BYRNE · TECHNOMIC", at="@{You feel like}", size=96, hl=["cable", "bill.”"])),
+     el=doc("rb-technomic2", [("cable bill", "paying a cable bill")], source="RESTAURANT BUSINESS · ROBERT BYRNE, TECHNOMIC", inset=None,
+            fb=plate("TECHNOMIC'S CONSUMER INSIGHTS DIRECTOR", "0.1", y=200, size=32) + quote("“You feel like you’re paying a cable bill.”", "ROBERT BYRNE · TECHNOMIC", at="@{You feel like}", size=96, hl=["cable", "bill.”"]))),
 dict(start="That's this whole video in one sentence", sfx=[('ep06-pop:0.25', '@{eighty-three cents}')],
      el=ev("t10", "reddit-receipt", marks=[("admin", "eighty-three cents")], source="REDDIT · r/EndTipping · OCT 2026", zoom=1.3, focus="admin")),
 dict(start="It costs the restaurant you", stock=K("alone-candle"), dim=0.2, sfx=[('impact:0.35', '0.1')],
      el=plate("IT COSTS THE RESTAURANT YOU", "0.1", y=880, size=56, color="C6.accent")),
 dict(start="And here's what they don't print on the receipt", stock=K("elderly-pay-waiter"), sfx=[('ding:0.3', '@{you can just ask}')],
      el=plate("TRICK #1 · YOU CAN JUST ASK", "@{you can just ask}", y=880, size=46, color="C6.accent")),
-dict(start="One big Chicago restaurant group told ABC 7", sfx=[('t02-paper:0.3', '0.05'), ('ep06-pop:0.25', '@{On request. Most}')],
-     el=doc("abc7-fees", [("removed", "the charge will be removed")], source="ABC 7 CHICAGO · 2026",
-            fb=quote("“On request, the charge will be removed.”", "A CHICAGO RESTAURANT GROUP · TO ABC 7", at="0.2", size=84, hl=["removed.”"])) +
-        plate("MOST PEOPLE NEVER ASK", "@{Most people never ask}", y=960, size=40, color="C6.accent")),
+dict(start="One big Chicago restaurant group told ABC 7", stock=K("waiter-thumbs"), sfx=[('t02-paper:0.3', '0.05'), ('ep06-pop:0.25', '@{On request. Most}')],
+     el=plate("A CHICAGO RESTAURANT GROUP TO ABC 7: “ON REQUEST, THE CHARGE WILL BE REMOVED”", "0.2", y=880, size=30, color="C6.accent", out="@{Most people never ask}") + src("ABC 7 Chicago", "0.3") +
+        plate("MOST PEOPLE NEVER ASK", "@{Most people never ask}", y=880, size=44, color="C6.accent")),
 
 # ======================= PART 3 · ГЛАВА 3 · ЭКРАН =======================
 dict(start="But the fee wasn't the only surprise", tag=C3, hard=True, stock=K("card-terminal"), sfx=[('ep06-whoosh:0.2', '0.05'), ('ep06-stamp:0.25', '@{The screen was}')],
@@ -159,9 +161,10 @@ dict(start="Bankrate asked Americans about this last year", dim=0.0, sfx=[('ep06
         plate("“TIPPING CULTURE IS OUT OF CONTROL”", "@{out of control}", y=940, size=34, color="C6.accent") + src("Bankrate survey · 2025", "0.4")),
 dict(start="And nearly two in five said the pre-set tip screen", stock=K("pos-woman"), sfx=[('ep06-pop:0.25', '@{two in five}')],
      el=plate("~2 IN 5: THE PRE-SET TIP SCREEN BUGS THEM", "@{two in five}", y=880, size=40, color="C6.accent") + src("Bankrate · 2025", "0.4")),
-dict(start="So people did what people do", stock=K("cash-tip-bar"), sfx=[('ep06-counter:0.3', '@{thirty-five percent}')],
-     el=plate("THEY PUSHED BACK", "@{They pushed back}", y=880, size=46, out="@{thirty-five percent}") +
-        plate("35% OF DINERS CUT HOW OFTEN OR HOW MUCH THEY TIP", "@{thirty-five percent}", y=880, size=36, color="C6.accent") + src("Popmenu survey · 2026", "0.4")),
+dict(start="So people did what people do", stock=None if has("rd-popmenu", "35%") else K("cash-tip-bar"), sfx=[('ep06-counter:0.3', '@{thirty-five percent}')],
+     el=doc("rd-popmenu", [("35%", "thirty-five percent")], source="RESTAURANT DIVE · POPMENU SURVEY, 2026", inset=None,
+            fb=plate("THEY PUSHED BACK", "@{They pushed back}", y=880, size=46, out="@{thirty-five percent}") + src("Popmenu survey · 2026", "0.4")) +
+        plate("35% OF DINERS CUT HOW OFTEN OR HOW MUCH THEY TIP", "@{thirty-five percent}", y=960, size=34, color="C6.accent")),
 dict(start="The screen that was supposed to squeeze", stock=K("waitress-wipe"), sfx=[],
      el=plate("NOW IT'S SQUEEZING THE SERVER", "@{Now it's squeezing}", y=880, size=46, color="C6.accent")),
 dict(start="And the fees make it worse", stock=K("couple-calc"), dim=0.55, sfx=[('ep06-pop:0.25', '@{more than a quarter}')],
@@ -181,8 +184,9 @@ dict(start="A burger that costs more at lunch", stock=K("rain-windshield"), sfx=
      el=plate("A BURGER THAT COSTS MORE AT LUNCH", "0.1", y=880, size=40, out="@{like an Uber}") + plate("…LIKE AN UBER IN THE RAIN", "@{like an Uber}", y=880, size=46, color="C6.accent")),
 dict(start="About two weeks later, Wendy's put out a statement", stock=K("live-abc-statement"), clean=True, sfx=[('ep06-stamp:0.25', '@{It would not raise prices}')],
      el=src("Footage: ABC News · 2024", "0.3")),
-dict(start="Burger King jumped right in", stock=K("wm-bk-houston"), sfx=[('ding:0.25', '@{No Urge to Surge}')],
-     el=plate("BURGER KING: “NO URGE TO SURGE”", "@{No Urge to Surge}", y=880, size=44, color="C6.accent") + src("Photo: Quintin Soloviev · CC BY 4.0", "0.3")),
+dict(start="Burger King jumped right in", stock=None if has("nbc-surge", "No urge to surge") else K("wm-bk-houston"), sfx=[('ding:0.25', '@{No Urge to Surge}')],
+     el=doc("nbc-surge", [("No urge to surge", "No Urge to Surge")], source="NBC CHICAGO · FEB 2024", inset=None, fb=src("Photo: Quintin Soloviev · CC BY 4.0", "0.3")) +
+        plate("BURGER KING: “NO URGE TO SURGE”", "@{No Urge to Surge}", y=960, size=40, color="C6.accent")),
 dict(start="The lesson", stock=K("wm-closed-boston"), alt=(K("closed-sign-flip"), "They leave"), sfx=[('impact:0.3', '@{They leave}')],
      el=plate("THEY DON'T MAKE A SCENE", "@{They just don't make a scene}", y=880, size=44, out="@{They leave}") + plate("THEY LEAVE.", "@{They leave}", y=880, size=60, color="C6.accent")),
 
@@ -200,8 +204,8 @@ dict(start="And the meal they're cutting most is dinner", stock=K("table-setting
         plate("THE ONE WITH THE TIP SCREEN AND THE FEE", "@{The one with the tip screen}", y=880, size=40)),
 dict(start="The first people to go", stock=K("empty-drive-thru"), sfx=[],
      el=plate("FIRST TO GO: THE ONES WITH THE LEAST TO SPARE", "0.3", y=880, size=38)),
-dict(start="Early last year, the CEO of McDonald's", sfx=[('t02-paper:0.3', '0.05'), ('ep06-fall:0.25', '@{nearly double digits}')],
-     el=doc("axios-mcd", [], source="AXIOS · MAY 2025", fb=src("McDonald's CEO, Q1 2025 call · via Axios")) + plate("LOW-INCOME FAST FOOD VISITS: DOWN NEARLY DOUBLE DIGITS", "@{nearly double digits}", y=960, size=34, color="C6.loss")),
+dict(start="Early last year, the CEO of McDonald's", stock=K("frustrated-receipts"), sfx=[('t02-paper:0.3', '0.05'), ('ep06-fall:0.25', '@{nearly double digits}')],
+     el=src("McDonald's CEO, Q1 2025 call · via Axios", "0.3") + plate("McDONALD'S CEO: LOW-INCOME FAST FOOD VISITS DOWN NEARLY DOUBLE DIGITS", "@{nearly double digits}", y=880, size=32, color="C6.accent")),
 dict(start="Middle-income visits fell almost as much", stock=K("drive-thru-pay"), sfx=[],
      el=plate("MIDDLE-INCOME VISITS: ALMOST AS MUCH", "0.1", y=880, size=42)),
 dict(start="Then came the closures", stock=K("live-cbs-closed"), clean=True, sfx=[('impact:0.35', '0.1')],
@@ -213,8 +217,9 @@ dict(start="That's roughly three hundred places", stock=None if has("wsb-wendys"
         plate("≈300 PLACES", "0.1", y=960, size=46, color="C6.accent", out="@{on top of two hundred}") + plate("+240 ALREADY CLOSED IN 2024", "@{two hundred and forty}", y=960, size=42)),
 dict(start="Darden pulled the plug on Bahama Breeze", stock=K("wm-bahama"), sfx=[('ep06-stamp:0.3', '@{Fourteen locations}')],
      el=plate("BAHAMA BREEZE · 14 CLOSED FOR GOOD · APRIL 5", "@{Fourteen locations}", y=880, size=40, color="C6.accent", out="@{The rest are being}") + plate("THE OTHER 14 → OTHER DARDEN RESTAURANTS", "@{The rest are being}", y=880, size=38) + src("Photo: Nielsoncaetanosalmeron · CC BY 4.0", "0.3")),
-dict(start="And the company behind Smokey Bones", stock=K("wm-smokey"), sfx=[('ep06-stamp:0.3', '@{filed for bankruptcy}')],
-     el=plate("SMOKEY BONES' PARENT COMPANY · CHAPTER 11 · JANUARY 2026", "@{filed for bankruptcy}", y=880, size=34, color="C6.accent") + src("Photo: v343790 · CC BY 3.0", "0.3")),
+dict(start="And the company behind Smokey Bones", stock=None if has("ibt-smokey", "Chapter 11") else K("wm-smokey"), sfx=[('ep06-stamp:0.3', '@{filed for bankruptcy}')],
+     el=doc("ibt-smokey", [("Chapter 11", "filed for bankruptcy")], source="IBTIMES · APRIL 2026", inset=None, fb=src("Photo: v343790 · CC BY 3.0", "0.3")) +
+        plate("SMOKEY BONES' PARENT COMPANY · CHAPTER 11 · JANUARY 2026", "@{filed for bankruptcy}", y=960, size=32, color="C6.accent")),
 dict(start="And Gallup found one more number", stock=K("stressed-man"), sfx=[],
      el=plate("ONE MORE NUMBER", "0.2", y=880, size=44)),
 dict(start="In 2019, about one in ten", dim=0.0, sfx=[('ep06-pop:0.25', '@{one in ten}'), ('ep06-fall:0.3', "@{Now it's one in five}")],

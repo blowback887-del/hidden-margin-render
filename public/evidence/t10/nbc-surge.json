@@ -3,14 +3,14 @@
   2880,
   1800
  ],
- "url": "https://www.nbcchicago.com/news/national-international/arizona-iced-tea-burger-king-wendys-dynamic-pricing-controversy/3368913/?amp=1",
+ "url": "https://www.nbcchicago.com/news/national-international/arizona-iced-tea-burger-king-wendys-dynamic-pricing-controversy/3368913/",
  "host": "nbcchicago.com",
  "frame": "screen",
  "finds": {
-  "urge to surge": [
-   1740,
-   599,
-   202,
+  "No urge to surge": [
+   266,
+   654,
+   254,
    40
   ]
  }

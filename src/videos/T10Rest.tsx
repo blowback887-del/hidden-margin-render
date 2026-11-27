@@ -20,7 +20,7 @@ setClips(CLIP_FN);
 type Beat = { from: number; to: number; tag?: [number, string, boolean]; hard?: boolean; back: React.ReactNode; el: React.ReactNode };
 const BEATS: Beat[] = [
   { from: 0.0, to: 14.86, back: null, el: (<>
-<Evidence src="evidence/t10/reddit-receipt.png" size={[940, 1244]} dur={14.86} frame="paper" marks={[{ x: 134, y: 766, w: 536, h: 44, at: 1.92 }, { x: 190, y: 806, w: 480, h: 44, at: 4.22 }, { x: 150, y: 926, w: 530, h: 48, at: 12.24 }]} zoom={0.62} source="REDDIT · r/EndTipping · OCT 2026 · SERVER'S NAME BLURRED" /><Center x={960} y={960}><In at={13.34} from="fade"><Plate6 at={13.34}><Label6 at={13.34} size={44} color={C6.loss}>ADMIN FEE · 83¢</Label6></Plate6></In></Center>
+<Evidence src="evidence/t10/reddit-receipt.png" size={[940, 1244]} dur={14.86} frame="paper" marks={[{ x: 134, y: 766, w: 536, h: 44, at: 1.92 }, { x: 190, y: 806, w: 480, h: 44, at: 4.22 }, { x: 150, y: 926, w: 530, h: 48, at: 12.24 }]} focus={{ x: 0, y: 0, w: 940, h: 1244 }} zoom={0.62} source="REDDIT · r/EndTipping · OCT 2026 · SERVER'S NAME BLURRED" /><Center x={960} y={960}><In at={13.34} from="fade"><Plate6 at={13.34}><Label6 at={13.34} size={44} color={C6.loss}>ADMIN FEE · 83¢</Label6></Plate6></In></Center>
 </>) },
   { from: 14.86, to: 18.02, back: (<><Stock6 n={30} dur={3.16} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={44} color={C6.ink}>DENVER, COLORADO</Label6></Plate6></In></Center>
@@ -53,9 +53,11 @@ const BEATS: Beat[] = [
   { from: 65.58, to: 75.84, back: (<><Stock6 n={16} dur={10.26} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={1.54} out={5.4} from="fade"><Plate6 at={1.54}><Label6 at={1.54} size={42} color={C6.accent}>ONE BIG CHAIN DID THE EXACT OPPOSITE</Label6></Plate6></In></Center><Center x={960} y={880}><In at={5.4} from="fade"><Plate6 at={5.4}><Label6 at={5.4} size={42} color={C6.ink}>…AND PACKED ITS DINING ROOMS</Label6></Plate6></In></Center>
 </>) },
-  { from: 75.84, to: 86.98, tag: [2, "The Fee", true], hard: true, back: (<><Stock6 n={51} dur={11.14} dim={0} graphics={true} />
-<Stock6 n={26} from={4.36} dur={11.14} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={0.3} out={4.36} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={44} color={C6.ink}>THEIR COSTS ARE REAL</Label6></Plate6></In></Center><Center x={960} y={880}><In at={8.24} from="fade"><Plate6 at={8.24}><Label6 at={8.24} size={34} color={C6.accent}>COST OF RUNNING A RESTAURANT: +36% SINCE BEFORE THE PANDEMIC</Label6></Plate6></In></Center><Source6 at={4.36}>National Restaurant Association</Source6>
+  { from: 75.84, to: 80.18, tag: [2, "The Fee", true], hard: true, back: (<><Stock6 n={51} dur={4.34} dim={0} graphics={true} /></>), el: (<>
+<Center x={960} y={880}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={44} color={C6.ink}>THEIR COSTS ARE REAL</Label6></Plate6></In></Center>
+</>) },
+  { from: 80.18, to: 86.98, tag: [2, "The Fee", false], back: null, el: (<>
+<Evidence src="evidence/t10/nra-costs2.png" size={[2880, 1800]} dur={6.8} frame="screen" marks={[{ x: 1265, y: 601, w: 80, h: 48, at: 3.9 }]} zoom={0.9} source="NATIONAL RESTAURANT ASSOCIATION" url="restaurant.org" /><Center x={960} y={960}><In at={3.9} from="fade"><Plate6 at={3.9}><Label6 at={3.9} size={32} color={C6.accent}>COST OF RUNNING A RESTAURANT: +36% SINCE BEFORE THE PANDEMIC</Label6></Plate6></In></Center>
 </>) },
   { from: 86.98, to: 94.14, back: null, el: (<>
 <Center y={470}><Donut6 at={0.1} pct={42} center="42%" label="OF RESTAURANTS: NO PROFIT LAST YEAR" color={C6.loss} /></Center><Source6 at={0.4}>National Restaurant Association · via WTOP, Feb 2026</Source6>
@@ -84,7 +86,7 @@ const BEATS: Beat[] = [
 <Center y={450}><Donut6 at={0.1} pct={40} center="40%" label="“I’D BE LESS LIKELY TO COME BACK”" /></Center><Source6 at={0.4}>Technomic survey · via Restaurant Business</Source6>
 </>) },
   { from: 148.74, to: 154.54, back: null, el: (<>
-<Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={32} color={C6.ink}>TECHNOMIC'S CONSUMER INSIGHTS DIRECTOR</Label6></Plate6></In></Center><Center y={430}><Words text="“You feel like you’re paying a cable bill.”" at={3.3} size={96} maxW={1500} hl={["cable", "bill.\u201d"]} /></Center><Center y={690}><Label6 at={3.3} size={30} color={C6.mint}>ROBERT BYRNE · TECHNOMIC</Label6></Center>
+<Evidence src="evidence/t10/rb-technomic2.png" size={[2880, 1800]} dur={5.8} frame="screen" marks={[{ x: 916, y: 603, w: 310, h: 150, at: 4.1 }]} zoom={0.9} source="RESTAURANT BUSINESS · ROBERT BYRNE, TECHNOMIC" url="restaurantbusinessonline.com" />
 </>) },
   { from: 154.54, to: 160.08, back: null, el: (<>
 <Evidence src="evidence/t10/reddit-receipt.png" size={[940, 1244]} dur={5.54} frame="paper" marks={[{ x: 150, y: 926, w: 530, h: 48, at: 4.24 }]} focus={{ x: 150, y: 926, w: 530, h: 48 }} zoom={1.3} source="REDDIT · r/EndTipping · OCT 2026" />
@@ -95,8 +97,8 @@ const BEATS: Beat[] = [
   { from: 162.86, to: 167.14, back: (<><Stock6 n={50} dur={4.28} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.04} from="fade"><Plate6 at={3.04}><Label6 at={3.04} size={46} color={C6.accent}>TRICK #1 · YOU CAN JUST ASK</Label6></Plate6></In></Center>
 </>) },
-  { from: 167.14, to: 178.26, back: null, el: (<>
-<Evidence src="evidence/t10/abc7-fees.png" size={[2880, 1800]} dur={11.12} frame="screen" marks={[{ x: 40, y: 353, w: 243, h: 54, at: 4.98 }]} zoom={0.9} source="ABC 7 CHICAGO · 2026" url="abc7chicago.com" /><Center x={960} y={960}><In at={8.42} from="fade"><Plate6 at={8.42}><Label6 at={8.42} size={40} color={C6.accent}>MOST PEOPLE NEVER ASK</Label6></Plate6></In></Center>
+  { from: 167.14, to: 178.26, back: (<><Stock6 n={52} dur={11.12} dim={0} graphics={true} /></>), el: (<>
+<Center x={960} y={880}><In at={0.2} out={8.42} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={30} color={C6.accent}>A CHICAGO RESTAURANT GROUP TO ABC 7: “ON REQUEST, THE CHARGE WILL BE REMOVED”</Label6></Plate6></In></Center><Source6 at={0.3}>ABC 7 Chicago</Source6><Center x={960} y={880}><In at={8.42} from="fade"><Plate6 at={8.42}><Label6 at={8.42} size={44} color={C6.accent}>MOST PEOPLE NEVER ASK</Label6></Plate6></In></Center>
 </>) },
   { from: 178.26, to: 183.76, tag: [3, "The Screen", true], hard: true, back: (<><Stock6 n={8} dur={5.5} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.86} from="fade"><Plate6 at={3.86}><Label6 at={3.86} size={52} color={C6.accent}>THE SCREEN WAS</Label6></Plate6></In></Center>
@@ -114,8 +116,8 @@ const BEATS: Beat[] = [
   { from: 206.92, to: 212.22, back: (<><Stock6 n={70} dur={5.3} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.46} from="fade"><Plate6 at={0.46}><Label6 at={0.46} size={40} color={C6.accent}>~2 IN 5: THE PRE-SET TIP SCREEN BUGS THEM</Label6></Plate6></In></Center><Source6 at={0.4}>Bankrate · 2025</Source6>
 </>) },
-  { from: 212.22, to: 222.36, back: (<><Stock6 n={45} dur={10.14} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={2.24} out={5.46} from="fade"><Plate6 at={2.24}><Label6 at={2.24} size={46} color={C6.ink}>THEY PUSHED BACK</Label6></Plate6></In></Center><Center x={960} y={880}><In at={5.46} from="fade"><Plate6 at={5.46}><Label6 at={5.46} size={36} color={C6.accent}>35% OF DINERS CUT HOW OFTEN OR HOW MUCH THEY TIP</Label6></Plate6></In></Center><Source6 at={0.4}>Popmenu survey · 2026</Source6>
+  { from: 212.22, to: 222.36, back: null, el: (<>
+<Evidence src="evidence/t10/rd-popmenu.png" size={[2880, 1800]} dur={10.14} frame="screen" marks={[{ x: 678, y: 592, w: 176, h: 98, at: 5.46 }]} zoom={0.9} source="RESTAURANT DIVE · POPMENU SURVEY, 2026" url="restaurantdive.com" /><Center x={960} y={960}><In at={5.46} from="fade"><Plate6 at={5.46}><Label6 at={5.46} size={34} color={C6.accent}>35% OF DINERS CUT HOW OFTEN OR HOW MUCH THEY TIP</Label6></Plate6></In></Center>
 </>) },
   { from: 222.36, to: 227.52, back: (<><Stock6 n={28} dur={5.16} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.18} from="fade"><Plate6 at={3.18}><Label6 at={3.18} size={46} color={C6.accent}>NOW IT'S SQUEEZING THE SERVER</Label6></Plate6></In></Center>
@@ -136,7 +138,7 @@ const BEATS: Beat[] = [
 <Source6 at={0.3}>Footage: ABC News · 2024</Source6>
 </>) },
   { from: 264.84, to: 268.42, back: null, el: (<>
-<Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>THE INTERNET HEARD TWO WORDS</Label6></Plate6></In></Center><Center y={470}><Words text="“SURGE PRICING”" at={2.26} size={150} hl={["“SURGE", "PRICING”"]} /></Center>
+<Evidence src="evidence/t10/axios-wendys.png" size={[2880, 1800]} dur={3.58} frame="screen" marks={[{ x: 653, y: 596, w: 1476, h: 225, at: 2.26 }]} zoom={0.9} source="AXIOS · FEB 28, 2024" url="axios.com" />
 </>) },
   { from: 268.42, to: 272.6, back: (<><Stock6 n={33} dur={4.18} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} out={2.06} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.ink}>A BURGER THAT COSTS MORE AT LUNCH</Label6></Plate6></In></Center><Center x={960} y={880}><In at={2.06} from="fade"><Plate6 at={2.06}><Label6 at={2.06} size={46} color={C6.accent}>…LIKE AN UBER IN THE RAIN</Label6></Plate6></In></Center>
@@ -144,8 +146,8 @@ const BEATS: Beat[] = [
   { from: 272.6, to: 278.78, back: (<><Stock6 n={83} dur={6.18} dim={0} graphics={false} /></>), el: (<>
 <Source6 at={0.3}>Footage: ABC News · 2024</Source6>
 </>) },
-  { from: 278.78, to: 283.52, back: (<><Stock6 n={60} dur={4.74} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={2.54} from="fade"><Plate6 at={2.54}><Label6 at={2.54} size={44} color={C6.accent}>BURGER KING: “NO URGE TO SURGE”</Label6></Plate6></In></Center><Source6 at={0.3}>Photo: Quintin Soloviev · CC BY 4.0</Source6>
+  { from: 278.78, to: 283.52, back: null, el: (<>
+<Evidence src="evidence/t10/nbc-surge.png" size={[2880, 1800]} dur={4.74} frame="screen" marks={[{ x: 266, y: 654, w: 254, h: 40, at: 2.54 }]} zoom={0.9} source="NBC CHICAGO · FEB 2024" url="nbcchicago.com" /><Center x={960} y={960}><In at={2.54} from="fade"><Plate6 at={2.54}><Label6 at={2.54} size={40} color={C6.accent}>BURGER KING: “NO URGE TO SURGE”</Label6></Plate6></In></Center>
 </>) },
   { from: 283.52, to: 291.74, back: (<><Stock6 n={62} dur={8.22} dim={0} graphics={true} />
 <Stock6 n={6} from={6.32} dur={8.22} dim={0} graphics={true} /></>), el: (<>
@@ -170,8 +172,8 @@ const BEATS: Beat[] = [
   { from: 320.36, to: 323.86, back: (<><Stock6 n={67} dur={3.5} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.3} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={38} color={C6.ink}>FIRST TO GO: THE ONES WITH THE LEAST TO SPARE</Label6></Plate6></In></Center>
 </>) },
-  { from: 323.86, to: 332.68, back: null, el: (<>
-<Evidence src="evidence/t10/axios-mcd.png" size={[2880, 1800]} dur={8.82} frame="screen" zoom={0.9} source="AXIOS · MAY 2025" url="axios.com" /><Center x={960} y={960}><In at={7.48} from="fade"><Plate6 at={7.48}><Label6 at={7.48} size={34} color={C6.loss}>LOW-INCOME FAST FOOD VISITS: DOWN NEARLY DOUBLE DIGITS</Label6></Plate6></In></Center>
+  { from: 323.86, to: 332.68, back: (<><Stock6 n={27} dur={8.82} dim={0} graphics={true} /></>), el: (<>
+<Source6 at={0.3}>McDonald's CEO, Q1 2025 call · via Axios</Source6><Center x={960} y={880}><In at={7.48} from="fade"><Plate6 at={7.48}><Label6 at={7.48} size={32} color={C6.accent}>McDONALD'S CEO: LOW-INCOME FAST FOOD VISITS DOWN NEARLY DOUBLE DIGITS</Label6></Plate6></In></Center>
 </>) },
   { from: 332.68, to: 336.0, back: (<><Stock6 n={18} dur={3.32} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={42} color={C6.ink}>MIDDLE-INCOME VISITS: ALMOST AS MUCH</Label6></Plate6></In></Center>
@@ -188,8 +190,8 @@ const BEATS: Beat[] = [
   { from: 349.34, to: 358.04, back: (<><Stock6 n={58} dur={8.7} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.36} out={5.7} from="fade"><Plate6 at={2.36}><Label6 at={2.36} size={40} color={C6.accent}>BAHAMA BREEZE · 14 CLOSED FOR GOOD · APRIL 5</Label6></Plate6></In></Center><Center x={960} y={880}><In at={5.7} from="fade"><Plate6 at={5.7}><Label6 at={5.7} size={38} color={C6.ink}>THE OTHER 14 → OTHER DARDEN RESTAURANTS</Label6></Plate6></In></Center><Source6 at={0.3}>Photo: Nielsoncaetanosalmeron · CC BY 4.0</Source6>
 </>) },
-  { from: 358.04, to: 361.82, back: (<><Stock6 n={59} dur={3.78} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={1.74} from="fade"><Plate6 at={1.74}><Label6 at={1.74} size={34} color={C6.accent}>SMOKEY BONES' PARENT COMPANY · CHAPTER 11 · JANUARY 2026</Label6></Plate6></In></Center><Source6 at={0.3}>Photo: v343790 · CC BY 3.0</Source6>
+  { from: 358.04, to: 361.82, back: null, el: (<>
+<Evidence src="evidence/t10/ibt-smokey.png" size={[2880, 1800]} dur={3.78} frame="screen" marks={[{ x: 688, y: 524, w: 350, h: 72, at: 1.74 }]} zoom={0.9} source="IBTIMES · APRIL 2026" url="ibtimes.co.uk" /><Center x={960} y={960}><In at={1.74} from="fade"><Plate6 at={1.74}><Label6 at={1.74} size={32} color={C6.accent}>SMOKEY BONES' PARENT COMPANY · CHAPTER 11 · JANUARY 2026</Label6></Plate6></In></Center>
 </>) },
   { from: 361.82, to: 366.98, back: (<><Stock6 n={34} dur={5.16} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={44} color={C6.ink}>ONE MORE NUMBER</Label6></Plate6></In></Center>
