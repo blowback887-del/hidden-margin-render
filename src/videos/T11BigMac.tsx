@@ -68,7 +68,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.42} out={5.74-0.3} from="fade"><Plate6 at={2.42}><Label6 at={2.42} size={46} color={C6.ink}>SMALL. CHEAP. FAST.</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.8} from="fade"><Plate6 at={6.8}><Label6 at={6.8} size={44} color={C6.accent}>8 HOURS NEXT TO A FURNACE</Label6></Plate6></In></Center>
 </>) },
   { from: 98.58, to: 106.66, cut: true, back: null, el: (<>
-<Evidence src="evidence/t11/history-bigmac.png" size={[2880, 1800]} dur={8.08} frame="screen" marks={[{ x: 868, y: 967, w: 151, h: 58, at: 1.98 }]} zoom={0.75} source="HISTORY.COM · BIG MAC INTRODUCED" url="history.com" />
+<Evidence src="evidence/t11/history-v2.png" size={[1880, 1550]} dur={8.08} frame="screen" marks={[{ x: 528, y: 1417, w: 151, h: 58, at: 1.98 }]} zoom={0.9} source="HISTORY.COM · THIS DAY IN HISTORY · APRIL 22, 1967" url="history.com" />
 </>) },
   { from: 106.66, to: 114.42, cut: true, back: (<><Stock6 cut n={71} dur={7.76} dim={0.15} graphics={true} />
 <Stock6 cut n={137} from={3.96} dur={7.76} dim={0.15} graphics={true} /></>), el: (<>
@@ -350,7 +350,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={38} color={C6.accent}>THE MORE POPULAR THE DEAL, THE MORE THEY LOST</Label6></Plate6></In></Center>
 </>) },
   { from: 649.08, to: 654.42, tag: [6, "The Squeeze", false], cut: true, back: null, el: (<>
-<Evidence src="evidence/t11/nbcmiami-v2.png" size={[1620, 1460]} dur={5.34} frame="screen" marks={[{ x: 464, y: 654, w: 88, h: 40, at: 3.62 }]} zoom={0.9} source="NBC MIAMI · 2011" url="nbcmiami.com" />
+<Evidence src="evidence/t11/nbcmiami-v3.png" size={[2480, 1525]} dur={5.34} frame="screen" marks={[{ x: 424, y: 1425, w: 88, h: 40, at: 3.62 }]} zoom={0.85} source="NBC 6 SOUTH FLORIDA · AP · APRIL 18, 2011" url="nbcmiami.com" />
 </>) },
   { from: 654.42, to: 660.68, tag: [6, "The Squeeze", false], cut: true, back: (<><Stock6 cut n={28} dur={6.26} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} out={2.36-0.3} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={42} color={C6.ink}>CASE DISMISSED · FALL 2010</Label6></Plate6></In></Center><Center x={960} y={880}><In at={2.36} from="fade"><Plate6 at={2.36}><Label6 at={2.36} size={40} color={C6.ink}>SETTLED IN 2011 · THE OWNERS GOT NO MONEY</Label6></Plate6></In></Center>

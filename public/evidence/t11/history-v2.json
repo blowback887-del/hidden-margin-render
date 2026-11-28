@@ -1,0 +1,29 @@
+{
+ "size": [
+  1880,
+  1550
+ ],
+ "url": "https://www.history.com/this-day-in-history/april-22/big-mac-introduced",
+ "host": "history.com",
+ "frame": "screen",
+ "finds": {
+  "Uniontown": [
+   994,
+   1042,
+   194,
+   58
+  ],
+  "45 cents": [
+   502,
+   1156,
+   133,
+   58
+  ],
+  "Delligatti": [
+   528,
+   1417,
+   151,
+   58
+  ]
+ }
+}

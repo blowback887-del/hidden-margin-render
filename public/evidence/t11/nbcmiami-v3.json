@@ -1,0 +1,23 @@
+{
+ "size": [
+  2480,
+  1525
+ ],
+ "url": "https://www.nbcmiami.com/news/local/franchises-and-corporate-settle-over/1894324/",
+ "host": "nbcmiami.com",
+ "frame": "screen",
+ "finds": {
+  "Lawsuit Settled After BK": [
+   34,
+   311,
+   908,
+   110
+  ],
+  "$1.29": [
+   424,
+   1425,
+   88,
+   40
+  ]
+ }
+}
