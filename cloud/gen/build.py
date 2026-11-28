@@ -171,5 +171,11 @@ open(out, "w").write(body)
 durs = [round(ends[k] - times[k], 1) for k in range(len(S))]
 # повтор стока подряд
 rep_ = [used[i] for i in range(1, len(used)) if used[i] == used[i - 1]]
-print(f"{comp}: scenes {len(S)}, duration {dur_total}s, avg {round(sum(durs)/len(durs),1)}s, longest {sorted(durs)[-5:]}, sfx {len(sfx)}, unaligned tokens {miss}, stock used {len(set(used))}, repeats-in-a-row {rep_}")
+# урок T10/T11: пустое начало графической сцены (первый элемент позже 1,5 с) — дефект
+empty = []
+for k, bt in enumerate(beats):
+    if "back: null" not in bt or "<Evidence" in bt: continue
+    ats = [float(x) for x in re.findall(r"\bat(?:=\{|: )([\d.]+)", bt)] + [float(x) for x in re.findall(r"times=\{\[([\d.]+)", bt)]
+    if not ats or min(ats) > 1.5: empty.append(f"{k + 1}@{round(times[k], 1)}s")
+print(f"{comp}: scenes {len(S)}, duration {dur_total}s, avg {round(sum(durs)/len(durs),1)}s, longest {sorted(durs)[-5:]}, sfx {len(sfx)}, unaligned tokens {miss}, stock used {len(set(used))}, repeats-in-a-row {rep_}, empty-starts {empty}")
 print("wrote", out)

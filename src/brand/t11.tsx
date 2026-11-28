@@ -56,6 +56,7 @@ export const Stopwatch: React.FC<Watch & { size?: number }> = ({ min, label, sub
   const ang = (m / 60) * 360;
   const shown = run < 0.999 ? Math.floor(m) : min;
   const hideNum = q && blurK > 0.5;
+  const gid = "face" + label.replace(/[^A-Za-z0-9]/g, "") + min;
   return (
     <div style={{ opacity: Math.min(1, k * 1.4), scale: String(0.86 + 0.14 * k), display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
       <div style={{ position: "relative", width: size, height: size + 34, filter: blurK > 0.01 ? `blur(${16 * blurK}px)` : undefined }}>
@@ -64,14 +65,14 @@ export const Stopwatch: React.FC<Watch & { size?: number }> = ({ min, label, sub
         <div style={{ position: "absolute", left: c - 12, top: 22, width: 24, height: 16, background: "#bfb9aa" }} />
         <svg width={size} height={size} style={{ position: "absolute", top: 34, left: 0, overflow: "visible" }}>
           <defs>
-            <radialGradient id={`face${label}`} cx="50%" cy="40%" r="65%">
+            <radialGradient id={gid} cx="50%" cy="40%" r="65%">
               <stop offset="0%" stopColor="#fbf8f0" />
               <stop offset="100%" stopColor="#e4ddcb" />
             </radialGradient>
           </defs>
           <circle cx={c} cy={c} r={R + 14} fill="#2b3134" />
           <circle cx={c} cy={c} r={R + 14} fill="none" stroke="rgba(255,255,255,.14)" strokeWidth={3} />
-          <circle cx={c} cy={c} r={R} fill={`url(#face${label})`} />
+          <circle cx={c} cy={c} r={R} fill={`url(#${gid})`} />
           {/* дуга пройденных минут */}
           <circle cx={c} cy={c} r={R * 0.78} fill="none" stroke={col} strokeOpacity={0.9} strokeWidth={R * 0.2} pathLength={60} strokeDasharray={`${m} 60`} transform={`rotate(-90 ${c} ${c})`} />
           {ticks.map((i) => {
@@ -129,8 +130,8 @@ export const PriceFlip: React.FC<{ at?: number; from: string; to: string; flipAt
   const h = w * 0.62;
   const face = (price: string, note: string | undefined, back: boolean) => (
     <div style={{ position: "absolute", inset: 0, borderRadius: 26, background: PAPER, boxShadow: "0 30px 60px rgba(0,0,0,.45), inset 0 0 0 3px rgba(0,0,0,.08)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", transform: back ? "rotateX(180deg)" : undefined, backfaceVisibility: "hidden" }}>
-      <div style={{ position: "absolute", left: 34, top: h / 2 - 16, width: 32, height: 32, borderRadius: 16, background: "#0b3a45", boxShadow: "inset 0 0 0 4px rgba(0,0,0,.2)" }} />
-      <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: w * 0.05, letterSpacing: "0.3em", color: "rgba(30,35,38,.6)" }}>{head}</div>
+      <div style={{ position: "absolute", left: w / 2 - 14, top: 16, width: 28, height: 28, borderRadius: 16, background: "#0b3a45", boxShadow: "inset 0 0 0 4px rgba(0,0,0,.2)" }} />
+      <div style={{ marginTop: 30, fontFamily: SANS, fontWeight: 800, fontSize: w * 0.05, letterSpacing: "0.3em", color: "rgba(30,35,38,.6)" }}>{head}</div>
       <div style={{ fontFamily: SERIF, fontSize: w * 0.32, lineHeight: 1.05, color: back ? "#b8372b" : INK }}>{price}</div>
       {note && <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: w * 0.042, letterSpacing: "0.2em", color: "rgba(30,35,38,.6)" }}>{note}</div>}
     </div>
@@ -170,8 +171,8 @@ export const TenSplit: React.FC<{ at?: number; stacks: { label: string; value: s
           const col = s.color ?? (last ? C6.money : C6.blue);
           return (
             <div key={i} style={{ width: colW, display: "flex", flexDirection: "column", alignItems: "center", gap: 12, opacity: Math.min(1, o * 2) }}>
+              <div style={{ width: colW * 0.62, height: H * s.pct / 31 * 0.75, transformOrigin: "bottom", transform: `scaleY(${o * g})`, borderRadius: 10, background: `repeating-linear-gradient(180deg, ${col} 0 16px, rgba(0,0,0,.25) 16px 19px)`, boxShadow: last && hl > 0 ? `0 0 0 4px ${C6.accent}` : "0 18px 40px rgba(0,0,0,.35)" }} />
               <div style={{ fontFamily: SERIF, fontSize: 64, lineHeight: 1, color: last && hl > 0 ? C6.accent : C6.ink }}>{s.value}</div>
-              <div style={{ width: colW * 0.62, height: H * s.pct / 31 * 0.9, transformOrigin: "bottom", transform: `scaleY(${o * g})`, borderRadius: 10, background: `repeating-linear-gradient(180deg, ${col} 0 16px, rgba(0,0,0,.25) 16px 19px)`, boxShadow: last && hl > 0 ? `0 0 0 4px ${C6.accent}` : "0 18px 40px rgba(0,0,0,.35)" }} />
               <Note size={22} color={last ? C6.money : C6.mint}>{s.label}</Note>
             </div>
           );

@@ -13,7 +13,7 @@ import { Evidence, ArchiveFx } from "../brand/evidence";
 // ===================================================================
 export const T11BIGMAC_DURATION_SEC = 1428.84;
 const CLIPS: Record<number, string> = {"1": "01-furnace-sparks", "2": "02-steel-hyperlapse", "3": "03-grinder-sparks", "4": "04-workers-walking", "5": "05-town-dusk", "6": "06-main-street", "7": "07-burger-bite", "8": "08-burger-wrapper", "9": "09-counting-pennies", "10": "10-child-coins", "11": "11-old-man-paper", "12": "12-workers-lunch", "13": "13-mom-snacks", "14": "14-boys-burgers", "15": "15-ground-beef", "16": "16-raw-meat", "17": "17-tennis-aerial", "18": "18-tennis-empty", "19": "19-suburb-aerial", "20": "20-suburb-aerial2", "21": "21-keys-hand", "22": "22-stock-screen", "23": "23-dollar-bills", "24": "24-ten-dollar", "25": "25-coins-jar", "26": "26-cheese-slice", "27": "27-cheeseburger-close", "28": "28-gavel", "29": "29-courthouse-indiana", "30": "30-hospital-walk", "31": "31-hospital-hall", "32": "32-coffee-cups", "33": "33-receipts-woman", "34": "34-longhorns", "35": "35-cattle-aerial", "36": "36-cowboys-herding", "37": "37-dry-ground", "38": "38-dry-riverbed", "39": "39-fries-frying", "40": "40-fries-strainer", "41": "41-fastfood-crew", "42": "42-dt-going", "43": "43-dt-man-order", "44": "44-dt-empty", "45": "45-dt-card", "46": "46-bag-packing", "47": "47-delivery-hold", "48": "48-phone-use", "49": "49-counting-dollars", "50": "50-clock-hands", "51": "51-clock-tick", "52": "52-la-aerial", "53": "53-tired-woman", "54": "54-truck-driver", "55": "55-vintage-street", "56": "56-vintage-suburb", "57": "57-vintage-family-car", "58": "58-vintage-1970s", "59": "59-vintage-football", "60": "60-eating-alone-car", "61": "61-big-burger-hold", "62": "62-tear-money", "63": "63-doctor-wipe", "64": "64-woman-driving", "65": "65-film-leader", "66": "66-crt-tv", "67": "67-podium", "68": "68-grill-burgers", "69": "69-cheeseburger-make", "70": "70-grill-flames", "71": "71-wm-bigmac", "72": "72-wm-bigmac-museum", "73": "73-wm-uniontown", "74": "74-wm-homestead-night", "75": "75-wm-stockyards-1909", "76": "76-wm-stockyards-1905", "77": "77-wm-first-mcd", "78": "78-wm-first-mcd2", "79": "79-wm-downey", "80": "80-wm-downey-loc", "81": "81-wm-mcd-museum", "82": "82-wm-speedee", "83": "83-wm-mcdouble", "84": "84-wm-double-cheese", "85": "85-wm-orlando-occ", "86": "86-wm-macarthur", "87": "87-wm-ucla", "88": "88-wm-bk-whopperjr", "89": "89-r-mcd-sign-close", "90": "90-r-mcd-night", "91": "91-r-drive-thru-night", "92": "92-r-burger-fries-table", "93": "93-r-fries-close", "94": "94-r-frying", "95": "95-r-potatoes", "96": "96-r-flying-dollars", "97": "97-r-meeting", "98": "98-r-drive-thru-pay", "99": "99-r-drive-thru-order", "100": "100-r-drive-thru-going", "101": "101-r-empty-drive-thru", "102": "102-r-eating-alone", "103": "103-r-boys-eating", "104": "104-r-phone-pay-meal", "105": "105-r-shocked-man", "106": "106-r-calculator", "107": "107-r-empty-wallet", "108": "108-r-paper-bag", "109": "109-r-burger-bite", "110": "110-r-sesame-bun", "111": "111-r-i95-connecticut", "112": "112-r-service-plaza", "113": "113-r-ct-manchester", "114": "114-r-ct-lisbon", "115": "115-r-menu-board-cc0", "116": "116-r-big-mac-meal", "117": "117-r-archive-mcd", "118": "118-r-value-burgers", "119": "119-r-kiosk", "120": "120-r-mcchicken", "121": "121-r-midnight-lineup", "122": "122-r-needles-ca", "123": "123-r-calverton-md", "124": "124-r-stock-screens", "125": "125-r-cola-ice", "126": "126-r-facepalm", "127": "127-r-wm-bk-houston", "128": "128-r-grocery-checkout", "129": "129-r-cooking-pan", "130": "130-r-delivery-bag", "131": "131-r-delivery-pay", "132": "132-r-courthouse", "133": "133-r-coins-fall", "134": "134-r-dollar-stack", "135": "135-r-phone-scroll", "136": "136-live-ad1974-box", "137": "137-live-ad1974-logo", "138": "138-live-ad1975-diners", "139": "139-live-ad1975-bun", "140": "140-live-ad1997-55c", "141": "141-live-ad1997-family", "142": "142-live-ap1997-signs", "143": "143-live-ap1997-pay", "144": "144-live-ap1997-floor", "145": "145-live-fox5-18", "146": "146-live-nn-darien", "147": "147-live-nn-runaway", "148": "148-live-nn-two-prices", "149": "149-live-gma-5deal", "150": "150-live-gma-bargain", "151": "151-live-cbs-store", "152": "152-live-gma-slump", "153": "153-live-gma-under3", "154": "154-live-gma-kiosk", "155": "155-live-today-bigarch", "156": "156-live-today-under3", "157": "157-live-news-drivethru", "158": "158-live-news-store", "159": "159-live-news-delivery", "160": "160-live-news-kiosk", "161": "161-live-museum-15c", "162": "162-live-museum-sign", "163": "163-live-museum-bag"};
-const LENS: Record<number, number> = {"1": 4.67, "2": 7.0, "3": 8.37, "4": 14.0, "5": 12.77, "6": 11.37, "7": 14.0, "8": 13.07, "9": 11.73, "10": 14.0, "11": 13.37, "12": 13.57, "13": 10.2, "14": 14.0, "15": 5.97, "16": 9.63, "17": 13.43, "18": 11.0, "19": 14.0, "20": 14.0, "21": 9.73, "22": 14.0, "23": 2.0, "24": 7.07, "25": 8.53, "26": 14.0, "27": 14.0, "28": 11.2, "29": 12.37, "30": 14.0, "31": 3.67, "32": 14.0, "33": 9.0, "34": 11.03, "35": 4.67, "36": 5.37, "37": 14.0, "38": 14.0, "39": 10.9, "40": 8.43, "41": 9.23, "42": 14.0, "43": 10.7, "44": 11.87, "45": 14.0, "46": 7.73, "47": 12.07, "48": 8.53, "49": 14.0, "50": 8.8, "51": 14.0, "52": 14.0, "53": 14.0, "54": 12.97, "55": 14.0, "56": 3.5, "57": 14.0, "58": 4.73, "59": 14.0, "60": 13.13, "61": 8.6, "62": 7.17, "63": 14.0, "64": 14.0, "65": 14.0, "66": 12.17, "67": 10.43, "68": 4.9, "69": 14.0, "70": 7.57, "71": 14.0, "72": 14.0, "73": 14.0, "74": 14.0, "75": 14.0, "76": 14.0, "77": 14.0, "78": 14.0, "79": 14.0, "80": 14.0, "81": 14.0, "82": 14.0, "83": 14.0, "84": 14.0, "85": 14.0, "86": 14.0, "87": 14.0, "88": 14.0, "89": 14.0, "90": 14.0, "91": 14.0, "92": 14.0, "93": 14.0, "94": 10.9, "95": 5.37, "96": 14.0, "97": 14.0, "98": 14.0, "99": 10.7, "100": 14.0, "101": 11.87, "102": 13.13, "103": 10.27, "104": 14.0, "105": 14.0, "106": 13.07, "107": 14.0, "108": 10.13, "109": 14.0, "110": 14.0, "111": 14.0, "112": 14.0, "113": 14.0, "114": 14.0, "115": 14.0, "116": 14.0, "117": 14.0, "118": 14.0, "119": 14.0, "120": 14.0, "121": 14.0, "122": 14.0, "123": 14.0, "124": 14.0, "125": 14.0, "126": 12.53, "127": 14.0, "128": 14.0, "129": 9.0, "130": 10.0, "131": 9.13, "132": 10.0, "133": 5.27, "134": 10.0, "135": 10.0, "136": 5.03, "137": 6.03, "138": 5.53, "139": 4.0, "140": 4.2, "141": 3.0, "142": 6.0, "143": 6.0, "144": 7.0, "145": 5.97, "146": 8.03, "147": 7.03, "148": 7.03, "149": 6.03, "150": 6.03, "151": 4.0, "152": 5.53, "153": 6.03, "154": 4.0, "155": 4.0, "156": 4.03, "157": 6.03, "158": 6.03, "159": 4.53, "160": 4.0, "161": 7.0, "162": 6.0, "163": 6.03};
+const LENS: Record<number, number> = {"1": 4.67, "2": 7.0, "3": 8.37, "4": 14.0, "5": 12.77, "6": 11.37, "7": 14.0, "8": 13.07, "9": 11.73, "10": 14.0, "11": 13.37, "12": 13.57, "13": 10.2, "14": 14.0, "15": 5.97, "16": 9.63, "17": 13.43, "18": 11.0, "19": 14.0, "20": 14.0, "21": 9.73, "22": 14.0, "23": 2.0, "24": 7.07, "25": 8.53, "26": 14.0, "27": 14.0, "28": 11.2, "29": 12.37, "30": 14.0, "31": 3.67, "32": 14.0, "33": 9.0, "34": 11.03, "35": 4.67, "36": 5.37, "37": 14.0, "38": 14.0, "39": 10.9, "40": 8.43, "41": 9.23, "42": 14.0, "43": 10.7, "44": 11.87, "45": 14.0, "46": 7.73, "47": 12.07, "48": 8.53, "49": 14.0, "50": 8.8, "51": 14.0, "52": 14.0, "53": 14.0, "54": 12.97, "55": 14.0, "56": 3.5, "57": 14.0, "58": 4.73, "59": 14.0, "60": 13.13, "61": 8.6, "62": 7.17, "63": 14.0, "64": 14.0, "65": 14.0, "66": 12.17, "67": 10.43, "68": 4.9, "69": 14.0, "70": 7.57, "71": 14.0, "72": 14.0, "73": 14.0, "74": 14.0, "75": 14.0, "76": 14.0, "77": 14.0, "78": 14.0, "79": 14.0, "80": 14.0, "81": 14.0, "82": 14.0, "83": 14.0, "84": 14.0, "85": 14.0, "86": 14.0, "87": 14.0, "88": 14.0, "89": 14.0, "90": 14.0, "91": 14.0, "92": 14.0, "93": 14.0, "94": 10.9, "95": 5.37, "96": 14.0, "97": 14.0, "98": 14.0, "99": 10.7, "100": 14.0, "101": 11.87, "102": 13.13, "103": 10.27, "104": 14.0, "105": 14.0, "106": 13.07, "107": 14.0, "108": 10.13, "109": 14.0, "110": 14.0, "111": 14.0, "112": 14.0, "113": 14.0, "114": 14.0, "115": 14.0, "116": 14.0, "117": 14.0, "118": 14.0, "119": 14.0, "120": 14.0, "121": 14.0, "122": 14.0, "123": 14.0, "124": 14.0, "125": 14.0, "126": 12.53, "127": 14.0, "128": 14.0, "129": 9.0, "130": 10.0, "131": 9.13, "132": 10.0, "133": 5.27, "134": 10.0, "135": 10.0, "136": 5.03, "137": 6.03, "138": 5.53, "139": 4.0, "140": 4.2, "141": 3.0, "142": 6.0, "143": 6.0, "144": 7.0, "145": 5.97, "146": 8.03, "147": 7.03, "148": 7.03, "149": 6.03, "150": 6.03, "151": 3.4, "152": 5.53, "153": 6.03, "154": 4.0, "155": 3.0, "156": 4.03, "157": 5.03, "158": 6.03, "159": 4.53, "160": 4.0, "161": 7.0, "162": 4.0, "163": 6.03};
 const CLIP_FN = (n: number) => ({ src: staticFile(`broll/t11/${CLIPS[n]}.mp4`), len: LENS[n] ?? 10 });
 setClips(CLIP_FN);
 
@@ -24,7 +24,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={900}><In at={2.08} from="fade"><Plate6 at={2.08}><Label6 at={2.08} size={44} color={C6.accent}>BIG MAC · 1967 · 45¢</Label6></Plate6></In></Center><Source6 at={0.3}>McDonald's TV ad · 1974</Source6>
 </>) },
   { from: 3.98, to: 10.82, back: null, el: (<>
-<Drift><Center y={470}><PriceFlip from="45¢" to="$6.22" flipAt={0.5} fromNote="1967" toNote="U.S. AVERAGE · JULY 2026" w={620} /></Center><Source6 at={0.4}>The Economist · Big Mac Index, July 2026</Source6></Drift>
+<Drift><Center y={460}><PriceFlip from="45¢" to="$6.22" flipAt={2.66} fromNote="1967" toNote="U.S. AVERAGE · JULY 2026" w={780} /></Center><Source6 at={0.4}>The Economist · Big Mac Index, July 2026</Source6></Drift>
 </>) },
   { from: 10.82, to: 18.94, back: (<><Stock6 n={147} dur={8.12} dim={0} graphics={false} />
 <Stock6 n={145} from={3.12} dur={8.12} dim={0} graphics={false} /></>), el: (<>
@@ -34,19 +34,19 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.46} out={3.7} from="fade"><Plate6 at={2.46}><Label6 at={2.46} size={48} color={C6.ink}>NOT IN DOLLARS</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.7} from="fade"><Plate6 at={3.7}><Label6 at={3.7} size={48} color={C6.accent}>IN MINUTES OF WORK</Label6></Plate6></In></Center>
 </>) },
   { from: 24.48, to: 32.06, back: null, el: (<>
-<Drift><Center y={470}><Watches size={420} gap={110} note="OUR MATH FROM BLS WAGES · DETAILS LATER" noteAt={3.28} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", at: 0.1, spinAt: 5.5, spin: 1.2 }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={560} gap={110} note="OUR MATH FROM BLS WAGES · DETAILS LATER" noteAt={3.28} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", at: 0.1, spinAt: 5.5, spin: 1.2 }]} /></Center></Drift>
 </>) },
   { from: 32.06, to: 40.36, back: null, el: (<>
-<Drift><Center y={470}><Watches size={400} gap={110} note="MEASURED IN WORK: ALMOST THE SAME PRICE" noteAt={5.3} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", at: 0.05, spinAt: 0.84, spin: 1.2 }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={500} gap={110} note="MEASURED IN WORK: ALMOST THE SAME PRICE" noteAt={5.3} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", at: 0.05, spinAt: 0.84, spin: 1.2 }]} /></Center></Drift>
 </>) },
   { from: 40.36, to: 43.14, back: (<><Stock6 n={109} dur={2.78} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={36} color={C6.ink}>WHERE THESE NUMBERS COME FROM · LATER IN THE VIDEO</Label6></Plate6></In></Center>
 </>) },
   { from: 43.14, to: 49.08, back: null, el: (<>
-<Evidence src="evidence/t11/lt-luxury.png" size={[2880, 1800]} dur={5.94} frame="screen" marks={[{ x: 808, y: 600, w: 68, h: 44, at: 0.8 }]} zoom={0.9} source="LENDINGTREE SURVEY · 2024" url="lendingtree.com" />
+<Drift><Source6 at={0.3}>LendingTree survey · 2024</Source6><Center y={460}><BigNum at={0.8} size={220} label="CALL FAST FOOD A LUXURY NOW · LENDINGTREE">78%</BigNum></Center></Drift>
 </>) },
   { from: 49.08, to: 62.92, back: null, el: (<>
-<Drift><Center y={470}><Watches size={340} gap={90} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", at: 0.54, spinAt: 3.0, spin: 2.0, redAt: 4.18, blurAt: 9.34, q: true, color: C6.loss }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={430} gap={90} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "Somebody", sub: "WHO?", at: 0.54, spinAt: 3.0, spin: 2.0, redAt: 4.18, blurAt: 9.34, q: true, color: C6.loss }]} /></Center></Drift>
 </>) },
   { from: 62.92, to: 73.6, back: (<><Stock6 n={115} dur={10.68} dim={0.3} graphics={true} />
 <Stock6 n={151} from={7.14} dur={10.68} dim={0.3} graphics={true} /></>), el: (<>
@@ -94,7 +94,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={38} color={C6.ink}>MEN WHO WORKED HARD AND COUNTED THEIR CHANGE</Label6></Plate6></In></Center>
 </>) },
   { from: 139.28, to: 145.14, back: null, el: (<>
-<Drift><Center y={470}><Watches size={340} gap={90} note="WHO CHEAP FOOD WAS MADE FOR" noteAt={3.04} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={430} gap={90} note="WHO CHEAP FOOD WAS MADE FOR" noteAt={3.04} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
 </>) },
   { from: 145.14, to: 149.16, tag: [2, "How Cheap Was Invented", true], hard: true, back: (<><Stock6 n={9} dur={4.02} dim={0} graphics={true} />
 <Stock6 n={12} from={2.7} dur={4.02} dim={0} graphics={true} /></>), el: (<>
@@ -110,7 +110,7 @@ const BEATS: Beat[] = [
   { from: 157.22, to: 159.88, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={103} dur={2.66} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
-  { from: 159.88, to: 165.12, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={124} dur={5.24} dim={0} graphics={true} /></>), el: (<>
+  { from: 159.88, to: 165.12, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={22} dur={5.24} dim={0} graphics={true} /></>), el: (<>
 <Center y={440}><Stamp at={3.86} text="GREED?" size={110} /></Center>
 </>) },
   { from: 165.12, to: 174.36, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={67} dur={9.24} dim={0} graphics={true} />
@@ -118,7 +118,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={4.24} from="fade"><Plate6 at={4.24}><Label6 at={4.24} size={40} color={C6.ink}>NOT TOTALLY WRONG. WE'LL GET THERE.</Label6></Plate6></In></Center>
 </>) },
   { from: 174.36, to: 182.24, tag: [2, "How Cheap Was Invented", false], back: null, el: (<>
-<Drift><Center y={470}><Words text="Cheap food was invented. On purpose." at={2.06} size={110} maxW={1600} hl={["invented.", "purpose."]} /></Center></Drift>
+<Drift><Center y={470}><Words text="Cheap food was invented. On purpose." at={0.1} size={110} maxW={1600} hl={["invented.", "purpose."]} /></Center></Drift>
 </>) },
   { from: 182.24, to: 184.46, tag: [2, "How Cheap Was Invented", false], back: null, el: (<>
 <Drift><Center y={470}><Words text="Wichita, Kansas · 1921" at={0.1} size={120} maxW={1600} hl={["1921"]} /></Center></Drift>
@@ -130,25 +130,24 @@ const BEATS: Beat[] = [
 <Stock6 n={15} from={3.18} dur={5.66} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.18} from="fade"><Plate6 at={3.18}><Label6 at={3.18} size={42} color={C6.accent}>AMERICANS WERE SCARED OF HAMBURGER</Label6></Plate6></In></Center>
 </>) },
-  { from: 199.18, to: 205.46, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={75} dur={6.28} dim={0} graphics={true} sepia />
-<ArchiveFx /></>), el: (<>
-
+  { from: 199.18, to: 205.46, tag: [2, "How Cheap Was Invented", false], back: null, el: (<>
+<Evidence src="evidence/t11/jungle-1906.png" size={[1920, 2930]} dur={6.28} frame="paper" zoom={0.9} source="THE JUNGLE · UPTON SINCLAIR · 1906 · PUBLIC DOMAIN" />
 </>) },
   { from: 205.46, to: 210.54, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={76} dur={5.08} dim={0} graphics={true} sepia />
 <ArchiveFx /></>), el: (<>
 <Source6 at={0.3}>Chicago stockyards, 1905 · public domain</Source6>
 </>) },
   { from: 210.54, to: 217.72, tag: [2, "How Cheap Was Invented", false], back: null, el: (<>
-<Drift><Center y={430}><Words text="It sells trust." at={2.98} size={150} maxW={1600} hl={["trust."]} /></Center><Center x={960} y={740}><In at={4.52} from="fade"><Plate6 at={4.52}><Label6 at={4.52} size={40} color={C6.accent}>WHITE = CLEAN</Label6></Plate6></In></Center></Drift>
+<Drift><Center x={960} y={430}><In at={0.05} out={2.98} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={40} color={C6.ink}>WHITE CASTLE DIDN'T JUST SELL HAMBURGERS</Label6></Plate6></In></Center><Center y={430}><Words text="It sells trust." at={2.98} size={150} maxW={1600} hl={["trust."]} /></Center><Center x={960} y={740}><In at={4.52} from="fade"><Plate6 at={4.52}><Label6 at={4.52} size={40} color={C6.accent}>WHITE = CLEAN</Label6></Plate6></In></Center></Drift>
 </>) },
-  { from: 217.72, to: 220.12, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={69} dur={2.4} dim={0} graphics={true} /></>), el: (<>
+  { from: 217.72, to: 220.12, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={70} dur={2.4} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
   { from: 220.12, to: 229.18, tag: [2, "How Cheap Was Invented", false], back: null, el: (<>
 <Evidence src="evidence/t11/el-hai-wc.png" size={[2880, 1800]} dur={9.06} frame="screen" marks={[{ x: 200, y: 601, w: 250, h: 86, at: 5.94 }]} zoom={0.9} source="JACK EL-HAI · “13 WEEKS EATING NOTHING BUT WHITE CASTLE”" url="el-hai.com" />
 </>) },
   { from: 229.18, to: 232.22, tag: [2, "How Cheap Was Invented", false], back: null, el: (<>
-<Drift><Center y={430}><BigNum at={1.04} size={260} label="A WHITE CASTLE HAMBURGER · 1921">5¢</BigNum></Center><Center x={960} y={800}><In at={2.14} from="fade"><Plate6 at={2.14}><Label6 at={2.14} size={40} color={C6.accent}>“BUY 'EM BY THE SACK”</Label6></Plate6></In></Center></Drift>
+<Drift><Center x={960} y={430}><In at={0.05} out={1.04} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={44} color={C6.ink}>THE PRICE?</Label6></Plate6></In></Center><Center y={430}><BigNum at={1.04} size={260} label="A WHITE CASTLE HAMBURGER · 1921">5¢</BigNum></Center><Center x={960} y={800}><In at={2.14} from="fade"><Plate6 at={2.14}><Label6 at={2.14} size={40} color={C6.accent}>“BUY 'EM BY THE SACK”</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 232.22, to: 237.8, tag: [2, "How Cheap Was Invented", false], back: (<><Stock6 n={55} dur={5.58} dim={0} graphics={true} sepia />
 <ArchiveFx /></>), el: (<>
@@ -169,14 +168,15 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={38} color={C6.ink}>CARHOPS · A LONG MENU · BARBECUE</Label6></Plate6></In></Center>
 </>) },
   { from: 263.94, to: 271.1, tag: [3, "The Machine", false], back: null, el: (<>
-<Drift><Center y={430}><Stamp at={3.74} text="CLOSED" size={130} /></Center><Center x={960} y={760}><In at={5.4} from="fade"><Plate6 at={5.4}><Label6 at={5.4} size={44} color={C6.accent}>FOR THREE MONTHS</Label6></Plate6></In></Center></Drift>
+<Drift><Center x={960} y={430}><In at={0.05} out={3.74} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={42} color={C6.ink}>SOMETHING THAT LOOKED INSANE</Label6></Plate6></In></Center><Center y={430}><Stamp at={3.74} text="CLOSED" size={130} /></Center><Center x={960} y={760}><In at={5.4} from="fade"><Plate6 at={5.4}><Label6 at={5.4} size={44} color={C6.accent}>FOR THREE MONTHS</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 271.1, to: 277.6, tag: [3, "The Machine", false], back: null, el: (<>
 <Drift><Center y={500}><MenuShrink at={0.1} cutAt={5.26} /></Center></Drift>
 </>) },
-  { from: 277.6, to: 285.24, tag: [3, "The Machine", false], back: (<><Stock6 n={163} dur={7.64} dim={0} graphics={false} />
-<Stock6 n={161} from={3.14} dur={7.64} dim={0} graphics={false} /></>), el: (<>
-<Center x={960} y={880}><In at={0.2} out={3.14} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>PAPER WRAPPERS · NO TIPPING</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.3} from="fade"><Plate6 at={4.3}><Label6 at={4.3} size={40} color={C6.accent}>15¢ HAMBURGER · ABOUT HALF THE OLD PRICE</Label6></Plate6></In></Center><Source6 at={0.3}>First McDonald's Museum, San Bernardino · YouTube 0d9BDHtAeMM</Source6>
+  { from: 277.6, to: 285.24, tag: [3, "The Machine", false], back: (<><Stock6 n={108} dur={7.64} dim={0} graphics={true} sepia />
+<Stock6 n={80} from={3.14} dur={7.64} dim={0} graphics={true} sepia />
+<ArchiveFx /></>), el: (<>
+<Center x={960} y={880}><In at={0.2} out={3.14} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>PAPER WRAPPERS · NO TIPPING</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.3} from="fade"><Plate6 at={4.3}><Label6 at={4.3} size={40} color={C6.accent}>15¢ HAMBURGER · ABOUT HALF THE OLD PRICE</Label6></Plate6></In></Center><Source6 at={3.14}>Photo: John Margolies · Library of Congress</Source6>
 </>) },
   { from: 285.24, to: 295.3, tag: [3, "The Machine", false], back: (<><Stock6 n={17} dur={10.06} dim={0} graphics={true} />
 <Stock6 n={18} from={6.22} dur={10.06} dim={0} graphics={true} /></>), el: (<>
@@ -194,10 +194,10 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.22} out={3.46} from="fade"><Plate6 at={2.22}><Label6 at={2.22} size={46} color={C6.ink}>FAMILIES</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.46} out={4.94} from="fade"><Plate6 at={3.46}><Label6 at={3.46} size={46} color={C6.ink}>WORKING PEOPLE</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.94} from="fade"><Plate6 at={4.94}><Label6 at={4.94} size={46} color={C6.accent}>KIDS WITH POCKET CHANGE</Label6></Plate6></In></Center><Source6 at={0.3}>Photo: David E. Lucas · public domain</Source6>
 </>) },
   { from: 314.84, to: 323.52, tag: [3, "The Machine", false], back: null, el: (<>
-<Drift><Center y={440}><Words text="“Our whole concept was based on speed, lower prices, and volume.”" at={4.1} size={86} maxW={1500} hl={["speed,", "prices,", "volume.\u201d"]} /></Center><Center y={690}><Label6 at={4.1} size={28} color={C6.mint}>DICK McDONALD</Label6></Center></Drift>
+<Drift><Center x={960} y={440}><In at={0.05} out={4.1} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={40} color={C6.ink}>DICK McDONALD, IN ONE LINE</Label6></Plate6></In></Center><Center y={440}><Words text="“Our whole concept was based on speed, lower prices, and volume.”" at={4.1} size={86} maxW={1500} hl={["speed,", "prices,", "volume.\u201d"]} /></Center><Center y={690}><Label6 at={4.1} size={28} color={C6.mint}>DICK McDONALD</Label6></Center></Drift>
 </>) },
   { from: 323.52, to: 333.96, tag: [3, "The Machine", false], back: null, el: (<>
-<Drift><Center x={960} y={180}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.accent}>THAT'S THE MACHINE</Label6></Plate6></In></Center><Center y={540}><ThreeMoves steps={[{ word: "LOWER PRICE", sub: "sell it cheap", at: 5.2 }, { word: "BIGGER CROWD", sub: "sell a lot, fast", at: 6.32 }, { word: "CHEAPER", sub: "to make each one", at: 8.72 }]} /></Center></Drift>
+<Drift><Center x={960} y={180}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.accent}>THAT'S THE MACHINE</Label6></Plate6></In></Center><Center y={540}><ThreeMoves steps={[{ word: "LOWER PRICE", sub: "sell it cheap", at: 1.42 }, { word: "BIGGER CROWD", sub: "sell a lot, fast", at: 6.32 }, { word: "CHEAPER", sub: "to make each one", at: 8.72 }]} /></Center></Drift>
 </>) },
   { from: 333.96, to: 341.22, tag: [3, "The Machine", false], back: (<><Stock6 n={79} dur={7.26} dim={0} graphics={true} />
 <Stock6 n={78} from={5.04} dur={7.26} dim={0} graphics={true} /></>), el: (<>
@@ -207,7 +207,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.76} from="fade"><Plate6 at={2.76}><Label6 at={2.76} size={42} color={C6.accent}>HARRY SONNEBORN · THE MONEY MAN</Label6></Plate6></In></Center>
 </>) },
   { from: 345.8, to: 353.26, tag: [3, "The Machine", false], back: null, el: (<>
-<Drift><Center y={440}><Words text="“We are not technically in the food business. We are in the real estate business.”" at={2.54} size={80} maxW={1500} hl={["real", "estate"]} /></Center><Center y={690}><Label6 at={2.54} size={28} color={C6.mint}>HARRY SONNEBORN, AS HE REPORTEDLY PUT IT</Label6></Center></Drift>
+<Drift><Center x={960} y={440}><In at={0.05} out={2.54} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={38} color={C6.ink}>HARRY SONNEBORN, AS HE REPORTEDLY PUT IT</Label6></Plate6></In></Center><Center y={440}><Words text="“We are not technically in the food business. We are in the real estate business.”" at={2.54} size={80} maxW={1500} hl={["real", "estate"]} /></Center><Center y={690}><Label6 at={2.54} size={28} color={C6.mint}>HARRY SONNEBORN, AS HE REPORTEDLY PUT IT</Label6></Center></Drift>
 </>) },
   { from: 353.26, to: 361.4, tag: [3, "The Machine", false], back: (<><Stock6 n={19} dur={8.14} dim={0} graphics={true} />
 <Stock6 n={134} from={5.16} dur={8.14} dim={0} graphics={true} /></>), el: (<>
@@ -220,13 +220,15 @@ const BEATS: Beat[] = [
   { from: 369.6, to: 372.3, tag: [3, "The Machine", false], back: (<><Stock6 n={20} dur={2.7} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
-  { from: 372.3, to: 382.58, tag: [4, "Price Wars", true], hard: true, back: (<><Stock6 n={58} dur={10.28} dim={0} graphics={true} sepia />
-<Stock6 n={82} from={4.4} dur={10.28} dim={0} graphics={true} sepia />
+  { from: 372.3, to: 376.68, tag: [4, "Price Wars", true], hard: true, back: null, el: (<>
+<Evidence src="evidence/t11/ad-1970.png" size={[773, 1426]} dur={4.38} frame="paper" zoom={0.9} source="McDONALD'S NEWSPAPER AD · 1970 · ALLENTOWN, PA · PUBLIC DOMAIN" />
+</>) },
+  { from: 376.68, to: 382.58, tag: [4, "Price Wars", false], back: (<><Stock6 n={58} dur={5.9} dim={0} graphics={true} sepia />
 <ArchiveFx /></>), el: (<>
-<Center x={960} y={880}><In at={4.4} out={9.28} from="fade"><Plate6 at={4.4}><Label6 at={4.4} size={40} color={C6.ink}>WHEN THINGS GOT SLOW: ONE LEVER</Label6></Plate6></In></Center><Center x={960} y={880}><In at={9.28} from="fade"><Plate6 at={9.28}><Label6 at={9.28} size={64} color={C6.accent}>PRICE.</Label6></Plate6></In></Center>
+<Center x={960} y={880}><In at={0.1} out={4.9} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.ink}>WHEN THINGS GOT SLOW: ONE LEVER</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.9} from="fade"><Plate6 at={4.9}><Label6 at={4.9} size={64} color={C6.accent}>PRICE.</Label6></Plate6></In></Center>
 </>) },
   { from: 382.58, to: 392.32, tag: [4, "Price Wars", false], back: null, el: (<>
-<Drift><Center y={460}><MenuBoard at={0.1} title="VALUE MENU · 1989" w={900} rh={92} foot="ILLUSTRATION" rows={[{ name: "BURGER", price: "99¢", at: 3.98 }, { name: "FRIES", price: "99¢", at: 3.98 }, { name: "DRINK", price: "99¢", at: 3.98 }, { name: "…AND MORE", price: "99¢", at: 3.98 }]} /></Center><Center x={960} y={960}><In at={7.72} from="fade"><Plate6 at={7.72}><Label6 at={7.72} size={40} color={C6.accent}>EVERYBODY COPIED IT</Label6></Plate6></In></Center></Drift>
+<Drift><Center y={460}><MenuBoard at={0.1} title="VALUE MENU · 1989" w={900} rh={92} foot="ILLUSTRATION" rows={[{ name: "BURGER", price: "—", to: "99¢", toAt: 3.98 }, { name: "FRIES", price: "—", to: "99¢", toAt: 3.98 }, { name: "DRINK", price: "—", to: "99¢", toAt: 3.98 }, { name: "…AND MORE", price: "—", to: "99¢", toAt: 3.98 }]} /></Center><Center x={960} y={960}><In at={7.72} from="fade"><Plate6 at={7.72}><Label6 at={7.72} size={40} color={C6.accent}>EVERYBODY COPIED IT</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 392.32, to: 403.02, tag: [4, "Price Wars", false], back: (<><Stock6 n={142} dur={10.7} dim={0} graphics={false} />
 <Stock6 n={141} from={4.72} dur={10.7} dim={0} graphics={false} /></>), el: (<>
@@ -248,7 +250,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.82} from="fade"><Plate6 at={2.82}><Label6 at={2.82} size={38} color={C6.ink}>BURGER KING: WHOPPERS FOR 99¢ IN SOME PLACES</Label6></Plate6></In></Center><Source6 at={0.4}>Photo: PaulGorduiz106 · CC BY-SA 4.0</Source6>
 </>) },
   { from: 431.16, to: 440.2, tag: [4, "Price Wars", false], back: null, el: (<>
-<Evidence src="evidence/t11/mcspot-reuters-jun97.png" size={[2880, 1800]} dur={9.04} frame="screen" marks={[{ x: 636, y: 892, w: 71, h: 34, at: 3.72 }]} zoom={0.9} source="REUTERS · JUNE 4, 1997 · VIA McSPOTLIGHT.ORG" url="mcspotlight.org" />
+<Evidence src="evidence/t11/mcspot-reuters-jun97.png" size={[2880, 1800]} dur={9.04} frame="screen" marks={[{ x: 636, y: 892, w: 71, h: 34, at: 3.72 }]} zoom={0.75} source="REUTERS · JUNE 4, 1997 · VIA McSPOTLIGHT.ORG" url="mcspotlight.org" />
 </>) },
   { from: 440.2, to: 450.4, tag: [4, "Price Wars", false], back: null, el: (<>
 <Drift><Center y={500}><TwoTags at={0.1} bAt={2.4} noteAt={4.84} /></Center></Drift>
@@ -264,31 +266,32 @@ const BEATS: Beat[] = [
 <Drift><Center y={440}><MenuBoard at={0.1} title="DOLLAR MENU" w={860} rh={92} foot="ILLUSTRATION" rows={[{ name: "SANDWICH", price: "$1" }, { name: "FRIES", price: "$1" }, { name: "DRINK", price: "$1" }]} /></Center><Center x={960} y={920}><In at={6.18} from="fade"><Plate6 at={6.18}><Label6 at={6.18} size={46} color={C6.accent}>BORN OUT OF PANIC</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 474.66, to: 483.72, tag: [5, "The Dollar", false], back: null, el: (<>
-<Drift><Center y={440}><BigNum at={7.24} size={200} color={C6.loss} label="FIRST QUARTERLY LOSS EVER · Q4 2002">−$343M</BigNum></Center><Source6 at={0.4}>AP · CBS News · Jan 2003</Source6></Drift>
+<Drift><Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>END OF 2002 · THE FIRST QUARTERLY LOSS IN ITS HISTORY</Label6></Plate6></In></Center><Center y={470}><BigNum at={7.24} size={200} color={C6.loss} label="Q4 2002 · NET LOSS">−$343M</BigNum></Center><Source6 at={0.4}>AP · CBS News · Jan 2003</Source6></Drift>
 </>) },
-  { from: 483.72, to: 491.12, tag: [5, "The Dollar", false], back: (<><Stock6 n={22} dur={7.4} dim={0} graphics={true} />
-<Stock6 n={124} from={3.04} dur={7.4} dim={0} graphics={true} /></>), el: (<>
+  { from: 483.72, to: 491.12, tag: [5, "The Dollar", false], back: (<><Stock6 n={97} dur={7.4} dim={0} graphics={true} />
+<Stock6 n={96} from={3.04} dur={7.4} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} out={3.04} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.ink}>CLOSING HUNDREDS OF RESTAURANTS</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.04} from="fade"><Plate6 at={3.04}><Label6 at={3.04} size={42} color={C6.loss}>STOCK: ~$15 · LOWEST IN YEARS</Label6></Plate6></In></Center>
 </>) },
   { from: 491.12, to: 494.9, tag: [5, "The Dollar", false], back: (<><Stock6 n={90} dur={3.78} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
-  { from: 494.9, to: 502.68, tag: [5, "The Dollar", false], back: (<><Stock6 n={11} dur={7.78} dim={0} graphics={true} />
-<Stock6 n={117} from={4.92} dur={7.78} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={3.56} from="fade"><Plate6 at={3.56}><Label6 at={3.56} size={40} color={C6.ink}>JIM CANTALUPO · ~30 YEARS AT McDONALD'S</Label6></Plate6></In></Center><Source6 at={0.3}>ILLUSTRATIVE FOOTAGE</Source6>
+  { from: 494.9, to: 502.68, tag: [5, "The Dollar", false], back: (<><Stock6 n={80} dur={7.78} dim={0} graphics={true} sepia />
+<Stock6 n={117} from={4.92} dur={7.78} dim={0} graphics={true} sepia />
+<ArchiveFx /></>), el: (<>
+<Center x={960} y={880}><In at={3.56} from="fade"><Plate6 at={3.56}><Label6 at={3.56} size={40} color={C6.ink}>JIM CANTALUPO · ~30 YEARS AT McDONALD'S</Label6></Plate6></In></Center>
 </>) },
   { from: 502.68, to: 510.22, tag: [5, "The Dollar", false], back: (<><Stock6 n={89} dur={7.54} dim={0} graphics={true} />
 <Stock6 n={120} from={3.76} dur={7.54} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} out={6.72} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={42} color={C6.ink}>CEO AGAIN · JANUARY 1, 2003</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.72} from="fade"><Plate6 at={6.72}><Label6 at={6.72} size={64} color={C6.accent}>CHEAP.</Label6></Plate6></In></Center>
 </>) },
-  { from: 510.22, to: 516.22, tag: [5, "The Dollar", false], back: null, el: (<>
-<Evidence src="evidence/t11/ljworld-dollar.png" size={[2880, 1800]} dur={6.0} frame="screen" marks={[{ x: 1126, y: 599, w: 188, h: 40, at: 0.05 }]} zoom={0.9} source="LAWRENCE JOURNAL-WORLD · AP · DEC 2002" url="www2.ljworld.com" />
+  { from: 510.22, to: 516.22, tag: [5, "The Dollar", false], back: (<><Stock6 n={110} dur={6.0} dim={0} graphics={true} /></>), el: (<>
+<Center x={960} y={880}><In at={0.1} out={2.12} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.ink}>2002 · THE DOLLAR MENU GOES NATIONAL</Label6></Plate6></In></Center><Center x={960} y={880}><In at={2.12} from="fade"><Plate6 at={2.12}><Label6 at={2.12} size={40} color={C6.accent}>SANDWICHES · FRIES · DRINKS · $1 EACH</Label6></Plate6></In></Center>
 </>) },
   { from: 516.22, to: 522.62, tag: [5, "The Dollar", false], back: (<><Stock6 n={14} dur={6.4} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={1.04} from="fade"><Plate6 at={1.04}><Label6 at={1.04} size={44} color={C6.accent}>CUSTOMERS CAME BACK</Label6></Plate6></In></Center>
 </>) },
   { from: 522.62, to: 531.32, tag: [5, "The Dollar", false], back: (<><Stock6 n={85} dur={8.7} dim={0} graphics={true} />
-<Stock6 n={67} from={4.5} dur={8.7} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={65} from={4.5} dur={8.7} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} out={7.48} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>ORLANDO · APRIL 2004</Label6></Plate6></In></Center><Center x={960} y={880}><In at={7.48} from="fade"><Plate6 at={7.48}><Label6 at={7.48} size={46} color={C6.ink}>HE WAS 60</Label6></Plate6></In></Center><Source6 at={0.4}>Photo: Visitor7 · CC BY-SA 3.0</Source6>
 </>) },
   { from: 531.32, to: 535.28, tag: [5, "The Dollar", false], back: (<><Stock6 n={44} dur={3.96} dim={0} graphics={true} /></>), el: (<>
@@ -315,7 +318,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t11/newser-mcdouble.png" size={[2880, 1800]} dur={10.18} frame="screen" marks={[{ x: 792, y: 669, w: 344, h: 88, at: 2.88 }, { x: 606, y: 669, w: 168, h: 88, at: 7.44 }]} zoom={0.9} source="NEWSER · OCT 2008" url="newser.com" />
 </>) },
   { from: 588.68, to: 595.82, tag: [6, "The Squeeze", false], back: null, el: (<>
-<Drift><Center y={500}><CheeseStack at={0.05} liftAt={0.4} /></Center></Drift>
+<Drift><Center y={520}><div style={{ scale: "1.4" }}><CheeseStack at={0.05} liftAt={0.4} /></div></Center></Drift>
 </>) },
   { from: 595.82, to: 602.56, tag: [6, "The Squeeze", false], back: (<><Stock6 n={27} dur={6.74} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.96} from="fade"><Plate6 at={2.96}><Label6 at={2.96} size={40} color={C6.accent}>−1 SLICE ≈ 6¢ A SANDWICH · ANALYST ESTIMATE</Label6></Plate6></In></Center>
@@ -331,7 +334,7 @@ const BEATS: Beat[] = [
 <Drift><Center y={430}><Words text="Voted against it. Twice." at={0.1} size={130} maxW={1600} hl={["Twice."]} /></Center><Center x={960} y={740}><In at={3.06} from="fade"><Plate6 at={3.06}><Label6 at={3.06} size={42} color={C6.accent}>CORPORATE DID IT ANYWAY</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 618.7, to: 629.28, tag: [6, "The Squeeze", false], back: null, el: (<>
-<Evidence src="evidence/t11/nrn-bk-top.png" size={[2880, 1800]} dur={10.58} frame="screen" marks={[{ x: 1506, y: 781, w: 634, h: 80, at: 8.68 }]} zoom={0.9} source="NATION'S RESTAURANT NEWS · NOV 2009" url="nrn.com" /><Center x={960} y={960}><In at={8.68} from="fade"><Plate6 at={8.68}><Label6 at={8.68} size={32} color={C6.accent}>~80% OF BK'S U.S. FRANCHISE OWNERS · SUED THEIR OWN COMPANY</Label6></Plate6></In></Center>
+<Evidence src="evidence/t11/nrn-bk-top.png" size={[2880, 1800]} dur={10.58} frame="screen" marks={[{ x: 1506, y: 781, w: 634, h: 80, at: 8.68 }]} zoom={1.3} source="NATION'S RESTAURANT NEWS · NOV 2009" url="nrn.com" /><Center x={960} y={960}><In at={8.68} from="fade"><Plate6 at={8.68}><Label6 at={8.68} size={32} color={C6.accent}>~80% OF BK'S U.S. FRANCHISE OWNERS · SUED THEIR OWN COMPANY</Label6></Plate6></In></Center>
 </>) },
   { from: 629.28, to: 634.96, tag: [6, "The Squeeze", false], back: null, el: (<>
 <Evidence src="evidence/t11/nrn-bk.png" size={[2880, 1800]} dur={5.68} frame="screen" marks={[{ x: 404, y: 702, w: 156, h: 40, at: 3.06 }]} zoom={0.9} source="NATION'S RESTAURANT NEWS · NOV 13, 2009" url="nrn.com" />
@@ -349,7 +352,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} out={2.36} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={42} color={C6.ink}>CASE DISMISSED · FALL 2010</Label6></Plate6></In></Center><Center x={960} y={880}><In at={2.36} from="fade"><Plate6 at={2.36}><Label6 at={2.36} size={40} color={C6.ink}>SETTLED IN 2011 · THE OWNERS GOT NO MONEY</Label6></Plate6></In></Center>
 </>) },
   { from: 660.68, to: 671.74, tag: [6, "The Squeeze", false], back: null, el: (<>
-<Drift><Center y={440}><MenuBoard at={0.1} title="DOLLAR MENU & MORE · 2013" w={880} rh={92} foot="ILLUSTRATION" rows={[{ name: "SOME ITEMS", price: "$1", at: 7.8 }, { name: "SOME ITEMS", price: "$2", at: 8.94 }, { name: "SOME ITEMS", price: "$5", at: 9.64 }]} /></Center></Drift>
+<Drift><Center y={440}><MenuBoard at={0.1} title="DOLLAR MENU & MORE · 2013" w={880} rh={92} foot="ILLUSTRATION" rows={[{ name: "SOME ITEMS", price: "—", to: "$1", toAt: 7.8 }, { name: "SOME ITEMS", price: "—", to: "$2", toAt: 8.94 }, { name: "SOME ITEMS", price: "—", to: "$5", toAt: 9.64 }]} /></Center></Drift>
 </>) },
   { from: 671.74, to: 673.66, tag: [6, "The Squeeze", false], back: (<><Stock6 n={119} dur={1.92} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={42} color={C6.ink}>SAME IDEA, TECHNICALLY</Label6></Plate6></In></Center>
@@ -357,7 +360,7 @@ const BEATS: Beat[] = [
   { from: 673.66, to: 678.38, tag: [6, "The Squeeze", false], back: (<><Stock6 n={100} dur={4.72} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={3.58} from="fade"><Plate6 at={3.58}><Label6 at={3.58} size={46} color={C6.ink}>IT WASN'T THE SAME</Label6></Plate6></In></Center>
 </>) },
-  { from: 678.38, to: 686.22, tag: [6, "The Squeeze", false], back: (<><Stock6 n={62} dur={7.84} dim={0} graphics={true} />
+  { from: 678.38, to: 686.22, tag: [6, "The Squeeze", false], back: (<><Stock6 n={134} dur={7.84} dim={0} graphics={true} />
 <Stock6 n={25} from={4.36} dur={7.84} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} out={4.36} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>THE OWNERS ATE THE DIFFERENCE</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.36} from="fade"><Plate6 at={4.36}><Label6 at={4.36} size={46} color={C6.accent}>…UNTIL THEY STOPPED</Label6></Plate6></In></Center>
 </>) },
@@ -388,7 +391,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t11/aol-latimes.png" size={[2880, 1800]} dur={5.26} frame="screen" marks={[{ x: 327, y: 1467, w: 147, h: 38, at: 2.14 }]} zoom={0.9} source="LOS ANGELES TIMES · NOV 2025 · VIA AOL" url="aol.com" />
 </>) },
   { from: 731.12, to: 737.16, tag: [7, "Follow the Money", false], back: null, el: (<>
-<Drift><Center y={450}><Watches size={320} gap={80} note="A NURSE · TWO JOBS · “BARELY AFFORD”" noteAt={1.62} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
+<Drift><Center y={450}><Watches size={420} gap={80} note="A NURSE · TWO JOBS · “BARELY AFFORD”" noteAt={1.62} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
 </>) },
   { from: 737.16, to: 743.62, tag: [7, "Follow the Money", false], back: (<><Stock6 n={53} dur={6.46} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.38} from="fade"><Plate6 at={2.38}><Label6 at={2.38} size={42} color={C6.ink}>THAT 51 WILL EXPLAIN HER</Label6></Plate6></In></Center><Source6 at={0.3}>ILLUSTRATIVE FOOTAGE</Source6>
@@ -396,11 +399,11 @@ const BEATS: Beat[] = [
   { from: 743.62, to: 749.76, tag: [7, "Follow the Money", false], back: (<><Stock6 n={24} dur={6.14} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} out={2.4} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={46} color={C6.accent}>WHO GETS YOUR $10?</Label6></Plate6></In></Center><Center x={960} y={880}><In at={2.4} from="fade"><Plate6 at={2.4}><Label6 at={2.4} size={38} color={C6.ink}>$10 AT A McDONALD'S THE COMPANY RUNS ITSELF</Label6></Plate6></In></Center>
 </>) },
-  { from: 749.76, to: 758.0, tag: [7, "Follow the Money", false], back: null, el: (<>
+  { from: 749.76, to: 760.48, tag: [7, "Follow the Money", false], back: null, el: (<>
 <Drift><Center y={560}><TenSplit at={0.05} w={1500} hlLast={7.22} note="McDONALD'S-OPERATED RESTAURANTS · 2025 ANNUAL REPORT · ROUNDED" stacks={[{ label: "FOOD & PAPER · 31%", value: "~$3.00", pct: 31, at: 0.05 }, { label: "PEOPLE · 30%", value: "~$3.00", pct: 30, at: 2.04 }, { label: "BUILDING & EVERYTHING ELSE · 24%", value: "~$2.40", pct: 24, at: 3.64 }, { label: "LEFT · 15%", value: "~$1.50", pct: 15, at: 7.22 }]} /></Center></Drift>
 </>) },
-  { from: 758.0, to: 766.76, tag: [7, "Follow the Money", false], back: null, el: (<>
-<Evidence src="evidence/t11/mcd-letter-95.png" size={[2880, 1800]} dur={8.76} frame="screen" marks={[{ x: 2100, y: 594, w: 64, h: 32, at: 2.5 }]} zoom={0.9} source="McDONALD'S OPEN LETTER · MAY 2024" url="web.archive.org" /><Center x={960} y={960}><In at={5.98} from="fade"><Plate6 at={5.98}><Label6 at={5.98} size={34} color={C6.accent}>THEY PAY McDONALD'S RENT AND FEES</Label6></Plate6></In></Center>
+  { from: 760.48, to: 766.76, tag: [7, "Follow the Money", false], back: null, el: (<>
+<Evidence src="evidence/t11/mcd-letter-95.png" size={[2880, 1800]} dur={6.28} frame="screen" marks={[{ x: 2100, y: 594, w: 64, h: 32, at: 0.05 }]} zoom={1.1} inset={{ src: "evidence/t11/mcd-letter-top.png", size: [2880, 1800] }} source="McDONALD'S OPEN LETTER · MAY 2024" url="web.archive.org" /><Center x={960} y={960}><In at={3.5} from="fade"><Plate6 at={3.5}><Label6 at={3.5} size={34} color={C6.accent}>THEY PAY McDONALD'S RENT AND FEES</Label6></Plate6></In></Center>
 </>) },
   { from: 766.76, to: 776.86, tag: [7, "Follow the Money", false], back: null, el: (<>
 <Drift><Center y={500}><Jars at={0.05} aAt={4.68} bAt={1.5} /></Center><Source6 at={0.3}>OUR MATH · McDONALD'S 2025 10-K · MARGIN PER $1 OF REVENUE</Source6></Drift>
@@ -417,7 +420,7 @@ const BEATS: Beat[] = [
 <Drift><Center y={560}><TenSplit at={0.05} w={1500} growAt={0.4} note="WHY IS EVERY STACK CLIMBING?" stacks={[{ label: "FOOD & PAPER · 31%", value: "~$3.00", pct: 31, at: 0.05 }, { label: "PEOPLE · 30%", value: "~$3.00", pct: 30, at: 0.05 }, { label: "BUILDING & EVERYTHING ELSE · 24%", value: "~$2.40", pct: 24, at: 0.05 }, { label: "LEFT · 15%", value: "~$1.50", pct: 15, at: 0.05 }]} /></Center></Drift>
 </>) },
   { from: 801.44, to: 810.5, tag: [8, "The Costs", false], back: (<><Stock6 n={35} dur={9.06} dim={0} graphics={true} />
-<Stock6 n={36} from={6.68} dur={9.06} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={38} from={6.68} dur={9.06} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
   { from: 810.5, to: 816.94, tag: [8, "The Costs", false], back: (<><Stock6 n={37} dur={6.44} dim={0} graphics={true} />
@@ -434,7 +437,7 @@ const BEATS: Beat[] = [
   { from: 831.4, to: 840.9, tag: [8, "The Costs", false], back: null, el: (<>
 <Evidence src="evidence/t11/fortune-potato-top.png" size={[2880, 1800]} dur={9.5} frame="screen" marks={[{ x: 186, y: 594, w: 242, h: 96, at: 0.05 }]} zoom={0.9} source="FORTUNE · NOV 2024" url="fortune.com" /><Center x={1520} y={300}><Stamp at={0.8} text="ALLEGED" color={C6.loss} size={72} /></Center><Center x={960} y={960}><In at={5.44} from="fade"><Plate6 at={5.44}><Label6 at={5.44} size={32} color={C6.accent}>SEPT 2026: A JUDGE LETS MOST OF THE CASE GO FORWARD</Label6></Plate6></In></Center>
 </>) },
-  { from: 840.9, to: 847.1, tag: [8, "The Costs", false], back: (<><Stock6 n={70} dur={6.2} dim={0} graphics={true} /></>), el: (<>
+  { from: 840.9, to: 847.1, tag: [8, "The Costs", false], back: (<><Stock6 n={68} dur={6.2} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={1.38} from="fade"><Plate6 at={1.38}><Label6 at={1.38} size={34} color={C6.ink}>CALIFORNIA · $20/HR MINIMUM · BIG FAST FOOD CHAINS · 2024</Label6></Plate6></In></Center>
 </>) },
   { from: 847.1, to: 851.96, tag: [8, "The Costs", false], back: null, el: (<>
@@ -443,8 +446,8 @@ const BEATS: Beat[] = [
   { from: 851.96, to: 858.4, tag: [8, "The Costs", false], back: (<><Stock6 n={146} dur={6.44} dim={0} graphics={false} /></>), el: (<>
 <Source6 at={0.3}>Footage: NewsNation</Source6>
 </>) },
-  { from: 858.4, to: 865.9, tag: [8, "The Costs", false], back: null, el: (<>
-<Evidence src="evidence/t11/cbs-hikes.png" size={[2880, 1800]} dur={7.5} frame="screen" marks={[{ x: 809, y: 718, w: 88, h: 52, at: 1.38 }]} zoom={0.9} source="CBS NEWS · 2024" url="cbsnews.com" /><Center x={960} y={960}><In at={4.1} from="fade"><Plate6 at={4.1}><Label6 at={4.1} size={36} color={C6.ink}>“THE BIG MAC DOUBLED IN 5 YEARS”</Label6></Plate6></In></Center>
+  { from: 858.4, to: 865.9, tag: [8, "The Costs", false], back: (<><Stock6 n={111} dur={7.5} dim={0} graphics={true} /></>), el: (<>
+<Center x={960} y={880}><In at={0.1} out={1.38} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.ink}>A CONNECTICUT REST STOP</Label6></Plate6></In></Center><Center x={960} y={880}><In at={1.38} from="fade"><Plate6 at={1.38}><Label6 at={1.38} size={56} color={C6.loss}>BIG MAC MEAL · $17.59</Label6></Plate6></In></Center><Source6 at={0.3}>Photo: Adam Moss · CC BY-SA 2.0</Source6><Center x={960} y={200}><In at={4.1} from="fade"><Plate6 at={4.1}><Label6 at={4.1} size={36} color={C6.ink}>“THE BIG MAC DOUBLED IN 5 YEARS”</Label6></Plate6></In></Center>
 </>) },
   { from: 865.9, to: 870.08, tag: [8, "The Costs", false], back: (<><Stock6 n={89} dur={4.18} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>SOMETHING COMPANIES ALMOST NEVER DO</Label6></Plate6></In></Center>
@@ -453,13 +456,13 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t11/mcd-letter-top.png" size={[2880, 1800]} dur={6.2} frame="screen" zoom={0.9} source="McDONALD'S OPEN LETTER · JOE ERLINGER · MAY 29, 2024 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" />
 </>) },
   { from: 876.28, to: 884.72, tag: [8, "The Costs", false], back: null, el: (<>
-<Evidence src="evidence/t11/mcd-letter-95.png" size={[2880, 1800]} dur={8.44} frame="screen" marks={[{ x: 917, y: 460, w: 77, h: 34, at: 1.64 }, { x: 983, y: 508, w: 83, h: 34, at: 2.76 }, { x: 1365, y: 510, w: 70, h: 30, at: 5.58 }]} zoom={0.9} source="McDONALD'S OPEN LETTER · MAY 29, 2024" url="web.archive.org" /><Center x={960} y={980}><In at={6.26} from="fade"><Plate6 at={6.26}><Label6 at={6.26} size={32} color={C6.ink}>NOT A HUNDRED. FAIR ENOUGH.</Label6></Plate6></In></Center>
+<Evidence src="evidence/t11/mcd-letter-95.png" size={[2880, 1800]} dur={8.44} frame="screen" marks={[{ x: 917, y: 460, w: 77, h: 34, at: 1.64 }, { x: 983, y: 508, w: 83, h: 34, at: 2.76 }, { x: 1365, y: 510, w: 70, h: 30, at: 5.58 }]} zoom={1.1} inset={{ src: "evidence/t11/mcd-letter-top.png", size: [2880, 1800] }} source="McDONALD'S OPEN LETTER · MAY 29, 2024" url="web.archive.org" /><Center x={960} y={980}><In at={6.26} from="fade"><Plate6 at={6.26}><Label6 at={6.26} size={32} color={C6.ink}>NOT A HUNDRED. FAIR ENOUGH.</Label6></Plate6></In></Center>
 </>) },
   { from: 884.72, to: 892.84, tag: [8, "The Costs", false], back: null, el: (<>
 <Evidence src="evidence/t11/mcd-myths.png" size={[1700, 2400]} dur={8.12} frame="paper" marks={[{ x: 700, y: 1522, w: 820, h: 64, at: 1.44 }, { x: 700, y: 392, w: 860, h: 32, at: 4.32 }]} zoom={0.9} source="McDONALD'S “PRICING MYTHS VS. FACTS” · MAY 2024" />
 </>) },
   { from: 892.84, to: 903.74, tag: [8, "The Costs", false], back: null, el: (<>
-<Drift><Center y={460}><TwoBars at={0.1} a={{ label: "PRICES ACROSS AMERICA · 2019–2024", value: "+21%", v: 21 }} b={{ label: "McDONALD'S AVERAGE MENU ITEM", value: "+40%", v: 40, color: C6.loss, at: 7.36 }} h={440} /></Center></Drift>
+<Drift><Center y={460}><TwoBars at={0.1} a={{ label: "PRICES ACROSS AMERICA · 2019–2024", value: "+21%", v: 21, color: C6.blue }} b={{ label: "McDONALD'S AVERAGE MENU ITEM", value: "+40%", v: 40, color: C6.loss, at: 7.36 }} h={440} /></Center></Drift>
 </>) },
   { from: 903.74, to: 906.78, tag: [8, "The Costs", false], back: (<><Stock6 n={116} dur={3.04} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.accent}>THEY TOLD US. THEY JUST LED WITH THE BIG MAC.</Label6></Plate6></In></Center>
@@ -469,7 +472,7 @@ const BEATS: Beat[] = [
 <Source6 at={5.28}>ILLUSTRATIVE FOOTAGE</Source6><Center x={960} y={880}><In at={2.86} out={5.28} from="fade"><Plate6 at={2.86}><Label6 at={2.86} size={40} color={C6.ink}>BEEF · FRIES · PEOPLE · BUILDINGS</Label6></Plate6></In></Center><Center x={960} y={880}><In at={5.28} from="fade"><Plate6 at={5.28}><Label6 at={5.28} size={44} color={C6.accent}>NONE OF THAT EXPLAINS MARIAM</Label6></Plate6></In></Center>
 </>) },
   { from: 914.9, to: 921.56, back: null, el: (<>
-<Drift><Center y={470}><Watches size={360} gap={100} note="FIRST: WHERE THE 10 AND THE 11 COME FROM" noteAt={3.72} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={450} gap={100} note="FIRST: WHERE THE 10 AND THE 11 COME FROM" noteAt={3.72} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
 </>) },
   { from: 921.56, to: 926.86, tag: [9, "The Number", true], hard: true, back: (<><Stock6 n={4} dur={5.3} dim={0} graphics={true} /></>), el: (<>
 
@@ -487,7 +490,7 @@ const BEATS: Beat[] = [
 <Drift><Center y={480}><Division label="2026 · AVERAGE WORKER" price="$6.22" wage="$32.75" res="11 MIN" times={[0.05, 0.1, 2.42]} /></Center><Source6 at={0.4}>BLS · The Economist · our math</Source6></Drift>
 </>) },
   { from: 953.62, to: 965.26, tag: [9, "The Number", false], back: null, el: (<>
-<Drift><Center y={470}><Watches size={360} gap={100} note="IF THE AVERAGE BARELY MOVED, WHO'S PAYING 51?" noteAt={7.84} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={450} gap={100} note="IF THE AVERAGE BARELY MOVED, WHO'S PAYING 51?" noteAt={7.84} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
 </>) },
   { from: 965.26, to: 968.86, tag: [9, "The Number", false], back: null, el: (<>
 <Drift><Center y={500}><CrackWord at={0.05} crackAt={1.88} /></Center></Drift>
@@ -505,7 +508,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} out={2.98} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={42} color={C6.ink}>LONGEST EVER WITHOUT A RAISE</Label6></Plate6></In></Center><Center x={960} y={880}><In at={2.98} from="fade"><Plate6 at={2.98}><Label6 at={2.98} size={46} color={C6.accent}>20 STATES STILL USE $7.25</Label6></Plate6></In></Center>
 </>) },
   { from: 991.52, to: 1003.42, tag: [9, "The Number", false], back: null, el: (<>
-<Drift><Center y={470}><Watches size={360} gap={100} note="18 MIN BECAME 51 · ALMOST 3× · SAME SANDWICH" noteAt={5.22} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", at: 0.05, blurred: true, revealAt: 2.6, spinAt: 2.6, spin: 2.0, redAt: 5.22, color: C6.loss }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={450} gap={100} note="18 MIN BECAME 51 · ALMOST 3× · SAME SANDWICH" noteAt={5.22} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", at: 0.05, blurred: true, revealAt: 2.6, spinAt: 2.6, spin: 2.0, redAt: 5.22, color: C6.loss }]} /></Center></Drift>
 </>) },
   { from: 1003.42, to: 1011.28, tag: [9, "The Number", false], back: null, el: (<>
 <Evidence src="evidence/t11/lt-workers-top.png" size={[2880, 1800]} dur={7.86} frame="screen" marks={[{ x: 292, y: 224, w: 336, h: 108, at: 3.62 }]} zoom={0.9} source="LENDINGTREE · 2025" url="lendingtree.com" />
@@ -514,7 +517,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t11/lt-workers.png" size={[2880, 1800]} dur={5.6} frame="screen" marks={[{ x: 994, y: 1680, w: 108, h: 44, at: 4.0 }]} zoom={0.9} source="LENDINGTREE · 50 LARGEST U.S. METROS · 2025" url="lendingtree.com" />
 </>) },
   { from: 1016.88, to: 1025.78, tag: [9, "The Number", false], back: null, el: (<>
-<Drift><Center y={470}><Watches size={380} gap={140} note="LENDINGTREE · 21.2 VS 46.0 MINUTES" noteAt={0.3} items={[{ min: 21, label: "Average worker", sub: "$11.56 COMBO", at: 0.05, spinAt: 0.3, spin: 1.2 }, { min: 46, label: "Fast food worker", sub: "~$15/HR", at: 3.38, spinAt: 6.62, spin: 1.6, redAt: 6.62, color: C6.loss }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={480} gap={140} note="LENDINGTREE · 21.2 VS 46.0 MINUTES" noteAt={0.3} items={[{ min: 21, label: "Average worker", sub: "$11.56 COMBO", at: 0.05, spinAt: 0.3, spin: 1.2 }, { min: 46, label: "Fast food worker", sub: "~$15/HR", at: 3.38, spinAt: 6.62, spin: 1.6, redAt: 6.62, color: C6.loss }]} /></Center></Drift>
 </>) },
   { from: 1025.78, to: 1031.4, tag: [9, "The Number", false], back: (<><Stock6 n={45} dur={5.62} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.2} from="fade"><Plate6 at={2.2}><Label6 at={2.2} size={38} color={C6.accent}>MORE THAN 2× AS LONG · FOR WHAT'S INSIDE THE BAG</Label6></Plate6></In></Center>
@@ -523,13 +526,13 @@ const BEATS: Beat[] = [
 <Drift><Center y={470}><FloorLine at={0.2} riseAt={3.44} /></Center><Center x={960} y={980}><In at={7.56} from="fade"><Plate6 at={7.56}><Label6 at={7.56} size={34} color={C6.accent}>EVERYBODY CLOSE TO IT FEELS THE SQUEEZE</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 1042.26, to: 1050.78, tag: [9, "The Number", false], back: null, el: (<>
-<Evidence src="evidence/t11/lvsun-latimes.png" size={[2880, 1800]} dur={8.52} frame="screen" marks={[{ x: 542, y: 736, w: 166, h: 34, at: 3.0 }, { x: 687, y: 1223, w: 131, h: 34, at: 6.7 }]} zoom={0.9} source="LOS ANGELES TIMES · NOV 2025 · VIA LAS VEGAS SUN" url="lasvegassun.com" />
+<Evidence src="evidence/t11/aol-latimes.png" size={[2880, 1800]} dur={8.52} frame="screen" marks={[{ x: 162, y: 791, w: 186, h: 38, at: 3.0 }, { x: 327, y: 1467, w: 147, h: 38, at: 6.7 }]} zoom={0.9} source="LOS ANGELES TIMES · NOV 2025 · VIA AOL" url="aol.com" />
 </>) },
   { from: 1050.78, to: 1054.48, tag: [9, "The Number", false], back: (<><Stock6 n={49} dur={3.7} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>WHOSE PAYCHECK KEPT UP — AND WHOSE DIDN'T</Label6></Plate6></In></Center>
 </>) },
   { from: 1054.48, to: 1064.68, tag: [9, "The Number", false], back: null, el: (<>
-<Drift><Center y={470}><Watches size={360} gap={100} note="IT GOT EXPENSIVE FOR THE PEOPLE WHOSE PAY GOT LEFT BEHIND" noteAt={6.56} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", at: 0.05, still: true, redAt: 0.05, color: C6.loss }]} /></Center></Drift>
+<Drift><Center y={470}><Watches size={450} gap={100} note="IT GOT EXPENSIVE FOR THE PEOPLE WHOSE PAY GOT LEFT BEHIND" noteAt={6.56} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", at: 0.05, still: true, redAt: 0.05, color: C6.loss }]} /></Center></Drift>
 </>) },
   { from: 1064.68, to: 1067.6, tag: [9, "The Number", false], back: (<><Stock6 n={138} dur={2.92} dim={0} graphics={false} sepia />
 <ArchiveFx /></>), el: (<>
@@ -558,7 +561,7 @@ const BEATS: Beat[] = [
   { from: 1108.0, to: 1114.78, tag: [10, "Who Left", false], back: null, el: (<>
 <Evidence src="evidence/t11/nbc-lowincome.png" size={[2880, 1800]} dur={6.78} frame="screen" marks={[{ x: 946, y: 704, w: 494, h: 140, at: 2.78 }]} zoom={0.9} source="NBC NEWS · AUG 2025" url="nbcnews.com" /><Center x={960} y={960}><In at={4.0} from="fade"><Plate6 at={4.0}><Label6 at={4.0} size={34} color={C6.accent}>THEY USUALLY VISIT MORE OFTEN THAN ANYONE ELSE</Label6></Plate6></In></Center>
 </>) },
-  { from: 1114.78, to: 1119.68, tag: [10, "Who Left", false], back: (<><Stock6 n={44} dur={4.9} dim={0} graphics={true} /></>), el: (<>
+  { from: 1114.78, to: 1119.68, tag: [10, "Who Left", false], back: (<><Stock6 n={64} dur={4.9} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>THE MOST LOYAL · THE FIRST PUSHED OUT</Label6></Plate6></In></Center>
 </>) },
   { from: 1119.68, to: 1126.7, tag: [10, "Who Left", false], back: (<><Stock6 n={107} dur={7.02} dim={0} graphics={true} /></>), el: (<>
@@ -598,7 +601,7 @@ const BEATS: Beat[] = [
 <Drift><Center y={440}><Words text="“AI does not set menu prices at McDonald's restaurants – McDonald's franchisees do.”" at={5.54} size={70} maxW={1500} hl={["franchisees", "do.\u201d"]} /></Center><Center y={690}><Label6 at={5.54} size={28} color={C6.mint}>McDONALD'S STATEMENT · VIA AP</Label6></Center><Center x={960} y={960}><In at={1.84} from="fade"><Plate6 at={1.84}><Label6 at={1.84} size={34} color={C6.accent}>AN ACCUSATION · NO COURT HAS RULED</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 1201.86, to: 1209.52, tag: [10, "Who Left", false], back: (<><Stock6 n={91} dur={7.66} dim={0} graphics={true} />
-<Stock6 n={101} from={4.66} dur={7.66} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={100} from={4.66} dur={7.66} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={4.66} from="fade"><Plate6 at={4.66}><Label6 at={4.66} size={46} color={C6.accent}>THE CROWD WAS WALKING AWAY</Label6></Plate6></In></Center>
 </>) },
   { from: 1209.52, to: 1216.12, tag: [11, "The Way Back", true], hard: true, back: (<><Stock6 n={149} dur={6.6} dim={0} graphics={false} /></>), el: (<>
@@ -608,7 +611,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t11/mcd-evm.png" size={[2880, 1800]} dur={10.4} frame="screen" marks={[{ x: 1820, y: 595, w: 148, h: 32, at: 6.92 }]} zoom={0.9} source="McDONALD'S · EXTRA VALUE MEALS · 2025 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" />
 </>) },
   { from: 1226.52, to: 1235.72, tag: [11, "The Way Back", false], back: null, el: (<>
-<Evidence src="evidence/t11/mcd-mcvalue26-top.png" size={[2880, 1800]} dur={9.2} frame="screen" marks={[{ x: 1814, y: 588, w: 424, h: 126, at: 6.52 }]} zoom={0.9} source="McDONALD'S PRESS RELEASE · APRIL 2, 2026 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" />
+<Evidence src="evidence/t11/mcd-mcvalue26-top.png" size={[2880, 1800]} dur={9.2} frame="screen" marks={[{ x: 1814, y: 588, w: 424, h: 126, at: 6.52 }]} zoom={0.7} source="McDONALD'S PRESS RELEASE · APRIL 2, 2026 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" />
 </>) },
   { from: 1235.72, to: 1244.72, tag: [11, "The Way Back", false], back: (<><Stock6 n={120} dur={9.0} dim={0} graphics={true} />
 <Stock6 n={153} from={2.02} dur={9.0} dim={0} graphics={true} /></>), el: (<>
@@ -633,7 +636,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={150}><In at={2.5} from="fade"><Plate6 at={2.5}><Label6 at={2.5} size={40} color={C6.accent}>MARCH 2026 · THE BIG ARCH</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: TODAY (NBC) · 2026</Source6>
 </>) },
   { from: 1289.8, to: 1296.76, tag: [11, "The Way Back", false], back: null, el: (<>
-<Evidence src="evidence/t11/aol-bigarch.png" size={[2880, 1800]} dur={6.96} frame="screen" marks={[{ x: 440, y: 458, w: 248, h: 76, at: 4.54 }]} zoom={0.9} source="AOL · 2026" url="aol.com" />
+<Evidence src="evidence/t11/aol-bigarch.png" size={[2880, 1800]} dur={6.96} frame="screen" marks={[{ x: 440, y: 458, w: 248, h: 76, at: 4.54 }]} zoom={0.6} source="AOL · 2026" url="aol.com" />
 </>) },
   { from: 1296.76, to: 1301.0, tag: [11, "The Way Back", false], back: (<><Stock6 n={61} dur={4.24} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.58} from="fade"><Plate6 at={2.58}><Label6 at={2.58} size={38} color={C6.accent}>THE SANDWICH ALONE: $8–10 IN A LOT OF PLACES</Label6></Plate6></In></Center><Source6 at={0.3}>ILLUSTRATIVE FOOTAGE</Source6>
@@ -646,13 +649,13 @@ const BEATS: Beat[] = [
 <Source6 at={0.3}>Footage: TODAY (NBC) · 2026</Source6>
 </>) },
   { from: 1317.34, to: 1328.02, tag: [11, "The Way Back", false], back: null, el: (<>
-<Drift><Center y={440}><Words text="“McDonald's value leadership is working.”" at={5.96} size={96} maxW={1500} hl={["working.\u201d"]} /></Center><Center y={690}><Label6 at={5.96} size={28} color={C6.mint}>CEO CHRIS KEMPCZINSKI · FEBRUARY 2026</Label6></Center><Center x={960} y={900}><In at={8.94} from="fade"><Plate6 at={8.94}><Label6 at={8.94} size={38} color={C6.ink}>NOT A STRAIGHT LINE</Label6></Plate6></In></Center></Drift>
+<Drift><Center x={960} y={440}><In at={0.05} out={5.96} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={38} color={C6.ink}>FEBRUARY 2026 · THE CEO TO INVESTORS</Label6></Plate6></In></Center><Center y={440}><Words text="“McDonald's value leadership is working.”" at={5.96} size={96} maxW={1500} hl={["working.\u201d"]} /></Center><Center y={690}><Label6 at={5.96} size={28} color={C6.mint}>CEO CHRIS KEMPCZINSKI · FEBRUARY 2026</Label6></Center><Center x={960} y={900}><In at={8.94} from="fade"><Plate6 at={8.94}><Label6 at={8.94} size={38} color={C6.ink}>NOT A STRAIGHT LINE</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 1328.02, to: 1330.6, tag: [11, "The Way Back", false], back: null, el: (<>
 <Evidence src="evidence/t11/wsmv-sales.png" size={[2880, 1800]} dur={2.58} frame="screen" marks={[{ x: 772, y: 586, w: 200, h: 88, at: 1.16 }]} zoom={0.9} source="WSMV · AP · NOV 2026" url="wsmv.com" />
 </>) },
   { from: 1330.6, to: 1343.28, tag: [11, "The Way Back", false], back: (<><Stock6 n={18} dur={12.68} dim={0} graphics={true} />
-<Stock6 n={161} from={7.5} dur={12.68} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={79} from={7.5} dur={12.68} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={7.5} out={10.44} from="fade"><Plate6 at={7.5}><Label6 at={7.5} size={44} color={C6.ink}>SPEED · LOWER PRICES · VOLUME</Label6></Plate6></In></Center><Center x={960} y={880}><In at={10.44} from="fade"><Plate6 at={10.44}><Label6 at={10.44} size={46} color={C6.accent}>NO CROWD WITHOUT THE PRICE</Label6></Plate6></In></Center>
 </>) },
   { from: 1343.28, to: 1348.16, tag: [11, "The Way Back", false], back: (<><Stock6 n={160} dur={4.88} dim={0} graphics={false} /></>), el: (<>
@@ -671,13 +674,13 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} out={4.36} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.accent}>3 · COMPARE TWO LOCATIONS IN THE APP</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.36} from="fade"><Plate6 at={4.36}><Label6 at={4.36} size={36} color={C6.ink}>DIFFERENT OWNERS · DIFFERENT PRICES · SAME BURGER</Label6></Plate6></In></Center>
 </>) },
   { from: 1372.32, to: 1384.02, tag: [11, "The Way Back", false], back: null, el: (<>
-<Drift><Center x={960} y={110}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>4 · COUNT PRICES IN MINUTES OF YOUR OWN WORK</Label6></Plate6></In></Center><Center y={560}><Watches size={360} gap={160} items={[{ min: 10, label: "A deal", sub: "10 MIN FOR A BIG MAC", at: 6.7, spinAt: 6.7, spin: 1.0 }, { min: 51, label: "A decision", sub: "51 MIN FOR THE SAME", at: 9.22, spinAt: 9.22, spin: 1.4, redAt: 9.22, color: C6.loss }]} /></Center></Drift>
+<Drift><Center x={960} y={110}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>4 · COUNT PRICES IN MINUTES OF YOUR OWN WORK</Label6></Plate6></In></Center><Center y={560}><Watches size={450} gap={160} items={[{ min: 10, label: "A deal", sub: "10 MIN FOR A BIG MAC", at: 0.2, spinAt: 6.7, spin: 1.0 }, { min: 51, label: "A decision", sub: "51 MIN FOR THE SAME", at: 0.2, spinAt: 9.22, spin: 1.4, redAt: 9.22, color: C6.loss }]} /></Center></Drift>
 </>) },
   { from: 1384.02, to: 1389.38, tag: [11, "The Way Back", false], back: null, el: (<>
 <Drift><Center y={520}><Checklist w={1240} items={[{ text: "Check the app against the board", at: 0.05 }, { text: "Skip delivery, pick it up", at: 0.2 }, { text: "Compare two locations in the app", at: 0.35 }, { text: "Count prices in minutes of work", at: 1.9 }]} /></Center></Drift>
 </>) },
   { from: 1389.38, to: 1397.98, tag: [11, "The Way Back", false], back: (<><Stock6 n={72} dur={8.6} dim={0} graphics={true} />
-<Stock6 n={162} from={3.6} dur={8.6} dim={0} graphics={true} /></>), el: (<>
+<Stock6 n={136} from={3.6} dur={8.6} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={6.94} from="fade"><Plate6 at={6.94}><Label6 at={6.94} size={40} color={C6.accent}>JIM DELLIGATTI: “ALL I GOT WAS A PLAQUE”</Label6></Plate6></In></Center><Source6 at={0.4}>Big Mac Museum, North Huntingdon, PA · CC0</Source6>
 </>) },
   { from: 1397.98, to: 1404.38, tag: [11, "The Way Back", false], back: (<><Stock6 n={74} dur={6.4} dim={0} graphics={true} />
@@ -696,12 +699,12 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={7.04} from="fade"><Plate6 at={7.04}><Label6 at={7.04} size={38} color={C6.accent}>DO THEY STILL REMEMBER WHO THEY BUILT IT FOR?</Label6></Plate6></In></Center>
 </>) },
   { from: 1420.32, to: 1428.84, tag: [11, "The Way Back", false], back: null, el: (<>
-<Drift><Center y={450}><Watches size={400} gap={200} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", at: 0.05, still: true }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", at: 0.05, still: true, redAt: 0.05, color: C6.loss }]} /></Center><Center x={960} y={930}><In at={2.66} from="fade"><Plate6 at={2.66}><Label6 at={2.66} size={38} color={C6.accent}>HOW MANY MINUTES DOES YOUR LUNCH COST? ↓</Label6></Plate6></In></Center></Drift>
+<Drift><Center y={450}><Watches size={500} gap={200} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", at: 0.05, still: true }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", at: 0.05, still: true, redAt: 0.05, color: C6.loss }]} /></Center><Center x={960} y={930}><In at={2.66} from="fade"><Plate6 at={2.66}><Label6 at={2.66} size={38} color={C6.accent}>HOW MANY MINUTES DOES YOUR LUNCH COST? ↓</Label6></Plate6></In></Center></Drift>
 </>) },
 ];
 
 // звуковые эффекты — только на смысловые события (секунды ролика)
-const SFX: [number, string, number][] = [[2.08, "ep06-coin", 0.25], [4.53, "swoosh", 0.3], [4.73, "ep06-kaching", 0.3], [22.64, "tick", 0.3], [29.98, "tick", 0.3], [32.9, "tick", 0.3], [43.19, "t02-paper", 0.3], [43.94, "ep06-counter", 0.3], [52.08, "tick", 0.3], [53.26, "impact", 0.3], [68.46, "ep06-pop", 0.25], [98.63, "t02-paper", 0.3], [108.2, "ep06-pop", 0.22], [109.18, "ep06-pop", 0.22], [110.62, "ep06-pop", 0.22], [121.68, "ding", 0.25], [126.78, "ep06-coin", 0.25], [145.19, "ep06-whoosh", 0.2], [163.74, "impact", 0.3], [176.42, "rise", 0.25], [184.51, "t02-paper", 0.3], [199.23, "t02-paper", 0.3], [213.52, "ding", 0.25], [220.17, "t02-paper", 0.3], [230.22, "ep06-coin", 0.3], [248.81, "ep06-whoosh", 0.2], [267.68, "ep06-stamp", 0.35], [274.1, "ep06-scratch", 0.25], [281.9, "ep06-coin", 0.25], [299.48, "ding", 0.25], [303.5, "ep06-fall", 0.25], [310.36, "ep06-pop", 0.22], [311.6, "ep06-pop", 0.22], [313.08, "ep06-pop", 0.22], [314.89, "t02-paper", 0.25], [328.72, "ep06-pop", 0.22], [329.84, "ep06-pop", 0.22], [332.24, "ding", 0.25], [345.85, "t02-paper", 0.25], [372.35, "ep06-whoosh", 0.2], [381.58, "impact", 0.3], [386.56, "ep06-kaching", 0.25], [407.54, "ep06-kaching", 0.3], [413.66, "ep06-stamp", 0.3], [423.09, "t02-paper", 0.3], [429.14, "ep06-kaching", 0.25], [431.21, "t02-paper", 0.3], [434.88, "ep06-stamp", 0.3], [440.3, "ding", 0.25], [442.6, "ep06-scratch", 0.25], [456.93, "ep06-whoosh", 0.2], [472.42, "ep06-stamp", 0.3], [474.71, "t02-paper", 0.3], [481.9, "ep06-fall", 0.3], [509.4, "impact", 0.3], [510.27, "t02-paper", 0.3], [517.26, "ding", 0.25], [550.58, "thud", 0.25], [551.64, "thud", 0.25], [552.42, "thud", 0.25], [553.02, "thud", 0.25], [553.72, "thud", 0.25], [562.54, "ep06-pop", 0.25], [565.21, "ep06-whoosh", 0.2], [578.55, "t02-paper", 0.3], [589.08, "swoosh", 0.25], [598.78, "ep06-coin", 0.25], [615.88, "ep06-stamp", 0.3], [618.75, "t02-paper", 0.3], [639.08, "ep06-pop", 0.25], [643.02, "ep06-fall", 0.3], [649.13, "t02-paper", 0.3], [668.48, "ep06-pop", 0.22], [669.62, "ep06-pop", 0.22], [670.32, "ep06-pop", 0.22], [686.27, "ep06-whoosh", 0.2], [694.17, "t02-paper", 0.3], [713.12, "ep06-kaching", 0.3], [715.25, "t02-paper", 0.3], [749.81, "ep06-coin", 0.22], [751.8, "ep06-coin", 0.22], [753.4, "ep06-coin", 0.22], [756.98, "ding", 0.3], [758.05, "t02-paper", 0.3], [768.26, "ep06-coin", 0.25], [771.44, "ep06-coin", 0.25], [774.24, "ep06-kaching", 0.3], [791.92, "ep06-fall", 0.3], [797.84, "rise", 0.3], [801.49, "t02-paper", 0.3], [820.7, "ep06-kaching", 0.3], [828.76, "ep06-pop", 0.25], [831.45, "t02-paper", 0.3], [832.2, "ep06-stamp", 0.3], [859.78, "ep06-kaching", 0.3], [870.13, "t02-paper", 0.3], [877.92, "ep06-pop", 0.25], [879.04, "ep06-pop", 0.25], [886.16, "ep06-pop", 0.25], [889.04, "ep06-pop", 0.25], [900.2, "ep06-counter", 0.3], [915.2, "tick", 0.3], [921.61, "t02-paper", 0.3], [932.46, "ep06-pop", 0.25], [937.98, "ep06-pop", 0.25], [940.62, "tick", 0.3], [942.51, "t02-paper", 0.3], [951.9, "tick", 0.3], [967.14, "ep06-scratch", 0.3], [975.14, "ep06-pop", 0.25], [977.58, "tick", 0.3], [979.03, "t02-paper", 0.3], [988.62, "ep06-pop", 0.25], [994.12, "tick", 0.35], [996.74, "impact", 0.4], [1003.47, "t02-paper", 0.3], [1015.28, "ep06-kaching", 0.25], [1017.18, "tick", 0.3], [1023.5, "tick", 0.3], [1061.04, "ding", 0.3], [1070.14, "ding", 0.25], [1085.41, "ep06-whoosh", 0.2], [1088.69, "t02-paper", 0.3], [1095.76, "ep06-fall", 0.3], [1105.2, "ep06-pop", 0.22], [1106.04, "ep06-pop", 0.22], [1106.96, "ep06-pop", 0.22], [1108.05, "t02-paper", 0.3], [1125.3, "ding", 0.25], [1126.8, "ep06-stamp", 0.25], [1143.54, "ep06-stamp", 0.25], [1152.02, "ep06-counter", 0.3], [1161.32, "ep06-stamp", 0.25], [1163.63, "t02-paper", 0.3], [1171.3, "ep06-kaching", 0.3], [1179.47, "t02-paper", 0.3], [1184.54, "ep06-stamp", 0.3], [1192.94, "ep06-pop", 0.25], [1209.57, "ep06-whoosh", 0.2], [1216.17, "t02-paper", 0.3], [1226.57, "t02-paper", 0.3], [1233.04, "ding", 0.3], [1242.6, "ep06-kaching", 0.3], [1255.64, "ding", 0.25], [1267.89, "t02-paper", 0.3], [1289.85, "t02-paper", 0.3], [1299.34, "ep06-kaching", 0.25], [1303.66, "ep06-pop", 0.25], [1309.08, "impact", 0.3], [1317.39, "t02-paper", 0.3], [1329.18, "ep06-fall", 0.25], [1341.04, "ding", 0.25], [1348.26, "ding", 0.25], [1355.64, "ding", 0.25], [1364.38, "ding", 0.25], [1372.42, "ding", 0.25], [1379.02, "tick", 0.3], [1381.54, "tick", 0.3], [1385.92, "ding", 0.3], [1422.98, "ding", 0.3]];
+const SFX: [number, string, number][] = [[2.08, "ep06-coin", 0.25], [6.64, "swoosh", 0.3], [7.78, "ep06-kaching", 0.3], [22.64, "tick", 0.3], [29.98, "tick", 0.3], [32.9, "tick", 0.3], [43.94, "ep06-counter", 0.3], [52.08, "tick", 0.3], [53.26, "impact", 0.3], [68.46, "ep06-pop", 0.25], [98.63, "t02-paper", 0.3], [108.2, "ep06-pop", 0.22], [109.18, "ep06-pop", 0.22], [110.62, "ep06-pop", 0.22], [121.68, "ding", 0.25], [126.78, "ep06-coin", 0.25], [145.19, "ep06-whoosh", 0.2], [163.74, "impact", 0.3], [176.42, "rise", 0.25], [184.51, "t02-paper", 0.3], [199.23, "t02-paper", 0.3], [213.52, "ding", 0.25], [220.17, "t02-paper", 0.3], [230.22, "ep06-coin", 0.3], [248.81, "ep06-whoosh", 0.2], [267.68, "ep06-stamp", 0.35], [274.1, "ep06-scratch", 0.25], [281.9, "ep06-coin", 0.25], [299.48, "ding", 0.25], [303.5, "ep06-fall", 0.25], [310.36, "ep06-pop", 0.22], [311.6, "ep06-pop", 0.22], [313.08, "ep06-pop", 0.22], [314.89, "t02-paper", 0.25], [328.72, "ep06-pop", 0.22], [329.84, "ep06-pop", 0.22], [332.24, "ding", 0.25], [345.85, "t02-paper", 0.25], [372.35, "ep06-whoosh", 0.2], [372.4, "t02-paper", 0.3], [381.58, "impact", 0.3], [386.56, "ep06-kaching", 0.25], [407.54, "ep06-kaching", 0.3], [413.66, "ep06-stamp", 0.3], [423.09, "t02-paper", 0.3], [429.14, "ep06-kaching", 0.25], [431.21, "t02-paper", 0.3], [434.88, "ep06-stamp", 0.3], [440.3, "ding", 0.25], [442.6, "ep06-scratch", 0.25], [456.93, "ep06-whoosh", 0.2], [472.42, "ep06-stamp", 0.3], [474.71, "t02-paper", 0.3], [481.9, "ep06-fall", 0.3], [509.4, "impact", 0.3], [514.9, "ding", 0.25], [517.26, "ding", 0.25], [550.58, "thud", 0.25], [551.64, "thud", 0.25], [552.42, "thud", 0.25], [553.02, "thud", 0.25], [553.72, "thud", 0.25], [562.54, "ep06-pop", 0.25], [565.21, "ep06-whoosh", 0.2], [578.55, "t02-paper", 0.3], [589.08, "swoosh", 0.25], [598.78, "ep06-coin", 0.25], [615.88, "ep06-stamp", 0.3], [618.75, "t02-paper", 0.3], [639.08, "ep06-pop", 0.25], [643.02, "ep06-fall", 0.3], [649.13, "t02-paper", 0.3], [668.48, "ep06-pop", 0.22], [669.62, "ep06-pop", 0.22], [670.32, "ep06-pop", 0.22], [686.27, "ep06-whoosh", 0.2], [694.17, "t02-paper", 0.3], [713.12, "ep06-kaching", 0.3], [715.25, "t02-paper", 0.3], [749.81, "ep06-coin", 0.22], [751.8, "ep06-coin", 0.22], [753.4, "ep06-coin", 0.22], [756.98, "ding", 0.3], [760.53, "t02-paper", 0.3], [768.26, "ep06-coin", 0.25], [771.44, "ep06-coin", 0.25], [774.24, "ep06-kaching", 0.3], [791.92, "ep06-fall", 0.3], [797.84, "rise", 0.3], [801.49, "t02-paper", 0.3], [820.7, "ep06-kaching", 0.3], [828.76, "ep06-pop", 0.25], [831.45, "t02-paper", 0.3], [832.2, "ep06-stamp", 0.3], [859.78, "ep06-kaching", 0.3], [870.13, "t02-paper", 0.3], [877.92, "ep06-pop", 0.25], [879.04, "ep06-pop", 0.25], [886.16, "ep06-pop", 0.25], [889.04, "ep06-pop", 0.25], [900.2, "ep06-counter", 0.3], [915.2, "tick", 0.3], [921.61, "t02-paper", 0.3], [932.46, "ep06-pop", 0.25], [937.98, "ep06-pop", 0.25], [940.62, "tick", 0.3], [942.51, "t02-paper", 0.3], [951.9, "tick", 0.3], [967.14, "ep06-scratch", 0.3], [975.14, "ep06-pop", 0.25], [977.58, "tick", 0.3], [979.03, "t02-paper", 0.3], [988.62, "ep06-pop", 0.25], [994.12, "tick", 0.35], [996.74, "impact", 0.4], [1003.47, "t02-paper", 0.3], [1015.28, "ep06-kaching", 0.25], [1017.18, "tick", 0.3], [1023.5, "tick", 0.3], [1061.04, "ding", 0.3], [1070.14, "ding", 0.25], [1085.41, "ep06-whoosh", 0.2], [1088.69, "t02-paper", 0.3], [1095.76, "ep06-fall", 0.3], [1105.2, "ep06-pop", 0.22], [1106.04, "ep06-pop", 0.22], [1106.96, "ep06-pop", 0.22], [1108.05, "t02-paper", 0.3], [1125.3, "ding", 0.25], [1126.8, "ep06-stamp", 0.25], [1143.54, "ep06-stamp", 0.25], [1152.02, "ep06-counter", 0.3], [1161.32, "ep06-stamp", 0.25], [1163.63, "t02-paper", 0.3], [1171.3, "ep06-kaching", 0.3], [1179.47, "t02-paper", 0.3], [1184.54, "ep06-stamp", 0.3], [1192.94, "ep06-pop", 0.25], [1209.57, "ep06-whoosh", 0.2], [1216.17, "t02-paper", 0.3], [1226.57, "t02-paper", 0.3], [1233.04, "ding", 0.3], [1242.6, "ep06-kaching", 0.3], [1255.64, "ding", 0.25], [1267.89, "t02-paper", 0.3], [1289.85, "t02-paper", 0.3], [1299.34, "ep06-kaching", 0.25], [1303.66, "ep06-pop", 0.25], [1309.08, "impact", 0.3], [1317.39, "t02-paper", 0.3], [1329.18, "ep06-fall", 0.25], [1341.04, "ding", 0.25], [1348.26, "ding", 0.25], [1355.64, "ding", 0.25], [1364.38, "ding", 0.25], [1372.42, "ding", 0.25], [1379.02, "tick", 0.3], [1381.54, "tick", 0.3], [1385.92, "ding", 0.3], [1422.98, "ding", 0.3]];
 
 export const T11BigMac: React.FC = () => {
   const { fps } = useVideoConfig();
