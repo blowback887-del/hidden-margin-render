@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.nrn.com/restaurant-franchising/bk-franchisees-10-lost-on-each-1-double-cheeseburger",
+ "host": "nrn.com",
+ "frame": "screen",
+ "finds": {
+  "double cheeseburger": [
+   1506,
+   781,
+   634,
+   80
+  ]
+ }
+}

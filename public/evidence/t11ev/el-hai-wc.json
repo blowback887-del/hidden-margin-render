@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.el-hai.com/blog/2012/06/21/13-weeks-eating-nothing-but-white-castle-hamburgers-in-the-name-of-science.html",
+ "host": "el-hai.com",
+ "frame": "screen",
+ "finds": {
+  "13 weeks": [
+   200,
+   601,
+   250,
+   86
+  ],
+  "White Castle": [
+   1032,
+   601,
+   368,
+   86
+  ]
+ }
+}

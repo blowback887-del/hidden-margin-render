@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.aol.com/entertainment/mcdonalds-big-arch-reaches-nearly-120000823.html",
+ "host": "aol.com",
+ "frame": "screen",
+ "finds": {
+  "Big Arch": [
+   440,
+   458,
+   248,
+   76
+  ],
+  "$": [
+   274,
+   546,
+   40,
+   76
+  ]
+ }
+}

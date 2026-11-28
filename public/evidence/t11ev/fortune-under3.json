@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://fortune.com/2026/04/02/mcdonalds-joins-the-value-menu-simpler-is-better-trend-with-10-items-at-less-than-3-each/",
+ "host": "fortune.com",
+ "frame": "screen",
+ "finds": {
+  "$3": [
+   134,
+   595,
+   30,
+   34
+  ],
+  "simpler": [
+   96,
+   896,
+   284,
+   96
+  ]
+ }
+}

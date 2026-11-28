@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www2.ljworld.com/news/2002/dec/25/mcdonalds_seeks_to/",
+ "host": "www2.ljworld.com",
+ "frame": "screen",
+ "finds": {
+  "Dollar Menu": [
+   1126,
+   599,
+   188,
+   40
+  ]
+ }
+}

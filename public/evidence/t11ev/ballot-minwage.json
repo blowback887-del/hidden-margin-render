@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://ballotpedia.org/Minimum_wage_increases_in_2026",
+ "host": "ballotpedia.org",
+ "frame": "screen",
+ "finds": {
+  "$7.25": [
+   1444,
+   596,
+   86,
+   38
+  ],
+  "20 states": [
+   714,
+   596,
+   140,
+   38
+  ]
+ }
+}

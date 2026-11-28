@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.aol.com/articles/mcdonalds-losing-low-income-customers-110000058.html",
+ "host": "aol.com",
+ "frame": "screen",
+ "finds": {
+  "low-income": [
+   80,
+   458,
+   820,
+   164
+  ]
+ }
+}

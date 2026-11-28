@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.spokesman.com/stories/1997/jun/05/caign-55-bombs-mcdonalds-scales-back",
+ "host": "spokesman.com",
+ "frame": "screen",
+ "finds": {
+  "Campaign 55": [
+   64,
+   592,
+   448,
+   82
+  ]
+ }
+}

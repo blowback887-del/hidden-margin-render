@@ -1,0 +1,29 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.cbsnews.com/news/mcdeficit-for-mcdonalds/",
+ "host": "cbsnews.com",
+ "frame": "screen",
+ "finds": {
+  "first": [
+   975,
+   598,
+   74,
+   52
+  ],
+  "343": [
+   589,
+   658,
+   72,
+   52
+  ],
+  "loss": [
+   1307,
+   598,
+   70,
+   52
+  ]
+ }
+}

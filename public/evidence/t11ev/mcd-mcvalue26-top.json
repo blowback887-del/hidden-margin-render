@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://web.archive.org/web/2026/https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdolands-usa-introduces-mcvalue.html",
+ "host": "web.archive.org",
+ "frame": "screen",
+ "finds": {
+  "Under $3": [
+   1814,
+   588,
+   424,
+   126
+  ]
+ }
+}

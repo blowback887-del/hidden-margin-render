@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.newser.com/story/41238/double-cheeseburger-gets-boot-for-one-slice-mcdouble.html",
+ "host": "newser.com",
+ "frame": "screen",
+ "finds": {
+  "McDouble": [
+   792,
+   669,
+   344,
+   88
+  ],
+  "slice": [
+   606,
+   669,
+   168,
+   88
+  ]
+ }
+}

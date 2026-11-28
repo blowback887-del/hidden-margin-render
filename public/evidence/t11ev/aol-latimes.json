@@ -1,0 +1,35 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.aol.com/articles/mcdonalds-losing-low-income-customers-110000058.html",
+ "host": "aol.com",
+ "frame": "screen",
+ "finds": {
+  "Gergis": [
+   190,
+   606,
+   96,
+   38
+  ],
+  "barely afford": [
+   162,
+   791,
+   186,
+   38
+  ],
+  "go hungry": [
+   327,
+   1467,
+   147,
+   38
+  ],
+  "cheaper option": [
+   801,
+   791,
+   224,
+   38
+  ]
+ }
+}

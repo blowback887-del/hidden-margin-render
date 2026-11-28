@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://fortune.com/2024/11/22/potato-cartel-price-fixing-lawsuits/",
+ "host": "fortune.com",
+ "frame": "screen",
+ "finds": {
+  "potato": [
+   186,
+   594,
+   242,
+   96
+  ]
+ }
+}

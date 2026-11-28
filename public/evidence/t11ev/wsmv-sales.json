@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.wsmv.com/2026/11/04/mcdonalds-us-sales-fall-more-customers-struggle-with-high-cost-living/",
+ "host": "wsmv.com",
+ "frame": "screen",
+ "finds": {
+  "sales": [
+   772,
+   586,
+   200,
+   88
+  ]
+ }
+}

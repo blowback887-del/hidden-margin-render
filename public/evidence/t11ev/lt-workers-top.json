@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.lendingtree.com/debt-consolidation/fast-food-workers-study/",
+ "host": "lendingtree.com",
+ "frame": "screen",
+ "finds": {
+  "Fast Food": [
+   292,
+   224,
+   336,
+   108
+  ]
+ }
+}

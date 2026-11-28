@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://nrn.com/restaurant-segments/mcd-near-decision-on-double-cheeseburger-change",
+ "host": "nrn.com",
+ "frame": "screen",
+ "finds": {
+  "McDouble": [
+   1023,
+   648,
+   154,
+   40
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.restaurantdive.com/news/Mcdonalds-us-traffic-slides-q1-2025-same-store-sales-down/746845/",
+ "host": "restaurantdive.com",
+ "frame": "screen",
+ "finds": {
+  "low-income": [
+   1158,
+   604,
+   182,
+   42
+  ]
+ }
+}
