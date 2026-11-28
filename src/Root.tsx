@@ -13,6 +13,7 @@ import { T07Gas, T07GAS_DURATION_SEC } from "./videos/T07Gas";
 import { T08Menu, T08MENU_DURATION_SEC } from "./videos/T08Menu";
 import { T09Outlet, T09OUTLET_DURATION_SEC } from "./videos/T09Outlet";
 import { T10Rest, T10REST_DURATION_SEC } from "./videos/T10Rest";
+import { T11BigMac, T11BIGMAC_DURATION_SEC } from "./videos/T11BigMac";
 
 // Новый канал THEY SAW YOU COMING (15.11.2026): ролики старого канала удалены из репозитория (есть в истории git).
 // Образцы кода: src/videos/Ep09Buffet.tsx (план — cloud/gen/ep09.py) и src/videos/TikTok01.tsx — без ассетов, не рендерятся.
@@ -20,6 +21,7 @@ export const RemotionRoot: React.FC = () => {
   return (
     <Folder name="TheySawYouComing">
       <Composition id="T08-Menu" component={T08Menu} durationInFrames={Math.round(T08MENU_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
+      <Composition id="T11-BigMac" component={T11BigMac} durationInFrames={Math.round(T11BIGMAC_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
       <Composition id="T10-Rest" component={T10Rest} durationInFrames={Math.round(T10REST_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
       <Composition id="T09-Outlet" component={T09Outlet} durationInFrames={Math.round(T09OUTLET_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
       <Composition id="T06-Menu" component={T06Menu} durationInFrames={Math.round(T06MENU_DURATION_SEC * 30)} fps={30} width={1920} height={1080} />
