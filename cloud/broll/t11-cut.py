@@ -26,6 +26,11 @@ CL = [
  (156, "live-today-under3", "t11-10-today-2026-value", 28.0, 32.0, "TODAY (NBC), YouTube d3muDgq-dtU", {}),
  (157, "live-news-drivethru", "t11-11-news-under3", 15.0, 21.0, "Local TV news, YouTube z8yeXVkZDhQ", {}),
  (158, "live-news-store", "t11-11-news-under3", 20.5, 26.5, "Local TV news, YouTube z8yeXVkZDhQ", {}),
+ (159, "live-news-delivery", "t11-12-news-under3-b", 19.5, 24.0, "WFAA ABC 8 Daybreak, YouTube yqZ3N0kVZHQ", {}),
+ (160, "live-news-kiosk", "t11-12-news-under3-b", 10.0, 14.0, "WFAA ABC 8 Daybreak, YouTube yqZ3N0kVZHQ", {}),
+ (161, "live-museum-15c", "t11-14-first-mcd-museum", 0.5, 7.5, "First McDonald's Museum walk-through, YouTube 0d9BDHtAeMM", {}),
+ (162, "live-museum-sign", "t11-14-first-mcd-museum", 8.0, 14.0, "First McDonald's Museum walk-through, YouTube 0d9BDHtAeMM", {}),
+ (163, "live-museum-bag", "t11-14-first-mcd-museum", 128.0, 134.0, "First McDonald's Museum walk-through, YouTube 0d9BDHtAeMM", {}),
 ]
 only = set(sys.argv[1:])
 meta = []

@@ -1,0 +1,20 @@
+{
+ "out": "public/evidence/t11",
+ "sheet": "public/research/t11ev2-evidence-sheet.jpg",
+ "clips": [],
+ "evidence": [
+  {"name": "abc7-ai-top", "url": "https://abc7.com/story/mcdonalds-sued-ai-tool-recommends-prices-us-franchisees/19917164/", "find": ["McDonald's sued"]},
+  {"name": "abc7-ai", "url": "https://abc7.com/story/mcdonalds-sued-ai-tool-recommends-prices-us-franchisees/19917164/", "find": ["does not set menu prices", "lawsuit", "franchisees do"]},
+  {"name": "wftv-ai", "url": "https://www.wftv.com/news/business/mcdonalds-sued-over/M2DHII6ES4YFVJIOGFT7B44AY4/", "find": ["does not set menu prices", "lawsuit"]},
+  {"name": "hs-loss-top", "url": "https://www.heraldstandard.com/news/2003/jan/24/mcdonalds-corp-reports-firstever-quarterly-loss/", "find": ["loss"]},
+  {"name": "hs-loss", "url": "https://www.heraldstandard.com/news/2003/jan/24/mcdonalds-corp-reports-firstever-quarterly-loss/", "find": ["343", "first", "Cantalupo"]},
+  {"name": "cnn-loss", "url": "https://money.cnn.com/2003/01/23/news/companies/mcdonalds/index.htm", "find": ["343", "first", "loss"]},
+  {"name": "deseret-loss", "url": "https://www.deseret.com/2003/1/24/19700552/first-ever-loss-for-mcdonald-s/", "find": ["343", "loss"]},
+  {"name": "fred-ahetpi", "url": "https://fred.stlouisfed.org/series/AHETPI", "find": ["32.75", "Production and Nonsupervisory"]},
+  {"name": "agweb-herd", "url": "https://www.agweb.com/news/livestock/beef/u-s-beef-herd-continues-downward-86-2-million-head", "find": ["1951", "86.2 million"]},
+  {"name": "mcspot-reuters-feb97", "url": "https://mcspotlight.org/media/press/reuters_26feb97.html", "find": ["55 cents", "Big Mac"]},
+  {"name": "lt-workers", "url": "https://www.lendingtree.com/debt-consolidation/fast-food-workers-study/", "find": ["21.2 minutes", "46.0 minutes", "$11.56"]},
+  {"name": "mcd-mcvalue26", "url": "https://web.archive.org/web/2026/https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdolands-usa-introduces-mcvalue.html", "find": ["everyday", "McDouble", "Under $3"]},
+  {"name": "fortune-potato", "url": "https://fortune.com/2024/11/22/potato-cartel-price-fixing-lawsuits/", "find": ["97%", "Weston", "conspir"]}
+ ]
+}

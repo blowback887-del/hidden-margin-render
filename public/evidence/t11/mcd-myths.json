@@ -1,0 +1,47 @@
+{
+ "size": [
+  1700,
+  2400
+ ],
+ "url": "https://web.archive.org/web/2025id_/https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/McDUS%20Pricing%20Myths%20vs%20Facts%20052924.pdf",
+ "host": "web.archive.org",
+ "frame": "paper",
+ "finds": {
+  "Big Mac": [
+   307,
+   1125,
+   118,
+   42
+  ],
+  "Fries": [
+   434,
+   1512,
+   74,
+   42
+  ],
+  "fact-bigmac": [
+   700,
+   1132,
+   880,
+   46
+  ],
+  "myth-104": [
+   108,
+   1122,
+   520,
+   86
+  ],
+  "fact-fries": [
+   700,
+   1522,
+   820,
+   64
+  ],
+  "fact-40": [
+   700,
+   392,
+   860,
+   32
+  ]
+ }
+}
