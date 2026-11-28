@@ -1,0 +1,9 @@
+{
+ "out": "public/broll/t11",
+ "evidence_out": "public/evidence/t11",
+ "clips": [],
+ "evidence": [
+  {"name": "history-head", "url": "https://www.history.com/this-day-in-history/april-22/big-mac-introduced", "find": ["Big Mac debuts", "Uniontown"]},
+  {"name": "nbcmiami-head", "url": "https://www.nbcmiami.com/news/local/franchises-and-corporate-settle-over/1894324/", "find": ["Lawsuit Settled After BK", "$1.29"]}
+ ]
+}
