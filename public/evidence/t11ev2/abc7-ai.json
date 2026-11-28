@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://abc7.com/story/mcdonalds-sued-ai-tool-recommends-prices-us-franchisees/19917164/",
+ "host": "abc7.com",
+ "frame": "screen",
+ "finds": {
+  "does not set menu prices": [
+   357,
+   596,
+   403,
+   52
+  ],
+  "franchisees do": [
+   1444,
+   596,
+   235,
+   52
+  ]
+ }
+}

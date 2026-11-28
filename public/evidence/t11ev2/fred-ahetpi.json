@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://fred.stlouisfed.org/series/AHETPI",
+ "host": "fred.stlouisfed.org",
+ "frame": "screen",
+ "finds": {
+  "32.75": [
+   294,
+   618,
+   82,
+   38
+  ],
+  "Production and Nonsupervisory": [
+   804,
+   452,
+   672,
+   56
+  ]
+ }
+}

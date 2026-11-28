@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://web.archive.org/web/2026/https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdolands-usa-introduces-mcvalue.html",
+ "host": "web.archive.org",
+ "frame": "screen",
+ "finds": {
+  "everyday": [
+   1439,
+   691,
+   130,
+   40
+  ],
+  "McDouble": [
+   743,
+   1011,
+   146,
+   40
+  ]
+ }
+}

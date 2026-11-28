@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.heraldstandard.com/news/2003/jan/24/mcdonalds-corp-reports-firstever-quarterly-loss/",
+ "host": "heraldstandard.com",
+ "frame": "screen",
+ "finds": {
+  "loss": [
+   2524,
+   576,
+   146,
+   90
+  ]
+ }
+}

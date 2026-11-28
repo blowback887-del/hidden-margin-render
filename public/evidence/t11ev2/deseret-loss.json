@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.deseret.com/2003/1/24/19700552/first-ever-loss-for-mcdonald-s/",
+ "host": "deseret.com",
+ "frame": "screen",
+ "finds": {
+  "loss": [
+   756,
+   1018,
+   137,
+   98
+  ]
+ }
+}
