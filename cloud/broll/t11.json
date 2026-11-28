@@ -779,6 +779,66 @@
    "name": "163-live-museum-bag",
    "local": true,
    "credit": "First McDonald's Museum walk-through, YouTube 0d9BDHtAeMM 2:08–2:14"
+  },
+  {
+   "name": "164-man-meh",
+   "url": "https://videos.pexels.com/video-files/11194553/11194553-uhd_2560_1440_24fps.mp4"
+  },
+  {
+   "name": "165-dt-night-mcd",
+   "url": "https://videos.pexels.com/video-files/34527267/14628732_2730_1440_24fps.mp4"
+  },
+  {
+   "name": "166-dt-woman-order",
+   "url": "https://videos.pexels.com/video-files/6529447/6529447-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "167-boy-coins-jar",
+   "url": "https://videos.pexels.com/video-files/7118315/7118315-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "168-burger-table",
+   "url": "https://videos.pexels.com/video-files/9701461/9701461-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "169-cafe-counter-line",
+   "url": "https://videos.pexels.com/video-files/35545660/15059172_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "170-wm-white-castle-8",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/White_Castle_Building_No._8_2023.jpg/1920px-White_Castle_Building_No._8_2023.jpg",
+   "credit": "White Castle Building No. 8 2023.jpg — McGhiever — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "171-wm-mcd-1967",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Now_This_Is_Class-_Railfan_Trip_Lunch_at_McDonalds%2C_1967_%2825695487600%29.jpg/1920px-Now_This_Is_Class-_Railfan_Trip_Lunch_at_McDonalds%2C_1967_%2825695487600%29.jpg",
+   "credit": "Now This Is Class: Railfan Trip Lunch at McDonalds, 1967 — railfan 44 — public domain (Wikimedia Commons)"
+  },
+  {
+   "name": "172-wm-mcd-hq",
+   "photo": true,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/McDonaldsHQIL.jpg",
+   "credit": "McDonaldsHQIL.jpg — Rob LaRosa — CC BY-SA 2.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "173-wm-la-skyline",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Skyline_of_Los_Angeles%2C_Downtown_Los_Angeles%2C_California_13.jpg/1920px-Skyline_of_Los_Angeles%2C_Downtown_Los_Angeles%2C_California_13.jpg",
+   "credit": "Skyline of Los Angeles, Downtown Los Angeles, California 13.jpg — Levi Clancy — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "174-wm-shift-1942",
+   "photo": true,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Second_shift_workers_leaving_the_Bethlehem_Fairfield_shipyard_8d27835v.jpg",
+   "credit": "Second shift workers leaving the Bethlehem Fairfield shipyard, 1943 — Marjory Collins, Library of Congress — public domain (Wikimedia Commons)"
+  },
+  {
+   "name": "175-wm-shift-1942b",
+   "photo": true,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Second_shift_workers_leaving_the_Bethlehem_Fairfield_shipyard_8d27848v.jpg",
+   "credit": "Second shift workers leaving the Bethlehem Fairfield shipyard, 1943 — Marjory Collins, Library of Congress — public domain (Wikimedia Commons)"
   }
  ]
 }
