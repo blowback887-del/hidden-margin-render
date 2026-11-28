@@ -1,0 +1,17 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.history.com/this-day-in-history/april-22/big-mac-introduced",
+ "host": "history.com",
+ "frame": "screen",
+ "finds": {
+  "Big Mac debuts": [
+   1081,
+   572,
+   718,
+   142
+  ]
+ }
+}
