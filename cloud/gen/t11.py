@@ -299,7 +299,7 @@ dict(start="Somebody has to absorb that difference", tag=C5, stock=K("r-empty-wa
 
 # ======================= PART 6 · ГЛАВА 6 · СЖАТИЕ =======================
 dict(start="In 2008, the cheese answered", tag=C6x, hard=True, stock=K("cheese-slice"), alt=(K("wm-double-cheese"), "the double cheeseburger, at a dollar"), sfx=[('ep06-whoosh:0.2', '0.05')],
-     el=plate("2008 · BEEF AND CHEESE GETTING PRICIER", "0.3", y=880, size=38, out="@{the double cheeseburger, at a dollar}") + plate("A $1 DOUBLE CHEESEBURGER “JUST DIDN'T WORK”", "@{the double cheeseburger, at a dollar}", y=880, size=38) + src("Photo: Willis Lam · CC BY-SA 2.0", "@{the double cheeseburger, at a dollar}")),
+     el=plate("2008 · BEEF AND CHEESE GETTING PRICIER", "0.3", y=880, size=38, out="@{the double cheeseburger, at a dollar}") + plate("OWNERS: A $1 DOUBLE CHEESEBURGER NO LONGER WORKED", "@{the double cheeseburger, at a dollar}", y=880, size=38) + src("Photo: Willis Lam · CC BY-SA 2.0", "@{the double cheeseburger, at a dollar}")),
 dict(start="So McDonald's came up with a solution", tag=C6x, sfx=[('t02-paper:0.3', '0.05')],
      el=doc("newser-mcdouble", [("McDouble", "A new burger"), ("slice", "But one slice")], source="NEWSER · OCT 2008", inset=None,
             fb=plate("SAME BUN · TWO PATTIES · ONE SLICE", "@{But one slice}"))),
@@ -314,9 +314,9 @@ dict(start="A year later, Burger King did something worse", alt=(K("wm-bk-whoppe
 dict(start="The owners had voted against it", tag=C6x, sfx=[('ep06-stamp:0.3', '@{Twice}')],
      el=words("Voted against it. Twice.", at="0.1", size=130, hl=["Twice."], y=430) + plate("CORPORATE DID IT ANYWAY", "@{Corporate did it anyway}", y=740, size=42, color="C6.accent")),
 dict(start="So the owners did something almost unheard of", tag=C6x, sfx=[('t02-paper:0.3', '0.05')],
-     el=doc("nrn-bk-top", [("double cheeseburger", "sued their own company")], source="NATION'S RESTAURANT NEWS · NOV 2009", inset=None, zoom=1.3,
+     el=doc("nrn-bk-top", [("double cheeseburger", "sued their own company")], source="NATION'S RESTAURANT NEWS · NOV 2009", inset=None, zoom=0.8,
             fb=plate("~80% OF BK'S U.S. FRANCHISEES SUED THEIR OWN COMPANY", "@{sued their own company}")) +
-        plate("~80% OF BK'S U.S. FRANCHISE OWNERS · SUED THEIR OWN COMPANY", "@{sued their own company}", y=960, size=32, color="C6.accent")),
+        plate("~80% OF BK'S U.S. FRANCHISE OWNERS · SUED THEIR OWN COMPANY", "@{sued their own company}", y=150, size=32, color="C6.accent")),
 dict(start="One of them, a franchisee from South Bend", tag=C6x, sfx=[],
      el=doc("nrn-bk", [("Fitzpatrick", "Dan Fitzpatrick")], source="NATION'S RESTAURANT NEWS · NOV 13, 2009", inset=None,
             fb=plate("DAN FITZPATRICK · SOUTH BEND, INDIANA", "@{Dan Fitzpatrick}"))),
@@ -474,7 +474,7 @@ dict(start="So here's the answer to the question in the title", tag=C9, sfx=[('d
 dict(start="The people it was invented for", tag=C9, stock=K("live-ad1975-diners"), clean=True, archive=True, sfx=[], el=""),
 dict(start="If this changed how you see a price tag", alt=(K("eating-alone-car"), "Every week"), tag=C9, stock=K("r-calverton-md"), sfx=[('ding:0.25', '@{subscribe}')],
      el='<Subscribe6 at={@{subscribe}} />' + plate("EVERY WEEK · ONE EVERYDAY PRICE · TAKEN APART", "@{Every week}", y=880, size=36, color="C6.accent")),
-dict(start="And stay with me", alt=(K("live-cbs-store"), "because McDonald's own numbers"), tag=C9, stock=K("live-gma-slump"), clean=True, sfx=[],
+dict(start="And stay with me", tag=C9, stock=K("live-gma-slump"), clean=True, sfx=[],
      el=plate("…THEN THE COMPANY DID SOMETHING NOBODY EXPECTED", "@{and then the company}", y=150, size=36, color="C6.accent") + src("Footage: Good Morning America · 2026", "0.3")),
 
 # ======================= PART 10 · ГЛАВА 10 · КТО УШЁЛ =======================
@@ -497,7 +497,7 @@ dict(start="And if you're the person counting every dollar", tag=C10, stock=K("r
      el=plate("3 QUIET TRAPS", "@{Quiet ones}", y=880, size=50, color="C6.accent")),
 dict(start="Trap number one", tag=C10, stock=K("live-nn-two-prices"), clean=True, sfx=[('ep06-stamp:0.25', '0.1')],
      el=plate("TRAP #1 · THE PRICE ISN'T THE SAME EVERYWHERE", "0.1", y=150, size=36, color="C6.accent") + src("Footage: NewsNation", "0.3")),
-dict(start="Two McDonald's a few miles apart", tag=C10, stock=K("r-ct-manchester"), alt=(K("r-ct-lisbon"), "for the same meal"), sfx=[],
+dict(start="Two McDonald's a few miles apart", tag=C10, stock=K("r-ct-manchester"), sfx=[],
      el=plate("DIFFERENT OWNERS · DIFFERENT PRICES", "0.2", y=880, size=42) + src("Photos: JJBers · CC BY 2.0", "0.4")),
 dict(start="That's how a rest stop in Connecticut", tag=C10, stock=K("r-service-plaza"), sfx=[],
      el=plate("CONNECTICUT REST STOP · $17.59 BIG MAC MEAL", "0.2", y=880, size=38) + src("Photo: Kenneth C. Zirkel · CC BY-SA 4.0", "0.4")),
@@ -518,10 +518,9 @@ dict(start="And there's a new question hanging", tag=C10, sfx=[('t02-paper:0.3',
             fb=doc("wftv-ai", [("lawsuit", "filed a lawsuit")], source="AP · VIA WFTV · OCT 2026", inset=None,
                    fb=plate("OCT 2026 · LAWSUIT: AI PRICING ACROSS RESTAURANTS", "@{filed a lawsuit}"))) + stamp("ALLEGATION", "@{filed a lawsuit}", x=1500, y=300),
      stock=None if (has("abc7-ai-top", "McDonald's sued") or has("wftv-ai", "lawsuit")) else K("r-courthouse")),
-dict(start="That's an accusation", tag=C10, sfx=[('ep06-pop:0.25', '@{No court has ruled}')],
-     el=doc("abc7-ai", [("does not set menu prices", "AI does not set menu prices")], source="AP · VIA ABC7 · OCT 2026",
-            fb=quote("“AI does not set menu prices at McDonald's restaurants – McDonald's franchisees do.”", "McDONALD'S STATEMENT · VIA AP", at="@{AI does not set}", size=70, hl=["franchisees", "do.”"])) +
-        plate("AN ACCUSATION · NO COURT HAS RULED", "@{No court has ruled}", y=960, size=34, color="C6.accent")),
+dict(start="That's an accusation", tag=C10, sfx=[('ep06-stamp:0.25', '0.1')],
+     el=(quote("“AI does not set menu prices at McDonald's restaurants – McDonald's franchisees do.”", "McDONALD'S STATEMENT · VIA AP", at="@{AI does not set}", size=70, hl=["franchisees", "do.”"])) +
+        plate("AN ACCUSATION · NO COURT HAS RULED", "0.05", y=200, size=34, color="C6.accent")),
 dict(start="And for a business built on volume", alt=(K("r-drive-thru-going"), "The crowd was walking away"), tag=C10, stock=K("r-drive-thru-night"), sfx=[],
      el=plate("THE CROWD WAS WALKING AWAY", "@{The crowd was walking away}", y=880, size=46, color="C6.accent")),
 
@@ -582,8 +581,8 @@ dict(start="Start measuring prices the way we did today", tag=C11, sfx=[('ding:0
 dict(start="When you see the price that way", tag=C11, sfx=[('ding:0.3', '@{nobody can play you}')],
      el='''<Center y={520}><Checklist w={1240} items={[{ text: "Check the app against the board", at: 0.05 }, { text: "Skip delivery, pick it up", at: 0.2 }, { text: "Compare two locations in the app", at: 0.35 }, { text: "Count prices in minutes of work", at: @{nobody can play you} }]} /></Center>'''),
 dict(start="Jim Delligatti never got royalties", alt=(K("live-ad1974-box"), "When people asked him"), tag=C11, stock=K("wm-bigmac-museum"), sfx=[],
-     el=plate("JIM DELLIGATTI: “ALL I GOT WAS A PLAQUE”", "@{all I got was a plaque}", y=880, size=40, color="C6.accent") + src("Big Mac Museum, North Huntingdon, PA · CC0", "0.4")),
-dict(start="He made it for steelworkers", tag=C11, stock=K("wm-homestead-night"), alt=(K("live-ad1974-logo"), "for people who worked hard"), sfx=[], el=""),
+     el=plate("JIM DELLIGATTI · NO ROYALTIES", "0.2", y=880, size=40, out="@{all I got was a plaque}") + plate("“ALL I GOT WAS A PLAQUE”", "@{all I got was a plaque}", y=880, size=44, color="C6.accent") + src("Big Mac Museum, North Huntingdon, PA · CC0", "0.4")),
+dict(start="for people who worked hard and needed", tag=C11, stock=K("wm-homestead-night"), sfx=[], el=""),
 dict(start="That's who fast food was built for", tag=C11, stock=K("workers-walking"), alt=(K("doctor-wipe"), "People like Mariam"), sfx=[],
      el=src("Illustrative footage", "@{People like Mariam}")),
 dict(start="People like her brother behind the register", tag=C11, stock=K("bag-packing"), sfx=[], el=src(ILL, "0.3")),

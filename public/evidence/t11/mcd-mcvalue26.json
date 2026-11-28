@@ -7,11 +7,17 @@
  "host": "web.archive.org",
  "frame": "screen",
  "finds": {
-  "Under $3": [
-   1814,
-   716,
-   424,
-   126
+  "everyday": [
+   1439,
+   691,
+   130,
+   40
+  ],
+  "McDouble": [
+   743,
+   1011,
+   146,
+   40
   ]
  }
 }

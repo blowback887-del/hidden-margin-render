@@ -235,7 +235,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={150}><In at={4.72} from="fade"><Plate6 at={4.72}><Label6 at={4.72} size={40} color={C6.accent}>1997 · CAMPAIGN 55</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: AP Archive · Feb 1997</Source6>
 </>) },
   { from: 403.02, to: 409.46, tag: [4, "Price Wars", false], back: null, el: (<>
-<Drift><Center y={470}><Words text="$1.90 → 55¢" at={4.52} size={200} hl={["55¢"]} /></Center><Center x={960} y={780}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={38} color={C6.ink}>A BIG MAC, NORMALLY ~$1.90</Label6></Plate6></In></Center></Drift>
+<Evidence src="evidence/t11/mcspot-reuters-feb97.png" size={[2880, 1800]} dur={6.44} frame="screen" marks={[{ x: 2298, y: 595, w: 106, h: 34, at: 4.52 }]} zoom={0.9} source="REUTERS · FEB 26, 1997 · VIA McSPOTLIGHT.ORG" url="mcspotlight.org" />
 </>) },
   { from: 409.46, to: 415.96, tag: [4, "Price Wars", false], back: (<><Stock6 n={140} dur={6.5} dim={0} graphics={false} /></>), el: (<>
 <Center x={960} y={150}><In at={4.2} from="fade"><Plate6 at={4.2}><Label6 at={4.2} size={40} color={C6.accent}>*WITH PURCHASE OF FRIES AND A DRINK</Label6></Plate6></In></Center><Source6 at={0.3}>McDonald's TV ad · 1997</Source6>
@@ -266,7 +266,7 @@ const BEATS: Beat[] = [
 <Drift><Center y={440}><MenuBoard at={0.1} title="DOLLAR MENU" w={860} rh={92} foot="ILLUSTRATION" rows={[{ name: "SANDWICH", price: "$1" }, { name: "FRIES", price: "$1" }, { name: "DRINK", price: "$1" }]} /></Center><Center x={960} y={920}><In at={6.18} from="fade"><Plate6 at={6.18}><Label6 at={6.18} size={46} color={C6.accent}>BORN OUT OF PANIC</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 474.66, to: 483.72, tag: [5, "The Dollar", false], back: null, el: (<>
-<Drift><Center x={960} y={200}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>END OF 2002 · THE FIRST QUARTERLY LOSS IN ITS HISTORY</Label6></Plate6></In></Center><Center y={470}><BigNum at={7.24} size={200} color={C6.loss} label="Q4 2002 · NET LOSS">−$343M</BigNum></Center><Source6 at={0.4}>AP · CBS News · Jan 2003</Source6></Drift>
+<Evidence src="evidence/t11/hs-loss.png" size={[2880, 1800]} dur={9.06} frame="screen" marks={[{ x: 2478, y: 577, w: 58, h: 46, at: 7.24 }]} zoom={0.9} source="HERALD-STANDARD, UNIONTOWN · AP · JAN 24, 2003" url="heraldstandard.com" />
 </>) },
   { from: 483.72, to: 491.12, tag: [5, "The Dollar", false], back: (<><Stock6 n={97} dur={7.4} dim={0} graphics={true} />
 <Stock6 n={96} from={3.04} dur={7.4} dim={0} graphics={true} /></>), el: (<>
@@ -312,7 +312,7 @@ const BEATS: Beat[] = [
 </>) },
   { from: 565.16, to: 578.5, tag: [6, "The Squeeze", true], hard: true, back: (<><Stock6 n={26} dur={13.34} dim={0} graphics={true} />
 <Stock6 n={84} from={9.06} dur={13.34} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={0.3} out={9.06} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={38} color={C6.ink}>2008 · BEEF AND CHEESE GETTING PRICIER</Label6></Plate6></In></Center><Center x={960} y={880}><In at={9.06} from="fade"><Plate6 at={9.06}><Label6 at={9.06} size={38} color={C6.ink}>A $1 DOUBLE CHEESEBURGER “JUST DIDN'T WORK”</Label6></Plate6></In></Center><Source6 at={9.06}>Photo: Willis Lam · CC BY-SA 2.0</Source6>
+<Center x={960} y={880}><In at={0.3} out={9.06} from="fade"><Plate6 at={0.3}><Label6 at={0.3} size={38} color={C6.ink}>2008 · BEEF AND CHEESE GETTING PRICIER</Label6></Plate6></In></Center><Center x={960} y={880}><In at={9.06} from="fade"><Plate6 at={9.06}><Label6 at={9.06} size={38} color={C6.ink}>OWNERS: A $1 DOUBLE CHEESEBURGER NO LONGER WORKED</Label6></Plate6></In></Center><Source6 at={9.06}>Photo: Willis Lam · CC BY-SA 2.0</Source6>
 </>) },
   { from: 578.5, to: 588.68, tag: [6, "The Squeeze", false], back: null, el: (<>
 <Evidence src="evidence/t11/newser-mcdouble.png" size={[2880, 1800]} dur={10.18} frame="screen" marks={[{ x: 792, y: 669, w: 344, h: 88, at: 2.88 }, { x: 606, y: 669, w: 168, h: 88, at: 7.44 }]} zoom={0.9} source="NEWSER · OCT 2008" url="newser.com" />
@@ -334,10 +334,10 @@ const BEATS: Beat[] = [
 <Drift><Center y={430}><Words text="Voted against it. Twice." at={0.1} size={130} maxW={1600} hl={["Twice."]} /></Center><Center x={960} y={740}><In at={3.06} from="fade"><Plate6 at={3.06}><Label6 at={3.06} size={42} color={C6.accent}>CORPORATE DID IT ANYWAY</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 618.7, to: 629.28, tag: [6, "The Squeeze", false], back: null, el: (<>
-<Evidence src="evidence/t11/nrn-bk-top.png" size={[2880, 1800]} dur={10.58} frame="screen" marks={[{ x: 1506, y: 781, w: 634, h: 80, at: 8.68 }]} zoom={1.3} source="NATION'S RESTAURANT NEWS · NOV 2009" url="nrn.com" /><Center x={960} y={960}><In at={8.68} from="fade"><Plate6 at={8.68}><Label6 at={8.68} size={32} color={C6.accent}>~80% OF BK'S U.S. FRANCHISE OWNERS · SUED THEIR OWN COMPANY</Label6></Plate6></In></Center>
+<Evidence src="evidence/t11/nrn-bk-top.png" size={[2880, 1800]} dur={10.58} frame="screen" marks={[{ x: 1506, y: 781, w: 634, h: 80, at: 8.68 }]} zoom={0.8} source="NATION'S RESTAURANT NEWS · NOV 2009" url="nrn.com" /><Center x={960} y={150}><In at={8.68} from="fade"><Plate6 at={8.68}><Label6 at={8.68} size={32} color={C6.accent}>~80% OF BK'S U.S. FRANCHISE OWNERS · SUED THEIR OWN COMPANY</Label6></Plate6></In></Center>
 </>) },
   { from: 629.28, to: 634.96, tag: [6, "The Squeeze", false], back: null, el: (<>
-<Evidence src="evidence/t11/nrn-bk.png" size={[2880, 1800]} dur={5.68} frame="screen" marks={[{ x: 404, y: 702, w: 156, h: 40, at: 3.06 }]} zoom={0.9} source="NATION'S RESTAURANT NEWS · NOV 13, 2009" url="nrn.com" />
+<Evidence src="evidence/t11/nrn-bk.png" size={[2880, 1800]} dur={5.68} frame="screen" marks={[{ x: 402, y: 650, w: 164, h: 38, at: 3.06 }]} zoom={0.9} source="NATION'S RESTAURANT NEWS · NOV 13, 2009" url="nrn.com" />
 </>) },
   { from: 634.96, to: 645.68, tag: [6, "The Squeeze", false], back: null, el: (<>
 <Drift><Center y={480}><DimeLoss at={0.05} costAt={4.12} lossAt={8.06} /></Center></Drift>
@@ -474,17 +474,17 @@ const BEATS: Beat[] = [
   { from: 914.9, to: 921.56, back: null, el: (<>
 <Drift><Center y={470}><Watches size={450} gap={100} note="FIRST: WHERE THE 10 AND THE 11 COME FROM" noteAt={3.72} items={[{ min: 10, label: "1968", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 11, label: "2026", sub: "AVERAGE WORKER", still: true, at: 0.05 }, { min: 51, label: "$7.25/HR", sub: "FEDERAL MINIMUM", still: true, blurred: true, q: true, color: C6.loss, at: 0.05 }]} /></Center></Drift>
 </>) },
-  { from: 921.56, to: 926.86, tag: [9, "The Number", true], hard: true, back: (<><Stock6 n={4} dur={5.3} dim={0} graphics={true} /></>), el: (<>
-
+  { from: 921.56, to: 926.86, tag: [9, "The Number", true], hard: true, back: null, el: (<>
+<Evidence src="evidence/t11/fred-ahetpi.png" size={[2880, 1800]} dur={5.3} frame="screen" marks={[{ x: 804, y: 452, w: 672, h: 56, at: 3.36 }]} zoom={0.9} source="BLS VIA FRED · AVERAGE HOURLY EARNINGS, PRODUCTION & NONSUPERVISORY" url="fred.stlouisfed.org" />
 </>) },
-  { from: 926.86, to: 932.26, tag: [9, "The Number", false], back: (<><Stock6 n={110} dur={5.4} dim={0} graphics={true} /></>), el: (<>
+  { from: 926.86, to: 932.26, tag: [9, "The Number", false], back: (<><Stock6 n={4} dur={5.4} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.05} out={0.92} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={46} color={C6.ink}>NOT BOSSES</Label6></Plate6></In></Center><Center x={960} y={880}><In at={0.92} from="fade"><Plate6 at={0.92}><Label6 at={0.92} size={40} color={C6.accent}>THE PEOPLE WHO DO THE WORK · ~8 IN 10 JOBS</Label6></Plate6></In></Center>
 </>) },
   { from: 932.26, to: 942.46, tag: [9, "The Number", false], back: null, el: (<>
 <Drift><Center y={480}><Division label="1968 · AVERAGE WORKER" price="49¢" wage="$3.02" res="10 MIN" times={[5.72, 0.2, 8.36]} /></Center><Source6 at={0.4}>BLS · production & nonsupervisory · our math</Source6></Drift>
 </>) },
   { from: 942.46, to: 949.48, tag: [9, "The Number", false], back: null, el: (<>
-<Drift><Center y={460}><BigNum at={4.3} size={220} label="AVERAGE HOURLY PAY · OCTOBER 2026 · BLS">$32.75</BigNum></Center></Drift>
+<Evidence src="evidence/t11/fred-ahetpi.png" size={[2880, 1800]} dur={7.02} frame="screen" marks={[{ x: 294, y: 618, w: 82, h: 38, at: 4.3 }]} zoom={0.9} source="BLS VIA FRED · OCTOBER 2026" url="fred.stlouisfed.org" />
 </>) },
   { from: 949.48, to: 953.62, tag: [9, "The Number", false], back: null, el: (<>
 <Drift><Center y={480}><Division label="2026 · AVERAGE WORKER" price="$6.22" wage="$32.75" res="11 MIN" times={[0.05, 0.1, 2.42]} /></Center><Source6 at={0.4}>BLS · The Economist · our math</Source6></Drift>
@@ -514,7 +514,7 @@ const BEATS: Beat[] = [
 <Evidence src="evidence/t11/lt-workers-top.png" size={[2880, 1800]} dur={7.86} frame="screen" marks={[{ x: 292, y: 224, w: 336, h: 108, at: 3.62 }]} zoom={0.9} source="LENDINGTREE · 2025" url="lendingtree.com" />
 </>) },
   { from: 1011.28, to: 1016.88, tag: [9, "The Number", false], back: null, el: (<>
-<Evidence src="evidence/t11/lt-workers.png" size={[2880, 1800]} dur={5.6} frame="screen" marks={[{ x: 994, y: 1680, w: 108, h: 44, at: 4.0 }]} zoom={0.9} source="LENDINGTREE · 50 LARGEST U.S. METROS · 2025" url="lendingtree.com" />
+<Evidence src="evidence/t11/lt-workers.png" size={[2880, 1800]} dur={5.6} frame="screen" marks={[{ x: 994, y: 712, w: 108, h: 44, at: 4.0 }]} zoom={0.9} source="LENDINGTREE · 50 LARGEST U.S. METROS · 2025" url="lendingtree.com" />
 </>) },
   { from: 1016.88, to: 1025.78, tag: [9, "The Number", false], back: null, el: (<>
 <Drift><Center y={470}><Watches size={480} gap={140} note="LENDINGTREE · 21.2 VS 46.0 MINUTES" noteAt={0.3} items={[{ min: 21, label: "Average worker", sub: "$11.56 COMBO", at: 0.05, spinAt: 0.3, spin: 1.2 }, { min: 46, label: "Fast food worker", sub: "~$15/HR", at: 3.38, spinAt: 6.62, spin: 1.6, redAt: 6.62, color: C6.loss }]} /></Center></Drift>
@@ -542,8 +542,7 @@ const BEATS: Beat[] = [
 <Stock6 n={60} from={3.32} dur={9.3} dim={0} graphics={true} /></>), el: (<>
 <Subscribe6 at={2.54} /><Center x={960} y={880}><In at={3.32} from="fade"><Plate6 at={3.32}><Label6 at={3.32} size={36} color={C6.accent}>EVERY WEEK · ONE EVERYDAY PRICE · TAKEN APART</Label6></Plate6></In></Center>
 </>) },
-  { from: 1076.9, to: 1085.36, tag: [9, "The Number", false], back: (<><Stock6 n={152} dur={8.46} dim={0} graphics={false} />
-<Stock6 n={151} from={1.04} dur={8.46} dim={0} graphics={false} /></>), el: (<>
+  { from: 1076.9, to: 1085.36, tag: [9, "The Number", false], back: (<><Stock6 n={152} dur={8.46} dim={0} graphics={false} /></>), el: (<>
 <Center x={960} y={150}><In at={4.16} from="fade"><Plate6 at={4.16}><Label6 at={4.16} size={36} color={C6.accent}>…THEN THE COMPANY DID SOMETHING NOBODY EXPECTED</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: Good Morning America · 2026</Source6>
 </>) },
   { from: 1085.36, to: 1088.64, tag: [10, "Who Left", true], hard: true, back: (<><Stock6 n={101} dur={3.28} dim={0} graphics={true} /></>), el: (<>
@@ -570,8 +569,7 @@ const BEATS: Beat[] = [
   { from: 1126.7, to: 1133.48, tag: [10, "Who Left", false], back: (<><Stock6 n={148} dur={6.78} dim={0} graphics={false} /></>), el: (<>
 <Center x={960} y={150}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.accent}>TRAP #1 · THE PRICE ISN'T THE SAME EVERYWHERE</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: NewsNation</Source6>
 </>) },
-  { from: 1133.48, to: 1138.1, tag: [10, "Who Left", false], back: (<><Stock6 n={113} dur={4.62} dim={0} graphics={true} />
-<Stock6 n={114} from={3.28} dur={4.62} dim={0} graphics={true} /></>), el: (<>
+  { from: 1133.48, to: 1138.1, tag: [10, "Who Left", false], back: (<><Stock6 n={113} dur={4.62} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>DIFFERENT OWNERS · DIFFERENT PRICES</Label6></Plate6></In></Center><Source6 at={0.4}>Photos: JJBers · CC BY 2.0</Source6>
 </>) },
   { from: 1138.1, to: 1143.44, tag: [10, "Who Left", false], back: (<><Stock6 n={112} dur={5.34} dim={0} graphics={true} /></>), el: (<>
@@ -594,11 +592,11 @@ const BEATS: Beat[] = [
   { from: 1175.74, to: 1179.42, tag: [10, "Who Left", false], back: (<><Stock6 n={130} dur={3.68} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.loss}>+70% · FOR SOMEBODY TOO TIRED TO DRIVE</Label6></Plate6></In></Center>
 </>) },
-  { from: 1179.42, to: 1191.1, tag: [10, "Who Left", false], back: (<><Stock6 n={132} dur={11.68} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={5.12} from="fade"><Plate6 at={5.12}><Label6 at={5.12} size={40} color={C6.ink}>OCT 2026 · LAWSUIT: AI PRICING ACROSS RESTAURANTS</Label6></Plate6></In></Center><Center x={1500} y={300}><Stamp at={5.12} text="ALLEGATION" color={C6.loss} size={72} /></Center>
+  { from: 1179.42, to: 1191.1, tag: [10, "Who Left", false], back: null, el: (<>
+<Evidence src="evidence/t11/abc7-ai-top.png" size={[2880, 1800]} dur={11.68} frame="screen" marks={[{ x: 298, y: 506, w: 469, h: 86, at: 5.12 }]} zoom={0.9} source="AP · VIA ABC7 · OCT 2026" url="abc7.com" /><Center x={1500} y={300}><Stamp at={5.12} text="ALLEGATION" color={C6.loss} size={72} /></Center>
 </>) },
   { from: 1191.1, to: 1201.86, tag: [10, "Who Left", false], back: null, el: (<>
-<Drift><Center y={440}><Words text="“AI does not set menu prices at McDonald's restaurants – McDonald's franchisees do.”" at={5.54} size={70} maxW={1500} hl={["franchisees", "do.\u201d"]} /></Center><Center y={690}><Label6 at={5.54} size={28} color={C6.mint}>McDONALD'S STATEMENT · VIA AP</Label6></Center><Center x={960} y={960}><In at={1.84} from="fade"><Plate6 at={1.84}><Label6 at={1.84} size={34} color={C6.accent}>AN ACCUSATION · NO COURT HAS RULED</Label6></Plate6></In></Center></Drift>
+<Drift><Center y={440}><Words text="“AI does not set menu prices at McDonald's restaurants – McDonald's franchisees do.”" at={5.54} size={70} maxW={1500} hl={["franchisees", "do.\u201d"]} /></Center><Center y={690}><Label6 at={5.54} size={28} color={C6.mint}>McDONALD'S STATEMENT · VIA AP</Label6></Center><Center x={960} y={200}><In at={0.05} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={34} color={C6.accent}>AN ACCUSATION · NO COURT HAS RULED</Label6></Plate6></In></Center></Drift>
 </>) },
   { from: 1201.86, to: 1209.52, tag: [10, "Who Left", false], back: (<><Stock6 n={91} dur={7.66} dim={0} graphics={true} />
 <Stock6 n={100} from={4.66} dur={7.66} dim={0} graphics={true} /></>), el: (<>
@@ -618,7 +616,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={150}><In at={6.88} from="fade"><Plate6 at={6.88}><Label6 at={6.88} size={40} color={C6.accent}>McDOUBLE · $2.50 TO KICK IT OFF</Label6></Plate6></In></Center><Source6 at={0.3}>Footage: Good Morning America · 2026</Source6>
 </>) },
   { from: 1244.72, to: 1252.28, tag: [11, "The Way Back", false], back: null, el: (<>
-<Drift><Center y={440}><Words text="“Predictable everyday low prices.”" at={1.2} size={100} maxW={1500} hl={[]} /></Center><Center y={690}><Label6 at={1.2} size={28} color={C6.mint}>McDONALD'S · APRIL 2026</Label6></Center><Center x={960} y={960}><In at={3.74} from="fade"><Plate6 at={3.74}><Label6 at={3.74} size={34} color={C6.accent}>NOT COUPONS IN AN APP · PRICES ON THE BOARD</Label6></Plate6></In></Center></Drift>
+<Evidence src="evidence/t11/mcd-mcvalue26.png" size={[2880, 1800]} dur={7.56} frame="screen" marks={[{ x: 1439, y: 691, w: 130, h: 40, at: 1.2 }]} zoom={0.9} source="McDONALD'S PRESS RELEASE · APRIL 2, 2026" url="web.archive.org" /><Center x={960} y={960}><In at={3.74} from="fade"><Plate6 at={3.74}><Label6 at={3.74} size={34} color={C6.accent}>NOT COUPONS IN AN APP · PRICES ON THE BOARD</Label6></Plate6></In></Center>
 </>) },
   { from: 1252.28, to: 1260.76, tag: [11, "The Way Back", false], back: null, el: (<>
 <Drift><Center y={470}><PriceDuel at={0.1} a={{ label: "2013 · DOLLAR MENU → “& MORE”", value: "$1" }} b={{ label: "2026 · McVALUE · ON THE SIGN", value: "<$3", at: 3.36 }} /></Center></Drift>
@@ -679,12 +677,11 @@ const BEATS: Beat[] = [
   { from: 1384.02, to: 1389.38, tag: [11, "The Way Back", false], back: null, el: (<>
 <Drift><Center y={520}><Checklist w={1240} items={[{ text: "Check the app against the board", at: 0.05 }, { text: "Skip delivery, pick it up", at: 0.2 }, { text: "Compare two locations in the app", at: 0.35 }, { text: "Count prices in minutes of work", at: 1.9 }]} /></Center></Drift>
 </>) },
-  { from: 1389.38, to: 1397.98, tag: [11, "The Way Back", false], back: (<><Stock6 n={72} dur={8.6} dim={0} graphics={true} />
-<Stock6 n={136} from={3.6} dur={8.6} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={6.94} from="fade"><Plate6 at={6.94}><Label6 at={6.94} size={40} color={C6.accent}>JIM DELLIGATTI: “ALL I GOT WAS A PLAQUE”</Label6></Plate6></In></Center><Source6 at={0.4}>Big Mac Museum, North Huntingdon, PA · CC0</Source6>
+  { from: 1389.38, to: 1400.5, tag: [11, "The Way Back", false], back: (<><Stock6 n={72} dur={11.12} dim={0} graphics={true} />
+<Stock6 n={136} from={3.6} dur={11.12} dim={0} graphics={true} /></>), el: (<>
+<Center x={960} y={880}><In at={0.2} out={6.94} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>JIM DELLIGATTI · NO ROYALTIES</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.94} from="fade"><Plate6 at={6.94}><Label6 at={6.94} size={44} color={C6.accent}>“ALL I GOT WAS A PLAQUE”</Label6></Plate6></In></Center><Source6 at={0.4}>Big Mac Museum, North Huntingdon, PA · CC0</Source6>
 </>) },
-  { from: 1397.98, to: 1404.38, tag: [11, "The Way Back", false], back: (<><Stock6 n={74} dur={6.4} dim={0} graphics={true} />
-<Stock6 n={137} from={2.54} dur={6.4} dim={0} graphics={true} /></>), el: (<>
+  { from: 1400.5, to: 1404.38, tag: [11, "The Way Back", false], back: (<><Stock6 n={74} dur={3.88} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
   { from: 1404.38, to: 1407.98, tag: [11, "The Way Back", false], back: (<><Stock6 n={4} dur={3.6} dim={0} graphics={true} />
@@ -704,7 +701,7 @@ const BEATS: Beat[] = [
 ];
 
 // звуковые эффекты — только на смысловые события (секунды ролика)
-const SFX: [number, string, number][] = [[2.08, "ep06-coin", 0.25], [6.64, "swoosh", 0.3], [7.78, "ep06-kaching", 0.3], [22.64, "tick", 0.3], [29.98, "tick", 0.3], [32.9, "tick", 0.3], [43.94, "ep06-counter", 0.3], [52.08, "tick", 0.3], [53.26, "impact", 0.3], [68.46, "ep06-pop", 0.25], [98.63, "t02-paper", 0.3], [108.2, "ep06-pop", 0.22], [109.18, "ep06-pop", 0.22], [110.62, "ep06-pop", 0.22], [121.68, "ding", 0.25], [126.78, "ep06-coin", 0.25], [145.19, "ep06-whoosh", 0.2], [163.74, "impact", 0.3], [176.42, "rise", 0.25], [184.51, "t02-paper", 0.3], [199.23, "t02-paper", 0.3], [213.52, "ding", 0.25], [220.17, "t02-paper", 0.3], [230.22, "ep06-coin", 0.3], [248.81, "ep06-whoosh", 0.2], [267.68, "ep06-stamp", 0.35], [274.1, "ep06-scratch", 0.25], [281.9, "ep06-coin", 0.25], [299.48, "ding", 0.25], [303.5, "ep06-fall", 0.25], [310.36, "ep06-pop", 0.22], [311.6, "ep06-pop", 0.22], [313.08, "ep06-pop", 0.22], [314.89, "t02-paper", 0.25], [328.72, "ep06-pop", 0.22], [329.84, "ep06-pop", 0.22], [332.24, "ding", 0.25], [345.85, "t02-paper", 0.25], [372.35, "ep06-whoosh", 0.2], [372.4, "t02-paper", 0.3], [381.58, "impact", 0.3], [386.56, "ep06-kaching", 0.25], [407.54, "ep06-kaching", 0.3], [413.66, "ep06-stamp", 0.3], [423.09, "t02-paper", 0.3], [429.14, "ep06-kaching", 0.25], [431.21, "t02-paper", 0.3], [434.88, "ep06-stamp", 0.3], [440.3, "ding", 0.25], [442.6, "ep06-scratch", 0.25], [456.93, "ep06-whoosh", 0.2], [472.42, "ep06-stamp", 0.3], [474.71, "t02-paper", 0.3], [481.9, "ep06-fall", 0.3], [509.4, "impact", 0.3], [514.9, "ding", 0.25], [517.26, "ding", 0.25], [550.58, "thud", 0.25], [551.64, "thud", 0.25], [552.42, "thud", 0.25], [553.02, "thud", 0.25], [553.72, "thud", 0.25], [562.54, "ep06-pop", 0.25], [565.21, "ep06-whoosh", 0.2], [578.55, "t02-paper", 0.3], [589.08, "swoosh", 0.25], [598.78, "ep06-coin", 0.25], [615.88, "ep06-stamp", 0.3], [618.75, "t02-paper", 0.3], [639.08, "ep06-pop", 0.25], [643.02, "ep06-fall", 0.3], [649.13, "t02-paper", 0.3], [668.48, "ep06-pop", 0.22], [669.62, "ep06-pop", 0.22], [670.32, "ep06-pop", 0.22], [686.27, "ep06-whoosh", 0.2], [694.17, "t02-paper", 0.3], [713.12, "ep06-kaching", 0.3], [715.25, "t02-paper", 0.3], [749.81, "ep06-coin", 0.22], [751.8, "ep06-coin", 0.22], [753.4, "ep06-coin", 0.22], [756.98, "ding", 0.3], [760.53, "t02-paper", 0.3], [768.26, "ep06-coin", 0.25], [771.44, "ep06-coin", 0.25], [774.24, "ep06-kaching", 0.3], [791.92, "ep06-fall", 0.3], [797.84, "rise", 0.3], [801.49, "t02-paper", 0.3], [820.7, "ep06-kaching", 0.3], [828.76, "ep06-pop", 0.25], [831.45, "t02-paper", 0.3], [832.2, "ep06-stamp", 0.3], [859.78, "ep06-kaching", 0.3], [870.13, "t02-paper", 0.3], [877.92, "ep06-pop", 0.25], [879.04, "ep06-pop", 0.25], [886.16, "ep06-pop", 0.25], [889.04, "ep06-pop", 0.25], [900.2, "ep06-counter", 0.3], [915.2, "tick", 0.3], [921.61, "t02-paper", 0.3], [932.46, "ep06-pop", 0.25], [937.98, "ep06-pop", 0.25], [940.62, "tick", 0.3], [942.51, "t02-paper", 0.3], [951.9, "tick", 0.3], [967.14, "ep06-scratch", 0.3], [975.14, "ep06-pop", 0.25], [977.58, "tick", 0.3], [979.03, "t02-paper", 0.3], [988.62, "ep06-pop", 0.25], [994.12, "tick", 0.35], [996.74, "impact", 0.4], [1003.47, "t02-paper", 0.3], [1015.28, "ep06-kaching", 0.25], [1017.18, "tick", 0.3], [1023.5, "tick", 0.3], [1061.04, "ding", 0.3], [1070.14, "ding", 0.25], [1085.41, "ep06-whoosh", 0.2], [1088.69, "t02-paper", 0.3], [1095.76, "ep06-fall", 0.3], [1105.2, "ep06-pop", 0.22], [1106.04, "ep06-pop", 0.22], [1106.96, "ep06-pop", 0.22], [1108.05, "t02-paper", 0.3], [1125.3, "ding", 0.25], [1126.8, "ep06-stamp", 0.25], [1143.54, "ep06-stamp", 0.25], [1152.02, "ep06-counter", 0.3], [1161.32, "ep06-stamp", 0.25], [1163.63, "t02-paper", 0.3], [1171.3, "ep06-kaching", 0.3], [1179.47, "t02-paper", 0.3], [1184.54, "ep06-stamp", 0.3], [1192.94, "ep06-pop", 0.25], [1209.57, "ep06-whoosh", 0.2], [1216.17, "t02-paper", 0.3], [1226.57, "t02-paper", 0.3], [1233.04, "ding", 0.3], [1242.6, "ep06-kaching", 0.3], [1255.64, "ding", 0.25], [1267.89, "t02-paper", 0.3], [1289.85, "t02-paper", 0.3], [1299.34, "ep06-kaching", 0.25], [1303.66, "ep06-pop", 0.25], [1309.08, "impact", 0.3], [1317.39, "t02-paper", 0.3], [1329.18, "ep06-fall", 0.25], [1341.04, "ding", 0.25], [1348.26, "ding", 0.25], [1355.64, "ding", 0.25], [1364.38, "ding", 0.25], [1372.42, "ding", 0.25], [1379.02, "tick", 0.3], [1381.54, "tick", 0.3], [1385.92, "ding", 0.3], [1422.98, "ding", 0.3]];
+const SFX: [number, string, number][] = [[2.08, "ep06-coin", 0.25], [6.64, "swoosh", 0.3], [7.78, "ep06-kaching", 0.3], [22.64, "tick", 0.3], [29.98, "tick", 0.3], [32.9, "tick", 0.3], [43.94, "ep06-counter", 0.3], [52.08, "tick", 0.3], [53.26, "impact", 0.3], [68.46, "ep06-pop", 0.25], [98.63, "t02-paper", 0.3], [108.2, "ep06-pop", 0.22], [109.18, "ep06-pop", 0.22], [110.62, "ep06-pop", 0.22], [121.68, "ding", 0.25], [126.78, "ep06-coin", 0.25], [145.19, "ep06-whoosh", 0.2], [163.74, "impact", 0.3], [176.42, "rise", 0.25], [184.51, "t02-paper", 0.3], [199.23, "t02-paper", 0.3], [213.52, "ding", 0.25], [220.17, "t02-paper", 0.3], [230.22, "ep06-coin", 0.3], [248.81, "ep06-whoosh", 0.2], [267.68, "ep06-stamp", 0.35], [274.1, "ep06-scratch", 0.25], [281.9, "ep06-coin", 0.25], [299.48, "ding", 0.25], [303.5, "ep06-fall", 0.25], [310.36, "ep06-pop", 0.22], [311.6, "ep06-pop", 0.22], [313.08, "ep06-pop", 0.22], [314.89, "t02-paper", 0.25], [328.72, "ep06-pop", 0.22], [329.84, "ep06-pop", 0.22], [332.24, "ding", 0.25], [345.85, "t02-paper", 0.25], [372.35, "ep06-whoosh", 0.2], [372.4, "t02-paper", 0.3], [381.58, "impact", 0.3], [386.56, "ep06-kaching", 0.25], [407.54, "ep06-kaching", 0.3], [413.66, "ep06-stamp", 0.3], [423.09, "t02-paper", 0.3], [429.14, "ep06-kaching", 0.25], [431.21, "t02-paper", 0.3], [434.88, "ep06-stamp", 0.3], [440.3, "ding", 0.25], [442.6, "ep06-scratch", 0.25], [456.93, "ep06-whoosh", 0.2], [472.42, "ep06-stamp", 0.3], [474.71, "t02-paper", 0.3], [481.9, "ep06-fall", 0.3], [509.4, "impact", 0.3], [514.9, "ding", 0.25], [517.26, "ding", 0.25], [550.58, "thud", 0.25], [551.64, "thud", 0.25], [552.42, "thud", 0.25], [553.02, "thud", 0.25], [553.72, "thud", 0.25], [562.54, "ep06-pop", 0.25], [565.21, "ep06-whoosh", 0.2], [578.55, "t02-paper", 0.3], [589.08, "swoosh", 0.25], [598.78, "ep06-coin", 0.25], [615.88, "ep06-stamp", 0.3], [618.75, "t02-paper", 0.3], [639.08, "ep06-pop", 0.25], [643.02, "ep06-fall", 0.3], [649.13, "t02-paper", 0.3], [668.48, "ep06-pop", 0.22], [669.62, "ep06-pop", 0.22], [670.32, "ep06-pop", 0.22], [686.27, "ep06-whoosh", 0.2], [694.17, "t02-paper", 0.3], [713.12, "ep06-kaching", 0.3], [715.25, "t02-paper", 0.3], [749.81, "ep06-coin", 0.22], [751.8, "ep06-coin", 0.22], [753.4, "ep06-coin", 0.22], [756.98, "ding", 0.3], [760.53, "t02-paper", 0.3], [768.26, "ep06-coin", 0.25], [771.44, "ep06-coin", 0.25], [774.24, "ep06-kaching", 0.3], [791.92, "ep06-fall", 0.3], [797.84, "rise", 0.3], [801.49, "t02-paper", 0.3], [820.7, "ep06-kaching", 0.3], [828.76, "ep06-pop", 0.25], [831.45, "t02-paper", 0.3], [832.2, "ep06-stamp", 0.3], [859.78, "ep06-kaching", 0.3], [870.13, "t02-paper", 0.3], [877.92, "ep06-pop", 0.25], [879.04, "ep06-pop", 0.25], [886.16, "ep06-pop", 0.25], [889.04, "ep06-pop", 0.25], [900.2, "ep06-counter", 0.3], [915.2, "tick", 0.3], [921.61, "t02-paper", 0.3], [932.46, "ep06-pop", 0.25], [937.98, "ep06-pop", 0.25], [940.62, "tick", 0.3], [942.51, "t02-paper", 0.3], [951.9, "tick", 0.3], [967.14, "ep06-scratch", 0.3], [975.14, "ep06-pop", 0.25], [977.58, "tick", 0.3], [979.03, "t02-paper", 0.3], [988.62, "ep06-pop", 0.25], [994.12, "tick", 0.35], [996.74, "impact", 0.4], [1003.47, "t02-paper", 0.3], [1015.28, "ep06-kaching", 0.25], [1017.18, "tick", 0.3], [1023.5, "tick", 0.3], [1061.04, "ding", 0.3], [1070.14, "ding", 0.25], [1085.41, "ep06-whoosh", 0.2], [1088.69, "t02-paper", 0.3], [1095.76, "ep06-fall", 0.3], [1105.2, "ep06-pop", 0.22], [1106.04, "ep06-pop", 0.22], [1106.96, "ep06-pop", 0.22], [1108.05, "t02-paper", 0.3], [1125.3, "ding", 0.25], [1126.8, "ep06-stamp", 0.25], [1143.54, "ep06-stamp", 0.25], [1152.02, "ep06-counter", 0.3], [1161.32, "ep06-stamp", 0.25], [1163.63, "t02-paper", 0.3], [1171.3, "ep06-kaching", 0.3], [1179.47, "t02-paper", 0.3], [1184.54, "ep06-stamp", 0.3], [1191.2, "ep06-stamp", 0.25], [1209.57, "ep06-whoosh", 0.2], [1216.17, "t02-paper", 0.3], [1226.57, "t02-paper", 0.3], [1233.04, "ding", 0.3], [1242.6, "ep06-kaching", 0.3], [1255.64, "ding", 0.25], [1267.89, "t02-paper", 0.3], [1289.85, "t02-paper", 0.3], [1299.34, "ep06-kaching", 0.25], [1303.66, "ep06-pop", 0.25], [1309.08, "impact", 0.3], [1317.39, "t02-paper", 0.3], [1329.18, "ep06-fall", 0.25], [1341.04, "ding", 0.25], [1348.26, "ding", 0.25], [1355.64, "ding", 0.25], [1364.38, "ding", 0.25], [1372.42, "ding", 0.25], [1379.02, "tick", 0.3], [1381.54, "tick", 0.3], [1385.92, "ding", 0.3], [1422.98, "ding", 0.3]];
 
 export const T11BigMac: React.FC = () => {
   const { fps } = useVideoConfig();
