@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://self.inc/info/most-expensive-cities-for-food-delivery-apps",
+ "host": "self.inc",
+ "frame": "screen",
+ "finds": {
+  "68.6%": [
+   790,
+   815,
+   114,
+   50
+  ],
+  "markup had decreased": [
+   1567,
+   744,
+   393,
+   50
+  ]
+ }
+}
