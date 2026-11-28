@@ -56,6 +56,7 @@ export const Stopwatch: React.FC<Watch & { size?: number }> = ({ min, label, sub
   const ang = (m / 60) * 360;
   const shown = run < 0.999 ? Math.floor(m) : min;
   const hideNum = q && blurK > 0.5;
+  const preSpin = !still && spinAt !== undefined && run <= 0.001; // до пробега стрелки цифры нет (контролёр: «0 MIN» под «WHO?»)
   const gid = "face" + label.replace(/[^A-Za-z0-9]/g, "") + min;
   return (
     <div style={{ opacity: Math.min(1, k * 1.4), scale: String(0.86 + 0.14 * k), display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
@@ -94,7 +95,7 @@ export const Stopwatch: React.FC<Watch & { size?: number }> = ({ min, label, sub
         {/* цифра в центре */}
         <div style={{ position: "absolute", left: 0, top: 34 + c - size * 0.14, width: size, textAlign: "center", pointerEvents: "none" }}>
           <div style={{ display: "inline-block", padding: `${size * 0.01}px ${size * 0.05}px`, borderRadius: size * 0.04, background: "rgba(30,35,38,.9)" }}>
-            <span style={{ fontFamily: SERIF, fontSize: size * 0.2, lineHeight: 1.05, color: red > 0 ? C6.loss : "#fff", filter: run < 0.999 ? "blur(2px)" : undefined }}>{hideNum ? "?" : shown}</span>
+            <span style={{ fontFamily: SERIF, fontSize: size * 0.2, lineHeight: 1.05, color: red > 0 ? C6.loss : "#fff", filter: run < 0.999 ? "blur(2px)" : undefined }}>{hideNum || preSpin ? "?" : shown}</span>
             <span style={{ fontFamily: SANS, fontWeight: 800, fontSize: size * 0.065, letterSpacing: "0.12em", color: "rgba(255,255,255,.75)", marginLeft: size * 0.02 }}>MIN</span>
           </div>
         </div>
@@ -447,7 +448,7 @@ export const PostCard: React.FC<{ at?: number; text: string; site: string; note?
 export const ChapterFlash: React.FC<{ n: number; title: string; out?: number; strong?: boolean }> = ({ n, title, out = 1.5, strong }) => {
   const { p } = useT();
   const k = p(0, 0.25, easeOut);
-  const o = 1 - p(out, out + 0.35);
+  const o = 1 - p(out, out + 0.06); // быстрый уход: полупрозрачная карточка поверх занятого кадра не видна
   const s = strong ? 1.25 : 1;
   return (
     <div style={{ position: "absolute", inset: 0, opacity: o, background: `radial-gradient(1400px 900px at 70% 20%, ${C6.bgTop}, ${C6.bgDeep})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 22 }}>
@@ -486,6 +487,7 @@ export const Chips: React.FC<{ items: { text: string; at: number }[]; size?: num
     <div style={{ display: "flex", gap: 36, justifyContent: "center" }}>
       {items.map((it, i) => {
         const k = p(it.at, it.at + 0.3, easeBack);
+        if (k <= 0) return null; // ещё не сказанные фишки не занимают место: ряд всегда по центру
         return <div key={i} style={{ opacity: Math.min(1, k * 1.4), scale: String(0.8 + 0.2 * k), padding: "18px 40px", borderRadius: 20, background: C6.panel, boxShadow: `inset 0 0 0 3px ${C6.accent}`, fontFamily: SERIF, fontSize: size, color: C6.ink, whiteSpace: "nowrap" }}>{it.text}</div>;
       })}
     </div>

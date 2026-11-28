@@ -1,0 +1,29 @@
+{
+ "size": [
+  1459,
+  1678
+ ],
+ "url": "https://lasvegassun.com/news/2025/nov/19/mcdonalds-is-losing-its-low-income-customers-econo/",
+ "host": "lasvegassun.com",
+ "frame": "screen",
+ "finds": {
+  "Gergis": [
+   196,
+   920,
+   85,
+   34
+  ],
+  "barely afford": [
+   171,
+   1054,
+   166,
+   34
+  ],
+  "go hungry": [
+   316,
+   1541,
+   131,
+   34
+  ]
+ }
+}

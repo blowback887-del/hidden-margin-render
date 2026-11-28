@@ -1,0 +1,17 @@
+{
+ "size": [
+  2160,
+  650
+ ],
+ "url": "https://www.nbcnews.com/business/consumer/mcdonalds-sees-us-sales-rebound-concerns-low-income-consumers-linger-rcna223450",
+ "host": "nbcnews.com",
+ "frame": "screen",
+ "finds": {
+  "low-income": [
+   386,
+   314,
+   494,
+   140
+  ]
+ }
+}

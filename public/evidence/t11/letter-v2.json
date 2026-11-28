@@ -1,0 +1,41 @@
+{
+ "size": [
+  2490,
+  1300
+ ],
+ "url": "https://web.archive.org/web/2025/https://corporate.mcdonalds.com/corpmcd/our-stories/article/providing-meaningful-value-to-our-fans-with-a-side-of-facts.html",
+ "host": "web.archive.org",
+ "frame": "screen",
+ "finds": {
+  "95%": [
+   1910,
+   1114,
+   64,
+   32
+  ],
+  "$4.39": [
+   727,
+   980,
+   77,
+   34
+  ],
+  "$5.29": [
+   793,
+   1028,
+   83,
+   34
+  ],
+  "21%": [
+   1175,
+   1030,
+   70,
+   30
+  ],
+  "$18": [
+   1440,
+   804,
+   60,
+   34
+  ]
+ }
+}

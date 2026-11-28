@@ -839,6 +839,88 @@
    "photo": true,
    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Second_shift_workers_leaving_the_Bethlehem_Fairfield_shipyard_8d27848v.jpg",
    "credit": "Second shift workers leaving the Bethlehem Fairfield shipyard, 1943 — Marjory Collins, Library of Congress — public domain (Wikimedia Commons)"
+  },
+  {
+   "name": "176-r-thruway-drive-thru",
+   "local": true,
+   "from": "public/broll/t08/61-thruway-drive-thru.mp4",
+   "credit": "Andre Carrotflower, CC BY-SA 4.0, Wikimedia Commons (McDonald's drive-thru, NY State Thruway DeWitt Service Area)"
+  },
+  {
+   "name": "177-r-family-minivan",
+   "local": true,
+   "from": "public/broll/t08/02-family-minivan.mp4"
+  },
+  {
+   "name": "178-r-town-aerial-twilight",
+   "local": true,
+   "from": "public/broll/t03/12-town-aerial-twilight.mp4"
+  },
+  {
+   "name": "179-r-town-street-sunset",
+   "local": true,
+   "from": "public/broll/t03/55-town-street-sunset.mp4"
+  },
+  {
+   "name": "180-r-night-roadside",
+   "local": true,
+   "from": "public/broll/t07/13-night-drone.mp4"
+  },
+  {
+   "name": "181-r-drive-night",
+   "local": true,
+   "from": "public/broll/t07/64-drive-night.mp4"
+  },
+  {
+   "name": "182-r-archive-minneapolis-1937",
+   "local": true,
+   "from": "public/broll/t07/69-archive-minneapolis-1937.mp4",
+   "credit": "Public domain, Wikimedia Commons (Minneapolis gas station, 1937)"
+  },
+  {
+   "name": "183-r-empty-cafe-night",
+   "local": true,
+   "from": "public/broll/t10/03-empty-cafe-night.mp4"
+  },
+  {
+   "name": "184-r-family-dinner",
+   "local": true,
+   "from": "public/broll/t10/32-family-dinner.mp4"
+  },
+  {
+   "name": "185-r-restaurant-aerial-night",
+   "local": true,
+   "from": "public/broll/t10/39-restaurant-aerial-night.mp4"
+  },
+  {
+   "name": "186-r-burger-fries-top",
+   "local": true,
+   "from": "public/broll/t01/02-burger-fries.mp4"
+  },
+  {
+   "name": "187-r-boardroom",
+   "local": true,
+   "from": "public/broll/t09/72-boardroom.mp4"
+  },
+  {
+   "name": "188-r-menu-hands",
+   "local": true,
+   "from": "public/broll/t10/74-menu-hands.mp4"
+  },
+  {
+   "name": "189-r-card-terminal",
+   "local": true,
+   "from": "public/broll/t10/08-card-terminal.mp4"
+  },
+  {
+   "name": "190-r-couple-menu",
+   "local": true,
+   "from": "public/broll/t10/29-couple-menu.mp4"
+  },
+  {
+   "name": "191-r-burger-fries-basket",
+   "local": true,
+   "from": "public/broll/t06/09-burger-fries.mp4"
   }
  ]
 }

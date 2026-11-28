@@ -1,0 +1,17 @@
+{
+ "size": [
+  1620,
+  1460
+ ],
+ "url": "https://www.nbcmiami.com/news/local/franchises-and-corporate-settle-over/1894324/",
+ "host": "nbcmiami.com",
+ "frame": "screen",
+ "finds": {
+  "$1.29": [
+   464,
+   654,
+   88,
+   40
+  ]
+ }
+}

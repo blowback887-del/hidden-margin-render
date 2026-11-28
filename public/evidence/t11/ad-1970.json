@@ -6,5 +6,18 @@
  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/1970_-_McDonalds_-_4_Mar_MC_-_Allentown_PA.jpg",
  "host": "upload.wikimedia.org",
  "frame": "paper",
- "finds": {}
+ "finds": {
+  "35c": [
+   45,
+   288,
+   150,
+   90
+  ],
+  "35c-r": [
+   575,
+   288,
+   150,
+   90
+  ]
+ }
 }
