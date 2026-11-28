@@ -461,7 +461,7 @@ export const ChapterFlash: React.FC<{ n: number; title: string; out?: number; st
 /** Круг «машины»: три шага по кругу, стрелки между ними; каждый шаг загорается в свой момент и остаётся. */
 export const Flywheel: React.FC<{ steps: { word: string; at: number }[]; r?: number }> = ({ steps, r = 300 }) => {
   const { p } = useT();
-  const k0 = p(steps[0].at - 0.3, steps[0].at);
+  const k0 = 1;
   const pos = [[0, -1], [0.87, 0.5], [-0.87, 0.5]];
   return (
     <div style={{ position: "relative", width: r * 2 + 520, height: r * 2 + 220, opacity: Math.max(0.35, k0) }}>
@@ -526,7 +526,7 @@ export const MinuteBars: React.FC<{ title: string; rows: { label: string; min: n
           <div key={i} style={{ display: "flex", alignItems: "center", height: 120, gap: 30 }}>
             <div style={{ width: 360, fontFamily: SANS, fontWeight: 700, fontSize: 36, color: C6.ink }}>{r.label}</div>
             <div style={{ width: bw, height: 56, borderRadius: 10, transformOrigin: "left", transform: `scaleX(${k})`, background: r.color ?? C6.blue }} />
-            <div style={{ opacity: p(r.at + 0.7, r.at + 1.0), fontFamily: SERIF, fontSize: 70, color: r.color ?? C6.ink, whiteSpace: "nowrap" }}>{r.value}</div>
+            <div style={{ opacity: p(r.at + 0.1, r.at + 0.4), fontFamily: SERIF, fontSize: 70, color: r.color ?? C6.ink, whiteSpace: "nowrap" }}>{r.value}</div>
           </div>
         );
       })}

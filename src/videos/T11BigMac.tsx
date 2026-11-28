@@ -68,7 +68,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={2.42} out={5.74} from="fade"><Plate6 at={2.42}><Label6 at={2.42} size={46} color={C6.ink}>SMALL. CHEAP. FAST.</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.8} from="fade"><Plate6 at={6.8}><Label6 at={6.8} size={44} color={C6.accent}>8 HOURS NEXT TO A FURNACE</Label6></Plate6></In></Center>
 </>) },
   { from: 98.58, to: 106.66, cut: true, back: null, el: (<>
-<Evidence src="evidence/t11/history-bigmac.png" size={[2880, 640]} dur={8.08} frame="screen" marks={[{ x: 868, y: 667, w: 151, h: 58, at: 1.98 }]} zoom={0.75} source="HISTORY.COM · BIG MAC INTRODUCED" url="history.com" />
+<Evidence src="evidence/t11/history-bigmac.png" size={[2880, 1800]} dur={8.08} frame="screen" marks={[{ x: 868, y: 967, w: 151, h: 58, at: 1.98 }]} zoom={0.75} source="HISTORY.COM · BIG MAC INTRODUCED" url="history.com" />
 </>) },
   { from: 106.66, to: 114.42, cut: true, back: (<><Stock6 cut n={71} dur={7.76} dim={0.15} graphics={true} />
 <Stock6 cut n={137} from={3.96} dur={7.76} dim={0.15} graphics={true} /></>), el: (<>
@@ -140,8 +140,8 @@ const BEATS: Beat[] = [
 <ArchiveFx /></>), el: (<>
 <Source6 at={0.3}>Chicago stockyards, 1905 · public domain</Source6>
 </>) },
-  { from: 210.54, to: 217.72, tag: [2, "How Cheap Was Invented", false], cut: true, back: null, el: (<>
-<Drift><Center x={960} y={430}><In at={0.05} out={2.98} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={40} color={C6.ink}>WHITE CASTLE DIDN'T JUST SELL HAMBURGERS</Label6></Plate6></In></Center><Center y={430}><Words text="It sells trust." at={2.98} size={150} maxW={1600} hl={["trust."]} /></Center><Center x={960} y={740}><In at={4.52} from="fade"><Plate6 at={4.52}><Label6 at={4.52} size={40} color={C6.accent}>WHITE = CLEAN</Label6></Plate6></In></Center></Drift>
+  { from: 210.54, to: 217.72, tag: [2, "How Cheap Was Invented", false], cut: true, back: (<><Stock6 cut n={170} dur={7.18} dim={0.6} graphics={true} /></>), el: (<>
+<Center x={960} y={430}><In at={0.05} out={2.98} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={40} color={C6.ink}>WHITE CASTLE DIDN'T JUST SELL HAMBURGERS</Label6></Plate6></In></Center><Center y={430}><Words text="It sells trust." at={2.98} size={150} maxW={1600} hl={["trust."]} /></Center><Center x={960} y={740}><In at={4.52} from="fade"><Plate6 at={4.52}><Label6 at={4.52} size={40} color={C6.accent}>WHITE = CLEAN</Label6></Plate6></In></Center>
 </>) },
   { from: 217.72, to: 220.12, tag: [2, "How Cheap Was Invented", false], cut: true, back: (<><Stock6 cut n={70} dur={2.4} dim={0} graphics={true} /></>), el: (<>
 
@@ -149,8 +149,8 @@ const BEATS: Beat[] = [
   { from: 220.12, to: 229.18, tag: [2, "How Cheap Was Invented", false], cut: true, back: null, el: (<>
 <Evidence src="evidence/t11/el-hai-wc.png" size={[2880, 1800]} dur={9.06} frame="screen" marks={[{ x: 200, y: 601, w: 250, h: 86, at: 5.94 }]} zoom={0.9} source="JACK EL-HAI · “13 WEEKS EATING NOTHING BUT WHITE CASTLE”" url="el-hai.com" />
 </>) },
-  { from: 229.18, to: 232.22, tag: [2, "How Cheap Was Invented", false], cut: true, back: null, el: (<>
-<Drift><Center x={960} y={430}><In at={0.05} out={1.04} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={44} color={C6.ink}>THE PRICE?</Label6></Plate6></In></Center><Center y={430}><BigNum at={1.04} size={260} label="A WHITE CASTLE HAMBURGER · 1921">5¢</BigNum></Center><Center x={960} y={800}><In at={2.14} from="fade"><Plate6 at={2.14}><Label6 at={2.14} size={40} color={C6.accent}>“BUY 'EM BY THE SACK”</Label6></Plate6></In></Center></Drift>
+  { from: 229.18, to: 232.22, tag: [2, "How Cheap Was Invented", false], cut: true, back: (<><Stock6 cut n={8} dur={3.04} dim={0.6} graphics={true} /></>), el: (<>
+<Center x={960} y={430}><In at={0.05} out={1.04} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={44} color={C6.ink}>THE PRICE?</Label6></Plate6></In></Center><Center y={430}><BigNum at={1.04} size={260} label="A WHITE CASTLE HAMBURGER · 1921">5¢</BigNum></Center><Center x={960} y={800}><In at={2.14} from="fade"><Plate6 at={2.14}><Label6 at={2.14} size={40} color={C6.accent}>“BUY 'EM BY THE SACK”</Label6></Plate6></In></Center>
 </>) },
   { from: 232.22, to: 237.8, tag: [2, "How Cheap Was Invented", false], cut: true, back: (<><Stock6 cut n={174} dur={5.58} dim={0} graphics={true} sepia />
 <Stock6 cut n={175} from={3.24} dur={5.58} dim={0} graphics={true} sepia />
@@ -172,11 +172,12 @@ const BEATS: Beat[] = [
 <ArchiveFx /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={38} color={C6.ink}>CARHOPS · A LONG MENU · BARBECUE</Label6></Plate6></In></Center>
 </>) },
-  { from: 263.94, to: 271.1, tag: [3, "The Machine", false], cut: true, back: null, el: (<>
-<Drift><Center x={960} y={430}><In at={0.05} out={3.74} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={42} color={C6.ink}>SOMETHING THAT LOOKED INSANE</Label6></Plate6></In></Center><Center y={430}><Stamp at={3.74} text="CLOSED" size={130} /></Center><Center x={960} y={760}><In at={5.4} from="fade"><Plate6 at={5.4}><Label6 at={5.4} size={44} color={C6.accent}>FOR THREE MONTHS</Label6></Plate6></In></Center></Drift>
+  { from: 263.94, to: 271.1, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={80} dur={7.16} dim={0.6} graphics={true} sepia />
+<ArchiveFx /></>), el: (<>
+<Center x={960} y={430}><In at={0.05} out={3.74} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={42} color={C6.ink}>SOMETHING THAT LOOKED INSANE</Label6></Plate6></In></Center><Center y={430}><Stamp at={3.74} text="CLOSED" size={130} /></Center><Center x={960} y={760}><In at={5.4} from="fade"><Plate6 at={5.4}><Label6 at={5.4} size={44} color={C6.accent}>FOR THREE MONTHS</Label6></Plate6></In></Center>
 </>) },
-  { from: 271.1, to: 277.6, tag: [3, "The Machine", false], cut: true, back: null, el: (<>
-<Drift><Center y={500}><MenuShrink at={0.1} cutAt={5.26} /></Center></Drift>
+  { from: 271.1, to: 277.6, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={66} dur={6.5} dim={0.65} graphics={true} /></>), el: (<>
+<Center y={500}><MenuShrink at={0.1} cutAt={5.26} /></Center>
 </>) },
   { from: 277.6, to: 285.24, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={108} dur={7.64} dim={0} graphics={true} sepia />
 <Stock6 cut n={81} from={3.14} dur={7.64} dim={0} graphics={true} sepia />
@@ -190,8 +191,7 @@ const BEATS: Beat[] = [
   { from: 295.3, to: 301.42, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={94} dur={6.12} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} out={3.28} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>ONE WORKER · ONE JOB</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.28} from="fade"><Plate6 at={3.28}><Label6 at={3.28} size={44} color={C6.accent}>THE SPEEDEE SERVICE SYSTEM</Label6></Plate6></In></Center>
 </>) },
-  { from: 301.42, to: 308.14, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={59} dur={6.72} dim={0} graphics={true} sepia />
-<ArchiveFx /></>), el: (<>
+  { from: 301.42, to: 308.14, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={44} dur={6.72} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={2.08} out={3.32} from="fade"><Plate6 at={2.08}><Label6 at={2.08} size={44} color={C6.ink}>PROFITS DROPPED</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.32} from="fade"><Plate6 at={3.32}><Label6 at={3.32} size={40} color={C6.ink}>THE FIRED CARHOPS CAME BY TO LAUGH</Label6></Plate6></In></Center>
 </>) },
   { from: 308.14, to: 314.84, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={117} dur={6.7} dim={0} graphics={true} sepia />
@@ -203,7 +203,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={440}><In at={0.05} out={4.1} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={40} color={C6.ink}>DICK McDONALD, IN ONE LINE</Label6></Plate6></In></Center><Center y={440}><Words text="“Our whole concept was based on speed, lower prices, and volume.”" at={4.1} size={86} maxW={1500} hl={["speed,", "prices,", "volume.\u201d"]} /></Center><Center y={690}><Label6 at={4.1} size={28} color={C6.mint}>DICK McDONALD</Label6></Center>
 </>) },
   { from: 323.52, to: 333.96, tag: [3, "The Machine", false], cut: true, back: null, el: (<>
-<Drift><Center x={960} y={110}><In at={0.05} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={36} color={C6.accent}>THAT'S THE MACHINE</Label6></Plate6></In></Center><Center y={560}><Flywheel r={300} steps={[{ word: "LOWER PRICE", at: 5.2 }, { word: "BIGGER CROWD", at: 6.32 }, { word: "CHEAPER TO MAKE", at: 8.72 }]} /></Center></Drift>
+<Drift><Center x={960} y={110}><In at={0.05} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={36} color={C6.accent}>THAT'S THE MACHINE</Label6></Plate6></In></Center><Center y={560}><Flywheel r={300} steps={[{ word: "LOWER PRICE", at: 1.42 }, { word: "BIGGER CROWD", at: 6.32 }, { word: "CHEAPER TO MAKE", at: 8.72 }]} /></Center></Drift>
 </>) },
   { from: 333.96, to: 341.22, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={79} dur={7.26} dim={0} graphics={true} />
 <Stock6 cut n={172} from={5.04} dur={7.26} dim={0} graphics={true} /></>), el: (<>
@@ -223,14 +223,14 @@ const BEATS: Beat[] = [
 <Stock6 cut n={21} from={4.56} dur={8.2} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} out={4.56} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>THE BURGER BRINGS PEOPLE IN</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.56} from="fade"><Plate6 at={4.56}><Label6 at={4.56} size={42} color={C6.accent}>THE RESTAURANT PAYS RENT TO McDONALD'S</Label6></Plate6></In></Center>
 </>) },
-  { from: 369.6, to: 371.3, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={62} dur={1.7} dim={0} graphics={true} /></>), el: (<>
+  { from: 369.6, to: 371.3, tag: [3, "The Machine", false], cut: true, back: (<><Stock6 cut n={96} dur={1.7} dim={0} graphics={true} /></>), el: (<>
 
 </>) },
   { from: 371.3, to: 376.68, tag: [4, "Price Wars", true], hard: true, cut: true, back: null, el: (<>
 <Evidence src="evidence/t11/ad-1970.png" size={[773, 1426]} dur={5.38} frame="paper" zoom={0.9} source="McDONALD'S NEWSPAPER AD · 1970 · ALLENTOWN, PA · PUBLIC DOMAIN" /><ChapterFlash n={4} title="Price Wars" out={1.45} />
 </>) },
   { from: 376.68, to: 382.58, tag: [4, "Price Wars", false], cut: true, back: null, el: (<>
-<Evidence src="evidence/t11/ad-1973.png" size={[840, 1740]} dur={5.9} frame="paper" zoom={0.9} source="McDONALD'S NEWSPAPER AD · 1973 · PUBLIC DOMAIN" /><Center x={960} y={960}><In at={0.1} out={4.9} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>WHEN THINGS GOT SLOW: ONE LEVER</Label6></Plate6></In></Center><Center x={960} y={960}><In at={4.9} from="fade"><Plate6 at={4.9}><Label6 at={4.9} size={56} color={C6.accent}>PRICE.</Label6></Plate6></In></Center>
+<Evidence src="evidence/t11/ad-1976.png" size={[1551, 1218]} dur={5.9} frame="paper" zoom={0.9} source="McDONALD'S NEWSPAPER AD · 1976 · ALLENTOWN, PA · PUBLIC DOMAIN" /><Center x={960} y={960}><In at={0.1} out={4.9} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={36} color={C6.ink}>WHEN THINGS GOT SLOW: ONE LEVER</Label6></Plate6></In></Center><Center x={960} y={960}><In at={4.9} from="fade"><Plate6 at={4.9}><Label6 at={4.9} size={56} color={C6.accent}>PRICE.</Label6></Plate6></In></Center>
 </>) },
   { from: 382.58, to: 392.32, tag: [4, "Price Wars", false], cut: true, back: null, el: (<>
 <Drift><Center y={460}><MenuBoard at={0.1} title="VALUE MENU · 1989" w={900} rh={92} foot="ILLUSTRATION" rows={[{ name: "BURGER", price: "—", to: "99¢", toAt: 3.98 }, { name: "FRIES", price: "—", to: "99¢", toAt: 3.98 }, { name: "DRINK", price: "—", to: "99¢", toAt: 3.98 }, { name: "…AND MORE", price: "—", to: "99¢", toAt: 3.98 }]} /></Center><Center x={960} y={960}><In at={7.72} from="fade"><Plate6 at={7.72}><Label6 at={7.72} size={40} color={C6.accent}>EVERYBODY COPIED IT</Label6></Plate6></In></Center></Drift>
@@ -274,8 +274,8 @@ const BEATS: Beat[] = [
   { from: 474.66, to: 483.72, tag: [5, "The Dollar", false], cut: true, back: null, el: (<>
 <Evidence src="evidence/t11/cbs-mcdeficit.png" size={[2880, 1800]} dur={9.06} frame="screen" marks={[{ x: 589, y: 658, w: 72, h: 52, at: 7.24 }]} zoom={0.8} source="CBS NEWS · JAN 2003 · VIA WEB.ARCHIVE.ORG" url="cbsnews.com/news/mcdeficit-for-mcdonalds" />
 </>) },
-  { from: 483.72, to: 491.12, tag: [5, "The Dollar", false], cut: true, back: (<><Stock6 cut n={97} dur={7.4} dim={0} graphics={true} />
-<Stock6 cut n={96} from={3.04} dur={7.4} dim={0} graphics={true} /></>), el: (<>
+  { from: 483.72, to: 491.12, tag: [5, "The Dollar", false], cut: true, back: (<><Stock6 cut n={106} dur={7.4} dim={0} graphics={true} />
+<Stock6 cut n={124} from={3.04} dur={7.4} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} out={3.04} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.ink}>CLOSING HUNDREDS OF RESTAURANTS</Label6></Plate6></In></Center><Center x={960} y={880}><In at={3.04} from="fade"><Plate6 at={3.04}><Label6 at={3.04} size={42} color={C6.loss}>STOCK: ~$15 · LOWEST IN YEARS</Label6></Plate6></In></Center>
 </>) },
   { from: 491.12, to: 494.9, tag: [5, "The Dollar", false], cut: true, back: (<><Stock6 cut n={123} dur={3.78} dim={0} graphics={true} /></>), el: (<>
@@ -562,13 +562,13 @@ const BEATS: Beat[] = [
   { from: 1088.64, to: 1097.72, tag: [10, "Who Left", false], cut: true, back: null, el: (<>
 <Evidence src="evidence/t11/rd-q1-2025.png" size={[2880, 1800]} dur={9.08} frame="screen" marks={[{ x: 1158, y: 604, w: 182, h: 42, at: 5.28 }]} zoom={0.9} source="RESTAURANT DIVE · MAY 2025" url="restaurantdive.com" /><Center x={960} y={960}><In at={7.12} from="fade"><Plate6 at={7.12}><Label6 at={7.12} size={34} color={C6.loss}>LOW-INCOME VISITS: DOWN NEARLY DOUBLE DIGITS</Label6></Plate6></In></Center>
 </>) },
-  { from: 1097.72, to: 1108.0, tag: [10, "Who Left", false], cut: true, back: null, el: (<>
-<Drift><Center y={400}><TwoWay at={0.05} upAt={4.16} /></Center><Center y={880}><Chips size={56} items={[{ text: "RENT", at: 7.48 }, { text: "GROCERIES", at: 8.32 }, { text: "CHILD CARE", at: 9.24 }]} /></Center><Source6 at={0.3}>McDonald's CEO, Q3 2025 call · via LA Times</Source6></Drift>
+  { from: 1097.72, to: 1108.0, tag: [10, "Who Left", false], cut: true, back: (<><Stock6 cut n={99} dur={10.28} dim={0.7} graphics={true} /></>), el: (<>
+<Center y={400}><TwoWay at={0.05} upAt={4.16} /></Center><Center y={880}><Chips size={56} items={[{ text: "RENT", at: 7.48 }, { text: "GROCERIES", at: 8.32 }, { text: "CHILD CARE", at: 9.24 }]} /></Center><Source6 at={0.3}>McDonald's CEO, Q3 2025 call · via LA Times</Source6>
 </>) },
   { from: 1108.0, to: 1114.78, tag: [10, "Who Left", false], cut: true, back: null, el: (<>
 <Evidence src="evidence/t11/nbc-lowincome.png" size={[2880, 1800]} dur={6.78} frame="screen" marks={[{ x: 946, y: 704, w: 494, h: 140, at: 2.78 }]} zoom={0.9} source="NBC NEWS · AUG 2025" url="nbcnews.com" /><Center x={960} y={960}><In at={4.0} from="fade"><Plate6 at={4.0}><Label6 at={4.0} size={34} color={C6.accent}>THEY USUALLY VISIT MORE OFTEN THAN ANYONE ELSE</Label6></Plate6></In></Center>
 </>) },
-  { from: 1114.78, to: 1119.68, tag: [10, "Who Left", false], cut: true, back: (<><Stock6 cut n={64} dur={4.9} dim={0} graphics={true} /></>), el: (<>
+  { from: 1114.78, to: 1119.68, tag: [10, "Who Left", false], cut: true, back: (<><Stock6 cut n={107} dur={4.9} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={42} color={C6.ink}>THE MOST LOYAL · THE FIRST PUSHED OUT</Label6></Plate6></In></Center>
 </>) },
   { from: 1119.68, to: 1126.7, tag: [10, "Who Left", false], cut: true, back: (<><Stock6 cut n={9} dur={7.02} dim={0} graphics={true} /></>), el: (<>
@@ -603,10 +603,10 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.loss}>+70% · FOR SOMEBODY TOO TIRED TO DRIVE</Label6></Plate6></In></Center>
 </>) },
   { from: 1179.42, to: 1191.1, tag: [10, "Who Left", false], cut: true, back: null, el: (<>
-<Evidence src="evidence/t11/abc7-ai-top.png" size={[2880, 610]} dur={11.68} frame="screen" marks={[{ x: 298, y: 506, w: 469, h: 86, at: 5.12 }]} zoom={0.8} source="AP · VIA ABC7 · OCT 2026" url="abc7.com" /><Center x={1500} y={300}><Stamp at={5.12} text="ALLEGATION" color={C6.loss} size={72} /></Center>
+<Evidence src="evidence/t11/abc7-ai-top.png" size={[2880, 1500]} dur={11.68} frame="screen" marks={[{ x: 298, y: 506, w: 469, h: 86, at: 5.12 }]} zoom={0.8} source="AP · VIA ABC7 · OCT 2026" url="abc7.com" /><Center x={1500} y={300}><Stamp at={5.12} text="ALLEGATION" color={C6.loss} size={72} /></Center>
 </>) },
-  { from: 1191.1, to: 1201.86, tag: [10, "Who Left", false], cut: true, back: null, el: (<>
-<Drift><Center y={440}><Words text="“AI does not set menu prices at McDonald's restaurants – McDonald's franchisees do.”" at={5.54} size={70} maxW={1500} hl={["franchisees", "do.\u201d"]} /></Center><Center y={690}><Label6 at={5.54} size={28} color={C6.mint}>McDONALD'S STATEMENT · VIA AP</Label6></Center><Center x={960} y={200}><In at={0.05} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={34} color={C6.accent}>AN ACCUSATION · NO COURT HAS RULED</Label6></Plate6></In></Center></Drift>
+  { from: 1191.1, to: 1201.86, tag: [10, "Who Left", false], cut: true, back: (<><Stock6 cut n={132} dur={10.76} dim={0.65} graphics={true} /></>), el: (<>
+<Center y={440}><Words text="“AI does not set menu prices at McDonald's restaurants – McDonald's franchisees do.”" at={5.54} size={70} maxW={1500} hl={["franchisees", "do.\u201d"]} /></Center><Center y={690}><Label6 at={5.54} size={28} color={C6.mint}>McDONALD'S STATEMENT · VIA AP</Label6></Center><Center x={960} y={200}><In at={0.05} from="fade"><Plate6 at={0.05}><Label6 at={0.05} size={34} color={C6.accent}>AN ACCUSATION · NO COURT HAS RULED</Label6></Plate6></In></Center>
 </>) },
   { from: 1201.86, to: 1208.52, tag: [10, "Who Left", false], cut: true, back: (<><Stock6 cut n={91} dur={6.66} dim={0} graphics={true} />
 <Stock6 cut n={101} from={4.66} dur={6.66} dim={0} graphics={true} /></>), el: (<>
@@ -617,7 +617,7 @@ const BEATS: Beat[] = [
 <Source6 at={0.3}>Footage: Good Morning America · 2024</Source6><ChapterFlash n={11} title="The Way Back" out={1.45} />
 </>) },
   { from: 1216.12, to: 1226.52, tag: [11, "The Way Back", false], cut: true, back: null, el: (<>
-<Evidence src="evidence/t11/mcd-evm.png" size={[2880, 1800]} dur={10.4} frame="screen" marks={[{ x: 1820, y: 595, w: 148, h: 32, at: 6.92 }]} zoom={0.9} source="McDONALD'S · EXTRA VALUE MEALS · 2025 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" />
+<Evidence src="evidence/t11/mcd-evm-top.png" size={[2880, 1800]} dur={10.4} frame="screen" zoom={0.9} source="McDONALD'S · EXTRA VALUE MEALS · 2025 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" /><Center x={960} y={960}><In at={6.92} from="fade"><Plate6 at={6.92}><Label6 at={6.92} size={34} color={C6.accent}>EXTRA VALUE MEALS · ~15% OFF VS. BUYING SEPARATELY</Label6></Plate6></In></Center>
 </>) },
   { from: 1226.52, to: 1235.72, tag: [11, "The Way Back", false], cut: true, back: null, el: (<>
 <Evidence src="evidence/t11/mcd-mcvalue26-top.png" size={[2880, 1800]} dur={9.2} frame="screen" marks={[{ x: 1814, y: 588, w: 424, h: 126, at: 6.52 }]} zoom={0.7} source="McDONALD'S PRESS RELEASE · APRIL 2, 2026 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" />
@@ -683,15 +683,15 @@ const BEATS: Beat[] = [
 <Stock6 cut n={114} from={4.36} dur={8.04} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={0.1} out={4.36} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={40} color={C6.accent}>3 · COMPARE TWO LOCATIONS IN THE APP</Label6></Plate6></In></Center><Center x={960} y={880}><In at={4.36} from="fade"><Plate6 at={4.36}><Label6 at={4.36} size={36} color={C6.ink}>DIFFERENT OWNERS · DIFFERENT PRICES · SAME BURGER</Label6></Plate6></In></Center>
 </>) },
-  { from: 1372.32, to: 1384.02, tag: [11, "The Way Back", false], cut: true, back: null, el: (<>
-<Drift><Center x={960} y={110}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>4 · COUNT PRICES IN MINUTES OF YOUR OWN WORK</Label6></Plate6></In></Center><Center y={560}><Watches size={450} gap={160} items={[{ min: 10, label: "A deal", sub: "10 MIN FOR A BIG MAC", at: 6.7, spinAt: 6.7, spin: 1.0 }, { min: 51, label: "A decision", sub: "51 MIN FOR THE SAME", at: 9.22, spinAt: 9.22, spin: 1.4, redAt: 9.22, color: C6.loss }]} /></Center></Drift>
+  { from: 1372.32, to: 1384.02, tag: [11, "The Way Back", false], cut: true, back: (<><Stock6 cut n={168} dur={11.7} dim={0.62} graphics={true} /></>), el: (<>
+<Center x={960} y={110}><In at={0.1} from="fade"><Plate6 at={0.1}><Label6 at={0.1} size={34} color={C6.accent}>4 · COUNT PRICES IN MINUTES OF YOUR OWN WORK</Label6></Plate6></In></Center><Center y={560}><Watches size={450} gap={160} items={[{ min: 10, label: "A deal", sub: "10 MIN FOR A BIG MAC", at: 6.7, spinAt: 6.7, spin: 1.0 }, { min: 51, label: "A decision", sub: "51 MIN FOR THE SAME", at: 9.22, spinAt: 9.22, spin: 1.4, redAt: 9.22, color: C6.loss }]} /></Center>
 </>) },
   { from: 1384.02, to: 1389.38, tag: [11, "The Way Back", false], cut: true, back: null, el: (<>
 <Drift><Center y={520}><Checklist w={1240} items={[{ text: "Check the app against the board", at: 0.05 }, { text: "Skip delivery, pick it up", at: 0.2 }, { text: "Compare two locations in the app", at: 0.35 }, { text: "Count prices in minutes of work", at: 1.9 }]} /></Center></Drift>
 </>) },
   { from: 1389.38, to: 1400.5, tag: [11, "The Way Back", false], cut: true, back: (<><Stock6 cut n={72} dur={11.12} dim={0} graphics={true} />
-<Stock6 cut n={136} from={3.6} dur={11.12} dim={0} graphics={true} /></>), el: (<>
-<Center x={960} y={880}><In at={0.2} out={6.94} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>JIM DELLIGATTI · NO ROYALTIES</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.94} from="fade"><Plate6 at={6.94}><Label6 at={6.94} size={44} color={C6.accent}>“ALL I GOT WAS A PLAQUE”</Label6></Plate6></In></Center><Source6 at={0.4}>Big Mac Museum, North Huntingdon, PA · CC0</Source6>
+<Stock6 cut n={171} from={3.6} dur={11.12} dim={0} graphics={true} /></>), el: (<>
+<Center x={960} y={880}><In at={0.2} out={6.94} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>JIM DELLIGATTI · NO ROYALTIES</Label6></Plate6></In></Center><Center x={960} y={880}><In at={6.94} from="fade"><Plate6 at={6.94}><Label6 at={6.94} size={44} color={C6.accent}>“ALL I GOT WAS A PLAQUE”</Label6></Plate6></In></Center><Source6 at={0.4}>Big Mac Museum, North Huntingdon, PA · CC0 · 1967 photo: railfan 44, public domain</Source6>
 </>) },
   { from: 1400.5, to: 1404.38, tag: [11, "The Way Back", false], cut: true, back: (<><Stock6 cut n={74} dur={3.88} dim={0} graphics={true} />
 <Stock6 cut n={2} from={1.58} dur={3.88} dim={0} graphics={true} /></>), el: (<>
@@ -706,7 +706,7 @@ const BEATS: Beat[] = [
 <Source6 at={0.3}>ILLUSTRATIVE FOOTAGE</Source6>
 </>) },
   { from: 1410.36, to: 1420.32, tag: [11, "The Way Back", false], cut: true, back: (<><Stock6 cut n={121} dur={9.96} dim={0} graphics={true} />
-<Stock6 cut n={72} from={4.48} dur={9.96} dim={0} graphics={true} /></>), el: (<>
+<Stock6 cut n={165} from={4.48} dur={9.96} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={7.04} from="fade"><Plate6 at={7.04}><Label6 at={7.04} size={38} color={C6.accent}>DO THEY STILL REMEMBER WHO THEY BUILT IT FOR?</Label6></Plate6></In></Center>
 </>) },
   { from: 1420.32, to: 1440.84, tag: [11, "The Way Back", false], cut: true, back: null, el: (<>
@@ -739,7 +739,7 @@ export const T11BigMac: React.FC = () => {
         <Sequence key={"s" + i} from={Math.round(t * fps)} durationInFrames={120}><Audio src={staticFile(`sfx/${n}.wav`)} volume={v} /></Sequence>
       ))}
       {BEATS.map((b, i) => (
-        <Sequence key={i} from={Math.round(b.from * fps)} durationInFrames={Math.max(1, Math.round((b.to - b.from) * fps))} name={`Beat ${i + 1}`}>
+        <Sequence key={i} from={Math.round(b.from * fps)} durationInFrames={Math.max(1, Math.round(b.to * fps) - Math.round(b.from * fps))} name={`Beat ${i + 1}`}>
           {b.back}
           <Scene6 dur={b.to - b.from} hard={b.hard} cut={b.cut}>{b.el}</Scene6>
           {b.tag && <ChapterTag n={b.tag[0]} title={b.tag[1]} anim={b.tag[2]} />}

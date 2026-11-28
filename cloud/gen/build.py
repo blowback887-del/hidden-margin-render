@@ -144,7 +144,7 @@ export const {comp}: React.FC = () => {{
         <Sequence key={{"s" + i}} from={{Math.round(t * fps)}} durationInFrames={{120}}><Audio src={{staticFile(`sfx/${{n}}.wav`)}} volume={{v}} /></Sequence>
       ))}}
       {{BEATS.map((b, i) => (
-        <Sequence key={{i}} from={{Math.round(b.from * fps)}} durationInFrames={{Math.max(1, Math.round((b.to - b.from) * fps))}} name={{`Beat ${{i + 1}}`}}>
+        <Sequence key={{i}} from={{Math.round(b.from * fps)}} durationInFrames={{Math.max(1, Math.round(b.to * fps) - Math.round(b.from * fps))}} name={{`Beat ${{i + 1}}`}}>
           {{b.back}}
           <Scene6 dur={{b.to - b.from}} hard={{b.hard}} cut={{b.cut}}>{{b.el}}</Scene6>
           {{b.tag && <ChapterTag n={{b.tag[0]}} title={{b.tag[1]}} anim={{b.tag[2]}} />}}
