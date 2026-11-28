@@ -442,3 +442,94 @@ export const PostCard: React.FC<{ at?: number; text: string; site: string; note?
     </div>
   );
 };
+
+/** Полноэкранная карточка главы (~1,5 с): номер + название, уходит в прозрачность к out. strong — крупнее и с акцентной линией. */
+export const ChapterFlash: React.FC<{ n: number; title: string; out?: number; strong?: boolean }> = ({ n, title, out = 1.5, strong }) => {
+  const { p } = useT();
+  const k = p(0, 0.25, easeOut);
+  const o = 1 - p(out, out + 0.35);
+  const s = strong ? 1.25 : 1;
+  return (
+    <div style={{ position: "absolute", inset: 0, opacity: o, background: `radial-gradient(1400px 900px at 70% 20%, ${C6.bgTop}, ${C6.bgDeep})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 22 }}>
+      <div style={{ opacity: k, fontFamily: SANS, fontWeight: 800, fontSize: 30 * s, letterSpacing: "0.4em", color: C6.accent }}>CHAPTER {n}</div>
+      <div style={{ width: 160 * s, height: 3, background: C6.accent, transform: `scaleX(${k})` }} />
+      <div style={{ opacity: k, translate: `0 ${(1 - k) * 20}px`, fontFamily: SERIF, fontSize: 130 * s, lineHeight: 1, color: C6.ink, textShadow: "0 6px 40px rgba(0,0,0,.5)" }}>{title}</div>
+    </div>
+  );
+};
+
+/** Круг «машины»: три шага по кругу, стрелки между ними; каждый шаг загорается в свой момент и остаётся. */
+export const Flywheel: React.FC<{ steps: { word: string; at: number }[]; r?: number }> = ({ steps, r = 300 }) => {
+  const { p } = useT();
+  const k0 = p(steps[0].at - 0.3, steps[0].at);
+  const pos = [[0, -1], [0.87, 0.5], [-0.87, 0.5]];
+  return (
+    <div style={{ position: "relative", width: r * 2 + 520, height: r * 2 + 220, opacity: Math.max(0.35, k0) }}>
+      <svg width={r * 2 + 520} height={r * 2 + 220} style={{ position: "absolute", left: 0, top: 0 }}>
+        <circle cx={r + 260} cy={r + 110} r={r} fill="none" stroke="rgba(247,244,236,.22)" strokeWidth={6} strokeDasharray="18 16" />
+      </svg>
+      {steps.map((s, i) => {
+        const k = p(s.at, s.at + 0.35, easeBack);
+        const [dx, dy] = pos[i];
+        return (
+          <div key={i} style={{ position: "absolute", left: r + 260 + dx * r, top: r + 110 + dy * r, translate: "-50% -50%", opacity: 0.25 + 0.75 * Math.min(1, k), scale: String(0.85 + 0.15 * k), padding: "22px 34px", borderRadius: 22, background: C6.panel, boxShadow: `inset 0 0 0 3px ${k > 0.5 ? C6.accent : C6.line}`, fontFamily: SERIF, fontSize: 64, color: k > 0.5 ? C6.accent : C6.ink, whiteSpace: "nowrap" }}>{s.word}</div>
+        );
+      })}
+    </div>
+  );
+};
+
+/** Ряд «фишек» по центру: каждая встаёт на своём слове и остаётся. */
+export const Chips: React.FC<{ items: { text: string; at: number }[]; size?: number }> = ({ items, size = 64 }) => {
+  const { p } = useT();
+  return (
+    <div style={{ display: "flex", gap: 36, justifyContent: "center" }}>
+      {items.map((it, i) => {
+        const k = p(it.at, it.at + 0.3, easeBack);
+        return <div key={i} style={{ opacity: Math.min(1, k * 1.4), scale: String(0.8 + 0.2 * k), padding: "18px 40px", borderRadius: 20, background: C6.panel, boxShadow: `inset 0 0 0 3px ${C6.accent}`, fontFamily: SERIF, fontSize: size, color: C6.ink, whiteSpace: "nowrap" }}>{it.text}</div>;
+      })}
+    </div>
+  );
+};
+
+/** Две линии: низкий доход вниз (коралл), высокий вверх (зелёный). Рисуются через dashoffset, подписи справа. */
+export const TwoWay: React.FC<{ at?: number; upAt: number; w?: number; h?: number; note?: string }> = ({ at = 0.05, upAt, w = 1200, h = 420, note = "U.S. fast food visits · direction only · illustration" }) => {
+  const { p } = useT();
+  const lo = p(at, at + 1.4, Easing.inOut(Easing.cubic));
+  const hi = p(upAt, upAt + 1.4, Easing.inOut(Easing.cubic));
+  const mid = h / 2;
+  return (
+    <div style={{ width: w, height: h + 70, position: "relative" }}>
+      <svg width={w} height={h} style={{ position: "absolute", top: 0, left: 0 }}>
+        <line x1={0} y1={mid} x2={w} y2={mid} stroke="rgba(247,244,236,.3)" strokeWidth={2} strokeDasharray="8 10" />
+        <path d={`M0 ${mid} C ${w * 0.4} ${mid} ${w * 0.6} ${h * 0.86} ${w * 0.78} ${h * 0.9}`} stroke={C6.loss} strokeWidth={10} fill="none" strokeLinecap="round" pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - lo} />
+        <path d={`M0 ${mid} C ${w * 0.4} ${mid} ${w * 0.6} ${h * 0.14} ${w * 0.78} ${h * 0.1}`} stroke={C6.money} strokeWidth={10} fill="none" strokeLinecap="round" pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - hi} />
+      </svg>
+      <div style={{ position: "absolute", left: w * 0.8, top: h * 0.1 - 18, opacity: hi }}><Note size={24} color={C6.money}>HIGHER-INCOME ↑</Note></div>
+      <div style={{ position: "absolute", left: w * 0.8, top: h * 0.9 - 18, opacity: lo }}><Note size={24} color={C6.loss}>LOW-INCOME ↓</Note></div>
+      <div style={{ position: "absolute", left: 0, top: h + 24 }}><Note size={18} color="rgba(247,244,236,.55)">{note}</Note></div>
+    </div>
+  );
+};
+
+/** Полосы «минуты работы» за один и тот же комбо-обед (LendingTree): не секундомеры, чтобы не путать с Big Mac. */
+export const MinuteBars: React.FC<{ title: string; rows: { label: string; min: number; value: string; at: number; color?: string }[]; max?: number; w?: number }> = ({ title, rows, max = 50, w = 1400 }) => {
+  const { p } = useT();
+  const k0 = p(rows[0].at - 0.3, rows[0].at);
+  return (
+    <div style={{ width: w, opacity: Math.max(k0, 0.001), padding: "40px 50px", borderRadius: 28, background: C6.panel, boxShadow: `inset 0 0 0 2px ${C6.line}` }}>
+      <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 30, letterSpacing: "0.22em", color: C6.accent, marginBottom: 30 }}>{title}</div>
+      {rows.map((r, i) => {
+        const k = p(r.at, r.at + 1.0, easeOut);
+        const bw = (w - 100 - 420) * r.min / max;
+        return (
+          <div key={i} style={{ display: "flex", alignItems: "center", height: 120, gap: 30 }}>
+            <div style={{ width: 360, fontFamily: SANS, fontWeight: 700, fontSize: 36, color: C6.ink }}>{r.label}</div>
+            <div style={{ width: bw, height: 56, borderRadius: 10, transformOrigin: "left", transform: `scaleX(${k})`, background: r.color ?? C6.blue }} />
+            <div style={{ opacity: p(r.at + 0.7, r.at + 1.0), fontFamily: SERIF, fontSize: 70, color: r.color ?? C6.ink, whiteSpace: "nowrap" }}>{r.value}</div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};

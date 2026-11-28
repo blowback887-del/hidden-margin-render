@@ -66,7 +66,7 @@ lens = EP.get("lens", {})
 starts = []; idx_ = 0
 for sc in S:
     i = find(sc["start"], idx_); starts.append(i); idx_ = i + 1
-times = [0.0] + [round(TOK[i]["s"] - 0.1, 2) for i in starts[1:]]
+times = [0.0] + [round(TOK[i]["s"] - 0.1 - S[k + 1].get("lead", 0), 2) for k, i in enumerate(starts[1:])]  # lead: сцена начинается раньше слова (карточка главы в паузе)
 END = TOK[-1]["e"]
 ends = times[1:] + [round(END + S[-1].get("end_pad", 6.0), 2)]
 if pilot:
@@ -86,15 +86,17 @@ for k, sc in enumerate(S):
     back = ""
     if sc.get("stock"):
         used.append(sc["stock"])
-        back = f'<Stock6 n={{{sc["stock"]}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if (sc.get("sepia") or sc.get("archive")) else ""} />'
+        cutp = " cut" if EP.get("hard_cuts") else ""
+        back = f'<Stock6{cutp} n={{{sc["stock"]}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if (sc.get("sepia") or sc.get("archive")) else ""} />'
         if sc.get("alt"):
             n2, ph = sc["alt"]; used.append(n2)
             t2 = float(rep(re.match(r"(.*)", ph))) if not isinstance(ph, (int, float)) else ph
-            back += f'\n<Stock6 n={{{n2}}} from={{{t2}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if (sc.get("sepia") or sc.get("archive")) else ""} />'
+            back += f'\n<Stock6{cutp} n={{{n2}}} from={{{t2}}} dur={{{dur}}} dim={{{sc.get("dim", 0)}}} graphics={{{"false" if sc.get("clean") else "true"}}}{" sepia" if (sc.get("sepia") or sc.get("archive")) else ""} />'
         if sc.get("sepia") or sc.get("archive"): back += "\n<ArchiveFx />"
     first = sc.get("tag") and (k == 0 or S[k - 1].get("tag") != sc["tag"])  # метка главы анимируется только в первой сцене главы
     tag = f'tag: [{sc["tag"][0]}, "{sc["tag"][1]}", {"true" if first else "false"}], ' if sc.get("tag") else ""
     hard = "hard: true, " if sc.get("hard") else ""
+    if EP.get("hard_cuts"): hard += "cut: true, "
     beats.append(f"  {{ from: {t0}, to: {t1}, {tag}{hard}back: {('(<>' + back + '</>)') if back else 'null'}, el: (<>\n{el}\n</>) }},")
 
 dur_total = ends[-1]
@@ -118,7 +120,7 @@ const LENS: Record<number, number> = {json.dumps(lens)};
 const CLIP_FN = (n: number) => ({{ src: staticFile(`{cfg["out"].replace("public/", "")}/${{CLIPS[n]}}.mp4`), len: LENS[n] ?? 10 }});
 setClips(CLIP_FN);
 
-type Beat = {{ from: number; to: number; tag?: [number, string, boolean]; hard?: boolean; back: React.ReactNode; el: React.ReactNode }};
+type Beat = {{ from: number; to: number; tag?: [number, string, boolean]; hard?: boolean; cut?: boolean; back: React.ReactNode; el: React.ReactNode }};
 const BEATS: Beat[] = [
 '''
 mus = "\n".join(
@@ -144,7 +146,7 @@ export const {comp}: React.FC = () => {{
       {{BEATS.map((b, i) => (
         <Sequence key={{i}} from={{Math.round(b.from * fps)}} durationInFrames={{Math.max(1, Math.round((b.to - b.from) * fps))}} name={{`Beat ${{i + 1}}`}}>
           {{b.back}}
-          <Scene6 dur={{b.to - b.from}} hard={{b.hard}}>{{b.el}}</Scene6>
+          <Scene6 dur={{b.to - b.from}} hard={{b.hard}} cut={{b.cut}}>{{b.el}}</Scene6>
           {{b.tag && <ChapterTag n={{b.tag[0]}} title={{b.tag[1]}} anim={{b.tag[2]}} />}}
         </Sequence>
       ))}}
@@ -171,11 +173,52 @@ open(out, "w").write(body)
 durs = [round(ends[k] - times[k], 1) for k in range(len(S))]
 # повтор стока подряд
 rep_ = [used[i] for i in range(1, len(used)) if used[i] == used[i - 1]]
-# урок T10/T11: пустое начало графической сцены (первый элемент позже 1,5 с) — дефект
+# урок T10/T11: пустой бирюзовый кадр. Для каждой графической сцены (без стока и без улики) собираем, когда что видно:
+#   <In at out> — от at до out, прочие элементы с at — от at до конца сцены. Непокрытые промежутки > 0,4 с — дефект
+#   (в начале сцены, в середине между плашками, в конце). Улики и сток кадр не оставляют пустым.
 empty = []
 for k, bt in enumerate(beats):
     if "back: null" not in bt or "<Evidence" in bt: continue
-    ats = [float(x) for x in re.findall(r"\bat(?:=\{|: )([\d.]+)", bt)] + [float(x) for x in re.findall(r"times=\{\[([\d.]+)", bt)]
-    if not ats or min(ats) > 1.5: empty.append(f"{k + 1}@{round(times[k], 1)}s")
-print(f"{comp}: scenes {len(S)}, duration {dur_total}s, avg {round(sum(durs)/len(durs),1)}s, longest {sorted(durs)[-5:]}, sfx {len(sfx)}, unaligned tokens {miss}, stock used {len(set(used))}, repeats-in-a-row {rep_}, empty-starts {empty}")
+    d_ = ends[k] - times[k]
+    iv = []; rest = bt
+    for m in re.finditer(r"<In at=\{([\d.]+)\}(?: out=\{([\d.+\-]+)\})?", bt):
+        a_ = float(m.group(1)); o_ = eval(m.group(2)) + 0.35 if m.group(2) else d_
+        iv.append((a_, o_))
+    rest = re.sub(r"<In at=\{[\d.]+\}(?: out=\{[\d.+\-]+\})?", "", bt)
+    for x in re.findall(r"\bat(?:=\{|: )([\d.]+)", rest) + re.findall(r"times=\{\[([\d.]+)", rest):
+        iv.append((float(x), d_))
+    iv.sort(); cur = 0.0; gaps = []
+    for a_, b_ in iv:
+        if a_ - cur > 0.4: gaps.append((round(cur, 1), round(a_, 1)))
+        cur = max(cur, b_)
+    if d_ - cur > 0.4: gaps.append((round(cur, 1), round(d_, 1)))
+    if not iv: gaps = [(0, round(d_, 1))]
+    for g in gaps: empty.append(f"{k + 1}@{round(times[k] + g[0], 1)}s+{round(g[1] - g[0], 1)}")
+# длинный один план стока (> 7 с без смены кадра)
+longshot = []
+for k, sc in enumerate(S):
+    if not sc.get("stock"): continue
+    d_ = ends[k] - times[k]
+    if sc.get("alt"):
+        segs = [d_]  # смена есть; грубо — не проверяем
+    else: segs = [d_]
+    if not sc.get("alt") and d_ > 7.0: longshot.append(f"{k + 1}@{round(times[k], 1)}s:{round(d_, 1)}")
+# --frames DIR: проверка готовых кадров (листы) на пустой/чёрный кадр: почти однотонная картинка
+frames_bad = None
+if "--frames" in sys.argv:
+    from PIL import Image, ImageStat
+    import glob
+    fd = sys.argv[sys.argv.index("--frames") + 1]
+    fs = sorted(glob.glob(f"{fd}/*.jpeg") + glob.glob(f"{fd}/*.jpg"), key=lambda f: int(re.findall(r"(\d+)", os.path.basename(f))[-1]))
+    step = float(sys.argv[sys.argv.index("--frames") + 2]) if len(sys.argv) > sys.argv.index("--frames") + 2 else 2.0
+    frames_bad = []
+    for n_, f in enumerate(fs):
+        im = Image.open(f).convert("RGB").resize((96, 54))
+        px = list(im.get_flattened_data()) if hasattr(im, "get_flattened_data") else list(im.getdata())
+        lum = sorted(0.3 * r + 0.59 * g + 0.11 * b for r, g, b in px)
+        spread = lum[int(len(lum) * 0.97)] - lum[int(len(lum) * 0.03)]
+        teal = sum(1 for r, g, b in px if r < 45 and 25 < g < 120 and 30 < b < 130 and g > r + 12) / len(px)  # фон канала
+        if lum[len(lum) // 2] < 18 or spread < 28 or teal > 0.978:  # калибровка по листам T11: пустой фон 0.98–1.0, графика ≤ 0.972
+            frames_bad.append(f"{int(n_ * step // 60)}:{n_ * step % 60:04.1f}")
+print(f"{comp}: scenes {len(S)}, duration {dur_total}s, avg {round(sum(durs)/len(durs),1)}s, longest {sorted(durs)[-5:]}, sfx {len(sfx)}, unaligned tokens {miss}, stock used {len(set(used))}, repeats-in-a-row {rep_}, empty-frames {len(empty)} {empty}, long-single-shots {longshot}" + (f", frames-flat/black {len(frames_bad)} {frames_bad}" if frames_bad is not None else ""))
 print("wrote", out)

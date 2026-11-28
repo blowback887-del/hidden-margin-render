@@ -77,10 +77,10 @@ export const Bug6: React.FC = () => (
 );
 
 /** Обёртка сцены: мягкий вход, уход до полной прозрачности. Сама сцена не двигается. */
-export const Scene6: React.FC<{ dur: number; children: React.ReactNode; hard?: boolean }> = ({ dur, children, hard }) => {
+export const Scene6: React.FC<{ dur: number; children: React.ReactNode; hard?: boolean; cut?: boolean }> = ({ dur, children, hard, cut }) => {
   const { p } = useT();
-  const inn = hard ? 1 : p(0, 0.18);
-  const out = p(dur - 0.2, dur, Easing.in(Easing.cubic));
+  const inn = hard || cut ? 1 : p(0, 0.18);
+  const out = cut ? 0 : p(dur - 0.2, dur, Easing.in(Easing.cubic)); // cut: жёсткая склейка без провала в фон (T11)
   return <AbsoluteFill style={{ opacity: Math.max(0.0001, inn) * (1 - out) }}>{children}</AbsoluteFill>;
 };
 
@@ -199,11 +199,11 @@ const veil = (dim: number) => `linear-gradient(180deg, rgba(0,0,0,${dim}) 0%, rg
 const clean = (dim: number) => `linear-gradient(180deg, rgba(0,0,0,${0.05 + dim}) 0%, rgba(0,0,0,${0.12 + dim}) 60%, rgba(0,0,0,${0.35 + dim}) 100%)`;
 
 /** Живой кадр на весь экран с медленным наездом 1.04 → 1.10. veilOn — подложка под графику; без неё — чистое видео. */
-export const Stock6: React.FC<{ n: number; dur: number; from?: number; dim?: number; graphics?: boolean; sepia?: boolean }> = ({ n, dur, from = 0, dim = 0, graphics = true, sepia }) => {
+export const Stock6: React.FC<{ n: number; dur: number; from?: number; dim?: number; graphics?: boolean; sepia?: boolean; cut?: boolean }> = ({ n, dur, from = 0, dim = 0, graphics = true, sepia, cut }) => {
   const { t, p } = useT();
   const len = Math.max(0.5, dur - from);
   const k = Math.min(1, Math.max(0, t - from) / len);
-  const op = (from > 0 ? p(from, from + 0.35) : 1) * (1 - p(dur - 0.2, dur));
+  const op = (from > 0 ? p(from, from + 0.35) : 1) * (cut ? 1 : 1 - p(dur - 0.2, dur));
   return (
     <AbsoluteFill style={{ opacity: op }}>
       <Sequence from={Math.round(from * 30)}>
