@@ -1,23 +1,51 @@
-# T11 — монтаж, прогресс (пауза 28.11.2026, ~10:30 UTC)
+# T11 — прогресс правок по зрителю-контролёру (/home/claude/t11/viewer-check.md), пауза 28.11.2026
 
-## Готово
-- Прочитаны «Монтаж и звук», «Техника», «Где остановились» T09/T10.
-- cloud/broll/t11.json — 135 клипов: 70 Pexels (1–70), 18 фото Wikimedia (71–88, автор/лицензия в credit), 47 переиспользованных из t08/t10/t06 (89–135, local, файлы уже скопированы в public/broll/t11).
-- cloud/broll/t11ev.json — 42 улики (LA Times через AOL/LV Sun, BLS, AgWeb 1951, NRN McDouble/BK, CBS McDeficit, mcspotlight Reuters 1997, LendingTree, McDonald's McValue 2026 через web.archive, AP/ABC AI-иск, Fortune картошка, Fox $2.50 McDouble, и др.).
-- Живые кадры: 23 куска нарезаны (ffmpeg) в public/broll/t11/136–158-live-*.mp4 (без звука; FOX5 — ник в посте размыт; 4:3 — с полями). Список и credit — cloud/broll/t11-live.json, скрипт — cloud/broll/t11-cut.py. Источники: t11-01…t11-11 (D:\проекты ютуба\live-clips). t11-12…14 ещё не скачаны/не взяты.
-- src/brand/t11.tsx — графика выпуска: Stopwatch/Watches (10/11/51 MIN, размытие blurAt/revealAt), PriceFlip (45¢→$6.22), TenSplit ($10 → 4 стопки), Jars (15¢/84¢), MenuSplit (UNDER $3 / BIG ARCH), TwoTags ($1 vs 55¢*), CheeseStack, DimeLoss, DollarPress, Division, FloorLine, CrackWord, MenuShrink, PostCard. Не проверено компиляцией.
-- cloud/gen/t11-sentences.txt — тайминги всех предложений озвучки (опора для плана).
+Workflows в полёте: нет (t11.json, t11ev3, t11ev4 завершены и слиты; улики перенесены в public/evidence/t11).
+Листы кадров после правок сняты (c-*, /home/claude/t11/sheets), просмотрены до 14:40; правки, найденные на листах, частично внесены (см. ниже).
 
-## Workflows в полёте (на момент паузы)
-- 46134694110 — Fetch stock cloud/broll/t11.json (скачивает 1–88 + лист public/research/t11-sheet.jpg)
-- 46134777888 — Fetch stock cloud/broll/t11ev.json (улики → public/evidence/t11, лист public/research/t11ev-evidence-sheet.jpg)
-После них: git pull; проверить листы; NOT FOUND фразы — исправить по тексту страниц.
+## Сделано (номера пунктов контролёра)
+1 NRN: баннер cookies закрашен, маркер на «$1.10 and $1.15», отдельная сцена «They were losing a dime» (DimeLoss); плашка 80 % поднята.
+2 Орландо: вместо чёрного кадра — город в сумерках (town-dusk).
+3 Хук: бирка 45¢ поверх рекламы 1974 на «45», переворот на «$6», без пустого кадра.
+4 Хук 0:26–1:03: секундомеры поверх живых кадров (фото McDonald's 1967, драйв-тру ночью), 78 % мелко поверх зала; «0 MIN» убран (циферблат с «about ten minutes»).
+5 Мариам: одно «лицо» — doctor-wipe с ILLUSTRATIVE FOOTAGE; чек без лица; третье появление LA Times заменено цитатой «He would rather go hungry» на её кадре.
+6 Музей с персонажами: убраны wm-first-mcd, wm-first-mcd2, live-museum-sign; 1948 — архив + LoC; остался только кадр пакета (без фигур) под цитатой Дика.
+7 Политика: Fortune trending + попап, Ballotpedia сайдбар, WSMV меню, CBS меню закрашены; бегущие строки NewsNation и FOX 5 закрыты нашей полосой (bar в cloud/broll/t11-cut.py).
+8 ABC7: плеер обрезан (abc7-ai-top 2880×610).
+9 Self: новая улика self-markup (68.6 %), сцена разделена (сток 5 с + улика).
+10 Цитата Дика поверх архива; схема-круг Flywheel; цитата Соннеборна поверх аэросъёмки.
+11 «Cheap food was invented. / On purpose.» двумя строками; Вичита — архивная улица.
+12 White Castle — фото здания 1936 г. (Wikimedia), El-Hai только на «13 weeks».
+13 TwoWay (обе линии) + Chips Rent/Groceries/Child care по центру.
+14 Жёсткие склейки без провала в фон (EP hard_cuts, Scene6/Stock6 cut); пустые плашки на фоне — под сток или графику.
+15 Цитата CEO поверх кадра GMA.
+16 Reuters: zoom слабее; второй Reuters заменён кадром AP 1997 + плашкой.
+17 LA Times: zoom 0.7, третий раз убран.
+18 Письмо: верхняя полоса закрашена, zoom 0.66–0.75 без inset.
+19 history.com обрезан (без Getty и виджета) — НО на листе полоса короткая, видно бирюзу снизу: ВЕРНУТЬ оригинал (git show HEAD~3:public/evidence/t11/history-bigmac.png) и закрасить фото/виджет вместо обрезки.
+20 LendingTree — полосы MinuteBars вместо секундомеров.
+21 Плашка «$17.59 · TV rounded to $18» (позиция y=640 — проверить).
+22 Второй 95 % — «OWNERS SURVEYED», коралловый.
+23 «$1/$2/$5 ITEMS».
+24 Логотип AP вырезан кадрированием (boxpad).
+25 TODAY Big Arch: без значка и баннера (кадрирование).
+26 Барбекю: Speedee — фритюр (r-frying), зарплаты — окно раздачи.
+27 Канталупо — штаб-квартира Oak Brook; актёр 1975 убран (1968 — фото 1967, «invented for» — рабочие 1943).
+28 «Burger brings people in» — очередь у стойки, ключи на «pay rent».
+29 Повторы: кошелёк, поднос, мужчина 2:26, архивная кухня, LoC-арка частично убраны.
+30 Длинные планы: добавлены смены кадра; в build.py — отчёт long-single-shots.
+31 facepalm → man-meh. 33 шиппярд 1943 (LoC). 34 Trap #2 — киоск, «Parents are confused» убран. 35 секундомеры с «Ten minutes». 36 финал 20 с, вторая фаза — маленькие сверху, место под заставку; «2026 · $7.25/HR». 37 карточки глав ChapterFlash 1,5 с (lead 1.0), глава 9 — крупнее + удар. 38 LA — даунтаун Wikimedia, дата MacArthur обрезана. 39 номерной знак: dt-going убран. 40 стеклянный McDonald's убран.
+build.py: empty-frames (статическая проверка покрытия графических сцен) + --frames DIR (пустой/чёрный кадр по пикселям, калибровка по листам T11) + long-single-shots.
 
-## Дальше (по порядку)
-1. Дописать в cloud/broll/t11.json живые кадры из t11-live.json (append, local:true) — номера 136–158.
-2. Улики T08 переиспользовать: скопировать public/evidence/t08/mcd-letter*, mcd-myths*, cbs-hikes* в public/evidence/t11 (найти $4.39/44% — OCR tesseract или finds вручную).
-3. Написать cloud/gen/t11.py (comp "T11BigMac", parts=11, words src/videos/t11-bigmac-words.json, audio audio/t11-voiceover.mp3, brand ["t03","t07","t08","t10","t11"], образец t10.py; Drift-цикл в конце; ~230 сцен; ILLUSTRATIVE FOOTAGE на стоке под Мариам; ALLEGATION/ALLEGED у исков).
-4. src/t11-entry.tsx + регистрация T11-Big-Mac в Root.tsx; t11-lens.json (ffprobe длины).
-5. Музыка из public/audio/t06–t10 по главам (music_at, 18–20 дБ под голос).
-6. build.py → листы кадров каждые ~2 с → зритель-контролёр → правки. Рендер НЕ запускать.
-7. Отчёт Павлу: /home/claude/t11/edit-report.md.
+## Осталось (найдено на новых листах c-*, внесено в план, но не проверено рендером)
+- 19 history.com — см. выше (вернуть оригинал + закрасить).
+- 32 «Price»: заменить ad-1973 (там нарисован Рональд) на ad-1970 (35¢), а «For the next few decades» — на ad-1976; не сделано.
+- 4:24–4:36 «insane / CLOSED / меню 25→9» 12 с на бирюзе — подложить архив с dim.
+- 5:24 Flywheel: первый шаг поставить на «@{Sell a lot of something cheap}» (сейчас круг 4 с бледный).
+- 6:10 tear-money — это купюра с биткоином: заменить (r-flying-dollars).
+- 8:04 r-meeting повтор «корпоративного» мужчины 1:56: заменить (r-calculator).
+- 5:02 футбол под «profits dropped» — заменить (dt-empty).
+- 10:20/10:30 NRN: остаток cookie-плашки — закрасить шире (650,1250)-(1900,1700) в nrn-bk.png и nrn-bk-top.png.
+- 3:32 «It sells trust» и 3:50 «The price?» — подложить сток с dim.
+- Листы после 14:40 (c-11…c-18) ещё не просмотрены.
+- Затем: build.py t11 (+ --frames по свежим листам), заново снять ВСЕ листы, просмотреть, отчёт /home/claude/t11/edit-report.md обновить. Рендер не запускать.

@@ -218,7 +218,8 @@ if "--frames" in sys.argv:
         lum = sorted(0.3 * r + 0.59 * g + 0.11 * b for r, g, b in px)
         spread = lum[int(len(lum) * 0.97)] - lum[int(len(lum) * 0.03)]
         teal = sum(1 for r, g, b in px if r < 45 and 25 < g < 120 and 30 < b < 130 and g > r + 12) / len(px)  # фон канала
-        if lum[len(lum) // 2] < 18 or spread < 28 or teal > 0.978:  # калибровка по листам T11: пустой фон 0.98–1.0, графика ≤ 0.972
+        bright = sum(1 for v in lum if v > 150) / len(lum)
+        if lum[int(len(lum) * 0.97)] < 35 or spread < 28 or (teal > 0.978 and bright < 0.03):  # чёрный, однотонный, пустой фон канала  # калибровка по листам T11: пустой фон 0.98–1.0, графика ≤ 0.972
             frames_bad.append(f"{int(n_ * step // 60)}:{n_ * step % 60:04.1f}")
 print(f"{comp}: scenes {len(S)}, duration {dur_total}s, avg {round(sum(durs)/len(durs),1)}s, longest {sorted(durs)[-5:]}, sfx {len(sfx)}, unaligned tokens {miss}, stock used {len(set(used))}, repeats-in-a-row {rep_}, empty-frames {len(empty)} {empty}, long-single-shots {longshot}" + (f", frames-flat/black {len(frames_bad)} {frames_bad}" if frames_bad is not None else ""))
 print("wrote", out)

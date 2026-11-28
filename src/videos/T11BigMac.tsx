@@ -441,7 +441,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={4.14} out={5.68} from="fade"><Plate6 at={4.14}><Label6 at={4.14} size={46} color={C6.ink}>4 COMPANIES</Label6></Plate6></In></Center><Center x={960} y={880}><In at={5.68} from="fade"><Plate6 at={5.68}><Label6 at={5.68} size={44} color={C6.accent}>~97% OF AMERICA'S FROZEN FRIES</Label6></Plate6></In></Center>
 </>) },
   { from: 831.4, to: 840.9, tag: [8, "The Costs", false], cut: true, back: null, el: (<>
-<Evidence src="evidence/t11/fortune-potato-top.png" size={[2880, 1800]} dur={9.5} frame="screen" marks={[{ x: 186, y: 594, w: 242, h: 96, at: 0.05 }]} zoom={0.85} source="FORTUNE · NOV 2024" url="fortune.com" /><Center x={1560} y={760}><Stamp at={0.8} text="ALLEGED" color={C6.loss} size={72} /></Center><Center x={960} y={960}><In at={5.44} from="fade"><Plate6 at={5.44}><Label6 at={5.44} size={32} color={C6.accent}>SEPT 2026: A JUDGE LETS MOST OF THE CASE GO FORWARD</Label6></Plate6></In></Center>
+<Evidence src="evidence/t11/fortune-potato-top.png" size={[2880, 1800]} dur={9.5} frame="screen" marks={[{ x: 186, y: 594, w: 242, h: 96, at: 0.05 }]} zoom={0.85} source="FORTUNE · NOV 2024" url="fortune.com" /><Center x={1640} y={330}><Stamp at={0.8} text="ALLEGED" color={C6.loss} size={72} /></Center><Center x={960} y={960}><In at={5.44} from="fade"><Plate6 at={5.44}><Label6 at={5.44} size={32} color={C6.accent}>SEPT 2026: A JUDGE LETS MOST OF THE CASE GO FORWARD</Label6></Plate6></In></Center>
 </>) },
   { from: 840.9, to: 847.1, tag: [8, "The Costs", false], cut: true, back: (<><Stock6 cut n={98} dur={6.2} dim={0} graphics={true} /></>), el: (<>
 <Center x={960} y={880}><In at={1.38} from="fade"><Plate6 at={1.38}><Label6 at={1.38} size={34} color={C6.ink}>CALIFORNIA · $20/HR MINIMUM · BIG FAST FOOD CHAINS · 2024</Label6></Plate6></In></Center><Source6 at={0.3}>ILLUSTRATIVE FOOTAGE</Source6>
@@ -450,7 +450,7 @@ const BEATS: Beat[] = [
 <Center y={430}><Words text="Economists: still fighting." at={0.1} size={110} maxW={1600} hl={[]} /></Center><Center x={960} y={720}><In at={3.2} from="fade"><Plate6 at={3.2}><Label6 at={3.2} size={42} color={C6.accent}>BOTH SIDES HAVE DATA</Label6></Plate6></In></Center>
 </>) },
   { from: 851.96, to: 858.4, tag: [8, "The Costs", false], cut: true, back: (<><Stock6 cut n={146} dur={6.44} dim={0} graphics={false} /></>), el: (<>
-<Source6 at={0.3}>Footage: NewsNation</Source6><Center x={960} y={150}><In at={1.2} from="fade"><Plate6 at={1.2}><Label6 at={1.2} size={34} color={C6.accent}>THE REAL BOARD: $17.59 · TV ROUNDED IT TO $18</Label6></Plate6></In></Center>
+<Source6 at={0.3}>Footage: NewsNation</Source6><Center x={960} y={640}><In at={1.2} from="fade"><Plate6 at={1.2}><Label6 at={1.2} size={34} color={C6.accent}>THE REAL BOARD: $17.59 · TV ROUNDED IT TO $18</Label6></Plate6></In></Center>
 </>) },
   { from: 858.4, to: 865.9, tag: [8, "The Costs", false], cut: true, back: (<><Stock6 cut n={111} dur={7.5} dim={0} graphics={true} />
 <Stock6 cut n={112} from={1.38} dur={7.5} dim={0} graphics={true} /></>), el: (<>
@@ -460,7 +460,7 @@ const BEATS: Beat[] = [
 <Center x={960} y={880}><In at={0.2} from="fade"><Plate6 at={0.2}><Label6 at={0.2} size={40} color={C6.ink}>SOMETHING COMPANIES ALMOST NEVER DO</Label6></Plate6></In></Center>
 </>) },
   { from: 870.08, to: 876.28, tag: [8, "The Costs", false], cut: true, back: null, el: (<>
-<Evidence src="evidence/t11/mcd-letter-top.png" size={[2880, 1800]} dur={6.2} frame="screen" focus={{ x: 500, y: 900, w: 1900, h: 600 }} zoom={0.9} source="McDONALD'S OPEN LETTER · JOE ERLINGER · MAY 29, 2024 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" />
+<Evidence src="evidence/t11/mcd-letter-top.png" size={[2880, 1800]} dur={6.2} frame="screen" zoom={0.75} source="McDONALD'S OPEN LETTER · JOE ERLINGER · MAY 29, 2024 · VIA WEB.ARCHIVE.ORG" url="web.archive.org" />
 </>) },
   { from: 876.28, to: 884.72, tag: [8, "The Costs", false], cut: true, back: null, el: (<>
 <Evidence src="evidence/t11/mcd-letter-95.png" size={[2880, 1800]} dur={8.44} frame="screen" marks={[{ x: 917, y: 460, w: 77, h: 34, at: 1.64 }, { x: 983, y: 508, w: 83, h: 34, at: 2.76 }, { x: 1365, y: 510, w: 70, h: 30, at: 5.58 }]} zoom={0.66} source="McDONALD'S OPEN LETTER · MAY 29, 2024" url="web.archive.org" /><Center x={960} y={980}><In at={6.26} from="fade"><Plate6 at={6.26}><Label6 at={6.26} size={32} color={C6.ink}>NOT A HUNDRED. FAIR ENOUGH.</Label6></Plate6></In></Center>

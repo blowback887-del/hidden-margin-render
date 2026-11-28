@@ -396,20 +396,20 @@ dict(start="Then the fries", alt=(K("fries-strainer"), "About ninety-seven perce
      el=plate("4 COMPANIES", "@{just four companies}", y=880, size=46, out="@{About ninety-seven percent}") + plate("~97% OF AMERICA'S FROZEN FRIES", "@{About ninety-seven percent}", y=880, size=44, color="C6.accent")),
 dict(start="Lawsuits claim they coordinated", tag=C8, sfx=[('t02-paper:0.3', '0.05'), ('ep06-stamp:0.3', '0.8')],
      el=doc("fortune-potato-top", [("potato", "Lawsuits claim")], source="FORTUNE · NOV 2024", inset=None, zoom=0.85,
-            fb=plate("LAWSUITS: COORDINATED PRICE HIKES SINCE 2021", "0.2")) + stamp("ALLEGED", "0.8", x=1560, y=760) +
+            fb=plate("LAWSUITS: COORDINATED PRICE HIKES SINCE 2021", "0.2")) + stamp("ALLEGED", "0.8", x=1640, y=330) +
         plate("SEPT 2026: A JUDGE LETS MOST OF THE CASE GO FORWARD", "@{in September a judge}", y=960, size=32, color="C6.accent")),
 dict(start="And wages", tag=C8, stock=K("fastfood-crew") if False else K("r-drive-thru-pay"), sfx=[],
      el=plate("CALIFORNIA · $20/HR MINIMUM · BIG FAST FOOD CHAINS · 2024", "@{California set}", y=880, size=34) + src(ILL, "0.3")),
 dict(start="Economists are still fighting", tag=C8, stock=K("r-stock-screens"), dim=0.55, sfx=[],
      el=words("Economists: still fighting.", at="0.1", size=110, y=430) + plate("BOTH SIDES HAVE DATA", "@{Both sides have data}", y=720, size=42, color="C6.accent")),
 dict(start="And then, in 2023, a photo went viral", tag=C8, stock=K("live-nn-darien"), clean=True, sfx=[],
-     el=src("Footage: NewsNation", "0.3") + plate("THE REAL BOARD: $17.59 · TV ROUNDED IT TO $18", "1.2", y=150, size=34, color="C6.accent")),
+     el=src("Footage: NewsNation", "0.3") + plate("THE REAL BOARD: $17.59 · TV ROUNDED IT TO $18", "1.2", y=640, size=34, color="C6.accent")),
 dict(start="A Big Mac meal, seventeen dollars", tag=C8, sfx=[('ep06-kaching:0.3', '@{seventeen dollars}')],
      stock=K("r-i95-connecticut"), alt=(K("r-service-plaza"), "seventeen dollars and fifty-nine"), el=plate("A CONNECTICUT REST STOP", "0.1", y=880, size=40, out="@{seventeen dollars}") + plate("BIG MAC MEAL · $17.59", "@{seventeen dollars}", y=880, size=56, color="C6.loss") + src("Photo: Adam Moss · CC BY-SA 2.0", "0.3") +
         plate("“THE BIG MAC DOUBLED IN 5 YEARS”", "@{People started saying}", y=200, size=36)),
 dict(start="So McDonald's did something companies almost never do", tag=C8, stock=K("r-mcd-sign-close"), sfx=[], el=plate("SOMETHING COMPANIES ALMOST NEVER DO", "0.2", y=880, size=40)),
 dict(start="The president of McDonald's USA", tag=C8, sfx=[('t02-paper:0.3', '0.05')],
-     el=doc("mcd-letter-top", [], source="McDONALD'S OPEN LETTER · JOE ERLINGER · MAY 29, 2024 · VIA WEB.ARCHIVE.ORG", inset=None, zoom=0.9, focus=(500, 900, 1900, 600))),
+     el=doc("mcd-letter-top", [], source="McDONALD'S OPEN LETTER · JOE ERLINGER · MAY 29, 2024 · VIA WEB.ARCHIVE.ORG", inset=None, zoom=0.75)),
 dict(start="The Big Mac, he wrote", tag=C8, sfx=[('ep06-pop:0.25', '@{four thirty-nine}'), ('ep06-pop:0.25', '@{five twenty-nine}')],
      el=doc("mcd-letter-95", [("$4.39", "four thirty-nine"), ("$5.29", "five twenty-nine"), ("21%", "Twenty-one percent")], source="McDONALD'S OPEN LETTER · MAY 29, 2024", zoom=0.66, inset=None,
             fb='<Center y={450}><Words text="$4.39 → $5.29 · +21%" at={0.3} size={130} hl={["+21%"]} /></Center>') + plate("NOT A HUNDRED. FAIR ENOUGH.", "@{Not a hundred}", y=980, size=32)),
