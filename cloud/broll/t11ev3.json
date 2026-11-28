@@ -3,12 +3,11 @@
  "sheet": "public/research/t11ev3-evidence-sheet.jpg",
  "clips": [],
  "evidence": [
-  {"name": "ad-1970", "type": "image", "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/1970_-_McDonalds_-_4_Mar_MC_-_Allentown_PA.jpg"},
-  {"name": "ad-1971", "type": "image", "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/1971_-_McDonalds_-_21_Feb_MC_-_Allentown_PA.jpg"},
-  {"name": "ad-1973", "type": "image", "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/1973_-_McDonalds_-22_Nov_MC_-_Allentown_PA.jpg"},
-  {"name": "ad-1974", "type": "image", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/1974_-_McDonalds_-15_Sep_MC_-_Allentown_PA.jpg/1920px-1974_-_McDonalds_-15_Sep_MC_-_Allentown_PA.jpg"},
-  {"name": "ad-1975", "type": "image", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/1975_-_McDonalds_-_30_Apr_MC_-_Allentown_PA.jpg/1920px-1975_-_McDonalds_-_30_Apr_MC_-_Allentown_PA.jpg"},
-  {"name": "ad-1976", "type": "image", "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/1976_-_McDonalds_-_28_Aug_MC_-_Allentown_PA.jpg"},
-  {"name": "jungle-1906", "type": "image", "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/The_Jungle_%281906%29_cover.jpg/1920px-The_Jungle_%281906%29_cover.jpg"}
+  {"name": "drovers-herd-top", "url": "https://www.drovers.com/news/industry/u-s-beef-herd-continues-downward-86-2-million-head", "find": ["since 1951", "86.2 Million"]},
+  {"name": "profarmer-herd-top", "url": "https://www.profarmer.com/news/u-s-beef-herd-continues-downward-86-2-million-head", "find": ["since 1951", "86.2 Million", "75 years"]},
+  {"name": "dairyherd-herd-top", "url": "https://www.dairyherd.com/news/u-s-beef-herd-continues-downward-86-2-million-head", "find": ["since 1951", "86.2 Million"]},
+  {"name": "nass-release", "url": "https://data.nass.usda.gov/Newsroom/printable/2026/01-30-2026.pdf", "page": 1, "find": ["86.2 million head", "cattle inventory down"]},
+  {"name": "cbs-mcdeficit-top", "url": "https://web.archive.org/web/20260702155722if_/https://www.cbsnews.com/news/mcdeficit-for-mcdonalds/", "find": ["McDeficit"]},
+  {"name": "cbs-mcdeficit", "url": "https://web.archive.org/web/20260702155722if_/https://www.cbsnews.com/news/mcdeficit-for-mcdonalds/", "find": ["first", "343", "loss"]}
  ]
 }
