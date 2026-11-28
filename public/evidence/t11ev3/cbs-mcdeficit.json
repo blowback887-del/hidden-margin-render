@@ -1,0 +1,29 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://web.archive.org/web/20260702155722if_/https://www.cbsnews.com/news/mcdeficit-for-mcdonalds/",
+ "host": "web.archive.org",
+ "frame": "screen",
+ "finds": {
+  "first": [
+   975,
+   598,
+   74,
+   52
+  ],
+  "343": [
+   589,
+   658,
+   72,
+   52
+  ],
+  "loss": [
+   1307,
+   598,
+   70,
+   52
+  ]
+ }
+}

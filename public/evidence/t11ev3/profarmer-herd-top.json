@@ -1,0 +1,23 @@
+{
+ "size": [
+  2880,
+  1800
+ ],
+ "url": "https://www.profarmer.com/news/u-s-beef-herd-continues-downward-86-2-million-head",
+ "host": "profarmer.com",
+ "frame": "screen",
+ "finds": {
+  "since 1951": [
+   360,
+   591,
+   1356,
+   116
+  ],
+  "86.2 Million": [
+   653,
+   455,
+   460,
+   98
+  ]
+ }
+}
