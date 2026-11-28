@@ -1,0 +1,644 @@
+{
+ "out": "public/broll/t11",
+ "sheet": "public/research/t11-sheet.jpg",
+ "max_sec": 14,
+ "clips": [
+  {
+   "name": "01-furnace-sparks",
+   "url": "https://videos.pexels.com/video-files/6997856/6997856-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "02-steel-hyperlapse",
+   "url": "https://videos.pexels.com/video-files/19587106/19587106-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "03-grinder-sparks",
+   "url": "https://videos.pexels.com/video-files/27928826/12266026_1920_1080_50fps.mp4"
+  },
+  {
+   "name": "04-workers-walking",
+   "url": "https://videos.pexels.com/video-files/5434220/5434220-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "05-town-dusk",
+   "url": "https://videos.pexels.com/video-files/33845060/14362861_2560_1440_60fps.mp4"
+  },
+  {
+   "name": "06-main-street",
+   "url": "https://videos.pexels.com/video-files/33845052/14362885_2560_1440_60fps.mp4"
+  },
+  {
+   "name": "07-burger-bite",
+   "url": "https://videos.pexels.com/video-files/3120243/3120243-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "08-burger-wrapper",
+   "url": "https://videos.pexels.com/video-files/8588704/8588704-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "09-counting-pennies",
+   "url": "https://videos.pexels.com/video-files/7062994/7062994-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "10-child-coins",
+   "url": "https://videos.pexels.com/video-files/11211726/11211726-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "11-old-man-paper",
+   "url": "https://videos.pexels.com/video-files/5642575/5642575-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "12-workers-lunch",
+   "url": "https://videos.pexels.com/video-files/4296842/4296842-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "13-mom-snacks",
+   "url": "https://videos.pexels.com/video-files/6264513/6264513-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "14-boys-burgers",
+   "url": "https://videos.pexels.com/video-files/7236487/7236487-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "15-ground-beef",
+   "url": "https://videos.pexels.com/video-files/7652403/7652403-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "16-raw-meat",
+   "url": "https://videos.pexels.com/video-files/8477205/8477205-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "17-tennis-aerial",
+   "url": "https://videos.pexels.com/video-files/32278328/13765685_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "18-tennis-empty",
+   "url": "https://videos.pexels.com/video-files/6808190/6808190-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "19-suburb-aerial",
+   "url": "https://videos.pexels.com/video-files/4117521/4117521-uhd_2732_1440_24fps.mp4"
+  },
+  {
+   "name": "20-suburb-aerial2",
+   "url": "https://videos.pexels.com/video-files/26547061/11958337_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "21-keys-hand",
+   "url": "https://videos.pexels.com/video-files/10375432/10375432-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "22-stock-screen",
+   "url": "https://videos.pexels.com/video-files/38725029/16451625_2560_1440_50fps.mp4"
+  },
+  {
+   "name": "23-dollar-bills",
+   "url": "https://videos.pexels.com/video-files/3977226/3977226-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "24-ten-dollar",
+   "url": "https://videos.pexels.com/video-files/6590468/6590468-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "25-coins-jar",
+   "url": "https://videos.pexels.com/video-files/31602655/13465769_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "26-cheese-slice",
+   "url": "https://videos.pexels.com/video-files/6658176/6658176-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "27-cheeseburger-close",
+   "url": "https://videos.pexels.com/video-files/8879530/8879530-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "28-gavel",
+   "url": "https://videos.pexels.com/video-files/6101367/6101367-uhd_2732_1440_30fps.mp4"
+  },
+  {
+   "name": "29-courthouse-indiana",
+   "url": "https://videos.pexels.com/video-files/40903701/17486538_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "30-hospital-walk",
+   "url": "https://videos.pexels.com/video-files/8381605/8381605-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "31-hospital-hall",
+   "url": "https://videos.pexels.com/video-files/5203510/5203510-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "32-coffee-cups",
+   "url": "https://videos.pexels.com/video-files/6938648/6938648-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "33-receipts-woman",
+   "url": "https://videos.pexels.com/video-files/5981291/5981291-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "34-longhorns",
+   "url": "https://videos.pexels.com/video-files/30259809/12972591_2560_1440_60fps.mp4"
+  },
+  {
+   "name": "35-cattle-aerial",
+   "url": "https://videos.pexels.com/video-files/17556777/17556777-uhd_2560_1440_24fps.mp4"
+  },
+  {
+   "name": "36-cowboys-herding",
+   "url": "https://videos.pexels.com/video-files/36499576/15476780_2560_1440_24fps.mp4"
+  },
+  {
+   "name": "37-dry-ground",
+   "url": "https://videos.pexels.com/video-files/6498490/6498490-uhd_2560_1440_24fps.mp4"
+  },
+  {
+   "name": "38-dry-riverbed",
+   "url": "https://videos.pexels.com/video-files/36034914/15281993_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "39-fries-frying",
+   "url": "https://videos.pexels.com/video-files/35851610/15203374_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "40-fries-strainer",
+   "url": "https://videos.pexels.com/video-files/8879803/8879803-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "41-fastfood-crew",
+   "url": "https://videos.pexels.com/video-files/3371015/3371015-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "42-dt-going",
+   "url": "https://videos.pexels.com/video-files/6529448/6529448-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "43-dt-man-order",
+   "url": "https://videos.pexels.com/video-files/6529452/6529452-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "44-dt-empty",
+   "url": "https://videos.pexels.com/video-files/6529446/6529446-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "45-dt-card",
+   "url": "https://videos.pexels.com/video-files/6529570/6529570-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "46-bag-packing",
+   "url": "https://videos.pexels.com/video-files/7457401/7457401-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "47-delivery-hold",
+   "url": "https://videos.pexels.com/video-files/6895613/6895613-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "48-phone-use",
+   "url": "https://videos.pexels.com/video-files/5802035/5802035-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "49-counting-dollars",
+   "url": "https://videos.pexels.com/video-files/7710826/7710826-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "50-clock-hands",
+   "url": "https://videos.pexels.com/video-files/854314/854314-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "51-clock-tick",
+   "url": "https://videos.pexels.com/video-files/7033607/uhd_25fps.mp4"
+  },
+  {
+   "name": "52-la-aerial",
+   "url": "https://videos.pexels.com/video-files/13908983/13908983-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "53-tired-woman",
+   "url": "https://videos.pexels.com/video-files/9080637/9080637-uhd_2732_1440_25fps.mp4"
+  },
+  {
+   "name": "54-truck-driver",
+   "url": "https://videos.pexels.com/video-files/6685023/6685023-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "55-vintage-street",
+   "url": "https://videos.pexels.com/video-files/32299853/13774719_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "56-vintage-suburb",
+   "url": "https://videos.pexels.com/video-files/31811394/13553130_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "57-vintage-family-car",
+   "url": "https://videos.pexels.com/video-files/32028328/13651865_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "58-vintage-1970s",
+   "url": "https://videos.pexels.com/video-files/31966106/13621210_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "59-vintage-football",
+   "url": "https://videos.pexels.com/video-files/32102515/13685679_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "60-eating-alone-car",
+   "url": "https://videos.pexels.com/video-files/17846383/17846383-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "61-big-burger-hold",
+   "url": "https://videos.pexels.com/video-files/4731139/4731139-uhd_2560_1440_30fps.mp4"
+  },
+  {
+   "name": "62-tear-money",
+   "url": "https://videos.pexels.com/video-files/8370532/8370532-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "63-doctor-wipe",
+   "url": "https://videos.pexels.com/video-files/5238688/5238688-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "64-woman-driving",
+   "url": "https://videos.pexels.com/video-files/13802593/13802593-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "65-film-leader",
+   "url": "https://videos.pexels.com/video-files/31938875/13604878_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "66-crt-tv",
+   "url": "https://videos.pexels.com/video-files/15069622/15069622-hd_1920_1080_24fps.mp4"
+  },
+  {
+   "name": "67-podium",
+   "url": "https://videos.pexels.com/video-files/6951978/6951978-uhd_2560_1440_25fps.mp4"
+  },
+  {
+   "name": "68-grill-burgers",
+   "url": "https://videos.pexels.com/video-files/13534836/13534836-hd_1920_1080_60fps.mp4"
+  },
+  {
+   "name": "69-cheeseburger-make",
+   "url": "https://videos.pexels.com/video-files/5907430/5907430-hd_1920_1080_25fps.mp4"
+  },
+  {
+   "name": "70-grill-flames",
+   "url": "https://videos.pexels.com/video-files/8522934/8522934-hd_1920_1080_30fps.mp4"
+  },
+  {
+   "name": "71-wm-bigmac",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Big_Mac_hamburger.jpg/1920px-Big_Mac_hamburger.jpg",
+   "credit": "Big Mac hamburger.jpg — Evan-Amos — CC0 (Wikimedia Commons)"
+  },
+  {
+   "name": "72-wm-bigmac-museum",
+   "photo": true,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/BigMacMuseum.jpg",
+   "credit": "BigMacMuseum.jpg — CC0 (Wikimedia Commons)"
+  },
+  {
+   "name": "73-wm-uniontown",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Uniontown%2C_Pennsylvania_%282023%29.jpg/1920px-Uniontown%2C_Pennsylvania_%282023%29.jpg",
+   "credit": "Uniontown, Pennsylvania (2023).jpg — WeaponizingArchitecture — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "74-wm-homestead-night",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/HomesteadSteelWorksSmokestacksNightFromSteakhouse.jpg/1920px-HomesteadSteelWorksSmokestacksNightFromSteakhouse.jpg",
+   "credit": "HomesteadSteelWorksSmokestacksNightFromSteakhouse.jpg — DanielPenfield — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "75-wm-stockyards-1909",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Chicago_stockyards_cattle_pens_men_1909.jpg/1920px-Chicago_stockyards_cattle_pens_men_1909.jpg",
+   "credit": "Chicago stockyards cattle pens men 1909.jpg — public domain (Wikimedia Commons)"
+  },
+  {
+   "name": "76-wm-stockyards-1905",
+   "photo": true,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/NIE_1905_Chicago_-_stockyards.jpg",
+   "credit": "NIE 1905 Chicago - stockyards.jpg — public domain (Wikimedia Commons)"
+  },
+  {
+   "name": "77-wm-first-mcd",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/First_McD_SBD.jpg/1920px-First_McD_SBD.jpg",
+   "credit": "First McD SBD.jpg — Marykdan — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "78-wm-first-mcd2",
+   "photo": true,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/First_McDonalds%2C_San_Bernardino%2C_California.jpg",
+   "credit": "First McDonalds, San Bernardino, California.jpg — Cogart Strangehill — CC BY-SA 2.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "79-wm-downey",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Historic_Downey_McDonalds_and_Museum.jpg/1920px-Historic_Downey_McDonalds_and_Museum.jpg",
+   "credit": "Historic Downey McDonalds and Museum.jpg — Northwalker — CC0 (Wikimedia Commons)"
+  },
+  {
+   "name": "80-wm-downey-loc",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/McDonald%27s%2C_Downey%2C_California_LCCN2017709079.tif/lossy-page1-1920px-McDonald%27s%2C_Downey%2C_California_LCCN2017709079.tif.jpg",
+   "credit": "McDonald's, Downey, California — John Margolies, Library of Congress — public domain (Wikimedia Commons)"
+  },
+  {
+   "name": "81-wm-mcd-museum",
+   "photo": true,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/McDonalds_Museum.jpg",
+   "credit": "McDonalds Museum.jpg — Bruce Marlin — CC BY-SA 2.5 (Wikimedia Commons)"
+  },
+  {
+   "name": "82-wm-speedee",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Speedee_is_back_at_McDonald%27s_on_FL_540_in_Winter_Haven.jpg/1920px-Speedee_is_back_at_McDonald%27s_on_FL_540_in_Winter_Haven.jpg",
+   "credit": "Speedee is back at McDonald's on FL 540 in Winter Haven.jpg — DanTD — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "83-wm-mcdouble",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/McDonald%27s_McDouble.jpg/1920px-McDonald%27s_McDouble.jpg",
+   "credit": "McDonald's McDouble.jpg — TheDapperDan — public domain (Wikimedia Commons)"
+  },
+  {
+   "name": "84-wm-double-cheese",
+   "photo": true,
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/McDonald%27s_Double_Cheeseburger_%2821262495748%29.jpg",
+   "credit": "McDonald's Double Cheeseburger (21262495748).jpg — Willis Lam — CC BY-SA 2.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "85-wm-orlando-occ",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Orange_County_Convention_Center-1.jpg/1920px-Orange_County_Convention_Center-1.jpg",
+   "credit": "Orange County Convention Center-1.jpg — Visitor7 — CC BY-SA 3.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "86-wm-macarthur",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/MacArthur_Park%2C_Los_Angeles%2C_CA%2C_USA_-_panoramio_%285%29.jpg/1920px-MacArthur_Park%2C_Los_Angeles%2C_CA%2C_USA_-_panoramio_%285%29.jpg",
+   "credit": "MacArthur Park, Los Angeles, CA, USA - panoramio (5).jpg — peter boy12qq12 — CC BY 3.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "87-wm-ucla",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ronald_Reagan_UCLA_Medical_Center.jpg/1920px-Ronald_Reagan_UCLA_Medical_Center.jpg",
+   "credit": "Ronald Reagan UCLA Medical Center.jpg — Coolcaesar — CC BY 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "88-wm-bk-whopperjr",
+   "photo": true,
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Burger_King_Whopper_Jr._%2805-16-2021%29.jpg/1920px-Burger_King_Whopper_Jr._%2805-16-2021%29.jpg",
+   "credit": "Burger King Whopper Jr. (05-16-2021).jpg — PaulGorduiz106 — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "89-r-mcd-sign-close",
+   "local": true,
+   "from": "public/broll/t08/05-mcd-sign-close.mp4"
+  },
+  {
+   "name": "90-r-mcd-night",
+   "local": true,
+   "from": "public/broll/t08/06-mcd-night.mp4"
+  },
+  {
+   "name": "91-r-drive-thru-night",
+   "local": true,
+   "from": "public/broll/t08/07-drive-thru-night.mp4"
+  },
+  {
+   "name": "92-r-burger-fries-table",
+   "local": true,
+   "from": "public/broll/t08/08-burger-fries-table.mp4"
+  },
+  {
+   "name": "93-r-fries-close",
+   "local": true,
+   "from": "public/broll/t08/11-fries-close.mp4"
+  },
+  {
+   "name": "94-r-frying",
+   "local": true,
+   "from": "public/broll/t08/12-frying.mp4"
+  },
+  {
+   "name": "95-r-potatoes",
+   "local": true,
+   "from": "public/broll/t08/13-potatoes.mp4"
+  },
+  {
+   "name": "96-r-flying-dollars",
+   "local": true,
+   "from": "public/broll/t08/17-flying-dollars.mp4"
+  },
+  {
+   "name": "97-r-meeting",
+   "local": true,
+   "from": "public/broll/t08/18-meeting.mp4"
+  },
+  {
+   "name": "98-r-drive-thru-pay",
+   "local": true,
+   "from": "public/broll/t08/21-drive-thru-pay.mp4"
+  },
+  {
+   "name": "99-r-drive-thru-order",
+   "local": true,
+   "from": "public/broll/t08/22-drive-thru-order.mp4"
+  },
+  {
+   "name": "100-r-drive-thru-going",
+   "local": true,
+   "from": "public/broll/t08/23-drive-thru-going.mp4"
+  },
+  {
+   "name": "101-r-empty-drive-thru",
+   "local": true,
+   "from": "public/broll/t08/25-empty-drive-thru.mp4"
+  },
+  {
+   "name": "102-r-eating-alone",
+   "local": true,
+   "from": "public/broll/t08/30-eating-alone.mp4"
+  },
+  {
+   "name": "103-r-boys-eating",
+   "local": true,
+   "from": "public/broll/t08/33-boys-eating.mp4"
+  },
+  {
+   "name": "104-r-phone-pay-meal",
+   "local": true,
+   "from": "public/broll/t08/35-phone-pay-meal.mp4"
+  },
+  {
+   "name": "105-r-shocked-man",
+   "local": true,
+   "from": "public/broll/t08/39-shocked-man.mp4"
+  },
+  {
+   "name": "106-r-calculator",
+   "local": true,
+   "from": "public/broll/t08/46-calculator.mp4"
+  },
+  {
+   "name": "107-r-empty-wallet",
+   "local": true,
+   "from": "public/broll/t08/48-empty-wallet.mp4"
+  },
+  {
+   "name": "108-r-paper-bag",
+   "local": true,
+   "from": "public/broll/t08/55-paper-bag.mp4"
+  },
+  {
+   "name": "109-r-burger-bite",
+   "local": true,
+   "from": "public/broll/t08/57-burger-bite.mp4"
+  },
+  {
+   "name": "110-r-sesame-bun",
+   "local": true,
+   "from": "public/broll/t08/58-sesame-bun.mp4"
+  },
+  {
+   "name": "111-r-i95-connecticut",
+   "local": true,
+   "from": "public/broll/t08/59-i95-connecticut.mp4",
+   "credit": "Adam Moss, CC BY-SA 2.0, Wikimedia Commons"
+  },
+  {
+   "name": "112-r-service-plaza",
+   "local": true,
+   "from": "public/broll/t08/60-service-plaza.mp4",
+   "credit": "Kenneth C. Zirkel, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "113-r-ct-manchester",
+   "local": true,
+   "from": "public/broll/t08/62-ct-manchester.mp4",
+   "credit": "JJBers, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "name": "114-r-ct-lisbon",
+   "local": true,
+   "from": "public/broll/t08/63-ct-lisbon.mp4",
+   "credit": "JJBers, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "name": "115-r-menu-board-cc0",
+   "local": true,
+   "from": "public/broll/t08/64-menu-board-cc0.mp4",
+   "credit": "dankeck, CC0, Wikimedia Commons"
+  },
+  {
+   "name": "116-r-big-mac-meal",
+   "local": true,
+   "from": "public/broll/t08/65-big-mac-meal.mp4",
+   "credit": "Aranami, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "name": "117-r-archive-mcd",
+   "local": true,
+   "from": "public/broll/t08/66-archive-mcd.mp4",
+   "credit": "David E. Lucas, public domain, Wikimedia Commons"
+  },
+  {
+   "name": "118-r-value-burgers",
+   "local": true,
+   "from": "public/broll/t08/67-value-burgers.mp4",
+   "credit": "TheDapperDan, public domain, Wikimedia Commons"
+  },
+  {
+   "name": "119-r-kiosk",
+   "local": true,
+   "from": "public/broll/t08/69-kiosk.mp4",
+   "credit": "EvanTech10, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "120-r-mcchicken",
+   "local": true,
+   "from": "public/broll/t08/70-mcchicken.mp4",
+   "credit": "Evan-Amos, public domain, Wikimedia Commons"
+  },
+  {
+   "name": "121-r-midnight-lineup",
+   "local": true,
+   "from": "public/broll/t08/72-midnight-lineup.mp4",
+   "credit": "Andre Carrotflower, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "122-r-needles-ca",
+   "local": true,
+   "from": "public/broll/t08/73-needles-ca.mp4",
+   "credit": "G. Edward Johnson, CC BY 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "123-r-calverton-md",
+   "local": true,
+   "from": "public/broll/t08/74-calverton-md.mp4",
+   "credit": "G. Edward Johnson, CC BY 4.0, Wikimedia Commons"
+  },
+  {
+   "name": "124-r-stock-screens",
+   "local": true,
+   "from": "public/broll/t08/19-stock-screens.mp4"
+  },
+  {
+   "name": "125-r-cola-ice",
+   "local": true,
+   "from": "public/broll/t08/56-cola-ice.mp4"
+  },
+  {
+   "name": "126-r-facepalm",
+   "local": true,
+   "from": "public/broll/t08/41-facepalm.mp4"
+  },
+  {
+   "name": "127-r-wm-bk-houston",
+   "local": true,
+   "from": "public/broll/t10/60-wm-bk-houston.mp4",
+   "credit": "Burger King exterior in Houston, TX.jpg — Quintin Soloviev — CC BY 4.0 (Wikimedia Commons)"
+  },
+  {
+   "name": "128-r-grocery-checkout",
+   "local": true,
+   "from": "public/broll/t10/15-grocery-checkout.mp4"
+  },
+  {
+   "name": "129-r-cooking-pan",
+   "local": true,
+   "from": "public/broll/t10/11-cooking-pan.mp4"
+  },
+  {
+   "name": "130-r-delivery-bag",
+   "local": true,
+   "from": "public/broll/t06/53-delivery-bag.mp4"
+  },
+  {
+   "name": "131-r-delivery-pay",
+   "local": true,
+   "from": "public/broll/t06/67-delivery-pay.mp4"
+  },
+  {
+   "name": "132-r-courthouse",
+   "local": true,
+   "from": "public/broll/t06/49-courthouse.mp4"
+  },
+  {
+   "name": "133-r-coins-fall",
+   "local": true,
+   "from": "public/broll/t06/34-coins-fall.mp4"
+  },
+  {
+   "name": "134-r-dollar-stack",
+   "local": true,
+   "from": "public/broll/t06/62-dollar-stack.mp4"
+  },
+  {
+   "name": "135-r-phone-scroll",
+   "local": true,
+   "from": "public/broll/t06/61-phone-scroll.mp4"
+  }
+ ]
+}
