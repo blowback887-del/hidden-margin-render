@@ -1,0 +1,450 @@
+3810 {'text': 'When', 'start': 0.0, 'end': 0.18, 'part': 1} {'text': 'comments!', 'start': 1423.56, 'end': 1423.84, 'part': 11}
+    0.0  When this sandwich was invented, it cost forty five cents.
+    4.1  Today, the average Big Mac in the United States costs six dollars and twenty two cents, according to The Economist.
+   10.9  That sounds like robbery.
+   12.7  It's on the news, it's all over social media, and if you've bought a combo meal lately, you felt it yourself.
+   19.0  But try measuring it a different way.
+   21.5  Not in dollars.
+   22.7  In minutes of work.
+   24.6  In 1968, the year the Big Mac went national, a regular American worker paid for one with about ten minutes on the job.
+   32.2  Today?
+   33.0  About eleven.
+   35.0  [pause] Ten minutes then.
+   36.5  Eleven now.
+   37.4  Measured in work, it's almost the same price.
+   40.5  I'll show you exactly where those numbers come from.
+   43.2  So why did seventy eight percent of Americans in one survey call fast food a luxury now?
+   49.2  [pause] Because there's a third number on this stopwatch.
+   ?   Fifty one.
+   53.3  Somebody in America pays fifty one minutes of work for the exact same Big Mac.
+   58.5  By the end of this video, you'll know who, and why their number moved so far.
+   63.0  And there's a second mystery.
+   65.3  In April of this year, McDonald's did something it gave up on thirteen years ago.
+   70.1  That one tells you exactly who fast food is for now.
+   73.7  To get there, we start where the Big Mac started.
+   76.7  Uniontown, Pennsylvania.
+   ?   Nineteen sixty seven.
+   80.0  The night shift is letting out at the steel mills.
+   82.2  And as the story goes, a lot of very hungry men are heading for the same place.
+   87.4  A McDonald's.
+   88.6  The problem is the hamburger.
+   91.0  It's small.
+   92.0  It was built to be cheap and fast, and for a man who just spent eight hours next to a furnace, it isn't enough.
+   98.7  The guy who owns this McDonald's is named Jim Delligatti.
+  102.0  He's watching his customers walk out still hungry, and he has an idea.
+  106.8  A bigger sandwich.
+  108.3  Two patties.
+  109.3  A special sauce.
+  110.7  A third piece of bun in the middle so the whole thing doesn't fall apart.
+  114.5  Corporate doesn't love it.
+  116.1  The menu is selling fine.
+  117.6  Why mess with it?
+  119.3  Delligatti spends about two years asking.
+  121.8  Finally, they let him test it in this one town.
+  124.7  [pause] He calls it the Big Mac.
+  126.9  Forty five cents.
+  128.5  Sales at his restaurant jump.
+  130.6  A year later, it's on every McDonald's menu in America.
+  134.3  He built it for men who worked hard and counted their change.
+  137.9  Keep those men in mind.
+  139.4  The story of that fifty one is really the story of who cheap food was made for.
+--- PART 2
+  145.2  College kid with five bucks.
+  147.9  Guy eating lunch in his truck.
+  149.3  A parent feeding three kids from a drive thru because nobody had the energy to cook.
+  154.4  Or you just remember a Big Mac for under a dollar.
+  157.3  Either way, this one's about you.
+  160.0  Now, there's an easy answer to why it all got so expensive.
+  163.8  Greed.
+  165.2  Some guy in a boardroom raised the price of your burger because he could.
+  168.5  And look, that's not totally wrong.
+  171.1  We'll get there.
+  171.9  But it's not the part that surprised me.
+  174.5  Cheap food didn't just happen.
+  176.5  It was invented, on purpose, for guys like the ones at that steel mill.
+  182.3  Wichita, Kansas.
+   ?   Nineteen twenty one.
+  184.6  A cook named Walter Anderson and a real estate man named Billy Ingram open a tiny restaurant that looks like a castle.
+  192.2  A white castle.
+  193.6  They have a problem nobody today would think about.
+  196.8  Americans are scared of hamburger.
+  199.3  Back in 1906, a novel called The Jungle exposed what was going on inside the meatpacking plants.
+  205.6  And ground beef got a reputation as the stuff you made out of whatever was left on the floor.
+  210.6  So White Castle doesn't just sell hamburgers.
+  213.6  It sells trust.
+  215.1  The building is white because white looks clean.
+  217.8  The beef is ground right in front of you.
+  220.2  And Billy Ingram even paid for a study where one person ate nothing but White Castle burgers and water for thirteen weeks, just to prove it was safe.
+  229.3  The price?
+  230.3  Five cents.
+  231.4  Buy them by the sack.
+  232.3  This was food for factory workers and night shifts and people who counted their change.
+  237.9  Cheap food was never charity.
+  239.9  It was a promise.
+  241.2  You can trust this, and you can afford this.
+  244.0  And that promise was about to get very, very big.
+--- PART 3
+  248.9  San Bernardino, California.
+   ?   Nineteen forty eight.
+  252.6  Two brothers, Dick and Mac McDonald, run a drive in restaurant that's already doing well.
+  258.4  Carhops bring food out to your car.
+  260.2  There's a long menu.
+  261.9  Barbecue.
+  262.7  All kinds of stuff.
+  264.0  And then they do something that looks completely insane.
+  267.8  They shut it down.
+  269.4  For three months.
+  271.2  When they reopen, the carhops are gone.
+  274.2  The menu goes from about twenty five items to nine.
+  277.7  Paper wrappers instead of plates.
+  279.8  No tipping.
+  280.8  And the hamburger costs fifteen cents, about half what it used to.
+  285.3  They redesigned the kitchen like a factory line.
+  287.8  As the story goes, they drew it out in chalk on a tennis court, and walked their crew through every step until it was perfect.
+  295.4  Every worker had one job, and only one.
+  298.7  They called it the Speedee Service System.
+  301.5  At first, it flopped.
+  303.6  Profits dropped.
+  304.8  The carhops they'd let go would come by just to make fun of them.
+  308.2  And then it took off.
+  310.4  Families showed up.
+  311.7  Working people showed up.
+  313.2  Kids with pocket change showed up.
+  314.9  Dick McDonald later put the whole idea in one line.
+  319.0  Our whole concept was based on speed, lower prices, and volume.
+  323.6  That's the machine.
+  325.0  Sell a lot of something cheap, very fast, to everybody.
+  328.8  The lower the price, the bigger the crowd.
+  331.1  The bigger the crowd, the cheaper you can make it.
+  334.1  Then a milkshake machine salesman named Ray Kroc shows up, sees the line out the door, and turns it into an empire.
+  341.3  But the guy you really need to know is his money man, Harry Sonneborn.
+  345.9  Sonneborn reportedly put it like this.
+  348.4  We are not technically in the food business.
+  351.1  We are in the real estate business.
+  353.4  The only reason we sell fifteen cent hamburgers is because they are the greatest producer of revenue from which our tenants can pay us rent.
+  361.5  [pause] The cheap burger was never the product.
+  363.8  It was the thing that brought people in the door, so the people running the restaurant could pay rent to McDonald's.
+  369.7  That's going to matter a lot later.
+--- PART 4
+  372.4  For the next few decades, the whole industry played by those rules.
+  376.8  And whenever things got slow, everybody reached for the same lever.
+  381.7  Price.
+  382.7  In 1989, Wendy's put a whole row of items on its menu for ninety nine cents each.
+  388.5  The value menu was born, and everybody copied it.
+  392.4  And in 1997, McDonald's tried the boldest price cut in its history.
+  397.1  They called it Campaign Fifty Five, after 1955, the year the company was founded.
+  403.1  The idea was simple.
+  404.5  A Big Mac, which normally cost about a dollar ninety, for fifty five cents.
+  409.6  Except it wasn't simple.
+  411.9  To get the fifty five cent Big Mac, you had to buy fries and a drink too.
+  416.1  And the deal changed from sandwich to sandwich.
+  419.1  People walked up to the counter and didn't understand what they were supposed to order.
+  423.1  Some of the restaurant owners said it was actually costing them money.
+  426.4  Burger King was already selling Whoppers for ninety nine cents in some places.
+  431.3  And about six weeks in, McDonald's announced it was killing the promotion for lunch and dinner.
+  436.6  It was supposed to last all year.
+  440.5  [pause] Cheap only works when it's simple.
+  442.7  A price you have to decode isn't a deal.
+  445.1  It's homework.
+  446.6  People don't want a puzzle.
+  448.2  They want a number they can trust.
+  450.5  Keep that in mind, because twenty nine years later, McDonald's would learn this lesson all over again.
+--- PART 5
+  457.0  Now let's jump to the moment cheap fast food peaked.
+  460.9  If you were a kid or a broke student in the 2000s, you remember this menu.
+  466.3  The Dollar Menu.
+  467.9  What most people don't know is that the Dollar Menu wasn't born out of generosity.
+  472.5  It was born out of panic.
+  474.8  At the end of 2002, McDonald's posted the first quarterly loss in its entire history.
+  482.6  Three hundred and forty three million dollars.
+  483.8  It said it would close hundreds of restaurants.
+  486.8  The stock fell to around fifteen dollars, the lowest in years.
+  491.2  The most famous restaurant on earth was in real trouble.
+  495.0  So the company called back a man who had already retired.
+  498.5  Jim Cantalupo.
+  499.9  He'd spent nearly thirty years at McDonald's.
+  502.8  He came back as CEO on January first, 2003, and leaned on the oldest weapon the company owned.
+  509.5  Cheap.
+  510.3  The Dollar Menu had just gone national.
+  512.4  Sandwiches, fries, drinks, a dollar each.
+  516.3  And it worked.
+  517.3  Customers came back.
+  518.8  The turnaround became one of the big business stories of the decade.
+  522.7  Sixteen months in, at a convention of McDonald's franchise owners in Orlando, Jim Cantalupo had a heart attack before dawn.
+  530.2  He was sixty.
+  531.4  He never saw what happened to the menu he bet on.
+  535.4  [pause] The menu kept going.
+  537.3  For about ten years, it was the floor of American life.
+  540.7  A family of four could eat for under ten dollars.
+  544.1  A teenager with a few quarters could eat like a king.
+  547.5  But here's the thing about a dollar.
+  549.7  Every year, the beef behind it, the cheese, the bun, the paper, the people making it, all cost a little more.
+  556.9  And the price on the sign stays exactly the same.
+  560.2  Somebody has to absorb that difference.
+  562.6  The only question is who.
+--- PART 6
+  565.3  In 2008, the cheese answered that question.
+  568.6  Prices for beef and cheese were climbing, and the owners of McDonald's restaurants were complaining that the double cheeseburger, at a dollar, just didn't work anymore.
+  578.6  So McDonald's came up with a solution.
+  581.5  A new burger.
+  582.9  Two patties, same bun, same everything.
+  586.0  But one slice of cheese instead of two.
+  588.8  They called it the McDouble.
+  590.7  The double cheeseburger moved up to a dollar nineteen, and the McDouble took its place on the Dollar Menu.
+  595.9  One analyst estimated that dropping the slice saved about six cents a sandwich.
+  602.7  [pause] Six cents.
+  603.9  That's how tight the math had become.
+  606.6  A year later, Burger King did something worse.
+  609.8  It told its restaurant owners to sell a double cheeseburger for a dollar.
+  614.1  The owners had voted against it.
+  616.0  Twice.
+  617.1  Corporate did it anyway.
+  618.8  So the owners did something almost unheard of.
+  621.9  The association representing about eighty percent of Burger King's U.S.
+  626.2  franchise owners sued their own company.
+  629.4  One of them, a franchisee from South Bend, Indiana named Dan Fitzpatrick, explained the math.
+  635.1  Once you count all the costs, he said, each of those dollar burgers cost them between a dollar ten and a dollar fifteen to sell.
+  642.7  They were losing a dime on every single one.
+  645.8  And the more popular the deal got, the more they lost.
+  649.2  By the spring of 2010, the burger had quietly moved up to a dollar twenty nine.
+  654.5  A judge threw the case out that fall.
+  656.9  They settled the next year, and the owners didn't get any money.
+  660.8  And in 2013, McDonald's let go of the Dollar Menu itself.
+  665.1  It turned into something called the Dollar Menu and More.
+  668.6  Items at one dollar, two dollars, five dollars.
+  671.8  Same idea, technically.
+  673.8  But if you ever stood in front of that board, you know.
+  677.3  It wasn't the same.
+  678.5  For years, the people who run the restaurants were eating the difference.
+  682.8  And at some point, they stopped.
+--- PART 7
+  686.3  Now let me introduce you to someone from right now.
+  689.8  Los Angeles, last fall.
+  691.9  A McDonald's near MacArthur Park.
+  694.2  A reporter from the Los Angeles Times is sitting with a woman named Mariam Gergis.
+  699.2  Mariam is a registered nurse at UCLA.
+  702.0  And because one job isn't enough, she has a second one, as a home caregiver.
+  706.5  She and two other people at her table ordered three drinks.
+  710.5  Two coffees and a soda.
+  712.2  The receipt came to nearly twenty dollars.
+  715.3  [pause] And here's what she told the reporter.
+  717.8  I can barely afford McDonald's.
+  720.0  But it's a cheaper option.
+  721.8  Her brother works as a cashier.
+  723.7  He can't afford to eat out at all.
+  726.0  Mariam put it in one sentence.
+  728.1  He would rather go hungry than eat outside.
+  731.2  [pause] A nurse.
+  733.0  Two jobs.
+  733.9  And McDonald's is the place she can barely afford.
+  737.3  Remember Mariam, because in a few minutes, that fifty one is going to explain her better than any price chart.
+  743.7  But first, let's follow the money.
+  746.1  Take ten dollars at a McDonald's the company runs itself.
+  749.9  About three for food and paper.
+  751.9  About three for the crew.
+  753.5  About two forty for the building and the lights.
+  756.1  What's left?
+  757.1  About a dollar fifty.
+  758.1  Now the other business.
+  760.6  About ninety five percent of McDonald's are run by franchise owners, and they pay McDonald's rent and fees.
+  766.9  On that money, McDonald's keeps about eighty four cents of every dollar.
+  771.5  Cooking burgers, fifteen cents on the dollar.
+  774.3  Collecting rent, eighty four.
+  777.0  [pause] That's not a secret.
+  778.2  It's the business model, exactly like Sonneborn said back in the fifties.
+  782.5  The landlord gets paid on every sale, good year or bad.
+  787.0  And this is a bad year for the people in the middle.
+  790.2  In one survey this spring, ninety five percent of McDonald's franchise owners said their profits were falling.
+--- PART 8
+  797.5  So why is everything inside that ten dollars climbing?
+  801.5  Start in the middle of the bun.
+  803.4  America now has fewer cattle than at any time since 1951, back when the country had about half as many people.
+  810.6  Years of drought pushed ranchers to sell off their herds, and you can't grow a cow back in a season.
+  817.0  This August, ground beef hit an all time record.
+  821.6  Six ninety two a pound.
+  823.2  Then the fries.
+  824.6  Almost every frozen fry in America comes from just four companies.
+  828.8  About ninety seven percent of the market.
+  831.5  Lawsuits claim they coordinated their price hikes since 2021.
+  835.5  Nothing's been proven, but in September a judge said most of the case can go forward.
+  841.0  And wages.
+  842.4  California set a twenty dollar minimum for big fast food chains in 2024.
+  847.2  Economists are still fighting over what it did to prices.
+  850.4  Both sides have data.
+  852.1  And then, in 2023, a photo went viral.
+  856.0  A McDonald's at a Connecticut rest stop.
+  858.5  A Big Mac meal, seventeen dollars and fifty nine cents.
+  862.6  People started saying the Big Mac had doubled in five years.
+  866.0  So McDonald's did something companies almost never do.
+  870.2  The president of McDonald's USA, Joe Erlinger, published an open letter with real numbers.
+  876.4  The Big Mac, he wrote, went from four thirty nine to five twenty nine since 2019.
+   ?   Twenty one percent.
+  882.6  Not a hundred.
+  883.8  Fair enough.
+  884.8  But keep reading.
+  886.2  Medium fries, up forty four percent.
+  889.1  The average item on the whole menu, up about forty percent.
+  892.9  Over the same years, prices across America went up about twenty one.
+  897.9  [pause] So by McDonald's own numbers, the menu climbed about twice as fast as everything else.
+  903.8  They told us.
+  904.9  They just led with the Big Mac.
+  906.9  So yes, costs are real.
+  909.7  Beef, fries, people, buildings.
+  912.1  But none of that explains Mariam.
+  915.0  For that, we have to open the stopwatch.
+--- PART 9
+  918.7  First, where the ten and the eleven come from.
+  921.7  Here's the math.
+  923.1  The Bureau of Labor Statistics tracks what regular workers earn.
+  927.0  Not bosses.
+  927.9  The people who do the actual work, which is about eight in ten jobs.
+  932.4  In 1968, the average was about three dollars an hour.
+  935.9  By then, the Big Mac had gone national, at about forty nine cents.
+  939.9  That works out to about ten minutes of work.
+  942.6  Now today.
+  943.9  This October, the average for those same workers was thirty two dollars and seventy five cents an hour.
+  949.6  A Big Mac is six twenty two.
+  952.0  That's about eleven minutes.
+  953.7  For the average worker, almost the same price as when the Big Mac went national.
+  959.2  [pause] Which brings back the question from the start.
+  961.5  If the average barely moved, who's paying fifty one?
+  965.4  The answer is that average is hiding something.
+  969.0  Let's run the same math for someone stuck at the federal minimum wage.
+  972.6  In 1968, the federal minimum wage was a dollar sixty.
+  976.4  A Big Mac cost about eighteen minutes of work.
+  979.1  Today, the federal minimum wage is seven twenty five.
+  983.0  It hasn't moved since July 2009.
+  985.7  That's the longest it's ever gone without a raise.
+  988.7  And in twenty states, that is still the minimum.
+  991.6  At seven twenty five, a Big Mac costs about fifty one minutes of work.
+  997.0  [pause] Eighteen minutes became fifty one.
+  999.1  Almost three times as long.
+ 1001.0  For the exact same sandwich.
+ 1003.5  And now the part that hit me hardest.
+ 1005.6  Last year, LendingTree ran this same kind of math for the people who actually make the food.
+ 1011.4  In America's fifty biggest cities, a typical fast food combo costs about eleven fifty six.
+ 1017.0  For the average worker, that's about twenty one minutes of work.
+ 1020.3  For a fast food worker, at about fifteen dollars an hour, it's forty six minutes.
+ 1025.9  [pause] The person handing you the bag through the window has to work more than twice as long to buy what's inside it.
+ 1031.5  Very few people earn exactly seven twenty five.
+ 1034.9  But it's the floor, and it hasn't moved in seventeen years.
+ 1039.0  Everybody standing close to it feels the squeeze.
+ 1042.4  Now think about Mariam again.
+ 1044.0  A nurse with two jobs, saying she can barely afford McDonald's.
+ 1047.8  Her brother at the register, choosing to go hungry.
+ 1050.9  This is about whose paycheck kept up, and whose didn't.
+ 1054.6  So here's the answer to the question in the title.
+ 1057.1  For the average American, fast food costs about the same as it always did.
+ 1061.1  It got expensive for the people whose pay got left behind.
+ 1064.8  The people it was invented for.
+ 1067.7  [pause] If this changed how you see a price tag, subscribe.
+ 1071.0  Every week on this channel, we take one everyday price apart and show you who's really paying it.
+ 1077.0  And stay with me, because McDonald's own numbers prove all of this, and then the company did something nobody expected.
+--- PART 10
+ 1085.5  And here's the part where the company itself confirms it.
+ 1088.7  Early last year, McDonald's own CEO, Chris Kempczinski, told investors that low income visits had fallen by nearly double digits.
+ 1097.8  Later he said that across fast food, low income visits were down and higher income visits were up.
+ 1104.0  His reasons?
+ 1105.3  Rent.
+ 1106.1  Groceries.
+   ?   Child care.
+ 1108.1  And here's the painful part.
+ 1109.8  He also said low income customers usually visit more often than anyone else.
+ 1114.9  So the people who came the most look like the first ones who got pushed out.
+ 1119.8  And if you're the person counting every dollar, the system has a few extra traps waiting.
+ 1125.4  Quiet ones.
+ 1126.8  Trap number one.
+ 1128.1  The price on the board isn't the same everywhere.
+ 1131.1  Franchise owners set their own prices.
+ 1133.6  Two McDonald's a few miles apart can charge you different amounts for the same meal.
+ 1138.2  That's how a rest stop in Connecticut ended up with a seventeen dollar Big Mac meal that went viral.
+ 1143.5  Trap number two.
+ 1145.5  For years, the best prices didn't live on the board at all.
+ 1149.1  They lived in the app.
+ 1150.9  McDonald's now has about two hundred and ten million active users in its loyalty program around the world.
+ 1157.1  If you don't use it, you're often paying the highest price in the building.
+ 1161.3  Trap number three.
+ 1162.6  Delivery.
+ 1163.7  A study by the finance company Self priced the same McDonald's order in a hundred American cities.
+ 1169.4  Through the big delivery apps, it cost almost seventy percent more on average than buying it at the restaurant.
+   ?   Seventy percent.
+ 1177.0  For somebody too tired to drive.
+ 1179.5  And there's a new question hanging over all of it.
+ 1182.7  In October, a customer in Illinois filed a lawsuit claiming McDonald's uses an AI pricing system to coordinate prices across its restaurants.
+ 1191.2  That's an accusation.
+ 1193.0  No court has ruled on it.
+ 1194.6  McDonald's says, and I'm quoting, AI does not set menu prices at McDonald's restaurants.
+ 1200.3  McDonald's franchisees do.
+ 1202.0  And for a business built on volume, that's the real problem.
+ 1206.6  The crowd was walking away.
+--- PART 11
+ 1209.6  So McDonald's started walking it back.
+ 1212.4  In the summer of 2024, the five dollar Meal Deal.
+ 1216.2  In 2025, a value menu called McValue, and then the return of Extra Value Meals, about fifteen percent off compared to buying the items separately.
+ 1226.6  And then, this April, the second mystery from the beginning.
+ 1230.4  McDonald's rolled out ten items, every single one under three dollars.
+ 1235.8  McChicken.
+ 1236.9  McDouble.
+ 1237.8  Small fries.
+ 1239.2  Four nuggets.
+ 1240.0  A four dollar breakfast.
+ 1241.8  To kick it off, a McDouble for two fifty.
+ 1244.8  The company called it predictable everyday low prices.
+ 1248.5  Not coupons hidden in an app.
+ 1250.4  Prices on the board.
+ 1252.8  Thirteen years after it gave up the Dollar Menu, McDonald's went back to the idea.
+ 1257.0  A short list of cheap things, right there on the sign.
+ 1260.9  Not every restaurant joined in, and prices can still vary.
+ 1264.5  But the idea was back.
+ 1267.9  [pause] Not everybody was impressed.
+ 1270.2  One person on Reddit put it this way.
+ 1272.6  Anyone remember when McDoubles used to be ninety nine cents?
+ 1275.9  It was only ten years ago.
+ 1278.1  Fair point.
+ 1279.6  Two fifty for a McDouble is still a long way from the dollar menu.
+ 1283.1  But look at what else is on that same board.
+ 1285.6  In March, McDonald's launched the Big Arch in the U.S.
+ 1289.9  Two quarter pound patties, three slices of cheese.
+ 1293.3  McDonald's called it its biggest and boldest burger yet.
+ 1296.9  In a lot of places, the sandwich alone ran eight to ten dollars.
+ 1301.1  A month later, the row of items under three dollars showed up right next to it.
+ 1306.8  [pause] That's who fast food is for now.
+ 1309.2  One menu.
+ 1310.2  Two Americas.
+ 1311.4  One for the customer who's trading down to save money, and one for the customer who doesn't have to think about it.
+ 1317.4  And back in February, after a year of cheaper deals, the CEO had already told investors, McDonald's value leadership is working.
+ 1326.4  It's not a straight line.
+ 1328.1  This fall, U.S.
+ 1329.3  sales slipped again.
+ 1330.7  But the biggest restaurant chain in the world just rediscovered what two brothers figured out on a tennis court in 1948.
+ 1338.2  Speed, lower prices, and volume.
+ 1341.1  You can't have the crowd without the price.
+ 1343.4  So what do you do with all this?
+ 1346.4  Four things.
+   ?   One.
+ 1348.3  Before you order, check the app against the board.
+ 1351.3  Sometimes the cheapest version of the same meal is in your pocket.
+   ?   Two.
+ 1355.6  If you can, skip delivery and go pick it up.
+ 1358.7  That alone can be the difference between a ten dollar meal and a seventeen dollar one.
+   ?   Three.
+ 1364.4  If there are two McDonald's near you, compare them in the app before you drive.
+ 1368.7  Different owners, different prices.
+ 1370.8  Same burger.
+   ?   Four.
+ 1372.4  Start measuring prices the way we did today.
+ 1375.6  Not in dollars.
+ 1376.7  In minutes of your own work.
+ 1379.2  Ten minutes for a Big Mac is a deal.
+ 1382.1  Fifty one minutes is a decision.
+ 1384.1  When you see the price that way, nobody can play you with a slice of cheese.
+ 1389.5  [pause] Jim Delligatti never got royalties for the Big Mac.
+ 1393.1  When people asked him what he got for inventing it, he said, all I got was a plaque.
+ 1398.1  He made it for steelworkers coming off the night shift, for people who worked hard and needed a big, cheap meal.
+ 1404.5  That's who fast food was built for.
+ 1406.7  People like Mariam.
+ 1408.1  People like her brother behind the register.
+ 1410.5  So maybe the question was never whether a Big Mac got more expensive.
+ 1414.9  Maybe it's whether the people running fast food still remember who they built it for.
+ 1420.4  How many minutes of work does your lunch cost you?
+ 1423.1  Tell me in the comments.
