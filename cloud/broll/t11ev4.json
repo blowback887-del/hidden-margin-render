@@ -1,0 +1,9 @@
+{
+ "out": "public/evidence/t11",
+ "sheet": "public/research/t11ev4-evidence-sheet.jpg",
+ "clips": [],
+ "evidence": [
+  {"name": "self-markup", "url": "https://self.inc/info/most-expensive-cities-for-food-delivery-apps", "find": ["68.6%", "markup had decreased"]},
+  {"name": "self-top", "url": "https://self.inc/info/most-expensive-cities-for-food-delivery-apps", "find": []}
+ ]
+}
